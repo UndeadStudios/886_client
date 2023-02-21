@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="886 client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/clientDeob.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gamepack_thoodnUK3_0_rSND_QVzIW_glpOUxMm_4201950.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
