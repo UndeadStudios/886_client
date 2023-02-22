@@ -187,7 +187,7 @@ public class Class350_Sub2_Sub3 extends Class350_Sub2
     public static Class390 method18209(RSBuffer class525_sub38, int i) {
 	Class390_Sub1 class390_sub1
 	    = (Class390_Sub1) Class561.method9424(class525_sub38, -648869484);
-	int i_21_ = class525_sub38.method16625((byte) 59);
+	int i_21_ = class525_sub38.readSmart((byte) 59);
 	return new Class390_Sub1_Sub1(class390_sub1.aClass395_4068,
 				      class390_sub1.aClass396_4062,
 				      1345009707 * class390_sub1.anInt4063,

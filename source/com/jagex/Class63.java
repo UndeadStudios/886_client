@@ -7,7 +7,7 @@ public class Class63
 {
     static int anInt692;
     
-    static int method1382(Class458 class458, Class663 class663) {
+    static int method1382(JS5 class458, Class663 class663) {
 	if (null != class458) {
 	    if (class663.method10957(-2104248984) > 1) {
 		int i = class458.method7505(465636960) - 1;
@@ -20,7 +20,7 @@ public class Class63
 	return 0;
     }
     
-    static int method1383(Class458 class458, Class663 class663) {
+    static int method1383(JS5 class458, Class663 class663) {
 	if (null != class458) {
 	    if (class663.method10957(1143004831) > 1) {
 		int i = class458.method7505(1305236856) - 1;
@@ -33,7 +33,7 @@ public class Class63
 	return 0;
     }
     
-    static int method1384(Class458 class458, Class663 class663) {
+    static int method1384(JS5 class458, Class663 class663) {
 	if (null != class458) {
 	    if (class663.method10957(-809018039) > 1) {
 		int i = class458.method7505(-95266468) - 1;
@@ -50,7 +50,7 @@ public class Class63
 	throw new Error();
     }
     
-    static int method1385(Class458 class458, Class663 class663) {
+    static int method1385(JS5 class458, Class663 class663) {
 	if (null != class458) {
 	    if (class663.method10957(-1810994330) > 1) {
 		int i = class458.method7505(2084746731) - 1;
@@ -63,7 +63,7 @@ public class Class63
 	return 0;
     }
     
-    static int method1386(Class458 class458, Class663 class663) {
+    static int method1386(JS5 class458, Class663 class663) {
 	if (null != class458) {
 	    if (class663.method10957(-659778106) > 1) {
 		int i = class458.method7505(-73680873) - 1;
@@ -76,21 +76,21 @@ public class Class63
 	return 0;
     }
     
-    static byte[] method1387(Class458 class458, Class663 class663, int i) {
+    static byte[] method1387(JS5 class458, Class663 class663, int i) {
 	if (class663.method10957(370951604) > 1)
-	    return class458.method7476(class663.method10963(i, 60504709),
+	    return class458.getFile(class663.method10963(i, 60504709),
 				       class663.method10958(i, (byte) -63),
 				       1295868781);
-	return class458.method7476(class663.anInt8553 * -1918643565, i,
+	return class458.getFile(class663.anInt8553 * -1918643565, i,
 				   1924548024);
     }
     
-    static byte[] method1388(Class458 class458, Class663 class663, int i) {
+    static byte[] method1388(JS5 class458, Class663 class663, int i) {
 	if (class663.method10957(1787671526) > 1)
-	    return class458.method7476(class663.method10963(i, -1089794366),
+	    return class458.getFile(class663.method10963(i, -1089794366),
 				       class663.method10958(i, (byte) 17),
 				       1814808352);
-	return class458.method7476(class663.anInt8553 * -1918643565, i,
+	return class458.getFile(class663.anInt8553 * -1918643565, i,
 				   963891005);
     }
     

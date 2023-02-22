@@ -20,13 +20,13 @@ public class Class2
     static int anInt26;
     public static int anInt27;
     
-    public static Class2 method517(Class8 class8,
-				   RSBuffer class525_sub38) {
+    public static Class2 method517(ItemDefinitions class8,
+                                   RSBuffer class525_sub38) {
 	return Class175_Sub2.method15603(class8, class525_sub38, 2,
 					 -1681681137);
     }
     
-    Class2(Class8 class8) {
+    Class2(ItemDefinitions class8) {
 	anIntArray16 = new int[3];
 	anIntArray15 = new int[2];
 	anIntArray23 = new int[2];
@@ -52,8 +52,8 @@ public class Class2
 	}
     }
     
-    static Class2 method518(Class8 class8, RSBuffer class525_sub38,
-			    int i) {
+    static Class2 method518(ItemDefinitions class8, RSBuffer class525_sub38,
+                            int i) {
 	Class2 class2 = new Class2(class8);
 	int i_0_ = class525_sub38.readUnsignedByte(1097586594);
 	boolean bool = (i_0_ & 0x1) != 0;
@@ -152,8 +152,8 @@ public class Class2
 	return class2;
     }
     
-    static Class2 method519(Class8 class8, RSBuffer class525_sub38,
-			    int i) {
+    static Class2 method519(ItemDefinitions class8, RSBuffer class525_sub38,
+                            int i) {
 	Class2 class2 = new Class2(class8);
 	int i_8_ = class525_sub38.readUnsignedByte(43571187);
 	boolean bool = (i_8_ & 0x1) != 0;
@@ -251,20 +251,20 @@ public class Class2
 	return class2;
     }
     
-    public static Class2 method520(Class8 class8,
-				   RSBuffer class525_sub38) {
+    public static Class2 method520(ItemDefinitions class8,
+                                   RSBuffer class525_sub38) {
 	return Class175_Sub2.method15603(class8, class525_sub38, 2,
 					 -321068187);
     }
     
-    public static Class2 method521(Class8 class8,
-				   RSBuffer class525_sub38) {
+    public static Class2 method521(ItemDefinitions class8,
+                                   RSBuffer class525_sub38) {
 	return Class175_Sub2.method15603(class8, class525_sub38, 2,
 					 -1089991281);
     }
     
-    static Class2 method522(Class8 class8, RSBuffer class525_sub38,
-			    int i) {
+    static Class2 method522(ItemDefinitions class8, RSBuffer class525_sub38,
+                            int i) {
 	Class2 class2 = new Class2(class8);
 	int i_16_ = class525_sub38.readUnsignedByte(810268239);
 	boolean bool = (i_16_ & 0x1) != 0;
@@ -363,13 +363,13 @@ public class Class2
 	return class2;
     }
     
-    public static Class2 method523(Class8 class8,
-				   RSBuffer class525_sub38) {
+    public static Class2 method523(ItemDefinitions class8,
+                                   RSBuffer class525_sub38) {
 	return Class175_Sub2.method15603(class8, class525_sub38, 2, 739178048);
     }
     
-    static Class2 method524(Class8 class8, RSBuffer class525_sub38,
-			    int i) {
+    static Class2 method524(ItemDefinitions class8, RSBuffer class525_sub38,
+                            int i) {
 	Class2 class2 = new Class2(class8);
 	int i_24_ = class525_sub38.readUnsignedByte(263897670);
 	boolean bool = (i_24_ & 0x1) != 0;
@@ -468,8 +468,8 @@ public class Class2
 	return class2;
     }
     
-    static Class2 method525(Class8 class8, RSBuffer class525_sub38,
-			    int i) {
+    static Class2 method525(ItemDefinitions class8, RSBuffer class525_sub38,
+                            int i) {
 	Class2 class2 = new Class2(class8);
 	int i_32_ = class525_sub38.readUnsignedByte(887816158);
 	boolean bool = (i_32_ & 0x1) != 0;

@@ -159,9 +159,9 @@ public class Class104
 	anInt1289 = 0;
 	Class267.method4947(class525_sub38_sub2, -737720251);
 	Class466.method7692(class525_sub38_sub2, (byte) -106);
-	if (class525_sub38_sub2.pos * -1133521593 != i)
+	if (class525_sub38_sub2.index * -1133521593 != i)
 	    throw new RuntimeException(new StringBuilder().append
-					   (class525_sub38_sub2.pos
+					   (class525_sub38_sub2.index
 					    * -1133521593)
 					   .append
 					   (" ").append
@@ -173,9 +173,9 @@ public class Class104
 	anInt1289 = 0;
 	Class267.method4947(class525_sub38_sub2, 2140595557);
 	Class466.method7692(class525_sub38_sub2, (byte) -108);
-	if (class525_sub38_sub2.pos * -1133521593 != i)
+	if (class525_sub38_sub2.index * -1133521593 != i)
 	    throw new RuntimeException(new StringBuilder().append
-					   (class525_sub38_sub2.pos
+					   (class525_sub38_sub2.index
 					    * -1133521593)
 					   .append
 					   (" ").append
@@ -187,9 +187,9 @@ public class Class104
 	anInt1289 = 0;
 	Class267.method4947(class525_sub38_sub2, 2127622953);
 	Class466.method7692(class525_sub38_sub2, (byte) -41);
-	if (class525_sub38_sub2.pos * -1133521593 != i)
+	if (class525_sub38_sub2.index * -1133521593 != i)
 	    throw new RuntimeException(new StringBuilder().append
-					   (class525_sub38_sub2.pos
+					   (class525_sub38_sub2.index
 					    * -1133521593)
 					   .append
 					   (" ").append
@@ -819,19 +819,19 @@ public class Class104
 		    int i_123_ = -1;
 		    int i_124_ = -1;
 		    int i_125_ = -1;
-		    int i_126_ = class525_sub38_sub2.method16740((byte) -121);
+		    int i_126_ = class525_sub38_sub2.readUnsignedSmart((byte) -121);
 		    if (i_126_ == 32767) {
-			i_126_ = class525_sub38_sub2.method16740((byte) -66);
-			i_124_ = class525_sub38_sub2.method16740((byte) -85);
-			i_123_ = class525_sub38_sub2.method16740((byte) -34);
-			i_125_ = class525_sub38_sub2.method16740((byte) -54);
+			i_126_ = class525_sub38_sub2.readUnsignedSmart((byte) -66);
+			i_124_ = class525_sub38_sub2.readUnsignedSmart((byte) -85);
+			i_123_ = class525_sub38_sub2.readUnsignedSmart((byte) -34);
+			i_125_ = class525_sub38_sub2.readUnsignedSmart((byte) -54);
 		    } else if (32766 != i_126_)
-			i_124_ = class525_sub38_sub2.method16740((byte) -36);
+			i_124_ = class525_sub38_sub2.readUnsignedSmart((byte) -36);
 		    else {
 			i_126_ = -1;
 			i_124_ = class525_sub38_sub2.method16607(-1571461918);
 		    }
-		    int i_127_ = class525_sub38_sub2.method16740((byte) -27);
+		    int i_127_ = class525_sub38_sub2.readUnsignedSmart((byte) -27);
 		    class656_sub1_sub3_sub1_sub1.method18634(i_126_, i_124_,
 							     i_123_, i_125_,
 							     client.anInt11083,
@@ -842,11 +842,11 @@ public class Class104
 	    int i_128_ = class525_sub38_sub2.readUnsignedByte(648168483);
 	    if (i_128_ > 0) {
 		for (int i_129_ = 0; i_129_ < i_128_; i_129_++) {
-		    int i_130_ = class525_sub38_sub2.method16740((byte) -105);
-		    int i_131_ = class525_sub38_sub2.method16740((byte) -39);
+		    int i_130_ = class525_sub38_sub2.readUnsignedSmart((byte) -105);
+		    int i_131_ = class525_sub38_sub2.readUnsignedSmart((byte) -39);
 		    if (i_131_ != 32767) {
 			int i_132_
-			    = class525_sub38_sub2.method16740((byte) -64);
+			    = class525_sub38_sub2.readUnsignedSmart((byte) -64);
 			int i_133_
 			    = class525_sub38_sub2.method16607(-1571461918);
 			int i_134_
@@ -881,7 +881,7 @@ public class Class104
 	    int i_140_ = class525_sub38_sub2.method16624(-1891679992);
 	    byte[] is = new byte[i_140_];
 	    RSBuffer class525_sub38 = new RSBuffer(is);
-	    class525_sub38_sub2.method16639(is, 0, i_140_, 313113483);
+	    class525_sub38_sub2.readBytes(is, 0, i_140_, 313113483);
 	    aClass525_Sub38Array1282[i] = class525_sub38;
 	    class656_sub1_sub3_sub1_sub1.method18904(class525_sub38,
 						     2094306338);
@@ -1020,9 +1020,9 @@ public class Class104
 	if ((i_120_ & 0x10000) != 0) {
 	    class656_sub1_sub3_sub1_sub1.anInterface3_11961
 		.method19(-711664883);
-	    class525_sub38_sub2.pos += 678856942;
+	    class525_sub38_sub2.index += 678856942;
 	    int i_166_ = ((class525_sub38_sub2.buffer
-			   [((class525_sub38_sub2.pos += 339428471)
+			   [((class525_sub38_sub2.index += 339428471)
 			     * -1133521593) - 1])
 			  & 0xff);
 	    for (int i_167_ = 0; i_167_ < i_166_; i_167_++) {
@@ -1086,9 +1086,9 @@ public class Class104
 		    = Class243.aClass243_2417;
 	}
 	if (0 != (i_120_ & 0x40000)) {
-	    class525_sub38_sub2.pos += 678856942;
+	    class525_sub38_sub2.index += 678856942;
 	    int i_172_ = ((class525_sub38_sub2.buffer
-			   [((class525_sub38_sub2.pos += 339428471)
+			   [((class525_sub38_sub2.index += 339428471)
 			     * -1133521593) - 1])
 			  & 0xff);
 	    for (int i_173_ = 0; i_173_ < i_172_; i_173_++) {
@@ -1175,18 +1175,18 @@ public class Class104
 								  -125140748);
 	    int i_185_
 		= (-1133521593
-		   * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
+		   * class525_sub15.aClass525_Sub38_Sub2_10546.index);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  -818360838);
-	    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    class525_sub15.aClass525_Sub38_Sub2_10546.index
 		+= -1918967999;
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 		(Class25.anIntArray238, i_185_,
-		 (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		 (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593),
 		 (byte) -21);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i_185_,
 		 (byte) 7);
 	    client.aClass96_11361.method1794(class525_sub15, (short) 21721);

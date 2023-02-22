@@ -510,7 +510,7 @@ public class Class33_Sub1 extends Class33
     }
     
     static final void method17375(Class683 class683, int i) {
-	Class154.method2454(class683, class683.aClass656_Sub1_Sub3_Sub1_8654,
+	MagnetConfig.method2454(class683, class683.aClass656_Sub1_Sub3_Sub1_8654,
 			    (byte) -47);
     }
 }

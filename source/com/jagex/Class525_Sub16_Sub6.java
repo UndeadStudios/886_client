@@ -20,16 +20,16 @@ public class Class525_Sub16_Sub6 extends Class525_Sub16
     public String aString11776;
     public int anInt11777;
     
-    static Class525_Sub16_Sub6 method18271(Class458 class458, int i) {
+    static Class525_Sub16_Sub6 method18271(JS5 class458, int i) {
 	RSBuffer class525_sub38
-	    = new RSBuffer(class458.method7476(0, i, 1145429252));
-	return Class65.method1433(class525_sub38, i, 140190093);
+	    = new RSBuffer(class458.getFile(0, i, 1145429252));
+	return WorldTile.method1433(class525_sub38, i, 140190093);
     }
     
-    static Class525_Sub16_Sub6 method18272(Class458 class458, int i) {
+    static Class525_Sub16_Sub6 method18272(JS5 class458, int i) {
 	RSBuffer class525_sub38
-	    = new RSBuffer(class458.method7476(0, i, 1295174197));
-	return Class65.method1433(class525_sub38, i, -1955509627);
+	    = new RSBuffer(class458.getFile(0, i, 1295174197));
+	return WorldTile.method1433(class525_sub38, i, -1955509627);
     }
     
     public boolean method18273(int i, int i_0_, int[] is, int i_1_) {
@@ -239,10 +239,10 @@ public class Class525_Sub16_Sub6 extends Class525_Sub16
 	return false;
     }
     
-    static Class525_Sub16_Sub6 method18285(Class458 class458, int i) {
+    static Class525_Sub16_Sub6 method18285(JS5 class458, int i) {
 	RSBuffer class525_sub38
-	    = new RSBuffer(class458.method7476(0, i, 333543139));
-	return Class65.method1433(class525_sub38, i, 171795852);
+	    = new RSBuffer(class458.getFile(0, i, 333543139));
+	return WorldTile.method1433(class525_sub38, i, 171795852);
     }
     
     Class525_Sub16_Sub6(int i, String string, String string_16_, int i_17_,
@@ -266,10 +266,10 @@ public class Class525_Sub16_Sub6 extends Class525_Sub16
 	aClass709_11769 = new Class709();
     }
     
-    static Class525_Sub16_Sub6 method18286(Class458 class458, int i) {
+    static Class525_Sub16_Sub6 method18286(JS5 class458, int i) {
 	RSBuffer class525_sub38
-	    = new RSBuffer(class458.method7476(0, i, 471186123));
-	return Class65.method1433(class525_sub38, i, 1599548712);
+	    = new RSBuffer(class458.getFile(0, i, 471186123));
+	return WorldTile.method1433(class525_sub38, i, 1599548712);
     }
     
     public boolean method18287(int i, int i_21_, int[] is) {

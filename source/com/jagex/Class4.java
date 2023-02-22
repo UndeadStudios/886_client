@@ -40,7 +40,7 @@ public class Class4
 		    /* empty */
 		}
 	    }
-	} catch (Object object) {
+	} catch (Exception object) {
 	    if (bool) {
 		try {
 		    Field field = Class.forName
@@ -153,7 +153,7 @@ public class Class4
 		    /* empty */
 		}
 	    }
-	} catch (Object object) {
+	} catch (Exception object) {
 	    if (bool) {
 		try {
 		    Field field = Class.forName
@@ -286,7 +286,7 @@ public class Class4
 		    /* empty */
 		}
 	    }
-	} catch (Object object) {
+	} catch (Exception object) {
 	    if (bool) {
 		try {
 		    Field field = Class.forName

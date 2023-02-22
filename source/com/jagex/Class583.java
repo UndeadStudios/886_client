@@ -81,7 +81,7 @@ public class Class583 implements Interface12
     }
     
     void method9630(Class182 class182, int i, int i_2_) {
-	Class458 class458 = aClass584_7710.aClass458_7721;
+	JS5 class458 = aClass584_7710.aClass458_7721;
 	if (i >= 0
 	    && aClass584_7710.aClass200_7722.method3785((long) i) == null
 	    && class458.method7506(i, -1745937843)) {
@@ -127,7 +127,7 @@ public class Class583 implements Interface12
     }
     
     void method9632(Class182 class182, int i) {
-	Class458 class458 = aClass584_7710.aClass458_7721;
+	JS5 class458 = aClass584_7710.aClass458_7721;
 	if (i >= 0
 	    && aClass584_7710.aClass200_7722.method3785((long) i) == null
 	    && class458.method7506(i, 709860072)) {

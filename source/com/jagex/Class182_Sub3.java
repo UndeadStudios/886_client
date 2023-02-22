@@ -1312,7 +1312,7 @@ public class Class182_Sub3 extends Class182
 	    }
 	    anInterface15_9825
 		= method15533(20, class525_sub38_sub1.buffer,
-			      class525_sub38_sub1.pos * -1133521593,
+			      class525_sub38_sub1.index * -1133521593,
 			      false);
 	    aClass137_9758 = new Class137(anInterface15_9825, 5126, 3, 0);
 	    aClass137_9824 = new Class137(anInterface15_9825, 5126, 2, 12);
@@ -1434,8 +1434,8 @@ public class Class182_Sub3 extends Class182
 	aClass709_9696.method14345(class525_sub42, (byte) 0);
     }
     
-    public Class179 method3556(Class186 class186, int i, int i_164_,
-			       int i_165_, int i_166_) {
+    public Class179 method3556(ModelDecoder class186, int i, int i_164_,
+                               int i_165_, int i_166_) {
 	return new Class179_Sub1(this, class186, i, i_165_, i_166_, i_164_);
     }
     
@@ -4727,7 +4727,7 @@ public class Class182_Sub3 extends Class182
 	    }
 	    anInterface15_9825
 		= method15533(20, class525_sub38_sub1.buffer,
-			      class525_sub38_sub1.pos * -1133521593,
+			      class525_sub38_sub1.index * -1133521593,
 			      false);
 	    aClass137_9758 = new Class137(anInterface15_9825, 5126, 3, 0);
 	    aClass137_9824 = new Class137(anInterface15_9825, 5126, 2, 12);
@@ -6538,8 +6538,8 @@ public class Class182_Sub3 extends Class182
 	return new Class157_Sub2(this, i_773_, i_774_, is, i, i_772_);
     }
     
-    public Class179 method3505(Class186 class186, int i, int i_775_,
-			       int i_776_, int i_777_) {
+    public Class179 method3505(ModelDecoder class186, int i, int i_775_,
+                               int i_776_, int i_777_) {
 	return new Class179_Sub1(this, class186, i, i_776_, i_777_, i_775_);
     }
     
@@ -6788,9 +6788,9 @@ public class Class182_Sub3 extends Class182
 		/* empty */
 	    }
 	    anInt9718 = i;
-	    Class525_Sub7_Sub13.method18248(-691734241).method385("jaclib",
+        EmitterConfig.method18248(-691734241).method385("jaclib",
 								  -1314641509);
-	    Class525_Sub7_Sub13.method18248(-691734241).method385("jaggl",
+	    EmitterConfig.method18248(-691734241).method385("jaggl",
 								  -1493625344);
 	    anOpenGL9671 = new OpenGL();
 	    long l = anOpenGL9671.init(canvas, 8, 8, 8, 24, 0, anInt9718);
@@ -6968,62 +6968,7 @@ public class Class182_Sub3 extends Class182
 	    anInt9644 &= ~0x1f;
 	}
     }
-    
-    final void method15479(Class435 class435) {
-	OpenGL.glLoadMatrixf(class435.aFloatArray4830, 0);
-    }
-    
-    final void method15480() {
-	OpenGL.glPopMatrix();
-    }
-    
-    long method15481(int i, int i_800_, int[] is, int[] is_801_) {
-	if (aBool9672) {
-	    if (aLongArray9838[anInt9840] != 0L) {
-		OpenGL.glDeleteSync(aLongArray9838[anInt9840]);
-		aLongArray9838[anInt9840] = 0L;
-	    }
-	    OpenGL.glBindBufferARB(35051, anIntArray9837[anInt9840]);
-	    long l = OpenGL.glMapBufferARB(35051, 35000);
-	    if (is != null) {
-		int i_802_ = 0;
-		for (int i_803_ = i_800_ - 1; i_803_ >= 0; i_803_--) {
-		    for (int i_804_ = 0; i_804_ < i; i_804_++)
-			is[i_802_++]
-			    = anUnsafe9690.getInt(l + (long) ((i_803_ * i
-							       + i_804_)
-							      * 4));
-		}
-		if (OpenGL.glUnmapBufferARB(35051)) {
-		    /* empty */
-		}
-		OpenGL.glBindBufferARB(35051, 0);
-		l = 0L;
-	    }
-	    if (++anInt9840 >= 3)
-		anInt9840 = 0;
-	    return l;
-	}
-	if (aClass157_9835 == null)
-	    method15437(i, i_800_);
-	if (aClass157_9654 == null)
-	    aClass157_9654 = method3217(0, 0, aClass168_1966.method2710(),
-					aClass168_1966.method2711(), true);
-	else
-	    ((Class157_Sub2) aClass157_9654).method14615
-		(0, 0, aClass168_1966.method2710(),
-		 aClass168_1966.method2711(), 0, 0, true);
-	method3158(aClass168_Sub2_9741, -1166817212);
-	method3188(1, -16777216);
-	aClass157_9654.method2481(anInt1958 * 1000431205,
-				  anInt1964 * 1482704485,
-				  anInt1935 * -1588334531,
-				  anInt1967 * -863940247);
-	aClass157_9835.method2475(0, 0, i, i_800_, is, is_801_, 0, i);
-	method3159(aClass168_Sub2_9741, -1876999470);
-	return 0L;
-    }
-    
+
     final void method15482(float f, float f_805_, float f_806_, float f_807_) {
 	aFloatArray9826[0] = f;
 	aFloatArray9826[1] = f_805_;

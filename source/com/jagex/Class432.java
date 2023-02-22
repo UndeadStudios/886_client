@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class432 implements Interface6
 {
-    Class458 aClass458_4820;
+    JS5 aClass458_4820;
     
     public int method49(int i) {
 	if (aClass458_4820.method7481((short) -13745))
@@ -13,7 +13,7 @@ public class Class432 implements Interface6
 	return aClass458_4820.method7483((byte) 40);
     }
     
-    Class432(Class458 class458) {
+    Class432(JS5 class458) {
 	aClass458_4820 = class458;
     }
     

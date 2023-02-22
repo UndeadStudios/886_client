@@ -30,7 +30,7 @@ public class Class118
 	(Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2,
 	 boolean bool, byte i) {
 	if (Class61.anInt658 * -628070459 < 403) {
-	    Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	    NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	    String string = class656_sub1_sub3_sub1_sub2.aString12264;
 	    if (null != class299.anIntArray3323) {
 		class299

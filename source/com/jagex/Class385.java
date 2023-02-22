@@ -5,10 +5,10 @@ package com.jagex;
 
 public class Class385 implements Interface47
 {
-    Class458 aClass458_4021;
+    JS5 aClass458_4021;
     Class200 aClass200_4022 = new Class200(64);
     
-    public Class385(Class458 class458) {
+    public Class385(JS5 class458) {
 	aClass458_4021 = class458;
     }
     
@@ -16,7 +16,7 @@ public class Class385 implements Interface47
 	Class394 class394 = (Class394) aClass200_4022.method3785((long) i);
 	if (null != class394)
 	    return class394;
-	byte[] is = aClass458_4021.method7476(0, i, 506515888);
+	byte[] is = aClass458_4021.getFile(0, i, 506515888);
 	class394 = new Class394();
 	if (is != null)
 	    class394.method6504(new RSBuffer(is), i, -1324934615);
@@ -28,7 +28,7 @@ public class Class385 implements Interface47
 	Class394 class394 = (Class394) aClass200_4022.method3785((long) i);
 	if (null != class394)
 	    return class394;
-	byte[] is = aClass458_4021.method7476(0, i, 49415475);
+	byte[] is = aClass458_4021.getFile(0, i, 49415475);
 	class394 = new Class394();
 	if (is != null)
 	    class394.method6504(new RSBuffer(is), i, -1587457671);
@@ -54,7 +54,7 @@ public class Class385 implements Interface47
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i_1_, 1395034233))
 	       .aBool83) ? 1 : 0;
     }
@@ -81,7 +81,7 @@ public class Class385 implements Interface47
 	String string_2_ = new StringBuilder().append
 			       (Class453_Sub4.method15959(-1527038723)).append
 			       (string).toString();
-	Class299.method5393(string_2_, bool, client.aBool11241, -1892528428);
+	NPCDefinitions.method5393(string_2_, bool, client.aBool11241, -1892528428);
     }
     
     static final void method6442(Class683 class683, int i) {

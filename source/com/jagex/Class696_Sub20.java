@@ -39,7 +39,7 @@ public class Class696_Sub20 extends Class696
     }
     
     public int method14167(int i, byte i_0_) {
-	if (i == 3 && !Class525_Sub7_Sub13.method18248(-691734241)
+	if (i == 3 && !EmitterConfig.method18248(-691734241)
 			   .method384("jagdx", (short) 16383))
 	    return 3;
 	return 2;
@@ -76,7 +76,7 @@ public class Class696_Sub20 extends Class696
     }
     
     public int method14172(int i) {
-	if (i == 3 && !Class525_Sub7_Sub13.method18248(-691734241)
+	if (i == 3 && !EmitterConfig.method18248(-691734241)
 			   .method384("jagdx", (short) 16383))
 	    return 3;
 	return 2;

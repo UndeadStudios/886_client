@@ -6,8 +6,8 @@ package com.jagex;
 public class Class321 implements Interface33
 {
     Class387 aClass387_3535;
-    Class458 aClass458_3536;
-    Class458 aClass458_3537;
+    JS5 aClass458_3536;
+    JS5 aClass458_3537;
     Class175 aClass175_3538;
     static Class157 aClass157_3539;
     
@@ -70,7 +70,7 @@ public class Class321 implements Interface33
 	return bool;
     }
     
-    Class321(Class458 class458, Class458 class458_2_, Class387 class387) {
+    Class321(JS5 class458, JS5 class458_2_, Class387 class387) {
 	aClass387_3535 = class387;
 	aClass458_3536 = class458;
 	aClass458_3537 = class458_2_;

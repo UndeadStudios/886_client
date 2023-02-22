@@ -11,10 +11,10 @@ public class Class629 implements Iterable
     Class620[] aClass620Array8159;
     public static int anInt8160;
     static long aLong8161;
-    public static Class458 aClass458_8162;
+    public static JS5 aClass458_8162;
     
-    public Class629(Class458 class458) {
-	method10289(class458.method7484((Class638.aClass638_8307.anInt8316
+    public Class629(JS5 class458) {
+	method10289(class458.getTextureData((Class638.aClass638_8307.anInt8316
 					 * 2028004077),
 					1995101737),
 		    171426179);
@@ -295,8 +295,8 @@ public class Class629 implements Iterable
     static final void method10303(Class683 class683, int i) {
 	int i_46_ = (class683.anIntArray8661
 		     [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_46_, 639899452));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]

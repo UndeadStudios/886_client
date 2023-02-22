@@ -31,7 +31,7 @@ public class Class232 implements Interface26
 	this$0 = class221;
 	boolean bool = class525_sub38.readUnsignedByte(841437970) != 255;
 	if (bool)
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	aClass230_2367 = new Class230(class525_sub38, bool, true);
     }
     
@@ -53,8 +53,8 @@ public class Class232 implements Interface26
     
     public static Class182 method4394
 	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
-	 Interface47 interface47, Interface48 interface48,
-	 Interface49 interface49, Class458 class458, int i_1_, int i_2_) {
+     Interface47 interface47, Interface48 interface48,
+     Interface49 interface49, JS5 class458, int i_1_, int i_2_) {
 	int i_3_ = 0;
 	int i_4_ = 0;
 	if (null != canvas) {

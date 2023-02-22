@@ -502,17 +502,17 @@ public class Class214
 	Class468 class468 = new Class468(class525_sub38);
 	Class472 class472 = class468.method7701((byte) 3);
 	int i_70_ = class468.method7700(-2046409190);
-	if (i_70_ < 0 || (0 != -1911335593 * Class458.anInt5057
-			  && i_70_ > -1911335593 * Class458.anInt5057))
+	if (i_70_ < 0 || (0 != -1911335593 * JS5.anInt5057
+			  && i_70_ > -1911335593 * JS5.anInt5057))
 	    throw new RuntimeException();
 	if (Class472.aClass472_5152 == class472) {
 	    byte[] is_71_ = new byte[i_70_];
-	    class525_sub38.method16639(is_71_, 0, i_70_, 463628512);
+	    class525_sub38.readBytes(is_71_, 0, i_70_, 463628512);
 	    return is_71_;
 	}
 	int i_72_ = class468.method7703((byte) 62);
-	if (i_72_ < 0 || (Class458.anInt5057 * -1911335593 != 0
-			  && i_72_ > -1911335593 * Class458.anInt5057))
+	if (i_72_ < 0 || (JS5.anInt5057 * -1911335593 != 0
+			  && i_72_ > -1911335593 * JS5.anInt5057))
 	    throw new RuntimeException();
 	byte[] is_73_;
 	if (class472 == Class472.aClass472_5151) {
@@ -520,8 +520,8 @@ public class Class214
 	    Class710.method14430(is_73_, i_72_, is, i_70_, 9);
 	} else if (class472 == Class472.aClass472_5153) {
 	    is_73_ = new byte[i_72_];
-	    synchronized (Class458.aClass74_5049) {
-		Class458.aClass74_5049.method1542(class525_sub38, is_73_,
+	    synchronized (JS5.aClass74_5049) {
+		JS5.aClass74_5049.method1542(class525_sub38, is_73_,
 						  1038366047);
 	    }
 	} else if (Class472.aClass472_5154 == class472) {

@@ -109,7 +109,7 @@ public class Class324 implements Interface33
 			& 0x3fff);
 	    int i_4_ = class525_sub38_sub2.method18496(2, 578733530);
 	    class656_sub1_sub3_sub1_sub2.method18942
-		((Class299) (Class168_Sub1.aClass40_Sub7_9112.method76
+		((NPCDefinitions) (Class168_Sub1.aClass40_Sub7_9112.method76
 			     (class525_sub38_sub2.method18496(15, 578733530),
 			      -224054466)),
 		 -245876714);

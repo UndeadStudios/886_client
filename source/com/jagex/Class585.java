@@ -6,7 +6,7 @@ package com.jagex;
 public abstract class Class585
 {
     Class200 aClass200_7723 = new Class200(20);
-    Class458 aClass458_7724;
+    JS5 aClass458_7724;
     static int anInt7725;
     static Class54 aClass54_7726;
     
@@ -52,7 +52,7 @@ public abstract class Class585
 	}
     }
     
-    Class585(Class458 class458) {
+    Class585(JS5 class458) {
 	aClass458_7724 = class458;
     }
     

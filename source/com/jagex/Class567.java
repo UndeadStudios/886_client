@@ -214,7 +214,7 @@ public class Class567
 		 i_19_++) {
 		if (null != Class589.aStringArray7793[i_19_]
 		    && Class589.aBoolArray7792[i_19_])
-		    Class525_Sub7_Sub13.method18248(-691734241).method385
+		    EmitterConfig.method18248(-691734241).method385
 			(Class589.aStringArray7793[i_19_], -1153771936);
 	    }
 	} catch (Exception_Sub2 exception_sub2) {

@@ -12,7 +12,7 @@ public abstract class Class172 implements Interface24
 {
     static int[] anIntArray1859;
     static double aDouble1860 = -1.0;
-    static Class458 aClass458_1861;
+    static JS5 aClass458_1861;
     
     int[] method2740(Class593 class593, int i, double d) {
 	byte[] is = method2741(class593, i, -2095421388);

@@ -39,7 +39,7 @@ public class Class72
 	    int i_10_ = 3 * i_3_ + 6;
 	    int i_11_ = 3;
 	    int[] is = { 64, 96, 128 };
-	    Class186 class186 = new Class186(i_11_ * i_10_ + 1,
+	    ModelDecoder class186 = new ModelDecoder(i_11_ * i_10_ + 1,
 					     i_10_ * i_11_ * 2 - i_10_, 0);
 	    int i_12_ = class186.method3625(0, 0, 0);
 	    int[][] is_13_ = new int[i_11_][i_10_];
@@ -144,7 +144,7 @@ public class Class72
 	    || class182.method3321(class179_37_.method2928(), i_36_) != 0) {
 	    if (null != class179_37_)
 		i_36_ = class182.method3229(i_36_, class179_37_.method2928());
-	    Class186 class186 = new Class186(4, 2, 2);
+	    ModelDecoder class186 = new ModelDecoder(4, 2, 2);
 	    int i_38_ = 128;
 	    int[] is = new int[4];
 	    is[0] = class186.method3625(-i_38_, 0, -i_38_);
@@ -214,7 +214,7 @@ public class Class72
 	    || class182.method3321(class179_49_.method2928(), i_48_) != 0) {
 	    if (null != class179_49_)
 		i_48_ = class182.method3229(i_48_, class179_49_.method2928());
-	    Class186 class186 = new Class186(4, 2, 2);
+	    ModelDecoder class186 = new ModelDecoder(4, 2, 2);
 	    int i_50_ = 128;
 	    int[] is = new int[4];
 	    is[0] = class186.method3625(-i_50_, 0, -i_50_);
@@ -297,7 +297,7 @@ public class Class72
 	    int i_65_ = 3 * i_58_ + 6;
 	    int i_66_ = 3;
 	    int[] is = { 64, 96, 128 };
-	    Class186 class186 = new Class186(i_66_ * i_65_ + 1,
+	    ModelDecoder class186 = new ModelDecoder(i_66_ * i_65_ + 1,
 					     i_65_ * i_66_ * 2 - i_65_, 0);
 	    int i_67_ = class186.method3625(0, 0, 0);
 	    int[][] is_68_ = new int[i_66_][i_65_];
@@ -399,7 +399,7 @@ public class Class72
 	    || class182.method3321(class179_92_.method2928(), i_91_) != 0) {
 	    if (null != class179_92_)
 		i_91_ = class182.method3229(i_91_, class179_92_.method2928());
-	    Class186 class186 = new Class186(4, 2, 2);
+	    ModelDecoder class186 = new ModelDecoder(4, 2, 2);
 	    int i_93_ = 128;
 	    int[] is = new int[4];
 	    is[0] = class186.method3625(-i_93_, 0, -i_93_);
@@ -459,8 +459,8 @@ public class Class72
     static final void method1536(Class683 class683, byte i) {
 	int i_98_ = (class683.anIntArray8661
 		     [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_98_, 2084796149));
 	int i_99_;
 	if (class8.aBool90)

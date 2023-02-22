@@ -29,7 +29,7 @@ public class Class331_Sub1 extends Class331
 	anInt10045 += 1152824243 * ((Class399_Sub1) aClass399_3593).anInt10230;
     }
     
-    Class331_Sub1(Class458 class458, Class399_Sub1 class399_sub1) {
+    Class331_Sub1(JS5 class458, Class399_Sub1 class399_sub1) {
 	super(class458, (Class399) class399_sub1);
     }
     

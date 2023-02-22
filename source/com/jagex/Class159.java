@@ -124,7 +124,7 @@ class Class159 implements Runnable
     }
     
     static final void method2572(Class683 class683, int i) {
-	Class154.method2454(class683,
+	MagnetConfig.method2454(class683,
 			    Class581.aClass656_Sub1_Sub3_Sub1_Sub1_7705,
 			    (byte) -124);
     }

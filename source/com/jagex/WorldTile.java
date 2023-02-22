@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class Class65 implements Interface12, Interface7
+public class WorldTile implements Interface12, Interface7
 {
     Map aMap697;
     public Class495 aClass495_698;
@@ -19,7 +19,7 @@ public class Class65 implements Interface12, Interface7
     Object[] anObjectArray702;
     String aString703 = "null";
     int anInt704 = 0;
-    public static Class458 aClass458_705;
+    public static JS5 aClass458_705;
     
     void method1407() {
 	HashMap hashmap = new HashMap();
@@ -119,13 +119,13 @@ public class Class65 implements Interface12, Interface7
 	    aClass495_699
 		= ((Class495)
 		   Class539.method8888(Class495.method8143((byte) 1),
-				       class525_sub38.method16740((byte) -124),
+				       class525_sub38.readUnsignedSmart((byte) -124),
 				       -1443907881));
 	else if (i == 102)
 	    aClass495_698
 		= ((Class495)
 		   Class539.method8888(Class495.method8143((byte) 1),
-				       class525_sub38.method16740((byte) -56),
+				       class525_sub38.readUnsignedSmart((byte) -56),
 				       -248620161));
     }
     
@@ -364,7 +364,7 @@ public class Class65 implements Interface12, Interface7
 	return (String) object;
     }
     
-    Class65() {
+    WorldTile() {
 	/* empty */
     }
     

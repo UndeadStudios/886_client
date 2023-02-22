@@ -63,16 +63,16 @@ public class Class57
 	    for (;;) {
 		int i
 		    = inputstream.read(class525_sub38.buffer,
-				       class525_sub38.pos * -1133521593,
-				       1000 - (class525_sub38.pos
+				       class525_sub38.index * -1133521593,
+				       1000 - (class525_sub38.index
 					       * -1133521593));
 		if (-1 == i)
 		    break;
-		class525_sub38.pos += 339428471 * i;
-		if (-1133521593 * class525_sub38.pos >= 1000)
+		class525_sub38.index += 339428471 * i;
+		if (-1133521593 * class525_sub38.index >= 1000)
 		    return 0L;
 	    }
-	    class525_sub38.pos = 0;
+	    class525_sub38.index = 0;
 	    long l_0_ = class525_sub38.method16603(-1744828740);
 	    l = l_0_;
 	} catch (Exception exception) {
@@ -115,31 +115,31 @@ public class Class57
 	    i += 8 - i % 8;
 	RSBuffer class525_sub38_2_ = new RSBuffer(i);
 	class525_sub38_2_.method16700(string, 734367931);
-	class525_sub38_2_.pos = 339428471 * i;
+	class525_sub38_2_.index = 339428471 * i;
 	class525_sub38_2_.method16726(is, (byte) 36);
 	RSBuffer class525_sub38_3_
-	    = new RSBuffer(-1133521593 * class525_sub38_2_.pos
-				 + (class525_sub38_1_.pos * -1133521593
-				    + (class525_sub38.pos * -1133521593
+	    = new RSBuffer(-1133521593 * class525_sub38_2_.index
+				 + (class525_sub38_1_.index * -1133521593
+				    + (class525_sub38.index * -1133521593
 				       + 5)));
 	class525_sub38_3_.method16735(2, -2054197535);
-	class525_sub38_3_.method16735(class525_sub38.pos * -1133521593,
+	class525_sub38_3_.method16735(class525_sub38.index * -1133521593,
 				      -919270738);
 	class525_sub38_3_.method16614(class525_sub38.buffer, 0,
-				      class525_sub38.pos * -1133521593,
+				      class525_sub38.index * -1133521593,
 				      517474468);
 	class525_sub38_3_.method16735((-1133521593
-				       * class525_sub38_1_.pos),
+				       * class525_sub38_1_.index),
 				      -498240369);
 	class525_sub38_3_.method16614(class525_sub38_1_.buffer, 0,
 				      (-1133521593
-				       * class525_sub38_1_.pos),
+				       * class525_sub38_1_.index),
 				      1218528380);
 	class525_sub38_3_.method16602((-1133521593
-				       * class525_sub38_2_.pos),
+				       * class525_sub38_2_.index),
 				      1365955965);
 	class525_sub38_3_.method16614(class525_sub38_2_.buffer, 0,
-				      (class525_sub38_2_.pos
+				      (class525_sub38_2_.index
 				       * -1133521593),
 				      1224837398);
 	String string_4_
@@ -174,13 +174,13 @@ public class Class57
 		int i_6_
 		    = inputstream.read(class525_sub38_3_.buffer,
 				       (-1133521593
-					* class525_sub38_3_.pos),
-				       1000 - (class525_sub38_3_.pos
+					* class525_sub38_3_.index),
+				       1000 - (class525_sub38_3_.index
 					       * -1133521593));
 		if (i_6_ == -1)
 		    break;
-		class525_sub38_3_.pos += i_6_ * 339428471;
-		if (-1133521593 * class525_sub38_3_.pos >= 1000)
+		class525_sub38_3_.index += i_6_ * 339428471;
+		if (-1133521593 * class525_sub38_3_.index >= 1000)
 		    return 5;
 	    }
 	    outputstreamwriter.close();
@@ -197,16 +197,16 @@ public class Class57
 		return 6;
 	    class525_sub38_3_.method16752(is, -2093736709);
 	    for (/**/;
-		 (-1133521593 * class525_sub38_3_.pos > 0
+		 (-1133521593 * class525_sub38_3_.index > 0
 		  && (class525_sub38_3_.buffer
-		      [-1133521593 * class525_sub38_3_.pos - 1]) == 0);
-		 class525_sub38_3_.pos -= 339428471) {
+		      [-1133521593 * class525_sub38_3_.index - 1]) == 0);
+		 class525_sub38_3_.index -= 339428471) {
 		/* empty */
 	    }
 	    string_7_ = new String(class525_sub38_3_.buffer, 0,
-				   -1133521593 * class525_sub38_3_.pos);
+				   -1133521593 * class525_sub38_3_.index);
 	    if (Class213.method3941(string_7_, (byte) 1)) {
-		Class299.method5393(string_7_, true, client.aBool11241,
+		NPCDefinitions.method5393(string_7_, true, client.aBool11241,
 				    -1932567123);
 		return 2;
 	    }
@@ -263,31 +263,31 @@ public class Class57
 	    i += 8 - i % 8;
 	RSBuffer class525_sub38_9_ = new RSBuffer(i);
 	class525_sub38_9_.method16700(string, 1636408956);
-	class525_sub38_9_.pos = 339428471 * i;
+	class525_sub38_9_.index = 339428471 * i;
 	class525_sub38_9_.method16726(is, (byte) 26);
 	RSBuffer class525_sub38_10_
-	    = new RSBuffer(-1133521593 * class525_sub38_9_.pos
-				 + (class525_sub38_8_.pos * -1133521593
-				    + (class525_sub38.pos * -1133521593
+	    = new RSBuffer(-1133521593 * class525_sub38_9_.index
+				 + (class525_sub38_8_.index * -1133521593
+				    + (class525_sub38.index * -1133521593
 				       + 5)));
 	class525_sub38_10_.method16735(2, -829484012);
-	class525_sub38_10_.method16735(class525_sub38.pos * -1133521593,
+	class525_sub38_10_.method16735(class525_sub38.index * -1133521593,
 				       -1713708685);
 	class525_sub38_10_.method16614(class525_sub38.buffer, 0,
-				       class525_sub38.pos * -1133521593,
+				       class525_sub38.index * -1133521593,
 				       87136030);
 	class525_sub38_10_.method16735((-1133521593
-					* class525_sub38_8_.pos),
+					* class525_sub38_8_.index),
 				       -1188968770);
 	class525_sub38_10_.method16614(class525_sub38_8_.buffer, 0,
 				       (-1133521593
-					* class525_sub38_8_.pos),
+					* class525_sub38_8_.index),
 				       998962221);
 	class525_sub38_10_.method16602((-1133521593
-					* class525_sub38_9_.pos),
+					* class525_sub38_9_.index),
 				       2028479668);
 	class525_sub38_10_.method16614(class525_sub38_9_.buffer, 0,
-				       (class525_sub38_9_.pos
+				       (class525_sub38_9_.index
 					* -1133521593),
 				       -393285349);
 	String string_11_
@@ -322,13 +322,13 @@ public class Class57
 		int i_13_
 		    = inputstream.read(class525_sub38_10_.buffer,
 				       (-1133521593
-					* class525_sub38_10_.pos),
-				       1000 - (class525_sub38_10_.pos
+					* class525_sub38_10_.index),
+				       1000 - (class525_sub38_10_.index
 					       * -1133521593));
 		if (i_13_ == -1)
 		    break;
-		class525_sub38_10_.pos += i_13_ * 339428471;
-		if (-1133521593 * class525_sub38_10_.pos >= 1000)
+		class525_sub38_10_.index += i_13_ * 339428471;
+		if (-1133521593 * class525_sub38_10_.index >= 1000)
 		    return 5;
 	    }
 	    outputstreamwriter.close();
@@ -345,17 +345,17 @@ public class Class57
 		return 6;
 	    class525_sub38_10_.method16752(is, -2093736709);
 	    for (/**/;
-		 (-1133521593 * class525_sub38_10_.pos > 0
+		 (-1133521593 * class525_sub38_10_.index > 0
 		  && (class525_sub38_10_.buffer
-		      [-1133521593 * class525_sub38_10_.pos - 1]) == 0);
-		 class525_sub38_10_.pos -= 339428471) {
+		      [-1133521593 * class525_sub38_10_.index - 1]) == 0);
+		 class525_sub38_10_.index -= 339428471) {
 		/* empty */
 	    }
 	    string_14_
 		= new String(class525_sub38_10_.buffer, 0,
-			     -1133521593 * class525_sub38_10_.pos);
+			     -1133521593 * class525_sub38_10_.index);
 	    if (Class213.method3941(string_14_, (byte) 1)) {
-		Class299.method5393(string_14_, true, client.aBool11241,
+		NPCDefinitions.method5393(string_14_, true, client.aBool11241,
 				    830844482);
 		return 2;
 	    }

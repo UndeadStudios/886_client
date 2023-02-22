@@ -130,7 +130,7 @@ public class Class650
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-411979930);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       870162888);
 	} catch (Exception exception) {
 	    /* empty */

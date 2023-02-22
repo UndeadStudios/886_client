@@ -125,7 +125,7 @@ public abstract class Class652
 		    = (Class525_Sub41) iterator.next();
 		if (class525_sub15 != null
 		    && (-1133521593 * (class525_sub15
-				       .aClass525_Sub38_Sub2_10546.pos)
+				       .aClass525_Sub38_Sub2_10546.index)
 			- i_1_) >= 252 - (6 + method10751(-1637022749)))
 		    break;
 		class525_sub41.method8755(-1933461091);
@@ -148,8 +148,8 @@ public abstract class Class652
 			class525_sub15.aClass525_Sub38_Sub2_10546
 			    .method16735(0, -486382548);
 			i_1_ = (class525_sub15.aClass525_Sub38_Sub2_10546
-				.pos) * -1133521593;
-			class525_sub15.aClass525_Sub38_Sub2_10546.pos
+				.index) * -1133521593;
+			class525_sub15.aClass525_Sub38_Sub2_10546.index
 			    += 678856942;
 			i_2_ = 0;
 			i_3_ = 0;
@@ -216,18 +216,18 @@ public abstract class Class652
 	    if (null != class525_sub15) {
 		class525_sub15.aClass525_Sub38_Sub2_10546.method16617
 		    (-1133521593 * (class525_sub15.aClass525_Sub38_Sub2_10546
-				    .pos) - i_1_,
+				    .index) - i_1_,
 		     (byte) 7);
 		int i_9_
 		    = (-1133521593
-		       * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
-		class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		       * class525_sub15.aClass525_Sub38_Sub2_10546.index);
+		class525_sub15.aClass525_Sub38_Sub2_10546.index
 		    = i_1_ * 339428471;
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(i_2_ / i_3_, -1906609957);
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(i_2_ % i_3_, -2011137383);
-		class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		class525_sub15.aClass525_Sub38_Sub2_10546.index
 		    = 339428471 * i_9_;
 		client.aClass96_11085.method1794(class525_sub15,
 						 (short) 25830);
@@ -248,7 +248,7 @@ public abstract class Class652
 		    = (Class525_Sub41) iterator.next();
 		if (class525_sub15 != null
 		    && (-1133521593 * (class525_sub15
-				       .aClass525_Sub38_Sub2_10546.pos)
+				       .aClass525_Sub38_Sub2_10546.index)
 			- i) >= 252 - (6 + method10751(-1232647146)))
 		    break;
 		class525_sub41.method8755(-1933461091);
@@ -271,8 +271,8 @@ public abstract class Class652
 			class525_sub15.aClass525_Sub38_Sub2_10546
 			    .method16735(0, -2115340070);
 			i = (class525_sub15.aClass525_Sub38_Sub2_10546
-			     .pos) * -1133521593;
-			class525_sub15.aClass525_Sub38_Sub2_10546.pos
+			     .index) * -1133521593;
+			class525_sub15.aClass525_Sub38_Sub2_10546.index
 			    += 678856942;
 			i_10_ = 0;
 			i_11_ = 0;
@@ -340,18 +340,18 @@ public abstract class Class652
 	    if (null != class525_sub15) {
 		class525_sub15.aClass525_Sub38_Sub2_10546.method16617
 		    (-1133521593 * (class525_sub15.aClass525_Sub38_Sub2_10546
-				    .pos) - i,
+				    .index) - i,
 		     (byte) 7);
 		int i_17_
 		    = (-1133521593
-		       * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
-		class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		       * class525_sub15.aClass525_Sub38_Sub2_10546.index);
+		class525_sub15.aClass525_Sub38_Sub2_10546.index
 		    = i * 339428471;
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(i_10_ / i_11_, -1172808733);
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(i_10_ % i_11_, -361878619);
-		class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		class525_sub15.aClass525_Sub38_Sub2_10546.index
 		    = 339428471 * i_17_;
 		client.aClass96_11085.method1794(class525_sub15,
 						 (short) 21873);

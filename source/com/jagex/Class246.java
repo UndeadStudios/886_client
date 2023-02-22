@@ -190,8 +190,8 @@ public class Class246
 			= 4 * Class98.anIntArray1194[i_34_] + 2 - i_23_ / 128;
 		    int i_36_
 			= 2 + 4 * Class98.anIntArray1197[i_34_] - i_24_ / 128;
-		    Class602 class602
-			= ((Class602)
+		    ObjectDefinitions class602
+			= ((ObjectDefinitions)
 			   (client.aClass507_11137.method8362((byte) -1)
 				.method76
 			    (Class98.anIntArray1191[i_34_], -1051726891)));

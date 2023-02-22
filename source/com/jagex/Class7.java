@@ -469,7 +469,7 @@ public class Class7
 	return i_50_;
     }
     
-    public static Class7 method567(Class458 class458, int i, int i_53_) {
+    public static Class7 method567(JS5 class458, int i, int i_53_) {
 	return Class610.method10023(class458, i, i_53_, null, 357301123);
     }
     
@@ -723,41 +723,41 @@ public class Class7
 	return method562(string, null, -1981851267);
     }
     
-    public static Class7 method574(Class458 class458, int i, int i_96_,
-				   Interface4 interface4) {
-	byte[] is = class458.method7476(i, i_96_, 1331810357);
+    public static Class7 method574(JS5 class458, int i, int i_96_,
+                                   Interface4 interface4) {
+	byte[] is = class458.getFile(i, i_96_, 1331810357);
 	if (is == null)
 	    return null;
 	return new Class7(is, interface4);
     }
     
-    public static Class7 method575(Class458 class458, int i,
-				   Interface4 interface4) {
-	byte[] is = class458.method7484(i, 1894235656);
+    public static Class7 method575(JS5 class458, int i,
+                                   Interface4 interface4) {
+	byte[] is = class458.getTextureData(i, 1894235656);
 	if (null == is)
 	    return null;
 	return new Class7(is, interface4);
     }
     
-    public static Class7 method576(Class458 class458, int i,
-				   Interface4 interface4) {
-	byte[] is = class458.method7484(i, 1435682589);
+    public static Class7 method576(JS5 class458, int i,
+                                   Interface4 interface4) {
+	byte[] is = class458.getTextureData(i, 1435682589);
 	if (null == is)
 	    return null;
 	return new Class7(is, interface4);
     }
     
-    public static Class7 method577(Class458 class458, int i,
-				   Interface4 interface4) {
-	byte[] is = class458.method7484(i, 1422655938);
+    public static Class7 method577(JS5 class458, int i,
+                                   Interface4 interface4) {
+	byte[] is = class458.getTextureData(i, 1422655938);
 	if (null == is)
 	    return null;
 	return new Class7(is, interface4);
     }
     
-    public static Class7 method578(Class458 class458, int i,
-				   Interface4 interface4) {
-	byte[] is = class458.method7484(i, 2004645702);
+    public static Class7 method578(JS5 class458, int i,
+                                   Interface4 interface4) {
+	byte[] is = class458.getTextureData(i, 2004645702);
 	if (null == is)
 	    return null;
 	return new Class7(is, interface4);
@@ -833,7 +833,7 @@ public class Class7
 	return 1921008003 * anInt51 + (i_135_ + 385749773 * anInt49);
     }
     
-    public static Class7 method583(Class458 class458, int i, int i_136_) {
+    public static Class7 method583(JS5 class458, int i, int i_136_) {
 	return Class610.method10023(class458, i, i_136_, null, 442291134);
     }
     
@@ -1111,7 +1111,7 @@ public class Class7
 	    throw new RuntimeException("");
 	boolean bool = class525_sub38.readUnsignedByte(768839134) == 1;
 	aByteArray50 = new byte[256];
-	class525_sub38.method16639(aByteArray50, 0, 256, 23843912);
+	class525_sub38.readBytes(aByteArray50, 0, 256, 23843912);
 	if (bool) {
 	    int[] is_164_ = new int[256];
 	    int[] is_165_ = new int[256];

@@ -19,7 +19,7 @@ public class Class525_Sub2 extends Class525
     int anInt10420;
     int anInt10421;
     int anInt10422;
-    Class602 aClass602_10423;
+    ObjectDefinitions aClass602_10423;
     Class656_Sub1_Sub3_Sub1_Sub2 aClass656_Sub1_Sub3_Sub1_Sub2_10424;
     Class656_Sub1_Sub3_Sub1_Sub1 aClass656_Sub1_Sub3_Sub1_Sub1_10425;
     int[] anIntArray10426;
@@ -45,7 +45,7 @@ public class Class525_Sub2 extends Class525
     void method16073(byte i) {
 	int i_0_ = anInt10434 * -1235567057;
 	if (null != aClass602_10423) {
-	    Class602 class602 = (aClass602_10423.method9909
+	    ObjectDefinitions class602 = (aClass602_10423.method9909
 				 (Class532.aClass111_7170,
 				  (1874190559 * client.anInt11145 == 4
 				   ? (Interface18) Class201.anInterface18_2214
@@ -77,7 +77,7 @@ public class Class525_Sub2 extends Class525
 					   -1024137523);
 	    if (i_0_ != i_1_) {
 		anInt10434 = -1655879473 * i_1_;
-		Class299 class299
+		NPCDefinitions class299
 		    = aClass656_Sub1_Sub3_Sub1_Sub2_10424.aClass299_12255;
 		if (null != class299.anIntArray3323)
 		    class299 = class299.method5386(Class532.aClass111_7170,
@@ -158,7 +158,7 @@ public class Class525_Sub2 extends Class525
 		int i_7_ = (Class533.method8852
 			    (class525_sub2.aClass656_Sub1_Sub3_Sub1_Sub2_10424,
 			     -1024137523));
-		Class299 class299
+		NPCDefinitions class299
 		    = (class525_sub2.aClass656_Sub1_Sub3_Sub1_Sub2_10424
 		       .aClass299_12255);
 		if (class299.anIntArray3323 != null)
@@ -475,7 +475,7 @@ public class Class525_Sub2 extends Class525
     void method16079() {
 	int i = anInt10434 * -1235567057;
 	if (null != aClass602_10423) {
-	    Class602 class602 = (aClass602_10423.method9909
+	    ObjectDefinitions class602 = (aClass602_10423.method9909
 				 (Class532.aClass111_7170,
 				  (1874190559 * client.anInt11145 == 4
 				   ? (Interface18) Class201.anInterface18_2214
@@ -508,7 +508,7 @@ public class Class525_Sub2 extends Class525
 				      -1024137523);
 	    if (i != i_11_) {
 		anInt10434 = -1655879473 * i_11_;
-		Class299 class299
+		NPCDefinitions class299
 		    = aClass656_Sub1_Sub3_Sub1_Sub2_10424.aClass299_12255;
 		if (null != class299.anIntArray3323)
 		    class299 = class299.method5386(Class532.aClass111_7170,
@@ -737,7 +737,7 @@ public class Class525_Sub2 extends Class525
     }
     
     public static void method16081
-	(int i, int i_27_, int i_28_, int i_29_, Class602 class602,
+	(int i, int i_27_, int i_28_, int i_29_, ObjectDefinitions class602,
 	 Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2,
 	 Class656_Sub1_Sub3_Sub1_Sub1 class656_sub1_sub3_sub1_sub1) {
 	Class525_Sub2 class525_sub2 = new Class525_Sub2();
@@ -786,7 +786,7 @@ public class Class525_Sub2 extends Class525
 	} else if (null != class656_sub1_sub3_sub1_sub2) {
 	    class525_sub2.aClass656_Sub1_Sub3_Sub1_Sub2_10424
 		= class656_sub1_sub3_sub1_sub2;
-	    Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	    NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	    if (null != class299.anIntArray3323) {
 		class525_sub2.aBool10414 = true;
 		class299
@@ -884,7 +884,7 @@ public class Class525_Sub2 extends Class525
     }
     
     public static void method16083
-	(int i, int i_33_, int i_34_, int i_35_, Class602 class602,
+	(int i, int i_33_, int i_34_, int i_35_, ObjectDefinitions class602,
 	 Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2,
 	 Class656_Sub1_Sub3_Sub1_Sub1 class656_sub1_sub3_sub1_sub1) {
 	Class525_Sub2 class525_sub2 = new Class525_Sub2();
@@ -933,7 +933,7 @@ public class Class525_Sub2 extends Class525
 	} else if (null != class656_sub1_sub3_sub1_sub2) {
 	    class525_sub2.aClass656_Sub1_Sub3_Sub1_Sub2_10424
 		= class656_sub1_sub3_sub1_sub2;
-	    Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	    NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	    if (null != class299.anIntArray3323) {
 		class525_sub2.aBool10414 = true;
 		class299
@@ -1029,7 +1029,7 @@ public class Class525_Sub2 extends Class525
     }
     
     public static void method16085(int i, int i_38_, int i_39_,
-				   Class602 class602) {
+				   ObjectDefinitions class602) {
 	for (Class525_Sub2 class525_sub2
 		 = (Class525_Sub2) aClass709_10429.method14372((short) -8782);
 	     null != class525_sub2;
@@ -1054,7 +1054,7 @@ public class Class525_Sub2 extends Class525
     
     static int method16086
 	(Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2) {
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (null != class299.anIntArray3323) {
 	    class299
 		= class299.method5386(Class532.aClass111_7170,
@@ -1085,7 +1085,7 @@ public class Class525_Sub2 extends Class525
     
     static int method16087
 	(Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2) {
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (null != class299.anIntArray3323) {
 	    class299
 		= class299.method5386(Class532.aClass111_7170,
@@ -1116,7 +1116,7 @@ public class Class525_Sub2 extends Class525
     
     static int method16088
 	(Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2) {
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (null != class299.anIntArray3323) {
 	    class299
 		= class299.method5386(Class532.aClass111_7170,
@@ -1166,7 +1166,7 @@ public class Class525_Sub2 extends Class525
     void method16090() {
 	int i = anInt10434 * -1235567057;
 	if (null != aClass602_10423) {
-	    Class602 class602 = (aClass602_10423.method9909
+	    ObjectDefinitions class602 = (aClass602_10423.method9909
 				 (Class532.aClass111_7170,
 				  (1874190559 * client.anInt11145 == 4
 				   ? (Interface18) Class201.anInterface18_2214
@@ -1199,7 +1199,7 @@ public class Class525_Sub2 extends Class525
 				      -1024137523);
 	    if (i != i_43_) {
 		anInt10434 = -1655879473 * i_43_;
-		Class299 class299
+		NPCDefinitions class299
 		    = aClass656_Sub1_Sub3_Sub1_Sub2_10424.aClass299_12255;
 		if (null != class299.anIntArray3323)
 		    class299 = class299.method5386(Class532.aClass111_7170,

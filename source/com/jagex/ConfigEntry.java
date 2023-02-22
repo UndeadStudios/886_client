@@ -5,21 +5,21 @@ package com.jagex;
 import java.util.Iterator;
 import java.util.Map;
 
-public class Class58
+public class ConfigEntry
 {
-    Class458 aClass458_627;
+    JS5 aClass458_627;
     Interface72 anInterface72_628;
     public int anInt629 = 0;
     public int anInt630 = 0;
     Class200 aClass200_631 = new Class200(64);
     static final int anInt632 = 1;
     static final int anInt633 = 32768;
-    Class458 aClass458_634;
+    JS5 aClass458_634;
     public static int anInt635;
     public static String aString636;
     
-    public Class58(Class666 class666, Class458 class458, Class458 class458_0_,
-		   Interface72 interface72) {
+    public ConfigEntry(Class666 class666, JS5 class458, JS5 class458_0_,
+                       Interface72 interface72) {
 	anInterface72_628 = null;
 	aClass458_634 = class458;
 	aClass458_627 = class458_0_;
@@ -37,9 +37,9 @@ public class Class58
 	    return class525_sub16_sub11;
 	byte[] is;
 	if (i >= 32768)
-	    is = aClass458_627.method7476(1, i & 0x7fff, 143722051);
+	    is = aClass458_627.getFile(1, i & 0x7fff, 143722051);
 	else
-	    is = aClass458_634.method7476(1, i, 376860191);
+	    is = aClass458_634.getFile(1, i, 376860191);
 	class525_sub16_sub11 = new Class525_Sub16_Sub11();
 	class525_sub16_sub11.aClass58_11829 = this;
 	if (null != is)
@@ -66,9 +66,9 @@ public class Class58
 	    return class525_sub16_sub11;
 	byte[] is;
 	if (i >= 32768)
-	    is = aClass458_627.method7476(1, i & 0x7fff, 971946796);
+	    is = aClass458_627.getFile(1, i & 0x7fff, 971946796);
 	else
-	    is = aClass458_634.method7476(1, i, 94049405);
+	    is = aClass458_634.getFile(1, i, 94049405);
 	class525_sub16_sub11 = new Class525_Sub16_Sub11();
 	class525_sub16_sub11.aClass58_11829 = this;
 	if (null != is)
@@ -96,9 +96,9 @@ public class Class58
 	    return class525_sub16_sub11;
 	byte[] is;
 	if (i >= 32768)
-	    is = aClass458_627.method7476(1, i & 0x7fff, 1895982628);
+	    is = aClass458_627.getFile(1, i & 0x7fff, 1895982628);
 	else
-	    is = aClass458_634.method7476(1, i, 1798618641);
+	    is = aClass458_634.getFile(1, i, 1798618641);
 	class525_sub16_sub11 = new Class525_Sub16_Sub11();
 	class525_sub16_sub11.aClass58_11829 = this;
 	if (null != is)

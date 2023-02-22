@@ -6,7 +6,7 @@ package com.jagex;
 public class Class163_Sub2 extends Class163
 {
     public int anInt8987;
-    public static Class458 aClass458_8988;
+    public static JS5 aClass458_8988;
     public static Class40_Sub13 aClass40_Sub13_8989;
     
     void method2650(RSBuffer class525_sub38, int i) {

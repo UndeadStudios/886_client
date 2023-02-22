@@ -66,7 +66,7 @@ public class Class500 implements Runnable
 		    break;
 		}
 		aBool5558 = false;
-	    } catch (Object object_0_) {
+	    } catch (Exception object_0_) {
 		aBool5558 = false;
 		throw object_0_;
 	    }

@@ -48,14 +48,14 @@ public class Class219 implements Interface28
     static String method4199(RSBuffer class525_sub38, int i, int i_0_) {
 	String string;
 	try {
-	    int i_1_ = class525_sub38.method16740((byte) -6);
+	    int i_1_ = class525_sub38.readUnsignedSmart((byte) -6);
 	    if (i_1_ > i)
 		i_1_ = i;
 	    byte[] is = new byte[i_1_];
-	    class525_sub38.pos
+	    class525_sub38.index
 		+= (Class268.aClass279_2817.method5149
 		    (class525_sub38.buffer,
-		     class525_sub38.pos * -1133521593, is, 0, i_1_,
+		     class525_sub38.index * -1133521593, is, 0, i_1_,
 		     -1175768126)) * 339428471;
 	    String string_2_ = Class392.method6482(is, 0, i_1_, 868488117);
 	    string = string_2_;

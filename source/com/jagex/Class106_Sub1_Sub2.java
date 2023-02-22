@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class Class106_Sub1_Sub2 extends Class106_Sub1 implements Interface13
 {
     Class200 aClass200_11399 = new Class200(64);
-    Class458 aClass458_11400;
+    JS5 aClass458_11400;
     
     public int method57() {
 	return super.method72(1148782235);
@@ -109,7 +109,7 @@ public class Class106_Sub1_Sub2 extends Class106_Sub1 implements Interface13
     }
     
     Class163_Sub1 method17985(int i, int i_2_) {
-	byte[] is = aClass458_11400.method7476(((aClass453_8986.method7344
+	byte[] is = aClass458_11400.getFile(((aClass453_8986.method7344
 						 (-1649976785).anInt8553)
 						* -1918643565),
 					       i, 1950163677);
@@ -124,7 +124,7 @@ public class Class106_Sub1_Sub2 extends Class106_Sub1 implements Interface13
     }
     
     Class163_Sub1 method17987(int i) {
-	byte[] is = aClass458_11400.method7476(((aClass453_8986.method7344
+	byte[] is = aClass458_11400.getFile(((aClass453_8986.method7344
 						 (-1542336513).anInt8553)
 						* -1918643565),
 					       i, 763659919);
@@ -135,7 +135,7 @@ public class Class106_Sub1_Sub2 extends Class106_Sub1 implements Interface13
     }
     
     Class163_Sub1 method17988(int i) {
-	byte[] is = aClass458_11400.method7476(((aClass453_8986.method7344
+	byte[] is = aClass458_11400.getFile(((aClass453_8986.method7344
 						 (-1523480490).anInt8553)
 						* -1918643565),
 					       i, 1296027297);
@@ -146,7 +146,7 @@ public class Class106_Sub1_Sub2 extends Class106_Sub1 implements Interface13
     }
     
     Class163_Sub1 method17989(int i) {
-	byte[] is = aClass458_11400.method7476(((aClass453_8986.method7344
+	byte[] is = aClass458_11400.getFile(((aClass453_8986.method7344
 						 (-1028960747).anInt8553)
 						* -1918643565),
 					       i, 682954886);
@@ -157,7 +157,7 @@ public class Class106_Sub1_Sub2 extends Class106_Sub1 implements Interface13
     }
     
     public Class106_Sub1_Sub2(Class668 class668, Class453 class453,
-			      Class666 class666, Class458 class458) {
+			      Class666 class666, JS5 class458) {
 	super(class668, class453, class666,
 	      null != class458 ? class458.method7487(((class453.method7344
 						       (-1987980265).anInt8553)

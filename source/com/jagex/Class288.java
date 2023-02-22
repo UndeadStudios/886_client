@@ -24,7 +24,7 @@ public class Class288
 	aShortArray3196 = is_3_;
     }
     
-    public Class288(Class299 class299, boolean bool) {
+    public Class288(NPCDefinitions class299, boolean bool) {
 	if (bool) {
 	    anIntArray3197 = new int[class299.anIntArray3324.length];
 	    aFloatArray3201 = new float[class299.anIntArray3324.length];

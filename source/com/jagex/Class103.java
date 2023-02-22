@@ -124,8 +124,8 @@ public class Class103
 	}
 	client.aClass507_11137.method8361((byte) 100).method10398(-1949340820);
 	client.aBool11364 = true;
-	Class602.aShortArray7867 = Class299.aShortArray3353
-	    = Class8.aShortArray96 = new short[256];
+	ObjectDefinitions.aShortArray7867 = NPCDefinitions.aShortArray3353
+	    = ItemDefinitions.aShortArray96 = new short[256];
 	Class657.aString8440
 	    = Class53.aClass53_383.method1169(Class21.aClass666_213,
 					      1552651121);

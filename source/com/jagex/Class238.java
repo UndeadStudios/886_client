@@ -77,7 +77,7 @@ public class Class238 implements Interface76
 		/* empty */
 	    }
 	    return class52;
-	} catch (Object object) {
+	} catch (Exception object) {
 	    try {
 		if (class42 != null)
 		    class42.method1047(-1684573964);

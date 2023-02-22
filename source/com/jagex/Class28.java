@@ -143,7 +143,7 @@ public class Class28 implements Interface30
     public static final void method910(int i) {
 	String string = (Class441.aString4863 != null ? Class441.aString4863
 			 : Class453_Sub4.method15959(-1527038723));
-	Class299.method5393(string, false, client.aBool11241, -1355450929);
+	NPCDefinitions.method5393(string, false, client.aBool11241, -1355450929);
     }
     
     static void method911(int i) {

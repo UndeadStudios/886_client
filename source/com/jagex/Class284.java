@@ -278,8 +278,8 @@ public class Class284
 		  .method17160(-787686443);
     }
     
-    static void method5220(Class182 class182, Class602 class602, int i,
-			   int i_2_, int i_3_, int i_4_) {
+    static void method5220(Class182 class182, ObjectDefinitions class602, int i,
+                           int i_2_, int i_3_, int i_4_) {
 	Class79 class79
 	    = ((Class79)
 	       Class568.aClass40_Sub17_7627

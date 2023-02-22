@@ -61,8 +61,8 @@ public class Class623
 	}
     }
     
-    public Class623(Class458 class458) {
-	byte[] is = class458.method7484((2028004077
+    public Class623(JS5 class458) {
+	byte[] is = class458.getTextureData((2028004077
 					 * Class638.aClass638_8306.anInt8316),
 					1890053073);
 	if (null != is) {

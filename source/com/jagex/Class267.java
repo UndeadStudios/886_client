@@ -6,9 +6,9 @@ package com.jagex;
 public abstract class Class267 implements Interface5
 {
     Class200 aClass200_2815;
-    Class458 aClass458_2816;
+    JS5 aClass458_2816;
     
-    Class267(Class458 class458, int i) {
+    Class267(JS5 class458, int i) {
 	aClass458_2816 = class458;
 	aClass200_2815 = new Class200(i);
     }
@@ -165,7 +165,7 @@ public abstract class Class267 implements Interface5
 		     [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class194)
+	    = (((AnimationDefinition)
 		Class685.aClass40_Sub8_8691.method76(i_17_, -692232881))
 	       .anInt2157) * -1090465317;
     }

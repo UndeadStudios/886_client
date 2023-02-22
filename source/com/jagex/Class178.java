@@ -64,19 +64,19 @@ public class Class178
 		    int i_7_ = -1;
 		    int i_8_ = -1;
 		    int i_9_ = -1;
-		    int i_10_ = class525_sub38_sub2.method16740((byte) -40);
+		    int i_10_ = class525_sub38_sub2.readUnsignedSmart((byte) -40);
 		    if (i_10_ == 32767) {
-			i_10_ = class525_sub38_sub2.method16740((byte) -120);
-			i_8_ = class525_sub38_sub2.method16740((byte) -22);
-			i_7_ = class525_sub38_sub2.method16740((byte) -44);
-			i_9_ = class525_sub38_sub2.method16740((byte) -63);
+			i_10_ = class525_sub38_sub2.readUnsignedSmart((byte) -120);
+			i_8_ = class525_sub38_sub2.readUnsignedSmart((byte) -22);
+			i_7_ = class525_sub38_sub2.readUnsignedSmart((byte) -44);
+			i_9_ = class525_sub38_sub2.readUnsignedSmart((byte) -63);
 		    } else if (32766 != i_10_)
-			i_8_ = class525_sub38_sub2.method16740((byte) -57);
+			i_8_ = class525_sub38_sub2.readUnsignedSmart((byte) -57);
 		    else {
 			i_10_ = -1;
 			i_8_ = class525_sub38_sub2.method16607(-1571461918);
 		    }
-		    int i_11_ = class525_sub38_sub2.method16740((byte) -79);
+		    int i_11_ = class525_sub38_sub2.readUnsignedSmart((byte) -79);
 		    class656_sub1_sub3_sub1_sub1.method18634(i_10_, i_8_, i_7_,
 							     i_9_,
 							     client.anInt11083,
@@ -86,11 +86,11 @@ public class Class178
 	    int i_12_ = class525_sub38_sub2.readUnsignedByte(2059750594);
 	    if (i_12_ > 0) {
 		for (int i_13_ = 0; i_13_ < i_12_; i_13_++) {
-		    int i_14_ = class525_sub38_sub2.method16740((byte) -62);
-		    int i_15_ = class525_sub38_sub2.method16740((byte) -51);
+		    int i_14_ = class525_sub38_sub2.readUnsignedSmart((byte) -62);
+		    int i_15_ = class525_sub38_sub2.readUnsignedSmart((byte) -51);
 		    if (i_15_ != 32767) {
 			int i_16_
-			    = class525_sub38_sub2.method16740((byte) -98);
+			    = class525_sub38_sub2.readUnsignedSmart((byte) -98);
 			int i_17_
 			    = class525_sub38_sub2.method16607(-1571461918);
 			int i_18_
@@ -127,7 +127,7 @@ public class Class178
 	    int i_24_ = class525_sub38_sub2.method16624(1774330182);
 	    byte[] is = new byte[i_24_];
 	    RSBuffer class525_sub38 = new RSBuffer(is);
-	    class525_sub38_sub2.method16639(is, 0, i_24_, 293660564);
+	    class525_sub38_sub2.readBytes(is, 0, i_24_, 293660564);
 	    Class104.aClass525_Sub38Array1282[i] = class525_sub38;
 	    class656_sub1_sub3_sub1_sub1.method18904(class525_sub38,
 						     2114877235);
@@ -263,9 +263,9 @@ public class Class178
 	if ((i_3_ & 0x10000) != 0) {
 	    class656_sub1_sub3_sub1_sub1.anInterface3_11961
 		.method19(-711664883);
-	    class525_sub38_sub2.pos += 678856942;
+	    class525_sub38_sub2.index += 678856942;
 	    int i_50_ = ((class525_sub38_sub2.buffer
-			  [((class525_sub38_sub2.pos += 339428471)
+			  [((class525_sub38_sub2.index += 339428471)
 			    * -1133521593) - 1])
 			 & 0xff);
 	    for (int i_51_ = 0; i_51_ < i_50_; i_51_++) {
@@ -329,9 +329,9 @@ public class Class178
 		    = Class243.aClass243_2417;
 	}
 	if (0 != (i_3_ & 0x40000)) {
-	    class525_sub38_sub2.pos += 678856942;
+	    class525_sub38_sub2.index += 678856942;
 	    int i_56_ = ((class525_sub38_sub2.buffer
-			  [((class525_sub38_sub2.pos += 339428471)
+			  [((class525_sub38_sub2.index += 339428471)
 			    * -1133521593) - 1])
 			 & 0xff);
 	    for (int i_57_ = 0; i_57_ < i_56_; i_57_++) {

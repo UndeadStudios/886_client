@@ -16,7 +16,7 @@ public class Class579 implements Interface68
 	    = Class16.method767(Class412.aClass412_4288,
 				client.aClass96_11085.aClass6_1169,
 				1977859884);
-	int i = ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i = ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  += 339428471)
 		 * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546
@@ -39,7 +39,7 @@ public class Class579 implements Interface68
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -1777845638);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i,
 	     (byte) 7);
 	client.aClass96_11085.method1794(class525_sub15, (short) 15898);
@@ -50,7 +50,7 @@ public class Class579 implements Interface68
 	    = Class16.method767(Class412.aClass412_4288,
 				client.aClass96_11085.aClass6_1169,
 				1977859884);
-	int i_0_ = ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i_0_ = ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		     += 339428471)
 		    * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546
@@ -73,7 +73,7 @@ public class Class579 implements Interface68
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -555200122);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i_0_,
 	     (byte) 7);
 	client.aClass96_11085.method1794(class525_sub15, (short) 8723);
@@ -91,7 +91,7 @@ public class Class579 implements Interface68
 	    = Class16.method767(Class412.aClass412_4288,
 				client.aClass96_11085.aClass6_1169,
 				1977859884);
-	int i = ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i = ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  += 339428471)
 		 * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546
@@ -114,7 +114,7 @@ public class Class579 implements Interface68
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -1531340924);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i,
 	     (byte) 7);
 	client.aClass96_11085.method1794(class525_sub15, (short) 16608);

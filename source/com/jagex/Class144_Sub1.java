@@ -119,7 +119,7 @@ public final class Class144_Sub1 extends Class144
 		    }
 		    RSBuffer class525_sub38 = new RSBuffer(is);
 		    if ((class525_sub38.buffer.length
-			 - -1133521593 * class525_sub38.pos)
+			 - -1133521593 * class525_sub38.index)
 			< 1) {
 			try {
 			    class42.method1047(310103569);
@@ -138,7 +138,7 @@ public final class Class144_Sub1 extends Class144
 			break;
 		    }
 		    if ((class525_sub38.buffer.length
-			 - class525_sub38.pos * -1133521593)
+			 - class525_sub38.index * -1133521593)
 			< 2) {
 			try {
 			    class42.method1047(-1205580420);
@@ -149,7 +149,7 @@ public final class Class144_Sub1 extends Class144
 		    }
 		    int i_6_ = class525_sub38.readUnsignedShort((byte) 78);
 		    if ((class525_sub38.buffer.length
-			 - -1133521593 * class525_sub38.pos)
+			 - -1133521593 * class525_sub38.index)
 			< 6 * i_6_) {
 			try {
 			    class42.method1047(-847971348);
@@ -191,7 +191,7 @@ public final class Class144_Sub1 extends Class144
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	  } catch (Exception object) {
 		try {
 		    class42.method1047(531191251);
 		} catch (Exception exception) {
@@ -233,8 +233,8 @@ public final class Class144_Sub1 extends Class144
 			.method16602(0, 749602508);
 		    int i_11_ = (-1133521593
 				 * (class525_sub15.aClass525_Sub38_Sub2_10546
-				    .pos));
-		    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+				    .index));
+		    class525_sub15.aClass525_Sub38_Sub2_10546.index
 			+= 339428471;
 		    for (/**/;
 			 anInt9138 * -1147891035 < aClass447Array9135.length;
@@ -244,7 +244,7 @@ public final class Class144_Sub1 extends Class144
 			if ((class96.anInt1167 * 1624093005
 			     + -1133521593 * (class525_sub15
 					      .aClass525_Sub38_Sub2_10546
-					      .pos)
+					      .index)
 			     + Class198_Sub4.aClass106_Sub1_Sub2_9917
 				   .method14514(class447, (byte) 10))
 			    > 1500)
@@ -256,7 +256,7 @@ public final class Class144_Sub1 extends Class144
 		    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
 			(-1133521593 * (class525_sub15
 					.aClass525_Sub38_Sub2_10546
-					.pos) - i_11_,
+					.index) - i_11_,
 			 -1083690277);
 		    if (anInt9138 * -1147891035 >= aClass447Array9135.length)
 			class525_sub15.aClass525_Sub38_Sub2_10546
@@ -289,7 +289,7 @@ public final class Class144_Sub1 extends Class144
 		    }
 		    RSBuffer class525_sub38 = new RSBuffer(is);
 		    if ((class525_sub38.buffer.length
-			 - -1133521593 * class525_sub38.pos)
+			 - -1133521593 * class525_sub38.index)
 			< 1) {
 			try {
 			    class42.method1047(372179784);
@@ -308,7 +308,7 @@ public final class Class144_Sub1 extends Class144
 			break;
 		    }
 		    if ((class525_sub38.buffer.length
-			 - class525_sub38.pos * -1133521593)
+			 - class525_sub38.index * -1133521593)
 			< 2) {
 			try {
 			    class42.method1047(1594100824);
@@ -319,7 +319,7 @@ public final class Class144_Sub1 extends Class144
 		    }
 		    int i_14_ = class525_sub38.readUnsignedShort((byte) 110);
 		    if ((class525_sub38.buffer.length
-			 - -1133521593 * class525_sub38.pos)
+			 - -1133521593 * class525_sub38.index)
 			< 6 * i_14_) {
 			try {
 			    class42.method1047(-1336115881);
@@ -361,7 +361,7 @@ public final class Class144_Sub1 extends Class144
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	  } catch (Exception object) {
 		try {
 		    class42.method1047(-1694054803);
 		} catch (Exception exception) {
@@ -495,7 +495,7 @@ public final class Class144_Sub1 extends Class144
 				(class525_sub38, class447, (byte) 88);
 		    }
 		    class42.method1051(class525_sub38.buffer, 0,
-				       -1133521593 * class525_sub38.pos,
+				       -1133521593 * class525_sub38.index,
 				       -289160488);
 		} catch (Exception exception) {
 		    try {
@@ -510,7 +510,7 @@ public final class Class144_Sub1 extends Class144
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	  } catch (Exception object) {
 		try {
 		    class42.method1047(-22531506);
 		} catch (Exception exception) {
@@ -637,8 +637,8 @@ public final class Class144_Sub1 extends Class144
 			.method16602(0, 734249746);
 		    int i = (-1133521593
 			     * (class525_sub15.aClass525_Sub38_Sub2_10546
-				.pos));
-		    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+				.index));
+		    class525_sub15.aClass525_Sub38_Sub2_10546.index
 			+= 339428471;
 		    for (/**/;
 			 anInt9138 * -1147891035 < aClass447Array9135.length;
@@ -648,7 +648,7 @@ public final class Class144_Sub1 extends Class144
 			if ((class96.anInt1167 * 1624093005
 			     + -1133521593 * (class525_sub15
 					      .aClass525_Sub38_Sub2_10546
-					      .pos)
+					      .index)
 			     + Class198_Sub4.aClass106_Sub1_Sub2_9917
 				   .method14514(class447, (byte) 10))
 			    > 1500)
@@ -660,7 +660,7 @@ public final class Class144_Sub1 extends Class144
 		    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
 			(-1133521593 * (class525_sub15
 					.aClass525_Sub38_Sub2_10546
-					.pos) - i,
+					.index) - i,
 			 1943024238);
 		    if (anInt9138 * -1147891035 >= aClass447Array9135.length)
 			class525_sub15.aClass525_Sub38_Sub2_10546
@@ -693,7 +693,7 @@ public final class Class144_Sub1 extends Class144
 		    }
 		    RSBuffer class525_sub38 = new RSBuffer(is);
 		    if ((class525_sub38.buffer.length
-			 - -1133521593 * class525_sub38.pos)
+			 - -1133521593 * class525_sub38.index)
 			< 1) {
 			try {
 			    class42.method1047(1810450823);
@@ -712,7 +712,7 @@ public final class Class144_Sub1 extends Class144
 			break;
 		    }
 		    if ((class525_sub38.buffer.length
-			 - class525_sub38.pos * -1133521593)
+			 - class525_sub38.index * -1133521593)
 			< 2) {
 			try {
 			    class42.method1047(-502114210);
@@ -723,7 +723,7 @@ public final class Class144_Sub1 extends Class144
 		    }
 		    int i_26_ = class525_sub38.readUnsignedShort((byte) 4);
 		    if ((class525_sub38.buffer.length
-			 - -1133521593 * class525_sub38.pos)
+			 - -1133521593 * class525_sub38.index)
 			< 6 * i_26_) {
 			try {
 			    class42.method1047(-1236423148);
@@ -765,7 +765,7 @@ public final class Class144_Sub1 extends Class144
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	  } catch (Exception object) {
 		try {
 		    class42.method1047(354181140);
 		} catch (Exception exception) {
@@ -804,7 +804,7 @@ public final class Class144_Sub1 extends Class144
 				(class525_sub38, class447, (byte) 24);
 		    }
 		    class42.method1051(class525_sub38.buffer, 0,
-				       -1133521593 * class525_sub38.pos,
+				       -1133521593 * class525_sub38.index,
 				       974520102);
 		} catch (Exception exception) {
 		    try {
@@ -819,7 +819,7 @@ public final class Class144_Sub1 extends Class144
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	  } catch (Exception object) {
 		try {
 		    class42.method1047(2108269299);
 		} catch (Exception exception) {
@@ -860,7 +860,7 @@ public final class Class144_Sub1 extends Class144
 				(class525_sub38, class447, (byte) -3);
 		    }
 		    class42.method1051(class525_sub38.buffer, 0,
-				       -1133521593 * class525_sub38.pos,
+				       -1133521593 * class525_sub38.index,
 				       770583880);
 		} catch (Exception exception) {
 		    try {
@@ -875,7 +875,7 @@ public final class Class144_Sub1 extends Class144
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	  } catch (Exception object) {
 		try {
 		    class42.method1047(1938831072);
 		} catch (Exception exception) {
@@ -944,7 +944,7 @@ public final class Class144_Sub1 extends Class144
 	int i_36_ = class683.anIntArray8661[501271953 * class683.anInt8662];
 	int i_37_
 	    = class683.anIntArray8661[class683.anInt8662 * 501271953 + 1];
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_36_, 1746867450);
 	if (Class495.aClass495_5387 == class65.aClass495_698) {
 	    /* empty */

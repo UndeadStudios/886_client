@@ -85,7 +85,7 @@ public class Class472 implements Interface76
 			      .buffer),
 			     0, 9, (byte) -3);
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = 0;
 			int i_1_
 			    = Class70.aClass96_741
@@ -105,7 +105,7 @@ public class Class472 implements Interface76
 				   .method16603(-841283298)
 			       * 4090480995096256995L);
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = 0;
 			if (Class70.aBool744)
 			    Class70.anInt784 = 1424262105;
@@ -121,7 +121,7 @@ public class Class472 implements Interface76
 			class525_sub15.aClass525_Sub38_Sub2_10546
 			    .method16602(0, 1179817829);
 			int i_2_ = ((class525_sub15.aClass525_Sub38_Sub2_10546
-				     .pos)
+				     .index)
 				    * -1133521593);
 			class525_sub15.aClass525_Sub38_Sub2_10546
 			    .method16605(886, -384820213);
@@ -166,12 +166,12 @@ public class Class472 implements Interface76
 						   (short) 4876);
 			class525_sub15.aClass525_Sub38_Sub2_10546.method16614
 			    (class525_sub38.buffer, 0,
-			     -1133521593 * class525_sub38.pos,
+			     -1133521593 * class525_sub38.index,
 			     1468902366);
 			class525_sub15.aClass525_Sub38_Sub2_10546.method16616
 			    (-1133521593 * (class525_sub15
 					    .aClass525_Sub38_Sub2_10546
-					    .pos) - i_2_,
+					    .index) - i_2_,
 			     -1962360600);
 			Class70.aClass96_741.method1794(class525_sub15,
 							(short) 11196);
@@ -187,10 +187,10 @@ public class Class472 implements Interface76
 			      .buffer),
 			     0, 2, (byte) -91);
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = 0;
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = Class70.aClass96_741
 				  .aClass525_Sub38_Sub2_1168
 				  .readUnsignedShort((byte) 66) * 339428471;
@@ -200,7 +200,7 @@ public class Class472 implements Interface76
 			if (!Class70.aClass96_741.method1799((byte) 0)
 				 .method9376
 			     ((Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			       .pos) * -1133521593,
+			       .index) * -1133521593,
 			      1597443302))
 			    break;
 			Class70.aClass96_741.method1799((byte) 0).method9379
@@ -208,20 +208,20 @@ public class Class472 implements Interface76
 			      .buffer),
 			     0,
 			     (Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			      .pos) * -1133521593,
+			      .index) * -1133521593,
 			     (byte) -111);
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
 			    .method16752
 			    (Class40_Sub14.anIntArray11046, -2093736709);
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = 0;
 			String string
 			    = Class70.aClass96_741
 				  .aClass525_Sub38_Sub2_1168
 				  .method16637(-1568503846);
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = 0;
 			String string_4_
 			    = Class407.aClass407_4178.method6633(1955939309);
@@ -252,13 +252,13 @@ public class Class472 implements Interface76
 			      .buffer),
 			     0, 16, (byte) -15);
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = 1135888240;
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
 			    .method16752
 			    (Class40_Sub14.anIntArray11046, -2093736709);
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = 0;
 			Class70.aLong746
 			    = (Class70.aClass96_741
@@ -274,7 +274,7 @@ public class Class472 implements Interface76
 		    }
 		    if (1398680989 * Class70.anInt784 == 80) {
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = 0;
 			Class70.aClass96_741.method1791(2123832470);
 			Class525_Sub15 class525_sub15
@@ -292,9 +292,9 @@ public class Class472 implements Interface76
 							    -768826213);
 			    class525_sub38_sub2.method16602(0, 535523580);
 			    int i_5_
-				= class525_sub38_sub2.pos * -1133521593;
+				= class525_sub38_sub2.index * -1133521593;
 			    int i_6_
-				= class525_sub38_sub2.pos * -1133521593;
+				= class525_sub38_sub2.index * -1133521593;
 			    if (!Class70.aBool744) {
 				class525_sub38_sub2.method16605(886,
 								-2122238373);
@@ -303,16 +303,16 @@ public class Class472 implements Interface76
 				    ((6 == client.anInt11075 * 1777895575 ? 1
 				      : 0),
 				     -643369373);
-				i_6_ = (class525_sub38_sub2.pos
+				i_6_ = (class525_sub38_sub2.index
 					* -1133521593);
 				RSBuffer class525_sub38
 				    = Class696_Sub28.method17237(-349798288);
 				class525_sub38_sub2.method16614
 				    (class525_sub38.buffer, 0,
-				     -1133521593 * class525_sub38.pos,
+				     -1133521593 * class525_sub38.index,
 				     -912248017);
 				i_6_ = (-1133521593
-					* class525_sub38_sub2.pos);
+					* class525_sub38_sub2.index);
 				class525_sub38_sub2.method16735
 				    (-1L == (3905673324292469315L
 					     * Class70.aLong746) ? 1 : 0,
@@ -354,11 +354,11 @@ public class Class472 implements Interface76
 				      .method16501(-70167751);
 			    class525_sub38_sub2.method16735((-1133521593
 							     * (class525_sub38
-								.pos)),
+								.index)),
 							    -847776928);
 			    class525_sub38_sub2.method16614
 				(class525_sub38.buffer, 0,
-				 class525_sub38.pos * -1133521593,
+				 class525_sub38.index * -1133521593,
 				 797985581);
 			    client.aBool11084 = true;
 			    RSBuffer class525_sub38_7_
@@ -426,10 +426,10 @@ public class Class472 implements Interface76
 						450114731);
 			    class525_sub38_sub2.method16650
 				(Class40_Sub14.anIntArray11046, i_6_,
-				 class525_sub38_sub2.pos * -1133521593,
+				 class525_sub38_sub2.index * -1133521593,
 				 (byte) -95);
 			    class525_sub38_sub2.method16616
-				((-1133521593 * class525_sub38_sub2.pos
+				((-1133521593 * class525_sub38_sub2.index
 				  - i_5_),
 				 -1377194189);
 			} else {
@@ -444,9 +444,9 @@ public class Class472 implements Interface76
 							    -2022354282);
 			    class525_sub38_sub2.method16602(0, 1766114853);
 			    int i_8_
-				= -1133521593 * class525_sub38_sub2.pos;
+				= -1133521593 * class525_sub38_sub2.index;
 			    int i_9_
-				= class525_sub38_sub2.pos * -1133521593;
+				= class525_sub38_sub2.index * -1133521593;
 			    if (!Class70.aBool744) {
 				class525_sub38_sub2.method16605(886,
 								-1840949476);
@@ -456,10 +456,10 @@ public class Class472 implements Interface76
 				    = Class696_Sub28.method17237(694635603);
 				class525_sub38_sub2.method16614
 				    (class525_sub38.buffer, 0,
-				     class525_sub38.pos * -1133521593,
+				     class525_sub38.index * -1133521593,
 				     1624260020);
 				i_9_ = (-1133521593
-					* class525_sub38_sub2.pos);
+					* class525_sub38_sub2.index);
 				class525_sub38_sub2.method16735
 				    (-1L == (3905673324292469315L
 					     * Class70.aLong746) ? 1 : 0,
@@ -505,11 +505,11 @@ public class Class472 implements Interface76
 				      .method16501(-1616425736);
 			    class525_sub38_sub2.method16735((-1133521593
 							     * (class525_sub38
-								.pos)),
+								.index)),
 							    -771913536);
 			    class525_sub38_sub2.method16614
 				(class525_sub38.buffer, 0,
-				 -1133521593 * class525_sub38.pos,
+				 -1133521593 * class525_sub38.index,
 				 520337430);
 			    RSBuffer class525_sub38_10_
 				= (new RSBuffer
@@ -543,10 +543,10 @@ public class Class472 implements Interface76
 						-1159466434);
 			    class525_sub38_sub2.method16650
 				(Class40_Sub14.anIntArray11046, i_9_,
-				 -1133521593 * class525_sub38_sub2.pos,
+				 -1133521593 * class525_sub38_sub2.index,
 				 (byte) -25);
 			    class525_sub38_sub2.method16616
-				((class525_sub38_sub2.pos * -1133521593
+				((class525_sub38_sub2.index * -1133521593
 				  - i_8_),
 				 1636780083);
 			}
@@ -579,7 +579,7 @@ public class Class472 implements Interface76
 				  .aClass525_Sub38_Sub2_1168
 				  .readUnsignedByte(530670548);
 			Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-			    .pos
+			    .index
 			    = 0;
 			if (i_12_ == 21)
 			    Class70.anInt784 = -587262579;
@@ -704,7 +704,7 @@ public class Class472 implements Interface76
 				      .aClass525_Sub38_Sub2_1168
 				      .readInt(2071865035) * -1216037515;
 			    Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-				.pos
+				.index
 				= 0;
 			    Class70.anInt784 = -2134589259;
 			    Class661.method10949(53, -824133989);
@@ -771,14 +771,14 @@ public class Class472 implements Interface76
 				  .aClass525_Sub38_Sub2_1168.buffer),
 				 0, 2, (byte) -105);
 			    Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-				.pos
+				.index
 				= 0;
 			    Class541.anInt7193
 				= Class70.aClass96_741
 				      .aClass525_Sub38_Sub2_1168
 				      .readUnsignedShort((byte) 47) * -537235907;
 			    Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-				.pos
+				.index
 				= 0;
 			    Class70.anInt784 = 856908989;
 			}
@@ -792,7 +792,7 @@ public class Class472 implements Interface76
 				  .aClass525_Sub38_Sub2_1168.buffer),
 				 0, -561702635 * Class541.anInt7193, (byte) 0);
 			    Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-				.pos
+				.index
 				= 0;
 			    byte[] is
 				= (new byte
@@ -802,13 +802,13 @@ public class Class472 implements Interface76
 				(is, 0, -561702635 * Class541.anInt7193,
 				 -993600886);
 			    Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-				.pos
+				.index
 				= 0;
 			    RSBuffer class525_sub38
 				= new RSBuffer(is);
 			    String string
 				= class525_sub38.readString((byte) 97);
-			    Class299.method5393(string, true,
+			    NPCDefinitions.method5393(string, true,
 						client.aBool11241,
 						-1761046065);
 			    Class661.method10949((Class404.anInt4149
@@ -834,7 +834,7 @@ public class Class472 implements Interface76
 				  .aClass525_Sub38_Sub2_1168.buffer),
 				 0, 2, (byte) -118);
 			    Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-				.pos
+				.index
 				= 0;
 			    Class70.aClass96_741.anInt1173
 				= Class70.aClass96_741
@@ -856,14 +856,14 @@ public class Class472 implements Interface76
 				 Class70.aClass96_741.anInt1173 * -1101265009,
 				 (byte) -78);
 			    Class70.aClass96_741.aClass525_Sub38_Sub2_1168
-				.pos
+				.index
 				= 0;
 			    boolean bool = (Class70.aClass96_741
 						.aClass525_Sub38_Sub2_1168
 						.readUnsignedByte(1077789940)
 					    == 1);
 			    while (((Class70.aClass96_741
-				     .aClass525_Sub38_Sub2_1168.pos)
+				     .aClass525_Sub38_Sub2_1168.index)
 				    * -1133521593)
 				   < (Class70.aClass96_741.anInt1173
 				      * -1101265009)) {
@@ -963,7 +963,7 @@ public class Class472 implements Interface76
 				    (class525_sub38_sub2.buffer, 0,
 				     -1590764639 * Class46.anInt356,
 				     (byte) -59);
-				class525_sub38_sub2.pos = 0;
+				class525_sub38_sub2.index = 0;
 				Class225.method4252(class525_sub38_sub2,
 						    339428471);
 				client.anInt11231
@@ -1030,7 +1030,7 @@ public class Class472 implements Interface76
 				    (class525_sub38_sub2.buffer, 0,
 				     -1590764639 * Class46.anInt356,
 				     (byte) -85);
-				class525_sub38_sub2.pos = 0;
+				class525_sub38_sub2.index = 0;
 				Class225.method4252(class525_sub38_sub2,
 						    339428471);
 				client.anInt11231
@@ -1206,7 +1206,7 @@ public class Class472 implements Interface76
 			    Class525_Sub38_Sub2 class525_sub38_sub2
 				= (Class70.aClass96_741
 				   .aClass525_Sub38_Sub2_1168);
-			    class525_sub38_sub2.pos = 0;
+			    class525_sub38_sub2.index = 0;
 			    if (class525_sub38_sub2.method18492(-1773214656)) {
 				if (!Class70.aClass96_741.method1799
 					 ((byte) 0).method9376(1, 1597443302))
@@ -1240,7 +1240,7 @@ public class Class472 implements Interface76
 				      * -1101265009),
 				     (byte) -28);
 				Class70.aClass96_741
-				    .aClass525_Sub38_Sub2_1168.pos
+				    .aClass525_Sub38_Sub2_1168.index
 				    = 0;
 				int i_16_ = (-1101265009
 					     * Class70.aClass96_741.anInt1173);
@@ -1254,7 +1254,7 @@ public class Class472 implements Interface76
 				int i_17_
 				    = i_16_ - (Class70.aClass96_741
 					       .aClass525_Sub38_Sub2_1168
-					       .pos) * -1133521593;
+					       .index) * -1133521593;
 				Class525_Sub38_Sub2 class525_sub38_sub2
 				    = new Class525_Sub38_Sub2(i_17_);
 				System.arraycopy((Class70.aClass96_741
@@ -1262,12 +1262,12 @@ public class Class472 implements Interface76
 						  .buffer),
 						 (Class70.aClass96_741
 						  .aClass525_Sub38_Sub2_1168
-						  .pos) * -1133521593,
+						  .index) * -1133521593,
 						 (class525_sub38_sub2
 						  .buffer),
 						 0, i_17_);
 				Class70.aClass96_741
-				    .aClass525_Sub38_Sub2_1168.pos
+				    .aClass525_Sub38_Sub2_1168.index
 				    += i_17_ * 339428471;
 				if (Class70.aClass96_741.aClass416_1172
 				    == Class416.aClass416_4540)
@@ -1282,13 +1282,13 @@ public class Class472 implements Interface76
 					 -1133521593);
 				if (-1133521593 * (Class70.aClass96_741
 						   .aClass525_Sub38_Sub2_1168
-						   .pos)
+						   .index)
 				    != i_16_)
 				    throw new RuntimeException
 					      (new StringBuilder().append
 						   ((Class70.aClass96_741
 						     .aClass525_Sub38_Sub2_1168
-						     .pos)
+						     .index)
 						    * -1133521593)
 						   .append
 						   (" ").append
@@ -1310,7 +1310,7 @@ public class Class472 implements Interface76
 				      .buffer),
 				     0, 2, (byte) -97);
 				Class70.aClass96_741
-				    .aClass525_Sub38_Sub2_1168.pos
+				    .aClass525_Sub38_Sub2_1168.index
 				    = 0;
 				Class70.aClass96_741.anInt1173
 				    = (Class70.aClass96_741
@@ -1332,7 +1332,7 @@ public class Class472 implements Interface76
 				      * Class70.aClass96_741.anInt1173),
 				     (byte) -105);
 				Class70.aClass96_741
-				    .aClass525_Sub38_Sub2_1168.pos
+				    .aClass525_Sub38_Sub2_1168.index
 				    = 0;
 				int i_18_ = (Class70.aClass96_741.anInt1173
 					     * -1101265009);
@@ -1346,13 +1346,13 @@ public class Class472 implements Interface76
 				if (i_18_ != (-1133521593
 					      * (Class70.aClass96_741
 						 .aClass525_Sub38_Sub2_1168
-						 .pos)))
+						 .index)))
 				    throw new RuntimeException
 					      (new StringBuilder().append
 						   (-1133521593
 						    * (Class70.aClass96_741
 						       .aClass525_Sub38_Sub2_1168
-						       .pos))
+						       .index))
 						   .append
 						   (" ").append
 						   (i_18_).toString());

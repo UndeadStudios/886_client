@@ -9,7 +9,7 @@ public class Class138 implements Interface22
     int anInt1637;
     float[] aFloatArray1638;
     static int anInt1639;
-    public static Class458 aClass458_1640;
+    public static JS5 aClass458_1640;
     public static Class631 aClass631_1641;
     
     public int method80() {

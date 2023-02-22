@@ -45,7 +45,7 @@ public class Class198_Sub7 extends Class198
 	anInt9927 = (i >>> 16) * -1416492365;
 	anInt9928 = (i & 0xffff) * 1016478143;
 	anInt9931 = class525_sub38.readUnsignedByte(1440386557) * 1249850107;
-	anInt9930 = class525_sub38.method16640(993241788) * 1189358023;
+	anInt9930 = class525_sub38.readSmart3(993241788) * 1189358023;
     }
     
     static final void method15618(Class683 class683, byte i) {

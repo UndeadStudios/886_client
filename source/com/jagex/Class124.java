@@ -84,7 +84,7 @@ public class Class124
 		= aClass182_Sub3_1459.method15441(5123,
 						  (class525_sub38
 						   .buffer),
-						  (class525_sub38.pos
+						  (class525_sub38.index
 						   * -1133521593),
 						  false);
 	    aClass121_Sub2_1457

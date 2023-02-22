@@ -106,10 +106,10 @@ public class Class508
 	for (int i_3_ = 0; i_3_ < class525_sub10.anIntArray10507.length;
 	     i_3_++) {
 	    if (class525_sub10.anIntArray10507[i_3_] >= 0
-		&& ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+		&& ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			      (class525_sub10.anIntArray10507[i_3_],
 			       -1629096688))).anInt64 * 1533509829 == i_0_)
-		i_2_ += Class210.method3922(i, i_3_, bool, -1179952119);
+		i_2_ += AnimationSkin.method3922(i, i_3_, bool, -1179952119);
 	}
 	return i_2_;
     }

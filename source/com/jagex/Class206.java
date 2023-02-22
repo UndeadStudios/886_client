@@ -81,8 +81,8 @@ public abstract class Class206 implements Interface5
 	}
     }
     
-    Class206(Interface13 interface13, Class458 class458,
-	     Class458 class458_1_) {
+    Class206(Interface13 interface13, JS5 class458,
+	     JS5 class458_1_) {
 	anInterface13_2245 = interface13;
 	Class696_Sub3.method16982(class458, class458_1_, 2, -674706839);
     }
@@ -105,7 +105,7 @@ public abstract class Class206 implements Interface5
 	}
     }
     
-    Class525_Sub16_Sub18 method3898(int i, int i_2_) {
+    Class525_Sub16_Sub18 getCollection(int i, int i_2_) {
 	Class525_Sub16_Sub18 class525_sub16_sub18;
 	synchronized (aClass200_2244) {
 	    class525_sub16_sub18
@@ -172,8 +172,8 @@ public abstract class Class206 implements Interface5
 			   int i_7_) {
 	long l = 4194304L;
 	long l_8_ = -9223372036854775808L;
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       client.aClass507_11137.method8362((byte) -1)
 		   .method76(interface62.method406((byte) 1), 754148187));
 	long l_9_
@@ -210,8 +210,8 @@ public abstract class Class206 implements Interface5
 						 1552651121),
 		 true, Class501.aClass182_5564, Class29.aClass175_293,
 		 Class500.aClass7_5560, -1573689195);
-	    Class186 class186
-		= Class186.method3644(Class65.aClass458_705,
+	    ModelDecoder class186
+		= ModelDecoder.method3644(WorldTile.aClass458_705,
 				      (1728284569
 				       * Class138.aClass631_1641.anInt8175),
 				      0);

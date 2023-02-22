@@ -23,7 +23,7 @@ public class Class267_Sub1 extends Class267
 	return new Class287(i, interface13, this);
     }
     
-    Class267_Sub1(Class458 class458, int i) {
+    Class267_Sub1(JS5 class458, int i) {
 	super(class458, i);
     }
     

@@ -81,8 +81,8 @@ public class Class280
 	if (6 != 307215955 * class259.anInt2630
 	    && 2 != class259.anInt2630 * 307215955)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(-961419549 * class259.anInt2631, -994469590));
 	if (null == class259.aClass288_2769)

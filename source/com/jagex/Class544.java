@@ -13,7 +13,7 @@ import java.util.Vector;
 public class Class544 implements Interface60
 {
     Hashtable aHashtable7195;
-    Class458 aClass458_7196;
+    JS5 aClass458_7196;
     Hashtable aHashtable7197 = new Hashtable();
     String aString7198;
     
@@ -588,7 +588,7 @@ public class Class544 implements Interface60
 	return null;
     }
     
-    public Class544(Class458 class458) {
+    public Class544(JS5 class458) {
 	aHashtable7195 = new Hashtable();
 	aClass458_7196 = class458;
 	String string = "";

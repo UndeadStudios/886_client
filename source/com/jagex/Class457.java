@@ -36,8 +36,8 @@ public class Class457
 	int i_2_ = class683.anIntArray8661[2 + class683.anInt8662 * 501271953];
 	if (i_1_ == -1)
 	    throw new RuntimeException();
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i_1_, 1381214181));
 	if (class65.aClass495_698.method80() != i_0_)
 	    throw new RuntimeException();
@@ -50,7 +50,7 @@ public class Class457
 	Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2
 	    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 	       class683.aClass656_Sub1_Sub3_Sub1_8654);
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (class299.anIntArray3323 != null)
 	    class299
 		= class299.method5386(Class532.aClass111_7170,

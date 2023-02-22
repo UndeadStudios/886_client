@@ -31,7 +31,7 @@ public class Class78
     
     public static Object[] method1571(RSBuffer class525_sub38,
                                       Class495[] class495s) {
-	int i = class525_sub38.method16740((byte) -94);
+	int i = class525_sub38.readUnsignedSmart((byte) -94);
 	Object[] objects = new Object[class495s.length * i];
 	for (int i_0_ = 0; i_0_ < i; i_0_++) {
 	    for (int i_1_ = 0; i_1_ < class495s.length; i_1_++) {
@@ -46,7 +46,7 @@ public class Class78
     
     public static Object[] method1572(RSBuffer class525_sub38,
                                       Class495[] class495s) {
-	int i = class525_sub38.method16740((byte) -1);
+	int i = class525_sub38.readUnsignedSmart((byte) -1);
 	Object[] objects = new Object[class495s.length * i];
 	for (int i_3_ = 0; i_3_ < i; i_3_++) {
 	    for (int i_4_ = 0; i_4_ < class495s.length; i_4_++) {

@@ -8,7 +8,7 @@ public class Class525_Sub16_Sub11 extends Class525_Sub16
     public int[] anIntArray11826;
     String[] aStringArray11827;
     int[] anIntArray11828;
-    Class58 aClass58_11829;
+    ConfigEntry aClass58_11829;
     int[][] anIntArrayArray11830;
     public boolean aBool11831 = true;
     

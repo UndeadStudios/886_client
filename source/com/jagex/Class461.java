@@ -24,7 +24,7 @@ public class Class461
     int[][] anIntArrayArray5087;
     int[][] anIntArrayArray5088;
     int[] anIntArray5089;
-    int[] anIntArray5090;
+    int[] childSizes;
     
     void method7589(byte[] is, byte i) {
 	RSBuffer class525_sub38
@@ -72,7 +72,7 @@ public class Class461
 	anIntArray5089 = new int[anInt5079 * 1259617575];
 	anIntArray5086 = new int[1259617575 * anInt5079];
 	anIntArrayArray5087 = new int[1259617575 * anInt5079][];
-	anIntArray5090 = new int[1259617575 * anInt5079];
+	childSizes = new int[1259617575 * anInt5079];
 	if (bool) {
 	    anIntArray5077 = new int[anInt5079 * 1259617575];
 	    for (int i_9_ = 0; i_9_ < 1259617575 * anInt5079; i_9_++)
@@ -92,7 +92,7 @@ public class Class461
 	if (bool_2_) {
 	    for (int i_13_ = 0; i_13_ < anInt5075 * 1628852347; i_13_++) {
 		byte[] is_14_ = new byte[64];
-		class525_sub38.method16639(is_14_, 0, 64, 1487480465);
+		class525_sub38.readBytes(is_14_, 0, 64, 1487480465);
 		aByteArrayArray5082[anIntArray5083[i_13_]] = is_14_;
 	    }
 	}
@@ -125,7 +125,7 @@ public class Class461
 		    if (i_23_ > i_21_)
 			i_21_ = i_23_;
 		}
-		anIntArray5090[i_19_] = 1 + i_21_;
+		childSizes[i_19_] = 1 + i_21_;
 		if (1 + i_21_ == i_20_)
 		    anIntArrayArray5087[i_19_] = null;
 	    }
@@ -145,7 +145,7 @@ public class Class461
 		    if (i_30_ > i_28_)
 			i_28_ = i_30_;
 		}
-		anIntArray5090[i_26_] = i_28_ + 1;
+		childSizes[i_26_] = i_28_ + 1;
 		if (i_28_ + 1 == i_27_)
 		    anIntArrayArray5087[i_26_] = null;
 	    }
@@ -156,8 +156,8 @@ public class Class461
 	    for (int i_31_ = 0; i_31_ < 1628852347 * anInt5075; i_31_++) {
 		int i_32_ = anIntArray5083[i_31_];
 		int i_33_ = anIntArray5086[i_32_];
-		anIntArrayArray5088[i_32_] = new int[anIntArray5090[i_32_]];
-		for (int i_34_ = 0; i_34_ < anIntArray5090[i_32_]; i_34_++)
+		anIntArrayArray5088[i_32_] = new int[childSizes[i_32_]];
+		for (int i_34_ = 0; i_34_ < childSizes[i_32_]; i_34_++)
 		    anIntArrayArray5088[i_32_][i_34_] = -1;
 		for (int i_35_ = 0; i_35_ < i_33_; i_35_++) {
 		    int i_36_;
@@ -237,7 +237,7 @@ public class Class461
 	anIntArray5089 = new int[anInt5079 * 1259617575];
 	anIntArray5086 = new int[1259617575 * anInt5079];
 	anIntArrayArray5087 = new int[1259617575 * anInt5079][];
-	anIntArray5090 = new int[1259617575 * anInt5079];
+	childSizes = new int[1259617575 * anInt5079];
 	if (bool) {
 	    anIntArray5077 = new int[anInt5079 * 1259617575];
 	    for (int i_47_ = 0; i_47_ < 1259617575 * anInt5079; i_47_++)
@@ -257,7 +257,7 @@ public class Class461
 	if (bool_40_) {
 	    for (int i_51_ = 0; i_51_ < anInt5075 * 1628852347; i_51_++) {
 		byte[] is_52_ = new byte[64];
-		class525_sub38.method16639(is_52_, 0, 64, 91831812);
+		class525_sub38.readBytes(is_52_, 0, 64, 91831812);
 		aByteArrayArray5082[anIntArray5083[i_51_]] = is_52_;
 	    }
 	}
@@ -290,7 +290,7 @@ public class Class461
 		    if (i_61_ > i_59_)
 			i_59_ = i_61_;
 		}
-		anIntArray5090[i_57_] = 1 + i_59_;
+		childSizes[i_57_] = 1 + i_59_;
 		if (1 + i_59_ == i_58_)
 		    anIntArrayArray5087[i_57_] = null;
 	    }
@@ -310,7 +310,7 @@ public class Class461
 		    if (i_68_ > i_66_)
 			i_66_ = i_68_;
 		}
-		anIntArray5090[i_64_] = i_66_ + 1;
+		childSizes[i_64_] = i_66_ + 1;
 		if (i_66_ + 1 == i_65_)
 		    anIntArrayArray5087[i_64_] = null;
 	    }
@@ -321,8 +321,8 @@ public class Class461
 	    for (int i_69_ = 0; i_69_ < 1628852347 * anInt5075; i_69_++) {
 		int i_70_ = anIntArray5083[i_69_];
 		int i_71_ = anIntArray5086[i_70_];
-		anIntArrayArray5088[i_70_] = new int[anIntArray5090[i_70_]];
-		for (int i_72_ = 0; i_72_ < anIntArray5090[i_70_]; i_72_++)
+		anIntArrayArray5088[i_70_] = new int[childSizes[i_70_]];
+		for (int i_72_ = 0; i_72_ < childSizes[i_70_]; i_72_++)
 		    anIntArrayArray5088[i_70_][i_72_] = -1;
 		for (int i_73_ = 0; i_73_ < i_71_; i_73_++) {
 		    int i_74_;

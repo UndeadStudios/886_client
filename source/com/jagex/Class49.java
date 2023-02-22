@@ -123,8 +123,8 @@ public class Class49 implements Runnable
 	Class229.method4381(1000L);
     }
     
-    public static Class7 method1125(Class458 class458, int i, int i_0_,
-				    short i_1_) {
+    public static Class7 method1125(JS5 class458, int i, int i_0_,
+                                    short i_1_) {
 	return Class610.method10023(class458, i, i_0_, null, 209080133);
     }
     

@@ -5,14 +5,14 @@ package com.jagex;
 
 public class Class402 implements Interface48
 {
-    Class458 aClass458_4135;
+    JS5 aClass458_4135;
     Class200 aClass200_4136 = new Class200(64);
     
     public synchronized Class382 method341(int i) {
 	Class382 class382 = (Class382) aClass200_4136.method3785((long) i);
 	if (class382 != null)
 	    return class382;
-	byte[] is = aClass458_4135.method7476(0, i, 1068363001);
+	byte[] is = aClass458_4135.getFile(0, i, 1068363001);
 	class382 = new Class382();
 	if (null != is)
 	    class382.method6416(new RSBuffer(is), -1232153577);
@@ -25,7 +25,7 @@ public class Class402 implements Interface48
 	Class382 class382 = (Class382) aClass200_4136.method3785((long) i);
 	if (class382 != null)
 	    return class382;
-	byte[] is = aClass458_4135.method7476(0, i, 887220360);
+	byte[] is = aClass458_4135.getFile(0, i, 887220360);
 	class382 = new Class382();
 	if (null != is)
 	    class382.method6416(new RSBuffer(is), 753278669);
@@ -42,7 +42,7 @@ public class Class402 implements Interface48
 	Class382 class382 = (Class382) aClass200_4136.method3785((long) i);
 	if (class382 != null)
 	    return class382;
-	byte[] is = aClass458_4135.method7476(0, i, 1519606372);
+	byte[] is = aClass458_4135.getFile(0, i, 1519606372);
 	class382 = new Class382();
 	if (null != is)
 	    class382.method6416(new RSBuffer(is), -85275822);
@@ -51,7 +51,7 @@ public class Class402 implements Interface48
 	return class382;
     }
     
-    public Class402(Class458 class458) {
+    public Class402(JS5 class458) {
 	aClass458_4135 = class458;
     }
     
@@ -108,7 +108,7 @@ public class Class402 implements Interface48
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i_9_, -1563991103))
 	       .anInt99) * 2044569101;
     }

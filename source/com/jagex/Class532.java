@@ -57,7 +57,7 @@ public class Class532
 	return -method8805(1774441449);
     }
     
-    Class532(Class182 class182, Class40_Sub11 class40_sub11, Class602 class602,
+    Class532(Class182 class182, Class40_Sub11 class40_sub11, ObjectDefinitions class602,
 	     int i, int i_2_, int i_3_, Class656_Sub1 class656_sub1,
 	     boolean bool, int i_4_, int i_5_) {
 	aClass40_Sub11_7153 = class40_sub11;
@@ -75,8 +75,8 @@ public class Class532
     
     final Class179 method8808(Class182 class182, int i, boolean bool,
 			      boolean bool_6_, int i_7_) {
-	Class602 class602
-	    = (Class602) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
+	ObjectDefinitions class602
+	    = (ObjectDefinitions) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						      -1268325169);
 	if (null != class602.anIntArray7923)
 	    class602
@@ -211,8 +211,8 @@ public class Class532
 	return aBool7163;
     }
     
-    Class602 method8811() {
-	return (Class602) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
+    ObjectDefinitions method8811() {
+	return (ObjectDefinitions) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						       -1379194027);
     }
     
@@ -237,11 +237,11 @@ public class Class532
 	int i_12_ = i;
 	boolean bool_13_ = false;
 	if (-1 == i_12_) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						1207398690));
-	    Class602 class602_14_ = class602;
+	    ObjectDefinitions class602_14_ = class602;
 	    if (null != class602.anIntArray7923)
 		class602 = (class602.method9909
 			    (aClass111_7170,
@@ -317,11 +317,11 @@ public class Class532
     void method8816(Class182 class182, Class179 class179, Class444 class444,
 		    int i, int i_16_, int i_17_, int i_18_, boolean bool) {
 	Class184[] class184s = class179.method2979();
-	Class154[] class154s = class179.method2980();
+	MagnetConfig[] class154s = class179.method2980();
 	if ((null == aClass633_7152 || aClass633_7152.aBool8234)
 	    && (class184s != null || class154s != null)) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_7153.method76(anInt7150 * -434636307,
 						1929988173));
 	    if (class602.anIntArray7923 != null)
@@ -354,11 +354,11 @@ public class Class532
 	int i_21_ = i;
 	boolean bool_22_ = false;
 	if (-1 == i_21_) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						578394813));
-	    Class602 class602_23_ = class602;
+	    ObjectDefinitions class602_23_ = class602;
 	    if (null != class602.anIntArray7923)
 		class602 = (class602.method9909
 			    (aClass111_7170,
@@ -441,8 +441,8 @@ public class Class532
 	return -method8805(-138834874);
     }
     
-    Class602 method8822() {
-	return (Class602) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
+    ObjectDefinitions method8822() {
+	return (ObjectDefinitions) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						       -1280132571);
     }
     
@@ -479,8 +479,8 @@ public class Class532
 	anInt7159 = client.anInt11083 * -98994841;
     }
     
-    Class602 method8824() {
-	return (Class602) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
+    ObjectDefinitions method8824() {
+	return (ObjectDefinitions) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						       -366823366);
     }
     
@@ -492,11 +492,11 @@ public class Class532
     void method8826(Class182 class182, Class179 class179, Class444 class444,
 		    int i, int i_24_, int i_25_, int i_26_, boolean bool) {
 	Class184[] class184s = class179.method2979();
-	Class154[] class154s = class179.method2980();
+	MagnetConfig[] class154s = class179.method2980();
 	if ((null == aClass633_7152 || aClass633_7152.aBool8234)
 	    && (class184s != null || class154s != null)) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_7153.method76(anInt7150 * -434636307,
 						1943359578));
 	    if (class602.anIntArray7923 != null)
@@ -523,11 +523,11 @@ public class Class532
     void method8827(Class182 class182, Class179 class179, Class444 class444,
 		    int i, int i_27_, int i_28_, int i_29_, boolean bool) {
 	Class184[] class184s = class179.method2979();
-	Class154[] class154s = class179.method2980();
+	MagnetConfig[] class154s = class179.method2980();
 	if ((null == aClass633_7152 || aClass633_7152.aBool8234)
 	    && (class184s != null || class154s != null)) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_7153.method76(anInt7150 * -434636307,
 						1021864769));
 	    if (class602.anIntArray7923 != null)
@@ -559,11 +559,11 @@ public class Class532
 		    int i, int i_30_, int i_31_, int i_32_, boolean bool,
 		    byte i_33_) {
 	Class184[] class184s = class179.method2979();
-	Class154[] class154s = class179.method2980();
+	MagnetConfig[] class154s = class179.method2980();
 	if ((null == aClass633_7152 || aClass633_7152.aBool8234)
 	    && (class184s != null || class154s != null)) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_7153.method76(anInt7150 * -434636307,
 						-908482784));
 	    if (class602.anIntArray7923 != null)
@@ -646,8 +646,8 @@ public class Class532
 	}
     }
     
-    Class602 method8833(byte i) {
-	return (Class602) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
+    ObjectDefinitions method8833(byte i) {
+	return (ObjectDefinitions) aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						       796395478);
     }
     
@@ -668,11 +668,11 @@ public class Class532
 	int i_36_ = i;
 	boolean bool_37_ = false;
 	if (-1 == i_36_) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						-1602119221));
-	    Class602 class602_38_ = class602;
+	    ObjectDefinitions class602_38_ = class602;
 	    if (null != class602.anIntArray7923)
 		class602 = (class602.method9909
 			    (aClass111_7170,
@@ -738,11 +738,11 @@ public class Class532
 	int i_41_ = i;
 	boolean bool_42_ = false;
 	if (-1 == i_41_) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						466670430));
-	    Class602 class602_43_ = class602;
+	    ObjectDefinitions class602_43_ = class602;
 	    if (null != class602.anIntArray7923)
 		class602 = (class602.method9909
 			    (aClass111_7170,
@@ -808,11 +808,11 @@ public class Class532
 	int i_46_ = i;
 	boolean bool_47_ = false;
 	if (-1 == i_46_) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_7153.method76(-434636307 * anInt7150,
 						589586673));
-	    Class602 class602_48_ = class602;
+	    ObjectDefinitions class602_48_ = class602;
 	    if (null != class602.anIntArray7923)
 		class602 = (class602.method9909
 			    (aClass111_7170,

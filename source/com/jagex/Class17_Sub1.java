@@ -5,47 +5,47 @@ package com.jagex;
 
 public class Class17_Sub1 extends Class17
 {
-    public static Class458 aClass458_11027;
+    public static JS5 aClass458_11027;
     
     public Class method45() {
-	return com.jagex.Class8.class;
+	return ItemDefinitions.class;
     }
     
     Class17_Sub1(Class668 class668, Class666 class666, boolean bool,
-		 Class458 class458, Interface13 interface13) {
+                 JS5 class458, Interface13 interface13) {
 	super(class668, class666, bool, class458, interface13);
     }
     
     public Class method40(int i) {
-	return com.jagex.Class8.class;
+	return ItemDefinitions.class;
     }
     
     public Interface12 method42(int i, Interface13 interface13, int i_0_) {
-	return new Class8(i, interface13, this);
+	return new ItemDefinitions(i, interface13, this);
     }
     
     public Interface12 method41(int i, Interface13 interface13) {
-	return new Class8(i, interface13, this);
+	return new ItemDefinitions(i, interface13, this);
     }
     
     public Interface12 method43(int i, Interface13 interface13) {
-	return new Class8(i, interface13, this);
+	return new ItemDefinitions(i, interface13, this);
     }
     
     public Interface12 method38(int i, Interface13 interface13) {
-	return new Class8(i, interface13, this);
+	return new ItemDefinitions(i, interface13, this);
     }
     
     public Class method46() {
-	return com.jagex.Class8.class;
+	return ItemDefinitions.class;
     }
     
     public Interface12 method39(int i, Interface13 interface13) {
-	return new Class8(i, interface13, this);
+	return new ItemDefinitions(i, interface13, this);
     }
     
     public Interface12 method44(int i, Interface13 interface13) {
-	return new Class8(i, interface13, this);
+	return new ItemDefinitions(i, interface13, this);
     }
     
     static final void method17446(Class683 class683, int i) {

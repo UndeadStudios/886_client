@@ -6,7 +6,7 @@ package com.jagex;
 class Class215 implements Interface70
 {
     Class217 this$0;
-    public static Class58 aClass58_2283;
+    public static ConfigEntry aClass58_2283;
     
     Class215(Class217 class217) {
 	this$0 = class217;

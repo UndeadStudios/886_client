@@ -33,8 +33,8 @@ public class Class525_Sub27 extends Class525
 		&& (class525_sub10.anIntArray10507[i_4_]
 		    < (-1988422751
 		       * Class313_Sub2.aClass40_Sub22_10106.anInt332))) {
-		Class8 class8
-		    = ((Class8)
+		ItemDefinitions class8
+		    = ((ItemDefinitions)
 		       (Class313_Sub2.aClass40_Sub22_10106.method76
 			(class525_sub10.anIntArray10507[i_4_], -314951313)));
 		int i_5_ = class8.method629(i_0_,

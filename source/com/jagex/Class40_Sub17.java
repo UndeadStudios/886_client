@@ -24,7 +24,7 @@ public class Class40_Sub17 extends Class40
     }
     
     public Class40_Sub17(Class668 class668, Class666 class666,
-			 Class458 class458, Class458 class458_2_) {
+                         JS5 class458, JS5 class458_2_) {
 	super(class668, class666, class458, Class663.aClass663_8501, 64,
 	      new Class90_Sub1(class458_2_, 64));
     }

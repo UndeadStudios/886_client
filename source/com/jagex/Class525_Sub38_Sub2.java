@@ -17,25 +17,25 @@ public class Class525_Sub38_Sub2 extends RSBuffer
 	for (int i_2_ = 0; i_2_ < i_0_; i_2_++)
 	    is[i_2_ + i]
 		= (byte) ((buffer
-			   [(pos += 339428471) * -1133521593 - 1])
+			   [(index += 339428471) * -1133521593 - 1])
 			  - aClass6_11877.method544(904141364));
     }
     
     public int method18490(int i) {
 	int i_3_
-	    = ((buffer[(pos += 339428471) * -1133521593 - 1]
+	    = ((buffer[(index += 339428471) * -1133521593 - 1]
 		- aClass6_11877.method544(904141364))
 	       & 0xff);
 	if (i_3_ < 128)
 	    return i_3_;
 	return ((i_3_ - 128 << 8)
-		+ (buffer[((pos += 339428471) * -1133521593
+		+ (buffer[((index += 339428471) * -1133521593
 				    - 1)] - aClass6_11877.method544(904141364)
 		   & 0xff));
     }
     
     public void method18491(int i, int i_4_) {
-	buffer[(pos += 339428471) * -1133521593 - 1]
+	buffer[(index += 339428471) * -1133521593 - 1]
 	    = (byte) (i + aClass6_11877.method544(904141364));
     }
     
@@ -44,7 +44,7 @@ public class Class525_Sub38_Sub2 extends RSBuffer
     }
     
     public boolean method18492(int i) {
-	int i_5_ = ((buffer[-1133521593 * pos]
+	int i_5_ = ((buffer[-1133521593 * index]
 		     - aClass6_11877.method545((byte) -77))
 		    & 0xff);
 	if (i_5_ < 128)
@@ -53,13 +53,13 @@ public class Class525_Sub38_Sub2 extends RSBuffer
     }
     
     public int method18493() {
-	int i = ((buffer[(pos += 339428471) * -1133521593 - 1]
+	int i = ((buffer[(index += 339428471) * -1133521593 - 1]
 		  - aClass6_11877.method544(904141364))
 		 & 0xff);
 	if (i < 128)
 	    return i;
 	return ((i - 128 << 8)
-		+ (buffer[((pos += 339428471) * -1133521593
+		+ (buffer[((index += 339428471) * -1133521593
 				    - 1)] - aClass6_11877.method544(904141364)
 		   & 0xff));
     }
@@ -69,7 +69,7 @@ public class Class525_Sub38_Sub2 extends RSBuffer
     }
     
     public void method18495(int i) {
-	anInt11876 = pos * -423750600;
+	anInt11876 = index * -423750600;
     }
     
     public int method18496(int i, int i_6_) {
@@ -90,17 +90,17 @@ public class Class525_Sub38_Sub2 extends RSBuffer
     }
     
     public void method18497(int i) {
-	pos = 339428471 * ((anInt11876 * 1085032257 + 7) / 8);
+	index = 339428471 * ((anInt11876 * 1085032257 + 7) / 8);
     }
     
     public int method18498() {
-	int i = ((buffer[(pos += 339428471) * -1133521593 - 1]
+	int i = ((buffer[(index += 339428471) * -1133521593 - 1]
 		  - aClass6_11877.method544(904141364))
 		 & 0xff);
 	if (i < 128)
 	    return i;
 	return ((i - 128 << 8)
-		+ (buffer[((pos += 339428471) * -1133521593
+		+ (buffer[((index += 339428471) * -1133521593
 				    - 1)] - aClass6_11877.method544(904141364)
 		   & 0xff));
     }
@@ -118,17 +118,17 @@ public class Class525_Sub38_Sub2 extends RSBuffer
     }
     
     public void method18502(int i) {
-	buffer[(pos += 339428471) * -1133521593 - 1]
+	buffer[(index += 339428471) * -1133521593 - 1]
 	    = (byte) (i + aClass6_11877.method544(904141364));
     }
     
     public void method18503(int i) {
-	buffer[(pos += 339428471) * -1133521593 - 1]
+	buffer[(index += 339428471) * -1133521593 - 1]
 	    = (byte) (i + aClass6_11877.method544(904141364));
     }
     
     public boolean method18504() {
-	int i = ((buffer[-1133521593 * pos]
+	int i = ((buffer[-1133521593 * index]
 		  - aClass6_11877.method545((byte) -38))
 		 & 0xff);
 	if (i < 128)
@@ -137,7 +137,7 @@ public class Class525_Sub38_Sub2 extends RSBuffer
     }
     
     public int method18505() {
-	return ((buffer[(pos += 339428471) * -1133521593 - 1]
+	return ((buffer[(index += 339428471) * -1133521593 - 1]
 		 - aClass6_11877.method544(904141364))
 		& 0xff);
     }
@@ -147,42 +147,42 @@ public class Class525_Sub38_Sub2 extends RSBuffer
     }
     
     public int method18507() {
-	return ((buffer[(pos += 339428471) * -1133521593 - 1]
+	return ((buffer[(index += 339428471) * -1133521593 - 1]
 		 - aClass6_11877.method544(904141364))
 		& 0xff);
     }
     
     public int method18508(int i) {
-	return ((buffer[(pos += 339428471) * -1133521593 - 1]
+	return ((buffer[(index += 339428471) * -1133521593 - 1]
 		 - aClass6_11877.method544(904141364))
 		& 0xff);
     }
     
     public int method18509() {
-	int i = ((buffer[(pos += 339428471) * -1133521593 - 1]
+	int i = ((buffer[(index += 339428471) * -1133521593 - 1]
 		  - aClass6_11877.method544(904141364))
 		 & 0xff);
 	if (i < 128)
 	    return i;
 	return ((i - 128 << 8)
-		+ (buffer[((pos += 339428471) * -1133521593
+		+ (buffer[((index += 339428471) * -1133521593
 				    - 1)] - aClass6_11877.method544(904141364)
 		   & 0xff));
     }
     
     public void method18510(int i) {
-	buffer[(pos += 339428471) * -1133521593 - 1]
+	buffer[(index += 339428471) * -1133521593 - 1]
 	    = (byte) (i + aClass6_11877.method544(904141364));
     }
     
     public int method18511() {
-	int i = ((buffer[(pos += 339428471) * -1133521593 - 1]
+	int i = ((buffer[(index += 339428471) * -1133521593 - 1]
 		  - aClass6_11877.method544(904141364))
 		 & 0xff);
 	if (i < 128)
 	    return i;
 	return ((i - 128 << 8)
-		+ (buffer[((pos += 339428471) * -1133521593
+		+ (buffer[((index += 339428471) * -1133521593
 				    - 1)] - aClass6_11877.method544(904141364)
 		   & 0xff));
     }
@@ -191,20 +191,20 @@ public class Class525_Sub38_Sub2 extends RSBuffer
 	for (int i_12_ = 0; i_12_ < i_11_; i_12_++)
 	    is[i_12_ + i]
 		= (byte) ((buffer
-			   [(pos += 339428471) * -1133521593 - 1])
+			   [(index += 339428471) * -1133521593 - 1])
 			  - aClass6_11877.method544(904141364));
     }
     
     public void method18513() {
-	anInt11876 = pos * -423750600;
+	anInt11876 = index * -423750600;
     }
     
     public void method18514() {
-	anInt11876 = pos * -423750600;
+	anInt11876 = index * -423750600;
     }
     
     public void method18515() {
-	anInt11876 = pos * -423750600;
+	anInt11876 = index * -423750600;
     }
     
     public int method18516(int i) {
@@ -225,11 +225,11 @@ public class Class525_Sub38_Sub2 extends RSBuffer
     }
     
     public void method18517() {
-	pos = 339428471 * ((anInt11876 * 1085032257 + 7) / 8);
+	index = 339428471 * ((anInt11876 * 1085032257 + 7) / 8);
     }
     
     public void method18518() {
-	pos = 339428471 * ((anInt11876 * 1085032257 + 7) / 8);
+	index = 339428471 * ((anInt11876 * 1085032257 + 7) / 8);
     }
     
     public int method18519(int i) {

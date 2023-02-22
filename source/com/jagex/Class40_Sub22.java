@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class40_Sub22 extends Class40
 {
-    public static Class458 aClass458_11051;
+    public static JS5 aClass458_11051;
     
     public void method1020(int i, byte i_0_) {
 	super.method1020(i, (byte) 0);
@@ -34,8 +34,8 @@ public class Class40_Sub22 extends Class40
     }
     
     public Class40_Sub22(Class668 class668, Class666 class666, boolean bool,
-			 Interface13 interface13, Class458 class458,
-			 Class458 class458_8_) {
+			 Interface13 interface13, JS5 class458,
+			 JS5 class458_8_) {
 	super(class668, class666, class458, Class663.aClass663_8485, 64,
 	      new Class17_Sub1(class668, class666, bool, class458_8_,
 			       interface13));

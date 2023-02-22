@@ -24,7 +24,7 @@ public class Class537
 	ByteArrayInputStream bytearrayinputstream
 	    = new ByteArrayInputStream(class525_sub38.buffer);
 	bytearrayinputstream.skip((long) (-1133521593
-					  * class525_sub38.pos));
+					  * class525_sub38.index));
 	return Class518.method8640(bytearrayinputstream, i, 180121021);
     }
     

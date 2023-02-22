@@ -11,7 +11,7 @@ public abstract class Class592
     Class200 aClass200_7824;
     Class20 aClass20_7825;
     String[] aStringArray7826;
-    Class186[] aClass186Array7827;
+    ModelDecoder[] aClass186Array7827;
     Class200 aClass200_7828 = new Class200(500);
     
     abstract boolean method9796(int i);
@@ -33,7 +33,7 @@ public abstract class Class592
 	synchronized (aClass200_7824) {
 	    aClass200_7824.method3791((byte) -55);
 	}
-	aClass186Array7827 = new Class186[4];
+	aClass186Array7827 = new ModelDecoder[4];
 	aClass20_7825 = new Class20(null, null);
     }
     
@@ -47,7 +47,7 @@ public abstract class Class592
 	synchronized (aClass200_7824) {
 	    aClass200_7824.method3791((byte) 61);
 	}
-	aClass186Array7827 = new Class186[4];
+	aClass186Array7827 = new ModelDecoder[4];
 	aClass20_7825 = new Class20(null, null);
     }
     
@@ -103,7 +103,7 @@ public abstract class Class592
 	synchronized (aClass200_7824) {
 	    aClass200_7824.method3791((byte) 48);
 	}
-	aClass186Array7827 = new Class186[4];
+	aClass186Array7827 = new ModelDecoder[4];
 	aClass20_7825 = new Class20(null, null);
     }
     
@@ -174,7 +174,7 @@ public abstract class Class592
 	synchronized (aClass200_7824) {
 	    aClass200_7824.method3791((byte) -31);
 	}
-	aClass186Array7827 = new Class186[4];
+	aClass186Array7827 = new ModelDecoder[4];
 	aClass20_7825 = new Class20(null, null);
     }
     
@@ -232,7 +232,7 @@ public abstract class Class592
     Class592(boolean bool, Class666 class666, Class668 class668) {
 	aClass200_7823 = new Class200(30);
 	aClass200_7824 = new Class200(50);
-	aClass186Array7827 = new Class186[4];
+	aClass186Array7827 = new ModelDecoder[4];
 	aClass20_7825 = new Class20(null, null);
 	aBool7822 = bool;
 	if (Class668.aClass668_8576 == class668)

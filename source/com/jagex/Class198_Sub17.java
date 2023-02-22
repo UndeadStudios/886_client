@@ -36,7 +36,7 @@ public class Class198_Sub17 extends Class198
     
     static void method15658(int i) {
 	Class70.aClass96_741.method1791(2123832470);
-	Class70.aClass96_741.aClass525_Sub38_Sub2_1168.pos = 0;
+	Class70.aClass96_741.aClass525_Sub38_Sub2_1168.index = 0;
 	Class70.aClass96_741.aClass416_1172 = null;
 	Class70.aClass96_741.aClass416_1181 = null;
 	Class70.aClass96_741.aClass416_1165 = null;

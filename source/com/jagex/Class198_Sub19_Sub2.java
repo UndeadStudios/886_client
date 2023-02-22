@@ -383,7 +383,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class185.method3616(class683, -1971068917);
 	    break;
 	case 16:
-	    Class602.method9960(class683, (byte) 12);
+	    ObjectDefinitions.method9960(class683, (byte) 12);
 	    break;
 	case 968:
 	    Class420.method6742(class683, 5801018);
@@ -509,7 +509,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class618.method10161(class683, (byte) 115);
 	    break;
 	case 47:
-	    Class210.method3923(class683, 429987899);
+	    AnimationSkin.method3923(class683, 429987899);
 	    break;
 	case 24:
 	    Class549.method9117(class683, -849685214);
@@ -548,7 +548,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class477.method7784(class683, 1832509402);
 	    break;
 	case 705:
-	    Class194.method3731(class683, 1411234902);
+	    AnimationDefinition.method3731(class683, 1411234902);
 	    break;
 	case 186:
 	    Class525_Sub16_Sub10.method18418(class683, (byte) 30);
@@ -850,7 +850,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class256.method4653(class683, 2107086164);
 	    break;
 	case 1117:
-	    Class171.method2736(class683, -16777216);
+	    BillBoardConfig.method2736(class683, -16777216);
 	    break;
 	case 558:
 	    Class261.method4770(class683, (byte) 49);
@@ -889,7 +889,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class636.method10472(class683, (byte) -28);
 	    break;
 	case 501:
-	    Class171.method2737(class683, -1616269077);
+	    BillBoardConfig.method2737(class683, -1616269077);
 	    break;
 	case 1196:
 	    Class578.method9580(class683, (byte) 97);
@@ -907,7 +907,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class103.method1890(class683, -1123490745);
 	    break;
 	case 947:
-	    Class154.method2449(class683, 607014280);
+	    MagnetConfig.method2449(class683, 607014280);
 	    break;
 	case 930:
 	    Class218.method4198(class683, -1326029982);
@@ -1141,7 +1141,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class384.method6436(class683, (byte) 98);
 	    break;
 	case 354:
-	    Class58.method1223(class683, (byte) -112);
+	    ConfigEntry.method1223(class683, (byte) -112);
 	    break;
 	case 93:
 	    Class313.method5646(class683, -1148653462);
@@ -1288,7 +1288,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class57.method1211(class683, 1448156704);
 	    break;
 	case 1078:
-	    Class299.method5394(class683, -1962814640);
+	    NPCDefinitions.method5394(class683, -1962814640);
 	    break;
 	case 846:
 	    Class283.method5217(class683, -25350982);
@@ -1557,7 +1557,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class262.method4779(class683, 938415966);
 	    break;
 	case 926:
-	    Class504.method8314(class683, 743991847);
+	    BillBoardDefinitions.method8314(class683, 743991847);
 	    break;
 	case 108:
 	    Class655.method10804(class683, 1806374521);
@@ -1680,7 +1680,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class670.method11043(class683, 1051584679);
 	    break;
 	case 201:
-	    Class458.method7568(class683, -1259613115);
+	    JS5.method7568(class683, -1259613115);
 	    break;
 	case 385:
 	    Class515.method8596(class683, (short) 771);
@@ -1941,7 +1941,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class425.method6774(class683, (byte) -112);
 	    break;
 	case 159:
-	    Class308.method5448(class683, (byte) 1);
+	    SunDefinition.method5448(class683, (byte) 1);
 	    break;
 	case 1138:
 	    Class604.method9987(class683, (byte) -6);
@@ -2199,10 +2199,10 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class166.method2676(class683, (byte) 28);
 	    break;
 	case 438:
-	    Class210.method3924(class683, (byte) 0);
+	    AnimationSkin.method3924(class683, (byte) 0);
 	    break;
 	case 1282:
-	    Class504.method8316(class683, (short) 28811);
+	    BillBoardDefinitions.method8316(class683, (short) 28811);
 	    break;
 	case 1073:
 	    Class276.method5114(class683, -1798957943);
@@ -2475,7 +2475,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class660.method10929(class683, (byte) 1);
 	    break;
 	case 862:
-	    Class8.method676(class683, -2131882249);
+	    ItemDefinitions.method676(class683, -2131882249);
 	    break;
 	case 87:
 	    Class557.method9361(class683, 2140070672);
@@ -2502,7 +2502,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class318.method5672(class683, 1743094553);
 	    break;
 	case 716:
-	    Class154.method2451(class683, 1704125221);
+	    MagnetConfig.method2451(class683, 1704125221);
 	    break;
 	case 282:
 	    Class525_Sub19.method16296(class683, -1893699425);
@@ -2580,7 +2580,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class486.method7855(class683, -360633372);
 	    break;
 	case 966:
-	    Class171.method2739(class683, (byte) -8);
+	    BillBoardConfig.method2739(class683, (byte) -8);
 	    break;
 	case 602:
 	    Class321.method5716(class683, -735675112);
@@ -2868,7 +2868,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class272.method5021(class683, 651858412);
 	    break;
 	case 813:
-	    Class65.method1434(class683, 1659077563);
+	    WorldTile.method1434(class683, 1659077563);
 	    break;
 	case 285:
 	    Class381.method6407(class683, 1513683114);
@@ -2877,13 +2877,13 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class64.method1403(class683, 1498345010);
 	    break;
 	case 720:
-	    Class308.method5450(class683, (short) 508);
+	    SunDefinition.method5450(class683, (short) 508);
 	    break;
 	case 1083:
 	    Class535.method8866(class683, (short) -1736);
 	    break;
 	case 699:
-	    Class602.method9961(class683, 2019076334);
+	    ObjectDefinitions.method9961(class683, 2019076334);
 	    break;
 	case 26:
 	    Class306.method5427(class683, (byte) 3);
@@ -3090,7 +3090,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class181.method3124(class683, -1855559317);
 	    break;
 	case 839:
-	    Class8.method675(class683, -1919102941);
+	    ItemDefinitions.method675(class683, -1919102941);
 	    break;
 	case 311:
 	    Class30.method940(class683, (byte) -45);
@@ -3131,7 +3131,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class451.method7335(class683, (byte) 1);
 	    break;
 	case 702:
-	    Class194.method3732(class683, (byte) -37);
+	    AnimationDefinition.method3732(class683, (byte) -37);
 	    break;
 	case 1220:
 	    Class303.method5414(class683, 1752357230);
@@ -3182,7 +3182,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class407.method6636(class683, 818018591);
 	    break;
 	case 475:
-	    Class504.method8317(class683, -369581323);
+	    BillBoardDefinitions.method8317(class683, -369581323);
 	    break;
 	case 518:
 	    Class36.method974(class683, 371266638);
@@ -3200,7 +3200,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class175.method2899(class683, 920533635);
 	    break;
 	case 1297:
-	    Class171.method2738(class683, 675361682);
+	    BillBoardConfig.method2738(class683, 675361682);
 	    break;
 	case 1221:
 	    Class453.method7357(class683, (short) 128);
@@ -3458,7 +3458,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class270.method5008(class683, -1577155793);
 	    break;
 	case 258:
-	    Class154.method2450(class683, -1954806677);
+	    MagnetConfig.method2450(class683, -1954806677);
 	    break;
 	case 37:
 	    Class61.method1369(class683, -1820069379);
@@ -3641,7 +3641,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class77.method1563(class683, 501271953);
 	    break;
 	case 1:
-	    Class210.method3926(class683, 1655131501);
+	    AnimationSkin.method3926(class683, 1655131501);
 	    break;
 	case 427:
 	    Class474.method7757(class683, 1603645401);
@@ -3776,7 +3776,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class411.method6674(class683, (byte) 38);
 	    break;
 	case 375:
-	    Class154.method2452(class683, 624484709);
+	    MagnetConfig.method2452(class683, 624484709);
 	    break;
 	case 618:
 	    Class74.method1551(class683, -1825015171);

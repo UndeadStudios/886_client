@@ -43,18 +43,18 @@ public class Class25
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  786349233);
 	    int i = (-1133521593
-		     * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
+		     * class525_sub15.aClass525_Sub38_Sub2_10546.index);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  525219499);
-	    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    class525_sub15.aClass525_Sub38_Sub2_10546.index
 		+= -1918967999;
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 		(anIntArray238, i,
 		 (-1133521593
-		  * class525_sub15.aClass525_Sub38_Sub2_10546.pos),
+		  * class525_sub15.aClass525_Sub38_Sub2_10546.index),
 		 (byte) 12);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i,
 		 -945510673);
 	    client.aClass96_11361.method1794(class525_sub15, (short) 17858);
@@ -131,18 +131,18 @@ public class Class25
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -2041388064);
 	    int i = (-1133521593
-		     * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
+		     * class525_sub15.aClass525_Sub38_Sub2_10546.index);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  -475516712);
-	    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    class525_sub15.aClass525_Sub38_Sub2_10546.index
 		+= -1918967999;
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 		(anIntArray238, i,
-		 (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		 (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593),
 		 (byte) 12);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i,
 		 (byte) 7);
 	    client.aClass96_11361.method1794(class525_sub15, (short) 6208);
@@ -159,7 +159,7 @@ public class Class25
 				    1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  1034518262);
-	    int i_2_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i_2_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			* -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  895049865);
@@ -171,15 +171,15 @@ public class Class25
 								  -872044330);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string_1_,
 								  106214042);
-	    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    class525_sub15.aClass525_Sub38_Sub2_10546.index
 		+= -1918967999;
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 		(anIntArray238, i_2_,
-		 (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		 (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593),
 		 (byte) 59);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i_2_,
 		 -348001134);
 	    client.aClass96_11361.method1794(class525_sub15, (short) 8127);
@@ -200,18 +200,18 @@ public class Class25
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -1957486486);
 	    int i = (-1133521593
-		     * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
+		     * class525_sub15.aClass525_Sub38_Sub2_10546.index);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  -1265742984);
-	    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    class525_sub15.aClass525_Sub38_Sub2_10546.index
 		+= -1918967999;
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 		(anIntArray238, i,
-		 (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		 (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593),
 		 (byte) 43);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i,
 		 (byte) 7);
 	    client.aClass96_11361.method1794(class525_sub15, (short) 24119);
@@ -228,7 +228,7 @@ public class Class25
 				    1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  1577181069);
-	    int i_5_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i_5_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			* -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  -677147167);
@@ -240,15 +240,15 @@ public class Class25
 								  -2100252607);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string_4_,
 								  -1169936461);
-	    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    class525_sub15.aClass525_Sub38_Sub2_10546.index
 		+= -1918967999;
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 		(anIntArray238, i_5_,
-		 (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		 (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593),
 		 (byte) -27);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i_5_,
 		 -615085786);
 	    client.aClass96_11361.method1794(class525_sub15, (short) 14051);
@@ -297,7 +297,7 @@ public class Class25
 				    1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  555450194);
-	    int i_8_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i_8_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			* -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  577268420);
@@ -309,15 +309,15 @@ public class Class25
 								  -217610831);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string_7_,
 								  -167616733);
-	    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    class525_sub15.aClass525_Sub38_Sub2_10546.index
 		+= -1918967999;
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 		(anIntArray238, i_8_,
-		 (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		 (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593),
 		 (byte) 8);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i_8_,
 		 -1918295067);
 	    client.aClass96_11361.method1794(class525_sub15, (short) 3762);
@@ -394,7 +394,7 @@ public class Class25
 				   Class38.aBigInteger324, (short) 29921);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16614
 	    (class525_sub38.buffer, 0,
-	     -1133521593 * class525_sub38.pos, 1704011139);
+	     -1133521593 * class525_sub38.index, 1704011139);
 	return is;
     }
     
@@ -470,7 +470,7 @@ public class Class25
 				   Class38.aBigInteger324, (short) 24664);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16614
 	    (class525_sub38.buffer, 0,
-	     -1133521593 * class525_sub38.pos, -282531712);
+	     -1133521593 * class525_sub38.index, -282531712);
 	return is;
     }
     
@@ -507,12 +507,12 @@ public class Class25
 	    boolean bool = false;
 	    for (;;) {
 		if (bool) {
-		    int i_18_ = class525_sub38.method16740((byte) -82);
+		    int i_18_ = class525_sub38.readUnsignedSmart((byte) -82);
 		    if (i_18_ == 0)
 			break;
 		    class525_sub38.readUnsignedByte(1990289863);
 		} else {
-		    int i_19_ = class525_sub38.method16740((byte) -114);
+		    int i_19_ = class525_sub38.readUnsignedSmart((byte) -114);
 		    if (i_19_ == 0)
 			break;
 		    i_17_ += i_19_ - 1;
@@ -523,8 +523,8 @@ public class Class25
 		    i_22_ >>= 2;
 		    int i_24_ = i_21_ + i;
 		    int i_25_ = i_9_ + i_20_;
-		    Class602 class602
-			= (Class602) class40_sub11.method76(i_15_, 1318851117);
+			ObjectDefinitions class602
+			= (ObjectDefinitions) class40_sub11.method76(i_15_, 1318851117);
 		    int i_26_;
 		    int i_27_;
 		    if ((i_23_ & 0x1) == 0) {

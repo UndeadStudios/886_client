@@ -76,7 +76,7 @@ public class Class654
 		    i = Class511.method8531(class350_sub1.aClass429_10201,
 					    19722651) >> 3;
 		    int i_1_ = 1024;
-		    i_0_ = (i_1_ * 3 - (Class308.method5449((class350_sub1
+		    i_0_ = (i_1_ * 3 - (SunDefinition.method5449((class350_sub1
 							     .aClass429_10201),
 							    701816993)
 					>> 3)) % (i_1_ * 2);
@@ -115,16 +115,16 @@ public class Class654
 				    1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -210636657);
-	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		     * -1133521593);
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-402101553);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16614
 		(class525_sub38.buffer, 0,
-		 class525_sub38.pos * -1133521593, 1291768592);
+		 class525_sub38.index * -1133521593, 1291768592);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
 		((-1133521593
-		  * class525_sub15.aClass525_Sub38_Sub2_10546.pos) - i,
+		  * class525_sub15.aClass525_Sub38_Sub2_10546.index) - i,
 		 (byte) 7);
 	    client.aClass96_11085.method1794(class525_sub15, (short) 11940);
 	    client.aBool11084 = true;
@@ -140,7 +140,7 @@ public class Class654
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  1911511796);
 	    int i = (-1133521593
-		     * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
+		     * class525_sub15.aClass525_Sub38_Sub2_10546.index);
 	    if (null != is && is.length != 0) {
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(1, -762740665);
@@ -188,7 +188,7 @@ public class Class654
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(0, -1094410225);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i,
 		 712679767);
 	    client.aClass96_11085.method1794(class525_sub15, (short) 29828);
@@ -341,7 +341,7 @@ public class Class654
 		    i = Class511.method8531(class350_sub1.aClass429_10201,
 					    19722651) >> 3;
 		    int i_6_ = 1024;
-		    i_5_ = (i_6_ * 3 - (Class308.method5449((class350_sub1
+		    i_5_ = (i_6_ * 3 - (SunDefinition.method5449((class350_sub1
 							     .aClass429_10201),
 							    -1867909518)
 					>> 3)) % (i_6_ * 2);
@@ -380,16 +380,16 @@ public class Class654
 				    1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -647638031);
-	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		     * -1133521593);
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-1536245487);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16614
 		(class525_sub38.buffer, 0,
-		 class525_sub38.pos * -1133521593, 1981626054);
+		 class525_sub38.index * -1133521593, 1981626054);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
 		((-1133521593
-		  * class525_sub15.aClass525_Sub38_Sub2_10546.pos) - i,
+		  * class525_sub15.aClass525_Sub38_Sub2_10546.index) - i,
 		 (byte) 7);
 	    client.aClass96_11085.method1794(class525_sub15, (short) 3623);
 	    client.aBool11084 = true;
@@ -405,7 +405,7 @@ public class Class654
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  1156708062);
 	    int i = (-1133521593
-		     * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
+		     * class525_sub15.aClass525_Sub38_Sub2_10546.index);
 	    if (null != is && is.length != 0) {
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(1, -452302271);
@@ -453,7 +453,7 @@ public class Class654
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(0, -279721718);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i,
 		 1144372038);
 	    client.aClass96_11085.method1794(class525_sub15, (short) 17633);

@@ -12,7 +12,7 @@ import com.jagex.twitchtv.TwitchEventResult;
 class Class566 implements Runnable
 {
     Class372_Sub2 this$0;
-    public static Class458 aClass458_7604;
+    public static JS5 aClass458_7604;
     public static Class40_Sub5 aClass40_Sub5_7605;
     
     public void method9468() {

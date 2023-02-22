@@ -152,7 +152,7 @@ public class Class533
     
     static int method8852
 	(Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2, int i) {
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (null != class299.anIntArray3323) {
 	    class299
 		= class299.method5386(Class532.aClass111_7170,

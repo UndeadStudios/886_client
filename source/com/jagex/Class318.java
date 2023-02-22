@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class318 implements Interface33
 {
-    Class458 aClass458_3505;
+    JS5 aClass458_3505;
     Class383 aClass383_3506;
     Class157 aClass157_3507;
     
@@ -73,7 +73,7 @@ public class Class318 implements Interface33
 					 1382955977);
     }
     
-    Class318(Class458 class458, Class383 class383) {
+    Class318(JS5 class458, Class383 class383) {
 	aClass458_3505 = class458;
 	aClass383_3506 = class383;
     }

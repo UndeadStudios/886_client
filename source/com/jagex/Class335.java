@@ -268,7 +268,7 @@ public class Class335 implements Runnable
 					  670355642);
 	    }
 	}
-	Class602.method9963((short) -12568);
+	ObjectDefinitions.method9963((short) -12568);
 	Class453_Sub3.aClass309_Sub1_10316.method5452(true, -54570806);
 	Class70.aBool787 = false;
 	Class525_Sub26.method16365((byte) -14);

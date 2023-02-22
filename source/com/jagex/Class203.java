@@ -7,7 +7,7 @@ import java.awt.Container;
 class Class203 implements Interface57
 {
     Class217 this$0;
-    static Class458 aClass458_2223;
+    static JS5 aClass458_2223;
     
     public void method359(Object object, float[] fs, Object[] objects) {
 	Class488 class488 = (Class488) object;

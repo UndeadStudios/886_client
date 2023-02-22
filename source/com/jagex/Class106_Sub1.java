@@ -403,7 +403,7 @@ public abstract class Class106_Sub1 extends Class106 implements Interface53
 	if (i_8_ != 0) {
 	    for (int i_9_ = 0; i_9_ < i_8_; i_9_++)
 		class525_sub38.buffer
-		    [class525_sub38.pos * -1133521593 + i_9_]
+		    [class525_sub38.index * -1133521593 + i_9_]
 		    = (byte) 0;
 	    Iterator iterator = iterable.iterator();
 	    while (iterator.hasNext()) {
@@ -411,10 +411,10 @@ public abstract class Class106_Sub1 extends Class106 implements Interface53
 		int i_10_ = interface76.method80();
 		int i_11_ = i_10_ / 8;
 		class525_sub38.buffer
-		    [-1133521593 * class525_sub38.pos + i_11_]
+		    [-1133521593 * class525_sub38.index + i_11_]
 		    |= 1 << (i_10_ & 0x7);
 	    }
-	    class525_sub38.pos += i_8_ * 339428471;
+	    class525_sub38.index += i_8_ * 339428471;
 	}
     }
 }

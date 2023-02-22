@@ -114,10 +114,10 @@ public abstract class Class603
 	class525_sub16_sub10.method18350((byte) 41);
     }
     
-    static Class525_Sub16_Sub6 method9982(Class458 class458, int i,
-					  byte i_3_) {
+    static Class525_Sub16_Sub6 method9982(JS5 class458, int i,
+                                          byte i_3_) {
 	RSBuffer class525_sub38
-	    = new RSBuffer(class458.method7476(0, i, 569520864));
-	return Class65.method1433(class525_sub38, i, 1094485096);
+	    = new RSBuffer(class458.getFile(0, i, 569520864));
+	return WorldTile.method1433(class525_sub38, i, 1094485096);
     }
 }

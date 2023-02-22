@@ -335,8 +335,8 @@ public class Class332_Sub1 extends Class332
 	aClass157_10009.method2478(i, i_58_, i_59_, i_60_);
     }
     
-    Class332_Sub1(Class458 class458, Class458 class458_61_,
-		  Class390_Sub1 class390_sub1) {
+    Class332_Sub1(JS5 class458, JS5 class458_61_,
+                  Class390_Sub1 class390_sub1) {
 	super(class458, class458_61_, (Class390) class390_sub1);
     }
     

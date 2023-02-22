@@ -43,8 +43,8 @@ public class Class684 implements Interface76
 	Interface62 interface62
 	    = (Interface62) class546.method8968(i, i_1_, i_2_, (byte) -83);
 	if (null != interface62) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   client.aClass507_11137.method8362((byte) -1)
 		       .method76(interface62.method406((byte) 1), 1069664765));
 	    int i_8_ = interface62.method413(1685598948) & 0x3;
@@ -103,8 +103,8 @@ public class Class684 implements Interface76
 						client.anInterface63_11091,
 						332483378);
 	if (null != interface62) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   client.aClass507_11137.method8362((byte) -1)
 		       .method76(interface62.method406((byte) 1), 495179081));
 	    int i_11_ = interface62.method413(1522289976) & 0x3;
@@ -128,8 +128,8 @@ public class Class684 implements Interface76
 	interface62
 	    = (Interface62) class546.method8974(i, i_1_, i_2_, (byte) 26);
 	if (interface62 != null) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   (client.aClass507_11137.method8362((byte) -1).method76
 		    (interface62.method406((byte) 1), -1981109221)));
 	    int i_14_ = interface62.method413(1824737591) & 0x3;

@@ -264,21 +264,21 @@ public class Class255 implements Interface41
 		RSBuffer class525_sub38_8_
 		    = (RSBuffer) aList2518.remove(0);
 		anInt2539
-		    -= (method190(class525_sub38_8_.pos * -1133521593)
+		    -= (method190(class525_sub38_8_.index * -1133521593)
 			/ method224());
 		int i_9_ = method283(i_7_);
 		int i_10_
-		    = (class525_sub38_8_.pos * -1133521593 < i_9_
-		       ? class525_sub38_8_.pos * -1133521593 : i_9_);
+		    = (class525_sub38_8_.index * -1133521593 < i_9_
+		       ? class525_sub38_8_.index * -1133521593 : i_9_);
 		class525_sub38.method16614(class525_sub38_8_.buffer,
 					   0, i_10_, -64988134);
 		i_7_ -= method190(i_10_);
-		int i_11_ = class525_sub38_8_.pos * -1133521593 - i_10_;
+		int i_11_ = class525_sub38_8_.index * -1133521593 - i_10_;
 		if (i_11_ != 0) {
 		    System.arraycopy(class525_sub38_8_.buffer, i_10_,
 				     class525_sub38_8_.buffer, 0,
 				     i_11_);
-		    class525_sub38_8_.pos = i_11_ * 339428471;
+		    class525_sub38_8_.index = i_11_ * 339428471;
 		    anInt2539 += method190(i_11_) / method224();
 		    aList2518.add(0, class525_sub38_8_);
 		} else
@@ -348,21 +348,21 @@ public class Class255 implements Interface41
     
     synchronized void method4560() {
 	int i = (aClass525_Sub38_2488 != null
-		 ? aClass525_Sub38_2488.pos * -1133521593 : 0);
+		 ? aClass525_Sub38_2488.index * -1133521593 : 0);
 	int i_17_ = 0;
 	Iterator iterator = aList2514.iterator();
 	while (iterator.hasNext()) {
 	    RSBuffer class525_sub38 = (RSBuffer) iterator.next();
-	    i_17_ += class525_sub38.pos * -1133521593;
+	    i_17_ += class525_sub38.index * -1133521593;
 	}
 	if (aClass525_Sub38_2488 != null) {
 	    if ((aClass525_Sub38_2488.buffer.length
-		 - aClass525_Sub38_2488.pos * -1133521593)
+		 - aClass525_Sub38_2488.index * -1133521593)
 		< i_17_) {
 		RSBuffer class525_sub38 = method4635(i_17_ + anInt2533);
 		class525_sub38.method16614((aClass525_Sub38_2488
 					    .buffer),
-					   (aClass525_Sub38_2488.pos
+					   (aClass525_Sub38_2488.index
 					    * -1133521593) - anInt2517,
 					   anInt2533, -473702377);
 		aClass525_Sub38_2488.method16627(538892312);
@@ -378,17 +378,17 @@ public class Class255 implements Interface41
 	while (iterator.hasNext()) {
 	    RSBuffer class525_sub38 = (RSBuffer) iterator.next();
 	    aClass525_Sub38_2488.method16614(class525_sub38.buffer, 0,
-					     (class525_sub38.pos
+					     (class525_sub38.index
 					      * -1133521593),
 					     1907983644);
-	    anInt2533 += class525_sub38.pos * -1133521593;
+	    anInt2533 += class525_sub38.index * -1133521593;
 	    class525_sub38.method16627(-679496242);
 	}
-	aClass525_Sub38_2488.pos = (i - anInt2517) * 339428471;
+	aClass525_Sub38_2488.index = (i - anInt2517) * 339428471;
 	anInt2517 = 0;
 	aList2514.clear();
 	while (aBool2513) {
-	    if (aClass525_Sub38_2488.pos * -1133521593
+	    if (aClass525_Sub38_2488.index * -1133521593
 		>= aClass525_Sub38_2488.buffer.length) {
 		aBool2513 = false;
 		break;
@@ -398,12 +398,12 @@ public class Class255 implements Interface41
 	    if (aClass525_Sub38_2488 == null || anInt2533 < 27) {
 		if (aClass525_Sub38_2488 != null) {
 		    anInt2517 = anInt2533;
-		    aClass525_Sub38_2488.pos += anInt2533 * 339428471;
+		    aClass525_Sub38_2488.index += anInt2533 * 339428471;
 		}
 		aBool2513 = false;
 		break;
 	    }
-	    int i_18_ = aClass525_Sub38_2488.pos * -1133521593;
+	    int i_18_ = aClass525_Sub38_2488.index * -1133521593;
 	    int i_19_ = 0;
 	    int i_20_ = 0;
 	    if (!method4564(aClass525_Sub38_2488))
@@ -422,15 +422,15 @@ public class Class255 implements Interface41
 		      << 16)
 		   | aClass525_Sub38_2488.readUnsignedByte(88253144) << 24);
 	    i_19_ = i_22_ - i_19_;
-	    aClass525_Sub38_2488.pos += 1135888240;
+	    aClass525_Sub38_2488.index += 1135888240;
 	    int i_23_ = aClass525_Sub38_2488.readUnsignedByte(1302512158);
-	    int i_24_ = aClass525_Sub38_2488.pos * -1133521593;
+	    int i_24_ = aClass525_Sub38_2488.index * -1133521593;
 	    int i_25_ = i_24_ + i_23_;
 	    if (i_25_ > i_18_ + anInt2533) {
-		aClass525_Sub38_2488.pos
+		aClass525_Sub38_2488.index
 		    = (i_18_ + anInt2533) * 339428471;
 		anInt2517
-		    = aClass525_Sub38_2488.pos * -1133521593 - i_18_;
+		    = aClass525_Sub38_2488.index * -1133521593 - i_18_;
 		aBool2513 = false;
 	    }
 	    int i_26_ = i_25_;
@@ -442,10 +442,10 @@ public class Class255 implements Interface41
 		    i_25_ += i_29_;
 		    i_27_ += i_29_;
 		    if (i_25_ > i_18_ + anInt2533) {
-			aClass525_Sub38_2488.pos
+			aClass525_Sub38_2488.index
 			    = (i_18_ + anInt2533) * 339428471;
 			anInt2517
-			    = (aClass525_Sub38_2488.pos * -1133521593
+			    = (aClass525_Sub38_2488.index * -1133521593
 			       - i_18_);
 			aBool2513 = false;
 			break;
@@ -609,7 +609,7 @@ public class Class255 implements Interface41
 				}
 				synchronized (aList2518) {
 				    anInt2539
-					+= (method190(class525_sub38.pos
+					+= (method190(class525_sub38.index
 						      * -1133521593)
 					    / method224());
 				    aList2518.add(class525_sub38);
@@ -632,7 +632,7 @@ public class Class255 implements Interface41
 			Object object = null;
 		    }
 		}
-		aClass525_Sub38_2488.pos = i_30_ * 339428471;
+		aClass525_Sub38_2488.index = i_30_ * 339428471;
 		anInt2533 -= i_30_ - i_18_;
 	    }
 	}
@@ -1658,21 +1658,21 @@ public class Class255 implements Interface41
     
     synchronized void method4594() {
 	int i = (aClass525_Sub38_2488 != null
-		 ? aClass525_Sub38_2488.pos * -1133521593 : 0);
+		 ? aClass525_Sub38_2488.index * -1133521593 : 0);
 	int i_197_ = 0;
 	Iterator iterator = aList2514.iterator();
 	while (iterator.hasNext()) {
 	    RSBuffer class525_sub38 = (RSBuffer) iterator.next();
-	    i_197_ += class525_sub38.pos * -1133521593;
+	    i_197_ += class525_sub38.index * -1133521593;
 	}
 	if (aClass525_Sub38_2488 != null) {
 	    if ((aClass525_Sub38_2488.buffer.length
-		 - aClass525_Sub38_2488.pos * -1133521593)
+		 - aClass525_Sub38_2488.index * -1133521593)
 		< i_197_) {
 		RSBuffer class525_sub38 = method4635(i_197_ + anInt2533);
 		class525_sub38.method16614((aClass525_Sub38_2488
 					    .buffer),
-					   (aClass525_Sub38_2488.pos
+					   (aClass525_Sub38_2488.index
 					    * -1133521593) - anInt2517,
 					   anInt2533, 2044347396);
 		aClass525_Sub38_2488.method16627(1629042252);
@@ -1688,17 +1688,17 @@ public class Class255 implements Interface41
 	while (iterator.hasNext()) {
 	    RSBuffer class525_sub38 = (RSBuffer) iterator.next();
 	    aClass525_Sub38_2488.method16614(class525_sub38.buffer, 0,
-					     (class525_sub38.pos
+					     (class525_sub38.index
 					      * -1133521593),
 					     1560755527);
-	    anInt2533 += class525_sub38.pos * -1133521593;
+	    anInt2533 += class525_sub38.index * -1133521593;
 	    class525_sub38.method16627(-183716293);
 	}
-	aClass525_Sub38_2488.pos = (i - anInt2517) * 339428471;
+	aClass525_Sub38_2488.index = (i - anInt2517) * 339428471;
 	anInt2517 = 0;
 	aList2514.clear();
 	while (aBool2513) {
-	    if (aClass525_Sub38_2488.pos * -1133521593
+	    if (aClass525_Sub38_2488.index * -1133521593
 		>= aClass525_Sub38_2488.buffer.length) {
 		aBool2513 = false;
 		break;
@@ -1708,12 +1708,12 @@ public class Class255 implements Interface41
 	    if (aClass525_Sub38_2488 == null || anInt2533 < 27) {
 		if (aClass525_Sub38_2488 != null) {
 		    anInt2517 = anInt2533;
-		    aClass525_Sub38_2488.pos += anInt2533 * 339428471;
+		    aClass525_Sub38_2488.index += anInt2533 * 339428471;
 		}
 		aBool2513 = false;
 		break;
 	    }
-	    int i_198_ = aClass525_Sub38_2488.pos * -1133521593;
+	    int i_198_ = aClass525_Sub38_2488.index * -1133521593;
 	    int i_199_ = 0;
 	    int i_200_ = 0;
 	    if (!method4564(aClass525_Sub38_2488))
@@ -1731,15 +1731,15 @@ public class Class255 implements Interface41
 		   | (aClass525_Sub38_2488.readUnsignedByte(232461125) & 0xff) << 16
 		   | aClass525_Sub38_2488.readUnsignedByte(878460582) << 24);
 	    i_199_ = i_202_ - i_199_;
-	    aClass525_Sub38_2488.pos += 1135888240;
+	    aClass525_Sub38_2488.index += 1135888240;
 	    int i_203_ = aClass525_Sub38_2488.readUnsignedByte(1408272149);
-	    int i_204_ = aClass525_Sub38_2488.pos * -1133521593;
+	    int i_204_ = aClass525_Sub38_2488.index * -1133521593;
 	    int i_205_ = i_204_ + i_203_;
 	    if (i_205_ > i_198_ + anInt2533) {
-		aClass525_Sub38_2488.pos
+		aClass525_Sub38_2488.index
 		    = (i_198_ + anInt2533) * 339428471;
 		anInt2517
-		    = aClass525_Sub38_2488.pos * -1133521593 - i_198_;
+		    = aClass525_Sub38_2488.index * -1133521593 - i_198_;
 		aBool2513 = false;
 	    }
 	    int i_206_ = i_205_;
@@ -1752,10 +1752,10 @@ public class Class255 implements Interface41
 		    i_205_ += i_209_;
 		    i_207_ += i_209_;
 		    if (i_205_ > i_198_ + anInt2533) {
-			aClass525_Sub38_2488.pos
+			aClass525_Sub38_2488.index
 			    = (i_198_ + anInt2533) * 339428471;
 			anInt2517
-			    = (aClass525_Sub38_2488.pos * -1133521593
+			    = (aClass525_Sub38_2488.index * -1133521593
 			       - i_198_);
 			aBool2513 = false;
 			break;
@@ -1919,7 +1919,7 @@ public class Class255 implements Interface41
 				}
 				synchronized (aList2518) {
 				    anInt2539
-					+= (method190(class525_sub38.pos
+					+= (method190(class525_sub38.index
 						      * -1133521593)
 					    / method224());
 				    aList2518.add(class525_sub38);
@@ -1942,7 +1942,7 @@ public class Class255 implements Interface41
 			Object object = null;
 		    }
 		}
-		aClass525_Sub38_2488.pos = i_210_ * 339428471;
+		aClass525_Sub38_2488.index = i_210_ * 339428471;
 		anInt2533 -= i_210_ - i_198_;
 	    }
 	}
@@ -3982,21 +3982,21 @@ public class Class255 implements Interface41
     
     synchronized void method4636() {
 	int i = (aClass525_Sub38_2488 != null
-		 ? aClass525_Sub38_2488.pos * -1133521593 : 0);
+		 ? aClass525_Sub38_2488.index * -1133521593 : 0);
 	int i_628_ = 0;
 	Iterator iterator = aList2514.iterator();
 	while (iterator.hasNext()) {
 	    RSBuffer class525_sub38 = (RSBuffer) iterator.next();
-	    i_628_ += class525_sub38.pos * -1133521593;
+	    i_628_ += class525_sub38.index * -1133521593;
 	}
 	if (aClass525_Sub38_2488 != null) {
 	    if ((aClass525_Sub38_2488.buffer.length
-		 - aClass525_Sub38_2488.pos * -1133521593)
+		 - aClass525_Sub38_2488.index * -1133521593)
 		< i_628_) {
 		RSBuffer class525_sub38 = method4635(i_628_ + anInt2533);
 		class525_sub38.method16614((aClass525_Sub38_2488
 					    .buffer),
-					   (aClass525_Sub38_2488.pos
+					   (aClass525_Sub38_2488.index
 					    * -1133521593) - anInt2517,
 					   anInt2533, -550759186);
 		aClass525_Sub38_2488.method16627(370263577);
@@ -4012,17 +4012,17 @@ public class Class255 implements Interface41
 	while (iterator.hasNext()) {
 	    RSBuffer class525_sub38 = (RSBuffer) iterator.next();
 	    aClass525_Sub38_2488.method16614(class525_sub38.buffer, 0,
-					     (class525_sub38.pos
+					     (class525_sub38.index
 					      * -1133521593),
 					     -12073188);
-	    anInt2533 += class525_sub38.pos * -1133521593;
+	    anInt2533 += class525_sub38.index * -1133521593;
 	    class525_sub38.method16627(1257106828);
 	}
-	aClass525_Sub38_2488.pos = (i - anInt2517) * 339428471;
+	aClass525_Sub38_2488.index = (i - anInt2517) * 339428471;
 	anInt2517 = 0;
 	aList2514.clear();
 	while (aBool2513) {
-	    if (aClass525_Sub38_2488.pos * -1133521593
+	    if (aClass525_Sub38_2488.index * -1133521593
 		>= aClass525_Sub38_2488.buffer.length) {
 		aBool2513 = false;
 		break;
@@ -4032,12 +4032,12 @@ public class Class255 implements Interface41
 	    if (aClass525_Sub38_2488 == null || anInt2533 < 27) {
 		if (aClass525_Sub38_2488 != null) {
 		    anInt2517 = anInt2533;
-		    aClass525_Sub38_2488.pos += anInt2533 * 339428471;
+		    aClass525_Sub38_2488.index += anInt2533 * 339428471;
 		}
 		aBool2513 = false;
 		break;
 	    }
-	    int i_629_ = aClass525_Sub38_2488.pos * -1133521593;
+	    int i_629_ = aClass525_Sub38_2488.index * -1133521593;
 	    int i_630_ = 0;
 	    int i_631_ = 0;
 	    if (!method4564(aClass525_Sub38_2488))
@@ -4055,15 +4055,15 @@ public class Class255 implements Interface41
 		   | (aClass525_Sub38_2488.readUnsignedByte(182517124) & 0xff) << 16
 		   | aClass525_Sub38_2488.readUnsignedByte(1493861857) << 24);
 	    i_630_ = i_633_ - i_630_;
-	    aClass525_Sub38_2488.pos += 1135888240;
+	    aClass525_Sub38_2488.index += 1135888240;
 	    int i_634_ = aClass525_Sub38_2488.readUnsignedByte(793149575);
-	    int i_635_ = aClass525_Sub38_2488.pos * -1133521593;
+	    int i_635_ = aClass525_Sub38_2488.index * -1133521593;
 	    int i_636_ = i_635_ + i_634_;
 	    if (i_636_ > i_629_ + anInt2533) {
-		aClass525_Sub38_2488.pos
+		aClass525_Sub38_2488.index
 		    = (i_629_ + anInt2533) * 339428471;
 		anInt2517
-		    = aClass525_Sub38_2488.pos * -1133521593 - i_629_;
+		    = aClass525_Sub38_2488.index * -1133521593 - i_629_;
 		aBool2513 = false;
 	    }
 	    int i_637_ = i_636_;
@@ -4076,10 +4076,10 @@ public class Class255 implements Interface41
 		    i_636_ += i_640_;
 		    i_638_ += i_640_;
 		    if (i_636_ > i_629_ + anInt2533) {
-			aClass525_Sub38_2488.pos
+			aClass525_Sub38_2488.index
 			    = (i_629_ + anInt2533) * 339428471;
 			anInt2517
-			    = (aClass525_Sub38_2488.pos * -1133521593
+			    = (aClass525_Sub38_2488.index * -1133521593
 			       - i_629_);
 			aBool2513 = false;
 			break;
@@ -4243,7 +4243,7 @@ public class Class255 implements Interface41
 				}
 				synchronized (aList2518) {
 				    anInt2539
-					+= (method190(class525_sub38.pos
+					+= (method190(class525_sub38.index
 						      * -1133521593)
 					    / method224());
 				    aList2518.add(class525_sub38);
@@ -4266,7 +4266,7 @@ public class Class255 implements Interface41
 			Object object = null;
 		    }
 		}
-		aClass525_Sub38_2488.pos = i_641_ * 339428471;
+		aClass525_Sub38_2488.index = i_641_ * 339428471;
 		anInt2533 -= i_641_ - i_629_;
 	    }
 	}
@@ -4527,21 +4527,21 @@ public class Class255 implements Interface41
     
     synchronized void method4647() {
 	int i = (aClass525_Sub38_2488 != null
-		 ? aClass525_Sub38_2488.pos * -1133521593 : 0);
+		 ? aClass525_Sub38_2488.index * -1133521593 : 0);
 	int i_692_ = 0;
 	Iterator iterator = aList2514.iterator();
 	while (iterator.hasNext()) {
 	    RSBuffer class525_sub38 = (RSBuffer) iterator.next();
-	    i_692_ += class525_sub38.pos * -1133521593;
+	    i_692_ += class525_sub38.index * -1133521593;
 	}
 	if (aClass525_Sub38_2488 != null) {
 	    if ((aClass525_Sub38_2488.buffer.length
-		 - aClass525_Sub38_2488.pos * -1133521593)
+		 - aClass525_Sub38_2488.index * -1133521593)
 		< i_692_) {
 		RSBuffer class525_sub38 = method4635(i_692_ + anInt2533);
 		class525_sub38.method16614((aClass525_Sub38_2488
 					    .buffer),
-					   (aClass525_Sub38_2488.pos
+					   (aClass525_Sub38_2488.index
 					    * -1133521593) - anInt2517,
 					   anInt2533, -323064323);
 		aClass525_Sub38_2488.method16627(-863955507);
@@ -4557,17 +4557,17 @@ public class Class255 implements Interface41
 	while (iterator.hasNext()) {
 	    RSBuffer class525_sub38 = (RSBuffer) iterator.next();
 	    aClass525_Sub38_2488.method16614(class525_sub38.buffer, 0,
-					     (class525_sub38.pos
+					     (class525_sub38.index
 					      * -1133521593),
 					     656952789);
-	    anInt2533 += class525_sub38.pos * -1133521593;
+	    anInt2533 += class525_sub38.index * -1133521593;
 	    class525_sub38.method16627(-1156314121);
 	}
-	aClass525_Sub38_2488.pos = (i - anInt2517) * 339428471;
+	aClass525_Sub38_2488.index = (i - anInt2517) * 339428471;
 	anInt2517 = 0;
 	aList2514.clear();
 	while (aBool2513) {
-	    if (aClass525_Sub38_2488.pos * -1133521593
+	    if (aClass525_Sub38_2488.index * -1133521593
 		>= aClass525_Sub38_2488.buffer.length) {
 		aBool2513 = false;
 		break;
@@ -4577,12 +4577,12 @@ public class Class255 implements Interface41
 	    if (aClass525_Sub38_2488 == null || anInt2533 < 27) {
 		if (aClass525_Sub38_2488 != null) {
 		    anInt2517 = anInt2533;
-		    aClass525_Sub38_2488.pos += anInt2533 * 339428471;
+		    aClass525_Sub38_2488.index += anInt2533 * 339428471;
 		}
 		aBool2513 = false;
 		break;
 	    }
-	    int i_693_ = aClass525_Sub38_2488.pos * -1133521593;
+	    int i_693_ = aClass525_Sub38_2488.index * -1133521593;
 	    int i_694_ = 0;
 	    int i_695_ = 0;
 	    if (!method4564(aClass525_Sub38_2488))
@@ -4601,15 +4601,15 @@ public class Class255 implements Interface41
 		      << 16)
 		   | aClass525_Sub38_2488.readUnsignedByte(1240328257) << 24);
 	    i_694_ = i_697_ - i_694_;
-	    aClass525_Sub38_2488.pos += 1135888240;
+	    aClass525_Sub38_2488.index += 1135888240;
 	    int i_698_ = aClass525_Sub38_2488.readUnsignedByte(1401435813);
-	    int i_699_ = aClass525_Sub38_2488.pos * -1133521593;
+	    int i_699_ = aClass525_Sub38_2488.index * -1133521593;
 	    int i_700_ = i_699_ + i_698_;
 	    if (i_700_ > i_693_ + anInt2533) {
-		aClass525_Sub38_2488.pos
+		aClass525_Sub38_2488.index
 		    = (i_693_ + anInt2533) * 339428471;
 		anInt2517
-		    = aClass525_Sub38_2488.pos * -1133521593 - i_693_;
+		    = aClass525_Sub38_2488.index * -1133521593 - i_693_;
 		aBool2513 = false;
 	    }
 	    int i_701_ = i_700_;
@@ -4622,10 +4622,10 @@ public class Class255 implements Interface41
 		    i_700_ += i_704_;
 		    i_702_ += i_704_;
 		    if (i_700_ > i_693_ + anInt2533) {
-			aClass525_Sub38_2488.pos
+			aClass525_Sub38_2488.index
 			    = (i_693_ + anInt2533) * 339428471;
 			anInt2517
-			    = (aClass525_Sub38_2488.pos * -1133521593
+			    = (aClass525_Sub38_2488.index * -1133521593
 			       - i_693_);
 			aBool2513 = false;
 			break;
@@ -4789,7 +4789,7 @@ public class Class255 implements Interface41
 				}
 				synchronized (aList2518) {
 				    anInt2539
-					+= (method190(class525_sub38.pos
+					+= (method190(class525_sub38.index
 						      * -1133521593)
 					    / method224());
 				    aList2518.add(class525_sub38);
@@ -4812,7 +4812,7 @@ public class Class255 implements Interface41
 			Object object = null;
 		    }
 		}
-		aClass525_Sub38_2488.pos = i_705_ * 339428471;
+		aClass525_Sub38_2488.index = i_705_ * 339428471;
 		anInt2533 -= i_705_ - i_693_;
 	    }
 	}

@@ -64,7 +64,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    anInt1496 = 0;
 		    int i_27_ = (Class381.anIntArray3929
-				 [Class504.method8313(aClass182_Sub2_1488
+				 [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 							  .method15168(i_25_),
 						      934189434) & 0xffff]);
 		    int i_28_
@@ -654,7 +654,85 @@ public class Class128
 				is[i++] = i_79_;
 			    while (--i_80_ > 0);
 			}
-		    } else if (!aBool1483) {
+		    } else if (aBool1483) {
+			if (i_80_ > 0) {
+			    do {
+				i_79_ = ((int) f_84_ & 0xff0000
+					 | (int) f_86_ & 0xff00
+					 | (int) f_88_ & 0xff);
+				f_84_ += f_85_;
+				f_86_ += f_87_;
+				f_88_ += f_89_;
+				int[] is_94_ = is;
+				int i_95_ = i++;
+				int i_96_ = i_79_;
+				int i_97_ = is_94_[i_95_];
+				int i_98_ = i_96_ + i_97_;
+				int i_99_
+				    = (i_96_ & 0xff00ff) + (i_97_ & 0xff00ff);
+				i_97_ = (i_99_ & 0x1000100) + (i_98_ - i_99_
+							       & 0x10000);
+				is_94_[i_95_] = (~0xffffff | i_98_ - i_97_
+						 | i_97_ - (i_97_ >>> 8));
+				int[] is_100_ = is;
+				i_98_ = i++;
+				i_99_ = i_79_;
+				int i_101_ = is_100_[i_98_];
+				int i_102_ = i_99_ + i_101_;
+				int i_103_
+				    = (i_99_ & 0xff00ff) + (i_101_ & 0xff00ff);
+				i_101_
+				    = (i_103_ & 0x1000100) + (i_102_ - i_103_
+							      & 0x10000);
+				is_100_[i_98_] = (~0xffffff | i_102_ - i_101_
+						  | i_101_ - (i_101_ >>> 8));
+				int[] is_104_ = is;
+				i_102_ = i++;
+				i_103_ = i_79_;
+				int i_105_ = is_104_[i_102_];
+				int i_106_ = i_103_ + i_105_;
+				int i_107_ = ((i_103_ & 0xff00ff)
+					      + (i_105_ & 0xff00ff));
+				i_105_
+				    = (i_107_ & 0x1000100) + (i_106_ - i_107_
+							      & 0x10000);
+				is_104_[i_102_] = (~0xffffff | i_106_ - i_105_
+						   | i_105_ - (i_105_ >>> 8));
+				int[] is_108_ = is;
+				i_106_ = i++;
+				i_107_ = i_79_;
+				int i_109_ = is_108_[i_106_];
+				int i_110_ = i_107_ + i_109_;
+				int i_111_ = ((i_107_ & 0xff00ff)
+					      + (i_109_ & 0xff00ff));
+				i_109_
+				    = (i_111_ & 0x1000100) + (i_110_ - i_111_
+							      & 0x10000);
+				is_108_[i_106_] = (~0xffffff | i_110_ - i_109_
+						   | i_109_ - (i_109_ >>> 8));
+			    } while (--i_80_ > 0);
+			}
+			i_80_ = i_82_ - i_81_ & 0x3;
+			if (i_80_ > 0) {
+			    i_79_ = ((int) f_84_ & 0xff0000
+				     | (int) f_86_ & 0xff00
+				     | (int) f_88_ & 0xff);
+			    do {
+				int[] is_112_ = is;
+				int i_113_ = i++;
+				int i_114_ = i_79_;
+				int i_115_ = is_112_[i_113_];
+				int i_116_ = i_114_ + i_115_;
+				int i_117_ = ((i_114_ & 0xff00ff)
+					      + (i_115_ & 0xff00ff));
+				i_115_
+				    = (i_117_ & 0x1000100) + (i_116_ - i_117_
+							      & 0x10000);
+				is_112_[i_113_] = (~0xffffff | i_116_ - i_115_
+						   | i_115_ - (i_115_ >>> 8));
+			    } while (--i_80_ > 0);
+			}
+		    } else {
 			int i_90_ = anInt1486;
 			int i_91_ = 256 - anInt1486;
 			if (i_80_ > 0) {
@@ -763,84 +841,6 @@ public class Class128
 					      & 0xff00ff)
 					   + ((i_93_ & 0xff00) * i_90_ >> 8
 					      & 0xff00));
-			    } while (--i_80_ > 0);
-			}
-		    } else {
-			if (i_80_ > 0) {
-			    do {
-				i_79_ = ((int) f_84_ & 0xff0000
-					 | (int) f_86_ & 0xff00
-					 | (int) f_88_ & 0xff);
-				f_84_ += f_85_;
-				f_86_ += f_87_;
-				f_88_ += f_89_;
-				int[] is_94_ = is;
-				int i_95_ = i++;
-				int i_96_ = i_79_;
-				int i_97_ = is_94_[i_95_];
-				int i_98_ = i_96_ + i_97_;
-				int i_99_
-				    = (i_96_ & 0xff00ff) + (i_97_ & 0xff00ff);
-				i_97_ = (i_99_ & 0x1000100) + (i_98_ - i_99_
-							       & 0x10000);
-				is_94_[i_95_] = (~0xffffff | i_98_ - i_97_
-						 | i_97_ - (i_97_ >>> 8));
-				int[] is_100_ = is;
-				i_98_ = i++;
-				i_99_ = i_79_;
-				int i_101_ = is_100_[i_98_];
-				int i_102_ = i_99_ + i_101_;
-				int i_103_
-				    = (i_99_ & 0xff00ff) + (i_101_ & 0xff00ff);
-				i_101_
-				    = (i_103_ & 0x1000100) + (i_102_ - i_103_
-							      & 0x10000);
-				is_100_[i_98_] = (~0xffffff | i_102_ - i_101_
-						  | i_101_ - (i_101_ >>> 8));
-				int[] is_104_ = is;
-				i_102_ = i++;
-				i_103_ = i_79_;
-				int i_105_ = is_104_[i_102_];
-				int i_106_ = i_103_ + i_105_;
-				int i_107_ = ((i_103_ & 0xff00ff)
-					      + (i_105_ & 0xff00ff));
-				i_105_
-				    = (i_107_ & 0x1000100) + (i_106_ - i_107_
-							      & 0x10000);
-				is_104_[i_102_] = (~0xffffff | i_106_ - i_105_
-						   | i_105_ - (i_105_ >>> 8));
-				int[] is_108_ = is;
-				i_106_ = i++;
-				i_107_ = i_79_;
-				int i_109_ = is_108_[i_106_];
-				int i_110_ = i_107_ + i_109_;
-				int i_111_ = ((i_107_ & 0xff00ff)
-					      + (i_109_ & 0xff00ff));
-				i_109_
-				    = (i_111_ & 0x1000100) + (i_110_ - i_111_
-							      & 0x10000);
-				is_108_[i_106_] = (~0xffffff | i_110_ - i_109_
-						   | i_109_ - (i_109_ >>> 8));
-			    } while (--i_80_ > 0);
-			}
-			i_80_ = i_82_ - i_81_ & 0x3;
-			if (i_80_ > 0) {
-			    i_79_ = ((int) f_84_ & 0xff0000
-				     | (int) f_86_ & 0xff00
-				     | (int) f_88_ & 0xff);
-			    do {
-				int[] is_112_ = is;
-				int i_113_ = i++;
-				int i_114_ = i_79_;
-				int i_115_ = is_112_[i_113_];
-				int i_116_ = i_114_ + i_115_;
-				int i_117_ = ((i_114_ & 0xff00ff)
-					      + (i_115_ & 0xff00ff));
-				i_115_
-				    = (i_117_ & 0x1000100) + (i_116_ - i_117_
-							      & 0x10000);
-				is_112_[i_113_] = (~0xffffff | i_116_ - i_115_
-						   | i_115_ - (i_115_ >>> 8));
 			    } while (--i_80_ > 0);
 			}
 		    }
@@ -4493,7 +4493,7 @@ public class Class128
 		    anInt1496 = 0;
 		    int i_527_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_525_),
 						1145553395) & 0xffff]);
 		    int i_528_
@@ -5122,7 +5122,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_616_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_603_),
 						1277226487) & 0xffff]);
 		    int i_617_
@@ -5154,7 +5154,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_618_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_605_),
 						368657169) & 0xffff]);
 		    int i_619_
@@ -5185,7 +5185,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_620_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_607_),
 						974931140) & 0xffff]);
 		    int i_621_
@@ -6436,7 +6436,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_790_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_777_),
 						880450066) & 0xffff]);
 		    int i_791_
@@ -6468,7 +6468,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_792_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_779_),
 						1481386754) & 0xffff]);
 		    int i_793_
@@ -6499,7 +6499,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_794_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_781_),
 						1433852443) & 0xffff]);
 		    int i_795_
@@ -11183,11 +11183,7 @@ public class Class128
 	 float f_1100_, float f_1101_, float f_1102_, float f_1103_,
 	 float f_1104_, int i, int i_1105_, int i_1106_, int i_1107_,
 	 float f_1108_, float f_1109_, float f_1110_, int i_1111_) {
-	if (!bool)
-	    method2256(false, bool_1086_, bool_1087_, f, f_1088_, f_1089_,
-		       f_1090_, f_1091_, f_1092_, f_1093_, f_1094_, f_1095_,
-		       0);
-	else {
+	if (bool) {
 	    int i_1112_ = i_1111_ & 0xffff;
 	    if (i_1112_ != anInt1502) {
 		anIntArray1481 = aClass182_Sub2_1488.method15165(i_1112_);
@@ -11197,7 +11193,7 @@ public class Class128
 		    anInt1496 = 0;
 		    int i_1113_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_1111_),
 						967860329) & 0xffff]);
 		    int i_1114_
@@ -11740,8 +11736,10 @@ public class Class128
 		    }
 		}
 	    }
+	} else method2256(false, bool_1086_, bool_1087_, f, f_1088_, f_1089_,
+		   f_1090_, f_1091_, f_1092_, f_1093_, f_1094_, f_1095_,
+		   0);
 	}
-    }
     
     final void method2270
 	(boolean bool, boolean bool_1164_, int[] is, int[] is_1165_, int i,
@@ -11814,7 +11812,38 @@ public class Class128
 		    } else
 			i_1201_ = (int) f_1177_;
 		    if (i_1201_ != 0) {
-			if (i_1201_ != 255) {
+			if (i_1201_ == 255) {
+			    int i_1207_
+				= (~0xffffff
+				   | ((int) (f_1179_ * (float) (i_1200_ >> 16
+								& 0xff)) << 8
+				      & 0xff0000)
+				   | ((int) (f_1181_
+					     * (float) (i_1200_ >> 8 & 0xff))
+				      & 0xff00)
+				   | (int) (f_1183_
+					    * (float) (i_1200_ & 0xff)) >> 8);
+			    if (f_1175_ != 0.0F) {
+				int i_1208_ = (int) (255.0F - f_1175_);
+				int i_1209_
+				    = ((((anInt1501 & 0xff00ff) * (int) f_1175_
+					 & ~0xff00ff)
+					| ((anInt1501 & 0xff00) * (int) f_1175_
+					   & 0xff0000))
+				       >>> 8);
+				i_1207_ = ((((i_1207_ & 0xff00ff) * i_1208_
+					     & ~0xff00ff)
+					    | ((i_1207_ & 0xff00) * i_1208_
+					       & 0xff0000))
+					   >>> 8) + i_1209_;
+			    }
+			    if (bool_1164_)
+				is[i] = i_1201_ << 24 | i_1207_;
+			    else
+				is[i] = i_1207_;
+			    if (bool)
+				aFloatArray1500[i] = f_1196_;
+			} else {
 			    int i_1202_
 				= (~0xffffff
 				   | ((int) (f_1179_ * (float) (i_1200_ >> 16
@@ -11854,39 +11883,8 @@ public class Class128
 				is[i] = i_1202_;
 			    if (bool)
 				aFloatArray1500[i] = f_1196_;
-			} else {
-			    int i_1207_
-				= (~0xffffff
-				   | ((int) (f_1179_ * (float) (i_1200_ >> 16
-								& 0xff)) << 8
-				      & 0xff0000)
-				   | ((int) (f_1181_
-					     * (float) (i_1200_ >> 8 & 0xff))
-				      & 0xff00)
-				   | (int) (f_1183_
-					    * (float) (i_1200_ & 0xff)) >> 8);
-			    if (f_1175_ != 0.0F) {
-				int i_1208_ = (int) (255.0F - f_1175_);
-				int i_1209_
-				    = ((((anInt1501 & 0xff00ff) * (int) f_1175_
-					 & ~0xff00ff)
-					| ((anInt1501 & 0xff00) * (int) f_1175_
-					   & 0xff0000))
-				       >>> 8);
-				i_1207_ = ((((i_1207_ & 0xff00ff) * i_1208_
-					     & ~0xff00ff)
-					    | ((i_1207_ & 0xff00) * i_1208_
-					       & 0xff0000))
-					   >>> 8) + i_1209_;
-			    }
-			    if (bool_1164_)
-				is[i] = i_1201_ << 24 | i_1207_;
-			    else
-				is[i] = i_1207_;
-			    if (bool)
-				aFloatArray1500[i] = f_1196_;
 			}
-		    }
+			}
 		}
 		i++;
 		f += f_1187_;
@@ -12319,7 +12317,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_1340_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_1327_),
 						197072557) & 0xffff]);
 		    int i_1341_
@@ -12352,7 +12350,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_1342_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_1329_),
 						932303970) & 0xffff]);
 		    int i_1343_
@@ -12384,7 +12382,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_1344_
 			= (Class381.anIntArray3929
-			   [Class504.method8313(aClass182_Sub2_1488
+			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
 						    .method15168(i_1331_),
 						520022431) & 0xffff]);
 		    int i_1345_

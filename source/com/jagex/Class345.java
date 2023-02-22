@@ -33,7 +33,7 @@ public class Class345
 	    if (i_0_ == 3)
 		class525_sub7 = new Class525_Sub7_Sub8(this);
 	    else if (1 == i_0_)
-		class525_sub7 = new Class525_Sub7_Sub13(this);
+		class525_sub7 = new EmitterConfig(this);
 	    else if (i_0_ == 13)
 		class525_sub7 = new Class525_Sub7_Sub14(this);
 	    else if (i_0_ == 4)
@@ -75,7 +75,7 @@ public class Class345
 	    if (i == 3)
 		class525_sub7 = new Class525_Sub7_Sub8(this);
 	    else if (1 == i)
-		class525_sub7 = new Class525_Sub7_Sub13(this);
+		class525_sub7 = new EmitterConfig(this);
 	    else if (i == 13)
 		class525_sub7 = new Class525_Sub7_Sub14(this);
 	    else if (i == 4)
@@ -135,7 +135,7 @@ public class Class345
 	    if (i == 3)
 		class525_sub7 = new Class525_Sub7_Sub8(this);
 	    else if (1 == i)
-		class525_sub7 = new Class525_Sub7_Sub13(this);
+		class525_sub7 = new EmitterConfig(this);
 	    else if (i == 13)
 		class525_sub7 = new Class525_Sub7_Sub14(this);
 	    else if (i == 4)

@@ -89,7 +89,7 @@ public class Class438
 	    Class26.aClass26_249
 		.method881(new Class432(Class427.aClass458_4806), (byte) 18);
 	    Class26.aClass26_265
-		.method881(new Class432(Class504.aClass458_5605), (byte) 26);
+		.method881(new Class432(BillBoardDefinitions.aClass458_5605), (byte) 26);
 	    Class26.aClass26_268.method881(new Class432(Class198_Sub15
 							.aClass458_9976),
 					   (byte) 88);
@@ -105,7 +105,7 @@ public class Class438
 	    Class26.aClass26_272
 		.method881(new Class432(Class276.aClass458_2875), (byte) 79);
 	    Class26.aClass26_260
-		.method881(new Class442(Class8.aClass458_136, 0), (byte) 110);
+		.method881(new Class442(ItemDefinitions.aClass458_136, 0), (byte) 110);
 	    for (int i = 0; i < aClass26Array4853.length; i++) {
 		if (aClass26Array4853[i].method879((short) 4814) == null)
 		    throw new RuntimeException();
@@ -217,7 +217,7 @@ public class Class438
 	    Class26.aClass26_249
 		.method881(new Class432(Class427.aClass458_4806), (byte) 24);
 	    Class26.aClass26_265
-		.method881(new Class432(Class504.aClass458_5605), (byte) 65);
+		.method881(new Class432(BillBoardDefinitions.aClass458_5605), (byte) 65);
 	    Class26.aClass26_268.method881(new Class432(Class198_Sub15
 							.aClass458_9976),
 					   (byte) 107);
@@ -233,7 +233,7 @@ public class Class438
 	    Class26.aClass26_272
 		.method881(new Class432(Class276.aClass458_2875), (byte) 81);
 	    Class26.aClass26_260
-		.method881(new Class442(Class8.aClass458_136, 0), (byte) 77);
+		.method881(new Class442(ItemDefinitions.aClass458_136, 0), (byte) 77);
 	    for (int i = 0; i < aClass26Array4853.length; i++) {
 		if (aClass26Array4853[i].method879((short) -3308) == null)
 		    throw new RuntimeException();
@@ -350,7 +350,7 @@ public class Class438
 	    Class26.aClass26_249
 		.method881(new Class432(Class427.aClass458_4806), (byte) 54);
 	    Class26.aClass26_265
-		.method881(new Class432(Class504.aClass458_5605), (byte) 54);
+		.method881(new Class432(BillBoardDefinitions.aClass458_5605), (byte) 54);
 	    Class26.aClass26_268.method881(new Class432(Class198_Sub15
 							.aClass458_9976),
 					   (byte) 10);
@@ -366,7 +366,7 @@ public class Class438
 	    Class26.aClass26_272
 		.method881(new Class432(Class276.aClass458_2875), (byte) 24);
 	    Class26.aClass26_260
-		.method881(new Class442(Class8.aClass458_136, 0), (byte) 77);
+		.method881(new Class442(ItemDefinitions.aClass458_136, 0), (byte) 77);
 	    for (int i = 0; i < aClass26Array4853.length; i++) {
 		if (aClass26Array4853[i].method879((short) 17318) == null)
 		    throw new RuntimeException();
@@ -478,7 +478,7 @@ public class Class438
 	    Class26.aClass26_249
 		.method881(new Class432(Class427.aClass458_4806), (byte) 90);
 	    Class26.aClass26_265
-		.method881(new Class432(Class504.aClass458_5605), (byte) 64);
+		.method881(new Class432(BillBoardDefinitions.aClass458_5605), (byte) 64);
 	    Class26.aClass26_268.method881(new Class432(Class198_Sub15
 							.aClass458_9976),
 					   (byte) 119);
@@ -494,7 +494,7 @@ public class Class438
 	    Class26.aClass26_272
 		.method881(new Class432(Class276.aClass458_2875), (byte) 63);
 	    Class26.aClass26_260
-		.method881(new Class442(Class8.aClass458_136, 0), (byte) 43);
+		.method881(new Class442(ItemDefinitions.aClass458_136, 0), (byte) 43);
 	    for (int i = 0; i < aClass26Array4853.length; i++) {
 		if (aClass26Array4853[i].method879((short) -2721) == null)
 		    throw new RuntimeException();
@@ -552,7 +552,7 @@ public class Class438
 		     [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i_32_, 340508412))
 	       .anInt72) * 1597162009;
     }
@@ -590,7 +590,7 @@ public class Class438
 	    if (Class700.anInt8779 * -174799205 == 3) {
 		Class689_Sub1.anInt11019 = i * 784259773;
 		Class64.anInt695 = -1054956469 * i_33_;
-		Class8.anInt137 = i_34_ * 786225157;
+		ItemDefinitions.anInt137 = i_34_ * 786225157;
 	    }
 	    Class76.method1559(746347971);
 	}

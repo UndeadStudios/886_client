@@ -20,12 +20,12 @@ public class Class180
 	return aClass166Array1920[i];
     }
     
-    public Class180(Class458 class458) {
+    public Class180(JS5 class458) {
 	anInt1919 = class458.method7487(0, 2058371176) * -1767884951;
 	aClass166Array1920 = new Class166[anInt1919 * 1909442777];
 	for (int i = 0; i < 1909442777 * anInt1919; i++) {
 	    RSBuffer class525_sub38
-		= new RSBuffer(class458.method7476(0, i, 786827373));
+		= new RSBuffer(class458.getFile(0, i, 786827373));
 	    if (class525_sub38.buffer == null)
 		aClass166Array1920[i] = null;
 	    else {
@@ -50,18 +50,18 @@ public class Class180
 								  585805413);
 	    int i_1_
 		= (-1133521593
-		   * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
+		   * class525_sub15.aClass525_Sub38_Sub2_10546.index);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  249411168);
-	    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    class525_sub15.aClass525_Sub38_Sub2_10546.index
 		+= -1918967999;
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 		(Class25.anIntArray238, i_1_,
 		 (-1133521593
-		  * class525_sub15.aClass525_Sub38_Sub2_10546.pos),
+		  * class525_sub15.aClass525_Sub38_Sub2_10546.index),
 		 (byte) -38);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i_1_,
 		 1435355172);
 	    client.aClass96_11361.method1794(class525_sub15, (short) 25248);

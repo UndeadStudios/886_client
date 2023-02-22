@@ -16,7 +16,7 @@ public class Class525_Sub7_Sub8 extends Class525_Sub7
     
     void method16120(RSBuffer class525_sub38) {
 	if (class525_sub38.readUnsignedByte(1819976937) != 255) {
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	    aLong11714 = (class525_sub38.method16603(-325007712)
 			  * -8659072939672960769L);
 	}
@@ -36,7 +36,7 @@ public class Class525_Sub7_Sub8 extends Class525_Sub7
     
     void method16121(RSBuffer class525_sub38) {
 	if (class525_sub38.readUnsignedByte(1776575877) != 255) {
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	    aLong11714 = (class525_sub38.method16603(-975313873)
 			  * -8659072939672960769L);
 	}
@@ -45,7 +45,7 @@ public class Class525_Sub7_Sub8 extends Class525_Sub7
     
     void method16122(RSBuffer class525_sub38) {
 	if (class525_sub38.readUnsignedByte(2141550251) != 255) {
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	    aLong11714 = (class525_sub38.method16603(-1090943789)
 			  * -8659072939672960769L);
 	}
@@ -59,7 +59,7 @@ public class Class525_Sub7_Sub8 extends Class525_Sub7
     
     void method16117(RSBuffer class525_sub38, int i) {
 	if (class525_sub38.readUnsignedByte(1745087254) != 255) {
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	    aLong11714 = (class525_sub38.method16603(-1272959880)
 			  * -8659072939672960769L);
 	}

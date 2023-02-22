@@ -118,7 +118,7 @@ public class Class236 implements Interface76
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i_4_, -1016236451))
 	       .anInt73) * 1345227511;
     }

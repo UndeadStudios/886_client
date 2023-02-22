@@ -165,7 +165,7 @@ public class Class381
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662];
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class210.method3922(i_11_, i_12_, false, -1179952119);
+	    = AnimationSkin.method3922(i_11_, i_12_, false, -1179952119);
     }
     
     static final void method6412(int i, byte i_13_) {
@@ -227,14 +227,14 @@ public class Class381
 		class704_sub3.method17403(-993175021);
 	    }
 	}
-	if ((client.aClass96_11085.aClass525_Sub38_Sub2_1168.pos
+	if ((client.aClass96_11085.aClass525_Sub38_Sub2_1168.index
 	     * -1133521593)
 	    != -1101265009 * client.aClass96_11085.anInt1173)
 	    throw new RuntimeException(new StringBuilder().append
 					   (-1133521593
 					    * (client.aClass96_11085
 					       .aClass525_Sub38_Sub2_1168
-					       .pos))
+					       .index))
 					   .append
 					   (" ").append
 					   (client.aClass96_11085.anInt1173

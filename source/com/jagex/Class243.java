@@ -82,7 +82,7 @@ public class Class243 implements Interface76
 	Class695.anInt8756 = i_6_ * -1998709043;
 	Class308_Sub1.anInt10142 = 796610051 * i_7_;
 	Class112.aClass173_1383 = null;
-	Class525_Sub7_Sub13.aClass173_11726 = null;
+	EmitterConfig.aClass173_11726 = null;
 	Class496.aClass173_5542 = null;
 	Class630.anInt8164 = 1287208457 * i_8_;
 	Class112.anInt1379 = 1464113235 * i_9_;

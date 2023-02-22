@@ -21,7 +21,7 @@ public class Class297
     static Class297 aClass297_3271;
     static Class297 aClass297_3272;
     int anInt3273;
-    public static Class458 aClass458_3274;
+    public static JS5 aClass458_3274;
     
     static {
 	aClass297_3260 = new Class297(1);

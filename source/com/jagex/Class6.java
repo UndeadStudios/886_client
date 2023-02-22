@@ -562,7 +562,7 @@ public final class Class6
 			/* empty */
 		    }
 		}
-	    } catch (Object object) {
+	  } catch (Exception object) {
 		if (null != class182) {
 		    try {
 			class182.method3134(-2071901308);

@@ -5,14 +5,14 @@ package com.jagex;
 
 public class Class316 implements Interface33
 {
-    Class458 aClass458_3490;
-    Class458 aClass458_3491;
+    JS5 aClass458_3490;
+    JS5 aClass458_3491;
     Class384 aClass384_3492;
     Class175 aClass175_3493;
     long aLong3494 = -593405761486258689L;
     int anInt3495;
     static int anInt3496;
-    public static Class458 aClass458_3497;
+    public static JS5 aClass458_3497;
     
     public boolean method213(int i) {
 	boolean bool = true;
@@ -143,7 +143,7 @@ public class Class316 implements Interface33
 				  (byte) 123);
     }
     
-    Class316(Class458 class458, Class458 class458_5_, Class384 class384) {
+    Class316(JS5 class458, JS5 class458_5_, Class384 class384) {
 	aClass458_3491 = class458;
 	aClass458_3490 = class458_5_;
 	aClass384_3492 = class384;

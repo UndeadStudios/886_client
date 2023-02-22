@@ -393,7 +393,7 @@ public class Class556_Sub1 extends Class556
 		anInt7476 = (int) aFloat7526 >> 1;
 		aByteArrayArrayArray7461
 		    = Class239.method4421(anInt7476, 88021415);
-		Class58.method1221(-1474174709);
+		ConfigEntry.method1221(-1474174709);
 		method9263();
 		Class447.aClass709_4900 = new Class709();
 		anInt7507 += (int) (Math.random() * 5.0) - 2;
@@ -1257,7 +1257,7 @@ public class Class556_Sub1 extends Class556
 		anInt7476 = (int) aFloat7526 >> 1;
 		aByteArrayArrayArray7461
 		    = Class239.method4421(anInt7476, 1275773507);
-		Class58.method1221(-1401564374);
+		ConfigEntry.method1221(-1401564374);
 		method9263();
 		Class447.aClass709_4900 = new Class709();
 		anInt7507 += (int) (Math.random() * 5.0) - 2;
@@ -1367,7 +1367,7 @@ public class Class556_Sub1 extends Class556
 	    aFloat7479 += (double) aFloat7479 / 30.0;
 	    if (aFloat7479 > aFloat7526)
 		aFloat7479 = aFloat7526;
-	    Class58.method1221(-89238181);
+	    ConfigEntry.method1221(-89238181);
 	    anInt7476 = (int) aFloat7526 >> 1;
 	    aByteArrayArrayArray7461
 		= Class239.method4421(anInt7476, 809971490);
@@ -1375,7 +1375,7 @@ public class Class556_Sub1 extends Class556
 	    aFloat7479 -= (double) aFloat7479 / 30.0;
 	    if (aFloat7479 < aFloat7526)
 		aFloat7479 = aFloat7526;
-	    Class58.method1221(-289773411);
+	    ConfigEntry.method1221(-289773411);
 	    anInt7476 = (int) aFloat7526 >> 1;
 	    aByteArrayArrayArray7461
 		= Class239.method4421(anInt7476, -1486565729);
@@ -1399,7 +1399,7 @@ public class Class556_Sub1 extends Class556
 		anInt10626 = -106402817;
 		anInt10627 = 107721765;
 	    }
-	    Class58.method1221(-23491707);
+	    ConfigEntry.method1221(-23491707);
 	}
 	Iterator iterator = aHashMap10646.entrySet().iterator();
 	while (iterator.hasNext()) {
@@ -1547,7 +1547,7 @@ public class Class556_Sub1 extends Class556
 	    aFloat7479 += (double) aFloat7479 / 30.0;
 	    if (aFloat7479 > aFloat7526)
 		aFloat7479 = aFloat7526;
-	    Class58.method1221(181986773);
+	    ConfigEntry.method1221(181986773);
 	    anInt7476 = (int) aFloat7526 >> 1;
 	    aByteArrayArrayArray7461
 		= Class239.method4421(anInt7476, -484528797);
@@ -1555,7 +1555,7 @@ public class Class556_Sub1 extends Class556
 	    aFloat7479 -= (double) aFloat7479 / 30.0;
 	    if (aFloat7479 < aFloat7526)
 		aFloat7479 = aFloat7526;
-	    Class58.method1221(-1802684680);
+	    ConfigEntry.method1221(-1802684680);
 	    anInt7476 = (int) aFloat7526 >> 1;
 	    aByteArrayArrayArray7461
 		= Class239.method4421(anInt7476, 1450863247);
@@ -1579,7 +1579,7 @@ public class Class556_Sub1 extends Class556
 		anInt10626 = -106402817;
 		anInt10627 = 107721765;
 	    }
-	    Class58.method1221(-238213691);
+	    ConfigEntry.method1221(-238213691);
 	}
 	Iterator iterator = aHashMap10646.entrySet().iterator();
 	while (iterator.hasNext()) {
@@ -1727,7 +1727,7 @@ public class Class556_Sub1 extends Class556
 	    aFloat7479 += (double) aFloat7479 / 30.0;
 	    if (aFloat7479 > aFloat7526)
 		aFloat7479 = aFloat7526;
-	    Class58.method1221(97208377);
+	    ConfigEntry.method1221(97208377);
 	    anInt7476 = (int) aFloat7526 >> 1;
 	    aByteArrayArrayArray7461
 		= Class239.method4421(anInt7476, 1459384176);
@@ -1735,7 +1735,7 @@ public class Class556_Sub1 extends Class556
 	    aFloat7479 -= (double) aFloat7479 / 30.0;
 	    if (aFloat7479 < aFloat7526)
 		aFloat7479 = aFloat7526;
-	    Class58.method1221(-1794575978);
+	    ConfigEntry.method1221(-1794575978);
 	    anInt7476 = (int) aFloat7526 >> 1;
 	    aByteArrayArrayArray7461
 		= Class239.method4421(anInt7476, -2029152115);
@@ -1759,7 +1759,7 @@ public class Class556_Sub1 extends Class556
 		anInt10626 = -106402817;
 		anInt10627 = 107721765;
 	    }
-	    Class58.method1221(358113308);
+	    ConfigEntry.method1221(358113308);
 	}
 	Iterator iterator = aHashMap10646.entrySet().iterator();
 	while (iterator.hasNext()) {
@@ -1907,7 +1907,7 @@ public class Class556_Sub1 extends Class556
 	    aFloat7479 += (double) aFloat7479 / 30.0;
 	    if (aFloat7479 > aFloat7526)
 		aFloat7479 = aFloat7526;
-	    Class58.method1221(-1639721865);
+	    ConfigEntry.method1221(-1639721865);
 	    anInt7476 = (int) aFloat7526 >> 1;
 	    aByteArrayArrayArray7461
 		= Class239.method4421(anInt7476, 360220097);
@@ -1915,7 +1915,7 @@ public class Class556_Sub1 extends Class556
 	    aFloat7479 -= (double) aFloat7479 / 30.0;
 	    if (aFloat7479 < aFloat7526)
 		aFloat7479 = aFloat7526;
-	    Class58.method1221(-1067764561);
+	    ConfigEntry.method1221(-1067764561);
 	    anInt7476 = (int) aFloat7526 >> 1;
 	    aByteArrayArrayArray7461
 		= Class239.method4421(anInt7476, 2074078285);
@@ -1939,7 +1939,7 @@ public class Class556_Sub1 extends Class556
 		anInt10626 = -106402817;
 		anInt10627 = 107721765;
 	    }
-	    Class58.method1221(-2100980820);
+	    ConfigEntry.method1221(-2100980820);
 	}
 	Iterator iterator = aHashMap10646.entrySet().iterator();
 	while (iterator.hasNext()) {
@@ -2309,7 +2309,7 @@ public class Class556_Sub1 extends Class556
 		anInt7476 = (int) aFloat7526 >> 1;
 		aByteArrayArrayArray7461
 		    = Class239.method4421(anInt7476, -2093291172);
-		Class58.method1221(-1021041371);
+		ConfigEntry.method1221(-1021041371);
 		method9263();
 		Class447.aClass709_4900 = new Class709();
 		anInt7507 += (int) (Math.random() * 5.0) - 2;
@@ -2442,14 +2442,14 @@ public class Class556_Sub1 extends Class556
 	Class144_Sub1.anInt9141 = i * -1716705553;
 	anInt10626 = -106402817;
 	anInt10627 = 107721765;
-	Class58.method1221(-1608559639);
+	ConfigEntry.method1221(-1608559639);
     }
     
     static void method16444(int i) {
 	Class696_Sub13.anInt10912 = i * -2002372447;
 	anInt10627 = 107721765;
 	anInt10627 = 107721765;
-	Class58.method1221(-1993730239);
+	ConfigEntry.method1221(-1993730239);
     }
     
     static final void method16445(Class182 class182, int i, int i_169_,
@@ -2549,7 +2549,7 @@ public class Class556_Sub1 extends Class556
 	Class696_Sub13.anInt10912 = i * -2002372447;
 	anInt10627 = 107721765;
 	anInt10627 = 107721765;
-	Class58.method1221(-1886579416);
+	ConfigEntry.method1221(-1886579416);
     }
     
     public static void method16447(int i) {
@@ -2618,7 +2618,7 @@ public class Class556_Sub1 extends Class556
 	    = (anInt7521 - anInt7521 * i_182_ / i_186_) * -2002372447;
 	anInt10626 = -106402817;
 	anInt10627 = 107721765;
-	Class58.method1221(-168306429);
+	ConfigEntry.method1221(-168306429);
     }
     
     static void method16451(int i, int i_187_, int i_188_, int i_189_) {
@@ -2636,7 +2636,7 @@ public class Class556_Sub1 extends Class556
 	    = (anInt7521 - anInt7521 * i_187_ / i_191_) * -2002372447;
 	anInt10626 = -106402817;
 	anInt10627 = 107721765;
-	Class58.method1221(498384422);
+	ConfigEntry.method1221(498384422);
     }
     
     static boolean method16452(Class182 class182,
@@ -2975,7 +2975,7 @@ public class Class556_Sub1 extends Class556
 	    = (anInt7521 - anInt7521 * i_222_ / i_226_) * -2002372447;
 	anInt10626 = -106402817;
 	anInt10627 = 107721765;
-	Class58.method1221(-80565881);
+	ConfigEntry.method1221(-80565881);
     }
     
     public static int method16454() {
@@ -3065,7 +3065,7 @@ public class Class556_Sub1 extends Class556
 	Class696_Sub13.anInt10912 = i * -2002372447;
 	anInt10627 = 107721765;
 	anInt10627 = 107721765;
-	Class58.method1221(-1012561447);
+	ConfigEntry.method1221(-1012561447);
     }
     
     public static void method16463(int i) {
@@ -3124,7 +3124,7 @@ public class Class556_Sub1 extends Class556
 	    = (anInt7521 - anInt7521 * i_227_ / i_231_) * -2002372447;
 	anInt10626 = -106402817;
 	anInt10627 = 107721765;
-	Class58.method1221(-834706697);
+	ConfigEntry.method1221(-834706697);
     }
     
     static void method16470(Class182 class182, int i, int i_232_, int i_233_,
@@ -3580,7 +3580,7 @@ public class Class556_Sub1 extends Class556
 	Class696_Sub13.anInt10912 = -2002372447 * (i_289_ - anInt7484);
 	anInt10626 = -106402817;
 	anInt10627 = 107721765;
-	Class58.method1221(-21237726);
+	ConfigEntry.method1221(-21237726);
     }
     
     public static void method16478(int i, int i_290_) {
@@ -3588,7 +3588,7 @@ public class Class556_Sub1 extends Class556
 	Class696_Sub13.anInt10912 = -2002372447 * (i_290_ - anInt7484);
 	anInt10626 = -106402817;
 	anInt10627 = 107721765;
-	Class58.method1221(322489580);
+	ConfigEntry.method1221(322489580);
     }
     
     public static boolean method16479(int i, boolean bool) {

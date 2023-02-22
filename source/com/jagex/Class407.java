@@ -166,14 +166,14 @@ public class Class407
 				    class96.aClass6_1169, 1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  2023234954);
-	    int i_1_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i_1_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			* -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  -794070272);
 	    Class404.method6606(class525_sub15.aClass525_Sub38_Sub2_10546,
 				string_0_, (byte) 4);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i_1_,
 		 -1789293938);
 	    class96.method1794(class525_sub15, (short) 20267);

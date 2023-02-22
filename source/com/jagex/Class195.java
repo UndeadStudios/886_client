@@ -32,8 +32,8 @@ public class Class195
 			[(class683.anInt8644 -= 1285561025) * 1373599041]);
 	if (-1 == i_1_)
 	    throw new RuntimeException();
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i_1_, 1561982184));
 	if (class65.aClass495_699.method80() != i_0_)
 	    throw new RuntimeException();

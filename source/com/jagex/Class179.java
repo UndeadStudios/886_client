@@ -315,14 +315,14 @@ public abstract class Class179
 	    if (!method2947())
 		method2940();
 	    else {
-		Class177 class177
+		AnimationFrame class177
 		    = class525_sub16_sub18.aClass177Array11874[i];
-		Class525_Sub14 class525_sub14 = class177.aClass525_Sub14_1891;
-		Class177 class177_92_ = null;
+		AnimationFrameBase class525_sub14 = class177.base;
+		AnimationFrame class177_92_ = null;
 		if (class525_sub16_sub18_87_ != null) {
 		    class177_92_
 			= class525_sub16_sub18_87_.aClass177Array11874[i_88_];
-		    if (class177_92_.aClass525_Sub14_1891 != class525_sub14)
+		    if (class177_92_.base != class525_sub14)
 			class177_92_ = null;
 		}
 		method2945(class525_sub14, class177, class177_92_, i_89_,
@@ -344,18 +344,18 @@ public abstract class Class179
 	    if (!method2947())
 		method2940();
 	    else {
-		Class177 class177
+		AnimationFrame class177
 		    = class525_sub16_sub18.aClass177Array11874[i];
-		Class525_Sub14 class525_sub14 = class177.aClass525_Sub14_1891;
-		for (int i_93_ = 0; i_93_ < class177.anInt1892; i_93_++) {
-		    short i_94_ = class177.aShortArray1893[i_93_];
+		AnimationFrameBase class525_sub14 = class177.base;
+		for (int i_93_ = 0; i_93_ < class177.transformationCount; i_93_++) {
+		    short i_94_ = class177.transformationIndices[i_93_];
 		    if (class525_sub14.aBoolArray10539[i_94_]) {
-			if (class177.aShortArray1885[i_93_] != -1)
+			if (class177.skippedRefrences[i_93_] != -1)
 			    method2950(0, 0, 0, 0);
-			method2950(class525_sub14.anIntArray10542[i_94_],
-				   class177.aShortArray1897[i_93_],
-				   class177.aShortArray1895[i_93_],
-				   class177.aShortArray1894[i_93_]);
+			method2950(class525_sub14.transformationTypes[i_94_],
+				   class177.transformationX[i_93_],
+				   class177.transformationY[i_93_],
+				   class177.transformationZ[i_93_]);
 		    }
 		}
 		method2942();
@@ -364,28 +364,28 @@ public abstract class Class179
 	}
     }
     
-    void method2945(Class525_Sub14 class525_sub14, Class177 class177,
-		    Class177 class177_95_, int i, int i_96_, int i_97_,
-		    boolean[] bools, boolean bool, boolean bool_98_, int i_99_,
-		    int[] is) {
+    void method2945(AnimationFrameBase class525_sub14, AnimationFrame class177,
+					AnimationFrame class177_95_, int i, int i_96_, int i_97_,
+					boolean[] bools, boolean bool, boolean bool_98_, int i_99_,
+					int[] is) {
 	if (class177_95_ == null || i == 0) {
-	    for (int i_100_ = 0; i_100_ < class177.anInt1892; i_100_++) {
-		short i_101_ = class177.aShortArray1893[i_100_];
+	    for (int i_100_ = 0; i_100_ < class177.transformationCount; i_100_++) {
+		short i_101_ = class177.transformationIndices[i_100_];
 		if (bools == null || bools[i_101_] == bool
-		    || class525_sub14.anIntArray10542[i_101_] == 0) {
-		    short i_102_ = class177.aShortArray1885[i_100_];
+		    || class525_sub14.transformationTypes[i_101_] == 0) {
+		    short i_102_ = class177.skippedRefrences[i_100_];
 		    if (i_102_ != -1)
 			method2987(0,
-				   class525_sub14.anIntArrayArray10540[i_102_],
+				   class525_sub14.labels[i_102_],
 				   0, 0, 0, i_97_, bool_98_,
 				   (i_99_
 				    & class525_sub14.anIntArray10545[i_102_]),
 				   is);
-		    method2987(class525_sub14.anIntArray10542[i_101_],
-			       class525_sub14.anIntArrayArray10540[i_101_],
-			       class177.aShortArray1897[i_100_],
-			       class177.aShortArray1895[i_100_],
-			       class177.aShortArray1894[i_100_], i_97_,
+		    method2987(class525_sub14.transformationTypes[i_101_],
+			       class525_sub14.labels[i_101_],
+			       class177.transformationX[i_100_],
+			       class177.transformationY[i_100_],
+			       class177.transformationZ[i_100_], i_97_,
 			       bool_98_,
 			       i_99_ & class525_sub14.anIntArray10545[i_101_],
 			       is);
@@ -395,25 +395,25 @@ public abstract class Class179
 	    int i_103_ = 0;
 	    int i_104_ = 0;
 	    for (int i_105_ = 0;
-		 i_105_ < class525_sub14.anInt10541 * -92709391; i_105_++) {
+			 i_105_ < class525_sub14.count * -92709391; i_105_++) {
 		boolean bool_106_ = false;
-		if (i_103_ < class177.anInt1892
-		    && class177.aShortArray1893[i_103_] == i_105_)
+		if (i_103_ < class177.transformationCount
+		    && class177.transformationIndices[i_103_] == i_105_)
 		    bool_106_ = true;
 		boolean bool_107_ = false;
-		if (i_104_ < class177_95_.anInt1892
-		    && class177_95_.aShortArray1893[i_104_] == i_105_)
+		if (i_104_ < class177_95_.transformationCount
+		    && class177_95_.transformationIndices[i_104_] == i_105_)
 		    bool_107_ = true;
 		if (bool_106_ || bool_107_) {
 		    if (bools != null && bools[i_105_] != bool
-			&& class525_sub14.anIntArray10542[i_105_] != 0) {
+			&& class525_sub14.transformationTypes[i_105_] != 0) {
 			if (bool_106_)
 			    i_103_++;
 			if (bool_107_)
 			    i_104_++;
 		    } else {
 			int i_108_ = 0;
-			int i_109_ = class525_sub14.anIntArray10542[i_105_];
+			int i_109_ = class525_sub14.transformationTypes[i_105_];
 			if (i_109_ == 3 || i_109_ == 10)
 			    i_108_ = 128;
 			int i_110_;
@@ -422,11 +422,11 @@ public abstract class Class179
 			short i_113_;
 			byte i_114_;
 			if (bool_106_) {
-			    i_110_ = class177.aShortArray1897[i_103_];
-			    i_111_ = class177.aShortArray1895[i_103_];
-			    i_112_ = class177.aShortArray1894[i_103_];
-			    i_113_ = class177.aShortArray1885[i_103_];
-			    i_114_ = class177.aByteArray1898[i_103_];
+			    i_110_ = class177.transformationX[i_103_];
+			    i_111_ = class177.transformationY[i_103_];
+			    i_112_ = class177.transformationZ[i_103_];
+			    i_113_ = class177.skippedRefrences[i_103_];
+			    i_114_ = class177.transformationFlags[i_103_];
 			    i_103_++;
 			} else {
 			    i_110_ = i_108_;
@@ -441,11 +441,11 @@ public abstract class Class179
 			short i_118_;
 			byte i_119_;
 			if (bool_107_) {
-			    i_115_ = class177_95_.aShortArray1897[i_104_];
-			    i_116_ = class177_95_.aShortArray1895[i_104_];
-			    i_117_ = class177_95_.aShortArray1894[i_104_];
-			    i_118_ = class177_95_.aShortArray1885[i_104_];
-			    i_119_ = class177_95_.aByteArray1898[i_104_];
+			    i_115_ = class177_95_.transformationX[i_104_];
+			    i_116_ = class177_95_.transformationY[i_104_];
+			    i_117_ = class177_95_.transformationZ[i_104_];
+			    i_118_ = class177_95_.skippedRefrences[i_104_];
+			    i_119_ = class177_95_.transformationFlags[i_104_];
 			    i_104_++;
 			} else {
 			    i_115_ = i_108_;
@@ -495,7 +495,7 @@ public abstract class Class179
 			}
 			if (i_113_ != -1)
 			    method2987(0,
-				       (class525_sub14.anIntArrayArray10540
+				       (class525_sub14.labels
 					[i_113_]),
 				       0, 0, 0, i_97_, bool_98_,
 				       i_99_ & (class525_sub14.anIntArray10545
@@ -503,14 +503,14 @@ public abstract class Class179
 				       is);
 			else if (i_118_ != -1)
 			    method2987(0,
-				       (class525_sub14.anIntArrayArray10540
+				       (class525_sub14.labels
 					[i_118_]),
 				       0, 0, 0, i_97_, bool_98_,
 				       i_99_ & (class525_sub14.anIntArray10545
 						[i_118_]),
 				       is);
 			method2987(i_109_,
-				   class525_sub14.anIntArrayArray10540[i_105_],
+				   class525_sub14.labels[i_105_],
 				   i_120_, i_121_, i_122_, i_97_, bool_98_,
 				   (i_99_
 				    & class525_sub14.anIntArray10545[i_105_]),
@@ -521,7 +521,7 @@ public abstract class Class179
 	}
     }
     
-    public abstract Class154[] method2946();
+    public abstract MagnetConfig[] method2946();
     
     abstract boolean method2947();
     
@@ -550,32 +550,32 @@ public abstract class Class179
 		if (!method2947())
 		    method2940();
 		else {
-		    Class177 class177
+		    AnimationFrame class177
 			= class525_sub16_sub18.aClass177Array11874[i];
-		    Class525_Sub14 class525_sub14
-			= class177.aClass525_Sub14_1891;
-		    Class177 class177_150_ = null;
+		    AnimationFrameBase class525_sub14
+			= class177.base;
+		    AnimationFrame class177_150_ = null;
 		    if (class525_sub16_sub18_140_ != null) {
 			class177_150_ = (class525_sub16_sub18_140_
 					 .aClass177Array11874[i_141_]);
-			if (class177_150_.aClass525_Sub14_1891
+			if (class177_150_.base
 			    != class525_sub14)
 			    class177_150_ = null;
 		    }
 		    method2945(class525_sub14, class177, class177_150_, i_142_,
 			       i_143_, 0, bools, false, bool, 65535, null);
-		    Class177 class177_151_ = (class525_sub16_sub18_144_
+		    AnimationFrame class177_151_ = (class525_sub16_sub18_144_
 					      .aClass177Array11874[i_145_]);
-		    Class177 class177_152_ = null;
+		    AnimationFrame class177_152_ = null;
 		    if (class525_sub16_sub18_146_ != null) {
 			class177_152_ = (class525_sub16_sub18_146_
 					 .aClass177Array11874[i_147_]);
-			if (class177_152_.aClass525_Sub14_1891
+			if (class177_152_.base
 			    != class525_sub14)
 			    class177_152_ = null;
 		    }
 		    method2948(0, new int[0], 0, 0, 0, 0, bool);
-		    method2945(class177_151_.aClass525_Sub14_1891,
+		    method2945(class177_151_.base,
 			       class177_151_, class177_152_, i_148_, i_149_, 0,
 			       bools, true, bool, 65535, null);
 		    method2942();
@@ -625,18 +625,18 @@ public abstract class Class179
 	    if (!method2947())
 		method2940();
 	    else {
-		Class177 class177
+		AnimationFrame class177
 		    = class525_sub16_sub18.aClass177Array11874[i];
-		Class525_Sub14 class525_sub14 = class177.aClass525_Sub14_1891;
-		for (int i_157_ = 0; i_157_ < class177.anInt1892; i_157_++) {
-		    short i_158_ = class177.aShortArray1893[i_157_];
+		AnimationFrameBase class525_sub14 = class177.base;
+		for (int i_157_ = 0; i_157_ < class177.transformationCount; i_157_++) {
+		    short i_158_ = class177.transformationIndices[i_157_];
 		    if (class525_sub14.aBoolArray10539[i_158_]) {
-			if (class177.aShortArray1885[i_157_] != -1)
+			if (class177.skippedRefrences[i_157_] != -1)
 			    method2950(0, 0, 0, 0);
-			method2950(class525_sub14.anIntArray10542[i_158_],
-				   class177.aShortArray1897[i_157_],
-				   class177.aShortArray1895[i_157_],
-				   class177.aShortArray1894[i_157_]);
+			method2950(class525_sub14.transformationTypes[i_158_],
+				   class177.transformationX[i_157_],
+				   class177.transformationY[i_157_],
+				   class177.transformationZ[i_157_]);
 		    }
 		}
 		method2942();
@@ -668,14 +668,14 @@ public abstract class Class179
 	    if (!method2947())
 		method2940();
 	    else {
-		Class177 class177
+		AnimationFrame class177
 		    = class525_sub16_sub18.aClass177Array11874[i];
-		Class525_Sub14 class525_sub14 = class177.aClass525_Sub14_1891;
-		Class177 class177_170_ = null;
+		AnimationFrameBase class525_sub14 = class177.base;
+		AnimationFrame class177_170_ = null;
 		if (class525_sub16_sub18_165_ != null) {
 		    class177_170_ = (class525_sub16_sub18_165_
 				     .aClass177Array11874[i_166_]);
-		    if (class177_170_.aClass525_Sub14_1891 != class525_sub14)
+		    if (class177_170_.base != class525_sub14)
 			class177_170_ = null;
 		}
 		method2945(class525_sub14, class177, class177_170_, i_167_,
@@ -686,13 +686,13 @@ public abstract class Class179
 	}
     }
     
-    Class207 method2976(Class186 class186, int[] is, int i) {
+    Class207 method2976(ModelDecoder class186, int[] is, int i) {
 	int[] is_171_ = null;
 	int[] is_172_ = null;
 	int[] is_173_ = null;
 	float[][] fs = null;
 	if (class186.aShortArray2122 != null) {
-	    int i_174_ = class186.anInt2116;
+	    int i_174_ = class186.texturedFaceCount;
 	    int[] is_175_ = new int[i_174_];
 	    int[] is_176_ = new int[i_174_];
 	    int[] is_177_ = new int[i_174_];
@@ -714,14 +714,14 @@ public abstract class Class179
 		    for (int i_185_ = 0; i_185_ < 3; i_185_++) {
 			short i_186_;
 			if (i_185_ == 0)
-			    i_186_ = class186.aShortArray2111[i_183_];
+			    i_186_ = class186.faceA[i_183_];
 			else if (i_185_ == 1)
-			    i_186_ = class186.aShortArray2100[i_183_];
+			    i_186_ = class186.faceB[i_183_];
 			else
-			    i_186_ = class186.aShortArray2101[i_183_];
-			int i_187_ = class186.anIntArray2089[i_186_];
-			int i_188_ = class186.anIntArray2090[i_186_];
-			int i_189_ = class186.anIntArray2108[i_186_];
+			    i_186_ = class186.faceC[i_183_];
+			int i_187_ = class186.vertexX[i_186_];
+			int i_188_ = class186.vertexY[i_186_];
+			int i_189_ = class186.vertexZ[i_186_];
 			if (i_187_ < is_175_[i_184_])
 			    is_175_[i_184_] = i_187_;
 			if (i_187_ > is_176_[i_184_])
@@ -742,7 +742,7 @@ public abstract class Class179
 	    is_173_ = new int[i_174_];
 	    fs = new float[i_174_][];
 	    for (int i_190_ = 0; i_190_ < i_174_; i_190_++) {
-		byte i_191_ = class186.aByteArray2117[i_190_];
+		byte i_191_ = class186.textureRenderTypes[i_190_];
 		if (i_191_ > 0) {
 		    is_171_[i_190_] = (is_175_[i_190_] + is_176_[i_190_]) / 2;
 		    is_172_[i_190_] = (is_177_[i_190_] + is_178_[i_190_]) / 2;
@@ -795,7 +795,7 @@ public abstract class Class179
     
     public abstract Class184[] method2979();
     
-    public abstract Class154[] method2980();
+    public abstract MagnetConfig[] method2980();
     
     public abstract boolean method2981();
     
@@ -809,14 +809,14 @@ public abstract class Class179
 	    if (!method2947())
 		method2940();
 	    else {
-		Class177 class177
+		AnimationFrame class177
 		    = class525_sub16_sub18.aClass177Array11874[i];
-		Class525_Sub14 class525_sub14 = class177.aClass525_Sub14_1891;
-		Class177 class177_201_ = null;
+		AnimationFrameBase class525_sub14 = class177.base;
+		AnimationFrame class177_201_ = null;
 		if (class525_sub16_sub18_195_ != null) {
 		    class177_201_ = (class525_sub16_sub18_195_
 				     .aClass177Array11874[i_196_]);
-		    if (class177_201_.aClass525_Sub14_1891 != class525_sub14)
+		    if (class177_201_.base != class525_sub14)
 			class177_201_ = null;
 		}
 		method2945(class525_sub14, class177, class177_201_, i_197_,
@@ -1042,13 +1042,13 @@ public abstract class Class179
     
     public abstract int method3030();
     
-    Class207 method3031(Class186 class186, int[] is, int i) {
+    Class207 method3031(ModelDecoder class186, int[] is, int i) {
 	int[] is_269_ = null;
 	int[] is_270_ = null;
 	int[] is_271_ = null;
 	float[][] fs = null;
 	if (class186.aShortArray2122 != null) {
-	    int i_272_ = class186.anInt2116;
+	    int i_272_ = class186.texturedFaceCount;
 	    int[] is_273_ = new int[i_272_];
 	    int[] is_274_ = new int[i_272_];
 	    int[] is_275_ = new int[i_272_];
@@ -1070,14 +1070,14 @@ public abstract class Class179
 		    for (int i_283_ = 0; i_283_ < 3; i_283_++) {
 			short i_284_;
 			if (i_283_ == 0)
-			    i_284_ = class186.aShortArray2111[i_281_];
+			    i_284_ = class186.faceA[i_281_];
 			else if (i_283_ == 1)
-			    i_284_ = class186.aShortArray2100[i_281_];
+			    i_284_ = class186.faceB[i_281_];
 			else
-			    i_284_ = class186.aShortArray2101[i_281_];
-			int i_285_ = class186.anIntArray2089[i_284_];
-			int i_286_ = class186.anIntArray2090[i_284_];
-			int i_287_ = class186.anIntArray2108[i_284_];
+			    i_284_ = class186.faceC[i_281_];
+			int i_285_ = class186.vertexX[i_284_];
+			int i_286_ = class186.vertexY[i_284_];
+			int i_287_ = class186.vertexZ[i_284_];
 			if (i_285_ < is_273_[i_282_])
 			    is_273_[i_282_] = i_285_;
 			if (i_285_ > is_274_[i_282_])
@@ -1098,7 +1098,7 @@ public abstract class Class179
 	    is_271_ = new int[i_272_];
 	    fs = new float[i_272_][];
 	    for (int i_288_ = 0; i_288_ < i_272_; i_288_++) {
-		byte i_289_ = class186.aByteArray2117[i_288_];
+		byte i_289_ = class186.textureRenderTypes[i_288_];
 		if (i_289_ > 0) {
 		    is_269_[i_288_] = (is_273_[i_288_] + is_274_[i_288_]) / 2;
 		    is_270_[i_288_] = (is_275_[i_288_] + is_276_[i_288_]) / 2;
@@ -1208,14 +1208,14 @@ public abstract class Class179
 	    if (!method2947())
 		method2940();
 	    else {
-		Class177 class177
+		AnimationFrame class177
 		    = class525_sub16_sub18.aClass177Array11874[i];
-		Class525_Sub14 class525_sub14 = class177.aClass525_Sub14_1891;
-		Class177 class177_314_ = null;
+		AnimationFrameBase class525_sub14 = class177.base;
+		AnimationFrame class177_314_ = null;
 		if (class525_sub16_sub18_308_ != null) {
 		    class177_314_ = (class525_sub16_sub18_308_
 				     .aClass177Array11874[i_309_]);
-		    if (class177_314_.aClass525_Sub14_1891 != class525_sub14)
+		    if (class177_314_.base != class525_sub14)
 			class177_314_ = null;
 		}
 		method2945(class525_sub14, class177, class177_314_, i_310_,
@@ -1326,28 +1326,28 @@ public abstract class Class179
     
     public abstract void method3056(byte i, byte[] is);
     
-    void method3057(Class525_Sub14 class525_sub14, Class177 class177,
-		    Class177 class177_330_, int i, int i_331_, int i_332_,
-		    boolean[] bools, boolean bool, boolean bool_333_,
-		    int i_334_, int[] is) {
+    void method3057(AnimationFrameBase class525_sub14, AnimationFrame class177,
+					AnimationFrame class177_330_, int i, int i_331_, int i_332_,
+					boolean[] bools, boolean bool, boolean bool_333_,
+					int i_334_, int[] is) {
 	if (class177_330_ == null || i == 0) {
-	    for (int i_335_ = 0; i_335_ < class177.anInt1892; i_335_++) {
-		short i_336_ = class177.aShortArray1893[i_335_];
+	    for (int i_335_ = 0; i_335_ < class177.transformationCount; i_335_++) {
+		short i_336_ = class177.transformationIndices[i_335_];
 		if (bools == null || bools[i_336_] == bool
-		    || class525_sub14.anIntArray10542[i_336_] == 0) {
-		    short i_337_ = class177.aShortArray1885[i_335_];
+		    || class525_sub14.transformationTypes[i_336_] == 0) {
+		    short i_337_ = class177.skippedRefrences[i_335_];
 		    if (i_337_ != -1)
 			method2987(0,
-				   class525_sub14.anIntArrayArray10540[i_337_],
+				   class525_sub14.labels[i_337_],
 				   0, 0, 0, i_332_, bool_333_,
 				   (i_334_
 				    & class525_sub14.anIntArray10545[i_337_]),
 				   is);
-		    method2987(class525_sub14.anIntArray10542[i_336_],
-			       class525_sub14.anIntArrayArray10540[i_336_],
-			       class177.aShortArray1897[i_335_],
-			       class177.aShortArray1895[i_335_],
-			       class177.aShortArray1894[i_335_], i_332_,
+		    method2987(class525_sub14.transformationTypes[i_336_],
+			       class525_sub14.labels[i_336_],
+			       class177.transformationX[i_335_],
+			       class177.transformationY[i_335_],
+			       class177.transformationZ[i_335_], i_332_,
 			       bool_333_,
 			       i_334_ & class525_sub14.anIntArray10545[i_336_],
 			       is);
@@ -1357,25 +1357,25 @@ public abstract class Class179
 	    int i_338_ = 0;
 	    int i_339_ = 0;
 	    for (int i_340_ = 0;
-		 i_340_ < class525_sub14.anInt10541 * -92709391; i_340_++) {
+			 i_340_ < class525_sub14.count * -92709391; i_340_++) {
 		boolean bool_341_ = false;
-		if (i_338_ < class177.anInt1892
-		    && class177.aShortArray1893[i_338_] == i_340_)
+		if (i_338_ < class177.transformationCount
+		    && class177.transformationIndices[i_338_] == i_340_)
 		    bool_341_ = true;
 		boolean bool_342_ = false;
-		if (i_339_ < class177_330_.anInt1892
-		    && class177_330_.aShortArray1893[i_339_] == i_340_)
+		if (i_339_ < class177_330_.transformationCount
+		    && class177_330_.transformationIndices[i_339_] == i_340_)
 		    bool_342_ = true;
 		if (bool_341_ || bool_342_) {
 		    if (bools != null && bools[i_340_] != bool
-			&& class525_sub14.anIntArray10542[i_340_] != 0) {
+			&& class525_sub14.transformationTypes[i_340_] != 0) {
 			if (bool_341_)
 			    i_338_++;
 			if (bool_342_)
 			    i_339_++;
 		    } else {
 			int i_343_ = 0;
-			int i_344_ = class525_sub14.anIntArray10542[i_340_];
+			int i_344_ = class525_sub14.transformationTypes[i_340_];
 			if (i_344_ == 3 || i_344_ == 10)
 			    i_343_ = 128;
 			int i_345_;
@@ -1384,11 +1384,11 @@ public abstract class Class179
 			short i_348_;
 			byte i_349_;
 			if (bool_341_) {
-			    i_345_ = class177.aShortArray1897[i_338_];
-			    i_346_ = class177.aShortArray1895[i_338_];
-			    i_347_ = class177.aShortArray1894[i_338_];
-			    i_348_ = class177.aShortArray1885[i_338_];
-			    i_349_ = class177.aByteArray1898[i_338_];
+			    i_345_ = class177.transformationX[i_338_];
+			    i_346_ = class177.transformationY[i_338_];
+			    i_347_ = class177.transformationZ[i_338_];
+			    i_348_ = class177.skippedRefrences[i_338_];
+			    i_349_ = class177.transformationFlags[i_338_];
 			    i_338_++;
 			} else {
 			    i_345_ = i_343_;
@@ -1403,11 +1403,11 @@ public abstract class Class179
 			short i_353_;
 			byte i_354_;
 			if (bool_342_) {
-			    i_350_ = class177_330_.aShortArray1897[i_339_];
-			    i_351_ = class177_330_.aShortArray1895[i_339_];
-			    i_352_ = class177_330_.aShortArray1894[i_339_];
-			    i_353_ = class177_330_.aShortArray1885[i_339_];
-			    i_354_ = class177_330_.aByteArray1898[i_339_];
+			    i_350_ = class177_330_.transformationX[i_339_];
+			    i_351_ = class177_330_.transformationY[i_339_];
+			    i_352_ = class177_330_.transformationZ[i_339_];
+			    i_353_ = class177_330_.skippedRefrences[i_339_];
+			    i_354_ = class177_330_.transformationFlags[i_339_];
 			    i_339_++;
 			} else {
 			    i_350_ = i_343_;
@@ -1457,7 +1457,7 @@ public abstract class Class179
 			}
 			if (i_348_ != -1)
 			    method2987(0,
-				       (class525_sub14.anIntArrayArray10540
+				       (class525_sub14.labels
 					[i_348_]),
 				       0, 0, 0, i_332_, bool_333_,
 				       i_334_ & (class525_sub14.anIntArray10545
@@ -1465,14 +1465,14 @@ public abstract class Class179
 				       is);
 			else if (i_353_ != -1)
 			    method2987(0,
-				       (class525_sub14.anIntArrayArray10540
+				       (class525_sub14.labels
 					[i_353_]),
 				       0, 0, 0, i_332_, bool_333_,
 				       i_334_ & (class525_sub14.anIntArray10545
 						 [i_353_]),
 				       is);
 			method2987(i_344_,
-				   class525_sub14.anIntArrayArray10540[i_340_],
+				   class525_sub14.labels[i_340_],
 				   i_355_, i_356_, i_357_, i_332_, bool_333_,
 				   (i_334_
 				    & class525_sub14.anIntArray10545[i_340_]),
@@ -1494,9 +1494,9 @@ public abstract class Class179
     
     public abstract void method3062(int i);
     
-    public abstract Class154[] method3063();
+    public abstract MagnetConfig[] method3063();
     
-    public abstract Class154[] method3064();
+    public abstract MagnetConfig[] method3064();
     
     public abstract int method3065();
     
@@ -1574,7 +1574,7 @@ public abstract class Class179
     
     public abstract void method3084(int i);
     
-    public abstract Class154[] method3085();
+    public abstract MagnetConfig[] method3085();
     
     static void method3086(int i, int i_392_, int i_393_, int i_394_,
 			   int i_395_, int i_396_, float[] fs, int i_397_,
@@ -1819,13 +1819,13 @@ public abstract class Class179
     
     public abstract void method3095(int i);
     
-    Class207 method3096(Class186 class186, int[] is, int i) {
+    Class207 method3096(ModelDecoder class186, int[] is, int i) {
 	int[] is_484_ = null;
 	int[] is_485_ = null;
 	int[] is_486_ = null;
 	float[][] fs = null;
 	if (class186.aShortArray2122 != null) {
-	    int i_487_ = class186.anInt2116;
+	    int i_487_ = class186.texturedFaceCount;
 	    int[] is_488_ = new int[i_487_];
 	    int[] is_489_ = new int[i_487_];
 	    int[] is_490_ = new int[i_487_];
@@ -1847,14 +1847,14 @@ public abstract class Class179
 		    for (int i_498_ = 0; i_498_ < 3; i_498_++) {
 			short i_499_;
 			if (i_498_ == 0)
-			    i_499_ = class186.aShortArray2111[i_496_];
+			    i_499_ = class186.faceA[i_496_];
 			else if (i_498_ == 1)
-			    i_499_ = class186.aShortArray2100[i_496_];
+			    i_499_ = class186.faceB[i_496_];
 			else
-			    i_499_ = class186.aShortArray2101[i_496_];
-			int i_500_ = class186.anIntArray2089[i_499_];
-			int i_501_ = class186.anIntArray2090[i_499_];
-			int i_502_ = class186.anIntArray2108[i_499_];
+			    i_499_ = class186.faceC[i_496_];
+			int i_500_ = class186.vertexX[i_499_];
+			int i_501_ = class186.vertexY[i_499_];
+			int i_502_ = class186.vertexZ[i_499_];
 			if (i_500_ < is_488_[i_497_])
 			    is_488_[i_497_] = i_500_;
 			if (i_500_ > is_489_[i_497_])
@@ -1875,7 +1875,7 @@ public abstract class Class179
 	    is_486_ = new int[i_487_];
 	    fs = new float[i_487_][];
 	    for (int i_503_ = 0; i_503_ < i_487_; i_503_++) {
-		byte i_504_ = class186.aByteArray2117[i_503_];
+		byte i_504_ = class186.textureRenderTypes[i_503_];
 		if (i_504_ > 0) {
 		    is_484_[i_503_] = (is_488_[i_503_] + is_489_[i_503_]) / 2;
 		    is_485_[i_503_] = (is_490_[i_503_] + is_491_[i_503_]) / 2;
@@ -1924,13 +1924,13 @@ public abstract class Class179
     
     public abstract void method3097(byte i, byte[] is);
     
-    Class207 method3098(Class186 class186, int[] is, int i) {
+    Class207 method3098(ModelDecoder class186, int[] is, int i) {
 	int[] is_508_ = null;
 	int[] is_509_ = null;
 	int[] is_510_ = null;
 	float[][] fs = null;
 	if (class186.aShortArray2122 != null) {
-	    int i_511_ = class186.anInt2116;
+	    int i_511_ = class186.texturedFaceCount;
 	    int[] is_512_ = new int[i_511_];
 	    int[] is_513_ = new int[i_511_];
 	    int[] is_514_ = new int[i_511_];
@@ -1952,14 +1952,14 @@ public abstract class Class179
 		    for (int i_522_ = 0; i_522_ < 3; i_522_++) {
 			short i_523_;
 			if (i_522_ == 0)
-			    i_523_ = class186.aShortArray2111[i_520_];
+			    i_523_ = class186.faceA[i_520_];
 			else if (i_522_ == 1)
-			    i_523_ = class186.aShortArray2100[i_520_];
+			    i_523_ = class186.faceB[i_520_];
 			else
-			    i_523_ = class186.aShortArray2101[i_520_];
-			int i_524_ = class186.anIntArray2089[i_523_];
-			int i_525_ = class186.anIntArray2090[i_523_];
-			int i_526_ = class186.anIntArray2108[i_523_];
+			    i_523_ = class186.faceC[i_520_];
+			int i_524_ = class186.vertexX[i_523_];
+			int i_525_ = class186.vertexY[i_523_];
+			int i_526_ = class186.vertexZ[i_523_];
 			if (i_524_ < is_512_[i_521_])
 			    is_512_[i_521_] = i_524_;
 			if (i_524_ > is_513_[i_521_])
@@ -1980,7 +1980,7 @@ public abstract class Class179
 	    is_510_ = new int[i_511_];
 	    fs = new float[i_511_][];
 	    for (int i_527_ = 0; i_527_ < i_511_; i_527_++) {
-		byte i_528_ = class186.aByteArray2117[i_527_];
+		byte i_528_ = class186.textureRenderTypes[i_527_];
 		if (i_528_ > 0) {
 		    is_508_[i_527_] = (is_512_[i_527_] + is_513_[i_527_]) / 2;
 		    is_509_[i_527_] = (is_514_[i_527_] + is_515_[i_527_]) / 2;
@@ -2027,13 +2027,13 @@ public abstract class Class179
 	return new Class207(this, is_508_, is_509_, is_510_, fs);
     }
     
-    Class207 method3099(Class186 class186, int[] is, int i) {
+    Class207 method3099(ModelDecoder class186, int[] is, int i) {
 	int[] is_532_ = null;
 	int[] is_533_ = null;
 	int[] is_534_ = null;
 	float[][] fs = null;
 	if (class186.aShortArray2122 != null) {
-	    int i_535_ = class186.anInt2116;
+	    int i_535_ = class186.texturedFaceCount;
 	    int[] is_536_ = new int[i_535_];
 	    int[] is_537_ = new int[i_535_];
 	    int[] is_538_ = new int[i_535_];
@@ -2055,14 +2055,14 @@ public abstract class Class179
 		    for (int i_546_ = 0; i_546_ < 3; i_546_++) {
 			short i_547_;
 			if (i_546_ == 0)
-			    i_547_ = class186.aShortArray2111[i_544_];
+			    i_547_ = class186.faceA[i_544_];
 			else if (i_546_ == 1)
-			    i_547_ = class186.aShortArray2100[i_544_];
+			    i_547_ = class186.faceB[i_544_];
 			else
-			    i_547_ = class186.aShortArray2101[i_544_];
-			int i_548_ = class186.anIntArray2089[i_547_];
-			int i_549_ = class186.anIntArray2090[i_547_];
-			int i_550_ = class186.anIntArray2108[i_547_];
+			    i_547_ = class186.faceC[i_544_];
+			int i_548_ = class186.vertexX[i_547_];
+			int i_549_ = class186.vertexY[i_547_];
+			int i_550_ = class186.vertexZ[i_547_];
 			if (i_548_ < is_536_[i_545_])
 			    is_536_[i_545_] = i_548_;
 			if (i_548_ > is_537_[i_545_])
@@ -2083,7 +2083,7 @@ public abstract class Class179
 	    is_534_ = new int[i_535_];
 	    fs = new float[i_535_][];
 	    for (int i_551_ = 0; i_551_ < i_535_; i_551_++) {
-		byte i_552_ = class186.aByteArray2117[i_551_];
+		byte i_552_ = class186.textureRenderTypes[i_551_];
 		if (i_552_ > 0) {
 		    is_532_[i_551_] = (is_536_[i_551_] + is_537_[i_551_]) / 2;
 		    is_533_[i_551_] = (is_538_[i_551_] + is_539_[i_551_]) / 2;
@@ -2408,32 +2408,32 @@ public abstract class Class179
 		if (!method2947())
 		    method2940();
 		else {
-		    Class177 class177
+		    AnimationFrame class177
 			= class525_sub16_sub18.aClass177Array11874[i];
-		    Class525_Sub14 class525_sub14
-			= class177.aClass525_Sub14_1891;
-		    Class177 class177_656_ = null;
+		    AnimationFrameBase class525_sub14
+			= class177.base;
+		    AnimationFrame class177_656_ = null;
 		    if (class525_sub16_sub18_646_ != null) {
 			class177_656_ = (class525_sub16_sub18_646_
 					 .aClass177Array11874[i_647_]);
-			if (class177_656_.aClass525_Sub14_1891
+			if (class177_656_.base
 			    != class525_sub14)
 			    class177_656_ = null;
 		    }
 		    method2945(class525_sub14, class177, class177_656_, i_648_,
 			       i_649_, 0, bools, false, bool, 65535, null);
-		    Class177 class177_657_ = (class525_sub16_sub18_650_
+		    AnimationFrame class177_657_ = (class525_sub16_sub18_650_
 					      .aClass177Array11874[i_651_]);
-		    Class177 class177_658_ = null;
+		    AnimationFrame class177_658_ = null;
 		    if (class525_sub16_sub18_652_ != null) {
 			class177_658_ = (class525_sub16_sub18_652_
 					 .aClass177Array11874[i_653_]);
-			if (class177_658_.aClass525_Sub14_1891
+			if (class177_658_.base
 			    != class525_sub14)
 			    class177_658_ = null;
 		    }
 		    method2948(0, new int[0], 0, 0, 0, 0, bool);
-		    method2945(class177_657_.aClass525_Sub14_1891,
+		    method2945(class177_657_.base,
 			       class177_657_, class177_658_, i_654_, i_655_, 0,
 			       bools, true, bool, 65535, null);
 		    method2942();
@@ -2445,13 +2445,13 @@ public abstract class Class179
     
     abstract void method3108();
     
-    Class207 method3109(Class186 class186, int[] is, int i) {
+    Class207 method3109(ModelDecoder class186, int[] is, int i) {
 	int[] is_659_ = null;
 	int[] is_660_ = null;
 	int[] is_661_ = null;
 	float[][] fs = null;
 	if (class186.aShortArray2122 != null) {
-	    int i_662_ = class186.anInt2116;
+	    int i_662_ = class186.texturedFaceCount;
 	    int[] is_663_ = new int[i_662_];
 	    int[] is_664_ = new int[i_662_];
 	    int[] is_665_ = new int[i_662_];
@@ -2473,14 +2473,14 @@ public abstract class Class179
 		    for (int i_673_ = 0; i_673_ < 3; i_673_++) {
 			short i_674_;
 			if (i_673_ == 0)
-			    i_674_ = class186.aShortArray2111[i_671_];
+			    i_674_ = class186.faceA[i_671_];
 			else if (i_673_ == 1)
-			    i_674_ = class186.aShortArray2100[i_671_];
+			    i_674_ = class186.faceB[i_671_];
 			else
-			    i_674_ = class186.aShortArray2101[i_671_];
-			int i_675_ = class186.anIntArray2089[i_674_];
-			int i_676_ = class186.anIntArray2090[i_674_];
-			int i_677_ = class186.anIntArray2108[i_674_];
+			    i_674_ = class186.faceC[i_671_];
+			int i_675_ = class186.vertexX[i_674_];
+			int i_676_ = class186.vertexY[i_674_];
+			int i_677_ = class186.vertexZ[i_674_];
 			if (i_675_ < is_663_[i_672_])
 			    is_663_[i_672_] = i_675_;
 			if (i_675_ > is_664_[i_672_])
@@ -2501,7 +2501,7 @@ public abstract class Class179
 	    is_661_ = new int[i_662_];
 	    fs = new float[i_662_][];
 	    for (int i_678_ = 0; i_678_ < i_662_; i_678_++) {
-		byte i_679_ = class186.aByteArray2117[i_678_];
+		byte i_679_ = class186.textureRenderTypes[i_678_];
 		if (i_679_ > 0) {
 		    is_659_[i_678_] = (is_663_[i_678_] + is_664_[i_678_]) / 2;
 		    is_660_[i_678_] = (is_665_[i_678_] + is_666_[i_678_]) / 2;
@@ -2548,28 +2548,28 @@ public abstract class Class179
 	return new Class207(this, is_659_, is_660_, is_661_, fs);
     }
     
-    void method3110(Class525_Sub14 class525_sub14, Class177 class177,
-		    Class177 class177_683_, int i, int i_684_, int i_685_,
-		    boolean[] bools, boolean bool, boolean bool_686_,
-		    int i_687_, int[] is) {
+    void method3110(AnimationFrameBase class525_sub14, AnimationFrame class177,
+					AnimationFrame class177_683_, int i, int i_684_, int i_685_,
+					boolean[] bools, boolean bool, boolean bool_686_,
+					int i_687_, int[] is) {
 	if (class177_683_ == null || i == 0) {
-	    for (int i_688_ = 0; i_688_ < class177.anInt1892; i_688_++) {
-		short i_689_ = class177.aShortArray1893[i_688_];
+	    for (int i_688_ = 0; i_688_ < class177.transformationCount; i_688_++) {
+		short i_689_ = class177.transformationIndices[i_688_];
 		if (bools == null || bools[i_689_] == bool
-		    || class525_sub14.anIntArray10542[i_689_] == 0) {
-		    short i_690_ = class177.aShortArray1885[i_688_];
+		    || class525_sub14.transformationTypes[i_689_] == 0) {
+		    short i_690_ = class177.skippedRefrences[i_688_];
 		    if (i_690_ != -1)
 			method2987(0,
-				   class525_sub14.anIntArrayArray10540[i_690_],
+				   class525_sub14.labels[i_690_],
 				   0, 0, 0, i_685_, bool_686_,
 				   (i_687_
 				    & class525_sub14.anIntArray10545[i_690_]),
 				   is);
-		    method2987(class525_sub14.anIntArray10542[i_689_],
-			       class525_sub14.anIntArrayArray10540[i_689_],
-			       class177.aShortArray1897[i_688_],
-			       class177.aShortArray1895[i_688_],
-			       class177.aShortArray1894[i_688_], i_685_,
+		    method2987(class525_sub14.transformationTypes[i_689_],
+			       class525_sub14.labels[i_689_],
+			       class177.transformationX[i_688_],
+			       class177.transformationY[i_688_],
+			       class177.transformationZ[i_688_], i_685_,
 			       bool_686_,
 			       i_687_ & class525_sub14.anIntArray10545[i_689_],
 			       is);
@@ -2579,25 +2579,25 @@ public abstract class Class179
 	    int i_691_ = 0;
 	    int i_692_ = 0;
 	    for (int i_693_ = 0;
-		 i_693_ < class525_sub14.anInt10541 * -92709391; i_693_++) {
+			 i_693_ < class525_sub14.count * -92709391; i_693_++) {
 		boolean bool_694_ = false;
-		if (i_691_ < class177.anInt1892
-		    && class177.aShortArray1893[i_691_] == i_693_)
+		if (i_691_ < class177.transformationCount
+		    && class177.transformationIndices[i_691_] == i_693_)
 		    bool_694_ = true;
 		boolean bool_695_ = false;
-		if (i_692_ < class177_683_.anInt1892
-		    && class177_683_.aShortArray1893[i_692_] == i_693_)
+		if (i_692_ < class177_683_.transformationCount
+		    && class177_683_.transformationIndices[i_692_] == i_693_)
 		    bool_695_ = true;
 		if (bool_694_ || bool_695_) {
 		    if (bools != null && bools[i_693_] != bool
-			&& class525_sub14.anIntArray10542[i_693_] != 0) {
+			&& class525_sub14.transformationTypes[i_693_] != 0) {
 			if (bool_694_)
 			    i_691_++;
 			if (bool_695_)
 			    i_692_++;
 		    } else {
 			int i_696_ = 0;
-			int i_697_ = class525_sub14.anIntArray10542[i_693_];
+			int i_697_ = class525_sub14.transformationTypes[i_693_];
 			if (i_697_ == 3 || i_697_ == 10)
 			    i_696_ = 128;
 			int i_698_;
@@ -2606,11 +2606,11 @@ public abstract class Class179
 			short i_701_;
 			byte i_702_;
 			if (bool_694_) {
-			    i_698_ = class177.aShortArray1897[i_691_];
-			    i_699_ = class177.aShortArray1895[i_691_];
-			    i_700_ = class177.aShortArray1894[i_691_];
-			    i_701_ = class177.aShortArray1885[i_691_];
-			    i_702_ = class177.aByteArray1898[i_691_];
+			    i_698_ = class177.transformationX[i_691_];
+			    i_699_ = class177.transformationY[i_691_];
+			    i_700_ = class177.transformationZ[i_691_];
+			    i_701_ = class177.skippedRefrences[i_691_];
+			    i_702_ = class177.transformationFlags[i_691_];
 			    i_691_++;
 			} else {
 			    i_698_ = i_696_;
@@ -2625,11 +2625,11 @@ public abstract class Class179
 			short i_706_;
 			byte i_707_;
 			if (bool_695_) {
-			    i_703_ = class177_683_.aShortArray1897[i_692_];
-			    i_704_ = class177_683_.aShortArray1895[i_692_];
-			    i_705_ = class177_683_.aShortArray1894[i_692_];
-			    i_706_ = class177_683_.aShortArray1885[i_692_];
-			    i_707_ = class177_683_.aByteArray1898[i_692_];
+			    i_703_ = class177_683_.transformationX[i_692_];
+			    i_704_ = class177_683_.transformationY[i_692_];
+			    i_705_ = class177_683_.transformationZ[i_692_];
+			    i_706_ = class177_683_.skippedRefrences[i_692_];
+			    i_707_ = class177_683_.transformationFlags[i_692_];
 			    i_692_++;
 			} else {
 			    i_703_ = i_696_;
@@ -2679,7 +2679,7 @@ public abstract class Class179
 			}
 			if (i_701_ != -1)
 			    method2987(0,
-				       (class525_sub14.anIntArrayArray10540
+				       (class525_sub14.labels
 					[i_701_]),
 				       0, 0, 0, i_685_, bool_686_,
 				       i_687_ & (class525_sub14.anIntArray10545
@@ -2687,14 +2687,14 @@ public abstract class Class179
 				       is);
 			else if (i_706_ != -1)
 			    method2987(0,
-				       (class525_sub14.anIntArrayArray10540
+				       (class525_sub14.labels
 					[i_706_]),
 				       0, 0, 0, i_685_, bool_686_,
 				       i_687_ & (class525_sub14.anIntArray10545
 						 [i_706_]),
 				       is);
 			method2987(i_697_,
-				   class525_sub14.anIntArrayArray10540[i_693_],
+				   class525_sub14.labels[i_693_],
 				   i_708_, i_709_, i_710_, i_685_, bool_686_,
 				   (i_687_
 				    & class525_sub14.anIntArray10545[i_693_]),
@@ -2705,28 +2705,28 @@ public abstract class Class179
 	}
     }
     
-    void method3111(Class525_Sub14 class525_sub14, Class177 class177,
-		    Class177 class177_716_, int i, int i_717_, int i_718_,
-		    boolean[] bools, boolean bool, boolean bool_719_,
-		    int i_720_, int[] is) {
+    void method3111(AnimationFrameBase class525_sub14, AnimationFrame class177,
+					AnimationFrame class177_716_, int i, int i_717_, int i_718_,
+					boolean[] bools, boolean bool, boolean bool_719_,
+					int i_720_, int[] is) {
 	if (class177_716_ == null || i == 0) {
-	    for (int i_721_ = 0; i_721_ < class177.anInt1892; i_721_++) {
-		short i_722_ = class177.aShortArray1893[i_721_];
+	    for (int i_721_ = 0; i_721_ < class177.transformationCount; i_721_++) {
+		short i_722_ = class177.transformationIndices[i_721_];
 		if (bools == null || bools[i_722_] == bool
-		    || class525_sub14.anIntArray10542[i_722_] == 0) {
-		    short i_723_ = class177.aShortArray1885[i_721_];
+		    || class525_sub14.transformationTypes[i_722_] == 0) {
+		    short i_723_ = class177.skippedRefrences[i_721_];
 		    if (i_723_ != -1)
 			method2987(0,
-				   class525_sub14.anIntArrayArray10540[i_723_],
+				   class525_sub14.labels[i_723_],
 				   0, 0, 0, i_718_, bool_719_,
 				   (i_720_
 				    & class525_sub14.anIntArray10545[i_723_]),
 				   is);
-		    method2987(class525_sub14.anIntArray10542[i_722_],
-			       class525_sub14.anIntArrayArray10540[i_722_],
-			       class177.aShortArray1897[i_721_],
-			       class177.aShortArray1895[i_721_],
-			       class177.aShortArray1894[i_721_], i_718_,
+		    method2987(class525_sub14.transformationTypes[i_722_],
+			       class525_sub14.labels[i_722_],
+			       class177.transformationX[i_721_],
+			       class177.transformationY[i_721_],
+			       class177.transformationZ[i_721_], i_718_,
 			       bool_719_,
 			       i_720_ & class525_sub14.anIntArray10545[i_722_],
 			       is);
@@ -2736,25 +2736,25 @@ public abstract class Class179
 	    int i_724_ = 0;
 	    int i_725_ = 0;
 	    for (int i_726_ = 0;
-		 i_726_ < class525_sub14.anInt10541 * -92709391; i_726_++) {
+			 i_726_ < class525_sub14.count * -92709391; i_726_++) {
 		boolean bool_727_ = false;
-		if (i_724_ < class177.anInt1892
-		    && class177.aShortArray1893[i_724_] == i_726_)
+		if (i_724_ < class177.transformationCount
+		    && class177.transformationIndices[i_724_] == i_726_)
 		    bool_727_ = true;
 		boolean bool_728_ = false;
-		if (i_725_ < class177_716_.anInt1892
-		    && class177_716_.aShortArray1893[i_725_] == i_726_)
+		if (i_725_ < class177_716_.transformationCount
+		    && class177_716_.transformationIndices[i_725_] == i_726_)
 		    bool_728_ = true;
 		if (bool_727_ || bool_728_) {
 		    if (bools != null && bools[i_726_] != bool
-			&& class525_sub14.anIntArray10542[i_726_] != 0) {
+			&& class525_sub14.transformationTypes[i_726_] != 0) {
 			if (bool_727_)
 			    i_724_++;
 			if (bool_728_)
 			    i_725_++;
 		    } else {
 			int i_729_ = 0;
-			int i_730_ = class525_sub14.anIntArray10542[i_726_];
+			int i_730_ = class525_sub14.transformationTypes[i_726_];
 			if (i_730_ == 3 || i_730_ == 10)
 			    i_729_ = 128;
 			int i_731_;
@@ -2763,11 +2763,11 @@ public abstract class Class179
 			short i_734_;
 			byte i_735_;
 			if (bool_727_) {
-			    i_731_ = class177.aShortArray1897[i_724_];
-			    i_732_ = class177.aShortArray1895[i_724_];
-			    i_733_ = class177.aShortArray1894[i_724_];
-			    i_734_ = class177.aShortArray1885[i_724_];
-			    i_735_ = class177.aByteArray1898[i_724_];
+			    i_731_ = class177.transformationX[i_724_];
+			    i_732_ = class177.transformationY[i_724_];
+			    i_733_ = class177.transformationZ[i_724_];
+			    i_734_ = class177.skippedRefrences[i_724_];
+			    i_735_ = class177.transformationFlags[i_724_];
 			    i_724_++;
 			} else {
 			    i_731_ = i_729_;
@@ -2782,11 +2782,11 @@ public abstract class Class179
 			short i_739_;
 			byte i_740_;
 			if (bool_728_) {
-			    i_736_ = class177_716_.aShortArray1897[i_725_];
-			    i_737_ = class177_716_.aShortArray1895[i_725_];
-			    i_738_ = class177_716_.aShortArray1894[i_725_];
-			    i_739_ = class177_716_.aShortArray1885[i_725_];
-			    i_740_ = class177_716_.aByteArray1898[i_725_];
+			    i_736_ = class177_716_.transformationX[i_725_];
+			    i_737_ = class177_716_.transformationY[i_725_];
+			    i_738_ = class177_716_.transformationZ[i_725_];
+			    i_739_ = class177_716_.skippedRefrences[i_725_];
+			    i_740_ = class177_716_.transformationFlags[i_725_];
 			    i_725_++;
 			} else {
 			    i_736_ = i_729_;
@@ -2836,7 +2836,7 @@ public abstract class Class179
 			}
 			if (i_734_ != -1)
 			    method2987(0,
-				       (class525_sub14.anIntArrayArray10540
+				       (class525_sub14.labels
 					[i_734_]),
 				       0, 0, 0, i_718_, bool_719_,
 				       i_720_ & (class525_sub14.anIntArray10545
@@ -2844,14 +2844,14 @@ public abstract class Class179
 				       is);
 			else if (i_739_ != -1)
 			    method2987(0,
-				       (class525_sub14.anIntArrayArray10540
+				       (class525_sub14.labels
 					[i_739_]),
 				       0, 0, 0, i_718_, bool_719_,
 				       i_720_ & (class525_sub14.anIntArray10545
 						 [i_739_]),
 				       is);
 			method2987(i_730_,
-				   class525_sub14.anIntArrayArray10540[i_726_],
+				   class525_sub14.labels[i_726_],
 				   i_741_, i_742_, i_743_, i_718_, bool_719_,
 				   (i_720_
 				    & class525_sub14.anIntArray10545[i_726_]),

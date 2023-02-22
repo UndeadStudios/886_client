@@ -151,7 +151,7 @@ public class Class655
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i_4_, 396112497))
 	       .anInt112) * 334066519;
     }

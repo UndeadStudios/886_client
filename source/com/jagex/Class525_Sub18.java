@@ -185,7 +185,7 @@ public class Class525_Sub18 extends Class525
 	int i_28_ = 0;
 	Class525_Sub38_Sub1 class525_sub38_sub1
 	    = aClass182_Sub3_10562.aClass525_Sub38_Sub1_9828;
-	class525_sub38_sub1.pos = 0;
+	class525_sub38_sub1.index = 0;
 	if (aClass182_Sub3_10562.aBool9792) {
 	    for (int i_29_ = 0; i_29_ < i; i_29_++) {
 		int i_30_ = is[i_29_];
@@ -246,7 +246,7 @@ public class Class525_Sub18 extends Class525
 	if (i_28_ > 0) {
 	    aClass121_Sub2_10561.method84(5123,
 					  class525_sub38_sub1.buffer,
-					  (class525_sub38_sub1.pos
+					  (class525_sub38_sub1.index
 					   * -1133521593));
 	    aClass182_Sub3_10562.method15384
 		(aClass161_Sub1_10567.aClass137_9333,
@@ -279,7 +279,7 @@ public class Class525_Sub18 extends Class525
 	int i_41_ = 0;
 	Class525_Sub38_Sub1 class525_sub38_sub1
 	    = aClass182_Sub3_10562.aClass525_Sub38_Sub1_9828;
-	class525_sub38_sub1.pos = 0;
+	class525_sub38_sub1.index = 0;
 	if (aClass182_Sub3_10562.aBool9792) {
 	    for (int i_42_ = 0; i_42_ < i; i_42_++) {
 		int i_43_ = is[i_42_];
@@ -340,7 +340,7 @@ public class Class525_Sub18 extends Class525
 	if (i_41_ > 0) {
 	    aClass121_Sub2_10561.method84(5123,
 					  class525_sub38_sub1.buffer,
-					  (class525_sub38_sub1.pos
+					  (class525_sub38_sub1.index
 					   * -1133521593));
 	    aClass182_Sub3_10562.method15384
 		(aClass161_Sub1_10567.aClass137_9333,

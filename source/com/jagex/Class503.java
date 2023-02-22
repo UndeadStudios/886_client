@@ -109,10 +109,10 @@ public abstract class Class503
 	RuntimeException_Sub4.anInt12141 = i_7_ * 646790131;
 	RuntimeException_Sub4.anInt12142 = i_8_ * -937292981;
 	Class538.aString7179 = "Unknown";
-	Class58.aString636 = "1.1";
+	ConfigEntry.aString636 = "1.1";
 	try {
 	    Class538.aString7179 = System.getProperty("java.vendor");
-	    Class58.aString636 = System.getProperty("java.version");
+	    ConfigEntry.aString636 = System.getProperty("java.version");
 	} catch (Exception exception) {
 	    /* empty */
 	}
@@ -253,7 +253,7 @@ public abstract class Class503
 	    if (file_16_ != null)
 		class525_sub38.method16613(file_16_.getPath(), 1361131738);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       1185374181);
 	    class42.method1047(1676174918);
 	} catch (IOException ioexception) {
@@ -293,10 +293,10 @@ public abstract class Class503
 	RuntimeException_Sub4.anInt12141 = i_19_ * 646790131;
 	RuntimeException_Sub4.anInt12142 = i_20_ * -937292981;
 	Class538.aString7179 = "Unknown";
-	Class58.aString636 = "1.1";
+	ConfigEntry.aString636 = "1.1";
 	try {
 	    Class538.aString7179 = System.getProperty("java.vendor");
-	    Class58.aString636 = System.getProperty("java.version");
+	    ConfigEntry.aString636 = System.getProperty("java.version");
 	} catch (Exception exception) {
 	    /* empty */
 	}
@@ -479,7 +479,7 @@ public abstract class Class503
 	if (Class538.aString7179 != null) {
 	    String string = Class538.aString7179.toLowerCase();
 	    if (string.indexOf("sun") != -1 || string.indexOf("apple") != -1) {
-		String string_27_ = Class58.aString636;
+		String string_27_ = ConfigEntry.aString636;
 		if (string_27_.equals("1.1") || string_27_.startsWith("1.1.")
 		    || string_27_.equals("1.2")
 		    || string_27_.startsWith("1.2.")
@@ -650,7 +650,7 @@ public abstract class Class503
 	    }
 	}
 	if (Class525_Sub22.method16341(-1200680218))
-	    Class525_Sub7_Sub13.method18248(-691734241).method389((byte) -78);
+	    EmitterConfig.method18248(-691734241).method389((byte) -78);
 	if (Class532.aCanvas7169 != null) {
 	    try {
 		Class532.aCanvas7169.removeFocusListener(this);
@@ -920,21 +920,21 @@ public abstract class Class503
 		for (class525_sub38
 			 = (new RSBuffer
 			    ((int) class42.method1048(-1974969188)));
-		     (-1133521593 * class525_sub38.pos
+		     (-1133521593 * class525_sub38.index
 		      < class525_sub38.buffer.length);
-		     class525_sub38.pos += 339428471 * i_44_) {
+		     class525_sub38.index += 339428471 * i_44_) {
 		    i_44_ = class42.method1049(class525_sub38.buffer,
 					       (-1133521593
-						* class525_sub38.pos),
+						* class525_sub38.index),
 					       ((class525_sub38
 						 .buffer).length
-						- (class525_sub38.pos
+						- (class525_sub38.index
 						   * -1133521593)),
 					       (byte) 51);
 		    if (i_44_ == -1)
 			throw new IOException();
 		}
-		class525_sub38.pos = 0;
+		class525_sub38.index = 0;
 		i_44_ = class525_sub38.readUnsignedByte(1062214044);
 		if (i_44_ < 1 || i_44_ > 3)
 		    throw new IOException(new StringBuilder().append("").append
@@ -1051,21 +1051,21 @@ public abstract class Class503
 		for (class525_sub38
 			 = (new RSBuffer
 			    ((int) class42.method1048(-1765990031)));
-		     (-1133521593 * class525_sub38.pos
+		     (-1133521593 * class525_sub38.index
 		      < class525_sub38.buffer.length);
-		     class525_sub38.pos += 339428471 * i_58_) {
+		     class525_sub38.index += 339428471 * i_58_) {
 		    i_58_ = class42.method1049(class525_sub38.buffer,
 					       (-1133521593
-						* class525_sub38.pos),
+						* class525_sub38.index),
 					       ((class525_sub38
 						 .buffer).length
-						- (class525_sub38.pos
+						- (class525_sub38.index
 						   * -1133521593)),
 					       (byte) 7);
 		    if (i_58_ == -1)
 			throw new IOException();
 		}
-		class525_sub38.pos = 0;
+		class525_sub38.index = 0;
 		i_58_ = class525_sub38.readUnsignedByte(1742735314);
 		if (i_58_ < 1 || i_58_ > 3)
 		    throw new IOException(new StringBuilder().append("").append
@@ -1190,21 +1190,21 @@ public abstract class Class503
 		for (class525_sub38
 			 = (new RSBuffer
 			    ((int) class42.method1048(-2028109587)));
-		     (-1133521593 * class525_sub38.pos
+		     (-1133521593 * class525_sub38.index
 		      < class525_sub38.buffer.length);
-		     class525_sub38.pos += 339428471 * i_72_) {
+		     class525_sub38.index += 339428471 * i_72_) {
 		    i_72_ = class42.method1049(class525_sub38.buffer,
 					       (-1133521593
-						* class525_sub38.pos),
+						* class525_sub38.index),
 					       ((class525_sub38
 						 .buffer).length
-						- (class525_sub38.pos
+						- (class525_sub38.index
 						   * -1133521593)),
 					       (byte) 24);
 		    if (i_72_ == -1)
 			throw new IOException();
 		}
-		class525_sub38.pos = 0;
+		class525_sub38.index = 0;
 		i_72_ = class525_sub38.readUnsignedByte(218475129);
 		if (i_72_ < 1 || i_72_ > 3)
 		    throw new IOException(new StringBuilder().append("").append
@@ -1312,7 +1312,7 @@ public abstract class Class503
 	    if (file_82_ != null)
 		class525_sub38.method16613(file_82_.getPath(), 466365405);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       -823494517);
 	    class42.method1047(-31940617);
 	} catch (IOException ioexception) {
@@ -1330,7 +1330,7 @@ public abstract class Class503
 	    if (file_83_ != null)
 		class525_sub38.method16613(file_83_.getPath(), 643984112);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       -1888131411);
 	    class42.method1047(-937110338);
 	} catch (IOException ioexception) {
@@ -1694,21 +1694,21 @@ public abstract class Class503
 		for (class525_sub38
 			 = (new RSBuffer
 			    ((int) class42.method1048(-1838520378)));
-		     (-1133521593 * class525_sub38.pos
+		     (-1133521593 * class525_sub38.index
 		      < class525_sub38.buffer.length);
-		     class525_sub38.pos += 339428471 * i_102_) {
+		     class525_sub38.index += 339428471 * i_102_) {
 		    i_102_ = class42.method1049(class525_sub38.buffer,
 						(-1133521593
-						 * class525_sub38.pos),
+						 * class525_sub38.index),
 						((class525_sub38
 						  .buffer).length
-						 - (class525_sub38.pos
+						 - (class525_sub38.index
 						    * -1133521593)),
 						(byte) 60);
 		    if (i_102_ == -1)
 			throw new IOException();
 		}
-		class525_sub38.pos = 0;
+		class525_sub38.index = 0;
 		i_102_ = class525_sub38.readUnsignedByte(1770277947);
 		if (i_102_ < 1 || i_102_ > 3)
 		    throw new IOException(new StringBuilder().append("").append
@@ -1835,7 +1835,7 @@ public abstract class Class503
 	if (Class538.aString7179 != null) {
 	    String string = Class538.aString7179.toLowerCase();
 	    if (string.indexOf("sun") != -1 || string.indexOf("apple") != -1) {
-		String string_112_ = Class58.aString636;
+		String string_112_ = ConfigEntry.aString636;
 		if (string_112_.equals("1.1") || string_112_.startsWith("1.1.")
 		    || string_112_.equals("1.2")
 		    || string_112_.startsWith("1.2.")
@@ -2022,7 +2022,7 @@ public abstract class Class503
 	    }
 	}
 	if (Class525_Sub22.method16341(-1923723195))
-	    Class525_Sub7_Sub13.method18248(-691734241).method389((byte) -66);
+	    EmitterConfig.method18248(-691734241).method389((byte) -66);
 	if (Class532.aCanvas7169 != null) {
 	    try {
 		Class532.aCanvas7169.removeFocusListener(this);
@@ -2076,7 +2076,7 @@ public abstract class Class503
 	if (Class538.aString7179 != null) {
 	    String string = Class538.aString7179.toLowerCase();
 	    if (string.indexOf("sun") != -1 || string.indexOf("apple") != -1) {
-		String string_117_ = Class58.aString636;
+		String string_117_ = ConfigEntry.aString636;
 		if (string_117_.equals("1.1") || string_117_.startsWith("1.1.")
 		    || string_117_.equals("1.2")
 		    || string_117_.startsWith("1.2.")
@@ -2165,7 +2165,7 @@ public abstract class Class503
 	    if (file_119_ != null)
 		class525_sub38.method16613(file_119_.getPath(), 727826468);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       2030481779);
 	    class42.method1047(-169443115);
 	} catch (IOException ioexception) {
@@ -2364,7 +2364,7 @@ public abstract class Class503
 	    if (file_127_ != null)
 		class525_sub38.method16613(file_127_.getPath(), 626850527);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       -1023995005);
 	    class42.method1047(-746437657);
 	} catch (IOException ioexception) {
@@ -2374,7 +2374,7 @@ public abstract class Class503
     
     public void method8289() throws Exception_Sub2 {
 	if (!aBool5599) {
-	    Class525_Sub7_Sub13.method18248(-691734241).method385("jaclib",
+	    EmitterConfig.method18248(-691734241).method385("jaclib",
 								  -1777098483);
 	    try {
 		QueryPerformanceCounter.init();
@@ -2466,7 +2466,7 @@ public abstract class Class503
     
     public void method8299(byte i) throws Exception_Sub2 {
 	if (!aBool5599) {
-	    Class525_Sub7_Sub13.method18248(-691734241).method385("jaclib",
+	    EmitterConfig.method18248(-691734241).method385("jaclib",
 								  -1291672469);
 	    try {
 		QueryPerformanceCounter.init();
@@ -2529,7 +2529,7 @@ public abstract class Class503
     
     public void method8305() throws Exception_Sub2 {
 	if (!aBool5599) {
-	    Class525_Sub7_Sub13.method18248(-691734241).method385("jaclib",
+	    EmitterConfig.method18248(-691734241).method385("jaclib",
 								  -1336298555);
 	    try {
 		QueryPerformanceCounter.init();
@@ -2578,21 +2578,21 @@ public abstract class Class503
 		for (class525_sub38
 			 = (new RSBuffer
 			    ((int) class42.method1048(-2064334657)));
-		     (-1133521593 * class525_sub38.pos
+		     (-1133521593 * class525_sub38.index
 		      < class525_sub38.buffer.length);
-		     class525_sub38.pos += 339428471 * i_133_) {
+		     class525_sub38.index += 339428471 * i_133_) {
 		    i_133_ = class42.method1049(class525_sub38.buffer,
 						(-1133521593
-						 * class525_sub38.pos),
+						 * class525_sub38.index),
 						((class525_sub38
 						  .buffer).length
-						 - (class525_sub38.pos
+						 - (class525_sub38.index
 						    * -1133521593)),
 						(byte) 12);
 		    if (i_133_ == -1)
 			throw new IOException();
 		}
-		class525_sub38.pos = 0;
+		class525_sub38.index = 0;
 		i_133_ = class525_sub38.readUnsignedByte(1604106458);
 		if (i_133_ < 1 || i_133_ > 3)
 		    throw new IOException(new StringBuilder().append("").append

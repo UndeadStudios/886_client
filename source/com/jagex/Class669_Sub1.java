@@ -43,7 +43,7 @@ public class Class669_Sub1 extends Class669
 	return com.jagex.Class674.class;
     }
     
-    Class669_Sub1(Class458 class458) {
+    Class669_Sub1(JS5 class458) {
 	super(class458);
     }
     

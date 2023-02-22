@@ -63,9 +63,9 @@ public class Class83
 	Class104.anInt1289 = 0;
 	Class267.method4947(class525_sub38_sub2, 1669844360);
 	Class466.method7692(class525_sub38_sub2, (byte) -13);
-	if (class525_sub38_sub2.pos * -1133521593 != i)
+	if (class525_sub38_sub2.index * -1133521593 != i)
 	    throw new RuntimeException(new StringBuilder().append
-					   (class525_sub38_sub2.pos
+					   (class525_sub38_sub2.index
 					    * -1133521593)
 					   .append
 					   (" ").append

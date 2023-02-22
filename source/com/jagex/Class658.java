@@ -448,7 +448,7 @@ public class Class658 implements Interface12, Interface7
 	else
 	    i_12_ = i_11_ + 1111866889 * client.anInt11216;
 	for (int i_13_ = 0; i_13_ < i_12_; i_13_++) {
-	    Class299 class299 = null;
+	    NPCDefinitions class299 = null;
 	    Class656_Sub1_Sub3_Sub1 class656_sub1_sub3_sub1;
 	    if (4 == 1874190559 * client.anInt11145) {
 		Class205 class205 = Class201.aClass205Array2202[i_13_];

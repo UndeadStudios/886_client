@@ -68,7 +68,7 @@ class Class35 implements Iterator
     static final void method970(Class683 class683, int i) {
 	int i_0_ = (class683.anIntArray8661
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_0_, -1916112733);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -102,7 +102,7 @@ class Class35 implements Iterator
 			.method16602(0, 701922638);
 		    int i_2_ = (-1133521593
 				* (class525_sub15.aClass525_Sub38_Sub2_10546
-				   .pos));
+				   .index));
 		    class525_sub15.aClass525_Sub38_Sub2_10546
 			.method16602(886, 601310245);
 		    class525_sub15.aClass525_Sub38_Sub2_10546
@@ -110,7 +110,7 @@ class Class35 implements Iterator
 		    Class25.anIntArray238
 			= Class47.method1107(class525_sub15, (byte) -24);
 		    int i_3_
-			= (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+			= (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			   * -1133521593);
 		    class525_sub15.aClass525_Sub38_Sub2_10546
 			.method16700(client.aString11334, 1355321789);
@@ -138,18 +138,18 @@ class Class35 implements Iterator
 			    .method16700(string, 782266915);
 		    Class31.aClass525_Sub36_305.method16581
 			(class525_sub15.aClass525_Sub38_Sub2_10546, 7962814);
-		    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		    class525_sub15.aClass525_Sub38_Sub2_10546.index
 			+= -1918967999;
 		    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 			(Class25.anIntArray238, i_3_,
 			 -1133521593 * (class525_sub15
 					.aClass525_Sub38_Sub2_10546
-					.pos),
+					.index),
 			 (byte) -125);
 		    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
 			(-1133521593 * (class525_sub15
 					.aClass525_Sub38_Sub2_10546
-					.pos) - i_2_,
+					.index) - i_2_,
 			 -888188399);
 		    client.aClass96_11361.method1794(class525_sub15,
 						     (short) 27981);
@@ -190,7 +190,7 @@ class Class35 implements Iterator
 			    Class441.method7119(9, -1660984300);
 			    client.aClass96_11361.method1791(2123832470);
 			    client.aClass96_11361.aClass525_Sub38_Sub2_1168
-				.pos
+				.index
 				= 0;
 			    client.aClass96_11361.aClass416_1181 = null;
 			    client.aClass96_11361.aClass416_1165 = null;

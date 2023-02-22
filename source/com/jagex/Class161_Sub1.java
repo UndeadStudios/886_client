@@ -745,7 +745,7 @@ public class Class161_Sub1 extends Class161
 		aClass182_Sub3_9328.aClass525_Sub38_Sub1_9828
 		    = new Class525_Sub38_Sub1(anInt9330 * 2);
 	    else
-		aClass182_Sub3_9328.aClass525_Sub38_Sub1_9828.pos = 0;
+		aClass182_Sub3_9328.aClass525_Sub38_Sub1_9828.index = 0;
 	    int i_149_ = 0;
 	    Class525_Sub38_Sub1 class525_sub38_sub1
 		= aClass182_Sub3_9328.aClass525_Sub38_Sub1_9828;
@@ -792,7 +792,7 @@ public class Class161_Sub1 extends Class161
 		Class121_Sub2 class121_sub2
 		    = new Class121_Sub2(aClass182_Sub3_9328, 5123,
 					class525_sub38_sub1.buffer,
-					(class525_sub38_sub1.pos
+					(class525_sub38_sub1.index
 					 * -1133521593));
 		aClass182_Sub3_9328.method15427(class121_sub2, 4, 0, i_149_);
 	    }
@@ -2125,7 +2125,7 @@ public class Class161_Sub1 extends Class161
 		aClass182_Sub3_9328.aClass525_Sub38_Sub1_9828
 		    = new Class525_Sub38_Sub1(anInt9330 * 2);
 	    else
-		aClass182_Sub3_9328.aClass525_Sub38_Sub1_9828.pos = 0;
+		aClass182_Sub3_9328.aClass525_Sub38_Sub1_9828.index = 0;
 	    int i_430_ = 0;
 	    Class525_Sub38_Sub1 class525_sub38_sub1
 		= aClass182_Sub3_9328.aClass525_Sub38_Sub1_9828;
@@ -2172,7 +2172,7 @@ public class Class161_Sub1 extends Class161
 		Class121_Sub2 class121_sub2
 		    = new Class121_Sub2(aClass182_Sub3_9328, 5123,
 					class525_sub38_sub1.buffer,
-					(class525_sub38_sub1.pos
+					(class525_sub38_sub1.index
 					 * -1133521593));
 		aClass182_Sub3_9328.method15427(class121_sub2, 4, 0, i_430_);
 	    }

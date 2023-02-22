@@ -165,7 +165,7 @@ public class Class666 implements Interface76
 		int i_7_ = class7.method594(string, 250,
 					    1938404803 * class7.anInt46, null,
 					    -2140140289);
-		int i_8_ = Class525_Sub7_Sub13.aClass173_11726.method2772();
+		int i_8_ = EmitterConfig.aClass173_11726.method2772();
 		int i_9_ = i_8_ + 4;
 		i_6_ += 2 * i_9_;
 		i_7_ += i_9_ * 2;
@@ -205,27 +205,27 @@ public class Class666 implements Interface76
 		    .method2518(i_10_, i_11_ + i_7_ - i_8_);
 		Class112.aClass173_1383.method2776();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_10_, i_11_ + Class112.aClass173_1383.method2765(), i_8_,
 		     i_7_ - Class112.aClass173_1383.method2765() * 2);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_10_ + Class112.aClass173_1383.method2772(), i_11_,
 		     i_6_ - Class112.aClass173_1383.method2772() * 2, i_8_);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_6_ + i_10_ - i_8_,
 		     i_11_ + Class112.aClass173_1383.method2765(), i_8_,
 		     i_7_ - Class112.aClass173_1383.method2765() * 2);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_10_ + Class112.aClass173_1383.method2772(),
 		     i_11_ + i_7_ - i_8_,
 		     i_6_ - Class112.aClass173_1383.method2772() * 2, i_8_);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class175.method2839(string, i_10_ + i_9_, i_9_ + i_11_,
 				    i_6_ - 2 * i_9_, i_7_ - 2 * i_9_,
 				    (Class630.anInt8164 * -1509707719

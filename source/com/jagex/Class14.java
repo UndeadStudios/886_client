@@ -48,7 +48,7 @@ public class Class14 implements Interface12, Interface7
 			= ((Class495)
 			   Class539.method8888(Class495.method8143((byte) 1),
 					       class525_sub38
-						   .method16740((byte) -77),
+						   .readUnsignedSmart((byte) -77),
 					       1168373263));
 		anObjectArrayArray168[i_4_]
 		    = Class227.method4262(class525_sub38, class495s, (byte) 1);
@@ -103,7 +103,7 @@ public class Class14 implements Interface12, Interface7
 			= ((Class495)
 			   Class539.method8888(Class495.method8143((byte) 1),
 					       class525_sub38
-						   .method16740((byte) -28),
+						   .readUnsignedSmart((byte) -28),
 					       1320963848));
 		anObjectArrayArray168[i_9_]
 		    = Class227.method4262(class525_sub38, class495s, (byte) 1);

@@ -67,8 +67,8 @@ public class Class332_Sub2 extends Class332
 	     -797820993 * aClass390_3598.anInt4066, 0, 0);
     }
     
-    Class332_Sub2(Class458 class458, Class458 class458_10_,
-		  Class390_Sub3 class390_sub3) {
+    Class332_Sub2(JS5 class458, JS5 class458_10_,
+                  Class390_Sub3 class390_sub3) {
 	super(class458, class458_10_, (Class390) class390_sub3);
     }
     

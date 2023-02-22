@@ -26,7 +26,7 @@ public class Class463_Sub1 extends Class463
     public void method7639(boolean bool) {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(bool ? 2 : 3, -570116563);
 		aClass525_Sub38_5109.method16761(0L);
 		aClass559_10321.method9380
@@ -76,7 +76,7 @@ public class Class463_Sub1 extends Class463
 		 class525_sub16_sub12_sub1
 		     = ((Class525_Sub16_Sub12_Sub1)
 			aClass697_5097.method14201((byte) -1))) {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(1, -1848909448);
 		aClass525_Sub38_5109.method16761(7105793357836614431L
 						 * (class525_sub16_sub12_sub1
@@ -94,7 +94,7 @@ public class Class463_Sub1 extends Class463
 		 class525_sub16_sub12_sub1
 		     = ((Class525_Sub16_Sub12_Sub1)
 			aClass697_5105.method14201((byte) -1))) {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(0, -283040812);
 		aClass525_Sub38_5109.method16761((class525_sub16_sub12_sub1
 						  .aLong10553)
@@ -114,23 +114,23 @@ public class Class463_Sub1 extends Class463
 		anInt5107 = 0;
 		if (aClass525_Sub16_Sub12_Sub1_5118 == null) {
 		    int i_4_
-			= 5 - -1133521593 * aClass525_Sub38_5115.pos;
+			= 5 - -1133521593 * aClass525_Sub38_5115.index;
 		    if (i_4_ > i_3_)
 			i_4_ = i_3_;
 		    aClass559_10321.method9379
 			(aClass525_Sub38_5115.buffer,
-			 -1133521593 * aClass525_Sub38_5115.pos, i_4_,
+			 -1133521593 * aClass525_Sub38_5115.index, i_4_,
 			 (byte) -59);
 		    if (aByte5110 != 0) {
 			for (int i_5_ = 0; i_5_ < i_4_; i_5_++)
 			    aClass525_Sub38_5115.buffer
 				[i_5_ + (-1133521593
-					 * aClass525_Sub38_5115.pos)]
+					 * aClass525_Sub38_5115.index)]
 				^= aByte5110;
 		    }
-		    aClass525_Sub38_5115.pos += 339428471 * i_4_;
-		    if (aClass525_Sub38_5115.pos * -1133521593 >= 5) {
-			aClass525_Sub38_5115.pos = 0;
+		    aClass525_Sub38_5115.index += 339428471 * i_4_;
+		    if (aClass525_Sub38_5115.index * -1133521593 >= 5) {
+			aClass525_Sub38_5115.index = 0;
 			int i_6_
 			    = aClass525_Sub38_5115.readUnsignedByte(1656737350);
 			int i_7_
@@ -169,33 +169,33 @@ public class Class463_Sub1 extends Class463
 			if (aClass525_Sub16_Sub12_Sub1_5118 == null)
 			    throw new IOException();
 			anInt5117 = 1594059483;
-			aClass525_Sub38_5115.pos = 0;
-			aClass525_Sub38_5113.pos = 0;
+			aClass525_Sub38_5115.index = 0;
+			aClass525_Sub38_5113.index = 0;
 		    }
 		} else {
 		    RSBuffer class525_sub38
 			= (aClass525_Sub16_Sub12_Sub1_5118
 			   .aClass525_Sub38_12193);
 		    if (null == class525_sub38) {
-			int i_10_ = 5 - (aClass525_Sub38_5113.pos
+			int i_10_ = 5 - (aClass525_Sub38_5113.index
 					 * -1133521593);
 			if (i_10_ > i_3_)
 			    i_10_ = i_3_;
 			aClass559_10321.method9379
 			    (aClass525_Sub38_5113.buffer,
-			     -1133521593 * aClass525_Sub38_5113.pos,
+			     -1133521593 * aClass525_Sub38_5113.index,
 			     i_10_, (byte) -90);
 			if (0 != aByte5110) {
 			    for (int i_11_ = 0; i_11_ < i_10_; i_11_++)
 				aClass525_Sub38_5113.buffer
-				    [i_11_ + (aClass525_Sub38_5113.pos
+				    [i_11_ + (aClass525_Sub38_5113.index
 					      * -1133521593)]
 				    ^= aByte5110;
 			}
-			aClass525_Sub38_5113.pos += i_10_ * 339428471;
-			if (-1133521593 * aClass525_Sub38_5113.pos
+			aClass525_Sub38_5113.index += i_10_ * 339428471;
+			if (-1133521593 * aClass525_Sub38_5113.index
 			    >= 5) {
-			    aClass525_Sub38_5113.pos = 0;
+			    aClass525_Sub38_5113.index = 0;
 			    int i_12_
 				= aClass525_Sub38_5113.readUnsignedByte(966229631);
 			    int i_13_
@@ -219,25 +219,25 @@ public class Class463_Sub1 extends Class463
 			       - aClass525_Sub16_Sub12_Sub1_5118.aByte12192);
 			int i_16_ = 102400 - anInt5117 * 1987479199;
 			if (i_16_
-			    > i_15_ - -1133521593 * class525_sub38.pos)
+			    > i_15_ - -1133521593 * class525_sub38.index)
 			    i_16_ = i_15_ - (-1133521593
-					     * class525_sub38.pos);
+					     * class525_sub38.index);
 			if (i_16_ > i_3_)
 			    i_16_ = i_3_;
 			aClass559_10321.method9379
 			    (class525_sub38.buffer,
-			     -1133521593 * class525_sub38.pos, i_16_,
+			     -1133521593 * class525_sub38.index, i_16_,
 			     (byte) -8);
 			if (0 != aByte5110) {
 			    for (int i_17_ = 0; i_17_ < i_16_; i_17_++)
 				class525_sub38.buffer
-				    [(class525_sub38.pos * -1133521593
+				    [(class525_sub38.index * -1133521593
 				      + i_17_)]
 				    ^= aByte5110;
 			}
-			class525_sub38.pos += i_16_ * 339428471;
+			class525_sub38.index += i_16_ * 339428471;
 			anInt5117 += 2036798815 * i_16_;
-			if (class525_sub38.pos * -1133521593 == i_15_) {
+			if (class525_sub38.index * -1133521593 == i_15_) {
 			    aClass525_Sub16_Sub12_Sub1_5118
 				.method16266(-1925745724);
 			    aClass525_Sub16_Sub12_Sub1_5118.aBool11832 = false;
@@ -278,8 +278,8 @@ public class Class463_Sub1 extends Class463
 	aClass559_10321 = (Class559) object;
 	method15945((byte) 35);
 	method7619(bool, -312799294);
-	aClass525_Sub38_5115.pos = 0;
-	aClass525_Sub38_5113.pos = 0;
+	aClass525_Sub38_5115.index = 0;
+	aClass525_Sub38_5113.index = 0;
 	aClass525_Sub16_Sub12_Sub1_5118 = null;
 	for (;;) {
 	    Class525_Sub16_Sub12_Sub1 class525_sub16_sub12_sub1
@@ -301,7 +301,7 @@ public class Class463_Sub1 extends Class463
 	}
 	if (aByte5110 != 0) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(4, -1378635192);
 		aClass525_Sub38_5109.method16735(aByte5110, -1868572597);
 		aClass525_Sub38_5109.method16605(0, -2047726793);
@@ -326,7 +326,7 @@ public class Class463_Sub1 extends Class463
     void method15945(byte i) {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(6, -828914873);
 		aClass525_Sub38_5109.method16604(4, (byte) 1);
 		aClass525_Sub38_5109.method16602(0, 1510401010);
@@ -349,7 +349,7 @@ public class Class463_Sub1 extends Class463
     public void method7619(boolean bool, int i) {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(bool ? 2 : 3, -977330312);
 		aClass525_Sub38_5109.method16761(0L);
 		aClass559_10321.method9380
@@ -371,7 +371,7 @@ public class Class463_Sub1 extends Class463
     void method15946() {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(6, -612042639);
 		aClass525_Sub38_5109.method16604(4, (byte) 1);
 		aClass525_Sub38_5109.method16602(0, 1883379147);
@@ -408,8 +408,8 @@ public class Class463_Sub1 extends Class463
 	aClass559_10321 = (Class559) object;
 	method15945((byte) 26);
 	method7619(bool, -312799294);
-	aClass525_Sub38_5115.pos = 0;
-	aClass525_Sub38_5113.pos = 0;
+	aClass525_Sub38_5115.index = 0;
+	aClass525_Sub38_5113.index = 0;
 	aClass525_Sub16_Sub12_Sub1_5118 = null;
 	for (;;) {
 	    Class525_Sub16_Sub12_Sub1 class525_sub16_sub12_sub1
@@ -431,7 +431,7 @@ public class Class463_Sub1 extends Class463
 	}
 	if (aByte5110 != 0) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(4, -1716410403);
 		aClass525_Sub38_5109.method16735(aByte5110, -1434829179);
 		aClass525_Sub38_5109.method16605(0, -1911634203);
@@ -456,7 +456,7 @@ public class Class463_Sub1 extends Class463
     public void method7628(boolean bool) {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(bool ? 2 : 3, -1143164759);
 		aClass525_Sub38_5109.method16761(0L);
 		aClass559_10321.method9380
@@ -478,7 +478,7 @@ public class Class463_Sub1 extends Class463
     public void method7620(byte i) {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(7, -189992757);
 		aClass525_Sub38_5109.method16761(0L);
 		aClass559_10321.method9380
@@ -542,7 +542,7 @@ public class Class463_Sub1 extends Class463
 		 class525_sub16_sub12_sub1
 		     = ((Class525_Sub16_Sub12_Sub1)
 			aClass697_5097.method14201((byte) -1))) {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(1, -1011208708);
 		aClass525_Sub38_5109.method16761(7105793357836614431L
 						 * (class525_sub16_sub12_sub1
@@ -560,7 +560,7 @@ public class Class463_Sub1 extends Class463
 		 class525_sub16_sub12_sub1
 		     = ((Class525_Sub16_Sub12_Sub1)
 			aClass697_5105.method14201((byte) -1))) {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(0, -1088798828);
 		aClass525_Sub38_5109.method16761((class525_sub16_sub12_sub1
 						  .aLong10553)
@@ -580,23 +580,23 @@ public class Class463_Sub1 extends Class463
 		anInt5107 = 0;
 		if (aClass525_Sub16_Sub12_Sub1_5118 == null) {
 		    int i_20_
-			= 5 - -1133521593 * aClass525_Sub38_5115.pos;
+			= 5 - -1133521593 * aClass525_Sub38_5115.index;
 		    if (i_20_ > i_19_)
 			i_20_ = i_19_;
 		    aClass559_10321.method9379
 			(aClass525_Sub38_5115.buffer,
-			 -1133521593 * aClass525_Sub38_5115.pos, i_20_,
+			 -1133521593 * aClass525_Sub38_5115.index, i_20_,
 			 (byte) -74);
 		    if (aByte5110 != 0) {
 			for (int i_21_ = 0; i_21_ < i_20_; i_21_++)
 			    aClass525_Sub38_5115.buffer
 				[i_21_ + (-1133521593
-					  * aClass525_Sub38_5115.pos)]
+					  * aClass525_Sub38_5115.index)]
 				^= aByte5110;
 		    }
-		    aClass525_Sub38_5115.pos += 339428471 * i_20_;
-		    if (aClass525_Sub38_5115.pos * -1133521593 >= 5) {
-			aClass525_Sub38_5115.pos = 0;
+		    aClass525_Sub38_5115.index += 339428471 * i_20_;
+		    if (aClass525_Sub38_5115.index * -1133521593 >= 5) {
+			aClass525_Sub38_5115.index = 0;
 			int i_22_
 			    = aClass525_Sub38_5115.readUnsignedByte(826577422);
 			int i_23_
@@ -635,33 +635,33 @@ public class Class463_Sub1 extends Class463
 			if (aClass525_Sub16_Sub12_Sub1_5118 == null)
 			    throw new IOException();
 			anInt5117 = 1594059483;
-			aClass525_Sub38_5115.pos = 0;
-			aClass525_Sub38_5113.pos = 0;
+			aClass525_Sub38_5115.index = 0;
+			aClass525_Sub38_5113.index = 0;
 		    }
 		} else {
 		    RSBuffer class525_sub38
 			= (aClass525_Sub16_Sub12_Sub1_5118
 			   .aClass525_Sub38_12193);
 		    if (null == class525_sub38) {
-			int i_26_ = 5 - (aClass525_Sub38_5113.pos
+			int i_26_ = 5 - (aClass525_Sub38_5113.index
 					 * -1133521593);
 			if (i_26_ > i_19_)
 			    i_26_ = i_19_;
 			aClass559_10321.method9379
 			    (aClass525_Sub38_5113.buffer,
-			     -1133521593 * aClass525_Sub38_5113.pos,
+			     -1133521593 * aClass525_Sub38_5113.index,
 			     i_26_, (byte) -102);
 			if (0 != aByte5110) {
 			    for (int i_27_ = 0; i_27_ < i_26_; i_27_++)
 				aClass525_Sub38_5113.buffer
-				    [i_27_ + (aClass525_Sub38_5113.pos
+				    [i_27_ + (aClass525_Sub38_5113.index
 					      * -1133521593)]
 				    ^= aByte5110;
 			}
-			aClass525_Sub38_5113.pos += i_26_ * 339428471;
-			if (-1133521593 * aClass525_Sub38_5113.pos
+			aClass525_Sub38_5113.index += i_26_ * 339428471;
+			if (-1133521593 * aClass525_Sub38_5113.index
 			    >= 5) {
-			    aClass525_Sub38_5113.pos = 0;
+			    aClass525_Sub38_5113.index = 0;
 			    int i_28_
 				= aClass525_Sub38_5113.readUnsignedByte(-10454235);
 			    int i_29_
@@ -685,25 +685,25 @@ public class Class463_Sub1 extends Class463
 			       - aClass525_Sub16_Sub12_Sub1_5118.aByte12192);
 			int i_32_ = 102400 - anInt5117 * 1987479199;
 			if (i_32_
-			    > i_31_ - -1133521593 * class525_sub38.pos)
+			    > i_31_ - -1133521593 * class525_sub38.index)
 			    i_32_ = i_31_ - (-1133521593
-					     * class525_sub38.pos);
+					     * class525_sub38.index);
 			if (i_32_ > i_19_)
 			    i_32_ = i_19_;
 			aClass559_10321.method9379
 			    (class525_sub38.buffer,
-			     -1133521593 * class525_sub38.pos, i_32_,
+			     -1133521593 * class525_sub38.index, i_32_,
 			     (byte) -74);
 			if (0 != aByte5110) {
 			    for (int i_33_ = 0; i_33_ < i_32_; i_33_++)
 				class525_sub38.buffer
-				    [(class525_sub38.pos * -1133521593
+				    [(class525_sub38.index * -1133521593
 				      + i_33_)]
 				    ^= aByte5110;
 			}
-			class525_sub38.pos += i_32_ * 339428471;
+			class525_sub38.index += i_32_ * 339428471;
 			anInt5117 += 2036798815 * i_32_;
-			if (class525_sub38.pos * -1133521593 == i_31_) {
+			if (class525_sub38.index * -1133521593 == i_31_) {
 			    aClass525_Sub16_Sub12_Sub1_5118
 				.method16266(-1925745724);
 			    aClass525_Sub16_Sub12_Sub1_5118.aBool11832 = false;
@@ -763,7 +763,7 @@ public class Class463_Sub1 extends Class463
 		 class525_sub16_sub12_sub1
 		     = ((Class525_Sub16_Sub12_Sub1)
 			aClass697_5097.method14201((byte) -1))) {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(1, -2113131050);
 		aClass525_Sub38_5109.method16761(7105793357836614431L
 						 * (class525_sub16_sub12_sub1
@@ -781,7 +781,7 @@ public class Class463_Sub1 extends Class463
 		 class525_sub16_sub12_sub1
 		     = ((Class525_Sub16_Sub12_Sub1)
 			aClass697_5105.method14201((byte) -1))) {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(0, -929167487);
 		aClass525_Sub38_5109.method16761((class525_sub16_sub12_sub1
 						  .aLong10553)
@@ -801,23 +801,23 @@ public class Class463_Sub1 extends Class463
 		anInt5107 = 0;
 		if (aClass525_Sub16_Sub12_Sub1_5118 == null) {
 		    int i_35_
-			= 5 - -1133521593 * aClass525_Sub38_5115.pos;
+			= 5 - -1133521593 * aClass525_Sub38_5115.index;
 		    if (i_35_ > i_34_)
 			i_35_ = i_34_;
 		    aClass559_10321.method9379
 			(aClass525_Sub38_5115.buffer,
-			 -1133521593 * aClass525_Sub38_5115.pos, i_35_,
+			 -1133521593 * aClass525_Sub38_5115.index, i_35_,
 			 (byte) -126);
 		    if (aByte5110 != 0) {
 			for (int i_36_ = 0; i_36_ < i_35_; i_36_++)
 			    aClass525_Sub38_5115.buffer
 				[i_36_ + (-1133521593
-					  * aClass525_Sub38_5115.pos)]
+					  * aClass525_Sub38_5115.index)]
 				^= aByte5110;
 		    }
-		    aClass525_Sub38_5115.pos += 339428471 * i_35_;
-		    if (aClass525_Sub38_5115.pos * -1133521593 >= 5) {
-			aClass525_Sub38_5115.pos = 0;
+		    aClass525_Sub38_5115.index += 339428471 * i_35_;
+		    if (aClass525_Sub38_5115.index * -1133521593 >= 5) {
+			aClass525_Sub38_5115.index = 0;
 			int i_37_
 			    = aClass525_Sub38_5115.readUnsignedByte(231892486);
 			int i_38_
@@ -856,33 +856,33 @@ public class Class463_Sub1 extends Class463
 			if (aClass525_Sub16_Sub12_Sub1_5118 == null)
 			    throw new IOException();
 			anInt5117 = 1594059483;
-			aClass525_Sub38_5115.pos = 0;
-			aClass525_Sub38_5113.pos = 0;
+			aClass525_Sub38_5115.index = 0;
+			aClass525_Sub38_5113.index = 0;
 		    }
 		} else {
 		    RSBuffer class525_sub38
 			= (aClass525_Sub16_Sub12_Sub1_5118
 			   .aClass525_Sub38_12193);
 		    if (null == class525_sub38) {
-			int i_41_ = 5 - (aClass525_Sub38_5113.pos
+			int i_41_ = 5 - (aClass525_Sub38_5113.index
 					 * -1133521593);
 			if (i_41_ > i_34_)
 			    i_41_ = i_34_;
 			aClass559_10321.method9379
 			    (aClass525_Sub38_5113.buffer,
-			     -1133521593 * aClass525_Sub38_5113.pos,
+			     -1133521593 * aClass525_Sub38_5113.index,
 			     i_41_, (byte) -37);
 			if (0 != aByte5110) {
 			    for (int i_42_ = 0; i_42_ < i_41_; i_42_++)
 				aClass525_Sub38_5113.buffer
-				    [i_42_ + (aClass525_Sub38_5113.pos
+				    [i_42_ + (aClass525_Sub38_5113.index
 					      * -1133521593)]
 				    ^= aByte5110;
 			}
-			aClass525_Sub38_5113.pos += i_41_ * 339428471;
-			if (-1133521593 * aClass525_Sub38_5113.pos
+			aClass525_Sub38_5113.index += i_41_ * 339428471;
+			if (-1133521593 * aClass525_Sub38_5113.index
 			    >= 5) {
-			    aClass525_Sub38_5113.pos = 0;
+			    aClass525_Sub38_5113.index = 0;
 			    int i_43_
 				= aClass525_Sub38_5113.readUnsignedByte(1533797228);
 			    int i_44_
@@ -906,25 +906,25 @@ public class Class463_Sub1 extends Class463
 			       - aClass525_Sub16_Sub12_Sub1_5118.aByte12192);
 			int i_47_ = 102400 - anInt5117 * 1987479199;
 			if (i_47_
-			    > i_46_ - -1133521593 * class525_sub38.pos)
+			    > i_46_ - -1133521593 * class525_sub38.index)
 			    i_47_ = i_46_ - (-1133521593
-					     * class525_sub38.pos);
+					     * class525_sub38.index);
 			if (i_47_ > i_34_)
 			    i_47_ = i_34_;
 			aClass559_10321.method9379
 			    (class525_sub38.buffer,
-			     -1133521593 * class525_sub38.pos, i_47_,
+			     -1133521593 * class525_sub38.index, i_47_,
 			     (byte) -77);
 			if (0 != aByte5110) {
 			    for (int i_48_ = 0; i_48_ < i_47_; i_48_++)
 				class525_sub38.buffer
-				    [(class525_sub38.pos * -1133521593
+				    [(class525_sub38.index * -1133521593
 				      + i_48_)]
 				    ^= aByte5110;
 			}
-			class525_sub38.pos += i_47_ * 339428471;
+			class525_sub38.index += i_47_ * 339428471;
 			anInt5117 += 2036798815 * i_47_;
-			if (class525_sub38.pos * -1133521593 == i_46_) {
+			if (class525_sub38.index * -1133521593 == i_46_) {
 			    aClass525_Sub16_Sub12_Sub1_5118
 				.method16266(-1925745724);
 			    aClass525_Sub16_Sub12_Sub1_5118.aBool11832 = false;
@@ -965,8 +965,8 @@ public class Class463_Sub1 extends Class463
 	aClass559_10321 = (Class559) object;
 	method15945((byte) 53);
 	method7619(bool, -312799294);
-	aClass525_Sub38_5115.pos = 0;
-	aClass525_Sub38_5113.pos = 0;
+	aClass525_Sub38_5115.index = 0;
+	aClass525_Sub38_5113.index = 0;
 	aClass525_Sub16_Sub12_Sub1_5118 = null;
 	for (;;) {
 	    Class525_Sub16_Sub12_Sub1 class525_sub16_sub12_sub1
@@ -988,7 +988,7 @@ public class Class463_Sub1 extends Class463
 	}
 	if (aByte5110 != 0) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(4, -2108611964);
 		aClass525_Sub38_5109.method16735(aByte5110, -766603919);
 		aClass525_Sub38_5109.method16605(0, -895124404);
@@ -1041,8 +1041,8 @@ public class Class463_Sub1 extends Class463
 	aClass559_10321 = (Class559) object;
 	method15945((byte) 51);
 	method7619(bool, -312799294);
-	aClass525_Sub38_5115.pos = 0;
-	aClass525_Sub38_5113.pos = 0;
+	aClass525_Sub38_5115.index = 0;
+	aClass525_Sub38_5113.index = 0;
 	aClass525_Sub16_Sub12_Sub1_5118 = null;
 	for (;;) {
 	    Class525_Sub16_Sub12_Sub1 class525_sub16_sub12_sub1
@@ -1064,7 +1064,7 @@ public class Class463_Sub1 extends Class463
 	}
 	if (aByte5110 != 0) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(4, -1416161703);
 		aClass525_Sub38_5109.method16735(aByte5110, -895451926);
 		aClass525_Sub38_5109.method16605(0, -11534183);
@@ -1098,8 +1098,8 @@ public class Class463_Sub1 extends Class463
 	aClass559_10321 = (Class559) object;
 	method15945((byte) 126);
 	method7619(bool, -312799294);
-	aClass525_Sub38_5115.pos = 0;
-	aClass525_Sub38_5113.pos = 0;
+	aClass525_Sub38_5115.index = 0;
+	aClass525_Sub38_5113.index = 0;
 	aClass525_Sub16_Sub12_Sub1_5118 = null;
 	for (;;) {
 	    Class525_Sub16_Sub12_Sub1 class525_sub16_sub12_sub1
@@ -1121,7 +1121,7 @@ public class Class463_Sub1 extends Class463
 	}
 	if (aByte5110 != 0) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(4, -1198501574);
 		aClass525_Sub38_5109.method16735(aByte5110, -1224477865);
 		aClass525_Sub38_5109.method16605(0, -1334888803);
@@ -1155,8 +1155,8 @@ public class Class463_Sub1 extends Class463
 	aClass559_10321 = (Class559) object;
 	method15945((byte) 88);
 	method7619(bool, -312799294);
-	aClass525_Sub38_5115.pos = 0;
-	aClass525_Sub38_5113.pos = 0;
+	aClass525_Sub38_5115.index = 0;
+	aClass525_Sub38_5113.index = 0;
 	aClass525_Sub16_Sub12_Sub1_5118 = null;
 	for (;;) {
 	    Class525_Sub16_Sub12_Sub1 class525_sub16_sub12_sub1
@@ -1178,7 +1178,7 @@ public class Class463_Sub1 extends Class463
 	}
 	if (aByte5110 != 0) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(4, -1907350011);
 		aClass525_Sub38_5109.method16735(aByte5110, -1075952822);
 		aClass525_Sub38_5109.method16605(0, -875789096);
@@ -1203,7 +1203,7 @@ public class Class463_Sub1 extends Class463
     public void method7641() {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(7, -855360991);
 		aClass525_Sub38_5109.method16761(0L);
 		aClass559_10321.method9380
@@ -1239,7 +1239,7 @@ public class Class463_Sub1 extends Class463
     public void method7617() {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(7, -1235096810);
 		aClass525_Sub38_5109.method16761(0L);
 		aClass559_10321.method9380
@@ -1261,7 +1261,7 @@ public class Class463_Sub1 extends Class463
     public void method7643() {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(7, -719035606);
 		aClass525_Sub38_5109.method16761(0L);
 		aClass559_10321.method9380
@@ -1283,7 +1283,7 @@ public class Class463_Sub1 extends Class463
     public void method7644() {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(7, -961980249);
 		aClass525_Sub38_5109.method16761(0L);
 		aClass559_10321.method9380
@@ -1324,7 +1324,7 @@ public class Class463_Sub1 extends Class463
     void method15947() {
 	if (null != aClass559_10321) {
 	    try {
-		aClass525_Sub38_5109.pos = 0;
+		aClass525_Sub38_5109.index = 0;
 		aClass525_Sub38_5109.method16735(6, -218181081);
 		aClass525_Sub38_5109.method16604(4, (byte) 1);
 		aClass525_Sub38_5109.method16602(0, 2022512787);

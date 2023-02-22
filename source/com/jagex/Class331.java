@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class Class331 implements Interface33
 {
-    Class458 aClass458_3592;
+    JS5 aClass458_3592;
     Class399 aClass399_3593;
     Class157 aClass157_3594;
     
@@ -16,7 +16,7 @@ public class Class331 implements Interface33
 					 491475098);
     }
     
-    Class331(Class458 class458, Class399 class399) {
+    Class331(JS5 class458, Class399 class399) {
 	aClass458_3592 = class458;
 	aClass399_3593 = class399;
     }

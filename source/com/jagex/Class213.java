@@ -33,8 +33,8 @@ class Class213 implements Interface43
 	class683.anInt8662 -= -1189665054;
 	int i_0_ = class683.anIntArray8661[class683.anInt8662 * 501271953];
 	int i_1_ = class683.anIntArray8661[1 + class683.anInt8662 * 501271953];
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_0_, -1790877643));
 	if (i_1_ >= 1 && i_1_ <= 5 && class8.aStringArray84[i_1_ - 1] != null)
 	    class683.anObjectArray8636

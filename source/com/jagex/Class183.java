@@ -135,7 +135,7 @@ public class Class183
 	    class259.anInt2740 = -1929556251 * i_2_;
 	    class259.anInt2741 = i_3_ * 1734943053;
 	    class259.aBool2702 = bool;
-	    Class8 class8 = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8 = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					 .method76(i_2_, -902322409);
 	    class259.anInt2636 = class8.anInt75 * -1476691681;
 	    class259.anInt2637 = class8.anInt81 * 1174525451;

@@ -44,6 +44,6 @@ public class Class198_Sub16 extends Class198
 			     : class683.aClass679_8658);
 	Class259 class259 = class679.aClass259_8623;
 	Class245 class245 = class679.aClass245_8622;
-	Class458.method7570(class259, class245, class683, 302379219);
+	JS5.method7570(class259, class245, class683, 302379219);
     }
 }

@@ -22,7 +22,7 @@ public class Class98
     static Class709 aClass709_1203;
     static final int anInt1204 = 48;
     static int anInt1205;
-    static Class458 aClass458_1206;
+    static JS5 aClass458_1206;
     
     static boolean method1822(Class182 class182, int i) {
 	class182.method3218();
@@ -419,8 +419,8 @@ public class Class98
 		for (int i_52_ = 0; i_52_ < 1748507383 * anInt1195; i_52_++) {
 		    int i_53_ = 4 * anIntArray1194[i_52_] + 2 - i_41_ / 128;
 		    int i_54_ = 2 + 4 * anIntArray1197[i_52_] - i_42_ / 128;
-		    Class602 class602
-			= ((Class602)
+		    ObjectDefinitions class602
+			= ((ObjectDefinitions)
 			   client.aClass507_11137.method8362((byte) -1)
 			       .method76(anIntArray1191[i_52_], 777778195));
 		    if (class602.anIntArray7923 != null) {
@@ -1036,7 +1036,7 @@ public class Class98
 		    && (class656_sub1_sub3_sub1_sub2.aByte10867
 			== (Class581.aClass656_Sub1_Sub3_Sub1_Sub1_7705
 			    .aByte10867))) {
-		    Class299 class299
+		    NPCDefinitions class299
 			= class656_sub1_sub3_sub1_sub2.aClass299_12255;
 		    if (class299 != null && null != class299.anIntArray3323)
 			class299 = class299.method5386(Class532.aClass111_7170,
@@ -1123,8 +1123,8 @@ public class Class98
 	}
     }
     
-    static void method1841(Class182 class182, Class602 class602, int i,
-			   int i_157_, int i_158_) {
+    static void method1841(Class182 class182, ObjectDefinitions class602, int i,
+						   int i_157_, int i_158_) {
 	Class79 class79
 	    = ((Class79)
 	       Class568.aClass40_Sub17_7627
@@ -1168,8 +1168,8 @@ public class Class98
 			      Class40_Sub11 class40_sub11, int i, int i_163_) {
 	if (interface62 == null)
 	    return false;
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       class40_sub11.method76(interface62.method406((byte) 1),
 				      -940693537));
 	if (class602.aBool7936 && !client.aBool11230)
@@ -1179,8 +1179,8 @@ public class Class98
 	    for (int i_165_ = 0; i_165_ < class602.anIntArray7923.length;
 		 i_165_++) {
 		if (-1 != class602.anIntArray7923[i_165_]) {
-		    Class602 class602_166_
-			= ((Class602)
+		    ObjectDefinitions class602_166_
+			= ((ObjectDefinitions)
 			   class40_sub11.method76((class602.anIntArray7923
 						   [i_165_]),
 						  1473957239));
@@ -1258,8 +1258,8 @@ public class Class98
 	Interface62 interface62
 	    = (Interface62) class546.method8968(i, i_174_, i_175_, (byte) -4);
 	if (null != interface62) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   (client.aClass507_11137.method8362((byte) -1).method76
 		    (interface62.method406((byte) 1), -1927874171)));
 	    int i_180_ = interface62.method413(1556828120) & 0x3;
@@ -1324,8 +1324,8 @@ public class Class98
 						client.anInterface63_11091,
 						332483378);
 	if (null != interface62) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   client.aClass507_11137.method8362((byte) -1)
 		       .method76(interface62.method406((byte) 1), 1336430264));
 	    int i_183_ = interface62.method413(1938952853) & 0x3;
@@ -1349,8 +1349,8 @@ public class Class98
 	interface62
 	    = (Interface62) class546.method8974(i, i_174_, i_175_, (byte) -42);
 	if (interface62 != null) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   (client.aClass507_11137.method8362((byte) -1).method76
 		    (interface62.method406((byte) 1), -1193344690)));
 	    int i_186_ = interface62.method413(1230108327) & 0x3;
@@ -1360,8 +1360,8 @@ public class Class98
 	}
     }
     
-    static void method1847(Class182 class182, Class602 class602, int i,
-			   int i_187_, int i_188_) {
+    static void method1847(Class182 class182, ObjectDefinitions class602, int i,
+						   int i_187_, int i_188_) {
 	Class79 class79
 	    = ((Class79)
 	       Class568.aClass40_Sub17_7627
@@ -1401,8 +1401,8 @@ public class Class98
 	}
     }
     
-    static void method1848(Class182 class182, Class602 class602, int i,
-			   int i_193_, int i_194_) {
+    static void method1848(Class182 class182, ObjectDefinitions class602, int i,
+						   int i_193_, int i_194_) {
 	Class79 class79
 	    = ((Class79)
 	       Class568.aClass40_Sub17_7627
@@ -1584,7 +1584,7 @@ public class Class98
 		if (class656_sub1_sub3_sub1_sub1.aClass637_12246 != null
 		    && (class656_sub1_sub3_sub1_sub1.aClass637_12246.anInt8300
 			* -1172437919) != -1
-		    && ((Class299)
+		    && ((NPCDefinitions)
 			(Class168_Sub1.aClass40_Sub7_9112.method76
 			 (-1172437919 * (class656_sub1_sub3_sub1_sub1
 					 .aClass637_12246.anInt8300),
@@ -1733,8 +1733,8 @@ public class Class98
 		     i_246_++) {
 		    int i_247_ = 4 * anIntArray1194[i_246_] + 2 - i_235_ / 128;
 		    int i_248_ = 2 + 4 * anIntArray1197[i_246_] - i_236_ / 128;
-		    Class602 class602
-			= ((Class602)
+		    ObjectDefinitions class602
+			= ((ObjectDefinitions)
 			   client.aClass507_11137.method8362((byte) -1)
 			       .method76(anIntArray1191[i_246_], -1689781511));
 		    if (class602.anIntArray7923 != null) {
@@ -1825,8 +1825,8 @@ public class Class98
     }
     
     static boolean method1853(Interface62 interface62) {
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       client.aClass507_11137.method8362((byte) -1)
 		   .method76(interface62.method406((byte) 1), -1474999783));
 	if (class602.anInt7895 * 1280945471 == -1)
@@ -1840,8 +1840,8 @@ public class Class98
 	return class79.method1585(1275918962);
     }
     
-    static void method1854(Class182 class182, Class602 class602, int i,
-			   int i_257_, int i_258_) {
+    static void method1854(Class182 class182, ObjectDefinitions class602, int i,
+						   int i_257_, int i_258_) {
 	Class79 class79
 	    = ((Class79)
 	       Class568.aClass40_Sub17_7627
@@ -1950,7 +1950,7 @@ public class Class98
 		if (class656_sub1_sub3_sub1_sub1.aClass637_12246 != null
 		    && (class656_sub1_sub3_sub1_sub1.aClass637_12246.anInt8300
 			* -1172437919) != -1
-		    && ((Class299)
+		    && ((NPCDefinitions)
 			(Class168_Sub1.aClass40_Sub7_9112.method76
 			 (-1172437919 * (class656_sub1_sub3_sub1_sub1
 					 .aClass637_12246.anInt8300),
@@ -2053,7 +2053,7 @@ public class Class98
 		if (class656_sub1_sub3_sub1_sub1.aClass637_12246 != null
 		    && (class656_sub1_sub3_sub1_sub1.aClass637_12246.anInt8300
 			* -1172437919) != -1
-		    && ((Class299)
+		    && ((NPCDefinitions)
 			(Class168_Sub1.aClass40_Sub7_9112.method76
 			 (-1172437919 * (class656_sub1_sub3_sub1_sub1
 					 .aClass637_12246.anInt8300),
@@ -2794,8 +2794,8 @@ public class Class98
 		     i_399_++) {
 		    int i_400_ = 4 * anIntArray1194[i_399_] + 2 - i_388_ / 128;
 		    int i_401_ = 2 + 4 * anIntArray1197[i_399_] - i_389_ / 128;
-		    Class602 class602
-			= ((Class602)
+		    ObjectDefinitions class602
+			= ((ObjectDefinitions)
 			   client.aClass507_11137.method8362((byte) -1)
 			       .method76(anIntArray1191[i_399_], 317849517));
 		    if (class602.anIntArray7923 != null) {
@@ -2906,7 +2906,7 @@ public class Class98
 		    && (class656_sub1_sub3_sub1_sub2.aByte10867
 			== (Class581.aClass656_Sub1_Sub3_Sub1_Sub1_7705
 			    .aByte10867))) {
-		    Class299 class299
+		    NPCDefinitions class299
 			= class656_sub1_sub3_sub1_sub2.aClass299_12255;
 		    if (class299 != null && null != class299.anIntArray3323)
 			class299 = class299.method5386(Class532.aClass111_7170,
@@ -3182,8 +3182,8 @@ public class Class98
     }
     
     static boolean method1871(Interface62 interface62) {
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       client.aClass507_11137.method8362((byte) -1)
 		   .method76(interface62.method406((byte) 1), 1398150357));
 	if (class602.anInt7895 * 1280945471 == -1)

@@ -75,26 +75,26 @@ public class Class305
     }
     
     static void method5425(RSBuffer class525_sub38, int i) {
-	int i_4_ = class525_sub38.method16740((byte) -81);
+	int i_4_ = class525_sub38.readUnsignedSmart((byte) -81);
 	Class622.aClass596Array8102 = new Class596[i_4_];
 	for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
 	    Class622.aClass596Array8102[i_5_] = new Class596();
 	    Class622.aClass596Array8102[i_5_].anInt7840
-		= class525_sub38.method16740((byte) -63) * -1140507373;
+		= class525_sub38.readUnsignedSmart((byte) -63) * -1140507373;
 	    Class622.aClass596Array8102[i_5_].aString7839
 		= class525_sub38.method16637(372108257);
 	}
 	Class478.anInt5201
-	    = class525_sub38.method16740((byte) -95) * -1237211863;
+	    = class525_sub38.readUnsignedSmart((byte) -95) * -1237211863;
 	Class617.anInt8063
-	    = class525_sub38.method16740((byte) -95) * 1188608401;
+	    = class525_sub38.readUnsignedSmart((byte) -95) * 1188608401;
 	Class617.anInt8062
-	    = class525_sub38.method16740((byte) -99) * 1419578983;
+	    = class525_sub38.readUnsignedSmart((byte) -99) * 1419578983;
 	Class617.aClass603_Sub1Array8056
 	    = new Class603_Sub1[(Class617.anInt8063 * -192862351
 				 - Class478.anInt5201 * -1122711783 + 1)];
 	for (int i_6_ = 0; i_6_ < Class617.anInt8062 * -1524093609; i_6_++) {
-	    int i_7_ = class525_sub38.method16740((byte) -5);
+	    int i_7_ = class525_sub38.readUnsignedSmart((byte) -5);
 	    Class603_Sub1 class603_sub1
 		= Class617.aClass603_Sub1Array8056[i_7_] = new Class603_Sub1();
 	    class603_sub1.anInt7952
@@ -102,7 +102,7 @@ public class Class305
 	    class603_sub1.anInt7951
 		= class525_sub38.readInt(865650061) * -357131117;
 	    class603_sub1.anInt10879
-		= class525_sub38.method16740((byte) -116) * 174902103;
+		= class525_sub38.readUnsignedSmart((byte) -116) * 174902103;
 	    if (-664186777 * class603_sub1.anInt10879 != 0)
 		class603_sub1.aString10884
 		    = class525_sub38.method16637(2072538543);

@@ -3,15 +3,15 @@
  */
 package com.jagex;
 
-public class Class504
+public class BillBoardDefinitions
 {
-    static Class504 aClass504_5601 = new Class504();
-    public static Class504 aClass504_5602 = new Class504();
-    public static Class504 aClass504_5603 = new Class504();
-    static Class504 aClass504_5604 = new Class504();
-    public static Class458 aClass458_5605;
+    static BillBoardDefinitions aClass504_5601 = new BillBoardDefinitions();
+    public static BillBoardDefinitions aClass504_5602 = new BillBoardDefinitions();
+    public static BillBoardDefinitions aClass504_5603 = new BillBoardDefinitions();
+    static BillBoardDefinitions aClass504_5604 = new BillBoardDefinitions();
+    public static JS5 aClass458_5605;
     
-    Class504() {
+    BillBoardDefinitions() {
 	/* empty */
     }
     

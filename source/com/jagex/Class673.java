@@ -348,8 +348,8 @@ public final class Class673
 			       byte i_51_) {
 	if (interface62 == null)
 	    return false;
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       class40_sub11.method76(interface62.method406((byte) 1),
 				      -131703810));
 	if (class602.aBool7936 && !client.aBool11230)
@@ -359,8 +359,8 @@ public final class Class673
 	    for (int i_53_ = 0; i_53_ < class602.anIntArray7923.length;
 		 i_53_++) {
 		if (-1 != class602.anIntArray7923[i_53_]) {
-		    Class602 class602_54_
-			= ((Class602)
+		    ObjectDefinitions class602_54_
+			= ((ObjectDefinitions)
 			   class40_sub11.method76((class602.anIntArray7923
 						   [i_53_]),
 						  990730097));

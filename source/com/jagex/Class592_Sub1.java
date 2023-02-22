@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class592_Sub1 extends Class592 implements Interface5
 {
-    Class458 aClass458_10898;
+    JS5 aClass458_10898;
     
     boolean method9803(int i, int i_0_) {
 	synchronized (aClass458_10898) {
@@ -15,71 +15,71 @@ public class Class592_Sub1 extends Class592 implements Interface5
     }
     
     public Interface12 method42(int i, Interface13 interface13, int i_1_) {
-	return new Class602(i, this, interface13);
+	return new ObjectDefinitions(i, this, interface13);
     }
     
     public Interface12 method43(int i, Interface13 interface13) {
-	return new Class602(i, this, interface13);
+	return new ObjectDefinitions(i, this, interface13);
     }
     
     byte[] method9802(int i, byte i_2_) {
 	synchronized (aClass458_10898) {
-	    byte[] is = aClass458_10898.method7476(i, 0, 1330545779);
+	    byte[] is = aClass458_10898.getFile(i, 0, 1330545779);
 	    return is;
 	}
     }
     
     public Class method40(int i) {
-	return com.jagex.Class602.class;
+	return ObjectDefinitions.class;
     }
     
     public Interface12 method39(int i, Interface13 interface13) {
-	return new Class602(i, this, interface13);
+	return new ObjectDefinitions(i, this, interface13);
     }
     
     public Interface12 method41(int i, Interface13 interface13) {
-	return new Class602(i, this, interface13);
+	return new ObjectDefinitions(i, this, interface13);
     }
     
     byte[] method9804(int i) {
 	synchronized (aClass458_10898) {
-	    byte[] is = aClass458_10898.method7476(i, 0, 799750813);
+	    byte[] is = aClass458_10898.getFile(i, 0, 799750813);
 	    return is;
 	}
     }
     
     public Interface12 method38(int i, Interface13 interface13) {
-	return new Class602(i, this, interface13);
+	return new ObjectDefinitions(i, this, interface13);
     }
     
     public Interface12 method44(int i, Interface13 interface13) {
-	return new Class602(i, this, interface13);
+	return new ObjectDefinitions(i, this, interface13);
     }
     
     public Class method45() {
-	return com.jagex.Class602.class;
+	return ObjectDefinitions.class;
     }
     
     public Class method46() {
-	return com.jagex.Class602.class;
+	return ObjectDefinitions.class;
     }
     
-    Class592_Sub1(boolean bool, Class458 class458, Class666 class666,
-		  Class668 class668) {
+    Class592_Sub1(boolean bool, JS5 class458, Class666 class666,
+                  Class668 class668) {
 	super(bool, class666, class668);
 	aClass458_10898 = class458;
     }
     
     byte[] method9805(int i) {
 	synchronized (aClass458_10898) {
-	    byte[] is = aClass458_10898.method7476(i, 0, 351122477);
+	    byte[] is = aClass458_10898.getFile(i, 0, 351122477);
 	    return is;
 	}
     }
     
     byte[] method9806(int i) {
 	synchronized (aClass458_10898) {
-	    byte[] is = aClass458_10898.method7476(i, 0, 498835441);
+	    byte[] is = aClass458_10898.getFile(i, 0, 498835441);
 	    return is;
 	}
     }

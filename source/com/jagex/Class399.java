@@ -17,8 +17,8 @@ public class Class399 implements Interface45
 			     [class525_sub38.readUnsignedByte(467273416)]);
 	Class396 class396 = (Class643.method10595((byte) 3)
 			     [class525_sub38.readUnsignedByte(5981338)]);
-	int i_0_ = class525_sub38.method16625((byte) -84);
-	int i_1_ = class525_sub38.method16625((byte) -31);
+	int i_0_ = class525_sub38.readSmart((byte) -84);
+	int i_1_ = class525_sub38.readSmart((byte) -31);
 	return new Class399(i, class395, class396, i_0_, i_1_);
     }
     
@@ -48,8 +48,8 @@ public class Class399 implements Interface45
 			     [class525_sub38.readUnsignedByte(928189185)]);
 	Class396 class396 = (Class643.method10595((byte) 45)
 			     [class525_sub38.readUnsignedByte(2130720390)]);
-	int i_4_ = class525_sub38.method16625((byte) 13);
-	int i_5_ = class525_sub38.method16625((byte) 42);
+	int i_4_ = class525_sub38.readSmart((byte) 13);
+	int i_5_ = class525_sub38.readSmart((byte) 42);
 	return new Class399(i, class395, class396, i_4_, i_5_);
     }
     

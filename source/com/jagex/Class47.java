@@ -12,11 +12,11 @@ public class Class47 implements Interface13
 {
     Interface12[] anInterface12Array357;
     protected int anInt358;
-    Class458 aClass458_359;
+    JS5 aClass458_359;
     Class663 aClass663_360;
     Interface12 anInterface12_361;
     Interface5 anInterface5_362;
-    public static Class458 aClass458_363;
+    public static JS5 aClass458_363;
     
     public int method71() {
 	return anInterface12Array357.length;
@@ -50,7 +50,7 @@ public class Class47 implements Interface13
     }
     
     Class47(Class668 class668, Class666 class666, Class663 class663,
-	    Class458 class458, Interface5 interface5, boolean bool) {
+            JS5 class458, Interface5 interface5, boolean bool) {
 	anInterface5_362 = interface5;
 	aClass663_360 = class663;
 	aClass458_359 = class458;
@@ -237,7 +237,7 @@ public class Class47 implements Interface13
 				   Class38.aBigInteger324, (short) 24926);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16614
 	    (class525_sub38.buffer, 0,
-	     -1133521593 * class525_sub38.pos, -430494844);
+	     -1133521593 * class525_sub38.index, -430494844);
 	return is;
     }
 }

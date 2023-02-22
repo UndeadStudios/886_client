@@ -13,7 +13,7 @@ public class Class90_Sub1 extends Class90
 	return new Class79(i, this);
     }
     
-    Class90_Sub1(Class458 class458, int i) {
+    Class90_Sub1(JS5 class458, int i) {
 	super(class458, i);
     }
     

@@ -5,7 +5,7 @@ package com.jagex;
 
 public abstract class Class584
 {
-    Class458 aClass458_7721;
+    JS5 aClass458_7721;
     Class200 aClass200_7722 = new Class200(20);
     
     void method9636(int i) {
@@ -14,7 +14,7 @@ public abstract class Class584
 	}
     }
     
-    Class584(Class458 class458) {
+    Class584(JS5 class458) {
 	aClass458_7721 = class458;
     }
     
@@ -50,7 +50,7 @@ public abstract class Class584
 	if (bool)
 	    Class555.method9242(class245, class259, 108507919);
 	else
-	    Class458.method7569(class245, class259, (byte) 0);
+	    JS5.method7569(class245, class259, (byte) 0);
     }
     
     static final void method9642(Class683 class683, int i) {

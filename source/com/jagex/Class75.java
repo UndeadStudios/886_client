@@ -61,7 +61,7 @@ public class Class75
 	    int i_14_ = 3 * i_6_ + 6;
 	    int i_15_ = 3;
 	    int[] is = { 64, 96, 128 };
-	    Class186 class186 = new Class186(i_15_ * i_14_ + 1,
+	    ModelDecoder class186 = new ModelDecoder(i_15_ * i_14_ + 1,
 					     i_14_ * i_15_ * 2 - i_14_, 0);
 	    int i_16_ = class186.method3625(0, 0, 0);
 	    int[][] is_17_ = new int[i_15_][i_14_];

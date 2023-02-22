@@ -15,16 +15,16 @@ public class Class268
     
     public static int method4952(RSBuffer class525_sub38,
 								 String string) {
-	int i = class525_sub38.pos * -1133521593;
+	int i = class525_sub38.index * -1133521593;
 	byte[] is = Class225.method4255(string, 447768767);
 	class525_sub38.method16829(is.length, 718494585);
-	class525_sub38.pos
+	class525_sub38.index
 	    += aClass279_2817.method5150(is, 0, is.length,
 					 class525_sub38.buffer,
-					 (class525_sub38.pos
+					 (class525_sub38.index
 					  * -1133521593),
 					 1155273639) * 339428471;
-	return class525_sub38.pos * -1133521593 - i;
+	return class525_sub38.index * -1133521593 - i;
     }
     
     Class268() throws Throwable {
@@ -33,16 +33,16 @@ public class Class268
     
     public static int method4953(RSBuffer class525_sub38,
 								 String string) {
-	int i = class525_sub38.pos * -1133521593;
+	int i = class525_sub38.index * -1133521593;
 	byte[] is = Class225.method4255(string, -750942263);
 	class525_sub38.method16829(is.length, 2012873248);
-	class525_sub38.pos
+	class525_sub38.index
 	    += aClass279_2817.method5150(is, 0, is.length,
 					 class525_sub38.buffer,
-					 (class525_sub38.pos
+					 (class525_sub38.index
 					  * -1133521593),
 					 2101115258) * 339428471;
-	return class525_sub38.pos * -1133521593 - i;
+	return class525_sub38.index * -1133521593 - i;
     }
     
     public static String method4954(RSBuffer class525_sub38) {
@@ -56,13 +56,13 @@ public class Class268
     static String method4956(RSBuffer class525_sub38, int i) {
 	String string;
 	try {
-	    int i_0_ = class525_sub38.method16740((byte) -78);
+	    int i_0_ = class525_sub38.readUnsignedSmart((byte) -78);
 	    if (i_0_ > i)
 		i_0_ = i;
 	    byte[] is = new byte[i_0_];
-	    class525_sub38.pos
+	    class525_sub38.index
 		+= (aClass279_2817.method5149(class525_sub38.buffer,
-					      (class525_sub38.pos
+					      (class525_sub38.index
 					       * -1133521593),
 					      is, 0, i_0_, -1192771669)
 		    * 339428471);

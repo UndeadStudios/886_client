@@ -38,7 +38,7 @@ public class Class88 implements Interface12, Interface7
 	    aClass495_894
 		= ((Class495)
 		   Class539.method8888(Class495.method8143((byte) 1),
-				       class525_sub38.method16740((byte) -11),
+				       class525_sub38.readUnsignedSmart((byte) -11),
 				       -94956704));
     }
     
@@ -65,7 +65,7 @@ public class Class88 implements Interface12, Interface7
 	    aClass495_894
 		= ((Class495)
 		   Class539.method8888(Class495.method8143((byte) 1),
-				       class525_sub38.method16740((byte) -32),
+				       class525_sub38.readUnsignedSmart((byte) -32),
 				       1242307650));
     }
     
@@ -105,7 +105,7 @@ public class Class88 implements Interface12, Interface7
 	    aClass495_894
 		= ((Class495)
 		   Class539.method8888(Class495.method8143((byte) 1),
-				       class525_sub38.method16740((byte) -57),
+				       class525_sub38.readUnsignedSmart((byte) -57),
 				       -626710745));
     }
     

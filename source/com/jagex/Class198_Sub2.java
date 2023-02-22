@@ -10,7 +10,7 @@ public class Class198_Sub2 extends Class198
     int anInt9902;
     int anInt9903;
     int anInt9904;
-    public static Class458 aClass458_9905;
+    public static JS5 aClass458_9905;
     
     public void method3753(int i) {
 	Class269.method4999(-203459209 * anInt9903, -1589766705 * anInt9902,

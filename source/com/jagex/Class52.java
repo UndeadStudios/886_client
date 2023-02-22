@@ -48,7 +48,7 @@ public class Class52
 		/* empty */
 	    }
 	    return class52;
-	} catch (Object object) {
+	} catch (Exception object) {
 	    try {
 		if (class42 != null)
 		    class42.method1047(1382964615);
@@ -128,7 +128,7 @@ public class Class52
 		    RSBuffer class525_sub38 = new RSBuffer(5000);
 		    method1142(class525_sub38, -581006069);
 		    class42.method1051(class525_sub38.buffer, 0,
-				       class525_sub38.pos * -1133521593,
+				       class525_sub38.index * -1133521593,
 				       161983396);
 		} catch (Exception exception) {
 		    try {
@@ -145,7 +145,7 @@ public class Class52
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	    } catch (Exception object) {
 		try {
 		    if (null != class42)
 			class42.method1047(-1591963980);
@@ -226,7 +226,7 @@ public class Class52
 		/* empty */
 	    }
 	    return class52;
-	} catch (Object object) {
+	} catch (Exception object) {
 	    try {
 		if (class42 != null)
 		    class42.method1047(1117653539);
@@ -320,7 +320,7 @@ public class Class52
 		/* empty */
 	    }
 	    return class52;
-	} catch (Object object) {
+	} catch (Exception object) {
 	    try {
 		if (class42 != null)
 		    class42.method1047(1603289402);
@@ -343,7 +343,7 @@ public class Class52
 		    RSBuffer class525_sub38 = new RSBuffer(5000);
 		    method1142(class525_sub38, -581006069);
 		    class42.method1051(class525_sub38.buffer, 0,
-				       class525_sub38.pos * -1133521593,
+				       class525_sub38.index * -1133521593,
 				       1731488553);
 		} catch (Exception exception) {
 		    try {
@@ -360,7 +360,7 @@ public class Class52
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	  } catch (Exception object) {
 		try {
 		    if (null != class42)
 			class42.method1047(-966426081);
@@ -384,7 +384,7 @@ public class Class52
 		    RSBuffer class525_sub38 = new RSBuffer(5000);
 		    method1142(class525_sub38, -581006069);
 		    class42.method1051(class525_sub38.buffer, 0,
-				       class525_sub38.pos * -1133521593,
+				       class525_sub38.index * -1133521593,
 				       2134264036);
 		} catch (Exception exception) {
 		    try {
@@ -401,7 +401,7 @@ public class Class52
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	    } catch (Exception object) {
 		try {
 		    if (null != class42)
 			class42.method1047(2032224310);
@@ -425,7 +425,7 @@ public class Class52
 		    RSBuffer class525_sub38 = new RSBuffer(5000);
 		    method1142(class525_sub38, -581006069);
 		    class42.method1051(class525_sub38.buffer, 0,
-				       class525_sub38.pos * -1133521593,
+				       class525_sub38.index * -1133521593,
 				       -1209294549);
 		} catch (Exception exception) {
 		    try {
@@ -442,7 +442,7 @@ public class Class52
 		} catch (Exception exception) {
 		    /* empty */
 		}
-	    } catch (Object object) {
+	    } catch (Exception object) {
 		try {
 		    if (null != class42)
 			class42.method1047(-2106723073);

@@ -5,9 +5,9 @@ package com.jagex;
 
 public class Class471
 {
-    Class458 aClass458_5146;
+    JS5 aClass458_5146;
     Class200 aClass200_5147 = new Class200(64);
-    Class458 aClass458_5148;
+    JS5 aClass458_5148;
     static final int anInt5149 = 0;
     static final int anInt5150 = 32768;
     
@@ -18,9 +18,9 @@ public class Class471
 	    return class525_sub16_sub19;
 	byte[] is;
 	if (i >= 32768)
-	    is = aClass458_5146.method7476(0, i & 0x7fff, 773815132);
+	    is = aClass458_5146.getFile(0, i & 0x7fff, 773815132);
 	else
-	    is = aClass458_5148.method7476(0, i, 145683438);
+	    is = aClass458_5148.getFile(0, i, 145683438);
 	class525_sub16_sub19 = new Class525_Sub16_Sub19();
 	if (null != is)
 	    class525_sub16_sub19.method18545(new RSBuffer(is),
@@ -38,9 +38,9 @@ public class Class471
 	    return class525_sub16_sub19;
 	byte[] is;
 	if (i >= 32768)
-	    is = aClass458_5146.method7476(0, i & 0x7fff, 1045712406);
+	    is = aClass458_5146.getFile(0, i & 0x7fff, 1045712406);
 	else
-	    is = aClass458_5148.method7476(0, i, 1208407917);
+	    is = aClass458_5148.getFile(0, i, 1208407917);
 	class525_sub16_sub19 = new Class525_Sub16_Sub19();
 	if (null != is)
 	    class525_sub16_sub19.method18545(new RSBuffer(is),
@@ -58,9 +58,9 @@ public class Class471
 	    return class525_sub16_sub19;
 	byte[] is;
 	if (i >= 32768)
-	    is = aClass458_5146.method7476(0, i & 0x7fff, 505463047);
+	    is = aClass458_5146.getFile(0, i & 0x7fff, 505463047);
 	else
-	    is = aClass458_5148.method7476(0, i, 903421936);
+	    is = aClass458_5148.getFile(0, i, 903421936);
 	class525_sub16_sub19 = new Class525_Sub16_Sub19();
 	if (null != is)
 	    class525_sub16_sub19.method18545(new RSBuffer(is),
@@ -71,8 +71,8 @@ public class Class471
 	return class525_sub16_sub19;
     }
     
-    public Class471(Class666 class666, Class458 class458,
-		    Class458 class458_1_) {
+    public Class471(Class666 class666, JS5 class458,
+		    JS5 class458_1_) {
 	aClass458_5148 = class458;
 	aClass458_5146 = class458_1_;
 	if (aClass458_5148 != null)
@@ -88,9 +88,9 @@ public class Class471
 	    return class525_sub16_sub19;
 	byte[] is;
 	if (i >= 32768)
-	    is = aClass458_5146.method7476(0, i & 0x7fff, 1113204181);
+	    is = aClass458_5146.getFile(0, i & 0x7fff, 1113204181);
 	else
-	    is = aClass458_5148.method7476(0, i, 1248104942);
+	    is = aClass458_5148.getFile(0, i, 1248104942);
 	class525_sub16_sub19 = new Class525_Sub16_Sub19();
 	if (null != is)
 	    class525_sub16_sub19.method18545(new RSBuffer(is),
@@ -107,7 +107,7 @@ public class Class471
 	Class259 class259 = class679.aClass259_8623;
 	Class245 class245 = class679.aClass245_8622;
 	Class259 class259_2_
-	    = Class65.method1432(class245, class259, 93078391);
+	    = WorldTile.method1432(class245, class259, 93078391);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
 	    = null == class259_2_ ? -1 : class259_2_.anInt2588 * 1984678839;
@@ -132,7 +132,7 @@ public class Class471
 	if (Class159.aClass295_1755 == null)
 	    Class97.method1821(-582357193);
 	Class303 class303 = Class328.aClass303_3583;
-	int i_3_ = Class308.method5447((byte) -28);
+	int i_3_ = SunDefinition.method5447((byte) -28);
 	if (class303 == Class328.aClass303_3583) {
 	    Class220.aString2331
 		= Class328.aClass303_3583.aClass53_3391

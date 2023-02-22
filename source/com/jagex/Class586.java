@@ -142,7 +142,7 @@ public class Class586 implements Interface7, Interface12
 	    anIntArrayArray7755[i_2_] = new int[6];
 	    for (int i_3_ = 0; i_3_ < 6; i_3_++)
 		anIntArrayArray7755[i_2_][i_3_]
-		    = class525_sub38.method16625((byte) 61);
+		    = class525_sub38.readSmart((byte) 61);
 	} else if (i == 28) {
 	    int i_4_ = class525_sub38.readUnsignedByte(1840431734);
 	    anIntArray7759 = new int[i_4_];
@@ -160,13 +160,13 @@ public class Class586 implements Interface7, Interface12
 	else if (32 == i)
 	    anInt7763 = class525_sub38.readUnsignedShort((byte) 7) * 64866045;
 	else if (i == 33)
-	    anInt7748 = class525_sub38.method16625((byte) -93) * 2135471725;
+	    anInt7748 = class525_sub38.readSmart((byte) -93) * 2135471725;
 	else if (i == 34)
 	    anInt7764 = class525_sub38.readUnsignedByte(1060396148) * 1939266325;
 	else if (i == 35)
 	    anInt7766 = class525_sub38.readUnsignedShort((byte) 27) * -1167146635;
 	else if (i == 36)
-	    anInt7767 = class525_sub38.method16625((byte) 43) * -308088815;
+	    anInt7767 = class525_sub38.readSmart((byte) 43) * -308088815;
 	else if (i == 37)
 	    anInt7765 = class525_sub38.readUnsignedByte(998771161) * 647835199;
 	else if (i == 38)
@@ -231,7 +231,7 @@ public class Class586 implements Interface7, Interface12
 	    anIntArrayArray7728[i_10_] = new int[3];
 	    for (int i_11_ = 0; i_11_ < 3; i_11_++)
 		anIntArrayArray7728[i_10_][i_11_]
-		    = class525_sub38.method16625((byte) -11);
+		    = class525_sub38.readSmart((byte) -11);
 	}
     }
     
@@ -432,7 +432,7 @@ public class Class586 implements Interface7, Interface12
 	    anIntArrayArray7755[i_26_] = new int[6];
 	    for (int i_27_ = 0; i_27_ < 6; i_27_++)
 		anIntArrayArray7755[i_26_][i_27_]
-		    = class525_sub38.method16625((byte) 90);
+		    = class525_sub38.readSmart((byte) 90);
 	} else if (i == 28) {
 	    int i_28_ = class525_sub38.readUnsignedByte(1328977384);
 	    anIntArray7759 = new int[i_28_];
@@ -450,13 +450,13 @@ public class Class586 implements Interface7, Interface12
 	else if (32 == i)
 	    anInt7763 = class525_sub38.readUnsignedShort((byte) 14) * 64866045;
 	else if (i == 33)
-	    anInt7748 = class525_sub38.method16625((byte) -9) * 2135471725;
+	    anInt7748 = class525_sub38.readSmart((byte) -9) * 2135471725;
 	else if (i == 34)
 	    anInt7764 = class525_sub38.readUnsignedByte(594586212) * 1939266325;
 	else if (i == 35)
 	    anInt7766 = class525_sub38.readUnsignedShort((byte) 96) * -1167146635;
 	else if (i == 36)
-	    anInt7767 = class525_sub38.method16625((byte) -41) * -308088815;
+	    anInt7767 = class525_sub38.readSmart((byte) -41) * -308088815;
 	else if (i == 37)
 	    anInt7765 = class525_sub38.readUnsignedByte(979570898) * 647835199;
 	else if (i == 38)
@@ -522,7 +522,7 @@ public class Class586 implements Interface7, Interface12
 	    anIntArrayArray7728[i_34_] = new int[3];
 	    for (int i_35_ = 0; i_35_ < 3; i_35_++)
 		anIntArrayArray7728[i_34_][i_35_]
-		    = class525_sub38.method16625((byte) 20);
+		    = class525_sub38.readSmart((byte) 20);
 	}
     }
     
@@ -561,7 +561,7 @@ public class Class586 implements Interface7, Interface12
 	    anIntArrayArray7755[i_36_] = new int[6];
 	    for (int i_37_ = 0; i_37_ < 6; i_37_++)
 		anIntArrayArray7755[i_36_][i_37_]
-		    = class525_sub38.method16625((byte) -54);
+		    = class525_sub38.readSmart((byte) -54);
 	} else if (i == 28) {
 	    int i_38_ = class525_sub38.readUnsignedByte(1888407690);
 	    anIntArray7759 = new int[i_38_];
@@ -579,13 +579,13 @@ public class Class586 implements Interface7, Interface12
 	else if (32 == i)
 	    anInt7763 = class525_sub38.readUnsignedShort((byte) 75) * 64866045;
 	else if (i == 33)
-	    anInt7748 = class525_sub38.method16625((byte) -86) * 2135471725;
+	    anInt7748 = class525_sub38.readSmart((byte) -86) * 2135471725;
 	else if (i == 34)
 	    anInt7764 = class525_sub38.readUnsignedByte(127914578) * 1939266325;
 	else if (i == 35)
 	    anInt7766 = class525_sub38.readUnsignedShort((byte) 118) * -1167146635;
 	else if (i == 36)
-	    anInt7767 = class525_sub38.method16625((byte) 47) * -308088815;
+	    anInt7767 = class525_sub38.readSmart((byte) 47) * -308088815;
 	else if (i == 37)
 	    anInt7765 = class525_sub38.readUnsignedByte(1387038510) * 647835199;
 	else if (i == 38)
@@ -651,7 +651,7 @@ public class Class586 implements Interface7, Interface12
 	    anIntArrayArray7728[i_44_] = new int[3];
 	    for (int i_45_ = 0; i_45_ < 3; i_45_++)
 		anIntArrayArray7728[i_44_][i_45_]
-		    = class525_sub38.method16625((byte) 16);
+		    = class525_sub38.readSmart((byte) 16);
 	}
     }
     
@@ -815,7 +815,7 @@ public class Class586 implements Interface7, Interface12
 	    anIntArrayArray7755[i_58_] = new int[6];
 	    for (int i_59_ = 0; i_59_ < 6; i_59_++)
 		anIntArrayArray7755[i_58_][i_59_]
-		    = class525_sub38.method16625((byte) 14);
+		    = class525_sub38.readSmart((byte) 14);
 	} else if (i == 28) {
 	    int i_60_ = class525_sub38.readUnsignedByte(454036819);
 	    anIntArray7759 = new int[i_60_];
@@ -833,13 +833,13 @@ public class Class586 implements Interface7, Interface12
 	else if (32 == i)
 	    anInt7763 = class525_sub38.readUnsignedShort((byte) 80) * 64866045;
 	else if (i == 33)
-	    anInt7748 = class525_sub38.method16625((byte) -59) * 2135471725;
+	    anInt7748 = class525_sub38.readSmart((byte) -59) * 2135471725;
 	else if (i == 34)
 	    anInt7764 = class525_sub38.readUnsignedByte(293580141) * 1939266325;
 	else if (i == 35)
 	    anInt7766 = class525_sub38.readUnsignedShort((byte) 111) * -1167146635;
 	else if (i == 36)
-	    anInt7767 = class525_sub38.method16625((byte) 11) * -308088815;
+	    anInt7767 = class525_sub38.readSmart((byte) 11) * -308088815;
 	else if (i == 37)
 	    anInt7765 = class525_sub38.readUnsignedByte(1640290915) * 647835199;
 	else if (i == 38)
@@ -905,7 +905,7 @@ public class Class586 implements Interface7, Interface12
 	    anIntArrayArray7728[i_66_] = new int[3];
 	    for (int i_67_ = 0; i_67_ < 3; i_67_++)
 		anIntArrayArray7728[i_66_][i_67_]
-		    = class525_sub38.method16625((byte) -14);
+		    = class525_sub38.readSmart((byte) -14);
 	}
     }
     

@@ -39,8 +39,8 @@ public class Class311
 	int i_4_ = class683.anIntArray8661[4 + class683.anInt8662 * 501271953];
 	if (i_2_ == -1)
 	    throw new RuntimeException();
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i_2_, -446295003));
 	if (class65.aClass495_699.method80() != i_1_)
 	    throw new RuntimeException();

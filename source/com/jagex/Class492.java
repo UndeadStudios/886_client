@@ -79,7 +79,7 @@ final class Class492 implements Interface11
 	Class475.anInt5179 = 662343119 * (i_1_ - i_13_);
 	Class689_Sub1.anInt11019 = i_2_ * 784259773;
 	Class64.anInt695 = -1054956469 * i_3_;
-	Class8.anInt137 = 0;
+	ItemDefinitions.anInt137 = 0;
     }
     
     static final void method7995(Class683 class683, int i) {

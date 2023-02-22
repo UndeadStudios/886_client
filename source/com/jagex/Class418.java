@@ -71,8 +71,8 @@ public class Class418
     static final void method6727(Class683 class683, int i) {
 	int i_0_ = (class683.anIntArray8661
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_0_, 1985634240));
 	if (195314511 * class8.anInt114 == -1
 	    && 593405105 * class8.anInt113 >= 0)

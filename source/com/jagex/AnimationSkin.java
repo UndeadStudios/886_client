@@ -3,9 +3,9 @@
  */
 package com.jagex;
 
-public class Class210 implements Interface12, Interface7
+public class AnimationSkin implements Interface12, Interface7
 {
-    public boolean[] aBoolArray2262;
+    public boolean[] flowControl;
     
     public void method70() {
 	/* empty */
@@ -22,15 +22,15 @@ public class Class210 implements Interface12, Interface7
     
     void method3919(RSBuffer class525_sub38, int i, int i_1_) {
 	if (i == 2) {
-	    aBoolArray2262 = new boolean[400];
-	    int i_2_ = class525_sub38.method16740((byte) -49);
+	    flowControl = new boolean[400];
+	    int i_2_ = class525_sub38.readUnsignedSmart((byte) -49);
 	    for (int i_3_ = 0; i_3_ < i_2_; i_3_++)
-		aBoolArray2262[class525_sub38.method16740((byte) -68)] = true;
+		flowControl[class525_sub38.readUnsignedSmart((byte) -68)] = true;
 	} else if (3 == i) {
 	    class525_sub38.readUnsignedByte(1335829500);
-	    int i_4_ = class525_sub38.method16740((byte) -73);
+	    int i_4_ = class525_sub38.readUnsignedSmart((byte) -73);
 	    for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
-		class525_sub38.method16740((byte) -103);
+		class525_sub38.readUnsignedSmart((byte) -103);
 		class525_sub38.readUnsignedByte(605015990);
 	    }
 	}
@@ -46,15 +46,15 @@ public class Class210 implements Interface12, Interface7
     
     void method3920(RSBuffer class525_sub38, int i) {
 	if (i == 2) {
-	    aBoolArray2262 = new boolean[400];
-	    int i_6_ = class525_sub38.method16740((byte) -89);
+	    flowControl = new boolean[400];
+	    int i_6_ = class525_sub38.readUnsignedSmart((byte) -89);
 	    for (int i_7_ = 0; i_7_ < i_6_; i_7_++)
-		aBoolArray2262[class525_sub38.method16740((byte) -26)] = true;
+		flowControl[class525_sub38.readUnsignedSmart((byte) -26)] = true;
 	} else if (3 == i) {
 	    class525_sub38.readUnsignedByte(1054130266);
-	    int i_8_ = class525_sub38.method16740((byte) -3);
+	    int i_8_ = class525_sub38.readUnsignedSmart((byte) -3);
 	    for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
-		class525_sub38.method16740((byte) -3);
+		class525_sub38.readUnsignedSmart((byte) -3);
 		class525_sub38.readUnsignedByte(1932570616);
 	    }
 	}
@@ -75,21 +75,21 @@ public class Class210 implements Interface12, Interface7
     
     void method3921(RSBuffer class525_sub38, int i) {
 	if (i == 2) {
-	    aBoolArray2262 = new boolean[400];
-	    int i_10_ = class525_sub38.method16740((byte) -52);
+	    flowControl = new boolean[400];
+	    int i_10_ = class525_sub38.readUnsignedSmart((byte) -52);
 	    for (int i_11_ = 0; i_11_ < i_10_; i_11_++)
-		aBoolArray2262[class525_sub38.method16740((byte) -115)] = true;
+		flowControl[class525_sub38.readUnsignedSmart((byte) -115)] = true;
 	} else if (3 == i) {
 	    class525_sub38.readUnsignedByte(323933984);
-	    int i_12_ = class525_sub38.method16740((byte) -126);
+	    int i_12_ = class525_sub38.readUnsignedSmart((byte) -126);
 	    for (int i_13_ = 0; i_13_ < i_12_; i_13_++) {
-		class525_sub38.method16740((byte) -34);
+		class525_sub38.readUnsignedSmart((byte) -34);
 		class525_sub38.readUnsignedByte(1942554092);
 	    }
 	}
     }
     
-    Class210() {
+    AnimationSkin() {
 	/* empty */
     }
     

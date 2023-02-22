@@ -106,7 +106,7 @@ public class Class272 implements Interface76
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i_2_, -1816456189))
 	       .anInt56) * 1051584679 == 1 ? 1 : 0;
     }
@@ -119,7 +119,7 @@ public class Class272 implements Interface76
 					    (byte) -11))
 		       .append
 		       (i).append
-		       (Class8.aString89).toString();
+		       (ItemDefinitions.aString89).toString();
 	if (i < 10000000)
 	    return new StringBuilder().append
 		       (Class459.method7583(class631.anInt8194 * -1075664863,
@@ -128,7 +128,7 @@ public class Class272 implements Interface76
 		       (i / 1000).append
 		       (Class53.aClass53_524.method1169(class666, 1552651121))
 		       .append
-		       (Class8.aString89).toString();
+		       (ItemDefinitions.aString89).toString();
 	return new StringBuilder().append
 		   (Class459.method7583(class631.anInt8173 * -266050813,
 					(byte) -117))
@@ -136,7 +136,7 @@ public class Class272 implements Interface76
 		   (i / 1000000).append
 		   (Class53.aClass53_546.method1169(class666, 1552651121))
 		   .append
-		   (Class8.aString89).toString();
+		   (ItemDefinitions.aString89).toString();
     }
     
     static final void method5027(Class683 class683, int i) {

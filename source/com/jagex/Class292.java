@@ -185,7 +185,7 @@ public class Class292 implements Interface32
 	    if (null != inputstream)
 		inputstream.close();
 	    return image;
-	} catch (Object object) {
+	} catch (Exception object) {
 	    if (null != inputstream)
 		inputstream.close();
 	    throw object;
@@ -261,7 +261,7 @@ public class Class292 implements Interface32
 	    if (null != inputstream)
 		inputstream.close();
 	    return image;
-	} catch (Object object) {
+	} catch (Exception object) {
 	    if (null != inputstream)
 		inputstream.close();
 	    throw object;
@@ -289,7 +289,7 @@ public class Class292 implements Interface32
 	    if (null != inputstream)
 		inputstream.close();
 	    return image;
-	} catch (Object object) {
+	} catch (Exception object) {
 	    if (null != inputstream)
 		inputstream.close();
 	    throw object;

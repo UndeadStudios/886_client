@@ -683,8 +683,8 @@ public class Class175_Sub2 extends Class175
 	}
     }
     
-    static Class2 method15603(Class8 class8, RSBuffer class525_sub38,
-			      int i, int i_206_) {
+    static Class2 method15603(ItemDefinitions class8, RSBuffer class525_sub38,
+                              int i, int i_206_) {
 	Class2 class2 = new Class2(class8);
 	int i_207_ = class525_sub38.readUnsignedByte(216456986);
 	boolean bool = (i_207_ & 0x1) != 0;

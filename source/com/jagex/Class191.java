@@ -38,7 +38,7 @@ public class Class191
     }
     
     Class191(RSBuffer class525_sub38) {
-	int i = class525_sub38.method16740((byte) -4);
+	int i = class525_sub38.readUnsignedSmart((byte) -4);
 	anIntArray2142 = new int[i];
 	anIntArray2143 = new int[i];
 	for (int i_6_ = 0; i_6_ < i; i_6_++) {

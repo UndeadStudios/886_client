@@ -8,7 +8,7 @@ public class Class40_Sub11 extends Class40
     public static final int anInt11029 = 256;
     
     public Class40_Sub11(Class668 class668, Class666 class666, boolean bool,
-			 Class458 class458, Class458 class458_0_) {
+                         JS5 class458, JS5 class458_0_) {
 	super(class668, class666, class458, Class663.aClass663_8481, 256,
 	      new Class592_Sub1(bool, class458_0_, class666, class668));
     }

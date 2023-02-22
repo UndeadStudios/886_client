@@ -26,10 +26,10 @@ public class Class713
     }
     
     public static Class56[] method14458(byte i) {
-	return new Class56[] { Class56.aClass56_601, Class56.aClass56_569,
-			       Class56.aClass56_570, Class56.aClass56_571,
-			       Class56.aClass56_568, Class56.aClass56_582,
-			       Class56.aClass56_574, Class56.aClass56_612,
+	return new Class56[] { Class56.idx_0, Class56.idx_1,
+			       Class56.idx_2, Class56.idx_3,
+			       Class56.idx_5, Class56.idx_7,
+			       Class56.idx_8, Class56.aClass56_612,
 			       Class56.aClass56_583, Class56.aClass56_577,
 			       Class56.aClass56_593, Class56.aClass56_579,
 			       Class56.aClass56_575, Class56.aClass56_578,

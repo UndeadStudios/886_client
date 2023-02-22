@@ -5,7 +5,7 @@ package com.jagex;
 
 public abstract class Class174
 {
-    public static Class458 aClass458_1862;
+    public static JS5 aClass458_1862;
     
     Class174() {
 	/* empty */

@@ -10,7 +10,7 @@ public class Class599 implements Interface69
     int anInt7848;
     Class372 aClass372_7849;
     boolean aBool7850;
-    Class458 aClass458_7851;
+    JS5 aClass458_7851;
     Interface70 anInterface70_7852;
     byte[] aByteArray7853;
     boolean aBool7854;
@@ -24,7 +24,7 @@ public class Class599 implements Interface69
     
     public void method211(int i) {
 	if (Class595.aClass595_7837 == aClass595_7857) {
-	    byte[] is = aClass458_7851.method7484(anInt7848 * 1058726367,
+	    byte[] is = aClass458_7851.getTextureData(anInt7848 * 1058726367,
 						  2000391396);
 	    if (null != is) {
 		aByteArray7853 = is;
@@ -173,7 +173,7 @@ public class Class599 implements Interface69
     
     public void method192() {
 	if (Class595.aClass595_7837 == aClass595_7857) {
-	    byte[] is = aClass458_7851.method7484(anInt7848 * 1058726367,
+	    byte[] is = aClass458_7851.getTextureData(anInt7848 * 1058726367,
 						  2073889478);
 	    if (null != is) {
 		aByteArray7853 = is;
@@ -486,8 +486,8 @@ public class Class599 implements Interface69
 	return aBool7854;
     }
     
-    public Class599(Class458 class458, int i, Class372 class372,
-		    Interface70 interface70, Class200 class200) {
+    public Class599(JS5 class458, int i, Class372 class372,
+                    Interface70 interface70, Class200 class200) {
 	aClass458_7851 = class458;
 	anInt7848 = i * 1693587999;
 	aClass372_7849 = class372;
@@ -577,8 +577,8 @@ public class Class599 implements Interface69
 	int i_9_ = class683.anIntArray8661[class683.anInt8662 * 501271953];
 	int i_10_
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662] - 1;
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_9_, 1668834147));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -614,7 +614,7 @@ public class Class599 implements Interface69
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 2];
 	int i_17_
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 3];
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_16_, -1260504424);
 	if (class65.aClass495_699.method80() != i_14_
 	    || class65.aClass495_698.method80() != i_15_)

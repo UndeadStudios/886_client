@@ -69,7 +69,7 @@ public class Class227 implements Interface28
     
     public static Object[] method4262(RSBuffer class525_sub38,
                                       Class495[] class495s, byte i) {
-	int i_1_ = class525_sub38.method16740((byte) -76);
+	int i_1_ = class525_sub38.readUnsignedSmart((byte) -76);
 	Object[] objects = new Object[class495s.length * i_1_];
 	for (int i_2_ = 0; i_2_ < i_1_; i_2_++) {
 	    for (int i_3_ = 0; i_3_ < class495s.length; i_3_++) {

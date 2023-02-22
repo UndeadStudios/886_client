@@ -36,7 +36,7 @@ public class Class465
 		    i_0_ = -1;
 		}
 		if (i_0_ > 0) {
-		    if (class525_sub38.pos * -1133521593 + i_0_
+		    if (class525_sub38.index * -1133521593 + i_0_
 			>= class525_sub38.buffer.length) {
 			int i_1_
 			    = 10240 + class525_sub38.buffer.length;
@@ -45,7 +45,7 @@ public class Class465
 			System.arraycopy(class525_sub38.buffer, 0,
 					 is_2_, 0,
 					 (-1133521593
-					  * class525_sub38.pos));
+					  * class525_sub38.index));
 			Class707.method14308(class525_sub38.buffer,
 					     (byte) 51);
 			class525_sub38.buffer = is_2_;
@@ -57,9 +57,9 @@ public class Class465
 		 i_3_ < -1151916065 * class525_sub16_sub12_sub3.anInt12206;
 		 i_3_++)
 		class525_sub38.method16735(0, -674340670);
-	    byte[] is_4_ = new byte[class525_sub38.pos * -1133521593];
+	    byte[] is_4_ = new byte[class525_sub38.index * -1133521593];
 	    System.arraycopy(class525_sub38.buffer, 0, is_4_, 0,
-			     class525_sub38.pos * -1133521593);
+			     class525_sub38.index * -1133521593);
 	    class525_sub38.method16627(-1092070630);
 	    Object object = null;
 	    Class707.method14308(is, (byte) 93);

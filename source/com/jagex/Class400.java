@@ -6,13 +6,13 @@ package com.jagex;
 public class Class400 implements Interface49
 {
     Class200 aClass200_4130 = new Class200(64);
-    Class458 aClass458_4131;
+    JS5 aClass458_4131;
     
     public Class388 method343(int i) {
 	Class388 class388 = (Class388) aClass200_4130.method3785((long) i);
 	if (null != class388)
 	    return class388;
-	byte[] is = aClass458_4131.method7476(1, i, 1297196863);
+	byte[] is = aClass458_4131.getFile(1, i, 1297196863);
 	class388 = new Class388();
 	class388.anInt4046 = 529643011 * i;
 	if (is != null)
@@ -26,7 +26,7 @@ public class Class400 implements Interface49
 	Class388 class388 = (Class388) aClass200_4130.method3785((long) i);
 	if (null != class388)
 	    return class388;
-	byte[] is = aClass458_4131.method7476(1, i, 153470802);
+	byte[] is = aClass458_4131.getFile(1, i, 153470802);
 	class388 = new Class388();
 	class388.anInt4046 = 529643011 * i;
 	if (is != null)
@@ -40,7 +40,7 @@ public class Class400 implements Interface49
 	aClass200_4130.method3791((byte) -28);
     }
     
-    public Class400(Class458 class458) {
+    public Class400(JS5 class458) {
 	aClass458_4131 = class458;
     }
 }

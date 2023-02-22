@@ -7,7 +7,7 @@ import java.util.List;
 public class Class442 implements Interface6
 {
     int anInt4864;
-    Class458 aClass458_4865;
+    JS5 aClass458_4865;
     public static Class459 aClass459_4866;
     public static int anInt4867;
     public static List aList4868;
@@ -22,7 +22,7 @@ public class Class442 implements Interface6
 	return aClass458_4865.method7515(-2133200417 * anInt4864, (byte) 112);
     }
     
-    Class442(Class458 class458, int i) {
+    Class442(JS5 class458, int i) {
 	aClass458_4865 = class458;
 	anInt4864 = -50918881 * i;
     }

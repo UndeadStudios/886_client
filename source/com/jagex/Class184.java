@@ -63,8 +63,8 @@ public class Class184
 			     [class525_sub38.readUnsignedByte(2014554889)]);
 	Class396 class396 = (Class643.method10595((byte) 35)
 			     [class525_sub38.readUnsignedByte(936268702)]);
-	int i_16_ = class525_sub38.method16625((byte) -27);
-	int i_17_ = class525_sub38.method16625((byte) -54);
+	int i_16_ = class525_sub38.readSmart((byte) -27);
+	int i_17_ = class525_sub38.readSmart((byte) -54);
 	int i_18_ = class525_sub38.readUnsignedShort((byte) 56);
 	int i_19_ = class525_sub38.readUnsignedShort((byte) 35);
 	int i_20_ = class525_sub38.readInt(1022680597);
@@ -92,8 +92,8 @@ public class Class184
 		     - 1);
 	if (class259.anInt2630 * 307215955 != 6)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(-961419549 * class259.anInt2631, 1100739525));
 	if (class259.aClass288_2769 == null)
@@ -109,7 +109,7 @@ public class Class184
     
     static final void method3610(Class683 class683, byte i) {
 	int i_25_ = 77907787 * Class99.anInt1213;
-	int i_26_ = Class308.anInt3426 * -1352795477;
+	int i_26_ = SunDefinition.anInt3426 * -1352795477;
 	int i_27_ = -1;
 	if (Class695.aBool8757) {
 	    Class18[] class18s = Class63.method1389((byte) -12);
@@ -599,8 +599,8 @@ public class Class184
 					String string = class259.aString2667;
 					if (-1 != (372293357
 						   * class259.anInt2740)) {
-					    Class8 class8
-						= ((Class8)
+					    ItemDefinitions class8
+						= ((ItemDefinitions)
 						   (Class313_Sub2
 							.aClass40_Sub22_10106
 							.method76
@@ -980,8 +980,8 @@ public class Class184
 				    i_76_ |= 0x80000;
 				int i_77_ = 0;
 				if (-1 != 372293357 * class259.anInt2740) {
-				    Class8 class8
-					= ((Class8)
+				    ItemDefinitions class8
+					= ((ItemDefinitions)
 					   (Class313_Sub2
 						.aClass40_Sub22_10106.method76
 					    (372293357 * class259.anInt2740,
@@ -1656,7 +1656,7 @@ public class Class184
 		Class556_Sub1.anInt7476 = (int) Class556_Sub1.aFloat7526 >> 1;
 		Class556_Sub1.aByteArrayArrayArray7461
 		    = Class239.method4421(Class556_Sub1.anInt7476, 1508004513);
-		Class58.method1221(-777596929);
+		ConfigEntry.method1221(-777596929);
 		Class556_Sub1.method9263();
 		Class447.aClass709_4900 = new Class709();
 		Class556_Sub1.anInt7507 += (int) (Math.random() * 5.0) - 2;

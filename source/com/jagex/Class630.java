@@ -8,8 +8,8 @@ public class Class630
     public Interface66 anInterface66_8163;
     static int anInt8164;
     
-    public Class630(Class458 class458) {
-	byte[] is = class458.method7484((Class638.aClass638_8310.anInt8316
+    public Class630(JS5 class458) {
+	byte[] is = class458.getTextureData((Class638.aClass638_8310.anInt8316
 					 * 2028004077),
 					1529951282);
 	if (is != null)

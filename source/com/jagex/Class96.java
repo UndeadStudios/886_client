@@ -40,7 +40,7 @@ public class Class96
     
     public final void method1792(int i) throws IOException {
 	if (aClass559_1170 != null && anInt1167 * 1624093005 > 0) {
-	    aClass525_Sub38_1174.pos = 0;
+	    aClass525_Sub38_1174.index = 0;
 	    for (;;) {
 		Class525_Sub15 class525_sub15
 		    = ((Class525_Sub15)
@@ -48,7 +48,7 @@ public class Class96
 		if (null == class525_sub15
 		    || (-1528429171 * class525_sub15.anInt10548
 			> (aClass525_Sub38_1174.buffer.length
-			   - aClass525_Sub38_1174.pos * -1133521593)))
+			   - aClass525_Sub38_1174.index * -1133521593)))
 		    break;
 		aClass525_Sub38_1174.method16614
 		    (class525_sub15.aClass525_Sub38_Sub2_10546.buffer,
@@ -61,9 +61,9 @@ public class Class96
 	    }
 	    aClass559_1170.method9380(aClass525_Sub38_1174.buffer, 0,
 				      (-1133521593
-				       * aClass525_Sub38_1174.pos),
+				       * aClass525_Sub38_1174.index),
 				      1943442590);
-	    anInt1177 += aClass525_Sub38_1174.pos * 1796087375;
+	    anInt1177 += aClass525_Sub38_1174.index * 1796087375;
 	    anInt1182 = 0;
 	}
     }
@@ -81,8 +81,8 @@ public class Class96
 	aClass709_1166.method14345(class525_sub15, (byte) 0);
 	class525_sub15.anInt10548
 	    = (-1730863325
-	       * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
-	class525_sub15.aClass525_Sub38_Sub2_10546.pos = 0;
+	       * class525_sub15.aClass525_Sub38_Sub2_10546.index);
+	class525_sub15.aClass525_Sub38_Sub2_10546.index = 0;
 	anInt1167 += class525_sub15.anInt10548 * 1246463297;
     }
     
@@ -149,7 +149,7 @@ public class Class96
     
     public final void method1803() throws IOException {
 	if (aClass559_1170 != null && anInt1167 * 1624093005 > 0) {
-	    aClass525_Sub38_1174.pos = 0;
+	    aClass525_Sub38_1174.index = 0;
 	    for (;;) {
 		Class525_Sub15 class525_sub15
 		    = ((Class525_Sub15)
@@ -157,7 +157,7 @@ public class Class96
 		if (null == class525_sub15
 		    || (-1528429171 * class525_sub15.anInt10548
 			> (aClass525_Sub38_1174.buffer.length
-			   - aClass525_Sub38_1174.pos * -1133521593)))
+			   - aClass525_Sub38_1174.index * -1133521593)))
 		    break;
 		aClass525_Sub38_1174.method16614
 		    (class525_sub15.aClass525_Sub38_Sub2_10546.buffer,
@@ -170,9 +170,9 @@ public class Class96
 	    }
 	    aClass559_1170.method9380(aClass525_Sub38_1174.buffer, 0,
 				      (-1133521593
-				       * aClass525_Sub38_1174.pos),
+				       * aClass525_Sub38_1174.index),
 				      1599974491);
-	    anInt1177 += aClass525_Sub38_1174.pos * 1796087375;
+	    anInt1177 += aClass525_Sub38_1174.index * 1796087375;
 	    anInt1182 = 0;
 	}
     }
@@ -181,8 +181,8 @@ public class Class96
 	aClass709_1166.method14345(class525_sub15, (byte) 0);
 	class525_sub15.anInt10548
 	    = (-1730863325
-	       * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
-	class525_sub15.aClass525_Sub38_Sub2_10546.pos = 0;
+	       * class525_sub15.aClass525_Sub38_Sub2_10546.index);
+	class525_sub15.aClass525_Sub38_Sub2_10546.index = 0;
 	anInt1167 += class525_sub15.anInt10548 * 1246463297;
     }
     
@@ -190,8 +190,8 @@ public class Class96
 	aClass709_1166.method14345(class525_sub15, (byte) 0);
 	class525_sub15.anInt10548
 	    = (-1730863325
-	       * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
-	class525_sub15.aClass525_Sub38_Sub2_10546.pos = 0;
+	       * class525_sub15.aClass525_Sub38_Sub2_10546.index);
+	class525_sub15.aClass525_Sub38_Sub2_10546.index = 0;
 	anInt1167 += class525_sub15.anInt10548 * 1246463297;
     }
     
@@ -294,7 +294,7 @@ public class Class96
 		    i_7_ = Class511.method8531(class350_sub1.aClass429_10201,
 					       19722651) >> 3;
 		    int i_9_ = 1024;
-		    i_8_ = (i_9_ * 3 - (Class308.method5449((class350_sub1
+		    i_8_ = (i_9_ * 3 - (SunDefinition.method5449((class350_sub1
 							     .aClass429_10201),
 							    214367582)
 					>> 3)) % (i_9_ * 2);
@@ -333,16 +333,16 @@ public class Class96
 				    1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -1520268184);
-	    int i_10_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i_10_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			 * -1133521593);
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-1746585929);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16614
 		(class525_sub38.buffer, 0,
-		 class525_sub38.pos * -1133521593, 1547120529);
+		 class525_sub38.index * -1133521593, 1547120529);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
 		(-1133521593 * (class525_sub15.aClass525_Sub38_Sub2_10546
-				.pos) - i_10_,
+				.index) - i_10_,
 		 (byte) 7);
 	    client.aClass96_11085.method1794(class525_sub15, (short) 27549);
 	    client.aBool11084 = true;
@@ -359,7 +359,7 @@ public class Class96
 								  706782676);
 	    int i_11_
 		= (-1133521593
-		   * class525_sub15.aClass525_Sub38_Sub2_10546.pos);
+		   * class525_sub15.aClass525_Sub38_Sub2_10546.index);
 	    if (null != is && is.length != 0) {
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(1, -1375301247);
@@ -407,7 +407,7 @@ public class Class96
 		class525_sub15.aClass525_Sub38_Sub2_10546
 		    .method16735(0, -270231975);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i_11_,
 		 -767028398);
 	    client.aClass96_11085.method1794(class525_sub15, (short) 29976);
@@ -465,8 +465,8 @@ public class Class96
 	    class525_sub23.aClass709_10586.method14345(class525_sub13,
 						       (byte) 0);
 	} else {
-	    Class8 class8
-		= ((Class8)
+	    ItemDefinitions class8
+		= ((ItemDefinitions)
 		   (Class313_Sub2.aClass40_Sub22_10106.method76
 		    (-840401163 * class525_sub13.anInt10528, -1561438553)));
 	    int i_25_ = 1345227511 * class8.anInt73;
@@ -479,7 +479,7 @@ public class Class96
 		 class525_sub13_26_
 		     = (Class525_Sub13) class525_sub23.aClass709_10586
 					    .method14353(-2077765834)) {
-		class8 = (Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+		class8 = (ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 				   (class525_sub13_26_.anInt10528 * -840401163,
 				    -1712911668));
 		int i_27_ = 1345227511 * class8.anInt73;

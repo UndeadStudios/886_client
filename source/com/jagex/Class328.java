@@ -7,7 +7,7 @@ import com.jagex.twitchtv.TwitchEventResult;
 public class Class328
 {
     static boolean aBool3576;
-    static Class458 aClass458_3577;
+    static JS5 aClass458_3577;
     static Class303[] aClass303Array3578;
     static Class91 aClass91_3579;
     static int anInt3580 = 2105692701;
@@ -72,7 +72,7 @@ public class Class328
 	if (Class159.aClass295_1755 == null)
 	    Class97.method1821(-582357193);
 	Class303 class303 = aClass303_3583;
-	int i = Class308.method5447((byte) -95);
+	int i = SunDefinition.method5447((byte) -95);
 	if (class303 == aClass303_3583) {
 	    Class220.aString2331
 		= aClass303_3583.aClass53_3391
@@ -417,28 +417,28 @@ public class Class328
 	}
 	if (aClass303_3583 == Class303.aClass303_3402) {
 	    Class462.aClass458_5095
-		= Class600.method9890(Class56.aClass56_574, false, 1, false,
+		= Class600.method9890(Class56.idx_8, false, 1, false,
 				      true, (byte) 1);
 	    Class163_Sub2.aClass458_8988
-		= Class600.method9890(Class56.aClass56_601, false, 1, false,
+		= Class600.method9890(Class56.idx_0, false, 1, false,
 				      true, (byte) 1);
 	    Class629.aClass458_8162
-		= Class600.method9890(Class56.aClass56_569, false, 1, false,
+		= Class600.method9890(Class56.idx_1, false, 1, false,
 				      true, (byte) 1);
 	    Class316.aClass458_3497
-		= Class600.method9890(Class56.aClass56_570, false, 1, true,
+		= Class600.method9890(Class56.idx_2, false, 1, true,
 				      true, (byte) 1);
 	    Class555.aClass458_7460
 		= Class600.method9890(Class56.aClass56_581, false, 1, true,
 				      true, (byte) 1);
 	    Class175_Sub4.aClass458_9940
-		= Class600.method9890(Class56.aClass56_571, false, 1, true,
+		= Class600.method9890(Class56.idx_3, false, 1, true,
 				      true, (byte) 1);
 	    Class322.aClass458_3549
-		= Class600.method9890(Class56.aClass56_568, true, 1, false,
+		= Class600.method9890(Class56.idx_5, true, 1, false,
 				      true, (byte) 1);
-	    Class65.aClass458_705
-		= Class600.method9890(Class56.aClass56_582, false, 1, false,
+	    WorldTile.aClass458_705
+		= Class600.method9890(Class56.idx_7, false, 1, false,
 				      true, (byte) 1);
 	    Class198_Sub19.aClass458_9994
 		= Class600.method9890(Class56.aClass56_594, true, 1, false,
@@ -479,7 +479,7 @@ public class Class328
 	    Class350_Sub2.aClass458_10224
 		= Class600.method9890(Class56.aClass56_608, false, 1, true,
 				      true, (byte) 1);
-	    Class8.aClass458_136
+	    ItemDefinitions.aClass458_136
 		= Class600.method9890(Class56.aClass56_586, true, 1, false,
 				      false, (byte) 1);
 	    Class597.aClass458_7845
@@ -494,7 +494,7 @@ public class Class328
 	    Class40_Sub22.aClass458_11051
 		= Class600.method9890(Class56.aClass56_589, true, 1, true,
 				      true, (byte) 1);
-	    Class504.aClass458_5605
+	    BillBoardDefinitions.aClass458_5605
 		= Class600.method9890(Class56.aClass56_572, false, 1, true,
 				      true, (byte) 1);
 	    Class198_Sub15.aClass458_9976
@@ -539,7 +539,7 @@ public class Class328
 	}
 	if (aClass303_3583 == Class303.aClass303_3381) {
 	    byte[] is
-		= Class18.aClass458_204.method7484((Class638.aClass638_8309
+		= Class18.aClass458_204.getTextureData((Class638.aClass638_8309
 						    .anInt8316) * 2028004077,
 						   1323652692);
 	    if (is == null)
@@ -560,7 +560,7 @@ public class Class328
 	    if (i < 100)
 		return i;
 	    Class601.method9900
-		(Class18.aClass458_204.method7484(2028004077 * (Class638
+		(Class18.aClass458_204.getTextureData(2028004077 * (Class638
 								.aClass638_8308
 								.anInt8316),
 						  1817821036),
@@ -589,7 +589,7 @@ public class Class328
 	}
 	if (Class303.aClass303_3384 == aClass303_3583) {
 	    if (1728284569 * Class138.aClass631_1641.anInt8175 != -1
-		&& !Class65.aClass458_705.method7478((Class138.aClass631_1641
+		&& !WorldTile.aClass458_705.method7478((Class138.aClass631_1641
 						      .anInt8175) * 1728284569,
 						     0, (short) 22953))
 		return 99;
@@ -645,7 +645,7 @@ public class Class328
 		= new Class40_Sub9(client.aClass668_11090,
 				   Class21.aClass666_213,
 				   Class316.aClass458_3497,
-				   Class65.aClass458_705);
+				   WorldTile.aClass458_705);
 	    Class612.aClass40_Sub19_8026
 		= new Class40_Sub19(client.aClass668_11090,
 				    Class21.aClass666_213,
@@ -658,14 +658,14 @@ public class Class328
 		= new Class40_Sub11(client.aClass668_11090,
 				    Class21.aClass666_213, true,
 				    Class27.aClass458_282,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    client.aClass507_11137.method8398(Class642.aClass40_Sub11_8327,
 					      1804784598);
 	    Class45.aClass500_349.method8178
 		(new Class40_Sub11(client.aClass668_11090,
 				   Class21.aClass666_213, true,
 				   Class27.aClass458_282,
-				   Class65.aClass458_705),
+				   WorldTile.aClass458_705),
 		 -813407495);
 	    Class698.aClass40_Sub2_8770
 		= new Class40_Sub2(client.aClass668_11090,
@@ -681,13 +681,13 @@ public class Class328
 		= new Class40_Sub7(client.aClass668_11090,
 				   Class21.aClass666_213, true,
 				   Class47.aClass458_363,
-				   Class65.aClass458_705);
+				   WorldTile.aClass458_705);
 	    Class313_Sub2.aClass40_Sub22_10106
 		= new Class40_Sub22(client.aClass668_11090,
 				    Class21.aClass666_213, true,
 				    client.aClass40_Sub16_11201,
 				    Class198_Sub2.aClass458_9905,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    Class249.aClass47_Sub1_2445
 		= new Class47_Sub1(client.aClass668_11090,
 				   Class21.aClass666_213,
@@ -715,7 +715,7 @@ public class Class328
 		= new Class40_Sub20(client.aClass668_11090,
 				    Class21.aClass666_213,
 				    Class220.aClass458_2330,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    Class397.aClass47_Sub2_4113
 		= new Class47_Sub2(client.aClass668_11090,
 				   Class21.aClass666_213,
@@ -774,18 +774,18 @@ public class Class328
 				    Class144_Sub1.aMap9140);
 	    Class607.anInterface20_7975 = new Class306();
 	    Class648.method10704(Class175_Sub4.aClass458_9940,
-				 Class65.aClass458_705,
+				 WorldTile.aClass458_705,
 				 Class462.aClass458_5095,
 				 Class276.aClass458_2875, 575540221);
 	    Class628.aClass385_8157
 		= new Class385(Class198_Sub15.aClass458_9976);
-	    Class450.aClass400_4926 = new Class400(Class504.aClass458_5605);
-	    Class263.aClass402_2799 = new Class402(Class504.aClass458_5605);
+	    Class450.aClass400_4926 = new Class400(BillBoardDefinitions.aClass458_5605);
+	    Class263.aClass402_2799 = new Class402(BillBoardDefinitions.aClass458_5605);
 	    Class562.aClass471_7557
 		= new Class471(Class21.aClass666_213, Class174.aClass458_1862,
 			       Class427.aClass458_4806);
 	    Class215.aClass58_2283
-		= new Class58(Class21.aClass666_213, Class174.aClass458_1862,
+		= new ConfigEntry(Class21.aClass666_213, Class174.aClass458_1862,
 			      Class427.aClass458_4806, new Class386());
 	    Class532.aClass111_7170
 		= new Class111(Class109.aClass106_Sub1_Sub1_1323,
@@ -795,7 +795,7 @@ public class Class328
 	    Class46.method1093(Class685.aClass40_Sub8_8691, 65535);
 	    Class198_Sub14.method15653(Class263.aClass402_2799,
 				       Class450.aClass400_4926, -1573360652);
-	    Class164.method2664(Class65.aClass458_705, Class166.aClass180_1835,
+	    Class164.method2664(WorldTile.aClass458_705, Class166.aClass180_1835,
 				Class411.anInterface24_4255, (byte) 6);
 	    Class279 class279
 		= new Class279(Class110.aClass458_1370
@@ -813,7 +813,7 @@ public class Class328
 		return i * 100 / i_8_;
 	}
 	if (Class303.aClass303_3400 == aClass303_3583)
-	    Class556.method9244(Class8.aClass458_136, Class597.aClass458_7845,
+	    Class556.method9244(ItemDefinitions.aClass458_136, Class597.aClass458_7845,
 				Class232.aClass40_Sub18_2368,
 				Class198_Sub17.aClass40_Sub14_9981,
 				client.aClass507_11137.method8362((byte) -1),
@@ -873,9 +873,9 @@ public class Class328
 	    Class653.aClass458_8393 = null;
 	    aClass91_3579 = null;
 	    anInterface32Array3585 = null;
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_587);
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_595);
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_580);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_587);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_595);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_580);
 	    Class519.method8661((byte) 0);
 	    client.aBool11063
 		= Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub29_10722
@@ -1045,28 +1045,28 @@ public class Class328
 	}
 	if (aClass303_3583 == Class303.aClass303_3402) {
 	    Class462.aClass458_5095
-		= Class600.method9890(Class56.aClass56_574, false, 1, false,
+		= Class600.method9890(Class56.idx_8, false, 1, false,
 				      true, (byte) 1);
 	    Class163_Sub2.aClass458_8988
-		= Class600.method9890(Class56.aClass56_601, false, 1, false,
+		= Class600.method9890(Class56.idx_0, false, 1, false,
 				      true, (byte) 1);
 	    Class629.aClass458_8162
-		= Class600.method9890(Class56.aClass56_569, false, 1, false,
+		= Class600.method9890(Class56.idx_1, false, 1, false,
 				      true, (byte) 1);
 	    Class316.aClass458_3497
-		= Class600.method9890(Class56.aClass56_570, false, 1, true,
+		= Class600.method9890(Class56.idx_2, false, 1, true,
 				      true, (byte) 1);
 	    Class555.aClass458_7460
 		= Class600.method9890(Class56.aClass56_581, false, 1, true,
 				      true, (byte) 1);
 	    Class175_Sub4.aClass458_9940
-		= Class600.method9890(Class56.aClass56_571, false, 1, true,
+		= Class600.method9890(Class56.idx_3, false, 1, true,
 				      true, (byte) 1);
 	    Class322.aClass458_3549
-		= Class600.method9890(Class56.aClass56_568, true, 1, false,
+		= Class600.method9890(Class56.idx_5, true, 1, false,
 				      true, (byte) 1);
-	    Class65.aClass458_705
-		= Class600.method9890(Class56.aClass56_582, false, 1, false,
+	    WorldTile.aClass458_705
+		= Class600.method9890(Class56.idx_7, false, 1, false,
 				      true, (byte) 1);
 	    Class198_Sub19.aClass458_9994
 		= Class600.method9890(Class56.aClass56_594, true, 1, false,
@@ -1107,7 +1107,7 @@ public class Class328
 	    Class350_Sub2.aClass458_10224
 		= Class600.method9890(Class56.aClass56_608, false, 1, true,
 				      true, (byte) 1);
-	    Class8.aClass458_136
+	    ItemDefinitions.aClass458_136
 		= Class600.method9890(Class56.aClass56_586, true, 1, false,
 				      false, (byte) 1);
 	    Class597.aClass458_7845
@@ -1122,7 +1122,7 @@ public class Class328
 	    Class40_Sub22.aClass458_11051
 		= Class600.method9890(Class56.aClass56_589, true, 1, true,
 				      true, (byte) 1);
-	    Class504.aClass458_5605
+	    BillBoardDefinitions.aClass458_5605
 		= Class600.method9890(Class56.aClass56_572, false, 1, true,
 				      true, (byte) 1);
 	    Class198_Sub15.aClass458_9976
@@ -1167,7 +1167,7 @@ public class Class328
 	}
 	if (aClass303_3583 == Class303.aClass303_3381) {
 	    byte[] is
-		= Class18.aClass458_204.method7484((Class638.aClass638_8309
+		= Class18.aClass458_204.getTextureData((Class638.aClass638_8309
 						    .anInt8316) * 2028004077,
 						   1347272729);
 	    if (is == null)
@@ -1188,7 +1188,7 @@ public class Class328
 	    if (i < 100)
 		return i;
 	    Class601.method9900
-		(Class18.aClass458_204.method7484(2028004077 * (Class638
+		(Class18.aClass458_204.getTextureData(2028004077 * (Class638
 								.aClass638_8308
 								.anInt8316),
 						  1338864283),
@@ -1217,7 +1217,7 @@ public class Class328
 	}
 	if (Class303.aClass303_3384 == aClass303_3583) {
 	    if (1728284569 * Class138.aClass631_1641.anInt8175 != -1
-		&& !Class65.aClass458_705.method7478((Class138.aClass631_1641
+		&& !WorldTile.aClass458_705.method7478((Class138.aClass631_1641
 						      .anInt8175) * 1728284569,
 						     0, (short) 11321))
 		return 99;
@@ -1273,7 +1273,7 @@ public class Class328
 		= new Class40_Sub9(client.aClass668_11090,
 				   Class21.aClass666_213,
 				   Class316.aClass458_3497,
-				   Class65.aClass458_705);
+				   WorldTile.aClass458_705);
 	    Class612.aClass40_Sub19_8026
 		= new Class40_Sub19(client.aClass668_11090,
 				    Class21.aClass666_213,
@@ -1286,14 +1286,14 @@ public class Class328
 		= new Class40_Sub11(client.aClass668_11090,
 				    Class21.aClass666_213, true,
 				    Class27.aClass458_282,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    client.aClass507_11137.method8398(Class642.aClass40_Sub11_8327,
 					      1804784598);
 	    Class45.aClass500_349.method8178
 		(new Class40_Sub11(client.aClass668_11090,
 				   Class21.aClass666_213, true,
 				   Class27.aClass458_282,
-				   Class65.aClass458_705),
+				   WorldTile.aClass458_705),
 		 234804442);
 	    Class698.aClass40_Sub2_8770
 		= new Class40_Sub2(client.aClass668_11090,
@@ -1309,13 +1309,13 @@ public class Class328
 		= new Class40_Sub7(client.aClass668_11090,
 				   Class21.aClass666_213, true,
 				   Class47.aClass458_363,
-				   Class65.aClass458_705);
+				   WorldTile.aClass458_705);
 	    Class313_Sub2.aClass40_Sub22_10106
 		= new Class40_Sub22(client.aClass668_11090,
 				    Class21.aClass666_213, true,
 				    client.aClass40_Sub16_11201,
 				    Class198_Sub2.aClass458_9905,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    Class249.aClass47_Sub1_2445
 		= new Class47_Sub1(client.aClass668_11090,
 				   Class21.aClass666_213,
@@ -1343,7 +1343,7 @@ public class Class328
 		= new Class40_Sub20(client.aClass668_11090,
 				    Class21.aClass666_213,
 				    Class220.aClass458_2330,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    Class397.aClass47_Sub2_4113
 		= new Class47_Sub2(client.aClass668_11090,
 				   Class21.aClass666_213,
@@ -1402,18 +1402,18 @@ public class Class328
 				    Class144_Sub1.aMap9140);
 	    Class607.anInterface20_7975 = new Class306();
 	    Class648.method10704(Class175_Sub4.aClass458_9940,
-				 Class65.aClass458_705,
+				 WorldTile.aClass458_705,
 				 Class462.aClass458_5095,
 				 Class276.aClass458_2875, -364098747);
 	    Class628.aClass385_8157
 		= new Class385(Class198_Sub15.aClass458_9976);
-	    Class450.aClass400_4926 = new Class400(Class504.aClass458_5605);
-	    Class263.aClass402_2799 = new Class402(Class504.aClass458_5605);
+	    Class450.aClass400_4926 = new Class400(BillBoardDefinitions.aClass458_5605);
+	    Class263.aClass402_2799 = new Class402(BillBoardDefinitions.aClass458_5605);
 	    Class562.aClass471_7557
 		= new Class471(Class21.aClass666_213, Class174.aClass458_1862,
 			       Class427.aClass458_4806);
 	    Class215.aClass58_2283
-		= new Class58(Class21.aClass666_213, Class174.aClass458_1862,
+		= new ConfigEntry(Class21.aClass666_213, Class174.aClass458_1862,
 			      Class427.aClass458_4806, new Class386());
 	    Class532.aClass111_7170
 		= new Class111(Class109.aClass106_Sub1_Sub1_1323,
@@ -1423,7 +1423,7 @@ public class Class328
 	    Class46.method1093(Class685.aClass40_Sub8_8691, 65535);
 	    Class198_Sub14.method15653(Class263.aClass402_2799,
 				       Class450.aClass400_4926, -1573360652);
-	    Class164.method2664(Class65.aClass458_705, Class166.aClass180_1835,
+	    Class164.method2664(WorldTile.aClass458_705, Class166.aClass180_1835,
 				Class411.anInterface24_4255, (byte) 6);
 	    Class279 class279
 		= new Class279(Class110.aClass458_1370
@@ -1441,7 +1441,7 @@ public class Class328
 		return i * 100 / i_15_;
 	}
 	if (Class303.aClass303_3400 == aClass303_3583)
-	    Class556.method9244(Class8.aClass458_136, Class597.aClass458_7845,
+	    Class556.method9244(ItemDefinitions.aClass458_136, Class597.aClass458_7845,
 				Class232.aClass40_Sub18_2368,
 				Class198_Sub17.aClass40_Sub14_9981,
 				client.aClass507_11137.method8362((byte) -1),
@@ -1501,9 +1501,9 @@ public class Class328
 	    Class653.aClass458_8393 = null;
 	    aClass91_3579 = null;
 	    anInterface32Array3585 = null;
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_587);
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_595);
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_580);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_587);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_595);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_580);
 	    Class519.method8661((byte) 0);
 	    client.aBool11063
 		= Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub29_10722
@@ -1673,28 +1673,28 @@ public class Class328
 	}
 	if (aClass303_3583 == Class303.aClass303_3402) {
 	    Class462.aClass458_5095
-		= Class600.method9890(Class56.aClass56_574, false, 1, false,
+		= Class600.method9890(Class56.idx_8, false, 1, false,
 				      true, (byte) 1);
 	    Class163_Sub2.aClass458_8988
-		= Class600.method9890(Class56.aClass56_601, false, 1, false,
+		= Class600.method9890(Class56.idx_0, false, 1, false,
 				      true, (byte) 1);
 	    Class629.aClass458_8162
-		= Class600.method9890(Class56.aClass56_569, false, 1, false,
+		= Class600.method9890(Class56.idx_1, false, 1, false,
 				      true, (byte) 1);
 	    Class316.aClass458_3497
-		= Class600.method9890(Class56.aClass56_570, false, 1, true,
+		= Class600.method9890(Class56.idx_2, false, 1, true,
 				      true, (byte) 1);
 	    Class555.aClass458_7460
 		= Class600.method9890(Class56.aClass56_581, false, 1, true,
 				      true, (byte) 1);
 	    Class175_Sub4.aClass458_9940
-		= Class600.method9890(Class56.aClass56_571, false, 1, true,
+		= Class600.method9890(Class56.idx_3, false, 1, true,
 				      true, (byte) 1);
 	    Class322.aClass458_3549
-		= Class600.method9890(Class56.aClass56_568, true, 1, false,
+		= Class600.method9890(Class56.idx_5, true, 1, false,
 				      true, (byte) 1);
-	    Class65.aClass458_705
-		= Class600.method9890(Class56.aClass56_582, false, 1, false,
+	    WorldTile.aClass458_705
+		= Class600.method9890(Class56.idx_7, false, 1, false,
 				      true, (byte) 1);
 	    Class198_Sub19.aClass458_9994
 		= Class600.method9890(Class56.aClass56_594, true, 1, false,
@@ -1735,7 +1735,7 @@ public class Class328
 	    Class350_Sub2.aClass458_10224
 		= Class600.method9890(Class56.aClass56_608, false, 1, true,
 				      true, (byte) 1);
-	    Class8.aClass458_136
+	    ItemDefinitions.aClass458_136
 		= Class600.method9890(Class56.aClass56_586, true, 1, false,
 				      false, (byte) 1);
 	    Class597.aClass458_7845
@@ -1750,7 +1750,7 @@ public class Class328
 	    Class40_Sub22.aClass458_11051
 		= Class600.method9890(Class56.aClass56_589, true, 1, true,
 				      true, (byte) 1);
-	    Class504.aClass458_5605
+	    BillBoardDefinitions.aClass458_5605
 		= Class600.method9890(Class56.aClass56_572, false, 1, true,
 				      true, (byte) 1);
 	    Class198_Sub15.aClass458_9976
@@ -1795,7 +1795,7 @@ public class Class328
 	}
 	if (aClass303_3583 == Class303.aClass303_3381) {
 	    byte[] is
-		= Class18.aClass458_204.method7484((Class638.aClass638_8309
+		= Class18.aClass458_204.getTextureData((Class638.aClass638_8309
 						    .anInt8316) * 2028004077,
 						   1847342746);
 	    if (is == null)
@@ -1816,7 +1816,7 @@ public class Class328
 	    if (i < 100)
 		return i;
 	    Class601.method9900
-		(Class18.aClass458_204.method7484(2028004077 * (Class638
+		(Class18.aClass458_204.getTextureData(2028004077 * (Class638
 								.aClass638_8308
 								.anInt8316),
 						  1230591315),
@@ -1845,7 +1845,7 @@ public class Class328
 	}
 	if (Class303.aClass303_3384 == aClass303_3583) {
 	    if (1728284569 * Class138.aClass631_1641.anInt8175 != -1
-		&& !Class65.aClass458_705.method7478((Class138.aClass631_1641
+		&& !WorldTile.aClass458_705.method7478((Class138.aClass631_1641
 						      .anInt8175) * 1728284569,
 						     0, (short) 10283))
 		return 99;
@@ -1901,7 +1901,7 @@ public class Class328
 		= new Class40_Sub9(client.aClass668_11090,
 				   Class21.aClass666_213,
 				   Class316.aClass458_3497,
-				   Class65.aClass458_705);
+				   WorldTile.aClass458_705);
 	    Class612.aClass40_Sub19_8026
 		= new Class40_Sub19(client.aClass668_11090,
 				    Class21.aClass666_213,
@@ -1914,14 +1914,14 @@ public class Class328
 		= new Class40_Sub11(client.aClass668_11090,
 				    Class21.aClass666_213, true,
 				    Class27.aClass458_282,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    client.aClass507_11137.method8398(Class642.aClass40_Sub11_8327,
 					      1804784598);
 	    Class45.aClass500_349.method8178
 		(new Class40_Sub11(client.aClass668_11090,
 				   Class21.aClass666_213, true,
 				   Class27.aClass458_282,
-				   Class65.aClass458_705),
+				   WorldTile.aClass458_705),
 		 670623084);
 	    Class698.aClass40_Sub2_8770
 		= new Class40_Sub2(client.aClass668_11090,
@@ -1937,13 +1937,13 @@ public class Class328
 		= new Class40_Sub7(client.aClass668_11090,
 				   Class21.aClass666_213, true,
 				   Class47.aClass458_363,
-				   Class65.aClass458_705);
+				   WorldTile.aClass458_705);
 	    Class313_Sub2.aClass40_Sub22_10106
 		= new Class40_Sub22(client.aClass668_11090,
 				    Class21.aClass666_213, true,
 				    client.aClass40_Sub16_11201,
 				    Class198_Sub2.aClass458_9905,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    Class249.aClass47_Sub1_2445
 		= new Class47_Sub1(client.aClass668_11090,
 				   Class21.aClass666_213,
@@ -1971,7 +1971,7 @@ public class Class328
 		= new Class40_Sub20(client.aClass668_11090,
 				    Class21.aClass666_213,
 				    Class220.aClass458_2330,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    Class397.aClass47_Sub2_4113
 		= new Class47_Sub2(client.aClass668_11090,
 				   Class21.aClass666_213,
@@ -2030,18 +2030,18 @@ public class Class328
 				    Class144_Sub1.aMap9140);
 	    Class607.anInterface20_7975 = new Class306();
 	    Class648.method10704(Class175_Sub4.aClass458_9940,
-				 Class65.aClass458_705,
+				 WorldTile.aClass458_705,
 				 Class462.aClass458_5095,
 				 Class276.aClass458_2875, 732703645);
 	    Class628.aClass385_8157
 		= new Class385(Class198_Sub15.aClass458_9976);
-	    Class450.aClass400_4926 = new Class400(Class504.aClass458_5605);
-	    Class263.aClass402_2799 = new Class402(Class504.aClass458_5605);
+	    Class450.aClass400_4926 = new Class400(BillBoardDefinitions.aClass458_5605);
+	    Class263.aClass402_2799 = new Class402(BillBoardDefinitions.aClass458_5605);
 	    Class562.aClass471_7557
 		= new Class471(Class21.aClass666_213, Class174.aClass458_1862,
 			       Class427.aClass458_4806);
 	    Class215.aClass58_2283
-		= new Class58(Class21.aClass666_213, Class174.aClass458_1862,
+		= new ConfigEntry(Class21.aClass666_213, Class174.aClass458_1862,
 			      Class427.aClass458_4806, new Class386());
 	    Class532.aClass111_7170
 		= new Class111(Class109.aClass106_Sub1_Sub1_1323,
@@ -2051,7 +2051,7 @@ public class Class328
 	    Class46.method1093(Class685.aClass40_Sub8_8691, 65535);
 	    Class198_Sub14.method15653(Class263.aClass402_2799,
 				       Class450.aClass400_4926, -1573360652);
-	    Class164.method2664(Class65.aClass458_705, Class166.aClass180_1835,
+	    Class164.method2664(WorldTile.aClass458_705, Class166.aClass180_1835,
 				Class411.anInterface24_4255, (byte) 6);
 	    Class279 class279
 		= new Class279(Class110.aClass458_1370
@@ -2069,7 +2069,7 @@ public class Class328
 		return i * 100 / i_22_;
 	}
 	if (Class303.aClass303_3400 == aClass303_3583)
-	    Class556.method9244(Class8.aClass458_136, Class597.aClass458_7845,
+	    Class556.method9244(ItemDefinitions.aClass458_136, Class597.aClass458_7845,
 				Class232.aClass40_Sub18_2368,
 				Class198_Sub17.aClass40_Sub14_9981,
 				client.aClass507_11137.method8362((byte) -1),
@@ -2129,9 +2129,9 @@ public class Class328
 	    Class653.aClass458_8393 = null;
 	    aClass91_3579 = null;
 	    anInterface32Array3585 = null;
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_587);
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_595);
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_580);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_587);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_595);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_580);
 	    Class519.method8661((byte) 0);
 	    client.aBool11063
 		= Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub29_10722
@@ -2306,28 +2306,28 @@ public class Class328
 	}
 	if (aClass303_3583 == Class303.aClass303_3402) {
 	    Class462.aClass458_5095
-		= Class600.method9890(Class56.aClass56_574, false, 1, false,
+		= Class600.method9890(Class56.idx_8, false, 1, false,
 				      true, (byte) 1);
 	    Class163_Sub2.aClass458_8988
-		= Class600.method9890(Class56.aClass56_601, false, 1, false,
+		= Class600.method9890(Class56.idx_0, false, 1, false,
 				      true, (byte) 1);
 	    Class629.aClass458_8162
-		= Class600.method9890(Class56.aClass56_569, false, 1, false,
+		= Class600.method9890(Class56.idx_1, false, 1, false,
 				      true, (byte) 1);
 	    Class316.aClass458_3497
-		= Class600.method9890(Class56.aClass56_570, false, 1, true,
+		= Class600.method9890(Class56.idx_2, false, 1, true,
 				      true, (byte) 1);
 	    Class555.aClass458_7460
 		= Class600.method9890(Class56.aClass56_581, false, 1, true,
 				      true, (byte) 1);
 	    Class175_Sub4.aClass458_9940
-		= Class600.method9890(Class56.aClass56_571, false, 1, true,
+		= Class600.method9890(Class56.idx_3, false, 1, true,
 				      true, (byte) 1);
 	    Class322.aClass458_3549
-		= Class600.method9890(Class56.aClass56_568, true, 1, false,
+		= Class600.method9890(Class56.idx_5, true, 1, false,
 				      true, (byte) 1);
-	    Class65.aClass458_705
-		= Class600.method9890(Class56.aClass56_582, false, 1, false,
+	    WorldTile.aClass458_705
+		= Class600.method9890(Class56.idx_7, false, 1, false,
 				      true, (byte) 1);
 	    Class198_Sub19.aClass458_9994
 		= Class600.method9890(Class56.aClass56_594, true, 1, false,
@@ -2368,7 +2368,7 @@ public class Class328
 	    Class350_Sub2.aClass458_10224
 		= Class600.method9890(Class56.aClass56_608, false, 1, true,
 				      true, (byte) 1);
-	    Class8.aClass458_136
+	    ItemDefinitions.aClass458_136
 		= Class600.method9890(Class56.aClass56_586, true, 1, false,
 				      false, (byte) 1);
 	    Class597.aClass458_7845
@@ -2383,7 +2383,7 @@ public class Class328
 	    Class40_Sub22.aClass458_11051
 		= Class600.method9890(Class56.aClass56_589, true, 1, true,
 				      true, (byte) 1);
-	    Class504.aClass458_5605
+	    BillBoardDefinitions.aClass458_5605
 		= Class600.method9890(Class56.aClass56_572, false, 1, true,
 				      true, (byte) 1);
 	    Class198_Sub15.aClass458_9976
@@ -2428,7 +2428,7 @@ public class Class328
 	}
 	if (aClass303_3583 == Class303.aClass303_3381) {
 	    byte[] is
-		= Class18.aClass458_204.method7484((Class638.aClass638_8309
+		= Class18.aClass458_204.getTextureData((Class638.aClass638_8309
 						    .anInt8316) * 2028004077,
 						   2004622064);
 	    if (is == null)
@@ -2449,7 +2449,7 @@ public class Class328
 	    if (i < 100)
 		return i;
 	    Class601.method9900
-		(Class18.aClass458_204.method7484(2028004077 * (Class638
+		(Class18.aClass458_204.getTextureData(2028004077 * (Class638
 								.aClass638_8308
 								.anInt8316),
 						  1752501080),
@@ -2478,7 +2478,7 @@ public class Class328
 	}
 	if (Class303.aClass303_3384 == aClass303_3583) {
 	    if (1728284569 * Class138.aClass631_1641.anInt8175 != -1
-		&& !Class65.aClass458_705.method7478((Class138.aClass631_1641
+		&& !WorldTile.aClass458_705.method7478((Class138.aClass631_1641
 						      .anInt8175) * 1728284569,
 						     0, (short) 28875))
 		return 99;
@@ -2534,7 +2534,7 @@ public class Class328
 		= new Class40_Sub9(client.aClass668_11090,
 				   Class21.aClass666_213,
 				   Class316.aClass458_3497,
-				   Class65.aClass458_705);
+				   WorldTile.aClass458_705);
 	    Class612.aClass40_Sub19_8026
 		= new Class40_Sub19(client.aClass668_11090,
 				    Class21.aClass666_213,
@@ -2547,14 +2547,14 @@ public class Class328
 		= new Class40_Sub11(client.aClass668_11090,
 				    Class21.aClass666_213, true,
 				    Class27.aClass458_282,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    client.aClass507_11137.method8398(Class642.aClass40_Sub11_8327,
 					      1804784598);
 	    Class45.aClass500_349.method8178
 		(new Class40_Sub11(client.aClass668_11090,
 				   Class21.aClass666_213, true,
 				   Class27.aClass458_282,
-				   Class65.aClass458_705),
+				   WorldTile.aClass458_705),
 		 1806922813);
 	    Class698.aClass40_Sub2_8770
 		= new Class40_Sub2(client.aClass668_11090,
@@ -2570,13 +2570,13 @@ public class Class328
 		= new Class40_Sub7(client.aClass668_11090,
 				   Class21.aClass666_213, true,
 				   Class47.aClass458_363,
-				   Class65.aClass458_705);
+				   WorldTile.aClass458_705);
 	    Class313_Sub2.aClass40_Sub22_10106
 		= new Class40_Sub22(client.aClass668_11090,
 				    Class21.aClass666_213, true,
 				    client.aClass40_Sub16_11201,
 				    Class198_Sub2.aClass458_9905,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    Class249.aClass47_Sub1_2445
 		= new Class47_Sub1(client.aClass668_11090,
 				   Class21.aClass666_213,
@@ -2604,7 +2604,7 @@ public class Class328
 		= new Class40_Sub20(client.aClass668_11090,
 				    Class21.aClass666_213,
 				    Class220.aClass458_2330,
-				    Class65.aClass458_705);
+				    WorldTile.aClass458_705);
 	    Class397.aClass47_Sub2_4113
 		= new Class47_Sub2(client.aClass668_11090,
 				   Class21.aClass666_213,
@@ -2663,18 +2663,18 @@ public class Class328
 				    Class144_Sub1.aMap9140);
 	    Class607.anInterface20_7975 = new Class306();
 	    Class648.method10704(Class175_Sub4.aClass458_9940,
-				 Class65.aClass458_705,
+				 WorldTile.aClass458_705,
 				 Class462.aClass458_5095,
 				 Class276.aClass458_2875, -1527967873);
 	    Class628.aClass385_8157
 		= new Class385(Class198_Sub15.aClass458_9976);
-	    Class450.aClass400_4926 = new Class400(Class504.aClass458_5605);
-	    Class263.aClass402_2799 = new Class402(Class504.aClass458_5605);
+	    Class450.aClass400_4926 = new Class400(BillBoardDefinitions.aClass458_5605);
+	    Class263.aClass402_2799 = new Class402(BillBoardDefinitions.aClass458_5605);
 	    Class562.aClass471_7557
 		= new Class471(Class21.aClass666_213, Class174.aClass458_1862,
 			       Class427.aClass458_4806);
 	    Class215.aClass58_2283
-		= new Class58(Class21.aClass666_213, Class174.aClass458_1862,
+		= new ConfigEntry(Class21.aClass666_213, Class174.aClass458_1862,
 			      Class427.aClass458_4806, new Class386());
 	    Class532.aClass111_7170
 		= new Class111(Class109.aClass106_Sub1_Sub1_1323,
@@ -2684,7 +2684,7 @@ public class Class328
 	    Class46.method1093(Class685.aClass40_Sub8_8691, 65535);
 	    Class198_Sub14.method15653(Class263.aClass402_2799,
 				       Class450.aClass400_4926, -1573360652);
-	    Class164.method2664(Class65.aClass458_705, Class166.aClass180_1835,
+	    Class164.method2664(WorldTile.aClass458_705, Class166.aClass180_1835,
 				Class411.anInterface24_4255, (byte) 6);
 	    Class279 class279
 		= new Class279(Class110.aClass458_1370
@@ -2702,7 +2702,7 @@ public class Class328
 		return i * 100 / i_29_;
 	}
 	if (Class303.aClass303_3400 == aClass303_3583)
-	    Class556.method9244(Class8.aClass458_136, Class597.aClass458_7845,
+	    Class556.method9244(ItemDefinitions.aClass458_136, Class597.aClass458_7845,
 				Class232.aClass40_Sub18_2368,
 				Class198_Sub17.aClass40_Sub14_9981,
 				client.aClass507_11137.method8362((byte) -1),
@@ -2762,9 +2762,9 @@ public class Class328
 	    Class653.aClass458_8393 = null;
 	    aClass91_3579 = null;
 	    anInterface32Array3585 = null;
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_587);
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_595);
-	    Class525_Sub7_Sub13.aMap11727.remove(Class56.aClass56_580);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_587);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_595);
+	    EmitterConfig.aMap11727.remove(Class56.aClass56_580);
 	    Class519.method8661((byte) 0);
 	    client.aBool11063
 		= Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub29_10722

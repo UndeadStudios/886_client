@@ -111,9 +111,9 @@ public class Class198_Sub1 extends Class198
 						     .aClass540Array12029[i_0_]
 						     .anInt7182),
 				       -604459170));
-		    Class194 class194 = class689.method14058(-1436050014);
+		    AnimationDefinition class194 = class689.method14058(-1436050014);
 		    if (class674.aBool8608) {
-			if (class194.anInt2166 * -83500787 == 3) {
+			if (class194.animatingPrecedence * -83500787 == 3) {
 			    if ((-1541411695
 				 * class656_sub1_sub3_sub1.anInt11970) > 0
 				&& (class656_sub1_sub3_sub1.anInt11995
@@ -126,7 +126,7 @@ public class Class198_Sub1 extends Class198
 				    = -637232685;
 				continue;
 			    }
-			} else if (1 == -83500787 * class194.anInt2166
+			} else if (1 == -83500787 * class194.animatingPrecedence
 				   && (class656_sub1_sub3_sub1.anInt11970
 				       * -1541411695) > 0
 				   && (class656_sub1_sub3_sub1.anInt11995
@@ -147,8 +147,8 @@ public class Class198_Sub1 extends Class198
 	Class689 class689 = class656_sub1_sub3_sub1.aClass689_11987;
 	do {
 	    if (class689.method14021(-1448302250)) {
-		Class194 class194 = class689.method14058(-1244070857);
-		if (-83500787 * class194.anInt2166 == 3) {
+		AnimationDefinition class194 = class689.method14058(-1244070857);
+		if (-83500787 * class194.animatingPrecedence == 3) {
 		    if (-1541411695 * class656_sub1_sub3_sub1.anInt11970 > 0
 			&& (1739204983 * class656_sub1_sub3_sub1.anInt11995
 			    <= client.anInt11083)
@@ -158,7 +158,7 @@ public class Class198_Sub1 extends Class198
 			class689.method14068(-1, (byte) -71);
 			break;
 		    }
-		} else if (class194.anInt2166 * -83500787 == 1) {
+		} else if (class194.animatingPrecedence * -83500787 == 1) {
 		    if (class656_sub1_sub3_sub1.anInt11970 * -1541411695 > 0
 			&& (class656_sub1_sub3_sub1.anInt11995 * 1739204983
 			    <= client.anInt11083)

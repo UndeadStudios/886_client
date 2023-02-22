@@ -59,8 +59,8 @@ public class Class632
 	}
     }
     
-    public Class632(Class458 class458) {
-	byte[] is = class458.method7484((Class638.aClass638_8312.anInt8316
+    public Class632(JS5 class458) {
+	byte[] is = class458.getTextureData((Class638.aClass638_8312.anInt8316
 					 * 2028004077),
 					1272457076);
 	method10319(new RSBuffer(is), 852276763);

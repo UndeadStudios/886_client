@@ -252,7 +252,7 @@ public class Class275 implements Interface76
 	       - Class556_Sub1.anInt7521 * i_29_ / i_34_) * -2002372447;
 	Class556_Sub1.anInt10626 = -106402817;
 	Class556_Sub1.anInt10627 = 107721765;
-	Class58.method1221(317140686);
+	ConfigEntry.method1221(317140686);
     }
     
     public static void method5107(int i) {

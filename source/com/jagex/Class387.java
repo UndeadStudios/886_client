@@ -52,8 +52,8 @@ public class Class387 implements Interface45
 			     [class525_sub38.readUnsignedByte(1038145105)]);
 	Class396 class396 = (Class643.method10595((byte) 69)
 			     [class525_sub38.readUnsignedByte(632672896)]);
-	int i = class525_sub38.method16625((byte) -52);
-	int i_9_ = class525_sub38.method16625((byte) 77);
+	int i = class525_sub38.readSmart((byte) -52);
+	int i_9_ = class525_sub38.readSmart((byte) 77);
 	int i_10_ = class525_sub38.readUnsignedByte(73151910);
 	int i_11_ = class525_sub38.readUnsignedByte(1465683709);
 	int i_12_ = class525_sub38.readUnsignedByte(823854476);
@@ -72,8 +72,8 @@ public class Class387 implements Interface45
 			     [class525_sub38.readUnsignedByte(107029188)]);
 	Class396 class396 = (Class643.method10595((byte) 125)
 			     [class525_sub38.readUnsignedByte(1659349572)]);
-	int i = class525_sub38.method16625((byte) 93);
-	int i_18_ = class525_sub38.method16625((byte) -61);
+	int i = class525_sub38.readSmart((byte) 93);
+	int i_18_ = class525_sub38.readSmart((byte) -61);
 	int i_19_ = class525_sub38.readUnsignedByte(1607901659);
 	int i_20_ = class525_sub38.readUnsignedByte(1990202976);
 	int i_21_ = class525_sub38.readUnsignedByte(1595625757);
@@ -92,8 +92,8 @@ public class Class387 implements Interface45
 			     [class525_sub38.readUnsignedByte(131432102)]);
 	Class396 class396 = (Class643.method10595((byte) 33)
 			     [class525_sub38.readUnsignedByte(1087634136)]);
-	int i = class525_sub38.method16625((byte) 77);
-	int i_27_ = class525_sub38.method16625((byte) 54);
+	int i = class525_sub38.readSmart((byte) 77);
+	int i_27_ = class525_sub38.readSmart((byte) 54);
 	int i_28_ = class525_sub38.readUnsignedByte(122753493);
 	int i_29_ = class525_sub38.readUnsignedByte(1972921237);
 	int i_30_ = class525_sub38.readUnsignedByte(693842118);

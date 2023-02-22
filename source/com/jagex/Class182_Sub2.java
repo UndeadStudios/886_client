@@ -6387,8 +6387,8 @@ public class Class182_Sub2 extends Class182
 	}
     }
     
-    public Class179 method3505(Class186 class186, int i, int i_1320_,
-			       int i_1321_, int i_1322_) {
+    public Class179 method3505(ModelDecoder class186, int i, int i_1320_,
+                               int i_1321_, int i_1322_) {
 	return new Class179_Sub2(this, class186, i, i_1321_, i_1322_, i_1320_);
     }
     
@@ -7386,8 +7386,8 @@ public class Class182_Sub2 extends Class182
 	aClass200_9497.method3805(5, 2070276176);
     }
     
-    public Class179 method3556(Class186 class186, int i, int i_1581_,
-			       int i_1582_, int i_1583_) {
+    public Class179 method3556(ModelDecoder class186, int i, int i_1581_,
+                               int i_1582_, int i_1583_) {
 	return new Class179_Sub2(this, class186, i, i_1582_, i_1583_, i_1581_);
     }
     

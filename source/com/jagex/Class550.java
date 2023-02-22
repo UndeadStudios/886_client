@@ -810,7 +810,7 @@ public class Class550
 					       * 1201172629) & 0x3fff));
 		    client.aClass444_11077.method7142
 			(0.0F, 0.0F, -1.0F,
-			 Class436.method7071(-(Class8.anInt137 * 688796877)
+			 Class436.method7071(-(ItemDefinitions.anInt137 * 688796877)
 					     & 0x3fff));
 		    Class696_Sub19.method17146
 			(client.aClass435_11076, true, (float) (i_96_ / 2),
@@ -846,7 +846,7 @@ public class Class550
 			     i_96_, i_97_,
 			     Class689_Sub1.anInt11019 * 1201172629,
 			     Class64.anInt695 * -684522141,
-			     Class8.anInt137 * 688796877, i_112_, true, false,
+			     ItemDefinitions.anInt137 * 688796877, i_112_, true, false,
 			     (byte) -36);
 		    Class501.aClass182_5564.method3218();
 		} else
@@ -942,7 +942,7 @@ public class Class550
 		      [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-	    = ((Class8) Class313_Sub2.aClass40_Sub22_10106
+	    = ((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			    .method76(i_117_, 1487079777)).aString66;
     }
     

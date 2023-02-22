@@ -1846,9 +1846,9 @@ public final class Class182_Sub1_Sub2 extends Class182_Sub1
     }
     
     Class182_Sub1_Sub2(OpenGL opengl, Canvas canvas, long l, Class180 class180,
-		       Interface24 interface24, Interface47 interface47,
-		       Interface48 interface48, Interface49 interface49,
-		       Class458 class458, int i) {
+                       Interface24 interface24, Interface47 interface47,
+                       Interface48 interface48, Interface49 interface49,
+                       JS5 class458, int i) {
 	super(class180, interface24, interface47, interface48, interface49,
 	      class458, i, 1);
 	aClass709_11489 = new Class709();

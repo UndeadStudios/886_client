@@ -83,13 +83,13 @@ public class Class643 implements Interface76
 	if (class88.method1661(129120776))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class602) client.aClass507_11137.method8362((byte) -1)
+		= ((ObjectDefinitions) client.aClass507_11137.method8362((byte) -1)
 				  .method76(i_10_, -146025964))
 		      .method9911(i_11_, class88.aString892, -518858954);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class602) client.aClass507_11137.method8362((byte) -1)
+		= (((ObjectDefinitions) client.aClass507_11137.method8362((byte) -1)
 				   .method76(i_10_, 1416529642))
 		       .method9910
 		   (i_11_, 2053564367 * class88.anInt893, (byte) 50));
@@ -99,24 +99,24 @@ public class Class643 implements Interface76
 					 Class689 class689_12_, int i) {
 	if (class689.method14044(-501522938)
 	    && class689_12_.method14044(916479761)) {
-	    Class194 class194 = class689.aClass194_8723;
-	    Class194 class194_13_ = class689_12_.aClass194_8723;
+	    AnimationDefinition class194 = class689.aClass194_8723;
+	    AnimationDefinition class194_13_ = class689_12_.aClass194_8723;
 	    class179.method2951
 		(class689.aClass691_8734.aClass525_Sub16_Sub18_8748,
 		 class689.aClass691_8734.anInt8744 * 1740761095,
 		 class689.aClass691_8734.aClass525_Sub16_Sub18_8747,
 		 class689.aClass691_8734.anInt8745 * -1589968357,
 		 1733587607 * class689.anInt8724,
-		 class194.anIntArray2156[class689.anInt8733 * -685079725],
+		 class194.frameDurations[class689.anInt8733 * -685079725],
 		 class689_12_.aClass691_8734.aClass525_Sub16_Sub18_8748,
 		 1740761095 * class689_12_.aClass691_8734.anInt8744,
 		 class689_12_.aClass691_8734.aClass525_Sub16_Sub18_8747,
 		 -1589968357 * class689_12_.aClass691_8734.anInt8745,
 		 class689_12_.anInt8724 * 1733587607,
-		 (class194_13_.anIntArray2156
+		 (class194_13_.frameDurations
 		  [class689_12_.anInt8733 * -685079725]),
 		 (class194.aClass210_2158 != null
-		  ? class194.aClass210_2158.aBoolArray2262 : null),
+		  ? class194.aClass210_2158.flowControl : null),
 		 class194.aBool2169 | class194_13_.aBool2169);
 	}
     }

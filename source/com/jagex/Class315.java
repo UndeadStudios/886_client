@@ -6,8 +6,8 @@ package com.jagex;
 public class Class315
 {
     Class335 aClass335_3486;
-    Class458 aClass458_3487;
-    Class458 aClass458_3488;
+    JS5 aClass458_3487;
+    JS5 aClass458_3488;
     static int anInt3489;
     
     Class335 method5649() {
@@ -28,7 +28,7 @@ public class Class315
 	return aClass335_3486;
     }
     
-    public Class315(Class458 class458, Class458 class458_0_) {
+    public Class315(JS5 class458, JS5 class458_0_) {
 	aClass458_3488 = class458;
 	aClass458_3487 = class458_0_;
     }

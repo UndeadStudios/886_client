@@ -12,8 +12,8 @@ import java.io.IOException;
 public abstract class Class332 implements Interface33
 {
     Class175 aClass175_3595;
-    Class458 aClass458_3596;
-    Class458 aClass458_3597;
+    JS5 aClass458_3596;
+    JS5 aClass458_3597;
     Class390 aClass390_3598;
     int anInt3599;
     long aLong3600;
@@ -46,7 +46,7 @@ public abstract class Class332 implements Interface33
 	return i_0_;
     }
     
-    Class332(Class458 class458, Class458 class458_4_, Class390 class390) {
+    Class332(JS5 class458, JS5 class458_4_, Class390 class390) {
 	aClass458_3597 = class458;
 	aClass458_3596 = class458_4_;
 	aClass390_3598 = class390;

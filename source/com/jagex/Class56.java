@@ -5,13 +5,13 @@ package com.jagex;
 
 public class Class56
 {
-    public static Class56 aClass56_568;
-    public static Class56 aClass56_569;
-    public static Class56 aClass56_570;
-    public static Class56 aClass56_571;
+    public static Class56 idx_5;
+    public static Class56 idx_1;
+    public static Class56 idx_2;
+    public static Class56 idx_3;
     public static Class56 aClass56_572;
     public static Class56 aClass56_573;
-    public static Class56 aClass56_574;
+    public static Class56 idx_8;
     public static Class56 aClass56_575;
     public static Class56 aClass56_576;
     public static Class56 aClass56_577;
@@ -19,7 +19,7 @@ public class Class56
     public static Class56 aClass56_579;
     public static Class56 aClass56_580;
     public static Class56 aClass56_581;
-    public static Class56 aClass56_582;
+    public static Class56 idx_7;
     public static Class56 aClass56_583;
     public static Class56 aClass56_584;
     public static Class56 aClass56_585;
@@ -38,7 +38,7 @@ public class Class56
     public static Class56 aClass56_598;
     public static Class56 aClass56_599;
     public static Class56 aClass56_600;
-    public static Class56 aClass56_601
+    public static Class56 idx_0
 	= new Class56(0, "", false, false, false);
     static Class56 aClass56_602;
     public static Class56 aClass56_603;
@@ -73,8 +73,8 @@ public class Class56
     
     public static Class56[] method1196() {
 	return (new Class56[]
-		{ aClass56_601, aClass56_569, aClass56_570, aClass56_571,
-		  aClass56_568, aClass56_582, aClass56_574, aClass56_612,
+		{idx_0, idx_1, idx_2, idx_3,
+				idx_5, idx_7, idx_8, aClass56_612,
 		  aClass56_583, aClass56_577, aClass56_593, aClass56_579,
 		  aClass56_575, aClass56_578, aClass56_585, aClass56_573,
 		  aClass56_584, aClass56_608, aClass56_586, aClass56_590,
@@ -88,8 +88,8 @@ public class Class56
     
     public static Class56[] method1197() {
 	return (new Class56[]
-		{ aClass56_601, aClass56_569, aClass56_570, aClass56_571,
-		  aClass56_568, aClass56_582, aClass56_574, aClass56_612,
+		{idx_0, idx_1, idx_2, idx_3,
+				idx_5, idx_7, idx_8, aClass56_612,
 		  aClass56_583, aClass56_577, aClass56_593, aClass56_579,
 		  aClass56_575, aClass56_578, aClass56_585, aClass56_573,
 		  aClass56_584, aClass56_608, aClass56_586, aClass56_590,
@@ -103,8 +103,8 @@ public class Class56
     
     public static Class56[] method1198() {
 	return (new Class56[]
-		{ aClass56_601, aClass56_569, aClass56_570, aClass56_571,
-		  aClass56_568, aClass56_582, aClass56_574, aClass56_612,
+		{idx_0, idx_1, idx_2, idx_3,
+				idx_5, idx_7, idx_8, aClass56_612,
 		  aClass56_583, aClass56_577, aClass56_593, aClass56_579,
 		  aClass56_575, aClass56_578, aClass56_585, aClass56_573,
 		  aClass56_584, aClass56_608, aClass56_586, aClass56_590,
@@ -117,12 +117,12 @@ public class Class56
     }
     
     static {
-	aClass56_569 = new Class56(1, "", false, false, false);
-	aClass56_570 = new Class56(2, "", true, false, false);
-	aClass56_571 = new Class56(3, "", true, false, false);
-	aClass56_568 = new Class56(5, "", false, false, false);
-	aClass56_582 = new Class56(7, "", false, false, false);
-	aClass56_574 = new Class56(8, "", false, false, false);
+	idx_1 = new Class56(1, "", false, false, false);
+	idx_2 = new Class56(2, "", true, false, false);
+	idx_3 = new Class56(3, "", true, false, false);
+	idx_5 = new Class56(5, "", false, false, false);
+	idx_7 = new Class56(7, "", false, false, false);
+	idx_8 = new Class56(8, "", false, false, false);
 	aClass56_612 = new Class56(10, "", false, false, false);
 	aClass56_583 = new Class56(12, "", true, false, false);
 	aClass56_577 = new Class56(13, "", false, false, false);
@@ -187,7 +187,7 @@ public class Class56
 	    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 	       class683.aClass656_Sub1_Sub3_Sub1_8654);
 	boolean bool = false;
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (class299.anIntArray3323 != null)
 	    class299
 		= class299.method5386(Class532.aClass111_7170,

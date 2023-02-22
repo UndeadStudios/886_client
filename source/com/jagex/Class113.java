@@ -10,7 +10,7 @@ public class Class113
     URL anURL1387;
     volatile boolean aBool1388;
     volatile byte[] aByteArray1389;
-    public static Class458 aClass458_1390;
+    public static JS5 aClass458_1390;
     public static int anInt1391;
     
     byte[] method2001(int i) {

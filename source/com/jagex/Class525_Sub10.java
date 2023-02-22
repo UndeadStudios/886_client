@@ -20,10 +20,10 @@ public class Class525_Sub10 extends Class525
 	for (int i_2_ = 0; i_2_ < class525_sub10.anIntArray10507.length;
 	     i_2_++) {
 	    if (class525_sub10.anIntArray10507[i_2_] >= 0
-		&& ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+		&& ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			      (class525_sub10.anIntArray10507[i_2_],
 			       -1008880482))).anInt64 * 1533509829 == i_0_)
-		i_1_ += Class210.method3922(i, i_2_, bool, -1179952119);
+		i_1_ += AnimationSkin.method3922(i, i_2_, bool, -1179952119);
 	}
 	return i_1_;
     }
@@ -169,8 +169,8 @@ public class Class525_Sub10 extends Class525
 		&& (class525_sub10.anIntArray10507[i_22_]
 		    < (-1988422751
 		       * Class313_Sub2.aClass40_Sub22_10106.anInt332))) {
-		Class8 class8
-		    = ((Class8)
+		ItemDefinitions class8
+		    = ((ItemDefinitions)
 		       (Class313_Sub2.aClass40_Sub22_10106.method76
 			(class525_sub10.anIntArray10507[i_22_], 1673882042)));
 		int i_23_
@@ -198,10 +198,10 @@ public class Class525_Sub10 extends Class525
 	for (int i_26_ = 0; i_26_ < class525_sub10.anIntArray10507.length;
 	     i_26_++) {
 	    if (class525_sub10.anIntArray10507[i_26_] >= 0
-		&& ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+		&& ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			      (class525_sub10.anIntArray10507[i_26_],
 			       1549808126))).anInt64 * 1533509829 == i_24_)
-		i_25_ += Class210.method3922(i, i_26_, bool, -1179952119);
+		i_25_ += AnimationSkin.method3922(i, i_26_, bool, -1179952119);
 	}
 	return i_25_;
     }
@@ -251,8 +251,8 @@ public class Class525_Sub10 extends Class525
 		&& (class525_sub10.anIntArray10507[i_36_]
 		    < (-1988422751
 		       * Class313_Sub2.aClass40_Sub22_10106.anInt332))) {
-		Class8 class8
-		    = ((Class8)
+		ItemDefinitions class8
+		    = ((ItemDefinitions)
 		       (Class313_Sub2.aClass40_Sub22_10106.method76
 			(class525_sub10.anIntArray10507[i_36_], 1567475663)));
 		int i_37_
@@ -284,8 +284,8 @@ public class Class525_Sub10 extends Class525
 		&& (class525_sub10.anIntArray10507[i_41_]
 		    < (-1988422751
 		       * Class313_Sub2.aClass40_Sub22_10106.anInt332))) {
-		Class8 class8
-		    = ((Class8)
+		ItemDefinitions class8
+		    = ((ItemDefinitions)
 		       (Class313_Sub2.aClass40_Sub22_10106.method76
 			(class525_sub10.anIntArray10507[i_41_], 795477618)));
 		int i_42_
@@ -383,18 +383,18 @@ public class Class525_Sub10 extends Class525
 	    boolean bool_54_ = false;
 	    for (int i_55_ = 0; i_55_ < is.length; i_55_++) {
 		if (is[i_55_] != -1
-		    && !((Class8) Class313_Sub2.aClass40_Sub22_10106
+		    && !((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 				      .method76(is[i_55_], 1332346874))
 			    .method625(bool, null, 874069490))
 		    bool_54_ = true;
 	    }
 	    if (bool_54_)
 		return null;
-	    Class186[] class186s = new Class186[is.length];
+	    ModelDecoder[] class186s = new ModelDecoder[is.length];
 	    for (int i_56_ = 0; i_56_ < is.length; i_56_++) {
 		if (is[i_56_] != -1)
 		    class186s[i_56_]
-			= ((Class8) Class313_Sub2.aClass40_Sub22_10106
+			= ((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					.method76(is[i_56_], -17876197))
 			      .method653(bool, null, -1862849028);
 	    }
@@ -416,7 +416,7 @@ public class Class525_Sub10 extends Class525
 		    }
 		}
 	    }
-	    Class186 class186 = new Class186(class186s, class186s.length);
+	    ModelDecoder class186 = new ModelDecoder(class186s, class186s.length);
 	    if (class637 != null)
 		i_53_ |= 0x4000;
 	    class179
@@ -585,8 +585,8 @@ public class Class525_Sub10 extends Class525
 		&& (class525_sub10.anIntArray10507[i_81_]
 		    < (-1988422751
 		       * Class313_Sub2.aClass40_Sub22_10106.anInt332))) {
-		Class8 class8
-		    = ((Class8)
+		ItemDefinitions class8
+		    = ((ItemDefinitions)
 		       (Class313_Sub2.aClass40_Sub22_10106.method76
 			(class525_sub10.anIntArray10507[i_81_], -1792674005)));
 		int i_82_
@@ -721,18 +721,18 @@ public class Class525_Sub10 extends Class525
 	    boolean bool_99_ = false;
 	    for (int i_100_ = 0; i_100_ < is.length; i_100_++) {
 		if (is[i_100_] != -1
-		    && !((Class8) Class313_Sub2.aClass40_Sub22_10106
+		    && !((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 				      .method76(is[i_100_], 2141450875))
 			    .method625(bool, null, -272958802))
 		    bool_99_ = true;
 	    }
 	    if (bool_99_)
 		return null;
-	    Class186[] class186s = new Class186[is.length];
+	    ModelDecoder[] class186s = new ModelDecoder[is.length];
 	    for (int i_101_ = 0; i_101_ < is.length; i_101_++) {
 		if (is[i_101_] != -1)
 		    class186s[i_101_]
-			= ((Class8) Class313_Sub2.aClass40_Sub22_10106
+			= ((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					.method76(is[i_101_], -2048286249))
 			      .method653(bool, null, -2037605924);
 	    }
@@ -756,7 +756,7 @@ public class Class525_Sub10 extends Class525
 		    }
 		}
 	    }
-	    Class186 class186 = new Class186(class186s, class186s.length);
+	    ModelDecoder class186 = new ModelDecoder(class186s, class186s.length);
 	    if (class637 != null)
 		i_98_ |= 0x4000;
 	    class179
@@ -846,18 +846,18 @@ public class Class525_Sub10 extends Class525
 	    boolean bool_119_ = false;
 	    for (int i_120_ = 0; i_120_ < is.length; i_120_++) {
 		if (is[i_120_] != -1
-		    && !((Class8) Class313_Sub2.aClass40_Sub22_10106
+		    && !((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 				      .method76(is[i_120_], -988395844))
 			    .method625(bool, null, 1576594148))
 		    bool_119_ = true;
 	    }
 	    if (bool_119_)
 		return null;
-	    Class186[] class186s = new Class186[is.length];
+	    ModelDecoder[] class186s = new ModelDecoder[is.length];
 	    for (int i_121_ = 0; i_121_ < is.length; i_121_++) {
 		if (is[i_121_] != -1)
 		    class186s[i_121_]
-			= ((Class8) Class313_Sub2.aClass40_Sub22_10106
+			= ((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					.method76(is[i_121_], 239409523))
 			      .method653(bool, null, -1974203214);
 	    }
@@ -881,7 +881,7 @@ public class Class525_Sub10 extends Class525
 		    }
 		}
 	    }
-	    Class186 class186 = new Class186(class186s, class186s.length);
+	    ModelDecoder class186 = new ModelDecoder(class186s, class186s.length);
 	    if (class637 != null)
 		i_118_ |= 0x4000;
 	    class179
@@ -1011,18 +1011,18 @@ public class Class525_Sub10 extends Class525
 	    boolean bool_143_ = false;
 	    for (int i_144_ = 0; i_144_ < is.length; i_144_++) {
 		if (is[i_144_] != -1
-		    && !((Class8) Class313_Sub2.aClass40_Sub22_10106
+		    && !((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 				      .method76(is[i_144_], 258848294))
 			    .method625(bool, null, 991616703))
 		    bool_143_ = true;
 	    }
 	    if (bool_143_)
 		return null;
-	    Class186[] class186s = new Class186[is.length];
+	    ModelDecoder[] class186s = new ModelDecoder[is.length];
 	    for (int i_145_ = 0; i_145_ < is.length; i_145_++) {
 		if (is[i_145_] != -1)
 		    class186s[i_145_]
-			= ((Class8) Class313_Sub2.aClass40_Sub22_10106
+			= ((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					.method76(is[i_145_], -2075301506))
 			      .method653(bool, null, -2078657527);
 	    }
@@ -1046,7 +1046,7 @@ public class Class525_Sub10 extends Class525
 		    }
 		}
 	    }
-	    Class186 class186 = new Class186(class186s, class186s.length);
+	    ModelDecoder class186 = new ModelDecoder(class186s, class186s.length);
 	    if (class637 != null)
 		i_142_ |= 0x4000;
 	    class179

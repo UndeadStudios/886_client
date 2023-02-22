@@ -193,13 +193,13 @@ public class Class161_Sub2 extends Class161
 		    || is_18_ != null && is_18_[i_38_] >= 0) {
 		    if (is_17_[i_38_] >= 0)
 			class114.anIntArray1392[class114.aShort1396]
-			    = Class504.method8313(is_17_[i_38_], 1684546227);
+			    = BillBoardDefinitions.method8313(is_17_[i_38_], 1684546227);
 		    else
 			class114.anIntArray1392[class114.aShort1396] = -1;
 		    if (is_18_ != null) {
 			if (is_18_[i_38_] != -1)
 			    class114.anIntArray1405[class114.aShort1396]
-				= Class504.method8313(is_18_[i_38_],
+				= BillBoardDefinitions.method8313(is_18_[i_38_],
 						      720856189);
 			else
 			    class114.anIntArray1405[class114.aShort1396] = -1;
@@ -232,7 +232,7 @@ public class Class161_Sub2 extends Class161
 	    int i_40_ = is_19_[0];
 	    if (is_18_ != null) {
 		class129.anInt1520
-		    = Class159.method2568(Class504.method8313(is_18_[0],
+		    = Class159.method2568(BillBoardDefinitions.method8313(is_18_[0],
 							      1829983393),
 					  (aByteArrayArray9536[i][i_10_]
 					   - aByteArrayArray9525[i][i_10_]),
@@ -270,7 +270,7 @@ public class Class161_Sub2 extends Class161
 		    || class166.aByte1806 != 0)
 		    class129.aByte1524 |= 0x4;
 	    } else {
-		short i_41_ = Class504.method8313(i_39_, 1688343378);
+		short i_41_ = BillBoardDefinitions.method8313(i_39_, 1688343378);
 		class129.aShort1521
 		    = (short) Class159.method2568(i_41_,
 						  ((aByteArrayArray9536[i]
@@ -327,7 +327,7 @@ public class Class161_Sub2 extends Class161
 		else
 		    is_46_[i_51_]
 			= (Class381.anIntArray3929
-			   [(Class504.method8313(is_46_[i_51_], 279873228)
+			   [(BillBoardDefinitions.method8313(is_46_[i_51_], 279873228)
 			     & 0xffff)]) << 8 | 0xff;
 	    }
 	    if (is_47_ != null) {
@@ -337,7 +337,7 @@ public class Class161_Sub2 extends Class161
 		    else
 			is_47_[i_52_]
 			    = (Class381.anIntArray3929
-			       [(Class504.method8313(is_47_[i_52_], 293060536)
+			       [(BillBoardDefinitions.method8313(is_47_[i_52_], 293060536)
 				 & 0xffff)]) << 8 | 0xff;
 		}
 	    }
@@ -882,7 +882,7 @@ public class Class161_Sub2 extends Class161
 					     (i_98_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_93_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -896,7 +896,7 @@ public class Class161_Sub2 extends Class161
 					     (i_98_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_94_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -910,7 +910,7 @@ public class Class161_Sub2 extends Class161
 					     (i_98_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_95_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -1916,13 +1916,13 @@ public class Class161_Sub2 extends Class161
 		    || is_267_ != null && is_267_[i_287_] >= 0) {
 		    if (is_266_[i_287_] >= 0)
 			class114.anIntArray1392[class114.aShort1396]
-			    = Class504.method8313(is_266_[i_287_], 695693765);
+			    = BillBoardDefinitions.method8313(is_266_[i_287_], 695693765);
 		    else
 			class114.anIntArray1392[class114.aShort1396] = -1;
 		    if (is_267_ != null) {
 			if (is_267_[i_287_] != -1)
 			    class114.anIntArray1405[class114.aShort1396]
-				= Class504.method8313(is_267_[i_287_],
+				= BillBoardDefinitions.method8313(is_267_[i_287_],
 						      2057441471);
 			else
 			    class114.anIntArray1405[class114.aShort1396] = -1;
@@ -1955,7 +1955,7 @@ public class Class161_Sub2 extends Class161
 	    int i_289_ = is_268_[0];
 	    if (is_267_ != null) {
 		class129.anInt1520
-		    = Class159.method2568(Class504.method8313(is_267_[0],
+		    = Class159.method2568(BillBoardDefinitions.method8313(is_267_[0],
 							      1532376929),
 					  (aByteArrayArray9536[i][i_259_]
 					   - aByteArrayArray9525[i][i_259_]),
@@ -1993,7 +1993,7 @@ public class Class161_Sub2 extends Class161
 		    || class166.aByte1806 != 0)
 		    class129.aByte1524 |= 0x4;
 	    } else {
-		short i_290_ = Class504.method8313(i_288_, 1266564162);
+		short i_290_ = BillBoardDefinitions.method8313(i_288_, 1266564162);
 		class129.aShort1521
 		    = (short) Class159.method2568(i_290_,
 						  ((aByteArrayArray9536[i]
@@ -2147,13 +2147,13 @@ public class Class161_Sub2 extends Class161
 		    || is_299_ != null && is_299_[i_319_] >= 0) {
 		    if (is_298_[i_319_] >= 0)
 			class114.anIntArray1392[class114.aShort1396]
-			    = Class504.method8313(is_298_[i_319_], 1181649496);
+			    = BillBoardDefinitions.method8313(is_298_[i_319_], 1181649496);
 		    else
 			class114.anIntArray1392[class114.aShort1396] = -1;
 		    if (is_299_ != null) {
 			if (is_299_[i_319_] != -1)
 			    class114.anIntArray1405[class114.aShort1396]
-				= Class504.method8313(is_299_[i_319_],
+				= BillBoardDefinitions.method8313(is_299_[i_319_],
 						      984418554);
 			else
 			    class114.anIntArray1405[class114.aShort1396] = -1;
@@ -2186,7 +2186,7 @@ public class Class161_Sub2 extends Class161
 	    int i_321_ = is_300_[0];
 	    if (is_299_ != null) {
 		class129.anInt1520
-		    = Class159.method2568(Class504.method8313(is_299_[0],
+		    = Class159.method2568(BillBoardDefinitions.method8313(is_299_[0],
 							      569121638),
 					  (aByteArrayArray9536[i][i_291_]
 					   - aByteArrayArray9525[i][i_291_]),
@@ -2224,7 +2224,7 @@ public class Class161_Sub2 extends Class161
 		    || class166.aByte1806 != 0)
 		    class129.aByte1524 |= 0x4;
 	    } else {
-		short i_322_ = Class504.method8313(i_320_, 1629657359);
+		short i_322_ = BillBoardDefinitions.method8313(i_320_, 1629657359);
 		class129.aShort1521
 		    = (short) Class159.method2568(i_322_,
 						  ((aByteArrayArray9536[i]
@@ -2378,13 +2378,13 @@ public class Class161_Sub2 extends Class161
 		    || is_331_ != null && is_331_[i_351_] >= 0) {
 		    if (is_330_[i_351_] >= 0)
 			class114.anIntArray1392[class114.aShort1396]
-			    = Class504.method8313(is_330_[i_351_], 836861447);
+			    = BillBoardDefinitions.method8313(is_330_[i_351_], 836861447);
 		    else
 			class114.anIntArray1392[class114.aShort1396] = -1;
 		    if (is_331_ != null) {
 			if (is_331_[i_351_] != -1)
 			    class114.anIntArray1405[class114.aShort1396]
-				= Class504.method8313(is_331_[i_351_],
+				= BillBoardDefinitions.method8313(is_331_[i_351_],
 						      1100611563);
 			else
 			    class114.anIntArray1405[class114.aShort1396] = -1;
@@ -2417,7 +2417,7 @@ public class Class161_Sub2 extends Class161
 	    int i_353_ = is_332_[0];
 	    if (is_331_ != null) {
 		class129.anInt1520
-		    = Class159.method2568(Class504.method8313(is_331_[0],
+		    = Class159.method2568(BillBoardDefinitions.method8313(is_331_[0],
 							      1573292457),
 					  (aByteArrayArray9536[i][i_323_]
 					   - aByteArrayArray9525[i][i_323_]),
@@ -2455,7 +2455,7 @@ public class Class161_Sub2 extends Class161
 		    || class166.aByte1806 != 0)
 		    class129.aByte1524 |= 0x4;
 	    } else {
-		short i_354_ = Class504.method8313(i_352_, 2099559301);
+		short i_354_ = BillBoardDefinitions.method8313(i_352_, 2099559301);
 		class129.aShort1521
 		    = (short) Class159.method2568(i_354_,
 						  ((aByteArrayArray9536[i]
@@ -8040,7 +8040,7 @@ public class Class161_Sub2 extends Class161
 		else
 		    is_1099_[i_1104_]
 			= (Class381.anIntArray3929
-			   [(Class504.method8313(is_1099_[i_1104_], 1440874996)
+			   [(BillBoardDefinitions.method8313(is_1099_[i_1104_], 1440874996)
 			     & 0xffff)]) << 8 | 0xff;
 	    }
 	    if (is_1100_ != null) {
@@ -8050,7 +8050,7 @@ public class Class161_Sub2 extends Class161
 		    else
 			is_1100_[i_1105_]
 			    = ((Class381.anIntArray3929
-				[Class504.method8313(is_1100_[i_1105_],
+				[BillBoardDefinitions.method8313(is_1100_[i_1105_],
 						     1186745277) & 0xffff])
 			       << 8) | 0xff;
 		}
@@ -8640,7 +8640,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1151_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1146_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -8654,7 +8654,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1151_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1147_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -8668,7 +8668,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1151_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1148_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -8708,7 +8708,7 @@ public class Class161_Sub2 extends Class161
 		else
 		    is_1156_[i_1161_]
 			= (Class381.anIntArray3929
-			   [(Class504.method8313(is_1156_[i_1161_], 2016125082)
+			   [(BillBoardDefinitions.method8313(is_1156_[i_1161_], 2016125082)
 			     & 0xffff)]) << 8 | 0xff;
 	    }
 	    if (is_1157_ != null) {
@@ -8718,7 +8718,7 @@ public class Class161_Sub2 extends Class161
 		    else
 			is_1157_[i_1162_]
 			    = ((Class381.anIntArray3929
-				[Class504.method8313(is_1157_[i_1162_],
+				[BillBoardDefinitions.method8313(is_1157_[i_1162_],
 						     680536925) & 0xffff]) << 8
 			       | 0xff);
 		}
@@ -9308,7 +9308,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1208_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1203_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -9322,7 +9322,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1208_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1204_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -9336,7 +9336,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1208_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1205_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -9376,7 +9376,7 @@ public class Class161_Sub2 extends Class161
 		else
 		    is_1213_[i_1218_]
 			= (Class381.anIntArray3929
-			   [(Class504.method8313(is_1213_[i_1218_], 319963229)
+			   [(BillBoardDefinitions.method8313(is_1213_[i_1218_], 319963229)
 			     & 0xffff)]) << 8 | 0xff;
 	    }
 	    if (is_1214_ != null) {
@@ -9386,7 +9386,7 @@ public class Class161_Sub2 extends Class161
 		    else
 			is_1214_[i_1219_]
 			    = ((Class381.anIntArray3929
-				[Class504.method8313(is_1214_[i_1219_],
+				[BillBoardDefinitions.method8313(is_1214_[i_1219_],
 						     1102264751) & 0xffff])
 			       << 8) | 0xff;
 		}
@@ -9977,7 +9977,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1265_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1260_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -9991,7 +9991,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1265_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1261_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -10005,7 +10005,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1265_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1262_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -10045,7 +10045,7 @@ public class Class161_Sub2 extends Class161
 		else
 		    is_1270_[i_1275_]
 			= (Class381.anIntArray3929
-			   [(Class504.method8313(is_1270_[i_1275_], 1806684841)
+			   [(BillBoardDefinitions.method8313(is_1270_[i_1275_], 1806684841)
 			     & 0xffff)]) << 8 | 0xff;
 	    }
 	    if (is_1271_ != null) {
@@ -10055,7 +10055,7 @@ public class Class161_Sub2 extends Class161
 		    else
 			is_1271_[i_1276_]
 			    = ((Class381.anIntArray3929
-				[Class504.method8313(is_1271_[i_1276_],
+				[BillBoardDefinitions.method8313(is_1271_[i_1276_],
 						     1575972478) & 0xffff])
 			       << 8) | 0xff;
 		}
@@ -10646,7 +10646,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1322_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1317_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -10660,7 +10660,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1322_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1318_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116
@@ -10674,7 +10674,7 @@ public class Class161_Sub2 extends Class161
 					     (i_1322_, -1431554601).aBool1819))
 					class127.anIntArray1475[i_1319_]
 					    = (Class381.anIntArray3929
-					       [(Class504.method8313
+					       [(BillBoardDefinitions.method8313
 						 ((aClass182_Sub2_9513
 						       .aClass180_1944
 						       .method3116

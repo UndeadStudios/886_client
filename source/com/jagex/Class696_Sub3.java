@@ -71,8 +71,8 @@ public class Class696_Sub3 extends Class696
 	return anInt8760 * -1757849351;
     }
     
-    public static void method16982(Class458 class458, Class458 class458_2_,
-				   int i, int i_3_) {
+    public static void method16982(JS5 class458, JS5 class458_2_,
+                                   int i, int i_3_) {
 	Class525_Sub16_Sub18.aClass458_11871 = class458;
 	Class525_Sub16_Sub18.aClass458_11870 = class458_2_;
     }

@@ -52,7 +52,7 @@ public class Class631
     public int anInt8209;
     public int anInt8210;
     
-    public Class631(Class458 class458) {
+    public Class631(JS5 class458) {
 	anInt8175 = -1841618089;
 	anInt8176 = -1325572171;
 	anInt8177 = 1982310963;
@@ -82,7 +82,7 @@ public class Class631
 	anInt8185 = -1123334269;
 	anInt8191 = -1278965853;
 	anInt8197 = 1553362389;
-	byte[] is = class458.method7484((2028004077
+	byte[] is = class458.getTextureData((2028004077
 					 * Class638.aClass638_8313.anInt8316),
 					1611198228);
 	method10313(new RSBuffer(is), (byte) 1);
@@ -102,9 +102,9 @@ public class Class631
 		}
 		for (int i_1_ = 0; i_1_ < anIntArray8167.length; i_1_++) {
 		    anIntArray8167[i_1_]
-			= class525_sub38.method16625((byte) -61);
+			= class525_sub38.readSmart((byte) -61);
 		    anIntArray8168[i_1_]
-			= class525_sub38.method16625((byte) 10);
+			= class525_sub38.readSmart((byte) 10);
 		}
 		bool = true;
 	    } else if (2 == i_0_)
@@ -259,9 +259,9 @@ public class Class631
 		}
 		for (int i_15_ = 0; i_15_ < anIntArray8167.length; i_15_++) {
 		    anIntArray8167[i_15_]
-			= class525_sub38.method16625((byte) 67);
+			= class525_sub38.readSmart((byte) 67);
 		    anIntArray8168[i_15_]
-			= class525_sub38.method16625((byte) -70);
+			= class525_sub38.readSmart((byte) -70);
 		}
 		bool = true;
 	    } else if (2 == i)
@@ -414,9 +414,9 @@ public class Class631
 		}
 		for (int i_28_ = 0; i_28_ < anIntArray8167.length; i_28_++) {
 		    anIntArray8167[i_28_]
-			= class525_sub38.method16625((byte) 20);
+			= class525_sub38.readSmart((byte) 20);
 		    anIntArray8168[i_28_]
-			= class525_sub38.method16625((byte) -54);
+			= class525_sub38.readSmart((byte) -54);
 		}
 		bool = true;
 	    } else if (2 == i)
@@ -571,9 +571,9 @@ public class Class631
 		}
 		for (int i_41_ = 0; i_41_ < anIntArray8167.length; i_41_++) {
 		    anIntArray8167[i_41_]
-			= class525_sub38.method16625((byte) -27);
+			= class525_sub38.readSmart((byte) -27);
 		    anIntArray8168[i_41_]
-			= class525_sub38.method16625((byte) -3);
+			= class525_sub38.readSmart((byte) -3);
 		}
 		bool = true;
 	    } else if (2 == i)

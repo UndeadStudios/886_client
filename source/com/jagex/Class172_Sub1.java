@@ -5,17 +5,17 @@ package com.jagex;
 
 public class Class172_Sub1 extends Class172
 {
-    Class458 aClass458_9506;
-    Class458 aClass458_9507;
+    JS5 aClass458_9506;
+    JS5 aClass458_9507;
     
     byte[] method2741(Class593 class593, int i, int i_0_) {
 	if ((class593 == Class593.aClass593_7830
 	     || Class593.aClass593_7831 == class593)
 	    && aClass458_9507.method7502(i, 1457353420))
-	    return aClass458_9507.method7484(i, 1829005021);
+	    return aClass458_9507.getTextureData(i, 1829005021);
 	if (class593 == Class593.aClass593_7829
 	    && aClass458_9506.method7502(i, 533568034))
-	    return aClass458_9506.method7484(i, 1371964077);
+	    return aClass458_9506.getTextureData(i, 1371964077);
 	return null;
     }
     
@@ -39,10 +39,10 @@ public class Class172_Sub1 extends Class172
 	if ((class593 == Class593.aClass593_7830
 	     || Class593.aClass593_7831 == class593)
 	    && aClass458_9507.method7502(i, 278638732))
-	    return aClass458_9507.method7484(i, 1811696540);
+	    return aClass458_9507.getTextureData(i, 1811696540);
 	if (class593 == Class593.aClass593_7829
 	    && aClass458_9506.method7502(i, 1970364726))
-	    return aClass458_9506.method7484(i, 1435179794);
+	    return aClass458_9506.getTextureData(i, 1435179794);
 	return null;
     }
     
@@ -65,14 +65,14 @@ public class Class172_Sub1 extends Class172
 	if ((class593 == Class593.aClass593_7830
 	     || Class593.aClass593_7831 == class593)
 	    && aClass458_9507.method7502(i, -456242442))
-	    return aClass458_9507.method7484(i, 1407981591);
+	    return aClass458_9507.getTextureData(i, 1407981591);
 	if (class593 == Class593.aClass593_7829
 	    && aClass458_9506.method7502(i, 594117462))
-	    return aClass458_9506.method7484(i, 1343768850);
+	    return aClass458_9506.getTextureData(i, 1343768850);
 	return null;
     }
     
-    public Class172_Sub1(Class458 class458, Class458 class458_8_) {
+    public Class172_Sub1(JS5 class458, JS5 class458_8_) {
 	aClass458_9507 = class458;
 	aClass458_9506 = class458_8_;
     }
@@ -81,10 +81,10 @@ public class Class172_Sub1 extends Class172
 	if ((class593 == Class593.aClass593_7830
 	     || Class593.aClass593_7831 == class593)
 	    && aClass458_9507.method7502(i, 942334332))
-	    return aClass458_9507.method7484(i, 1793232636);
+	    return aClass458_9507.getTextureData(i, 1793232636);
 	if (class593 == Class593.aClass593_7829
 	    && aClass458_9506.method7502(i, 1467524007))
-	    return aClass458_9506.method7484(i, 1264104375);
+	    return aClass458_9506.getTextureData(i, 1264104375);
 	return null;
     }
     

@@ -22,7 +22,7 @@ public class Class92 implements Interface12, Interface7
 	else if (3 == i)
 	    anInt904 = class525_sub38.readUnsignedShort((byte) 100) * 157129429;
 	else if (i == 4)
-	    anInt905 = class525_sub38.method16625((byte) -42) * -1600184843;
+	    anInt905 = class525_sub38.readSmart((byte) -42) * -1600184843;
     }
     
     void method1702(RSBuffer class525_sub38, int i, int i_1_) {
@@ -33,7 +33,7 @@ public class Class92 implements Interface12, Interface7
 	else if (3 == i)
 	    anInt904 = class525_sub38.readUnsignedShort((byte) 71) * 157129429;
 	else if (i == 4)
-	    anInt905 = class525_sub38.method16625((byte) -76) * -1600184843;
+	    anInt905 = class525_sub38.readSmart((byte) -76) * -1600184843;
     }
     
     public void method66(RSBuffer class525_sub38, int i) {
@@ -84,7 +84,7 @@ public class Class92 implements Interface12, Interface7
 	else if (3 == i)
 	    anInt904 = class525_sub38.readUnsignedShort((byte) 21) * 157129429;
 	else if (i == 4)
-	    anInt905 = class525_sub38.method16625((byte) 36) * -1600184843;
+	    anInt905 = class525_sub38.readSmart((byte) 36) * -1600184843;
     }
     
     void method1704(RSBuffer class525_sub38, int i) {
@@ -95,6 +95,6 @@ public class Class92 implements Interface12, Interface7
 	else if (3 == i)
 	    anInt904 = class525_sub38.readUnsignedShort((byte) 25) * 157129429;
 	else if (i == 4)
-	    anInt905 = class525_sub38.method16625((byte) -66) * -1600184843;
+	    anInt905 = class525_sub38.readSmart((byte) -66) * -1600184843;
     }
 }

@@ -135,12 +135,12 @@ final class Class496 implements Interface11
 		  Class333.aClass333_3610 });
     }
     
-    public static Class529 method8157(Class458 class458, String string,
-				      boolean bool, int i) {
+    public static Class529 method8157(JS5 class458, String string,
+                                      boolean bool, int i) {
 	int i_4_ = class458.method7521(string, -2116786302);
 	if (-1 == i_4_)
 	    return new Class529(0);
-	byte[] is = class458.method7476(i_4_, 1, 1215576612);
+	byte[] is = class458.getFile(i_4_, 1, 1215576612);
 	if (null == is)
 	    return new Class529(0);
 	RSBuffer class525_sub38 = new RSBuffer(is);

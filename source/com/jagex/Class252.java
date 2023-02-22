@@ -16,7 +16,7 @@ public class Class252 implements Interface26
 	this$0 = class221;
 	boolean bool = class525_sub38.readUnsignedByte(1080093721) != 255;
 	if (bool)
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	aClass218_2453 = new Class218(class525_sub38, bool, true,
 				      class221.anInterface27_2333);
     }

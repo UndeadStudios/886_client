@@ -44,7 +44,7 @@ public class Class73
 		= ((int) (Math.atan2((double) i_10_, (double) i_12_)
 			  * -2607.5945876176133)
 		   & 0x3fff) * -1054956469;
-	    Class8.anInt137 = 0;
+	    ItemDefinitions.anInt137 = 0;
 	    if (Class689_Sub1.anInt11019 * 1201172629 < 1024)
 		Class689_Sub1.anInt11019 = -76876800;
 	    if (1201172629 * Class689_Sub1.anInt11019 > 3072)

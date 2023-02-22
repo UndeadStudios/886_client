@@ -7,8 +7,8 @@ import java.util.Map;
 
 public class Class404 implements Interface4
 {
-    Class458 aClass458_4140;
-    Class458 aClass458_4141;
+    JS5 aClass458_4140;
+    JS5 aClass458_4141;
     Class182 aClass182_4142;
     Class200 aClass200_4143;
     Class200 aClass200_4144 = new Class200(20);
@@ -92,7 +92,7 @@ public class Class404 implements Interface4
 	    = aClass200_4144.method3785((long) (i << 1 | (bool_6_ ? 1 : 0)));
 	if (null != object)
 	    return object;
-	byte[] is = aClass458_4140.method7484(i, 1652903302);
+	byte[] is = aClass458_4140.getTextureData(i, 1652903302);
 	if (null == is)
 	    return null;
 	Class7 class7 = method6579(interface50, i, bool, false, 2106170057);
@@ -138,7 +138,7 @@ public class Class404 implements Interface4
 	    int i_14_ = anIntArray4146[i_13_];
 	    Class7 class7 = Class293.method5306(aClass458_4141, i_14_, this,
 						-1856077243);
-	    byte[] is = aClass458_4140.method7484(i_14_, 1356985944);
+	    byte[] is = aClass458_4140.getTextureData(i_14_, 1356985944);
 	    Object object = interface50.method344(is, class7, true, (byte) 96);
 	    aMap4147.put(Integer.valueOf(i_13_), new Class20(object, class7));
 	}
@@ -205,7 +205,7 @@ public class Class404 implements Interface4
 	    int i_18_ = anIntArray4146[i];
 	    Class7 class7
 		= Class293.method5306(aClass458_4141, i_18_, this, -991930416);
-	    byte[] is = aClass458_4140.method7484(i_18_, 1249398968);
+	    byte[] is = aClass458_4140.getTextureData(i_18_, 1249398968);
 	    Object object = interface50.method344(is, class7, true, (byte) 90);
 	    aMap4147.put(Integer.valueOf(i), new Class20(object, class7));
 	}
@@ -218,8 +218,8 @@ public class Class404 implements Interface4
 	    aClass200_4145.method3809((byte) 127);
     }
     
-    public Class404(Class182 class182, Class458 class458,
-		    Class458 class458_19_, int[] is) {
+    public Class404(Class182 class182, JS5 class458,
+                    JS5 class458_19_, int[] is) {
 	aClass200_4143 = new Class200(20);
 	aClass182_4142 = null;
 	aMap4147 = null;
@@ -265,7 +265,7 @@ public class Class404 implements Interface4
 	    = aClass200_4144.method3785((long) (i << 1 | (bool_20_ ? 1 : 0)));
 	if (null != object)
 	    return object;
-	byte[] is = aClass458_4140.method7484(i, 2116062708);
+	byte[] is = aClass458_4140.getTextureData(i, 2116062708);
 	if (null == is)
 	    return null;
 	Class7 class7 = method6579(interface50, i, bool, false, 2099678025);
@@ -453,17 +453,17 @@ public class Class404 implements Interface4
     
     public static int method6606(RSBuffer class525_sub38, String string,
 								 byte i) {
-	int i_29_ = class525_sub38.pos * -1133521593;
+	int i_29_ = class525_sub38.index * -1133521593;
 	byte[] is = Class225.method4255(string, -889208431);
 	class525_sub38.method16829(is.length, 463468448);
-	class525_sub38.pos
+	class525_sub38.index
 	    += Class268.aClass279_2817.method5150(is, 0, is.length,
 						  (class525_sub38
 						   .buffer),
-						  (class525_sub38.pos
+						  (class525_sub38.index
 						   * -1133521593),
 						  1930794952) * 339428471;
-	return class525_sub38.pos * -1133521593 - i_29_;
+	return class525_sub38.index * -1133521593 - i_29_;
     }
     
     static final void method6607(Class683 class683, int i) {

@@ -13,7 +13,7 @@ public class Class112
     static Class173 aClass173_1383;
     static Class173_Sub2[] aClass173_Sub2Array1384;
     public static boolean aBool1385;
-    public static Class458 aClass458_1386;
+    public static JS5 aClass458_1386;
     
     public static void method1992(Class395 class395, Class396 class396, int i,
 				  int i_0_, int i_1_, int i_2_, int i_3_,
@@ -28,7 +28,7 @@ public class Class112
 	Class695.anInt8756 = i_4_ * -1998709043;
 	Class308_Sub1.anInt10142 = 796610051 * i_5_;
 	aClass173_1383 = null;
-	Class525_Sub7_Sub13.aClass173_11726 = null;
+	EmitterConfig.aClass173_11726 = null;
 	Class496.aClass173_5542 = null;
 	Class630.anInt8164 = 1287208457 * i_6_;
 	anInt1379 = 1464113235 * i_7_;
@@ -50,7 +50,7 @@ public class Class112
 		int i_9_ = class7.method594(string, 250,
 					    1938404803 * class7.anInt46, null,
 					    -2137339297);
-		int i_10_ = Class525_Sub7_Sub13.aClass173_11726.method2772();
+		int i_10_ = EmitterConfig.aClass173_11726.method2772();
 		int i_11_ = i_10_ + 4;
 		i += 2 * i_11_;
 		i_9_ += i_11_ * 2;
@@ -86,25 +86,25 @@ public class Class112
 		    .method2518(i_12_, i_13_ + i_9_ - i_10_);
 		aClass173_1383.method2776();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_12_, i_13_ + aClass173_1383.method2765(), i_10_,
 		     i_9_ - aClass173_1383.method2765() * 2);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_12_ + aClass173_1383.method2772(), i_13_,
 		     i - aClass173_1383.method2772() * 2, i_10_);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i + i_12_ - i_10_, i_13_ + aClass173_1383.method2765(),
 		     i_10_, i_9_ - aClass173_1383.method2765() * 2);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_12_ + aClass173_1383.method2772(), i_13_ + i_9_ - i_10_,
 		     i - aClass173_1383.method2772() * 2, i_10_);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class175.method2839(string, i_12_ + i_11_, i_11_ + i_13_,
 				    i - 2 * i_11_, i_9_ - 2 * i_11_,
 				    (Class630.anInt8164 * -1509707719
@@ -157,7 +157,7 @@ public class Class112
 	Class695.anInt8756 = i_22_ * -1998709043;
 	Class308_Sub1.anInt10142 = 796610051 * i_23_;
 	aClass173_1383 = null;
-	Class525_Sub7_Sub13.aClass173_11726 = null;
+	EmitterConfig.aClass173_11726 = null;
 	Class496.aClass173_5542 = null;
 	Class630.anInt8164 = 1287208457 * i_24_;
 	anInt1379 = 1464113235 * i_25_;
@@ -176,10 +176,10 @@ public class Class112
 	    else
 		bool = false;
 	}
-	if (Class525_Sub7_Sub13.aClass173_11726 == null) {
+	if (EmitterConfig.aClass173_11726 == null) {
 	    if (Class462.aClass458_5095
 		    .method7506(-2122121723 * Class695.anInt8756, -1119069488))
-		Class525_Sub7_Sub13.aClass173_11726
+		EmitterConfig.aClass173_11726
 		    = Class187.method3668(Class462.aClass458_5095,
 					  Class695.anInt8756 * -2122121723);
 	    else
@@ -234,7 +234,7 @@ public class Class112
 		int i_27_ = class7.method594(string, 250,
 					     1938404803 * class7.anInt46, null,
 					     -2136366384);
-		int i_28_ = Class525_Sub7_Sub13.aClass173_11726.method2772();
+		int i_28_ = EmitterConfig.aClass173_11726.method2772();
 		int i_29_ = i_28_ + 4;
 		i += 2 * i_29_;
 		i_27_ += i_29_ * 2;
@@ -269,26 +269,26 @@ public class Class112
 		    .method2518(i_30_, i_31_ + i_27_ - i_28_);
 		aClass173_1383.method2776();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_30_, i_31_ + aClass173_1383.method2765(), i_28_,
 		     i_27_ - aClass173_1383.method2765() * 2);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_30_ + aClass173_1383.method2772(), i_31_,
 		     i - aClass173_1383.method2772() * 2, i_28_);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i + i_30_ - i_28_, i_31_ + aClass173_1383.method2765(),
 		     i_28_, i_27_ - aClass173_1383.method2765() * 2);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class182.method3216
-		    (Class525_Sub7_Sub13.aClass173_11726, true).method2478
+		    (EmitterConfig.aClass173_11726, true).method2478
 		    (i_30_ + aClass173_1383.method2772(),
 		     i_31_ + i_27_ - i_28_,
 		     i - aClass173_1383.method2772() * 2, i_28_);
-		Class525_Sub7_Sub13.aClass173_11726.method2777();
+		EmitterConfig.aClass173_11726.method2777();
 		class175.method2839(string, i_30_ + i_29_, i_29_ + i_31_,
 				    i - 2 * i_29_, i_27_ - 2 * i_29_,
 				    (Class630.anInt8164 * -1509707719

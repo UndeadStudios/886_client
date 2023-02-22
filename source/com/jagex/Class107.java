@@ -100,7 +100,7 @@ public class Class107
     static final void method1925(Class683 class683, int i) {
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class58.anInt635 * -51766813;
+	    = ConfigEntry.anInt635 * -51766813;
     }
     
     public static void method1926(Class71_Sub1 class71_sub1, int i) {

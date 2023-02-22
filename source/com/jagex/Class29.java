@@ -56,7 +56,7 @@ public class Class29
 	anInt287 = class631.anInt8198 * 1612347385;
     }
     
-    public static int method916(Class458 class458) {
+    public static int method916(JS5 class458) {
 	int i = 0;
 	if (class458.method7506(741597445 * anInt288, -1258676619))
 	    i++;
@@ -199,7 +199,7 @@ public class Class29
 	return 10;
     }
     
-    public static int method928(Class458 class458) {
+    public static int method928(JS5 class458) {
 	int i = 0;
 	if (class458.method7506(741597445 * anInt288, 1547079678))
 	    i++;
@@ -229,7 +229,7 @@ public class Class29
 	return 10;
     }
     
-    public static void method930(Class182 class182, Class458 class458) {
+    public static void method930(Class182 class182, JS5 class458) {
 	Class173[] class173s
 	    = Class187.method3674(class458, anInt288 * 741597445, 0);
 	Class664.aClass157Array8556 = new Class157[class173s.length];

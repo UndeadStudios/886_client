@@ -37,7 +37,7 @@ public class Class82 implements Interface12, Interface7
 			= ((Class495)
 			   Class539.method8888(Class495.method8143((byte) 1),
 					       class525_sub38
-						   .method16740((byte) -22),
+						   .readUnsignedSmart((byte) -22),
 					       456598970));
 		aClass495ArrayArray849[i_3_] = class495s;
 		if (bool) {
@@ -72,7 +72,7 @@ public class Class82 implements Interface12, Interface7
 			= ((Class495)
 			   Class539.method8888(Class495.method8143((byte) 1),
 					       class525_sub38
-						   .method16740((byte) -41),
+						   .readUnsignedSmart((byte) -41),
 					       -1802603274));
 		aClass495ArrayArray849[i_8_] = class495s;
 		if (bool) {

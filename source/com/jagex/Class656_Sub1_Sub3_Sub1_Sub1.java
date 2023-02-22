@@ -66,7 +66,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     }
     
     public final void method18903(RSBuffer class525_sub38, byte i) {
-	class525_sub38.pos = 0;
+	class525_sub38.index = 0;
 	int i_1_ = class525_sub38.readUnsignedByte(461923198);
 	byte i_2_ = (byte) (i_1_ & 0x1);
 	boolean bool = 0 != (i_1_ & 0x4);
@@ -139,7 +139,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     }
     
     public void method18904(RSBuffer class525_sub38, int i) {
-	class525_sub38.pos = 0;
+	class525_sub38.index = 0;
 	int i_12_ = class525_sub38.readUnsignedByte(758111468);
 	for (int i_13_ = 0; i_13_ < anIntArray12236.length; i_13_++) {
 	    if ((i_12_ & 1 << i_13_) != 0) {
@@ -261,7 +261,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 		   Class664.aClass634_8557, 16711935)));
 	int i_27_ = Class480.method7821((short) 202);
 	if (-855455283 * Class503.anInt5590 < 96 && i_27_ > 50)
-	    Class65.method1431(531453588);
+	    WorldTile.method1431(531453588);
 	if (Class176.aClass685_1884 != Class685.aClass685_8686 && i_27_ < 50) {
 	    int i_28_;
 	    for (i_28_ = 50 - i_27_; i_28_ > client.anInt11082 * -397199891;
@@ -328,7 +328,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     
     public final void method18909(int i, int i_29_, byte i_30_, short i_31_) {
 	if (aClass689_11987.method14021(1876001888)
-	    && (aClass689_11987.method14058(-740785641).anInt2167 * -764414887
+	    && (aClass689_11987.method14058(-740785641).walkingPrecedence * -764414887
 		== 1)) {
 	    anIntArray11985 = null;
 	    aClass689_11987.method14068(-1, (byte) -116);
@@ -341,12 +341,12 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 			(1420286373 * aClass540Array12029[i_32_].anInt7182,
 			 1200957056)));
 		if (class674.aBool8608 && -1 != class674.anInt8596 * 1700860103
-		    && (((Class194)
+		    && (((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76(((class674
 								.anInt8596)
 							       * 1700860103),
 							      -1324635057))
-			.anInt2167) * -764414887 == 1) {
+			.walkingPrecedence) * -764414887 == 1) {
 		    aClass540Array12029[i_32_].aClass689_7183
 			.method14068(-1, (byte) -128);
 		    aClass540Array12029[i_32_].anInt7182 = -637232685;
@@ -528,7 +528,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     
     public final void method18916(int i, int i_54_, byte i_55_) {
 	if (aClass689_11987.method14021(-32324512)
-	    && (aClass689_11987.method14058(-820382496).anInt2167 * -764414887
+	    && (aClass689_11987.method14058(-820382496).walkingPrecedence * -764414887
 		== 1)) {
 	    anIntArray11985 = null;
 	    aClass689_11987.method14068(-1, (byte) -2);
@@ -541,12 +541,12 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 			(1420286373 * aClass540Array12029[i_56_].anInt7182,
 			 -1854599138)));
 		if (class674.aBool8608 && -1 != class674.anInt8596 * 1700860103
-		    && (((Class194)
+		    && (((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76(((class674
 								.anInt8596)
 							       * 1700860103),
 							      956557309))
-			.anInt2167) * -764414887 == 1) {
+			.walkingPrecedence) * -764414887 == 1) {
 		    aClass540Array12029[i_56_].aClass689_7183
 			.method14068(-1, (byte) -29);
 		    aClass540Array12029[i_56_].anInt7182 = -637232685;
@@ -792,7 +792,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     public int method18662() {
 	if (null != aClass637_12246
 	    && -1172437919 * aClass637_12246.anInt8300 != -1)
-	    return (((Class299) (Class168_Sub1.aClass40_Sub7_9112.method76
+	    return (((NPCDefinitions) (Class168_Sub1.aClass40_Sub7_9112.method76
 				 (-1172437919 * aClass637_12246.anInt8300,
 				  -576068277))).anInt3291
 		    * 1035256919);
@@ -890,7 +890,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     public int method18663() {
 	if (null != aClass637_12246
 	    && -1172437919 * aClass637_12246.anInt8300 != -1)
-	    return (((Class299) (Class168_Sub1.aClass40_Sub7_9112.method76
+	    return (((NPCDefinitions) (Class168_Sub1.aClass40_Sub7_9112.method76
 				 (-1172437919 * aClass637_12246.anInt8300,
 				  336723336))).anInt3291
 		    * 1035256919);
@@ -912,8 +912,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 	int[] is = new int[Class664.aClass634_8557.anIntArray8244.length];
 	Class2[] class2s
 	    = new Class2[Class664.aClass634_8557.anIntArray8244.length];
-	Class8[] class8s
-	    = new Class8[Class664.aClass634_8557.anIntArray8244.length];
+	ItemDefinitions[] class8s
+	    = new ItemDefinitions[Class664.aClass634_8557.anIntArray8244.length];
 	for (int i_74_ = 0;
 	     i_74_ < Class664.aClass634_8557.anIntArray8244.length; i_74_++) {
 	    if (1 != Class664.aClass634_8557.anIntArray8244[i_74_]) {
@@ -933,7 +933,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 			i_77_ -= 16384;
 			is[i_74_] = i_77_ | 0x40000000;
 			class8s[i_74_]
-			    = (Class8) Class313_Sub2.aClass40_Sub22_10106
+			    = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					   .method76(i_77_, -2066562272);
 			int i_78_ = 714429443 * class8s[i_74_].anInt88;
 			if (i_78_ != 0)
@@ -1052,7 +1052,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 	    Class586 class586 = method18633((byte) -4);
 	    if (class586.aBool7727
 		&& (-1172437919 * aClass637_12246.anInt8300 == -1
-		    || ((Class299) (Class168_Sub1.aClass40_Sub7_9112.method76
+		    || ((NPCDefinitions) (Class168_Sub1.aClass40_Sub7_9112.method76
 				    (aClass637_12246.anInt8300 * -1172437919,
 				     1646354621))).aBool3328)) {
 		Class689 class689
@@ -1067,11 +1067,11 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 		short i_93_ = Class138.aClass631_1641.aShort8179;
 		byte i_94_ = Class138.aClass631_1641.aByte8180;
 		if (-1 != aClass637_12246.anInt8300 * -1172437919) {
-		    i_93_ = ((Class299)
+		    i_93_ = ((NPCDefinitions)
 			     (Class168_Sub1.aClass40_Sub7_9112.method76
 			      (aClass637_12246.anInt8300 * -1172437919,
 			       -959429251))).aShort3296;
-		    i_94_ = ((Class299)
+		    i_94_ = ((NPCDefinitions)
 			     (Class168_Sub1.aClass40_Sub7_9112.method76
 			      (aClass637_12246.anInt8300 * -1172437919,
 			       -383213732))).aByte3341;
@@ -1230,8 +1230,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 	int[] is = new int[Class664.aClass634_8557.anIntArray8244.length];
 	Class2[] class2s
 	    = new Class2[Class664.aClass634_8557.anIntArray8244.length];
-	Class8[] class8s
-	    = new Class8[Class664.aClass634_8557.anIntArray8244.length];
+	ItemDefinitions[] class8s
+	    = new ItemDefinitions[Class664.aClass634_8557.anIntArray8244.length];
 	for (int i_106_ = 0;
 	     i_106_ < Class664.aClass634_8557.anIntArray8244.length;
 	     i_106_++) {
@@ -1252,7 +1252,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 			i_109_ -= 16384;
 			is[i_106_] = i_109_ | 0x40000000;
 			class8s[i_106_]
-			    = (Class8) Class313_Sub2.aClass40_Sub22_10106
+			    = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					   .method76(i_109_, 2078046189);
 			int i_110_ = 714429443 * class8s[i_106_].anInt88;
 			if (i_110_ != 0)
@@ -1340,7 +1340,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     }
     
     public final void method18924(RSBuffer class525_sub38) {
-	class525_sub38.pos = 0;
+	class525_sub38.index = 0;
 	int i = class525_sub38.readUnsignedByte(1113407431);
 	byte i_123_ = (byte) (i & 0x1);
 	boolean bool = 0 != (i & 0x4);
@@ -1413,7 +1413,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     }
     
     public void method18925(RSBuffer class525_sub38) {
-	class525_sub38.pos = 0;
+	class525_sub38.index = 0;
 	int i = class525_sub38.readUnsignedByte(1485708193);
 	for (int i_133_ = 0; i_133_ < anIntArray12236.length; i_133_++) {
 	    if ((i & 1 << i_133_) != 0) {
@@ -1465,7 +1465,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 	    Class586 class586 = method18633((byte) -68);
 	    if (class586.aBool7727
 		&& (-1172437919 * aClass637_12246.anInt8300 == -1
-		    || ((Class299) (Class168_Sub1.aClass40_Sub7_9112.method76
+		    || ((NPCDefinitions) (Class168_Sub1.aClass40_Sub7_9112.method76
 				    (aClass637_12246.anInt8300 * -1172437919,
 				     -723644919))).aBool3328)) {
 		Class689 class689 = ((aClass689_11987.method14021(-1033211033)
@@ -1479,11 +1479,11 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 		short i_141_ = Class138.aClass631_1641.aShort8179;
 		byte i_142_ = Class138.aClass631_1641.aByte8180;
 		if (-1 != aClass637_12246.anInt8300 * -1172437919) {
-		    i_141_ = ((Class299)
+		    i_141_ = ((NPCDefinitions)
 			      (Class168_Sub1.aClass40_Sub7_9112.method76
 			       (aClass637_12246.anInt8300 * -1172437919,
 				-1520189941))).aShort3296;
-		    i_142_ = ((Class299)
+		    i_142_ = ((NPCDefinitions)
 			      (Class168_Sub1.aClass40_Sub7_9112.method76
 			       (aClass637_12246.anInt8300 * -1172437919,
 				1148732011))).aByte3341;
@@ -1644,8 +1644,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 	int[] is = new int[Class664.aClass634_8557.anIntArray8244.length];
 	Class2[] class2s
 	    = new Class2[Class664.aClass634_8557.anIntArray8244.length];
-	Class8[] class8s
-	    = new Class8[Class664.aClass634_8557.anIntArray8244.length];
+	ItemDefinitions[] class8s
+	    = new ItemDefinitions[Class664.aClass634_8557.anIntArray8244.length];
 	for (int i_155_ = 0;
 	     i_155_ < Class664.aClass634_8557.anIntArray8244.length;
 	     i_155_++) {
@@ -1666,7 +1666,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 			i_158_ -= 16384;
 			is[i_155_] = i_158_ | 0x40000000;
 			class8s[i_155_]
-			    = (Class8) Class313_Sub2.aClass40_Sub22_10106
+			    = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					   .method76(i_158_, 1197641058);
 			int i_159_ = 714429443 * class8s[i_155_].anInt88;
 			if (i_159_ != 0)
@@ -1785,7 +1785,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 		   true, Class664.aClass634_8557, 16711935)));
 	int i_176_ = Class480.method7821((short) 202);
 	if (-855455283 * Class503.anInt5590 < 96 && i_176_ > 50)
-	    Class65.method1431(162095416);
+	    WorldTile.method1431(162095416);
 	if (Class176.aClass685_1884 != Class685.aClass685_8686
 	    && i_176_ < 50) {
 	    int i_177_;
@@ -1866,8 +1866,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 	int[] is = new int[Class664.aClass634_8557.anIntArray8244.length];
 	Class2[] class2s
 	    = new Class2[Class664.aClass634_8557.anIntArray8244.length];
-	Class8[] class8s
-	    = new Class8[Class664.aClass634_8557.anIntArray8244.length];
+	ItemDefinitions[] class8s
+	    = new ItemDefinitions[Class664.aClass634_8557.anIntArray8244.length];
 	for (int i_179_ = 0;
 	     i_179_ < Class664.aClass634_8557.anIntArray8244.length;
 	     i_179_++) {
@@ -1888,7 +1888,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 			i_182_ -= 16384;
 			is[i_179_] = i_182_ | 0x40000000;
 			class8s[i_179_]
-			    = (Class8) Class313_Sub2.aClass40_Sub22_10106
+			    = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					   .method76(i_182_, 639568842);
 			int i_183_ = 714429443 * class8s[i_179_].anInt88;
 			if (i_183_ != 0)
@@ -2058,7 +2058,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     public int method18608(byte i) {
 	if (null != aClass637_12246
 	    && -1172437919 * aClass637_12246.anInt8300 != -1)
-	    return (((Class299) (Class168_Sub1.aClass40_Sub7_9112.method76
+	    return (((NPCDefinitions) (Class168_Sub1.aClass40_Sub7_9112.method76
 				 (-1172437919 * aClass637_12246.anInt8300,
 				  -257952682))).anInt3291
 		    * 1035256919);

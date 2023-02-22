@@ -104,7 +104,7 @@ public class Class182_Sub1_Sub1 extends Class182_Sub1
 	(int i, int i_2_, long l, long l_3_, D3DDISPLAYMODE d3ddisplaymode,
 	 D3DPRESENT_PARAMETERS d3dpresent_parameters, D3DCAPS d3dcaps,
 	 Class180 class180, Interface24 interface24, Interface47 interface47,
-	 Interface48 interface48, Interface49 interface49, Class458 class458,
+	 Interface48 interface48, Interface49 interface49, JS5 class458,
 	 int i_4_) {
 	super(class180, interface24, interface47, interface48, interface49,
 	      class458, i_4_, 0);
@@ -3005,8 +3005,8 @@ public class Class182_Sub1_Sub1 extends Class182_Sub1
     
     static Class182 method18073
 	(Canvas canvas, Class180 class180, Interface24 interface24,
-	 Interface47 interface47, Interface48 interface48,
-	 Interface49 interface49, Class458 class458, Integer integer) {
+     Interface47 interface47, Interface48 interface48,
+     Interface49 interface49, JS5 class458, Integer integer) {
 	Class182_Sub1_Sub1 class182_sub1_sub1 = null;
 	Class182_Sub1_Sub1 class182_sub1_sub1_184_;
 	try {
@@ -3138,8 +3138,8 @@ public class Class182_Sub1_Sub1 extends Class182_Sub1
     
     static Class182 method18074
 	(Canvas canvas, Class180 class180, Interface24 interface24,
-	 Interface47 interface47, Interface48 interface48,
-	 Interface49 interface49, Class458 class458, Integer integer) {
+     Interface47 interface47, Interface48 interface48,
+     Interface49 interface49, JS5 class458, Integer integer) {
 	Class182_Sub1_Sub1 class182_sub1_sub1 = null;
 	Class182_Sub1_Sub1 class182_sub1_sub1_194_;
 	try {

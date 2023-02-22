@@ -202,7 +202,7 @@ public class Class26
 	Class259 class259 = Class43.method1069(i_1_, -695254952);
 	Class245 class245 = Class162.aClass245Array1764[i_1_ >>> 16];
 	Class259 class259_2_
-	    = Class65.method1432(class245, class259, 93078391);
+	    = WorldTile.method1432(class245, class259, 93078391);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
 	    = class259_2_ == null ? -1 : class259_2_.anInt2588 * 1984678839;

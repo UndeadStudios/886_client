@@ -25,8 +25,8 @@ public class Class656_Sub1_Sub1_Sub1 extends Class656_Sub1_Sub1
     
     public Class656_Sub1_Sub1_Sub1
 	(Class546 class546, Class182 class182, Class40_Sub11 class40_sub11,
-	 Class602 class602, int i, int i_0_, int i_1_, int i_2_, int i_3_,
-	 boolean bool, int i_4_, boolean bool_5_) {
+     ObjectDefinitions class602, int i, int i_0_, int i_1_, int i_2_, int i_3_,
+     boolean bool, int i_4_, boolean bool_5_) {
 	super(class546, i_1_, i_2_, i_3_, i, i_0_,
 	      class602.anInt7922 * -384855147);
 	aClass40_Sub11_12049 = class40_sub11;
@@ -118,7 +118,7 @@ public class Class656_Sub1_Sub1_Sub1 extends Class656_Sub1_Sub1
 	Class444 class444 = method10826();
 	Class567 class567 = Class293.method5303(aBool12056, (short) 2849);
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12049.method76(anInt12053 * -915360223,
 					      187723101))
 	       .aClass443_7920);
@@ -142,7 +142,7 @@ public class Class656_Sub1_Sub1_Sub1 extends Class656_Sub1_Sub1
     
     boolean method16910(Class182 class182, int i, int i_8_, byte i_9_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12049.method76(-915360223 * anInt12053,
 					      1824322303))
 	       .aClass443_7920);
@@ -195,8 +195,8 @@ public class Class656_Sub1_Sub1_Sub1 extends Class656_Sub1_Sub1
     }
     
     Class20 method18714(Class182 class182, int i, boolean bool, int i_14_) {
-	Class602 class602
-	    = (Class602) aClass40_Sub11_12049.method76(anInt12053 * -915360223,
+	ObjectDefinitions class602
+	    = (ObjectDefinitions) aClass40_Sub11_12049.method76(anInt12053 * -915360223,
 						       -1587476660);
 	Class161 class161;
 	Class161 class161_15_;
@@ -489,7 +489,7 @@ public class Class656_Sub1_Sub1_Sub1 extends Class656_Sub1_Sub1
     
     boolean method16939(Class182 class182, int i, int i_16_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12049.method76(-915360223 * anInt12053,
 					      -5984537))
 	       .aClass443_7920);
@@ -506,7 +506,7 @@ public class Class656_Sub1_Sub1_Sub1 extends Class656_Sub1_Sub1
     
     boolean method16940(Class182 class182, int i, int i_17_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12049.method76(-915360223 * anInt12053,
 					      1008188894))
 	       .aClass443_7920);
@@ -630,7 +630,7 @@ public class Class656_Sub1_Sub1_Sub1 extends Class656_Sub1_Sub1
     
     boolean method16965(Class182 class182, int i, int i_21_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12049.method76(-915360223 * anInt12053,
 					      1774031655))
 	       .aClass443_7920);
@@ -675,7 +675,7 @@ public class Class656_Sub1_Sub1_Sub1 extends Class656_Sub1_Sub1
 	Class444 class444 = method10826();
 	Class567 class567 = Class293.method5303(aBool12056, (short) -14416);
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12049.method76(anInt12053 * -915360223,
 					      1775684067))
 	       .aClass443_7920);

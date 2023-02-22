@@ -458,7 +458,7 @@ public class Class228
 	    aLong2351 = (class525_sub38.method16603(-604965432)
 			 * -7481414921824854515L);
 	    aString2352 = class525_sub38.readString((byte) 29);
-	    anInt2350 = class525_sub38.method16625((byte) -46) * 956855459;
+	    anInt2350 = class525_sub38.readSmart((byte) -46) * 956855459;
 	    class525_sub38.readInt(1496075167);
 	    class525_sub38.method16603(-277704284);
 	    int i_31_ = class525_sub38.readUnsignedShort((byte) 41);

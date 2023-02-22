@@ -62,9 +62,9 @@ final class Class453_Sub2 extends Class453
 	    }
 	    Class689 class689 = class656_sub1_sub3_sub1.aClass689_11987;
 	    if (bool_2_ && class689.method14021(1654046370)) {
-		Class194 class194 = class656_sub1_sub3_sub1.aClass689_11987
+		AnimationDefinition class194 = class656_sub1_sub3_sub1.aClass689_11987
 					.method14058(-1843655678);
-		int i_4_ = class194.anInt2154 * -871006613;
+		int i_4_ = class194.replayMode * -871006613;
 		if (1 == i_4_)
 		    class689.method14040(i, (byte) 1);
 		if (2 == i_4_)
@@ -77,13 +77,13 @@ final class Class453_Sub2 extends Class453
 		bool_5_ = false;
 	    if (class656_sub1_sub3_sub1.anIntArray11985 == null
 		|| -1 == class656_sub1_sub3_sub1.anIntArray11985[i_6_]
-		|| ((((Class194) Class685.aClass40_Sub8_8691
-				     .method76(is[i_6_], 238487834)).anInt2162
+		|| ((((AnimationDefinition) Class685.aClass40_Sub8_8691
+				     .method76(is[i_6_], 238487834)).priority
 		     * 1014786343)
-		    >= ((Class194)
+		    >= ((AnimationDefinition)
 			(Class685.aClass40_Sub8_8691.method76
 			 (class656_sub1_sub3_sub1.anIntArray11985[i_6_],
-			  -317348717))).anInt2162 * 1014786343)) {
+			  -317348717))).priority * 1014786343)) {
 		class656_sub1_sub3_sub1.anIntArray11985 = is;
 		class656_sub1_sub3_sub1.aClass689_11987
 		    .method14032(i, (short) -24563);

@@ -10,7 +10,7 @@ public class Class326
     String aString3560;
     static String aString3561;
     public static int anInt3562;
-    static Class458 aClass458_3563;
+    static JS5 aClass458_3563;
     
     Class326(String string, String string_0_, String string_1_) {
 	aString3558 = string;

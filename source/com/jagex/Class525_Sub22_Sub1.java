@@ -21,7 +21,7 @@ public class Class525_Sub22_Sub1 extends Class525_Sub22
     
     void method16335(RSBuffer class525_sub38, byte i) {
 	if (class525_sub38.readUnsignedByte(242089185) != 255) {
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	    class525_sub38.method16603(3005987);
 	}
 	aString11643 = class525_sub38.method16635(-1670507484);
@@ -61,7 +61,7 @@ public class Class525_Sub22_Sub1 extends Class525_Sub22
     
     void method16340(RSBuffer class525_sub38) {
 	if (class525_sub38.readUnsignedByte(1167181233) != 255) {
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	    class525_sub38.method16603(-1916146151);
 	}
 	aString11643 = class525_sub38.method16635(-1434853332);

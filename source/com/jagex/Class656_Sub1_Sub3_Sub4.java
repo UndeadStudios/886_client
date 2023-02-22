@@ -119,7 +119,7 @@ public class Class656_Sub1_Sub3_Sub4 extends Class656_Sub1_Sub3
 		     int i) {
 	class179.method2978(class444);
 	Class184[] class184s = class179.method2979();
-	Class154[] class154s = class179.method2980();
+	MagnetConfig[] class154s = class179.method2980();
 	if ((null == aClass633_12163 || aClass633_12163.aBool8234)
 	    && (class184s != null || class154s != null))
 	    aClass633_12163 = Class633.method10348(client.anInt11083, true);
@@ -401,7 +401,7 @@ public class Class656_Sub1_Sub3_Sub4 extends Class656_Sub1_Sub3
     void method18851(Class182 class182, Class179 class179, Class444 class444) {
 	class179.method2978(class444);
 	Class184[] class184s = class179.method2979();
-	Class154[] class154s = class179.method2980();
+	MagnetConfig[] class154s = class179.method2980();
 	if ((null == aClass633_12163 || aClass633_12163.aBool8234)
 	    && (class184s != null || class154s != null))
 	    aClass633_12163 = Class633.method10348(client.anInt11083, true);
@@ -416,7 +416,7 @@ public class Class656_Sub1_Sub3_Sub4 extends Class656_Sub1_Sub3
     void method18852(Class182 class182, Class179 class179, Class444 class444) {
 	class179.method2978(class444);
 	Class184[] class184s = class179.method2979();
-	Class154[] class154s = class179.method2980();
+	MagnetConfig[] class154s = class179.method2980();
 	if ((null == aClass633_12163 || aClass633_12163.aBool8234)
 	    && (class184s != null || class154s != null))
 	    aClass633_12163 = Class633.method10348(client.anInt11083, true);

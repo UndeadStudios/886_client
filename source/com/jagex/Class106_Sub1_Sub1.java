@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class Class106_Sub1_Sub1 extends Class106_Sub1 implements Interface13
 {
     Class200 aClass200_11397 = new Class200(64);
-    Class458 aClass458_11398;
+    JS5 aClass458_11398;
     
     public void method17962() {
 	synchronized (aClass200_11397) {
@@ -30,7 +30,7 @@ public class Class106_Sub1_Sub1 extends Class106_Sub1 implements Interface13
     
     Class163_Sub2 method17963(int i, int i_1_) {
 	byte[] is
-	    = aClass458_11398.method7476((aClass453_8986.method7344(-928711003)
+	    = aClass458_11398.getFile((aClass453_8986.method7344(-928711003)
 					  .anInt8553) * -1918643565,
 					 i, 447402416);
 	Class163_Sub2 class163_sub2 = new Class163_Sub2(aClass453_8986, i);
@@ -101,7 +101,7 @@ public class Class106_Sub1_Sub1 extends Class106_Sub1 implements Interface13
     }
     
     Class163_Sub2 method17968(int i) {
-	byte[] is = aClass458_11398.method7476(((aClass453_8986.method7344
+	byte[] is = aClass458_11398.getFile(((aClass453_8986.method7344
 						 (-1215580511).anInt8553)
 						* -1918643565),
 					       i, 805536165);
@@ -141,7 +141,7 @@ public class Class106_Sub1_Sub1 extends Class106_Sub1 implements Interface13
     }
     
     public Class106_Sub1_Sub1(Class668 class668, Class453 class453,
-			      Class666 class666, Class458 class458) {
+			      Class666 class666, JS5 class458) {
 	super(class668, class453, class666,
 	      (null != class458
 	       ? class458.method7487((class453.method7344(-656260011).anInt8553

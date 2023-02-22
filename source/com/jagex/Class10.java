@@ -477,8 +477,8 @@ public final class Class10 implements Iterable
     static final void method707(Class683 class683, byte i) {
 	int i_26_ = (class683.anIntArray8661
 		     [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_26_, -693717535));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]

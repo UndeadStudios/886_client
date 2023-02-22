@@ -184,7 +184,7 @@ public class Class494
 		anIntArray5321 = new int[anInt5348 * 1312400721];
 		anIntArray5322 = new int[1312400721 * anInt5348];
 		anIntArray5323 = new int[anInt5348 * 1312400721];
-		int i_13_ = (-1133521593 * class525_sub38.pos
+		int i_13_ = (-1133521593 * class525_sub38.index
 			     + 1909271176 * anInt5348);
 		for (int i_14_ = 0; i_14_ < 1312400721 * anInt5348; i_14_++) {
 		    anIntArray5321[i_14_] = i_13_;
@@ -194,7 +194,7 @@ public class Class494
 			= class525_sub38.readInt(1899257057);
 		    i_13_ += anIntArray5322[i_14_];
 		}
-		anInt5300 = class525_sub38.pos * -690326199;
+		anInt5300 = class525_sub38.index * -690326199;
 		aClass481Array5313 = new Class481[1967952941 * anInt5330];
 		aFloatArray5304 = new float[2];
 		for (int i_15_ = 0; i_15_ < aFloatArray5304.length; i_15_++)
@@ -218,7 +218,7 @@ public class Class494
 		    System.arraycopy(class525_sub38.buffer,
 				     anInt5300 * -100055537, is_17_, 0, i_16_);
 		    class525_sub38.buffer = is_17_;
-		    class525_sub38.pos = 339428471 * i_16_;
+		    class525_sub38.index = 339428471 * i_16_;
 		    anInterface41_5327.method56(class525_sub38);
 		    anInt5309 += 1440081055;
 		} else
@@ -403,7 +403,7 @@ public class Class494
 			    if (is != null) {
 				RSBuffer class525_sub38
 				    = new RSBuffer(is);
-				class525_sub38.pos
+				class525_sub38.index
 				    = is.length * 339428471;
 				anInterface41_5327.method56(class525_sub38);
 				method8005(false, 932613287);
@@ -513,7 +513,7 @@ public class Class494
 			    if (is != null) {
 				RSBuffer class525_sub38
 				    = new RSBuffer(is);
-				class525_sub38.pos
+				class525_sub38.index
 				    = is.length * 339428471;
 				anInterface41_5327.method56(class525_sub38);
 				method8005(false, 1191187605);
@@ -570,7 +570,7 @@ public class Class494
 				   (-1133521593 * (aClass481Array5313
 						   [150670463 * anInt5337]
 						   .aClass525_Sub38_5222
-						   .pos) / i_36_));
+						   .index) / i_36_));
 			    anInt5333 += -1842521807 * i_37_;
 			    if (false == aBool5320 && aBool5328
 				&& anInt5349 * 1020788903 > 0) {
@@ -635,7 +635,7 @@ public class Class494
 				    != null)
 				   ? (aClass481Array5313[anInt5337 * 150670463]
 				      .aClass525_Sub38_5222
-				      .pos) * -1133521593
+				      .index) * -1133521593
 				   : 0);
 			    int i_43_ = anInterface41_5327.method224();
 			    int i_44_
@@ -778,10 +778,10 @@ public class Class494
 		    int i_51_
 			= ((1042587551 * anInt5302 + i_50_
 			    > (aClass481Array5313[-1806014645 * anInt5314]
-			       .aClass525_Sub38_5222.pos) * -1133521593)
+			       .aClass525_Sub38_5222.index) * -1133521593)
 			   ? (-1133521593 * (aClass481Array5313
 					     [-1806014645 * anInt5314]
-					     .aClass525_Sub38_5222.pos)
+					     .aClass525_Sub38_5222.index)
 			      - anInt5302 * 1042587551)
 			   : i_50_);
 		    if (anInt5302 * 1042587551 < (aClass481Array5313
@@ -799,12 +799,12 @@ public class Class494
 			i_51_
 			    = ((i_50_ + 1042587551 * anInt5302
 				> ((aClass481Array5313[anInt5314 * -1806014645]
-				    .aClass525_Sub38_5222.pos)
+				    .aClass525_Sub38_5222.index)
 				   * -1133521593))
 			       ? (-1133521593 * (aClass481Array5313
 						 [-1806014645 * anInt5314]
 						 .aClass525_Sub38_5222
-						 .pos)
+						 .index)
 				  - anInt5302 * 1042587551)
 			       : i_50_);
 		    }
@@ -833,7 +833,7 @@ public class Class494
 		    i_50_ -= i_51_;
 		    if ((anInt5302 * 1042587551
 			 >= (aClass481Array5313[-1806014645 * anInt5314]
-			     .aClass525_Sub38_5222.pos) * -1133521593)
+			     .aClass525_Sub38_5222.index) * -1133521593)
 			|| ((1042587551 * anInt5302
 			     >= (aClass481Array5313[-1806014645 * anInt5314]
 				 .anInt5221) * 159587581)
@@ -882,11 +882,11 @@ public class Class494
 	if (anObject5331 != null && anObject5331 instanceof Class488) {
 	    Class488 class488 = (Class488) anObject5331;
 	    Interface69 interface69 = class488.method7897((byte) 58);
-	    byte[] is = new byte[class525_sub38.pos * -1133521593];
+	    byte[] is = new byte[class525_sub38.index * -1133521593];
 	    System.arraycopy(class525_sub38.buffer, 0, is, 0,
-			     class525_sub38.pos * -1133521593);
+			     class525_sub38.index * -1133521593);
 	    RSBuffer class525_sub38_60_ = new RSBuffer(is);
-	    class525_sub38_60_.pos = class525_sub38.pos * 1;
+	    class525_sub38_60_.index = class525_sub38.index * 1;
 	    interface69.method443(class525_sub38_60_, -1207700141);
 	}
     }
@@ -898,7 +898,7 @@ public class Class494
 	    RSBuffer class525_sub38
 		= interface69.method441(i, -1163294422);
 	    RSBuffer class525_sub38_62_
-		= new RSBuffer(class525_sub38.pos * -1133521593,
+		= new RSBuffer(class525_sub38.index * -1133521593,
 				     true);
 	    class525_sub38_62_.method16646(class525_sub38, -2035476402);
 	    return class525_sub38_62_;
@@ -927,10 +927,10 @@ public class Class494
 		    int i_63_
 			= ((1042587551 * anInt5302 + i
 			    > (aClass481Array5313[-1806014645 * anInt5314]
-			       .aClass525_Sub38_5222.pos) * -1133521593)
+			       .aClass525_Sub38_5222.index) * -1133521593)
 			   ? (-1133521593 * (aClass481Array5313
 					     [-1806014645 * anInt5314]
-					     .aClass525_Sub38_5222.pos)
+					     .aClass525_Sub38_5222.index)
 			      - anInt5302 * 1042587551)
 			   : i);
 		    if (anInt5302 * 1042587551 < (aClass481Array5313
@@ -948,12 +948,12 @@ public class Class494
 			i_63_
 			    = ((i + 1042587551 * anInt5302
 				> ((aClass481Array5313[anInt5314 * -1806014645]
-				    .aClass525_Sub38_5222.pos)
+				    .aClass525_Sub38_5222.index)
 				   * -1133521593))
 			       ? (-1133521593 * (aClass481Array5313
 						 [-1806014645 * anInt5314]
 						 .aClass525_Sub38_5222
-						 .pos)
+						 .index)
 				  - anInt5302 * 1042587551)
 			       : i);
 		    }
@@ -982,7 +982,7 @@ public class Class494
 		    i -= i_63_;
 		    if ((anInt5302 * 1042587551
 			 >= (aClass481Array5313[-1806014645 * anInt5314]
-			     .aClass525_Sub38_5222.pos) * -1133521593)
+			     .aClass525_Sub38_5222.index) * -1133521593)
 			|| ((1042587551 * anInt5302
 			     >= (aClass481Array5313[-1806014645 * anInt5314]
 				 .anInt5221) * 159587581)
@@ -1091,7 +1091,7 @@ public class Class494
 			    if (is != null) {
 				RSBuffer class525_sub38
 				    = new RSBuffer(is);
-				class525_sub38.pos
+				class525_sub38.index
 				    = is.length * 339428471;
 				anInterface41_5327.method56(class525_sub38);
 				method8005(false, 264994571);
@@ -1347,7 +1347,7 @@ public class Class494
 		anIntArray5321 = new int[anInt5348 * 1312400721];
 		anIntArray5322 = new int[1312400721 * anInt5348];
 		anIntArray5323 = new int[anInt5348 * 1312400721];
-		int i_74_ = (-1133521593 * class525_sub38.pos
+		int i_74_ = (-1133521593 * class525_sub38.index
 			     + 1909271176 * anInt5348);
 		for (int i_75_ = 0; i_75_ < 1312400721 * anInt5348; i_75_++) {
 		    anIntArray5321[i_75_] = i_74_;
@@ -1357,7 +1357,7 @@ public class Class494
 			= class525_sub38.readInt(1114241361);
 		    i_74_ += anIntArray5322[i_75_];
 		}
-		anInt5300 = class525_sub38.pos * -690326199;
+		anInt5300 = class525_sub38.index * -690326199;
 		aClass481Array5313 = new Class481[1967952941 * anInt5330];
 		aFloatArray5304 = new float[2];
 		for (int i_76_ = 0; i_76_ < aFloatArray5304.length; i_76_++)
@@ -1381,7 +1381,7 @@ public class Class494
 		    System.arraycopy(class525_sub38.buffer,
 				     anInt5300 * -100055537, is_78_, 0, i_77_);
 		    class525_sub38.buffer = is_78_;
-		    class525_sub38.pos = 339428471 * i_77_;
+		    class525_sub38.index = 339428471 * i_77_;
 		    anInterface41_5327.method56(class525_sub38);
 		    anInt5309 += 1440081055;
 		} else
@@ -1716,7 +1716,7 @@ public class Class494
 			    if (is != null) {
 				RSBuffer class525_sub38
 				    = new RSBuffer(is);
-				class525_sub38.pos
+				class525_sub38.index
 				    = is.length * 339428471;
 				anInterface41_5327.method56(class525_sub38);
 				method8005(false, 942137856);
@@ -1931,11 +1931,11 @@ public class Class494
 	if (anObject5331 != null && anObject5331 instanceof Class488) {
 	    Class488 class488 = (Class488) anObject5331;
 	    Interface69 interface69 = class488.method7897((byte) 77);
-	    byte[] is = new byte[class525_sub38.pos * -1133521593];
+	    byte[] is = new byte[class525_sub38.index * -1133521593];
 	    System.arraycopy(class525_sub38.buffer, 0, is, 0,
-			     class525_sub38.pos * -1133521593);
+			     class525_sub38.index * -1133521593);
 	    RSBuffer class525_sub38_100_ = new RSBuffer(is);
-	    class525_sub38_100_.pos = class525_sub38.pos * 1;
+	    class525_sub38_100_.index = class525_sub38.index * 1;
 	    interface69.method443(class525_sub38_100_, -1710354169);
 	}
     }
@@ -1944,11 +1944,11 @@ public class Class494
 	if (anObject5331 != null && anObject5331 instanceof Class488) {
 	    Class488 class488 = (Class488) anObject5331;
 	    Interface69 interface69 = class488.method7897((byte) 52);
-	    byte[] is = new byte[class525_sub38.pos * -1133521593];
+	    byte[] is = new byte[class525_sub38.index * -1133521593];
 	    System.arraycopy(class525_sub38.buffer, 0, is, 0,
-			     class525_sub38.pos * -1133521593);
+			     class525_sub38.index * -1133521593);
 	    RSBuffer class525_sub38_101_ = new RSBuffer(is);
-	    class525_sub38_101_.pos = class525_sub38.pos * 1;
+	    class525_sub38_101_.index = class525_sub38.index * 1;
 	    interface69.method443(class525_sub38_101_, -2112698867);
 	}
     }
@@ -1957,11 +1957,11 @@ public class Class494
 	if (anObject5331 != null && anObject5331 instanceof Class488) {
 	    Class488 class488 = (Class488) anObject5331;
 	    Interface69 interface69 = class488.method7897((byte) 70);
-	    byte[] is = new byte[class525_sub38.pos * -1133521593];
+	    byte[] is = new byte[class525_sub38.index * -1133521593];
 	    System.arraycopy(class525_sub38.buffer, 0, is, 0,
-			     class525_sub38.pos * -1133521593);
+			     class525_sub38.index * -1133521593);
 	    RSBuffer class525_sub38_102_ = new RSBuffer(is);
-	    class525_sub38_102_.pos = class525_sub38.pos * 1;
+	    class525_sub38_102_.index = class525_sub38.index * 1;
 	    interface69.method443(class525_sub38_102_, -1418475253);
 	}
     }
@@ -1973,7 +1973,7 @@ public class Class494
 	    RSBuffer class525_sub38
 		= interface69.method441(i, -1163294422);
 	    RSBuffer class525_sub38_103_
-		= new RSBuffer(class525_sub38.pos * -1133521593,
+		= new RSBuffer(class525_sub38.index * -1133521593,
 				     true);
 	    class525_sub38_103_.method16646(class525_sub38, 1354428159);
 	    return class525_sub38_103_;
@@ -1988,7 +1988,7 @@ public class Class494
 	    RSBuffer class525_sub38
 		= interface69.method441(i, -1163294422);
 	    RSBuffer class525_sub38_104_
-		= new RSBuffer(class525_sub38.pos * -1133521593,
+		= new RSBuffer(class525_sub38.index * -1133521593,
 				     true);
 	    class525_sub38_104_.method16646(class525_sub38, -112995347);
 	    return class525_sub38_104_;
@@ -2003,7 +2003,7 @@ public class Class494
 	    RSBuffer class525_sub38
 		= interface69.method441(i, -1163294422);
 	    RSBuffer class525_sub38_105_
-		= new RSBuffer(class525_sub38.pos * -1133521593,
+		= new RSBuffer(class525_sub38.index * -1133521593,
 				     true);
 	    class525_sub38_105_.method16646(class525_sub38, -350131398);
 	    return class525_sub38_105_;
@@ -2103,7 +2103,7 @@ public class Class494
 			    if (is != null) {
 				RSBuffer class525_sub38
 				    = new RSBuffer(is);
-				class525_sub38.pos
+				class525_sub38.index
 				    = is.length * 339428471;
 				anInterface41_5327.method56(class525_sub38);
 				method8005(false, 1561199917);
@@ -2230,7 +2230,7 @@ public class Class494
 			    if (is != null) {
 				RSBuffer class525_sub38
 				    = new RSBuffer(is);
-				class525_sub38.pos
+				class525_sub38.index
 				    = is.length * 339428471;
 				anInterface41_5327.method56(class525_sub38);
 				method8005(false, 1452494141);

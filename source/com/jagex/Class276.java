@@ -12,7 +12,7 @@ public class Class276
     static Class276 aClass276_2872;
     public static Class276 aClass276_2873;
     int anInt2874;
-    public static Class458 aClass458_2875;
+    public static JS5 aClass458_2875;
     static int anInt2876;
     
     Class276(int i) {

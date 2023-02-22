@@ -131,7 +131,7 @@ public class Class245
 	    = -2002372447 * (i_7_ - Class556_Sub1.anInt7484);
 	Class556_Sub1.anInt10626 = -106402817;
 	Class556_Sub1.anInt10627 = 107721765;
-	Class58.method1221(-381366526);
+	ConfigEntry.method1221(-381366526);
     }
     
     static final void method4484(Class683 class683, byte i) {

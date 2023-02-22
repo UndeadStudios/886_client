@@ -12,12 +12,12 @@ public class Class408
     
     public static Class182 method6639
 	(Canvas canvas, Class180 class180, Interface24 interface24,
-	 Interface47 interface47, Interface48 interface48,
-	 Interface49 interface49, Class458 class458, int i) {
+     Interface47 interface47, Interface48 interface48,
+     Interface49 interface49, JS5 class458, int i) {
 	Class182 class182;
 	try {
 	    Class182_Sub1.method14663();
-	    Class525_Sub7_Sub13.method18248(-691734241).method385("jagdx",
+	    EmitterConfig.method18248(-691734241).method385("jagdx",
 								  -1397651302);
 	    class182
 		= Class182_Sub1_Sub1.method18073(canvas, class180, interface24,

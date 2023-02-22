@@ -73,9 +73,9 @@ public class Class661
 	    aClass372_8473.method6332((byte) 112);
     }
     
-    public static Interface69 method10935(Class458 class458, int i,
-					  Interface70 interface70,
-					  boolean bool, Class200 class200) {
+    public static Interface69 method10935(JS5 class458, int i,
+                                          Interface70 interface70,
+                                          boolean bool, Class200 class200) {
 	if (aClass372_8473 != null) {
 	    if (bool)
 		return new Class601(class458, i, aClass372_8473, interface70);
@@ -85,9 +85,9 @@ public class Class661
 	return null;
     }
     
-    public static Interface69 method10936(Class458 class458, int i,
-					  Interface70 interface70,
-					  boolean bool, Class200 class200) {
+    public static Interface69 method10936(JS5 class458, int i,
+                                          Interface70 interface70,
+                                          boolean bool, Class200 class200) {
 	if (aClass372_8473 != null) {
 	    if (bool)
 		return new Class601(class458, i, aClass372_8473, interface70);
@@ -104,9 +104,9 @@ public class Class661
 		.method6401(i, i_3_, f, interface43, (byte) 21);
     }
     
-    public static Interface69 method10938(Class458 class458, int i,
-					  Interface70 interface70,
-					  boolean bool, Class200 class200) {
+    public static Interface69 method10938(JS5 class458, int i,
+                                          Interface70 interface70,
+                                          boolean bool, Class200 class200) {
 	if (aClass372_8473 != null) {
 	    if (bool)
 		return new Class601(class458, i, aClass372_8473, interface70);

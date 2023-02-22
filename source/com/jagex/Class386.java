@@ -7,13 +7,13 @@ public class Class386 implements Interface72
 {
     public String method493(Class650 class650, int[] is, long l) {
 	if (class650 == Class650.aClass650_8371) {
-	    Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	    WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					    .method76(is[0], -621245148);
 	    return class65.method1410((int) l, 668701373);
 	}
 	if (class650 == Class650.aClass650_8385
 	    || class650 == Class650.aClass650_8377) {
-	    Class8 class8 = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8 = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					 .method76((int) l, 225778031);
 	    return class8.aString66;
 	}
@@ -21,7 +21,7 @@ public class Class386 implements Interface72
 	    || class650 == Class650.aClass650_8383
 	    || Class650.aClass650_8374 == class650
 	    || class650 == Class650.aClass650_8378)
-	    return ((Class65)
+	    return ((WorldTile)
 		    Class525_Sub22.aClass40_Sub15_10585.method76(is[0],
 								 -1584485518))
 		       .method1410((int) l, -1812214628);
@@ -30,13 +30,13 @@ public class Class386 implements Interface72
     
     public String method494(Class650 class650, int[] is, long l) {
 	if (class650 == Class650.aClass650_8371) {
-	    Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	    WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					    .method76(is[0], -63739440);
 	    return class65.method1410((int) l, -620260054);
 	}
 	if (class650 == Class650.aClass650_8385
 	    || class650 == Class650.aClass650_8377) {
-	    Class8 class8 = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8 = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					 .method76((int) l, -372164370);
 	    return class8.aString66;
 	}
@@ -44,7 +44,7 @@ public class Class386 implements Interface72
 	    || class650 == Class650.aClass650_8383
 	    || Class650.aClass650_8374 == class650
 	    || class650 == Class650.aClass650_8378)
-	    return ((Class65)
+	    return ((WorldTile)
 		    Class525_Sub22.aClass40_Sub15_10585.method76(is[0],
 								 1379563012))
 		       .method1410((int) l, -1596016251);
@@ -53,13 +53,13 @@ public class Class386 implements Interface72
     
     public String method495(Class650 class650, int[] is, long l) {
 	if (class650 == Class650.aClass650_8371) {
-	    Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	    WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					    .method76(is[0], 431319741);
 	    return class65.method1410((int) l, 653539519);
 	}
 	if (class650 == Class650.aClass650_8385
 	    || class650 == Class650.aClass650_8377) {
-	    Class8 class8 = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8 = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					 .method76((int) l, 893818598);
 	    return class8.aString66;
 	}
@@ -67,7 +67,7 @@ public class Class386 implements Interface72
 	    || class650 == Class650.aClass650_8383
 	    || Class650.aClass650_8374 == class650
 	    || class650 == Class650.aClass650_8378)
-	    return ((Class65)
+	    return ((WorldTile)
 		    Class525_Sub22.aClass40_Sub15_10585.method76(is[0],
 								 -1409665294))
 		       .method1410((int) l, -1568921124);

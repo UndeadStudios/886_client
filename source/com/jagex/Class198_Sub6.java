@@ -9,8 +9,8 @@ public class Class198_Sub6 extends Class198
     int anInt9925;
     
     boolean method3760() {
-	Class194 class194
-	    = ((Class194)
+	AnimationDefinition class194
+	    = ((AnimationDefinition)
 	       Class685.aClass40_Sub8_8691.method76(anInt9924 * -558573095,
 						    1834047917));
 	return class194.method3725(-818014719);
@@ -29,8 +29,8 @@ public class Class198_Sub6 extends Class198
     }
     
     boolean method3752(int i) {
-	Class194 class194
-	    = ((Class194)
+	AnimationDefinition class194
+	    = ((AnimationDefinition)
 	       Class685.aClass40_Sub8_8691.method76(anInt9924 * -558573095,
 						    -117321374));
 	return class194.method3725(-1691466332);
@@ -73,16 +73,16 @@ public class Class198_Sub6 extends Class198
     }
     
     boolean method3759() {
-	Class194 class194
-	    = ((Class194)
+	AnimationDefinition class194
+	    = ((AnimationDefinition)
 	       Class685.aClass40_Sub8_8691.method76(anInt9924 * -558573095,
 						    -1001951982));
 	return class194.method3725(1452915261);
     }
     
     boolean method3758() {
-	Class194 class194
-	    = ((Class194)
+	AnimationDefinition class194
+	    = ((AnimationDefinition)
 	       Class685.aClass40_Sub8_8691.method76(anInt9924 * -558573095,
 						    1361353057));
 	return class194.method3725(-1994032552);

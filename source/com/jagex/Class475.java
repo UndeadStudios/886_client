@@ -147,7 +147,7 @@ public class Class475
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
 	    = new StringBuilder().append
-		  (Class602.method9962(((long) (class683.anIntArray8661
+		  (ObjectDefinitions.method9962(((long) (class683.anIntArray8661
 						[(class683.anInt8662
 						  -= 1552651121) * 501271953])
 					* 60000L),
@@ -166,7 +166,7 @@ public class Class475
 	    = Class16.method767(Class412.aClass412_4258, class96.aClass6_1169,
 				1977859884);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0, -1227371222);
-	int i_29_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i_29_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		     * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 							      1507079600);
@@ -176,7 +176,7 @@ public class Class475
 	    (class525_sub15.aClass525_Sub38_Sub2_10546,
 	     class683.aClass401_8651.anIntArray4132, (byte) 110);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i_29_,
 	     (byte) 7);
 	class96.method1794(class525_sub15, (short) 19155);

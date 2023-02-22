@@ -82,7 +82,7 @@ public class Class430
     
     public Class430(RSBuffer class525_sub38) {
 	aFloatArray4816 = new float[2];
-	int i = class525_sub38.method16740((byte) -33);
+	int i = class525_sub38.readUnsignedSmart((byte) -33);
 	aClass433Array4817[0] = new Class433();
 	aClass433Array4817[0].method6912(0,
 					 Class446.method7210(class525_sub38));

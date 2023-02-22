@@ -9,12 +9,12 @@ public class Class529
     public int anInt7140;
     public int[] anIntArray7141;
     
-    public static Class529 method8786(Class458 class458, String string,
-				      boolean bool) {
+    public static Class529 method8786(JS5 class458, String string,
+                                      boolean bool) {
 	int i = class458.method7521(string, -2116786302);
 	if (-1 == i)
 	    return new Class529(0);
-	byte[] is = class458.method7476(i, 1, 492776652);
+	byte[] is = class458.getFile(i, 1, 492776652);
 	if (null == is)
 	    return new Class529(0);
 	RSBuffer class525_sub38 = new RSBuffer(is);
@@ -41,12 +41,12 @@ public class Class529
 	anIntArray7141 = new int[-698145127 * anInt7140];
     }
     
-    public static Class529 method8787(Class458 class458, String string,
-				      boolean bool) {
+    public static Class529 method8787(JS5 class458, String string,
+                                      boolean bool) {
 	int i = class458.method7521(string, -2116786302);
 	if (-1 == i)
 	    return new Class529(0);
-	byte[] is = class458.method7476(i, 1, 1463741258);
+	byte[] is = class458.getFile(i, 1, 1463741258);
 	if (null == is)
 	    return new Class529(0);
 	RSBuffer class525_sub38 = new RSBuffer(is);
@@ -67,12 +67,12 @@ public class Class529
 	return class529;
     }
     
-    public static Class529 method8788(Class458 class458, String string,
-				      boolean bool) {
+    public static Class529 method8788(JS5 class458, String string,
+                                      boolean bool) {
 	int i = class458.method7521(string, -2116786302);
 	if (-1 == i)
 	    return new Class529(0);
-	byte[] is = class458.method7476(i, 1, 696807616);
+	byte[] is = class458.getFile(i, 1, 696807616);
 	if (null == is)
 	    return new Class529(0);
 	RSBuffer class525_sub38 = new RSBuffer(is);
@@ -93,12 +93,12 @@ public class Class529
 	return class529;
     }
     
-    public static Class529 method8789(Class458 class458, String string,
-				      boolean bool) {
+    public static Class529 method8789(JS5 class458, String string,
+                                      boolean bool) {
 	int i = class458.method7521(string, -2116786302);
 	if (-1 == i)
 	    return new Class529(0);
-	byte[] is = class458.method7476(i, 1, 725097711);
+	byte[] is = class458.getFile(i, 1, 725097711);
 	if (null == is)
 	    return new Class529(0);
 	RSBuffer class525_sub38 = new RSBuffer(is);

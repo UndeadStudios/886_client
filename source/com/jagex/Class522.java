@@ -66,7 +66,7 @@ public class Class522
 			       Class696_Sub47.anInt11032 * -1883654023, 0, 0,
 			       i_2_, i_3_, -891527048);
 	    if (Class562.aClass259_7558 != null)
-		Class58.method1222(i_2_, i_3_, (short) 25565);
+		ConfigEntry.method1222(i_2_, i_3_, (short) 25565);
 	}
     }
     
@@ -83,7 +83,7 @@ public class Class522
 	if (bool)
 	    Class555.method9242(class245, class259, 108507919);
 	else
-	    Class458.method7569(class245, class259, (byte) 0);
+	    JS5.method7569(class245, class259, (byte) 0);
     }
     
     static final void method8704(Class683 class683, int i) {

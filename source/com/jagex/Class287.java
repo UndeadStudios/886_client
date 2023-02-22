@@ -127,7 +127,7 @@ public class Class287 implements Interface12
 	    int i_5_ = class525_sub38.readUnsignedByte(2014434178);
 	    anIntArray3175 = new int[i_5_ * 2];
 	    for (int i_6_ = 0; i_6_ < 2 * i_5_; i_6_++)
-		anIntArray3175[i_6_] = class525_sub38.method16625((byte) -13);
+		anIntArray3175[i_6_] = class525_sub38.readSmart((byte) -13);
 	    anInt3183 = class525_sub38.readInt(1433721890) * 2073978747;
 	    int i_7_ = class525_sub38.readUnsignedByte(1410554747);
 	    anIntArray3165 = new int[i_7_];
@@ -162,8 +162,8 @@ public class Class287 implements Interface12
 	    anInt3182 = class525_sub38.readUnsignedByte(2017617045) * 1324095133;
 	    anInt3162 = class525_sub38.readUnsignedByte(1674688420) * 432110571;
 	} else if (i == 24) {
-	    anInt3173 = class525_sub38.method16625((byte) -37) * -148707283;
-	    anInt3185 = class525_sub38.method16625((byte) 3) * 1864420539;
+	    anInt3173 = class525_sub38.readSmart((byte) -37) * -148707283;
+	    anInt3185 = class525_sub38.readSmart((byte) 3) * 1864420539;
 	} else if (i == 25)
 	    anInt3147 = class525_sub38.readBigSmart(-2043778683) * -1088873851;
 	else if (i == 26 || i == 27) {

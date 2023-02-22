@@ -6,7 +6,7 @@ package com.jagex;
 public abstract class Class640
 {
     Class200 aClass200_8320 = new Class200(2);
-    Class458 aClass458_8321;
+    JS5 aClass458_8321;
     
     void method10561() {
 	synchronized (aClass200_8320) {
@@ -14,7 +14,7 @@ public abstract class Class640
 	}
     }
     
-    Class640(Class458 class458) {
+    Class640(JS5 class458) {
 	aClass458_8321 = class458;
     }
     

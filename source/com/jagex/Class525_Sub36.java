@@ -410,8 +410,8 @@ public class Class525_Sub36 extends Class525
 	    int i = 2;
 	    int i_2_ = 0;
 	    try {
-		for (/**/; i < Class58.aString636.length(); i++) {
-		    int i_3_ = Class58.aString636.charAt(i);
+		for (/**/; i < ConfigEntry.aString636.length(); i++) {
+		    int i_3_ = ConfigEntry.aString636.charAt(i);
 		    if (i_3_ < 48 || i_3_ > 57)
 			break;
 		    i_2_ = i_3_ - 48 + i_2_ * 10;
@@ -420,11 +420,11 @@ public class Class525_Sub36 extends Class525
 		/* empty */
 	    }
 	    anInt10808 = -34307485 * i_2_;
-	    i = Class58.aString636.indexOf('.', 2) + 1;
+	    i = ConfigEntry.aString636.indexOf('.', 2) + 1;
 	    i_2_ = 0;
 	    try {
-		for (/**/; i < Class58.aString636.length(); i++) {
-		    int i_4_ = Class58.aString636.charAt(i);
+		for (/**/; i < ConfigEntry.aString636.length(); i++) {
+		    int i_4_ = ConfigEntry.aString636.charAt(i);
 		    if (i_4_ < 48 || i_4_ > 57)
 			break;
 		    i_2_ = i_4_ - 48 + 10 * i_2_;
@@ -433,11 +433,11 @@ public class Class525_Sub36 extends Class525
 		/* empty */
 	    }
 	    anInt10799 = -1561467077 * i_2_;
-	    i = Class58.aString636.indexOf('_', 4) + 1;
+	    i = ConfigEntry.aString636.indexOf('_', 4) + 1;
 	    i_2_ = 0;
 	    try {
-		for (/**/; i < Class58.aString636.length(); i++) {
-		    int i_5_ = Class58.aString636.charAt(i);
+		for (/**/; i < ConfigEntry.aString636.length(); i++) {
+		    int i_5_ = ConfigEntry.aString636.charAt(i);
 		    if (i_5_ < 48 || i_5_ > 57)
 			break;
 		    i_2_ = 10 * i_2_ + (i_5_ - 48);
@@ -485,7 +485,7 @@ public class Class525_Sub36 extends Class525
 			class525_sub38.method16606((313201933
 						    * class48.anInt364),
 						   1884868986);
-			class525_sub38.pos = 0;
+			class525_sub38.index = 0;
 			aString10816 = class525_sub38.readString((byte) 11);
 		    }
 		    Class48 class48_13_
@@ -521,7 +521,7 @@ public class Class525_Sub36 extends Class525
 						       -346157072);
 			}
 		    }
-		    class525_sub38.pos = 0;
+		    class525_sub38.index = 0;
 		    aString10817 = class525_sub38.readString((byte) -22);
 		}
 		String[][] strings

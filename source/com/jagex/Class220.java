@@ -6,7 +6,7 @@ package com.jagex;
 class Class220 implements Interface43
 {
     Class217 this$0;
-    public static Class458 aClass458_2330;
+    public static JS5 aClass458_2330;
     static String aString2331;
     
     Class220(Class217 class217) {
@@ -119,12 +119,12 @@ class Class220 implements Interface43
 	int[] is = null;
 	if (Class264.method4790(class525_sub16_sub16.anInt11861 * 91103913,
 				-1677426014))
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    ((int) (-6417801577210029731L
 				    * class525_sub16_sub16.aLong11860),
 			     -1330007204))).anIntArray69;
 	else if (class525_sub16_sub16.anInt11857 * 1206307707 != -1)
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    (1206307707 * class525_sub16_sub16.anInt11857,
 			     -2057450657))).anIntArray69;
 	else if (Class468.method7708((91103913
@@ -139,7 +139,7 @@ class Class220 implements Interface43
 		Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2
 		    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 		       class525_sub19.anObject10571);
-		Class299 class299
+		NPCDefinitions class299
 		    = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 		if (class299.anIntArray3323 != null)
 		    class299 = class299.method5386(Class532.aClass111_7170,
@@ -151,8 +151,8 @@ class Class220 implements Interface43
 	} else if (Class36.method977((91103913
 				      * class525_sub16_sub16.anInt11861),
 				     753367649)) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   (client.aClass507_11137.method8362((byte) -1).method76
 		    ((int) ((-6417801577210029731L
 			     * class525_sub16_sub16.aLong11860) >>> 32
@@ -178,8 +178,8 @@ class Class220 implements Interface43
 	if (class259.anInt2630 * 307215955 != 6
 	    && 2 != 307215955 * class259.anInt2630)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(class259.anInt2631 * -961419549, 1297678991));
 	if (null == class259.aClass288_2769)

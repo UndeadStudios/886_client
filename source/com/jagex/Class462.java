@@ -9,7 +9,7 @@ public final class Class462 implements Comparable
     long aLong5092;
     Object anObject5093;
     Object anObject5094;
-    public static Class458 aClass458_5095;
+    public static JS5 aClass458_5095;
     static int anInt5096;
     
     public boolean method7592(Object object) {

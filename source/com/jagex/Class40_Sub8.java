@@ -11,11 +11,11 @@ public class Class40_Sub8 extends Class40
     }
     
     public Class525_Sub16_Sub18 method17433(int i, int i_0_) {
-	return ((Class206) anInterface5_331).method3898(i, -579044550);
+	return ((Class206) anInterface5_331).getCollection(i, -579044550);
     }
     
     public Class525_Sub16_Sub18 method17434(int i) {
-	return ((Class206) anInterface5_331).method3898(i, -337801711);
+	return ((Class206) anInterface5_331).getCollection(i, -337801711);
     }
     
     public void method1020(int i, byte i_1_) {
@@ -24,8 +24,8 @@ public class Class40_Sub8 extends Class40
     }
     
     public Class40_Sub8(Class668 class668, Class666 class666,
-			Class458 class458, Class458 class458_2_,
-			Class458 class458_3_, Class40_Sub13 class40_sub13) {
+                        JS5 class458, JS5 class458_2_,
+                        JS5 class458_3_, Class40_Sub13 class40_sub13) {
 	super(class668, class666, class458, Class663.aClass663_8487, 64,
 	      new Class206_Sub1(class40_sub13, class458_2_, class458_3_));
     }
@@ -66,7 +66,7 @@ public class Class40_Sub8 extends Class40
     }
     
     public Class525_Sub16_Sub18 method17435(int i) {
-	return ((Class206) anInterface5_331).method3898(i, 511982330);
+	return ((Class206) anInterface5_331).getCollection(i, 511982330);
     }
     
     public void method1016() {

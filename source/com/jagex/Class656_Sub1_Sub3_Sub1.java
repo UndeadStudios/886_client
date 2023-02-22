@@ -232,7 +232,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    int i_16_ = -1;
 	    int i_17_ = -1;
 	    Class184[][] class184s = new Class184[class179s.length][];
-	    Class154[][] class154s = new Class154[class179s.length][];
+	    MagnetConfig[][] class154s = new MagnetConfig[class179s.length][];
 	    for (int i_18_ = 0; i_18_ < class179s.length; i_18_++) {
 		if (null != class179s[i_18_]) {
 		    class179s[i_18_].method2978(class444);
@@ -272,11 +272,11 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 		    }
 		}
 		Object object_22_ = null;
-		Class154[] class154s_23_;
+		MagnetConfig[] class154s_23_;
 		if (1 == i_15_)
 		    class154s_23_ = class154s[i_17_];
 		else {
-		    class154s_23_ = new Class154[i_14_];
+		    class154s_23_ = new MagnetConfig[i_14_];
 		    int i_24_ = 0;
 		    for (int i_25_ = 0; i_25_ < class179s.length; i_25_++) {
 			if (class154s[i_25_] != null) {
@@ -310,11 +310,11 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 		       Class574.aClass40_Sub20_7645.method76(i, -1973525080));
 		if (class674.aBool8608
 		    && -1 != 1700860103 * class674.anInt8596) {
-		    Class194 class194
-			= ((Class194)
+		    AnimationDefinition class194
+			= ((AnimationDefinition)
 			   (Class685.aClass40_Sub8_8691.method76
 			    (1700860103 * class674.anInt8596, 1453401285)));
-		    int i_32_ = -871006613 * class194.anInt2154;
+		    int i_32_ = -871006613 * class194.replayMode;
 		    if (0 == i_32_)
 			return;
 		    if (i_32_ == 2) {
@@ -332,16 +332,16 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 							     -1932884457));
 		if (-1 != class674.anInt8596 * 1700860103
 		    && -1 != 1700860103 * class674_33_.anInt8596) {
-		    Class194 class194
-			= ((Class194)
+		    AnimationDefinition class194
+			= ((AnimationDefinition)
 			   (Class685.aClass40_Sub8_8691.method76
 			    (1700860103 * class674.anInt8596, 2047270051)));
-		    Class194 class194_34_
-			= (Class194) (Class685.aClass40_Sub8_8691.method76
+		    AnimationDefinition class194_34_
+			= (AnimationDefinition) (Class685.aClass40_Sub8_8691.method76
 				      (1700860103 * class674_33_.anInt8596,
 				       1400449946));
-		    if (class194.anInt2162 * 1014786343
-			< 1014786343 * class194_34_.anInt2162)
+		    if (class194.priority * 1014786343
+			< 1014786343 * class194_34_.priority)
 			return;
 		}
 	    }
@@ -1099,7 +1099,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    int i_167_ = -1;
 	    int i_168_ = -1;
 	    Class184[][] class184s = new Class184[class179s.length][];
-	    Class154[][] class154s = new Class154[class179s.length][];
+	    MagnetConfig[][] class154s = new MagnetConfig[class179s.length][];
 	    for (int i_169_ = 0; i_169_ < class179s.length; i_169_++) {
 		if (null != class179s[i_169_]) {
 		    class179s[i_169_].method2978(class444);
@@ -1139,11 +1139,11 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 		    }
 		}
 		Object object_173_ = null;
-		Class154[] class154s_174_;
+		MagnetConfig[] class154s_174_;
 		if (1 == i_166_)
 		    class154s_174_ = class154s[i_168_];
 		else {
-		    class154s_174_ = new Class154[i_165_];
+		    class154s_174_ = new MagnetConfig[i_165_];
 		    int i_175_ = 0;
 		    for (int i_176_ = 0; i_176_ < class179s.length; i_176_++) {
 			if (class154s[i_176_] != null) {
@@ -2003,11 +2003,11 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 		       Class574.aClass40_Sub20_7645.method76(i, 1646100144));
 		if (class674.aBool8608
 		    && -1 != 1700860103 * class674.anInt8596) {
-		    Class194 class194
-			= ((Class194)
+		    AnimationDefinition class194
+			= ((AnimationDefinition)
 			   (Class685.aClass40_Sub8_8691.method76
 			    (1700860103 * class674.anInt8596, 775897800)));
-		    int i_301_ = -871006613 * class194.anInt2154;
+		    int i_301_ = -871006613 * class194.replayMode;
 		    if (0 == i_301_)
 			return;
 		    if (i_301_ == 2) {
@@ -2025,16 +2025,16 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 							     -486814947));
 		if (-1 != class674.anInt8596 * 1700860103
 		    && -1 != 1700860103 * class674_302_.anInt8596) {
-		    Class194 class194
-			= ((Class194)
+		    AnimationDefinition class194
+			= ((AnimationDefinition)
 			   (Class685.aClass40_Sub8_8691.method76
 			    (1700860103 * class674.anInt8596, 1037370436)));
-		    Class194 class194_303_
-			= (Class194) (Class685.aClass40_Sub8_8691.method76
+		    AnimationDefinition class194_303_
+			= (AnimationDefinition) (Class685.aClass40_Sub8_8691.method76
 				      (1700860103 * class674_302_.anInt8596,
 				       227186176));
-		    if (class194.anInt2162 * 1014786343
-			< 1014786343 * class194_303_.anInt2162)
+		    if (class194.priority * 1014786343
+			< 1014786343 * class194_303_.priority)
 			return;
 		}
 	    }

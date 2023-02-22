@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class323 implements Interface5
 {
-    Class458 aClass458_3550;
+    JS5 aClass458_3550;
     
     public Interface12 method38(int i, Interface13 interface13) {
 	return new Class327(i, aClass458_3550);
@@ -43,7 +43,7 @@ public class Class323 implements Interface5
 	return com.jagex.Class327.class;
     }
     
-    Class323(Class458 class458) {
+    Class323(JS5 class458) {
 	aClass458_3550 = class458;
     }
     

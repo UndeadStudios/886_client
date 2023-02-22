@@ -54,7 +54,7 @@ public class Class40_Sub2 extends Class40
     }
     
     public Class40_Sub2(Class668 class668, Class666 class666,
-			Class458 class458, Class458 class458_4_) {
+                        JS5 class458, JS5 class458_4_) {
 	super(class668, class666, class458, Class663.aClass663_8511, 128,
 	      new Class267_Sub1(class458_4_, 64));
     }
@@ -105,8 +105,8 @@ public class Class40_Sub2 extends Class40
 			     [class525_sub38.readUnsignedByte(1494953441)]);
 	Class396 class396 = (Class643.method10595((byte) 101)
 			     [class525_sub38.readUnsignedByte(258674524)]);
-	int i_9_ = class525_sub38.method16625((byte) 33);
-	int i_10_ = class525_sub38.method16625((byte) -14);
+	int i_9_ = class525_sub38.readSmart((byte) 33);
+	int i_10_ = class525_sub38.readSmart((byte) -14);
 	return new Class399(i_8_, class395, class396, i_9_, i_10_);
     }
 }

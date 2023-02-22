@@ -288,9 +288,9 @@ public class Class645
 	    aFloat8341 = class525_sub38.method16634(20212042);
 	if (0 != (i_3_ & -2004594599 * Class655.aClass655_8412.anInt8426)) {
 	    anInt8338 = class525_sub38.readUnsignedShort((byte) 105) * 698958909;
-	    anInt8349 = class525_sub38.method16625((byte) -30) * -1032714567;
-	    anInt8337 = class525_sub38.method16625((byte) -83) * 1294211;
-	    anInt8351 = class525_sub38.method16625((byte) -32) * -402593529;
+	    anInt8349 = class525_sub38.readSmart((byte) -30) * -1032714567;
+	    anInt8337 = class525_sub38.readSmart((byte) -83) * 1294211;
+	    anInt8351 = class525_sub38.readSmart((byte) -32) * -402593529;
 	    anInt8350 = class525_sub38.readUnsignedShort((byte) 3) * 1189491781;
 	}
 	if ((i_3_ & -2004594599 * Class655.aClass655_8413.anInt8426) != 0) {

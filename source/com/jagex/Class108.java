@@ -210,7 +210,7 @@ public class Class108
 	}
     }
     
-    public static Class157 method1933(Class458 class458, int i, int i_0_) {
+    public static Class157 method1933(JS5 class458, int i, int i_0_) {
 	Class157 class157
 	    = (Class157) Class293.aClass200_3232.method3785((long) i);
 	if (class157 == null) {
@@ -220,7 +220,7 @@ public class Class108
 			  .method3216(Class187.method3668(class458, i), true);
 	    else
 		class157
-		    = Class225.method4249(class458.method7484(i, 1529575328),
+		    = Class225.method4249(class458.getTextureData(i, 1529575328),
 					  294776821);
 	    Class293.aClass200_3232.method3788(class157, (long) i);
 	}

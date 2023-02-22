@@ -18,7 +18,7 @@ public class Class43
     
     static void method1068(int i) {
 	Class70.aClass96_741.method1791(2123832470);
-	Class70.aClass96_741.aClass525_Sub38_Sub2_1168.pos = 0;
+	Class70.aClass96_741.aClass525_Sub38_Sub2_1168.index = 0;
 	Class70.aClass96_741.aClass416_1181 = null;
 	Class70.aClass96_741.aClass416_1165 = null;
 	Class70.aClass96_741.aClass416_1183 = null;
@@ -68,8 +68,8 @@ public class Class43
 			     [class525_sub38.readUnsignedByte(1273352738)]);
 	Class396 class396 = (Class643.method10595((byte) 16)
 			     [class525_sub38.readUnsignedByte(543265286)]);
-	int i_3_ = class525_sub38.method16625((byte) 68);
-	int i_4_ = class525_sub38.method16625((byte) -19);
+	int i_3_ = class525_sub38.readSmart((byte) 68);
+	int i_4_ = class525_sub38.readSmart((byte) -19);
 	int i_5_ = class525_sub38.readUnsignedByte(1392887198);
 	int i_6_ = class525_sub38.readUnsignedByte(1303196461);
 	int i_7_ = class525_sub38.readUnsignedByte(204481804);

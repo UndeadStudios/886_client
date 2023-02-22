@@ -175,7 +175,7 @@ public class Class525_Sub30 extends Class525
 					     .readUnsignedByte(1311706192),
 					 this);
 		if (i_0_ <= 25)
-		    class525_sub38.pos += 339428471;
+		    class525_sub38.index += 339428471;
 		aClass696_Sub4_10728
 		    = new Class696_Sub4(class525_sub38.readUnsignedByte(1081837398),
 					this);
@@ -994,13 +994,13 @@ public class Class525_Sub30 extends Class525
     void method16507(RSBuffer class525_sub38, int i) {
 	aClass696_Sub13_10681
 	    = new Class696_Sub13(class525_sub38.readUnsignedByte(1377786735), this);
-	class525_sub38.pos += 339428471;
+	class525_sub38.index += 339428471;
 	aClass696_Sub6_10692
 	    = new Class696_Sub6(class525_sub38.readUnsignedByte(348946705) + 1,
 				this);
 	aClass696_Sub11_10688
 	    = new Class696_Sub11(class525_sub38.readUnsignedByte(-11596612), this);
-	class525_sub38.pos += 339428471;
+	class525_sub38.index += 339428471;
 	aClass696_Sub21_10689
 	    = new Class696_Sub21(class525_sub38.readUnsignedByte(2049379469), this);
 	aClass696_Sub5_10685
@@ -1568,7 +1568,7 @@ public class Class525_Sub30 extends Class525
 					     .readUnsignedByte(1961552474),
 					 this);
 		if (i <= 25)
-		    class525_sub38.pos += 339428471;
+		    class525_sub38.index += 339428471;
 		aClass696_Sub4_10728
 		    = new Class696_Sub4(class525_sub38.readUnsignedByte(1586778952),
 					this);
@@ -1812,7 +1812,7 @@ public class Class525_Sub30 extends Class525
 		    = new Class696_Sub17(class525_sub38.readUnsignedByte(79655562),
 					 this);
 		if (i <= 25)
-		    class525_sub38.pos += 339428471;
+		    class525_sub38.index += 339428471;
 		aClass696_Sub4_10728
 		    = new Class696_Sub4(class525_sub38.readUnsignedByte(1398504446),
 					this);
@@ -2011,13 +2011,13 @@ public class Class525_Sub30 extends Class525
     void method16514(RSBuffer class525_sub38, int i, int i_7_) {
 	aClass696_Sub13_10681
 	    = new Class696_Sub13(class525_sub38.readUnsignedByte(1152044325), this);
-	class525_sub38.pos += 339428471;
+	class525_sub38.index += 339428471;
 	aClass696_Sub6_10692
 	    = new Class696_Sub6(class525_sub38.readUnsignedByte(1074604737) + 1,
 				this);
 	aClass696_Sub11_10688
 	    = new Class696_Sub11(class525_sub38.readUnsignedByte(23387771), this);
-	class525_sub38.pos += 339428471;
+	class525_sub38.index += 339428471;
 	aClass696_Sub21_10689
 	    = new Class696_Sub21(class525_sub38.readUnsignedByte(296732745), this);
 	aClass696_Sub5_10685

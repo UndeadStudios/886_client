@@ -19,8 +19,8 @@ public class Class556
     static byte[] aByteArray7467;
     public static Class623 aClass623_7468;
     public static Class525_Sub16_Sub6 aClass525_Sub16_Sub6_7469;
-    static Class458 aClass458_7470;
-    protected static Class458 aClass458_7471;
+    static JS5 aClass458_7470;
+    protected static JS5 aClass458_7471;
     protected static Interface20 anInterface20_7472;
     protected static Class709 aClass709_7473;
     static int anInt7474;
@@ -101,12 +101,12 @@ public class Class556
 	    int i_6_ = (i_4_ + i_0_ & 0xfc00) + (i_4_ & 0x380) + i_5_;
 	    i_3_ = (~0xffffff
 		    | (Class381.anIntArray3929
-		       [Class504.method8313(Class615.method10090(i_6_, 96,
+		       [BillBoardDefinitions.method8313(Class615.method10090(i_6_, 96,
 								 1929149401),
 					    1921832052) & 0xffff]));
 	} else if (i_2_ >= 0)
 	    i_3_ = ~0xffffff | (Class381.anIntArray3929
-				[(Class504.method8313
+				[(BillBoardDefinitions.method8313
 				  (Class615.method10090((class180.method3116
 							 (i_2_, -1431554601)
 							 .aShort1834),
@@ -124,7 +124,7 @@ public class Class556
 	    int i_9_ = (i_7_ + i_0_ & 0xfc00) + (i_7_ & 0x380) + i_8_;
 	    i_3_ = (~0xffffff
 		    | (Class381.anIntArray3929
-		       [Class504.method8313(Class615.method10090(i_9_, 96,
+		       [BillBoardDefinitions.method8313(Class615.method10090(i_9_, 96,
 								 1454835448),
 					    271005489) & 0xffff]));
 	}
@@ -132,10 +132,10 @@ public class Class556
     }
     
     public static void method9244
-	(Class458 class458, Class458 class458_10_, Class40_Sub18 class40_sub18,
-	 Class40_Sub14 class40_sub14, Class40_Sub11 class40_sub11,
-	 Class40_Sub2 class40_sub2, Class40_Sub17 class40_sub17,
-	 Interface20 interface20, Interface18 interface18) {
+	(JS5 class458, JS5 class458_10_, Class40_Sub18 class40_sub18,
+     Class40_Sub14 class40_sub14, Class40_Sub11 class40_sub11,
+     Class40_Sub2 class40_sub2, Class40_Sub17 class40_sub17,
+     Interface20 interface20, Interface18 interface18) {
 	aClass458_7470 = class458;
 	aClass458_7471 = class458_10_;
 	anInterface13_7498 = class40_sub18;
@@ -165,8 +165,8 @@ public class Class556
 			   int i_12_, int[] is_13_, byte[] is_14_) {
 	if (is_13_ != null) {
 	    for (int i_15_ = 0; i_15_ < is_13_.length; i_15_++) {
-		Class602 class602
-		    = (Class602) aClass40_Sub11_7463.method76(is_13_[i_15_],
+		ObjectDefinitions class602
+		    = (ObjectDefinitions) aClass40_Sub11_7463.method76(is_13_[i_15_],
 							      -1082959008);
 		int i_16_ = class602.anInt7895 * 1280945471;
 		if (i_16_ != -1) {
@@ -343,12 +343,12 @@ public class Class556
 	    int i_52_ = (i_50_ + i_46_ & 0xfc00) + (i_50_ & 0x380) + i_51_;
 	    i_49_ = (~0xffffff
 		     | (Class381.anIntArray3929
-			[Class504.method8313(Class615.method10090(i_52_, 96,
+			[BillBoardDefinitions.method8313(Class615.method10090(i_52_, 96,
 								  1642380366),
 					     201570770) & 0xffff]));
 	} else if (i_48_ >= 0)
 	    i_49_ = ~0xffffff | (Class381.anIntArray3929
-				 [(Class504.method8313
+				 [(BillBoardDefinitions.method8313
 				   (Class615.method10090((class180.method3116
 							  (i_48_, -1431554601)
 							  .aShort1834),
@@ -366,7 +366,7 @@ public class Class556
 	    int i_55_ = (i_53_ + i_46_ & 0xfc00) + (i_53_ & 0x380) + i_54_;
 	    i_49_ = (~0xffffff
 		     | (Class381.anIntArray3929
-			[Class504.method8313(Class615.method10090(i_55_, 96,
+			[BillBoardDefinitions.method8313(Class615.method10090(i_55_, 96,
 								  2034557085),
 					     998439491) & 0xffff]));
 	}
@@ -386,9 +386,9 @@ public class Class556
 		if (aClass525_Sub38_7504 == null)
 		    aClass525_Sub38_7504
 			= (new RSBuffer
-			   (aClass458_7471.method7476(i_57_, 0, 1171119577)));
+			   (aClass458_7471.getFile(i_57_, 0, 1171119577)));
 		aClass525_Sub38_7482 = aClass525_Sub38_7504;
-		aClass525_Sub38_7482.pos = 0;
+		aClass525_Sub38_7482.index = 0;
 	    } else {
 		int i_58_
 		    = aClass458_7471.method7521((aClass525_Sub16_Sub6_7469
@@ -396,21 +396,21 @@ public class Class556
 						-2116786302);
 		aClass525_Sub38_7482
 		    = (new RSBuffer
-		       (aClass458_7471.method7476(i_58_, 0, 1860312356)));
+		       (aClass458_7471.getFile(i_58_, 0, 1860312356)));
 	    }
 	    int i_59_ = aClass525_Sub38_7482.readUnsignedByte(1430390752);
 	    anIntArray7519 = new int[i_59_];
 	    for (int i_60_ = 0; i_60_ < i_59_; i_60_++)
 		anIntArray7519[i_60_]
-		    = aClass525_Sub38_7482.method16740((byte) -6);
+		    = aClass525_Sub38_7482.readUnsignedSmart((byte) -6);
 	    int i_61_ = aClass525_Sub38_7482.readUnsignedByte(1342477876);
 	    anIntArray7520 = new int[i_61_];
 	    for (int i_62_ = 0; i_62_ < i_61_; i_62_++)
 		anIntArray7520[i_62_]
-		    = aClass525_Sub38_7482.method16740((byte) -34);
+		    = aClass525_Sub38_7482.readUnsignedSmart((byte) -34);
 	}
 	while (aClass525_Sub38_7482 != null
-	       && (aClass525_Sub38_7482.pos * -1133521593
+	       && (aClass525_Sub38_7482.index * -1133521593
 		   < aClass525_Sub38_7482.buffer.length)
 	       && (!bool
 		   || Class251.method4508((byte) 8) < l + (long) anInt7512)) {
@@ -455,8 +455,8 @@ public class Class556
 	    }
 	}
 	if (aClass525_Sub38_7482 != null) {
-	    anInt7517 = aClass525_Sub38_7482.pos * -1133521593;
-	    if (aClass525_Sub38_7482.pos * -1133521593
+	    anInt7517 = aClass525_Sub38_7482.index * -1133521593;
+	    if (aClass525_Sub38_7482.index * -1133521593
 		< aClass525_Sub38_7482.buffer.length)
 		return false;
 	}
@@ -535,7 +535,7 @@ public class Class556
 	    int i_93_ = i_92_ >> 2 & 0x3f;
 	    if (i_93_ != 62) {
 		if (i_93_ == 63)
-		    i_93_ = class525_sub38.method16740((byte) -128);
+		    i_93_ = class525_sub38.readUnsignedSmart((byte) -128);
 		else if (bool)
 		    i_93_ = is[i_93_];
 		else
@@ -547,7 +547,7 @@ public class Class556
 		    aShortArray7491[i_89_ + i_90_ * anInt7502] = (short) i_93_;
 		    aByteArray7492[i_89_ + i_90_ * anInt7502] = (byte) 0;
 		    aShortArray7516[i_89_ + i_90_ * anInt7502]
-			= (short) class525_sub38.method16740((byte) -126);
+			= (short) class525_sub38.readUnsignedSmart((byte) -126);
 		}
 	    }
 	} else {
@@ -555,11 +555,11 @@ public class Class556
 	    boolean bool = (i_92_ & 0x8) != 0;
 	    boolean bool_95_ = (i_92_ & 0x10) != 0;
 	    for (int i_96_ = 0; i_96_ < i_94_; i_96_++) {
-		int i_97_ = class525_sub38.method16740((byte) -108);
+		int i_97_ = class525_sub38.readUnsignedSmart((byte) -108);
 		int i_98_ = 0;
 		int i_99_ = 0;
 		if (bool) {
-		    i_98_ = class525_sub38.method16740((byte) -37);
+		    i_98_ = class525_sub38.readUnsignedSmart((byte) -37);
 		    i_99_ = class525_sub38.readUnsignedByte(696543762);
 		}
 		int i_100_ = 0;
@@ -631,8 +631,8 @@ public class Class556
 				 (i_109_
 				  < class525_sub35.anIntArray10763.length);
 				 i_109_++) {
-				Class602 class602
-				    = (Class602) (aClass40_Sub11_7463.method76
+				ObjectDefinitions class602
+				    = (ObjectDefinitions) (aClass40_Sub11_7463.method76
 						  ((class525_sub35
 						    .anIntArray10763[i_109_]),
 						   1215183681));
@@ -659,8 +659,8 @@ public class Class556
 			}
 		    } else {
 			Integer integer = (Integer) object;
-			Class602 class602
-			    = ((Class602)
+			ObjectDefinitions class602
+			    = ((ObjectDefinitions)
 			       aClass40_Sub11_7463.method76(integer.intValue(),
 							    995774635));
 			int i_111_ = class602.anInt7918 * 1813512349;
@@ -699,8 +699,8 @@ public class Class556
 				for (int i_114_ = 0;
 				     i_114_ < class528.anIntArray7137.length;
 				     i_114_++) {
-				    Class602 class602
-					= ((Class602)
+				    ObjectDefinitions class602
+					= ((ObjectDefinitions)
 					   (aClass40_Sub11_7463.method76
 					    (class528.anIntArray7137[i_114_],
 					     729302994)));
@@ -823,7 +823,7 @@ public class Class556
 			    int i_142_ = i_124_ + i_135_ * anInt7502;
 			    int i_143_
 				= (Class381.anIntArray3929
-				   [(Class504.method8313
+				   [(BillBoardDefinitions.method8313
 				     (Class329.method5805(i_141_, 96, 65536),
 				      1974135322)) & 0xffff]);
 			    is_116_[i_142_] = (byte) (i_143_ >> 16 & 0xff);
@@ -1077,11 +1077,11 @@ public class Class556
     }
     
     public static void method9264
-	(Class458 class458, Class458 class458_215_,
-	 Class40_Sub18 class40_sub18, Class40_Sub14 class40_sub14,
-	 Class40_Sub11 class40_sub11, Class40_Sub2 class40_sub2,
-	 Class40_Sub17 class40_sub17, Interface20 interface20,
-	 Interface18 interface18) {
+	(JS5 class458, JS5 class458_215_,
+     Class40_Sub18 class40_sub18, Class40_Sub14 class40_sub14,
+     Class40_Sub11 class40_sub11, Class40_Sub2 class40_sub2,
+     Class40_Sub17 class40_sub17, Interface20 interface20,
+     Interface18 interface18) {
 	aClass458_7470 = class458;
 	aClass458_7471 = class458_215_;
 	anInterface13_7498 = class40_sub18;
@@ -1146,8 +1146,8 @@ public class Class556
 			== Class608.aClass608_7979.anInt7995 * -1214990409)
 		    || (i_233_
 			== Class608.aClass608_7980.anInt7995 * -1214990409)) {
-		    Class602 class602
-			= ((Class602)
+		    ObjectDefinitions class602
+			= ((ObjectDefinitions)
 			   aClass40_Sub11_7463.method76(is_223_[i_232_],
 							-1777279930));
 		    if (class602.anInt7895 * 1280945471 == -1) {
@@ -1254,31 +1254,31 @@ public class Class556
 		if (aClass525_Sub38_7504 == null)
 		    aClass525_Sub38_7504
 			= (new RSBuffer
-			   (aClass458_7471.method7476(i_244_, 0, 1015072366)));
+			   (aClass458_7471.getFile(i_244_, 0, 1015072366)));
 		aClass525_Sub38_7482 = aClass525_Sub38_7504;
-		aClass525_Sub38_7482.pos = 0;
+		aClass525_Sub38_7482.index = 0;
 	    } else {
 		int i_245_
 		    = aClass458_7471.method7521((aClass525_Sub16_Sub6_7469
 						 .aString11776),
 						-2116786302);
 		aClass525_Sub38_7482
-		    = new RSBuffer(aClass458_7471.method7476(i_245_, 0,
+		    = new RSBuffer(aClass458_7471.getFile(i_245_, 0,
 								   184927574));
 	    }
 	    int i_246_ = aClass525_Sub38_7482.readUnsignedByte(1092279223);
 	    anIntArray7519 = new int[i_246_];
 	    for (int i_247_ = 0; i_247_ < i_246_; i_247_++)
 		anIntArray7519[i_247_]
-		    = aClass525_Sub38_7482.method16740((byte) -94);
+		    = aClass525_Sub38_7482.readUnsignedSmart((byte) -94);
 	    int i_248_ = aClass525_Sub38_7482.readUnsignedByte(1046114616);
 	    anIntArray7520 = new int[i_248_];
 	    for (int i_249_ = 0; i_249_ < i_248_; i_249_++)
 		anIntArray7520[i_249_]
-		    = aClass525_Sub38_7482.method16740((byte) -88);
+		    = aClass525_Sub38_7482.readUnsignedSmart((byte) -88);
 	}
 	while (aClass525_Sub38_7482 != null
-	       && (aClass525_Sub38_7482.pos * -1133521593
+	       && (aClass525_Sub38_7482.index * -1133521593
 		   < aClass525_Sub38_7482.buffer.length)
 	       && (!bool
 		   || Class251.method4508((byte) 8) < l + (long) anInt7512)) {
@@ -1325,8 +1325,8 @@ public class Class556
 	    }
 	}
 	if (aClass525_Sub38_7482 != null) {
-	    anInt7517 = aClass525_Sub38_7482.pos * -1133521593;
-	    if (aClass525_Sub38_7482.pos * -1133521593
+	    anInt7517 = aClass525_Sub38_7482.index * -1133521593;
+	    if (aClass525_Sub38_7482.index * -1133521593
 		< aClass525_Sub38_7482.buffer.length)
 		return false;
 	}
@@ -2010,11 +2010,11 @@ public class Class556
     }
     
     public static void method9285
-	(Class458 class458, Class458 class458_434_,
-	 Class40_Sub18 class40_sub18, Class40_Sub14 class40_sub14,
-	 Class40_Sub11 class40_sub11, Class40_Sub2 class40_sub2,
-	 Class40_Sub17 class40_sub17, Interface20 interface20,
-	 Interface18 interface18) {
+	(JS5 class458, JS5 class458_434_,
+     Class40_Sub18 class40_sub18, Class40_Sub14 class40_sub14,
+     Class40_Sub11 class40_sub11, Class40_Sub2 class40_sub2,
+     Class40_Sub17 class40_sub17, Interface20 interface20,
+     Interface18 interface18) {
 	aClass458_7470 = class458;
 	aClass458_7471 = class458_434_;
 	anInterface13_7498 = class40_sub18;
@@ -2219,12 +2219,12 @@ public class Class556
 		= (i_461_ + i_457_ & 0xfc00) + (i_461_ & 0x380) + i_462_;
 	    i_460_ = (~0xffffff
 		      | (Class381.anIntArray3929
-			 [Class504.method8313(Class615.method10090(i_463_, 96,
+			 [BillBoardDefinitions.method8313(Class615.method10090(i_463_, 96,
 								   1697053281),
 					      1113973753) & 0xffff]));
 	} else if (i_459_ >= 0)
 	    i_460_ = ~0xffffff | (Class381.anIntArray3929
-				  [Class504.method8313((Class615.method10090
+				  [BillBoardDefinitions.method8313((Class615.method10090
 							((class180.method3116
 							  (i_459_, -1431554601)
 							  .aShort1834),
@@ -2243,7 +2243,7 @@ public class Class556
 		= (i_464_ + i_457_ & 0xfc00) + (i_464_ & 0x380) + i_465_;
 	    i_460_ = (~0xffffff
 		      | (Class381.anIntArray3929
-			 [Class504.method8313(Class615.method10090(i_466_, 96,
+			 [BillBoardDefinitions.method8313(Class615.method10090(i_466_, 96,
 								   1844785836),
 					      1201342380) & 0xffff]));
 	}
@@ -2411,12 +2411,12 @@ public class Class556
 		= (i_516_ + i_512_ & 0xfc00) + (i_516_ & 0x380) + i_517_;
 	    i_515_ = (~0xffffff
 		      | (Class381.anIntArray3929
-			 [Class504.method8313(Class615.method10090(i_518_, 96,
+			 [BillBoardDefinitions.method8313(Class615.method10090(i_518_, 96,
 								   1884950276),
 					      720359929) & 0xffff]));
 	} else if (i_514_ >= 0)
 	    i_515_ = ~0xffffff | (Class381.anIntArray3929
-				  [Class504.method8313((Class615.method10090
+				  [BillBoardDefinitions.method8313((Class615.method10090
 							((class180.method3116
 							  (i_514_, -1431554601)
 							  .aShort1834),
@@ -2435,7 +2435,7 @@ public class Class556
 		= (i_519_ + i_512_ & 0xfc00) + (i_519_ & 0x380) + i_520_;
 	    i_515_ = (~0xffffff
 		      | (Class381.anIntArray3929
-			 [Class504.method8313(Class615.method10090(i_521_, 96,
+			 [BillBoardDefinitions.method8313(Class615.method10090(i_521_, 96,
 								   1874290269),
 					      296093278) & 0xffff]));
 	}
@@ -2466,9 +2466,9 @@ public class Class556
 		if (aClass525_Sub38_7504 == null)
 		    aClass525_Sub38_7504
 			= (new RSBuffer
-			   (aClass458_7471.method7476(i_523_, 0, 945912479)));
+			   (aClass458_7471.getFile(i_523_, 0, 945912479)));
 		aClass525_Sub38_7482 = aClass525_Sub38_7504;
-		aClass525_Sub38_7482.pos = 0;
+		aClass525_Sub38_7482.index = 0;
 	    } else {
 		int i_524_
 		    = aClass458_7471.method7521((aClass525_Sub16_Sub6_7469
@@ -2476,21 +2476,21 @@ public class Class556
 						-2116786302);
 		aClass525_Sub38_7482
 		    = (new RSBuffer
-		       (aClass458_7471.method7476(i_524_, 0, 1002683283)));
+		       (aClass458_7471.getFile(i_524_, 0, 1002683283)));
 	    }
 	    int i_525_ = aClass525_Sub38_7482.readUnsignedByte(1495226096);
 	    anIntArray7519 = new int[i_525_];
 	    for (int i_526_ = 0; i_526_ < i_525_; i_526_++)
 		anIntArray7519[i_526_]
-		    = aClass525_Sub38_7482.method16740((byte) -107);
+		    = aClass525_Sub38_7482.readUnsignedSmart((byte) -107);
 	    int i_527_ = aClass525_Sub38_7482.readUnsignedByte(460847730);
 	    anIntArray7520 = new int[i_527_];
 	    for (int i_528_ = 0; i_528_ < i_527_; i_528_++)
 		anIntArray7520[i_528_]
-		    = aClass525_Sub38_7482.method16740((byte) -16);
+		    = aClass525_Sub38_7482.readUnsignedSmart((byte) -16);
 	}
 	while (aClass525_Sub38_7482 != null
-	       && (aClass525_Sub38_7482.pos * -1133521593
+	       && (aClass525_Sub38_7482.index * -1133521593
 		   < aClass525_Sub38_7482.buffer.length)
 	       && (!bool
 		   || Class251.method4508((byte) 8) < l + (long) anInt7512)) {
@@ -2537,8 +2537,8 @@ public class Class556
 	    }
 	}
 	if (aClass525_Sub38_7482 != null) {
-	    anInt7517 = aClass525_Sub38_7482.pos * -1133521593;
-	    if (aClass525_Sub38_7482.pos * -1133521593
+	    anInt7517 = aClass525_Sub38_7482.index * -1133521593;
+	    if (aClass525_Sub38_7482.index * -1133521593
 		< aClass525_Sub38_7482.buffer.length)
 		return false;
 	}
@@ -2645,7 +2645,7 @@ public class Class556
 	    int i_562_ = i_561_ >> 2 & 0x3f;
 	    if (i_562_ != 62) {
 		if (i_562_ == 63)
-		    i_562_ = class525_sub38.method16740((byte) -52);
+		    i_562_ = class525_sub38.readUnsignedSmart((byte) -52);
 		else if (bool)
 		    i_562_ = is[i_562_];
 		else
@@ -2659,7 +2659,7 @@ public class Class556
 			= (short) i_562_;
 		    aByteArray7492[i_558_ + i_559_ * anInt7502] = (byte) 0;
 		    aShortArray7516[i_558_ + i_559_ * anInt7502]
-			= (short) class525_sub38.method16740((byte) -38);
+			= (short) class525_sub38.readUnsignedSmart((byte) -38);
 		}
 	    }
 	} else {
@@ -2667,11 +2667,11 @@ public class Class556
 	    boolean bool = (i_561_ & 0x8) != 0;
 	    boolean bool_564_ = (i_561_ & 0x10) != 0;
 	    for (int i_565_ = 0; i_565_ < i_563_; i_565_++) {
-		int i_566_ = class525_sub38.method16740((byte) -36);
+		int i_566_ = class525_sub38.readUnsignedSmart((byte) -36);
 		int i_567_ = 0;
 		int i_568_ = 0;
 		if (bool) {
-		    i_567_ = class525_sub38.method16740((byte) -103);
+		    i_567_ = class525_sub38.readUnsignedSmart((byte) -103);
 		    i_568_ = class525_sub38.readUnsignedByte(1458901938);
 		}
 		int i_569_ = 0;
@@ -2817,7 +2817,7 @@ public class Class556
 			    int i_603_ = i_585_ + i_596_ * anInt7502;
 			    int i_604_
 				= (Class381.anIntArray3929
-				   [(Class504.method8313
+				   [(BillBoardDefinitions.method8313
 				     (Class329.method5805(i_602_, 96, 65536),
 				      327201164)) & 0xffff]);
 			    is_577_[i_603_] = (byte) (i_604_ >> 16 & 0xff);
@@ -3104,7 +3104,7 @@ public class Class556
 	    int i_634_ = i_633_ >> 2 & 0x3f;
 	    if (i_634_ != 62) {
 		if (i_634_ == 63)
-		    i_634_ = class525_sub38.method16740((byte) -107);
+		    i_634_ = class525_sub38.readUnsignedSmart((byte) -107);
 		else if (bool)
 		    i_634_ = is[i_634_];
 		else
@@ -3118,7 +3118,7 @@ public class Class556
 			= (short) i_634_;
 		    aByteArray7492[i_630_ + i_631_ * anInt7502] = (byte) 0;
 		    aShortArray7516[i_630_ + i_631_ * anInt7502]
-			= (short) class525_sub38.method16740((byte) -46);
+			= (short) class525_sub38.readUnsignedSmart((byte) -46);
 		}
 	    }
 	} else {
@@ -3126,11 +3126,11 @@ public class Class556
 	    boolean bool = (i_633_ & 0x8) != 0;
 	    boolean bool_636_ = (i_633_ & 0x10) != 0;
 	    for (int i_637_ = 0; i_637_ < i_635_; i_637_++) {
-		int i_638_ = class525_sub38.method16740((byte) -113);
+		int i_638_ = class525_sub38.readUnsignedSmart((byte) -113);
 		int i_639_ = 0;
 		int i_640_ = 0;
 		if (bool) {
-		    i_639_ = class525_sub38.method16740((byte) -107);
+		    i_639_ = class525_sub38.readUnsignedSmart((byte) -107);
 		    i_640_ = class525_sub38.readUnsignedByte(376771980);
 		}
 		int i_641_ = 0;
@@ -3357,11 +3357,11 @@ public class Class556
     }
     
     public static void method9330
-	(Class458 class458, Class458 class458_684_,
-	 Class40_Sub18 class40_sub18, Class40_Sub14 class40_sub14,
-	 Class40_Sub11 class40_sub11, Class40_Sub2 class40_sub2,
-	 Class40_Sub17 class40_sub17, Interface20 interface20,
-	 Interface18 interface18) {
+	(JS5 class458, JS5 class458_684_,
+     Class40_Sub18 class40_sub18, Class40_Sub14 class40_sub14,
+     Class40_Sub11 class40_sub11, Class40_Sub2 class40_sub2,
+     Class40_Sub17 class40_sub17, Interface20 interface20,
+     Interface18 interface18) {
 	aClass458_7470 = class458;
 	aClass458_7471 = class458_684_;
 	anInterface13_7498 = class40_sub18;
@@ -3391,8 +3391,8 @@ public class Class556
 			   int i_686_, int[] is_687_, byte[] is_688_) {
 	if (is_687_ != null) {
 	    for (int i_689_ = 0; i_689_ < is_687_.length; i_689_++) {
-		Class602 class602
-		    = (Class602) aClass40_Sub11_7463.method76(is_687_[i_689_],
+		ObjectDefinitions class602
+		    = (ObjectDefinitions) aClass40_Sub11_7463.method76(is_687_[i_689_],
 							      1176218718);
 		int i_690_ = class602.anInt7895 * 1280945471;
 		if (i_690_ != -1) {

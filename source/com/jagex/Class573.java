@@ -94,7 +94,7 @@ public class Class573 implements Interface66
     }
     
     public static void method9542(int i, int i_10_, int i_11_,
-				  Class602 class602, byte i_12_) {
+                                  ObjectDefinitions class602, byte i_12_) {
 	for (Class525_Sub2 class525_sub2
 		 = ((Class525_Sub2)
 		    Class525_Sub2.aClass709_10429.method14372((short) -23511));

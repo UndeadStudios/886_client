@@ -9,7 +9,7 @@ public class Class689_Sub1 extends Class689
     Class656_Sub1_Sub3_Sub1 aClass656_Sub1_Sub3_Sub1_11018;
     static int anInt11019;
     
-    void method14079(Class194 class194, int i, int i_0_) {
+    void method14079(AnimationDefinition class194, int i, int i_0_) {
 	if (!aBool11017
 	    || !aClass656_Sub1_Sub3_Sub1_11018.aClass689_11987
 		    .method14021(2034578860)
@@ -25,7 +25,7 @@ public class Class689_Sub1 extends Class689
 	aClass656_Sub1_Sub3_Sub1_11018 = class656_sub1_sub3_sub1;
     }
     
-    void method14046(Class194 class194, int i) {
+    void method14046(AnimationDefinition class194, int i) {
 	if (!aBool11017
 	    || !aClass656_Sub1_Sub3_Sub1_11018.aClass689_11987
 		    .method14021(712866359)
@@ -35,7 +35,7 @@ public class Class689_Sub1 extends Class689
 		(class194, i, aClass656_Sub1_Sub3_Sub1_11018, (short) 13762);
     }
     
-    void method14047(Class194 class194, int i) {
+    void method14047(AnimationDefinition class194, int i) {
 	if (!aBool11017
 	    || !aClass656_Sub1_Sub3_Sub1_11018.aClass689_11987
 		    .method14021(1255985059)

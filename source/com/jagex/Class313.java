@@ -92,7 +92,7 @@ public abstract class Class313
 	    Class26.aClass26_249
 		.method881(new Class432(Class427.aClass458_4806), (byte) 55);
 	    Class26.aClass26_265
-		.method881(new Class432(Class504.aClass458_5605), (byte) 34);
+		.method881(new Class432(BillBoardDefinitions.aClass458_5605), (byte) 34);
 	    Class26.aClass26_268.method881(new Class432(Class198_Sub15
 							.aClass458_9976),
 					   (byte) 82);
@@ -108,7 +108,7 @@ public abstract class Class313
 	    Class26.aClass26_272
 		.method881(new Class432(Class276.aClass458_2875), (byte) 106);
 	    Class26.aClass26_260
-		.method881(new Class442(Class8.aClass458_136, 0), (byte) 18);
+		.method881(new Class442(ItemDefinitions.aClass458_136, 0), (byte) 18);
 	    for (int i_1_ = 0; i_1_ < Class438.aClass26Array4853.length;
 		 i_1_++) {
 		if (Class438.aClass26Array4853[i_1_].method879((short) -13105)
@@ -172,7 +172,7 @@ public abstract class Class313
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 2];
 	if (i_14_ == -1)
 	    throw new RuntimeException();
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_14_, 1482415365);
 	if (class65.aClass495_698.method80() != i_13_)
 	    throw new RuntimeException();

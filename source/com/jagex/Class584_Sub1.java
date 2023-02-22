@@ -13,7 +13,7 @@ public class Class584_Sub1 extends Class584 implements Interface5
 	return new Class583(i, this);
     }
     
-    Class584_Sub1(Class458 class458) {
+    Class584_Sub1(JS5 class458) {
 	super(class458);
     }
     

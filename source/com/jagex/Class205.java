@@ -31,7 +31,7 @@ public final class Class205
 		aClass656_Sub1_Sub3_Sub1_Sub2_2241.anInt12006
 		    = client.anInt11083 * 473756327;
 		aClass656_Sub1_Sub3_Sub1_Sub2_2241.method18942
-		    (((Class299)
+		    (((NPCDefinitions)
 		      Class168_Sub1.aClass40_Sub7_9112
 			  .method76(anInt2239 * -820430641, 1480568018)),
 		     2068870605);
@@ -90,7 +90,7 @@ public final class Class205
 		aClass656_Sub1_Sub3_Sub1_Sub2_2241.anInt12006
 		    = client.anInt11083 * 473756327;
 		aClass656_Sub1_Sub3_Sub1_Sub2_2241.method18942
-		    (((Class299)
+		    (((NPCDefinitions)
 		      Class168_Sub1.aClass40_Sub7_9112
 			  .method76(anInt2239 * -820430641, -393869061)),
 		     645809438);
@@ -151,8 +151,8 @@ public final class Class205
     
     boolean method3865(byte i) {
 	if (anInt2239 * -820430641 >= 0) {
-	    Class299 class299
-		= ((Class299)
+	    NPCDefinitions class299
+		= ((NPCDefinitions)
 		   Class168_Sub1.aClass40_Sub7_9112
 		       .method76(anInt2239 * -820430641, -1680932565));
 	    boolean bool = class299.method5367(34071);
@@ -168,7 +168,7 @@ public final class Class205
 	    int[] is = anIntArray2243;
 	    for (int i_7_ = 0; i_7_ < is.length; i_7_++) {
 		int i_8_ = is[i_7_];
-		bool &= ((Class194)
+		bool &= ((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76(i_8_, 189581502))
 			    .method3725(705306880);
 	    }
@@ -179,8 +179,8 @@ public final class Class205
     
     boolean method3866() {
 	if (anInt2239 * -820430641 >= 0) {
-	    Class299 class299
-		= ((Class299)
+	    NPCDefinitions class299
+		= ((NPCDefinitions)
 		   Class168_Sub1.aClass40_Sub7_9112
 		       .method76(anInt2239 * -820430641, -1749749432));
 	    boolean bool = class299.method5367(34071);
@@ -196,7 +196,7 @@ public final class Class205
 	    int[] is = anIntArray2243;
 	    for (int i = 0; i < is.length; i++) {
 		int i_9_ = is[i];
-		bool &= ((Class194)
+		bool &= ((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76(i_9_, 67148205))
 			    .method3725(112078353);
 	    }
@@ -217,7 +217,7 @@ public final class Class205
 		aClass656_Sub1_Sub3_Sub1_Sub2_2241.anInt12006
 		    = client.anInt11083 * 473756327;
 		aClass656_Sub1_Sub3_Sub1_Sub2_2241.method18942
-		    (((Class299)
+		    (((NPCDefinitions)
 		      Class168_Sub1.aClass40_Sub7_9112
 			  .method76(anInt2239 * -820430641, -1934184094)),
 		     1034313161);
@@ -350,8 +350,8 @@ public final class Class205
     
     boolean method3878() {
 	if (anInt2239 * -820430641 >= 0) {
-	    Class299 class299
-		= (Class299) Class168_Sub1.aClass40_Sub7_9112
+	    NPCDefinitions class299
+		= (NPCDefinitions) Class168_Sub1.aClass40_Sub7_9112
 				 .method76(anInt2239 * -820430641, 16929123);
 	    boolean bool = class299.method5367(34071);
 	    if (null == anIntArray2243) {
@@ -366,7 +366,7 @@ public final class Class205
 	    int[] is = anIntArray2243;
 	    for (int i = 0; i < is.length; i++) {
 		int i_20_ = is[i];
-		bool &= ((Class194)
+		bool &= ((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76(i_20_,
 							      1275845356))
 			    .method3725(1597141436);
@@ -378,8 +378,8 @@ public final class Class205
     
     boolean method3879() {
 	if (anInt2239 * -820430641 >= 0) {
-	    Class299 class299
-		= (Class299) Class168_Sub1.aClass40_Sub7_9112
+	    NPCDefinitions class299
+		= (NPCDefinitions) Class168_Sub1.aClass40_Sub7_9112
 				 .method76(anInt2239 * -820430641, -372146638);
 	    boolean bool = class299.method5367(34071);
 	    if (null == anIntArray2243) {
@@ -394,7 +394,7 @@ public final class Class205
 	    int[] is = anIntArray2243;
 	    for (int i = 0; i < is.length; i++) {
 		int i_21_ = is[i];
-		bool &= ((Class194)
+		bool &= ((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76(i_21_,
 							      -2087300841))
 			    .method3725(-750080001);

@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class441 implements Interface6
 {
-    Class458 aClass458_4861;
+    JS5 aClass458_4861;
     String aString4862;
     static String aString4863;
     
@@ -39,7 +39,7 @@ public class Class441 implements Interface6
 	return 0;
     }
     
-    Class441(Class458 class458, String string) {
+    Class441(JS5 class458, String string) {
 	aClass458_4861 = class458;
 	aString4862 = string;
     }
@@ -149,7 +149,7 @@ public class Class441 implements Interface6
 	    = Class16.method767(Class412.aClass412_4268, class96.aClass6_1169,
 				1977859884);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0, -420611154);
-	int i_3_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i_3_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		    * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(i_2_,
 							      -1572228151);
@@ -159,7 +159,7 @@ public class Class441 implements Interface6
 	    (class525_sub15.aClass525_Sub38_Sub2_10546,
 	     class683.aClass401_8651.anIntArray4132, (byte) 70);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i_3_,
 	     (byte) 7);
 	class96.method1794(class525_sub15, (short) 32479);

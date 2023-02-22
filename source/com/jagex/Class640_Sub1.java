@@ -29,7 +29,7 @@ public class Class640_Sub1 extends Class640 implements Interface5
 	return com.jagex.Class648.class;
     }
     
-    Class640_Sub1(Class458 class458) {
+    Class640_Sub1(JS5 class458) {
 	super(class458);
     }
     

@@ -251,7 +251,7 @@ public class Class685 implements Interface76
 						       .anInt12222))
 			    class656_sub1_sub2_sub1.aClass444_12216
 				= class444_17_;
-			else if (((Class8)
+			else if (((ItemDefinitions)
 				  (Class313_Sub2.aClass40_Sub22_10106.method76
 				   ((class656_sub1_sub2_sub1.anInt12222
 				     * 266184859),
@@ -273,7 +273,7 @@ public class Class685 implements Interface76
 					   * 1490609639))
 			    class656_sub1_sub2_sub1.aClass444_12220
 				= class444_17_;
-			else if (((Class8)
+			else if (((ItemDefinitions)
 				  (Class313_Sub2.aClass40_Sub22_10106.method76
 				   ((1490609639
 				     * class656_sub1_sub2_sub1.anInt12212),
@@ -295,7 +295,7 @@ public class Class685 implements Interface76
 					   * 597265379))
 			    class656_sub1_sub2_sub1.aClass444_12218
 				= class444_16_;
-			else if (((Class8)
+			else if (((ItemDefinitions)
 				  (Class313_Sub2.aClass40_Sub22_10106.method76
 				   ((597265379
 				     * class656_sub1_sub2_sub1.anInt12217),

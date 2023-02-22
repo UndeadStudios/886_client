@@ -38,8 +38,8 @@ public class Class85
 	}
     }
     
-    public Class85(Class458 class458, int i, int i_3_) {
-	byte[] is = class458.method7476(i, i_3_, 1825907787);
+    public Class85(JS5 class458, int i, int i_3_) {
+	byte[] is = class458.getFile(i, i_3_, 1825907787);
 	method1617(new RSBuffer(is), (short) 15510);
     }
     

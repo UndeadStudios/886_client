@@ -23,13 +23,13 @@ public class Class455_Sub1 extends Class455
 	(Class182 class182, RSBuffer class525_sub38, int i, int i_0_,
 	 int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_) {
 	if (!aBool4965) {
-	    class525_sub38.pos += -1579539528;
+	    class525_sub38.index += -1579539528;
 	    boolean bool = false;
 	    Class618 class618 = null;
 	    boolean bool_7_ = false;
 	    int i_8_ = (i_3_ & 0x7) * 8;
 	    int i_9_ = (i_4_ & 0x7) * 8;
-	    while (class525_sub38.pos * -1133521593
+	    while (class525_sub38.index * -1133521593
 		   < class525_sub38.buffer.length) {
 		int i_10_ = class525_sub38.readUnsignedByte(1606928835);
 		if (i_10_ == 0) {
@@ -243,11 +243,11 @@ public class Class455_Sub1 extends Class455
 								  RSBuffer class525_sub38, int i,
 								  int i_34_, byte i_35_) {
 	if (!aBool4965) {
-	    class525_sub38.pos += -1579539528;
+	    class525_sub38.index += -1579539528;
 	    boolean bool = false;
 	    Class618 class618 = null;
 	    boolean bool_36_ = false;
-	    while (class525_sub38.pos * -1133521593
+	    while (class525_sub38.index * -1133521593
 		   < class525_sub38.buffer.length) {
 		int i_37_ = class525_sub38.readUnsignedByte(1920696096);
 		if (i_37_ == 0) {
@@ -466,7 +466,7 @@ public class Class455_Sub1 extends Class455
 	    i_74_ += i_75_;
 	    int i_76_ = 0;
 	    for (;;) {
-		int i_77_ = class525_sub38.method16740((byte) -45);
+		int i_77_ = class525_sub38.readUnsignedSmart((byte) -45);
 		if (i_77_ == 0)
 		    break;
 		i_76_ += i_77_ - 1;
@@ -478,8 +478,8 @@ public class Class455_Sub1 extends Class455
 		int i_83_ = i_81_ & 0x3;
 		if (i_70_ == i_80_ && i_79_ >= i_71_ && i_79_ < 8 + i_71_
 		    && i_78_ >= i_72_ && i_78_ < 8 + i_72_) {
-		    Class602 class602
-			= ((Class602)
+		    ObjectDefinitions class602
+			= ((ObjectDefinitions)
 			   aClass40_Sub11_10332.method76(i_74_, 1459333936));
 		    int i_84_;
 		    int i_85_;
@@ -537,7 +537,7 @@ public class Class455_Sub1 extends Class455
 	    i_92_ += i_93_;
 	    int i_94_ = 0;
 	    for (;;) {
-		int i_95_ = class525_sub38.method16740((byte) -10);
+		int i_95_ = class525_sub38.readUnsignedSmart((byte) -10);
 		if (0 == i_95_)
 		    break;
 		i_94_ += i_95_ - 1;
@@ -549,8 +549,8 @@ public class Class455_Sub1 extends Class455
 		int i_101_ = i_99_ & 0x3;
 		int i_102_ = i + i_97_;
 		int i_103_ = i_90_ + i_96_;
-		Class602 class602
-		    = ((Class602)
+		ObjectDefinitions class602
+		    = ((ObjectDefinitions)
 		       aClass40_Sub11_10332.method76(i_92_, -1315036897));
 		int i_104_;
 		int i_105_;
@@ -592,8 +592,8 @@ public class Class455_Sub1 extends Class455
 	Interface62 interface62
 	    = method15976(i, i_108_, i_109_, i_110_, -1812086426);
 	if (null != interface62) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_10332
 		       .method76(interface62.method406((byte) 1), 1211500970));
 	    int i_111_ = interface62.method72(-918988987);
@@ -641,7 +641,7 @@ public class Class455_Sub1 extends Class455
     }
     
     boolean method15965
-	(Class182 class182, int i, int i_113_, boolean bool, Class602 class602,
+	(Class182 class182, int i, int i_113_, boolean bool, ObjectDefinitions class602,
 	 int i_114_, int i_115_, int i_116_, int i_117_, int i_118_,
 	 int i_119_, int i_120_, int i_121_, int i_122_, boolean bool_123_,
 	 Class161 class161, int i_124_, int i_125_, int i_126_) {
@@ -929,9 +929,9 @@ public class Class455_Sub1 extends Class455
     }
     
     boolean method15966(Class182 class182, int i, int i_132_, boolean bool,
-			Class602 class602, int i_133_, int i_134_, int i_135_,
-			int i_136_, int i_137_, int i_138_, int i_139_,
-			int i_140_, int i_141_, int i_142_) {
+                        ObjectDefinitions class602, int i_133_, int i_134_, int i_135_,
+                        int i_136_, int i_137_, int i_138_, int i_139_,
+                        int i_140_, int i_141_, int i_142_) {
 	if (-1214990409 * Class608.aClass608_7976.anInt7995 == i) {
 	    Class656_Sub1_Sub4 class656_sub1_sub4;
 	    if (bool) {
@@ -964,7 +964,7 @@ public class Class455_Sub1 extends Class455
 							  i_141_, (byte) -40);
 	    if (interface62 != null)
 		i_143_
-		    = (((Class602)
+		    = (((ObjectDefinitions)
 			aClass40_Sub11_10332.method76(interface62
 							  .method406((byte) 1),
 						      1097095800)).anInt7898
@@ -999,7 +999,7 @@ public class Class455_Sub1 extends Class455
 							  i_141_, (byte) -9);
 	    if (interface62 != null)
 		i_144_
-		    = (((Class602)
+		    = (((ObjectDefinitions)
 			aClass40_Sub11_10332.method76(interface62
 							  .method406((byte) 1),
 						      1112484871)).anInt7898
@@ -1061,7 +1061,7 @@ public class Class455_Sub1 extends Class455
 							  i_141_, (byte) -5);
 	    if (interface62 != null)
 		i_147_
-		    = (((Class602)
+		    = (((ObjectDefinitions)
 			aClass40_Sub11_10332.method76(interface62
 							  .method406((byte) 1),
 						      405008557)).anInt7898
@@ -1128,7 +1128,7 @@ public class Class455_Sub1 extends Class455
 	    i_158_ += i_159_;
 	    int i_160_ = 0;
 	    for (;;) {
-		int i_161_ = class525_sub38.method16740((byte) -47);
+		int i_161_ = class525_sub38.readUnsignedSmart((byte) -47);
 		if (i_161_ == 0)
 		    break;
 		i_160_ += i_161_ - 1;
@@ -1140,8 +1140,8 @@ public class Class455_Sub1 extends Class455
 		int i_167_ = i_165_ & 0x3;
 		if (i_153_ == i_164_ && i_163_ >= i_154_ && i_163_ < 8 + i_154_
 		    && i_162_ >= i_155_ && i_162_ < 8 + i_155_) {
-		    Class602 class602
-			= ((Class602)
+		    ObjectDefinitions class602
+			= ((ObjectDefinitions)
 			   aClass40_Sub11_10332.method76(i_158_, 1559396194));
 		    int i_168_;
 		    int i_169_;
@@ -1193,8 +1193,8 @@ public class Class455_Sub1 extends Class455
 			   int i_180_, int i_181_, int i_182_) {
 	if (i_174_ < 225736529 * anInt10339)
 	    anInt10339 = -625790543 * i_174_;
-	Class602 class602
-	    = (Class602) aClass40_Sub11_10332.method76(i_177_, 564181211);
+	ObjectDefinitions class602
+	    = (ObjectDefinitions) aClass40_Sub11_10332.method76(i_177_, 564181211);
 	if (Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub4_10728
 		.method16985(-261276081) != 0
 	    || !class602.aBool7934) {
@@ -1495,11 +1495,11 @@ public class Class455_Sub1 extends Class455
     public final void method15970
 	(Class182 class182, RSBuffer class525_sub38, int i, int i_213_) {
 	if (!aBool4965) {
-	    class525_sub38.pos += -1579539528;
+	    class525_sub38.index += -1579539528;
 	    boolean bool = false;
 	    Class618 class618 = null;
 	    boolean bool_214_ = false;
-	    while (class525_sub38.pos * -1133521593
+	    while (class525_sub38.index * -1133521593
 		   < class525_sub38.buffer.length) {
 		int i_215_ = class525_sub38.readUnsignedByte(697201878);
 		if (i_215_ == 0) {
@@ -1725,12 +1725,12 @@ public class Class455_Sub1 extends Class455
 	    boolean bool = false;
 	    for (;;) {
 		if (bool) {
-		    int i_254_ = class525_sub38.method16740((byte) -105);
+		    int i_254_ = class525_sub38.readUnsignedSmart((byte) -105);
 		    if (i_254_ == 0)
 			break;
 		    class525_sub38.readUnsignedByte(782165786);
 		} else {
-		    int i_255_ = class525_sub38.method16740((byte) -79);
+		    int i_255_ = class525_sub38.readUnsignedSmart((byte) -79);
 		    if (i_255_ == 0)
 			break;
 		    i_253_ += i_255_ - 1;
@@ -1741,8 +1741,8 @@ public class Class455_Sub1 extends Class455
 		    i_258_ >>= 2;
 		    int i_260_ = i_257_ + i;
 		    int i_261_ = i_246_ + i_256_;
-		    Class602 class602
-			= ((Class602)
+		    ObjectDefinitions class602
+			= ((ObjectDefinitions)
 			   class40_sub11.method76(i_251_, 1081383573));
 		    int i_262_;
 		    int i_263_;
@@ -1782,8 +1782,8 @@ public class Class455_Sub1 extends Class455
 	Interface62 interface62
 	    = method15976(i, i_264_, i_265_, i_266_, -1349575522);
 	if (null != interface62) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_10332.method76(interface62
 						     .method406((byte) 1),
 						 -1934609128));
@@ -1842,7 +1842,7 @@ public class Class455_Sub1 extends Class455
 	    i_270_ += i_271_;
 	    int i_272_ = 0;
 	    for (;;) {
-		int i_273_ = class525_sub38.method16740((byte) -81);
+		int i_273_ = class525_sub38.readUnsignedSmart((byte) -81);
 		if (0 == i_273_)
 		    break;
 		i_272_ += i_273_ - 1;
@@ -1854,8 +1854,8 @@ public class Class455_Sub1 extends Class455
 		int i_279_ = i_277_ & 0x3;
 		int i_280_ = i + i_275_;
 		int i_281_ = i_269_ + i_274_;
-		Class602 class602
-		    = ((Class602)
+		ObjectDefinitions class602
+		    = ((ObjectDefinitions)
 		       aClass40_Sub11_10332.method76(i_270_, 212697287));
 		int i_282_;
 		int i_283_;
@@ -1919,7 +1919,7 @@ public class Class455_Sub1 extends Class455
 	    i_295_ += i_296_;
 	    int i_297_ = 0;
 	    for (;;) {
-		int i_298_ = class525_sub38.method16740((byte) -52);
+		int i_298_ = class525_sub38.readUnsignedSmart((byte) -52);
 		if (i_298_ == 0)
 		    break;
 		i_297_ += i_298_ - 1;
@@ -1931,8 +1931,8 @@ public class Class455_Sub1 extends Class455
 		int i_304_ = i_302_ & 0x3;
 		if (i_291_ == i_301_ && i_300_ >= i_292_ && i_300_ < 8 + i_292_
 		    && i_299_ >= i_293_ && i_299_ < 8 + i_293_) {
-		    Class602 class602
-			= ((Class602)
+		    ObjectDefinitions class602
+			= ((ObjectDefinitions)
 			   aClass40_Sub11_10332.method76(i_295_, -417386201));
 		    int i_305_;
 		    int i_306_;
@@ -2004,9 +2004,9 @@ public class Class455_Sub1 extends Class455
     }
     
     boolean method15977(Class182 class182, int i, int i_315_, boolean bool,
-			Class602 class602, int i_316_, int i_317_, int i_318_,
-			int i_319_, int i_320_, int i_321_, int i_322_,
-			int i_323_, int i_324_) {
+                        ObjectDefinitions class602, int i_316_, int i_317_, int i_318_,
+                        int i_319_, int i_320_, int i_321_, int i_322_,
+                        int i_323_, int i_324_) {
 	if (-1214990409 * Class608.aClass608_7976.anInt7995 == i) {
 	    Class656_Sub1_Sub4 class656_sub1_sub4;
 	    if (bool) {
@@ -2038,7 +2038,7 @@ public class Class455_Sub1 extends Class455
 							  i_324_, (byte) -108);
 	    if (interface62 != null)
 		i_325_
-		    = (((Class602)
+		    = (((ObjectDefinitions)
 			aClass40_Sub11_10332.method76(interface62
 							  .method406((byte) 1),
 						      1048489791)).anInt7898
@@ -2073,7 +2073,7 @@ public class Class455_Sub1 extends Class455
 							  i_324_, (byte) -99);
 	    if (interface62 != null)
 		i_326_
-		    = (((Class602)
+		    = (((ObjectDefinitions)
 			aClass40_Sub11_10332.method76(interface62
 							  .method406((byte) 1),
 						      1230493108)).anInt7898
@@ -2135,7 +2135,7 @@ public class Class455_Sub1 extends Class455
 							  i_324_, (byte) -37);
 	    if (interface62 != null)
 		i_329_
-		    = (((Class602)
+		    = (((ObjectDefinitions)
 			aClass40_Sub11_10332.method76(interface62
 							  .method406((byte) 1),
 						      306983722)).anInt7898
@@ -2190,9 +2190,9 @@ public class Class455_Sub1 extends Class455
     }
     
     boolean method15978(Class182 class182, int i, int i_333_, boolean bool,
-			Class602 class602, int i_334_, int i_335_, int i_336_,
-			int i_337_, int i_338_, int i_339_, int i_340_,
-			int i_341_, int i_342_) {
+                        ObjectDefinitions class602, int i_334_, int i_335_, int i_336_,
+                        int i_337_, int i_338_, int i_339_, int i_340_,
+                        int i_341_, int i_342_) {
 	if (-1214990409 * Class608.aClass608_7976.anInt7995 == i) {
 	    Class656_Sub1_Sub4 class656_sub1_sub4;
 	    if (bool) {
@@ -2224,7 +2224,7 @@ public class Class455_Sub1 extends Class455
 							  i_342_, (byte) -100);
 	    if (interface62 != null)
 		i_343_
-		    = (((Class602)
+		    = (((ObjectDefinitions)
 			aClass40_Sub11_10332.method76(interface62
 							  .method406((byte) 1),
 						      454098904)).anInt7898
@@ -2259,7 +2259,7 @@ public class Class455_Sub1 extends Class455
 							  i_342_, (byte) -119);
 	    if (interface62 != null)
 		i_344_
-		    = (((Class602)
+		    = (((ObjectDefinitions)
 			aClass40_Sub11_10332.method76(interface62
 							  .method406((byte) 1),
 						      -671858269)).anInt7898
@@ -2322,7 +2322,7 @@ public class Class455_Sub1 extends Class455
 							  i_342_, (byte) -116);
 	    if (interface62 != null)
 		i_347_
-		    = (((Class602)
+		    = (((ObjectDefinitions)
 			aClass40_Sub11_10332.method76(interface62
 							  .method406((byte) 1),
 						      882832226)).anInt7898
@@ -2381,8 +2381,8 @@ public class Class455_Sub1 extends Class455
 	Interface62 interface62
 	    = method15976(i, i_351_, i_352_, i_353_, -1843248708);
 	if (null != interface62) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_10332
 		       .method76(interface62.method406((byte) 1), 612628616));
 	    int i_355_ = interface62.method72(-2021217309);
@@ -2440,7 +2440,7 @@ public class Class455_Sub1 extends Class455
 	    i_358_ += i_359_;
 	    int i_360_ = 0;
 	    for (;;) {
-		int i_361_ = class525_sub38.method16740((byte) -106);
+		int i_361_ = class525_sub38.readUnsignedSmart((byte) -106);
 		if (0 == i_361_)
 		    break;
 		i_360_ += i_361_ - 1;
@@ -2452,8 +2452,8 @@ public class Class455_Sub1 extends Class455
 		int i_367_ = i_365_ & 0x3;
 		int i_368_ = i + i_363_;
 		int i_369_ = i_357_ + i_362_;
-		Class602 class602
-		    = ((Class602)
+		ObjectDefinitions class602
+		    = ((ObjectDefinitions)
 		       aClass40_Sub11_10332.method76(i_358_, 1691250326));
 		int i_370_;
 		int i_371_;
@@ -2539,7 +2539,7 @@ public class Class455_Sub1 extends Class455
 	    i_381_ += i_382_;
 	    int i_383_ = 0;
 	    for (;;) {
-		int i_384_ = class525_sub38.method16740((byte) -88);
+		int i_384_ = class525_sub38.readUnsignedSmart((byte) -88);
 		if (0 == i_384_)
 		    break;
 		i_383_ += i_384_ - 1;
@@ -2551,8 +2551,8 @@ public class Class455_Sub1 extends Class455
 		int i_390_ = i_388_ & 0x3;
 		int i_391_ = i + i_386_;
 		int i_392_ = i_380_ + i_385_;
-		Class602 class602
-		    = ((Class602)
+		ObjectDefinitions class602
+		    = ((ObjectDefinitions)
 		       aClass40_Sub11_10332.method76(i_381_, -1855436894));
 		int i_393_;
 		int i_394_;

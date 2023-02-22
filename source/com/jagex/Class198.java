@@ -193,11 +193,11 @@ public abstract class Class198
 			     [class525_sub38.readUnsignedByte(692307999)]);
 	Class396 class396 = (Class643.method10595((byte) 71)
 			     [class525_sub38.readUnsignedByte(1461027772)]);
-	int i_8_ = class525_sub38.method16625((byte) -51);
-	int i_9_ = class525_sub38.method16625((byte) 9);
+	int i_8_ = class525_sub38.readSmart((byte) -51);
+	int i_9_ = class525_sub38.readSmart((byte) 9);
 	int i_10_ = class525_sub38.readUnsignedShort((byte) 24);
 	int i_11_ = class525_sub38.readUnsignedShort((byte) 82);
-	int i_12_ = class525_sub38.method16625((byte) 56);
+	int i_12_ = class525_sub38.readSmart((byte) 56);
 	int i_13_ = class525_sub38.readBigSmart(-2043778683);
 	int i_14_ = class525_sub38.readInt(1299960307);
 	return new Class390(class395, class396, i_8_, i_9_, i_10_, i_11_,
@@ -206,7 +206,7 @@ public abstract class Class198
     
     static final boolean method3767(Class40_Sub11 class40_sub11, int i,
 				    int i_15_, byte i_16_) {
-	Class602 class602 = (Class602) class40_sub11.method76(i, -1960245481);
+	ObjectDefinitions class602 = (ObjectDefinitions) class40_sub11.method76(i, -1960245481);
 	if (i_15_ == 11)
 	    i_15_ = 10;
 	if (i_15_ >= 5 && i_15_ <= 8)

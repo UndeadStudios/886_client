@@ -126,8 +126,8 @@ public class Class290
 			     [class525_sub38.readUnsignedByte(290121946)]);
 	Class396 class396 = (Class643.method10595((byte) 115)
 			     [class525_sub38.readUnsignedByte(1319973168)]);
-	int i_16_ = class525_sub38.method16625((byte) 0);
-	int i_17_ = class525_sub38.method16625((byte) -41);
+	int i_16_ = class525_sub38.readSmart((byte) 0);
+	int i_17_ = class525_sub38.readSmart((byte) -41);
 	int i_18_ = class525_sub38.readBigSmart(-2043778683);
 	int i_19_ = class525_sub38.readInt(2119677375);
 	int i_20_ = class525_sub38.readUnsignedByte(1326939099);

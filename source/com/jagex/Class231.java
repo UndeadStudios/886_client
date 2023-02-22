@@ -20,7 +20,7 @@ public class Class231 implements Interface28
     Class231(Class221 class221, RSBuffer class525_sub38) {
 	this$0 = class221;
 	if (class525_sub38.readUnsignedShort((byte) 74) != 65535) {
-	    class525_sub38.pos -= 678856942;
+	    class525_sub38.index -= 678856942;
 	    aClass447_2366 = class221.anInterface27_2333.method145
 				 (-1215621292)
 				 .method14515(class525_sub38, (byte) -1);

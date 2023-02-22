@@ -1655,6 +1655,6 @@ public class Class495 implements Interface76, Interface56
 	int i_2_ = class683.anIntArray8661[class683.anInt8662 * 501271953];
 	boolean bool
 	    = 1 == class683.anIntArray8661[1 + 501271953 * class683.anInt8662];
-	Class210.method3925(i_2_, bool, (byte) 13);
+	AnimationSkin.method3925(i_2_, bool, (byte) 13);
     }
 }

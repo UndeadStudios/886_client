@@ -83,7 +83,7 @@ public class Class656_Sub1_Sub4_Sub2 extends Class656_Sub1_Sub4
 	class444.method7147((float) aShort11942, 0.0F, (float) aShort11939);
 	Class567 class567 = Class293.method5303(aBool12099, (short) -9887);
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12102.method76(anInt12100 * -1747297249,
 					      -1593990401))
 	       .aClass443_7920);
@@ -101,7 +101,7 @@ public class Class656_Sub1_Sub4_Sub2 extends Class656_Sub1_Sub4
     
     boolean method16910(Class182 class182, int i, int i_0_, byte i_1_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12102.method76(anInt12100 * -1747297249,
 					      -1897107193))
 	       .aClass443_7920);
@@ -216,8 +216,8 @@ public class Class656_Sub1_Sub4_Sub2 extends Class656_Sub1_Sub4
     
     public Class656_Sub1_Sub4_Sub2
 	(Class546 class546, Class182 class182, Class40_Sub11 class40_sub11,
-	 Class602 class602, int i, int i_3_, int i_4_, int i_5_, int i_6_,
-	 boolean bool, int i_7_, int i_8_, int i_9_, int i_10_) {
+     ObjectDefinitions class602, int i, int i_3_, int i_4_, int i_5_, int i_6_,
+     boolean bool, int i_7_, int i_8_, int i_9_, int i_10_) {
 	super(class546, i_4_, i_5_, i_6_, i, i_3_, i_7_, i_8_);
 	aClass40_Sub11_12102 = class40_sub11;
 	anInt12100 = class602.anInt7894 * 826312777;
@@ -406,8 +406,8 @@ public class Class656_Sub1_Sub4_Sub2 extends Class656_Sub1_Sub4
     }
     
     Class20 method18754(Class182 class182, int i, boolean bool, byte i_12_) {
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       aClass40_Sub11_12102.method76(-1747297249 * anInt12100,
 					     -87640480));
 	Class161 class161;
@@ -462,7 +462,7 @@ public class Class656_Sub1_Sub4_Sub2 extends Class656_Sub1_Sub4
     
     boolean method16939(Class182 class182, int i, int i_14_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12102.method76(anInt12100 * -1747297249,
 					      -963842747))
 	       .aClass443_7920);
@@ -479,7 +479,7 @@ public class Class656_Sub1_Sub4_Sub2 extends Class656_Sub1_Sub4
     
     boolean method16940(Class182 class182, int i, int i_15_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12102.method76(anInt12100 * -1747297249,
 					      990760410))
 	       .aClass443_7920);
@@ -608,7 +608,7 @@ public class Class656_Sub1_Sub4_Sub2 extends Class656_Sub1_Sub4
 	class444.method7147((float) aShort11942, 0.0F, (float) aShort11939);
 	Class567 class567 = Class293.method5303(aBool12099, (short) -3717);
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12102.method76(anInt12100 * -1747297249,
 					      -1155909169))
 	       .aClass443_7920);
@@ -632,7 +632,7 @@ public class Class656_Sub1_Sub4_Sub2 extends Class656_Sub1_Sub4
     
     boolean method16965(Class182 class182, int i, int i_16_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12102.method76(anInt12100 * -1747297249,
 					      -731592141))
 	       .aClass443_7920);
@@ -658,7 +658,7 @@ public class Class656_Sub1_Sub4_Sub2 extends Class656_Sub1_Sub4
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 1];
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class210.method3922(i_17_, i_18_, true, -1179952119);
+	    = AnimationSkin.method3922(i_17_, i_18_, true, -1179952119);
     }
     
     static final void method18757(Class683 class683, int i) {

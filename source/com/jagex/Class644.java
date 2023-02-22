@@ -17,7 +17,7 @@ public class Class644
 	       aClass199_8336.method3769((long) i_1_ << 16));
 	if (null != class525_sub16_sub4)
 	    return class525_sub16_sub4;
-	byte[] is = (Class112.aClass458_1386.method7484
+	byte[] is = (Class112.aClass458_1386.getTextureData
 		     (Class112.aClass458_1386.method7557(i_1_, -1329062221),
 		      1677560491));
 	if (is != null) {
@@ -40,7 +40,7 @@ public class Class644
 			       aClass199_8336.method3769((long) i_1_ << 16));
 	if (null != class525_sub16_sub4)
 	    return class525_sub16_sub4;
-	is = (Class112.aClass458_1386.method7484
+	is = (Class112.aClass458_1386.getTextureData
 	      (Class112.aClass458_1386.method7557(i_1_, 470074355),
 	       1643903231));
 	if (null != is) {
@@ -63,7 +63,7 @@ public class Class644
 			       aClass199_8336.method3769((long) i_1_ << 16));
 	if (null != class525_sub16_sub4)
 	    return class525_sub16_sub4;
-	is = (Class112.aClass458_1386.method7484
+	is = (Class112.aClass458_1386.getTextureData
 	      (Class112.aClass458_1386.method7557(i_1_, -28597998),
 	       1433760630));
 	if (null != is) {
@@ -97,7 +97,7 @@ public class Class644
 	    = (Class525_Sub16_Sub4) aClass199_8336.method3769((long) i);
 	if (class525_sub16_sub4 != null)
 	    return class525_sub16_sub4;
-	byte[] is = Class112.aClass458_1386.method7476(i, 0, 1702690462);
+	byte[] is = Class112.aClass458_1386.getFile(i, 0, 1702690462);
 	if (null == is || is.length <= 1)
 	    return null;
 	try {
@@ -133,7 +133,7 @@ public class Class644
 	    = (Class525_Sub16_Sub4) aClass199_8336.method3769((long) i);
 	if (class525_sub16_sub4 != null)
 	    return class525_sub16_sub4;
-	byte[] is = Class112.aClass458_1386.method7476(i, 0, 2085790445);
+	byte[] is = Class112.aClass458_1386.getFile(i, 0, 2085790445);
 	if (null == is || is.length <= 1)
 	    return null;
 	try {

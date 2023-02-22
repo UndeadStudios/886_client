@@ -32,7 +32,7 @@ public final class Class417
 		  Class705.aClass705_8797 });
     }
     
-    static int method6723(Class458 class458, Class663 class663, int i) {
+    static int method6723(JS5 class458, Class663 class663, int i) {
 	if (null != class458) {
 	    if (class663.method10957(-812051117) > 1) {
 		int i_1_ = class458.method7505(1196407274) - 1;

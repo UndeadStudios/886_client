@@ -102,8 +102,8 @@ public class Class320
     static final void method5712(Class683 class683, short i) {
 	int i_11_ = (class683.anIntArray8661
 		     [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_11_, 968587951));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]

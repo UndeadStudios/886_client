@@ -813,13 +813,13 @@ public class Class525_Sub4 extends Class525
 	    anInterface16_10467
 		= (aClass182_Sub3_10463.method15441
 		   (5123, aClass525_Sub38_10474.buffer,
-		    aClass525_Sub38_10474.pos * -1133521593, false));
+		    aClass525_Sub38_10474.index * -1133521593, false));
 	    anInterface15_10472
 		= aClass182_Sub3_10463.method15533(16,
 						   (aClass525_Sub38_Sub1_10475
 						    .buffer),
 						   (aClass525_Sub38_Sub1_10475
-						    .pos) * -1133521593,
+						    .index) * -1133521593,
 						   false);
 	    aClass137_10469 = new Class137(anInterface15_10472, 5126, 3, 0);
 	    aClass137_10465 = new Class137(anInterface15_10472, 5121, 4, 12);

@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class601 implements Interface69
 {
-    Class458 aClass458_7861;
+    JS5 aClass458_7861;
     Class372 aClass372_7862;
     int anInt7863;
     Class595 aClass595_7864 = Class595.aClass595_7836;
@@ -37,11 +37,11 @@ public class Class601 implements Interface69
 	int i_0_ = i;
 	if (0 == i_0_)
 	    i_0_ = anInt7863 * -349159117;
-	return aClass458_7861.method7484(i_0_, 1517113367);
+	return aClass458_7861.getTextureData(i_0_, 1517113367);
     }
     
-    public Class601(Class458 class458, int i, Class372 class372,
-		    Interface70 interface70) {
+    public Class601(JS5 class458, int i, Class372 class372,
+                    Interface70 interface70) {
 	aClass458_7861 = class458;
 	anInt7863 = i * 1955963387;
 	aClass372_7862 = class372;
@@ -65,7 +65,7 @@ public class Class601 implements Interface69
 	int i_2_ = i;
 	if (0 == i_2_)
 	    i_2_ = anInt7863 * -349159117;
-	return aClass458_7861.method7484(i_2_, 1407937466);
+	return aClass458_7861.getTextureData(i_2_, 1407937466);
     }
     
     public Class477 method462() {
@@ -154,7 +154,7 @@ public class Class601 implements Interface69
 	int i_5_ = i;
 	if (0 == i_5_)
 	    i_5_ = anInt7863 * -349159117;
-	return aClass458_7861.method7484(i_5_, 1480607177);
+	return aClass458_7861.getTextureData(i_5_, 1480607177);
     }
     
     public int method444(int i) {
@@ -165,7 +165,7 @@ public class Class601 implements Interface69
 	int i_6_ = i;
 	if (0 == i_6_)
 	    i_6_ = anInt7863 * -349159117;
-	return aClass458_7861.method7484(i_6_, 1321306002);
+	return aClass458_7861.getTextureData(i_6_, 1321306002);
     }
     
     public int method446() {
@@ -307,7 +307,7 @@ public class Class601 implements Interface69
 	Class144_Sub1.anInt9141 = i * -1716705553;
 	Class556_Sub1.anInt10626 = -106402817;
 	Class556_Sub1.anInt10627 = 107721765;
-	Class58.method1221(-972071211);
+	ConfigEntry.method1221(-972071211);
     }
     
     static void method9900(byte[] is, int i) {

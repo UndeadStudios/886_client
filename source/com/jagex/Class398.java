@@ -50,8 +50,8 @@ public class Class398 implements Interface45
 			     [class525_sub38.readUnsignedByte(527041800)]);
 	Class396 class396 = (Class643.method10595((byte) 88)
 			     [class525_sub38.readUnsignedByte(752267636)]);
-	int i_7_ = class525_sub38.method16625((byte) -78);
-	int i_8_ = class525_sub38.method16625((byte) 101);
+	int i_7_ = class525_sub38.readSmart((byte) -78);
+	int i_8_ = class525_sub38.readSmart((byte) 101);
 	int i_9_ = class525_sub38.readUnsignedShort((byte) 17);
 	int i_10_ = class525_sub38.readUnsignedShort((byte) 72);
 	int i_11_ = class525_sub38.readInt(1086816719);
@@ -68,8 +68,8 @@ public class Class398 implements Interface45
 			     [class525_sub38.readUnsignedByte(278880579)]);
 	Class396 class396 = (Class643.method10595((byte) 95)
 			     [class525_sub38.readUnsignedByte(2097175345)]);
-	int i_14_ = class525_sub38.method16625((byte) 17);
-	int i_15_ = class525_sub38.method16625((byte) 2);
+	int i_14_ = class525_sub38.readSmart((byte) 17);
+	int i_15_ = class525_sub38.readSmart((byte) 2);
 	int i_16_ = class525_sub38.readUnsignedShort((byte) 94);
 	int i_17_ = class525_sub38.readUnsignedShort((byte) 14);
 	int i_18_ = class525_sub38.readInt(1956135798);
@@ -86,8 +86,8 @@ public class Class398 implements Interface45
 			     [class525_sub38.readUnsignedByte(981758946)]);
 	Class396 class396 = (Class643.method10595((byte) 43)
 			     [class525_sub38.readUnsignedByte(686683478)]);
-	int i_21_ = class525_sub38.method16625((byte) -8);
-	int i_22_ = class525_sub38.method16625((byte) -36);
+	int i_21_ = class525_sub38.readSmart((byte) -8);
+	int i_22_ = class525_sub38.readSmart((byte) -36);
 	int i_23_ = class525_sub38.readUnsignedShort((byte) 87);
 	int i_24_ = class525_sub38.readUnsignedShort((byte) 29);
 	int i_25_ = class525_sub38.readInt(1511256912);

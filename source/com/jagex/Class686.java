@@ -497,7 +497,7 @@ public final class Class686
 					   -988400584);
 		Class525_Sub34.method16571(86429785);
 	    }
-	} catch (Object object) {
+	} catch (Exception object) {
 	    Class525_Sub34.method16571(-2108440679);
 	    throw object;
 	}
@@ -1169,7 +1169,7 @@ public final class Class686
 	    Class185.method3616(class683, -2121965860);
 	    break;
 	case 16:
-	    Class602.method9960(class683, (byte) 14);
+	    ObjectDefinitions.method9960(class683, (byte) 14);
 	    break;
 	case 968:
 	    Class420.method6742(class683, 5801018);
@@ -1295,7 +1295,7 @@ public final class Class686
 	    Class618.method10161(class683, (byte) 91);
 	    break;
 	case 47:
-	    Class210.method3923(class683, 429987899);
+	    AnimationSkin.method3923(class683, 429987899);
 	    break;
 	case 24:
 	    Class549.method9117(class683, -849685214);
@@ -1334,7 +1334,7 @@ public final class Class686
 	    Class477.method7784(class683, -1410348954);
 	    break;
 	case 705:
-	    Class194.method3731(class683, -2100577145);
+	    AnimationDefinition.method3731(class683, -2100577145);
 	    break;
 	case 186:
 	    Class525_Sub16_Sub10.method18418(class683, (byte) 30);
@@ -1636,7 +1636,7 @@ public final class Class686
 	    Class256.method4653(class683, 1921253271);
 	    break;
 	case 1117:
-	    Class171.method2736(class683, -16777216);
+	    BillBoardConfig.method2736(class683, -16777216);
 	    break;
 	case 558:
 	    Class261.method4770(class683, (byte) 1);
@@ -1675,7 +1675,7 @@ public final class Class686
 	    Class636.method10472(class683, (byte) 22);
 	    break;
 	case 501:
-	    Class171.method2737(class683, -881104915);
+	    BillBoardConfig.method2737(class683, -881104915);
 	    break;
 	case 1196:
 	    Class578.method9580(class683, (byte) 82);
@@ -1693,7 +1693,7 @@ public final class Class686
 	    Class103.method1890(class683, 1569696870);
 	    break;
 	case 947:
-	    Class154.method2449(class683, 1254410166);
+	    MagnetConfig.method2449(class683, 1254410166);
 	    break;
 	case 930:
 	    Class218.method4198(class683, -1948905530);
@@ -1927,7 +1927,7 @@ public final class Class686
 	    Class384.method6436(class683, (byte) 76);
 	    break;
 	case 354:
-	    Class58.method1223(class683, (byte) -99);
+	    ConfigEntry.method1223(class683, (byte) -99);
 	    break;
 	case 93:
 	    Class313.method5646(class683, -1999130144);
@@ -2074,7 +2074,7 @@ public final class Class686
 	    Class57.method1211(class683, 1922533728);
 	    break;
 	case 1078:
-	    Class299.method5394(class683, -1864032786);
+	    NPCDefinitions.method5394(class683, -1864032786);
 	    break;
 	case 846:
 	    Class283.method5217(class683, -25350982);
@@ -2343,7 +2343,7 @@ public final class Class686
 	    Class262.method4779(class683, 938415966);
 	    break;
 	case 926:
-	    Class504.method8314(class683, 1765299262);
+	    BillBoardDefinitions.method8314(class683, 1765299262);
 	    break;
 	case 108:
 	    Class655.method10804(class683, 1895169033);
@@ -2466,7 +2466,7 @@ public final class Class686
 	    Class670.method11043(class683, 1051584679);
 	    break;
 	case 201:
-	    Class458.method7568(class683, -1259613115);
+	    JS5.method7568(class683, -1259613115);
 	    break;
 	case 385:
 	    Class515.method8596(class683, (short) 771);
@@ -2727,7 +2727,7 @@ public final class Class686
 	    Class425.method6774(class683, (byte) -32);
 	    break;
 	case 159:
-	    Class308.method5448(class683, (byte) 70);
+	    SunDefinition.method5448(class683, (byte) 70);
 	    break;
 	case 1138:
 	    Class604.method9987(class683, (byte) -75);
@@ -2985,10 +2985,10 @@ public final class Class686
 	    Class166.method2676(class683, (byte) 109);
 	    break;
 	case 438:
-	    Class210.method3924(class683, (byte) 73);
+	    AnimationSkin.method3924(class683, (byte) 73);
 	    break;
 	case 1282:
-	    Class504.method8316(class683, (short) -3484);
+	    BillBoardDefinitions.method8316(class683, (short) -3484);
 	    break;
 	case 1073:
 	    Class276.method5114(class683, -2137744064);
@@ -3261,7 +3261,7 @@ public final class Class686
 	    Class660.method10929(class683, (byte) 1);
 	    break;
 	case 862:
-	    Class8.method676(class683, -1608848568);
+	    ItemDefinitions.method676(class683, -1608848568);
 	    break;
 	case 87:
 	    Class557.method9361(class683, 1664227558);
@@ -3288,7 +3288,7 @@ public final class Class686
 	    Class318.method5672(class683, 1996124840);
 	    break;
 	case 716:
-	    Class154.method2451(class683, 478436010);
+	    MagnetConfig.method2451(class683, 478436010);
 	    break;
 	case 282:
 	    Class525_Sub19.method16296(class683, -361424553);
@@ -3366,7 +3366,7 @@ public final class Class686
 	    Class486.method7855(class683, 814170177);
 	    break;
 	case 966:
-	    Class171.method2739(class683, (byte) -74);
+	    BillBoardConfig.method2739(class683, (byte) -74);
 	    break;
 	case 602:
 	    Class321.method5716(class683, 1879769856);
@@ -3654,7 +3654,7 @@ public final class Class686
 	    Class272.method5021(class683, 651858412);
 	    break;
 	case 813:
-	    Class65.method1434(class683, 1323744966);
+	    WorldTile.method1434(class683, 1323744966);
 	    break;
 	case 285:
 	    Class381.method6407(class683, 445827659);
@@ -3663,13 +3663,13 @@ public final class Class686
 	    Class64.method1403(class683, 1298137378);
 	    break;
 	case 720:
-	    Class308.method5450(class683, (short) 508);
+	    SunDefinition.method5450(class683, (short) 508);
 	    break;
 	case 1083:
 	    Class535.method8866(class683, (short) -4472);
 	    break;
 	case 699:
-	    Class602.method9961(class683, 2056011095);
+	    ObjectDefinitions.method9961(class683, 2056011095);
 	    break;
 	case 26:
 	    Class306.method5427(class683, (byte) 18);
@@ -3876,7 +3876,7 @@ public final class Class686
 	    Class181.method3124(class683, -147936180);
 	    break;
 	case 839:
-	    Class8.method675(class683, -1984783061);
+	    ItemDefinitions.method675(class683, -1984783061);
 	    break;
 	case 311:
 	    Class30.method940(class683, (byte) -2);
@@ -3917,7 +3917,7 @@ public final class Class686
 	    Class451.method7335(class683, (byte) 1);
 	    break;
 	case 702:
-	    Class194.method3732(class683, (byte) 113);
+	    AnimationDefinition.method3732(class683, (byte) 113);
 	    break;
 	case 1220:
 	    Class303.method5414(class683, 908298533);
@@ -3968,7 +3968,7 @@ public final class Class686
 	    Class407.method6636(class683, -1832843117);
 	    break;
 	case 475:
-	    Class504.method8317(class683, -369581323);
+	    BillBoardDefinitions.method8317(class683, -369581323);
 	    break;
 	case 518:
 	    Class36.method974(class683, 371266638);
@@ -3986,7 +3986,7 @@ public final class Class686
 	    Class175.method2899(class683, -1236784644);
 	    break;
 	case 1297:
-	    Class171.method2738(class683, 555634422);
+	    BillBoardConfig.method2738(class683, 555634422);
 	    break;
 	case 1221:
 	    Class453.method7357(class683, (short) 128);
@@ -4244,7 +4244,7 @@ public final class Class686
 	    Class270.method5008(class683, -334180934);
 	    break;
 	case 258:
-	    Class154.method2450(class683, -1802518971);
+	    MagnetConfig.method2450(class683, -1802518971);
 	    break;
 	case 37:
 	    Class61.method1369(class683, -1587039277);
@@ -4427,7 +4427,7 @@ public final class Class686
 	    Class77.method1563(class683, 501271953);
 	    break;
 	case 1:
-	    Class210.method3926(class683, 1616993481);
+	    AnimationSkin.method3926(class683, 1616993481);
 	    break;
 	case 427:
 	    Class474.method7757(class683, 1603645401);
@@ -4562,7 +4562,7 @@ public final class Class686
 	    Class411.method6674(class683, (byte) 53);
 	    break;
 	case 375:
-	    Class154.method2452(class683, -181967249);
+	    MagnetConfig.method2452(class683, -181967249);
 	    break;
 	case 618:
 	    Class74.method1551(class683, -1851338422);
@@ -5065,7 +5065,7 @@ public final class Class686
 	    Class185.method3616(class683, -1782512739);
 	    break;
 	case 16:
-	    Class602.method9960(class683, (byte) -127);
+	    ObjectDefinitions.method9960(class683, (byte) -127);
 	    break;
 	case 968:
 	    Class420.method6742(class683, 5801018);
@@ -5191,7 +5191,7 @@ public final class Class686
 	    Class618.method10161(class683, (byte) 23);
 	    break;
 	case 47:
-	    Class210.method3923(class683, 429987899);
+	    AnimationSkin.method3923(class683, 429987899);
 	    break;
 	case 24:
 	    Class549.method9117(class683, -849685214);
@@ -5230,7 +5230,7 @@ public final class Class686
 	    Class477.method7784(class683, -1753256379);
 	    break;
 	case 705:
-	    Class194.method3731(class683, -967222150);
+	    AnimationDefinition.method3731(class683, -967222150);
 	    break;
 	case 186:
 	    Class525_Sub16_Sub10.method18418(class683, (byte) 30);
@@ -5532,7 +5532,7 @@ public final class Class686
 	    Class256.method4653(class683, 2071166368);
 	    break;
 	case 1117:
-	    Class171.method2736(class683, -16777216);
+	    BillBoardConfig.method2736(class683, -16777216);
 	    break;
 	case 558:
 	    Class261.method4770(class683, (byte) 41);
@@ -5571,7 +5571,7 @@ public final class Class686
 	    Class636.method10472(class683, (byte) -40);
 	    break;
 	case 501:
-	    Class171.method2737(class683, -1458110257);
+	    BillBoardConfig.method2737(class683, -1458110257);
 	    break;
 	case 1196:
 	    Class578.method9580(class683, (byte) 92);
@@ -5589,7 +5589,7 @@ public final class Class686
 	    Class103.method1890(class683, -759904512);
 	    break;
 	case 947:
-	    Class154.method2449(class683, 24588699);
+	    MagnetConfig.method2449(class683, 24588699);
 	    break;
 	case 930:
 	    Class218.method4198(class683, -854295297);
@@ -5823,7 +5823,7 @@ public final class Class686
 	    Class384.method6436(class683, (byte) 86);
 	    break;
 	case 354:
-	    Class58.method1223(class683, (byte) -122);
+	    ConfigEntry.method1223(class683, (byte) -122);
 	    break;
 	case 93:
 	    Class313.method5646(class683, -788973885);
@@ -5970,7 +5970,7 @@ public final class Class686
 	    Class57.method1211(class683, 1852525542);
 	    break;
 	case 1078:
-	    Class299.method5394(class683, -1977023995);
+	    NPCDefinitions.method5394(class683, -1977023995);
 	    break;
 	case 846:
 	    Class283.method5217(class683, -25350982);
@@ -6239,7 +6239,7 @@ public final class Class686
 	    Class262.method4779(class683, 938415966);
 	    break;
 	case 926:
-	    Class504.method8314(class683, 448855131);
+	    BillBoardDefinitions.method8314(class683, 448855131);
 	    break;
 	case 108:
 	    Class655.method10804(class683, 2128017178);
@@ -6362,7 +6362,7 @@ public final class Class686
 	    Class670.method11043(class683, 1051584679);
 	    break;
 	case 201:
-	    Class458.method7568(class683, -1259613115);
+	    JS5.method7568(class683, -1259613115);
 	    break;
 	case 385:
 	    Class515.method8596(class683, (short) 771);
@@ -6623,7 +6623,7 @@ public final class Class686
 	    Class425.method6774(class683, (byte) -57);
 	    break;
 	case 159:
-	    Class308.method5448(class683, (byte) -14);
+	    SunDefinition.method5448(class683, (byte) -14);
 	    break;
 	case 1138:
 	    Class604.method9987(class683, (byte) -67);
@@ -6881,10 +6881,10 @@ public final class Class686
 	    Class166.method2676(class683, (byte) 27);
 	    break;
 	case 438:
-	    Class210.method3924(class683, (byte) 109);
+	    AnimationSkin.method3924(class683, (byte) 109);
 	    break;
 	case 1282:
-	    Class504.method8316(class683, (short) -19222);
+	    BillBoardDefinitions.method8316(class683, (short) -19222);
 	    break;
 	case 1073:
 	    Class276.method5114(class683, -1793838360);
@@ -7157,7 +7157,7 @@ public final class Class686
 	    Class660.method10929(class683, (byte) 1);
 	    break;
 	case 862:
-	    Class8.method676(class683, -328725570);
+	    ItemDefinitions.method676(class683, -328725570);
 	    break;
 	case 87:
 	    Class557.method9361(class683, 1984756265);
@@ -7184,7 +7184,7 @@ public final class Class686
 	    Class318.method5672(class683, 1703544157);
 	    break;
 	case 716:
-	    Class154.method2451(class683, 2054300421);
+	    MagnetConfig.method2451(class683, 2054300421);
 	    break;
 	case 282:
 	    Class525_Sub19.method16296(class683, -128803501);
@@ -7262,7 +7262,7 @@ public final class Class686
 	    Class486.method7855(class683, -1311027033);
 	    break;
 	case 966:
-	    Class171.method2739(class683, (byte) -1);
+	    BillBoardConfig.method2739(class683, (byte) -1);
 	    break;
 	case 602:
 	    Class321.method5716(class683, -1542630447);
@@ -7550,7 +7550,7 @@ public final class Class686
 	    Class272.method5021(class683, 651858412);
 	    break;
 	case 813:
-	    Class65.method1434(class683, 1196253989);
+	    WorldTile.method1434(class683, 1196253989);
 	    break;
 	case 285:
 	    Class381.method6407(class683, 1491934582);
@@ -7559,13 +7559,13 @@ public final class Class686
 	    Class64.method1403(class683, 1995519701);
 	    break;
 	case 720:
-	    Class308.method5450(class683, (short) 508);
+	    SunDefinition.method5450(class683, (short) 508);
 	    break;
 	case 1083:
 	    Class535.method8866(class683, (short) 7215);
 	    break;
 	case 699:
-	    Class602.method9961(class683, 2038193924);
+	    ObjectDefinitions.method9961(class683, 2038193924);
 	    break;
 	case 26:
 	    Class306.method5427(class683, (byte) 108);
@@ -7772,7 +7772,7 @@ public final class Class686
 	    Class181.method3124(class683, -738747501);
 	    break;
 	case 839:
-	    Class8.method675(class683, -1565571114);
+	    ItemDefinitions.method675(class683, -1565571114);
 	    break;
 	case 311:
 	    Class30.method940(class683, (byte) -113);
@@ -7813,7 +7813,7 @@ public final class Class686
 	    Class451.method7335(class683, (byte) 1);
 	    break;
 	case 702:
-	    Class194.method3732(class683, (byte) -61);
+	    AnimationDefinition.method3732(class683, (byte) -61);
 	    break;
 	case 1220:
 	    Class303.method5414(class683, 2057744337);
@@ -7864,7 +7864,7 @@ public final class Class686
 	    Class407.method6636(class683, -1454468168);
 	    break;
 	case 475:
-	    Class504.method8317(class683, -369581323);
+	    BillBoardDefinitions.method8317(class683, -369581323);
 	    break;
 	case 518:
 	    Class36.method974(class683, 371266638);
@@ -7882,7 +7882,7 @@ public final class Class686
 	    Class175.method2899(class683, 1907063421);
 	    break;
 	case 1297:
-	    Class171.method2738(class683, 1651771075);
+	    BillBoardConfig.method2738(class683, 1651771075);
 	    break;
 	case 1221:
 	    Class453.method7357(class683, (short) 128);
@@ -8140,7 +8140,7 @@ public final class Class686
 	    Class270.method5008(class683, -1712818754);
 	    break;
 	case 258:
-	    Class154.method2450(class683, -1632674668);
+	    MagnetConfig.method2450(class683, -1632674668);
 	    break;
 	case 37:
 	    Class61.method1369(class683, 732678077);
@@ -8323,7 +8323,7 @@ public final class Class686
 	    Class77.method1563(class683, 501271953);
 	    break;
 	case 1:
-	    Class210.method3926(class683, 1855084564);
+	    AnimationSkin.method3926(class683, 1855084564);
 	    break;
 	case 427:
 	    Class474.method7757(class683, 1603645401);
@@ -8458,7 +8458,7 @@ public final class Class686
 	    Class411.method6674(class683, (byte) 22);
 	    break;
 	case 375:
-	    Class154.method2452(class683, -408259071);
+	    MagnetConfig.method2452(class683, -408259071);
 	    break;
 	case 618:
 	    Class74.method1551(class683, -2113933681);
@@ -9233,7 +9233,7 @@ public final class Class686
 	if (bool)
 	    Class555.method9242(class245, class259, 108507919);
 	else
-	    Class458.method7569(class245, class259, (byte) 0);
+	    JS5.method7569(class245, class259, (byte) 0);
     }
     
     static final void method11356(Class683 class683) {
@@ -9539,7 +9539,7 @@ public final class Class686
 	if (bool)
 	    Class555.method9242(class245, class259, 108507919);
 	else
-	    Class458.method7569(class245, class259, (byte) 0);
+	    JS5.method7569(class245, class259, (byte) 0);
     }
     
     static final void method11383(Class683 class683) {
@@ -9563,7 +9563,7 @@ public final class Class686
 	if (bool)
 	    Class555.method9242(class245, class259, 108507919);
 	else
-	    Class458.method7569(class245, class259, (byte) 0);
+	    JS5.method7569(class245, class259, (byte) 0);
     }
     
     static final void method11385(boolean bool, Class683 class683) {
@@ -9574,7 +9574,7 @@ public final class Class686
 	if (bool)
 	    Class555.method9242(class245, class259, 108507919);
 	else
-	    Class458.method7569(class245, class259, (byte) 0);
+	    JS5.method7569(class245, class259, (byte) 0);
     }
     
     static final void method11386(Class683 class683) {
@@ -10678,8 +10678,8 @@ public final class Class686
     static final void method11495(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i, 108662252));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -10689,8 +10689,8 @@ public final class Class686
     static final void method11496(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 958319928));
 	if (class8.anInt114 * 195314511 >= 0
 	    && class8.anInt113 * 593405105 >= 0)
@@ -10919,7 +10919,7 @@ public final class Class686
 	if (bool)
 	    Class555.method9242(class245, class259, 108507919);
 	else
-	    Class458.method7569(class245, class259, (byte) 0);
+	    JS5.method7569(class245, class259, (byte) 0);
     }
     
     static final void method11519(Class259 class259, Class245 class245,
@@ -11102,7 +11102,7 @@ public final class Class686
 	    = Class16.method767(Class412.aClass412_4268, class96.aClass6_1169,
 				1977859884);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0, -606492399);
-	int i_76_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i_76_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		     * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(i, -1890032336);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16602
@@ -11111,7 +11111,7 @@ public final class Class686
 	    (class525_sub15.aClass525_Sub38_Sub2_10546,
 	     class683.aClass401_8651.anIntArray4132, (byte) 98);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i_76_,
 	     (byte) 7);
 	class96.method1794(class525_sub15, (short) 26535);
@@ -11380,8 +11380,8 @@ public final class Class686
     static final void method11562(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -1770445839));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -12058,7 +12058,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, -1649024962))
 	       .aBool83) ? 1 : 0;
     }
@@ -12223,8 +12223,8 @@ public final class Class686
     static final void method11646(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -1820551198));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -12308,7 +12308,7 @@ public final class Class686
 	    class259.anInt2740 = -1929556251 * i_93_;
 	    class259.anInt2741 = i_94_ * 1734943053;
 	    class259.aBool2702 = bool;
-	    Class8 class8 = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8 = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					 .method76(i_93_, -1709473267);
 	    class259.anInt2636 = class8.anInt75 * -1476691681;
 	    class259.anInt2637 = class8.anInt81 * 1174525451;
@@ -12347,7 +12347,7 @@ public final class Class686
 	    class259.anInt2740 = -1929556251 * i_95_;
 	    class259.anInt2741 = i_96_ * 1734943053;
 	    class259.aBool2702 = bool;
-	    Class8 class8 = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8 = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					 .method76(i_95_, -667498805);
 	    class259.anInt2636 = class8.anInt75 * -1476691681;
 	    class259.anInt2637 = class8.anInt81 * 1174525451;
@@ -12911,8 +12911,8 @@ public final class Class686
 	if (6 != 307215955 * class259.anInt2630
 	    && 2 != class259.anInt2630 * 307215955)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(-961419549 * class259.anInt2631, -285833060));
 	if (null == class259.aClass288_2769)
@@ -13101,7 +13101,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, -1229372395))
 	       .anInt73) * 1345227511;
     }
@@ -13350,7 +13350,7 @@ public final class Class686
 	    = Class16.method767(Class412.aClass412_4258, class96.aClass6_1169,
 				1977859884);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0, -509200078);
-	int i = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		 * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 							      -894397923);
@@ -13360,7 +13360,7 @@ public final class Class686
 	    (class525_sub15.aClass525_Sub38_Sub2_10546,
 	     class683.aClass401_8651.anIntArray4132, (byte) 64);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i,
 	     (byte) 7);
 	class96.method1794(class525_sub15, (short) 18172);
@@ -14170,7 +14170,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, -1796611916))
 	       .anInt99) * 2044569101;
     }
@@ -14198,7 +14198,7 @@ public final class Class686
 	    = class683.anIntArray8661[2 + class683.anInt8662 * 501271953];
 	if (i_128_ == -1)
 	    throw new RuntimeException();
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_128_, 725651186);
 	if (class65.aClass495_698.method80() != i)
 	    throw new RuntimeException();
@@ -14486,7 +14486,7 @@ public final class Class686
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 1];
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class210.method3922(i, i_133_, true, -1179952119);
+	    = AnimationSkin.method3922(i, i_133_, true, -1179952119);
     }
     
     static final void method11869(Class683 class683) {
@@ -14568,7 +14568,7 @@ public final class Class686
     }
     
     static final void method11876(Class683 class683) {
-	Class154.method2454(class683, class683.aClass656_Sub1_Sub3_Sub1_8654,
+	MagnetConfig.method2454(class683, class683.aClass656_Sub1_Sub3_Sub1_8654,
 			    (byte) -1);
     }
     
@@ -14907,7 +14907,7 @@ public final class Class686
 			     : class683.aClass679_8658);
 	Class259 class259 = class679.aClass259_8623;
 	Class245 class245 = class679.aClass245_8622;
-	Class458.method7570(class259, class245, class683, 590576155);
+	JS5.method7570(class259, class245, class683, 590576155);
     }
     
     static final void method11912(Class259 class259, Class245 class245,
@@ -15022,7 +15022,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, 1279930804))
 	       .anInt112) * 334066519;
     }
@@ -15399,8 +15399,8 @@ public final class Class686
 	int i = class683.anIntArray8661[501271953 * class683.anInt8662];
 	int i_146_
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662];
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -2119974840));
 	if (i_146_ >= 1 && i_146_ <= 5
 	    && null != class8.aStringArray85[i_146_ - 1])
@@ -15579,7 +15579,7 @@ public final class Class686
 	    = class683.anIntArray8661[4 + class683.anInt8662 * 501271953];
 	if (i_150_ == -1)
 	    throw new RuntimeException();
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_150_, 364481073);
 	if (class65.aClass495_699.method80() != i_149_)
 	    throw new RuntimeException();
@@ -16451,7 +16451,7 @@ public final class Class686
     
     static final void method12062(Class683 class683) {
 	int i = 77907787 * Class99.anInt1213;
-	int i_169_ = Class308.anInt3426 * -1352795477;
+	int i_169_ = SunDefinition.anInt3426 * -1352795477;
 	int i_170_ = -1;
 	if (Class695.aBool8757) {
 	    Class18[] class18s = Class63.method1389((byte) -7);
@@ -16492,7 +16492,7 @@ public final class Class686
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 1];
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class210.method3922(i, i_172_, true, -1179952119);
+	    = AnimationSkin.method3922(i, i_172_, true, -1179952119);
     }
     
     static final void method12066(Class683 class683) {
@@ -16870,8 +16870,8 @@ public final class Class686
 	int i = class683.anIntArray8661[501271953 * class683.anInt8662];
 	int i_183_
 	    = class683.anIntArray8661[class683.anInt8662 * 501271953 + 1];
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i, 356194879));
 	if (Class495.aClass495_5387 == class65.aClass495_698) {
 	    /* empty */
@@ -16962,7 +16962,7 @@ public final class Class686
 	Class259 class259 = class679.aClass259_8623;
 	Class245 class245 = class679.aClass245_8622;
 	Class259 class259_184_
-	    = Class65.method1432(class245, class259, 93078391);
+	    = WorldTile.method1432(class245, class259, 93078391);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
 	    = (null == class259_184_ ? -1
@@ -16981,7 +16981,7 @@ public final class Class686
 	Class259 class259 = class679.aClass259_8623;
 	Class245 class245 = class679.aClass245_8622;
 	Class259 class259_185_
-	    = Class65.method1432(class245, class259, 93078391);
+	    = WorldTile.method1432(class245, class259, 93078391);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
 	    = (null == class259_185_ ? -1
@@ -17619,7 +17619,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	Class259 class259 = Class43.method1069(i, -695254952);
 	Class245 class245 = Class162.aClass245Array1764[i >> 16];
-	Class458.method7570(class259, class245, class683, 897149591);
+	JS5.method7570(class259, class245, class683, 897149591);
     }
     
     static final void method12177(Class683 class683) {
@@ -17838,8 +17838,8 @@ public final class Class686
 		      - 1);
 	if (class259.anInt2630 * 307215955 != 6)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(-961419549 * class259.anInt2631, -516249364));
 	if (class259.aClass288_2769 == null)
@@ -17884,7 +17884,7 @@ public final class Class686
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 2];
 	if (i_198_ == -1)
 	    throw new RuntimeException();
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_198_, -1586080256);
 	if (class65.aClass495_698.method80() != i)
 	    throw new RuntimeException();
@@ -17925,8 +17925,8 @@ public final class Class686
 		      - 1);
 	if (2 != class259.anInt2630 * 307215955)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(-961419549 * class259.anInt2631, 125170703));
 	if (class259.aClass288_2769 == null)
@@ -17947,8 +17947,8 @@ public final class Class686
 		      - 1);
 	if (2 != class259.anInt2630 * 307215955)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(-961419549 * class259.anInt2631, -326944418));
 	if (class259.aClass288_2769 == null)
@@ -17999,8 +17999,8 @@ public final class Class686
 	if (class259.anInt2630 * 307215955 != 6
 	    && 2 != 307215955 * class259.anInt2630)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(class259.anInt2631 * -961419549, -858417804));
 	if (null == class259.aClass288_2769)
@@ -18030,8 +18030,8 @@ public final class Class686
 	if (class259.anInt2630 * 307215955 != 6
 	    && 2 != 307215955 * class259.anInt2630)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(class259.anInt2631 * -961419549, 2146085859));
 	if (null == class259.aClass288_2769)
@@ -18264,7 +18264,7 @@ public final class Class686
 	Class259 class259 = Class43.method1069(i, -695254952);
 	Class245 class245 = Class162.aClass245Array1764[i >>> 16];
 	Class259 class259_220_
-	    = Class65.method1432(class245, class259, 93078391);
+	    = WorldTile.method1432(class245, class259, 93078391);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
 	    = (class259_220_ == null ? -1
@@ -19098,8 +19098,8 @@ public final class Class686
 	int i = class683.anIntArray8661[501271953 * class683.anInt8662];
 	int i_238_
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662];
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 146623283));
 	if (i_238_ >= 1 && i_238_ <= 5
 	    && null != class8.aStringArray85[i_238_ - 1])
@@ -19786,8 +19786,8 @@ public final class Class686
     static final void method12370(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 1633182577));
 	if (195314511 * class8.anInt114 == -1
 	    && 593405105 * class8.anInt113 >= 0)
@@ -19876,7 +19876,7 @@ public final class Class686
     
     static final void method12382(Class683 class683) {
 	int i = 77907787 * Class99.anInt1213;
-	int i_282_ = Class308.anInt3426 * -1352795477;
+	int i_282_ = SunDefinition.anInt3426 * -1352795477;
 	int i_283_ = -1;
 	if (Class695.aBool8757) {
 	    Class18[] class18s = Class63.method1389((byte) -50);
@@ -19909,7 +19909,7 @@ public final class Class686
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662];
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class210.method3922(i, i_285_, false, -1179952119);
+	    = AnimationSkin.method3922(i, i_285_, false, -1179952119);
     }
     
     static final void method12385(Class683 class683) {
@@ -20187,7 +20187,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, 564658411))
 	       .anInt73) * 1345227511;
     }
@@ -20516,7 +20516,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, 713481269))
 	       .anInt60) * -2006916027;
     }
@@ -20562,7 +20562,7 @@ public final class Class686
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 1];
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class210.method3922(i, i_304_, true, -1179952119);
+	    = AnimationSkin.method3922(i, i_304_, true, -1179952119);
     }
     
     static final void method12455(Class683 class683) {
@@ -20922,8 +20922,8 @@ public final class Class686
 	if (class259.anInt2630 * 307215955 != 6
 	    && 2 != 307215955 * class259.anInt2630)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(class259.anInt2631 * -961419549, 1578894516));
 	if (null == class259.aClass288_2769)
@@ -21114,7 +21114,7 @@ public final class Class686
 	Class259 class259 = class679.aClass259_8623;
 	Class245 class245 = class679.aClass245_8622;
 	Class259 class259_328_
-	    = Class65.method1432(class245, class259, 93078391);
+	    = WorldTile.method1432(class245, class259, 93078391);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
 	    = (null == class259_328_ ? -1
@@ -21346,7 +21346,7 @@ public final class Class686
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 2];
 	int i_339_
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 3];
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_338_, 2095856719);
 	if (class65.aClass495_699.method80() != i
 	    || class65.aClass495_698.method80() != i_337_)
@@ -21439,7 +21439,7 @@ public final class Class686
 	    = class683.anIntArray8661[2 + class683.anInt8662 * 501271953];
 	if (i_340_ == -1)
 	    throw new RuntimeException();
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_340_, -1569701369);
 	if (class65.aClass495_698.method80() != i)
 	    throw new RuntimeException();
@@ -21464,14 +21464,14 @@ public final class Class686
 	    = new StringBuilder().append
 		  (Class453_Sub4.method15959(-1527038723)).append
 		  (string).toString();
-	Class299.method5393(string_342_, bool, client.aBool11241, -1971737035);
+	NPCDefinitions.method5393(string_342_, bool, client.aBool11241, -1971737035);
     }
     
     static final void method12537(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i, 1341982889));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -21481,8 +21481,8 @@ public final class Class686
     static final void method12538(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i, 750596915));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -21509,7 +21509,7 @@ public final class Class686
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 2];
 	if (i_344_ == -1)
 	    throw new RuntimeException();
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_344_, -1922692999);
 	if (class65.aClass495_698.method80() != i)
 	    throw new RuntimeException();
@@ -21530,8 +21530,8 @@ public final class Class686
 			[(class683.anInt8644 -= 1285561025) * 1373599041]);
 	if (i == -1)
 	    throw new RuntimeException();
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i, 1327708143));
 	if (Class495.aClass495_5387 != class65.aClass495_698)
 	    throw new RuntimeException();
@@ -21568,7 +21568,7 @@ public final class Class686
 	    = class683.anIntArray8661[4 + class683.anInt8662 * 501271953];
 	if (i_349_ == -1)
 	    throw new RuntimeException();
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_349_, 1324338436);
 	if (class65.aClass495_699.method80() != i_348_)
 	    throw new RuntimeException();
@@ -21603,7 +21603,7 @@ public final class Class686
 	    = class683.anIntArray8661[4 + class683.anInt8662 * 501271953];
 	if (i_353_ == -1)
 	    throw new RuntimeException();
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_353_, 1543046659);
 	if (class65.aClass495_699.method80() != i_352_)
 	    throw new RuntimeException();
@@ -21629,7 +21629,7 @@ public final class Class686
 			[(class683.anInt8644 -= 1285561025) * 1373599041]);
 	if (-1 == i_356_)
 	    throw new RuntimeException();
-	Class65 class65 = (Class65) Class525_Sub22.aClass40_Sub15_10585
+	WorldTile class65 = (WorldTile) Class525_Sub22.aClass40_Sub15_10585
 					.method76(i_356_, -1308576622);
 	if (class65.aClass495_699.method80() != i)
 	    throw new RuntimeException();
@@ -22566,19 +22566,19 @@ public final class Class686
     static final void method12621(Class683 class683) {
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class58.anInt635 * -51766813;
+	    = ConfigEntry.anInt635 * -51766813;
     }
     
     static final void method12622(Class683 class683) {
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class58.anInt635 * -51766813;
+	    = ConfigEntry.anInt635 * -51766813;
     }
     
     static final void method12623(Class683 class683) {
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class58.anInt635 * -51766813;
+	    = ConfigEntry.anInt635 * -51766813;
     }
     
     static final void method12624(Class683 class683) {
@@ -23151,7 +23151,7 @@ public final class Class686
 	if (bool)
 	    Class555.method9242(class245, class259, 108507919);
 	else
-	    Class458.method7569(class245, class259, (byte) 0);
+	    JS5.method7569(class245, class259, (byte) 0);
     }
     
     static final void method12685(Class683 class683) {
@@ -23173,7 +23173,7 @@ public final class Class686
     }
     
     static final void method12687(Class683 class683) {
-	Class154.method2454(class683,
+	MagnetConfig.method2454(class683,
 			    Class581.aClass656_Sub1_Sub3_Sub1_Sub1_7705,
 			    (byte) -57);
     }
@@ -25130,7 +25130,7 @@ public final class Class686
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
 	    = new StringBuilder().append
-		  (Class602.method9962(((long) (class683.anIntArray8661
+		  (ObjectDefinitions.method9962(((long) (class683.anIntArray8661
 						[(class683.anInt8662
 						  -= 1552651121) * 501271953])
 					* 60000L),
@@ -25163,7 +25163,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, -2111201700))
 	       .aString66);
     }
@@ -25173,7 +25173,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, 1907717539))
 	       .aString66);
     }
@@ -25183,7 +25183,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, 1377593825))
 	       .aString66);
     }
@@ -25193,8 +25193,8 @@ public final class Class686
 	int i = class683.anIntArray8661[class683.anInt8662 * 501271953];
 	int i_466_
 	    = class683.anIntArray8661[1 + class683.anInt8662 * 501271953];
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 1919184879));
 	if (i_466_ >= 1 && i_466_ <= 5
 	    && class8.aStringArray84[i_466_ - 1] != null)
@@ -25232,7 +25232,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, -633579203))
 	       .anInt73) * 1345227511;
     }
@@ -25256,7 +25256,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, -1991821336))
 	       .anInt73) * 1345227511;
     }
@@ -25266,7 +25266,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, 1428102791))
 	       .anInt73) * 1345227511;
     }
@@ -25276,7 +25276,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, -2080496848))
 	       .anInt73) * 1345227511;
     }
@@ -25284,8 +25284,8 @@ public final class Class686
     static final void method12885(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 273232044));
 	if (-1 == -1095552769 * class8.anInt77
 	    && -1210387357 * class8.anInt59 >= 0)
@@ -25301,8 +25301,8 @@ public final class Class686
     static final void method12886(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -867945053));
 	if (class8.anInt77 * -1095552769 >= 0
 	    && -1210387357 * class8.anInt59 >= 0)
@@ -25339,8 +25339,8 @@ public final class Class686
 		      - 1);
 	if (class259.anInt2630 * 307215955 != 6)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(-961419549 * class259.anInt2631, -1229884641));
 	if (class259.aClass288_2769 == null)
@@ -25362,8 +25362,8 @@ public final class Class686
 		      - 1);
 	if (class259.anInt2630 * 307215955 != 6)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(-961419549 * class259.anInt2631, -1807581371));
 	if (class259.aClass288_2769 == null)
@@ -25391,8 +25391,8 @@ public final class Class686
     static final void method12891(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 1280845627));
 	if (class8.anInt114 * 195314511 >= 0
 	    && class8.anInt113 * 593405105 >= 0)
@@ -25412,8 +25412,8 @@ public final class Class686
     static final void method12893(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -239463317));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -25423,8 +25423,8 @@ public final class Class686
     static final void method12894(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -1424642778));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -25446,7 +25446,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, -582390797))
 	       .anInt112) * 334066519;
     }
@@ -25464,7 +25464,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, 144577656))
 	       .anInt112) * 334066519;
     }
@@ -25483,7 +25483,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i, 430239210))
 	       .aBool83) ? 1 : 0;
     }
@@ -25499,13 +25499,13 @@ public final class Class686
 	if (class88.method1661(1208253711))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class8)
+		= ((ItemDefinitions)
 		   Class313_Sub2.aClass40_Sub22_10106.method76(i, -1400618762))
 		      .method641(i_470_, class88.aString892, (byte) -49);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class8)
+		= (((ItemDefinitions)
 		    Class313_Sub2.aClass40_Sub22_10106.method76(i, 902623689))
 		       .method629
 		   (i_470_, 2053564367 * class88.anInt893, (byte) 112));
@@ -25522,13 +25522,13 @@ public final class Class686
 	if (class88.method1661(1043925829))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class8)
+		= ((ItemDefinitions)
 		   Class313_Sub2.aClass40_Sub22_10106.method76(i, 2062631586))
 		      .method641(i_471_, class88.aString892, (byte) 19);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class8)
+		= (((ItemDefinitions)
 		    Class313_Sub2.aClass40_Sub22_10106.method76(i, 1178399499))
 		       .method629
 		   (i_471_, 2053564367 * class88.anInt893, (byte) 29));
@@ -25539,8 +25539,8 @@ public final class Class686
 	int i = class683.anIntArray8661[class683.anInt8662 * 501271953];
 	int i_472_
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662] - 1;
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 1447444183));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -25552,8 +25552,8 @@ public final class Class686
 	int i = class683.anIntArray8661[class683.anInt8662 * 501271953];
 	int i_473_
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662] - 1;
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -715209171));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -25565,8 +25565,8 @@ public final class Class686
 	int i = class683.anIntArray8661[class683.anInt8662 * 501271953];
 	int i_474_
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662] - 1;
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 607154633));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -25752,8 +25752,8 @@ public final class Class686
     static final void method12917(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 1291284598));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -25783,8 +25783,8 @@ public final class Class686
     static final void method12919(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 147995137));
 	int i_486_;
 	if (class8.aBool90)
@@ -25803,8 +25803,8 @@ public final class Class686
     static final void method12920(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -1330532096));
 	int i_487_;
 	if (class8.aBool90)
@@ -25823,8 +25823,8 @@ public final class Class686
     static final void method12921(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -2058415800));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -25854,8 +25854,8 @@ public final class Class686
     static final void method12924(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -151684344));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -25892,13 +25892,13 @@ public final class Class686
 	if (class88.method1661(1849099922))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class299)
+		= ((NPCDefinitions)
 		   Class168_Sub1.aClass40_Sub7_9112.method76(i, 51570158))
 		      .method5375(i_491_, class88.aString892, 501271953);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class299)
+		= (((NPCDefinitions)
 		    Class168_Sub1.aClass40_Sub7_9112.method76(i, -1301892242))
 		       .method5368
 		   (i_491_, class88.anInt893 * 2053564367, (byte) 1));
@@ -25915,13 +25915,13 @@ public final class Class686
 	if (class88.method1661(1397779264))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class299)
+		= ((NPCDefinitions)
 		   Class168_Sub1.aClass40_Sub7_9112.method76(i, -162776414))
 		      .method5375(i_492_, class88.aString892, 501271953);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class299)
+		= (((NPCDefinitions)
 		    Class168_Sub1.aClass40_Sub7_9112.method76(i, -1426065406))
 		       .method5368
 		   (i_492_, class88.anInt893 * 2053564367, (byte) 1));
@@ -25938,13 +25938,13 @@ public final class Class686
 	if (class88.method1661(2019185810))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class602) client.aClass507_11137.method8362((byte) -1)
+		= ((ObjectDefinitions) client.aClass507_11137.method8362((byte) -1)
 				  .method76(i, -1170952544))
 		      .method9911(i_493_, class88.aString892, -518858954);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class602) client.aClass507_11137.method8362((byte) -1)
+		= (((ObjectDefinitions) client.aClass507_11137.method8362((byte) -1)
 				   .method76(i, 863635395))
 		       .method9910
 		   (i_493_, 2053564367 * class88.anInt893, (byte) 21));
@@ -25993,7 +25993,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class194)
+	    = (((AnimationDefinition)
 		Class685.aClass40_Sub8_8691.method76(i, -1112688263)).anInt2157
 	       * -1090465317);
     }
@@ -26003,7 +26003,7 @@ public final class Class686
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class194) Class685.aClass40_Sub8_8691.method76(i, -398686878))
+	    = (((AnimationDefinition) Class685.aClass40_Sub8_8691.method76(i, -398686878))
 	       .anInt2157) * -1090465317;
     }
     
@@ -26473,7 +26473,7 @@ public final class Class686
 	    = class683.anIntArray8661[501271953 * class683.anInt8662 + 1];
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class210.method3922(i, i_506_, true, -1179952119);
+	    = AnimationSkin.method3922(i, i_506_, true, -1179952119);
     }
     
     static final void method12951(Class683 class683) {
@@ -26492,14 +26492,14 @@ public final class Class686
 				    class96.aClass6_1169, 1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  682632520);
-	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		     * -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  -2130419005);
 	    Class404.method6606(class525_sub15.aClass525_Sub38_Sub2_10546,
 				string_507_, (byte) 4);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i,
 		 -63164043);
 	    class96.method1794(class525_sub15, (short) 9211);
@@ -26522,14 +26522,14 @@ public final class Class686
 				    class96.aClass6_1169, 1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  1053798238);
-	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		     * -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  1199821075);
 	    Class404.method6606(class525_sub15.aClass525_Sub38_Sub2_10546,
 				string_508_, (byte) 4);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i,
 		 395130590);
 	    class96.method1794(class525_sub15, (short) 14598);
@@ -26552,14 +26552,14 @@ public final class Class686
 				    class96.aClass6_1169, 1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  1779828351);
-	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		     * -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  769112135);
 	    Class404.method6606(class525_sub15.aClass525_Sub38_Sub2_10546,
 				string_509_, (byte) 4);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i,
 		 -1711107960);
 	    class96.method1794(class525_sub15, (short) 7314);
@@ -26835,7 +26835,7 @@ public final class Class686
 	    = Class16.method767(Class412.aClass412_4268, class96.aClass6_1169,
 				1977859884);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0, -704806130);
-	int i_513_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i_513_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		      * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(i, -723967890);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16602
@@ -26844,7 +26844,7 @@ public final class Class686
 	    (class525_sub15.aClass525_Sub38_Sub2_10546,
 	     class683.aClass401_8651.anIntArray4132, (byte) 40);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i_513_,
 	     (byte) 7);
 	class96.method1794(class525_sub15, (short) 16770);
@@ -26858,7 +26858,7 @@ public final class Class686
 	    = Class16.method767(Class412.aClass412_4268, class96.aClass6_1169,
 				1977859884);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0, -1460874991);
-	int i_514_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i_514_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		      * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(i, -999483426);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16602
@@ -26867,7 +26867,7 @@ public final class Class686
 	    (class525_sub15.aClass525_Sub38_Sub2_10546,
 	     class683.aClass401_8651.anIntArray4132, (byte) 32);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i_514_,
 	     (byte) 7);
 	class96.method1794(class525_sub15, (short) 26430);
@@ -26880,7 +26880,7 @@ public final class Class686
     }
     
     static final void method12983(Class683 class683) {
-	Class154.method2454(class683, class683.aClass656_Sub1_Sub3_Sub1_8654,
+	MagnetConfig.method2454(class683, class683.aClass656_Sub1_Sub3_Sub1_8654,
 			    (byte) -76);
     }
     
@@ -26909,7 +26909,7 @@ public final class Class686
 	    = Class16.method767(Class412.aClass412_4258, class96.aClass6_1169,
 				1977859884);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0, -924280623);
-	int i = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		 * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 							      -1920824366);
@@ -26919,7 +26919,7 @@ public final class Class686
 	    (class525_sub15.aClass525_Sub38_Sub2_10546,
 	     class683.aClass401_8651.anIntArray4132, (byte) 54);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i,
 	     (byte) 7);
 	class96.method1794(class525_sub15, (short) 7643);
@@ -27219,7 +27219,7 @@ public final class Class686
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662];
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class210.method3922(i, i_528_, false, -1179952119);
+	    = AnimationSkin.method3922(i, i_528_, false, -1179952119);
     }
     
     static final void method13010(Class683 class683) {
@@ -28626,7 +28626,7 @@ public final class Class686
 				    class96.aClass6_1169, 1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -270223382);
-	    int i_549_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i_549_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			  * -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(i,
 								  -1694261816);
@@ -28636,7 +28636,7 @@ public final class Class686
 				string, (byte) 4);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
 		(-1133521593 * (class525_sub15.aClass525_Sub38_Sub2_10546
-				.pos) - i_549_,
+				.index) - i_549_,
 		 (byte) 7);
 	    class96.method1794(class525_sub15, (short) 9279);
 	}
@@ -28976,7 +28976,7 @@ public final class Class686
 					   290178427);
 		Class525_Sub34.method16571(231522213);
 	    }
-	} catch (Object object) {
+	} catch (Exception object) {
 	    Class525_Sub34.method16571(447971693);
 	    throw object;
 	}
@@ -29005,7 +29005,7 @@ public final class Class686
     
     static final void method13123(Class683 class683) {
 	int i = 77907787 * Class99.anInt1213;
-	int i_558_ = Class308.anInt3426 * -1352795477;
+	int i_558_ = SunDefinition.anInt3426 * -1352795477;
 	int i_559_ = -1;
 	if (Class695.aBool8757) {
 	    Class18[] class18s = Class63.method1389((byte) -110);
@@ -29306,7 +29306,7 @@ public final class Class686
 	    = new StringBuilder().append
 		  (Class453_Sub4.method15959(-1527038723)).append
 		  (string).toString();
-	Class299.method5393(string_566_, bool, client.aBool11241, -1569460552);
+	NPCDefinitions.method5393(string_566_, bool, client.aBool11241, -1569460552);
     }
     
     static final void method13153(Class683 class683) {
@@ -29953,7 +29953,7 @@ public final class Class686
 				    class96.aClass6_1169, 1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -2010920716);
-	    int i_571_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i_571_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			  * -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(i,
 								  -1009438148);
@@ -29963,7 +29963,7 @@ public final class Class686
 				string, (byte) 4);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
 		(-1133521593 * (class525_sub15.aClass525_Sub38_Sub2_10546
-				.pos) - i_571_,
+				.index) - i_571_,
 		 (byte) 7);
 	    class96.method1794(class525_sub15, (short) 5020);
 	}
@@ -30517,7 +30517,7 @@ public final class Class686
 	    Class185.method3616(class683, -2113982861);
 	    break;
 	case 16:
-	    Class602.method9960(class683, (byte) 15);
+	    ObjectDefinitions.method9960(class683, (byte) 15);
 	    break;
 	case 968:
 	    Class420.method6742(class683, 5801018);
@@ -30643,7 +30643,7 @@ public final class Class686
 	    Class618.method10161(class683, (byte) 19);
 	    break;
 	case 47:
-	    Class210.method3923(class683, 429987899);
+	    AnimationSkin.method3923(class683, 429987899);
 	    break;
 	case 24:
 	    Class549.method9117(class683, -849685214);
@@ -30682,7 +30682,7 @@ public final class Class686
 	    Class477.method7784(class683, 1393684824);
 	    break;
 	case 705:
-	    Class194.method3731(class683, 552531351);
+	    AnimationDefinition.method3731(class683, 552531351);
 	    break;
 	case 186:
 	    Class525_Sub16_Sub10.method18418(class683, (byte) 30);
@@ -30984,7 +30984,7 @@ public final class Class686
 	    Class256.method4653(class683, 2058598908);
 	    break;
 	case 1117:
-	    Class171.method2736(class683, -16777216);
+	    BillBoardConfig.method2736(class683, -16777216);
 	    break;
 	case 558:
 	    Class261.method4770(class683, (byte) 58);
@@ -31023,7 +31023,7 @@ public final class Class686
 	    Class636.method10472(class683, (byte) 48);
 	    break;
 	case 501:
-	    Class171.method2737(class683, -705028182);
+	    BillBoardConfig.method2737(class683, -705028182);
 	    break;
 	case 1196:
 	    Class578.method9580(class683, (byte) 100);
@@ -31041,7 +31041,7 @@ public final class Class686
 	    Class103.method1890(class683, 2111592257);
 	    break;
 	case 947:
-	    Class154.method2449(class683, -925268113);
+	    MagnetConfig.method2449(class683, -925268113);
 	    break;
 	case 930:
 	    Class218.method4198(class683, -1145268734);
@@ -31275,7 +31275,7 @@ public final class Class686
 	    Class384.method6436(class683, (byte) 68);
 	    break;
 	case 354:
-	    Class58.method1223(class683, (byte) -13);
+	    ConfigEntry.method1223(class683, (byte) -13);
 	    break;
 	case 93:
 	    Class313.method5646(class683, -1328454339);
@@ -31422,7 +31422,7 @@ public final class Class686
 	    Class57.method1211(class683, 1806219741);
 	    break;
 	case 1078:
-	    Class299.method5394(class683, -2107646653);
+	    NPCDefinitions.method5394(class683, -2107646653);
 	    break;
 	case 846:
 	    Class283.method5217(class683, -25350982);
@@ -31691,7 +31691,7 @@ public final class Class686
 	    Class262.method4779(class683, 938415966);
 	    break;
 	case 926:
-	    Class504.method8314(class683, -467553597);
+	    BillBoardDefinitions.method8314(class683, -467553597);
 	    break;
 	case 108:
 	    Class655.method10804(class683, 1937357354);
@@ -31814,7 +31814,7 @@ public final class Class686
 	    Class670.method11043(class683, 1051584679);
 	    break;
 	case 201:
-	    Class458.method7568(class683, -1259613115);
+	    JS5.method7568(class683, -1259613115);
 	    break;
 	case 385:
 	    Class515.method8596(class683, (short) 771);
@@ -32075,7 +32075,7 @@ public final class Class686
 	    Class425.method6774(class683, (byte) -26);
 	    break;
 	case 159:
-	    Class308.method5448(class683, (byte) 35);
+	    SunDefinition.method5448(class683, (byte) 35);
 	    break;
 	case 1138:
 	    Class604.method9987(class683, (byte) 0);
@@ -32333,10 +32333,10 @@ public final class Class686
 	    Class166.method2676(class683, (byte) 66);
 	    break;
 	case 438:
-	    Class210.method3924(class683, (byte) -65);
+	    AnimationSkin.method3924(class683, (byte) -65);
 	    break;
 	case 1282:
-	    Class504.method8316(class683, (short) -26739);
+	    BillBoardDefinitions.method8316(class683, (short) -26739);
 	    break;
 	case 1073:
 	    Class276.method5114(class683, -1731087859);
@@ -32609,7 +32609,7 @@ public final class Class686
 	    Class660.method10929(class683, (byte) 1);
 	    break;
 	case 862:
-	    Class8.method676(class683, 11721826);
+	    ItemDefinitions.method676(class683, 11721826);
 	    break;
 	case 87:
 	    Class557.method9361(class683, 1924337397);
@@ -32636,7 +32636,7 @@ public final class Class686
 	    Class318.method5672(class683, 2053761141);
 	    break;
 	case 716:
-	    Class154.method2451(class683, 236089630);
+	    MagnetConfig.method2451(class683, 236089630);
 	    break;
 	case 282:
 	    Class525_Sub19.method16296(class683, -401266386);
@@ -32714,7 +32714,7 @@ public final class Class686
 	    Class486.method7855(class683, -509477169);
 	    break;
 	case 966:
-	    Class171.method2739(class683, (byte) -98);
+	    BillBoardConfig.method2739(class683, (byte) -98);
 	    break;
 	case 602:
 	    Class321.method5716(class683, 1984628421);
@@ -33002,7 +33002,7 @@ public final class Class686
 	    Class272.method5021(class683, 651858412);
 	    break;
 	case 813:
-	    Class65.method1434(class683, 1567330927);
+	    WorldTile.method1434(class683, 1567330927);
 	    break;
 	case 285:
 	    Class381.method6407(class683, -904902031);
@@ -33011,13 +33011,13 @@ public final class Class686
 	    Class64.method1403(class683, 1079963847);
 	    break;
 	case 720:
-	    Class308.method5450(class683, (short) 508);
+	    SunDefinition.method5450(class683, (short) 508);
 	    break;
 	case 1083:
 	    Class535.method8866(class683, (short) 9702);
 	    break;
 	case 699:
-	    Class602.method9961(class683, 1981523879);
+	    ObjectDefinitions.method9961(class683, 1981523879);
 	    break;
 	case 26:
 	    Class306.method5427(class683, (byte) 97);
@@ -33224,7 +33224,7 @@ public final class Class686
 	    Class181.method3124(class683, -1055017477);
 	    break;
 	case 839:
-	    Class8.method675(class683, -1966249349);
+	    ItemDefinitions.method675(class683, -1966249349);
 	    break;
 	case 311:
 	    Class30.method940(class683, (byte) -123);
@@ -33265,7 +33265,7 @@ public final class Class686
 	    Class451.method7335(class683, (byte) 1);
 	    break;
 	case 702:
-	    Class194.method3732(class683, (byte) 68);
+	    AnimationDefinition.method3732(class683, (byte) 68);
 	    break;
 	case 1220:
 	    Class303.method5414(class683, -1309171888);
@@ -33316,7 +33316,7 @@ public final class Class686
 	    Class407.method6636(class683, 717676307);
 	    break;
 	case 475:
-	    Class504.method8317(class683, -369581323);
+	    BillBoardDefinitions.method8317(class683, -369581323);
 	    break;
 	case 518:
 	    Class36.method974(class683, 371266638);
@@ -33334,7 +33334,7 @@ public final class Class686
 	    Class175.method2899(class683, 1685725734);
 	    break;
 	case 1297:
-	    Class171.method2738(class683, 1175759998);
+	    BillBoardConfig.method2738(class683, 1175759998);
 	    break;
 	case 1221:
 	    Class453.method7357(class683, (short) 128);
@@ -33592,7 +33592,7 @@ public final class Class686
 	    Class270.method5008(class683, -1823092688);
 	    break;
 	case 258:
-	    Class154.method2450(class683, -1991124560);
+	    MagnetConfig.method2450(class683, -1991124560);
 	    break;
 	case 37:
 	    Class61.method1369(class683, 1365727783);
@@ -33775,7 +33775,7 @@ public final class Class686
 	    Class77.method1563(class683, 501271953);
 	    break;
 	case 1:
-	    Class210.method3926(class683, 1635505061);
+	    AnimationSkin.method3926(class683, 1635505061);
 	    break;
 	case 427:
 	    Class474.method7757(class683, 1603645401);
@@ -33910,7 +33910,7 @@ public final class Class686
 	    Class411.method6674(class683, (byte) 60);
 	    break;
 	case 375:
-	    Class154.method2452(class683, 953809099);
+	    MagnetConfig.method2452(class683, 953809099);
 	    break;
 	case 618:
 	    Class74.method1551(class683, -1559118994);
@@ -35011,19 +35011,19 @@ public final class Class686
     }
     
     static final void method13273(Class683 class683) {
-	Class154.method2454(class683,
+	MagnetConfig.method2454(class683,
 			    Class581.aClass656_Sub1_Sub3_Sub1_Sub1_7705,
 			    (byte) -72);
     }
     
     static final void method13274(Class683 class683) {
-	Class154.method2454(class683,
+	MagnetConfig.method2454(class683,
 			    Class581.aClass656_Sub1_Sub3_Sub1_Sub1_7705,
 			    (byte) -55);
     }
     
     static final void method13275(Class683 class683) {
-	Class154.method2454(class683, class683.aClass656_Sub1_Sub3_Sub1_8654,
+	MagnetConfig.method2454(class683, class683.aClass656_Sub1_Sub3_Sub1_8654,
 			    (byte) -107);
     }
     
@@ -35521,7 +35521,7 @@ public final class Class686
     static final void method13309(Class683 class683) {
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class602.method9959(-2126701755);
+	    = ObjectDefinitions.method9959(-2126701755);
     }
     
     static final void method13310(Class683 class683) {
@@ -35964,13 +35964,13 @@ public final class Class686
 	if (class88.method1661(643744466))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class299)
+		= ((NPCDefinitions)
 		   Class168_Sub1.aClass40_Sub7_9112.method76(i, -1732193581))
 		      .method5375(i_715_, class88.aString892, 501271953);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class299)
+		= (((NPCDefinitions)
 		    Class168_Sub1.aClass40_Sub7_9112.method76(i, 1201810171))
 		       .method5368
 		   (i_715_, class88.anInt893 * 2053564367, (byte) 1));
@@ -36172,8 +36172,8 @@ public final class Class686
     static final void method13370(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, -1430165085));
 	if (class8.anInt114 * 195314511 >= 0
 	    && class8.anInt113 * 593405105 >= 0)
@@ -36257,8 +36257,8 @@ public final class Class686
 	int i = class683.anIntArray8661[501271953 * class683.anInt8662];
 	int i_719_
 	    = class683.anIntArray8661[class683.anInt8662 * 501271953 + 1];
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i, 2122213055));
 	if (Class495.aClass495_5387 == class65.aClass495_698) {
 	    /* empty */
@@ -36276,7 +36276,7 @@ public final class Class686
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
 	    = new StringBuilder().append
-		  (Class602.method9962(((long) (class683.anIntArray8661
+		  (ObjectDefinitions.method9962(((long) (class683.anIntArray8661
 						[(class683.anInt8662
 						  -= 1552651121) * 501271953])
 					* 60000L),
@@ -36763,13 +36763,13 @@ public final class Class686
 	if (class88.method1661(1939507691))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class194)
+		= ((AnimationDefinition)
 		   Class685.aClass40_Sub8_8691.method76(i, 603538774))
 		      .method3728(i_725_, class88.aString892, (byte) 63);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class194)
+		= (((AnimationDefinition)
 		    Class685.aClass40_Sub8_8691.method76(i, 619562907))
 		       .method3722
 		   (i_725_, class88.anInt893 * 2053564367, (byte) -30));
@@ -36972,8 +36972,8 @@ public final class Class686
     static final void method13445(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 617108771));
 	if (195314511 * class8.anInt114 == -1
 	    && 593405105 * class8.anInt113 >= 0)
@@ -37042,8 +37042,8 @@ public final class Class686
     static final void method13452(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 520738096));
 	if (class8.anInt114 * 195314511 >= 0
 	    && class8.anInt113 * 593405105 >= 0)
@@ -37996,7 +37996,7 @@ public final class Class686
     static final void method13564(Class683 class683) {
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class58.anInt635 * -51766813;
+	    = ConfigEntry.anInt635 * -51766813;
     }
     
     static final void method13565(Class683 class683) {
@@ -40136,7 +40136,7 @@ public final class Class686
 	    = Class16.method767(Class412.aClass412_4268, class96.aClass6_1169,
 				1977859884);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0, -1260875201);
-	int i_767_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	int i_767_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		      * -1133521593);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16735(i, -1258224541);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16602
@@ -40145,7 +40145,7 @@ public final class Class686
 	    (class525_sub15.aClass525_Sub38_Sub2_10546,
 	     class683.aClass401_8651.anIntArray4132, (byte) 23);
 	class525_sub15.aClass525_Sub38_Sub2_10546.method16617
-	    ((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    ((class525_sub15.aClass525_Sub38_Sub2_10546.index
 	      * -1133521593) - i_767_,
 	     (byte) 7);
 	class96.method1794(class525_sub15, (short) 13766);
@@ -40315,7 +40315,7 @@ public final class Class686
 	Class259 class259 = class679.aClass259_8623;
 	Class245 class245 = class679.aClass245_8622;
 	Class259 class259_772_
-	    = Class65.method1432(class245, class259, 93078391);
+	    = WorldTile.method1432(class245, class259, 93078391);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
 	    = (null == class259_772_ ? -1
@@ -40356,8 +40356,8 @@ public final class Class686
     static final void method13789(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 962146172));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -40386,8 +40386,8 @@ public final class Class686
 			[(class683.anInt8644 -= 1285561025) * 1373599041]);
 	if (i == -1)
 	    throw new RuntimeException();
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i, -1162206281));
 	if (Class495.aClass495_5387 != class65.aClass495_698)
 	    throw new RuntimeException();
@@ -41077,7 +41077,7 @@ public final class Class686
 	    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 	       class683.aClass656_Sub1_Sub3_Sub1_8654);
 	String string = class656_sub1_sub3_sub1_sub2.aString12264;
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (class299.anIntArray3323 != null) {
 	    class299
 		= class299.method5386(Class532.aClass111_7170,
@@ -41237,7 +41237,7 @@ public final class Class686
 	    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 	       class683.aClass656_Sub1_Sub3_Sub1_8654);
 	boolean bool = false;
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (class299.anIntArray3323 != null)
 	    class299
 		= class299.method5386(Class532.aClass111_7170,
@@ -41254,7 +41254,7 @@ public final class Class686
 	    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 	       class683.aClass656_Sub1_Sub3_Sub1_8654);
 	boolean bool = false;
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (class299.anIntArray3323 != null)
 	    class299
 		= class299.method5386(Class532.aClass111_7170,
@@ -41270,7 +41270,7 @@ public final class Class686
 	Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2
 	    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 	       class683.aClass656_Sub1_Sub3_Sub1_8654);
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (class299.anIntArray3323 != null)
 	    class299
 		= class299.method5386(Class532.aClass111_7170,
@@ -41284,7 +41284,7 @@ public final class Class686
 	Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2
 	    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 	       class683.aClass656_Sub1_Sub3_Sub1_8654);
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (class299.anIntArray3323 != null)
 	    class299
 		= class299.method5386(Class532.aClass111_7170,
@@ -41352,8 +41352,8 @@ public final class Class686
     static final void method13890(Class683 class683) {
 	int i = (class683.anIntArray8661
 		 [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i, 1068851057));
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
@@ -41594,8 +41594,8 @@ public final class Class686
 	if (6 != 307215955 * class259.anInt2630
 	    && 2 != class259.anInt2630 * 307215955)
 	    throw new RuntimeException("");
-	Class299 class299
-	    = ((Class299)
+	NPCDefinitions class299
+	    = ((NPCDefinitions)
 	       Class168_Sub1.aClass40_Sub7_9112
 		   .method76(-961419549 * class259.anInt2631, -353998163));
 	if (null == class259.aClass288_2769)

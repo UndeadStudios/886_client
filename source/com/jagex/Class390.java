@@ -43,11 +43,11 @@ public class Class390 implements Interface45
 			     [class525_sub38.readUnsignedByte(1479122321)]);
 	Class396 class396 = (Class643.method10595((byte) 60)
 			     [class525_sub38.readUnsignedByte(1051222769)]);
-	int i = class525_sub38.method16625((byte) 107);
-	int i_6_ = class525_sub38.method16625((byte) -77);
+	int i = class525_sub38.readSmart((byte) 107);
+	int i_6_ = class525_sub38.readSmart((byte) -77);
 	int i_7_ = class525_sub38.readUnsignedShort((byte) 34);
 	int i_8_ = class525_sub38.readUnsignedShort((byte) 44);
-	int i_9_ = class525_sub38.method16625((byte) -26);
+	int i_9_ = class525_sub38.readSmart((byte) -26);
 	int i_10_ = class525_sub38.readBigSmart(-2043778683);
 	int i_11_ = class525_sub38.readInt(1079449142);
 	return new Class390(class395, class396, i, i_6_, i_7_, i_8_, i_9_,

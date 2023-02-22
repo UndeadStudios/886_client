@@ -899,10 +899,10 @@ public class Class319_Sub2 extends Class319
 	    if (class656_sub1_sub3_sub1.aClass689_11987.method14021(1503841998)
 		&& !class656_sub1_sub3_sub1.aClass689_11987
 			.method14030(-890040739)) {
-		Class194 class194 = class656_sub1_sub3_sub1.aClass689_11987
+		AnimationDefinition class194 = class656_sub1_sub3_sub1.aClass689_11987
 					.method14058(222240450);
 		if (class656_sub1_sub3_sub1.anInt11970 * -1541411695 > 0
-		    && class194.anInt2166 * -83500787 == 0) {
+		    && class194.animatingPrecedence * -83500787 == 0) {
 		    class656_sub1_sub3_sub1.anInt12019 += 473295235;
 		    Class159.anInt1756
 			= Class684.aClass684_8673.aByte8666 * -380438729;
@@ -910,7 +910,7 @@ public class Class319_Sub2 extends Class319
 		    return;
 		}
 		if (class656_sub1_sub3_sub1.anInt11970 * -1541411695 <= 0
-		    && 0 == class194.anInt2167 * -764414887) {
+		    && 0 == class194.walkingPrecedence * -764414887) {
 		    class656_sub1_sub3_sub1.anInt12019 += 473295235;
 		    Class159.anInt1756
 			= Class684.aClass684_8673.aByte8666 * -380438729;
@@ -933,13 +933,13 @@ public class Class319_Sub2 extends Class319
 				       1029295687));
 		    if (class674.aBool8608
 			&& -1 != 1700860103 * class674.anInt8596) {
-			Class194 class194
-			    = (Class194) (Class685.aClass40_Sub8_8691.method76
+			AnimationDefinition class194
+			    = (AnimationDefinition) (Class685.aClass40_Sub8_8691.method76
 					  (1700860103 * class674.anInt8596,
 					   -1741138606));
 			if ((-1541411695 * class656_sub1_sub3_sub1.anInt11970
 			     > 0)
-			    && 0 == -83500787 * class194.anInt2166) {
+			    && 0 == -83500787 * class194.animatingPrecedence) {
 			    class656_sub1_sub3_sub1.anInt12019 += 473295235;
 			    Class159.anInt1756
 				= (-380438729
@@ -949,7 +949,7 @@ public class Class319_Sub2 extends Class319
 			}
 			if ((class656_sub1_sub3_sub1.anInt11970 * -1541411695
 			     <= 0)
-			    && -764414887 * class194.anInt2167 == 0) {
+			    && -764414887 * class194.walkingPrecedence == 0) {
 			    class656_sub1_sub3_sub1.anInt12019 += 473295235;
 			    Class159.anInt1756
 				= (-380438729
@@ -1080,7 +1080,7 @@ public class Class319_Sub2 extends Class319
 			    (class656_sub1_sub3_sub1_85_
 			     = class656_sub1_sub3_sub1).anInt12021
 				= (-599510521
-				   * class656_sub1_sub3_sub1_85_.anInt12021 / 2
+				   * class656_sub1_sub3_sub1.anInt12021 / 2
 				   * 1641716663);
 			} else if (i_80_ / 2 > i_83_) {
 			    class656_sub1_sub3_sub1.anInt12021

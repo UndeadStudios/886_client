@@ -1127,7 +1127,7 @@ public class Class53
 		Class268.method4961(new StringBuilder().append("").append
 					(i_8_).toString(),
 				    1454935683);
-		Class65.method1431(125794092);
+		WorldTile.method1431(125794092);
 		Class72.method1538((byte) 0);
 		for (int i_9_ = 0; i_9_ < 10; i_9_++)
 		    System.gc();

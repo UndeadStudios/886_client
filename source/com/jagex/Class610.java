@@ -73,16 +73,16 @@ public class Class610
 	Class584.method9644(3, i_3_, i_4_, "", 1834481886);
     }
     
-    public static Class7 method10023(Class458 class458, int i, int i_5_,
-				     Interface4 interface4, int i_6_) {
-	byte[] is = class458.method7476(i, i_5_, 461701601);
+    public static Class7 method10023(JS5 class458, int i, int i_5_,
+                                     Interface4 interface4, int i_6_) {
+	byte[] is = class458.getFile(i, i_5_, 461701601);
 	if (is == null)
 	    return null;
 	return new Class7(is, interface4);
     }
     
     public static void method10024
-	(int i, int i_7_, int i_8_, int i_9_, Class602 class602,
+	(int i, int i_7_, int i_8_, int i_9_, ObjectDefinitions class602,
 	 Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2,
 	 Class656_Sub1_Sub3_Sub1_Sub1 class656_sub1_sub3_sub1_sub1,
 	 short i_10_) {
@@ -132,7 +132,7 @@ public class Class610
 	} else if (null != class656_sub1_sub3_sub1_sub2) {
 	    class525_sub2.aClass656_Sub1_Sub3_Sub1_Sub2_10424
 		= class656_sub1_sub3_sub1_sub2;
-	    Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	    NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	    if (null != class299.anIntArray3323) {
 		class525_sub2.aBool10414 = true;
 		class299

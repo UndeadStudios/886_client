@@ -2290,8 +2290,8 @@ public class Class61
 				       class525_sub23.aClass709_10586
 					   .method14351(-1155858593));
 				while (null != class525_sub13) {
-				    Class8 class8
-					= ((Class8)
+				    ItemDefinitions class8
+					= ((ItemDefinitions)
 					   (Class313_Sub2
 						.aClass40_Sub22_10106.method76
 					    ((class525_sub13.anInt10528
@@ -2420,8 +2420,8 @@ public class Class61
 			    instanceof Interface62) {
 			    Interface62 interface62
 				= (Interface62) class567.aClass656_Sub1_7606;
-			    Class602 class602
-				= (Class602) (client.aClass507_11137.method8362
+			    ObjectDefinitions class602
+				= (ObjectDefinitions) (client.aClass507_11137.method8362
 						  ((byte) -1).method76
 					      (interface62.method406((byte) 1),
 					       347104546));
@@ -2543,8 +2543,8 @@ public class Class61
     static long method1277(Interface62 interface62, int i, int i_174_) {
 	long l = 4194304L;
 	long l_175_ = -9223372036854775808L;
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       client.aClass507_11137.method8362((byte) -1)
 		   .method76(interface62.method406((byte) 1), 1405984866));
 	long l_176_
@@ -2561,8 +2561,8 @@ public class Class61
     static long method1278(Interface62 interface62, int i, int i_177_) {
 	long l = 4194304L;
 	long l_178_ = -9223372036854775808L;
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       client.aClass507_11137.method8362((byte) -1)
 		   .method76(interface62.method406((byte) 1), 523692912));
 	long l_179_
@@ -2579,8 +2579,8 @@ public class Class61
     static long method1279(Interface62 interface62, int i, int i_180_) {
 	long l = 4194304L;
 	long l_181_ = -9223372036854775808L;
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       client.aClass507_11137.method8362((byte) -1)
 		   .method76(interface62.method406((byte) 1), 1083284724));
 	long l_182_
@@ -2609,8 +2609,8 @@ public class Class61
     static long method1281(Interface62 interface62, int i, int i_183_) {
 	long l = 4194304L;
 	long l_184_ = -9223372036854775808L;
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       client.aClass507_11137.method8362((byte) -1)
 		   .method76(interface62.method406((byte) 1), -625669545));
 	long l_185_
@@ -3177,12 +3177,12 @@ public class Class61
 	int[] is = null;
 	if (Class264.method4790(class525_sub16_sub16.anInt11861 * 91103913,
 				-1967854392))
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    ((int) (-6417801577210029731L
 				    * class525_sub16_sub16.aLong11860),
 			     -990695189))).anIntArray69;
 	else if (class525_sub16_sub16.anInt11857 * 1206307707 != -1)
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    (1206307707 * class525_sub16_sub16.anInt11857,
 			     1259245725))).anIntArray69;
 	else if (Class468.method7708((91103913
@@ -3197,7 +3197,7 @@ public class Class61
 		Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2
 		    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 		       class525_sub19.anObject10571);
-		Class299 class299
+		NPCDefinitions class299
 		    = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 		if (class299.anIntArray3323 != null)
 		    class299 = class299.method5386(Class532.aClass111_7170,
@@ -3209,8 +3209,8 @@ public class Class61
 	} else if (Class36.method977((91103913
 				      * class525_sub16_sub16.anInt11861),
 				     1382735835)) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   (client.aClass507_11137.method8362((byte) -1).method76
 		    ((int) ((-6417801577210029731L
 			     * class525_sub16_sub16.aLong11860) >>> 32
@@ -4530,8 +4530,8 @@ public class Class61
 				       class525_sub23.aClass709_10586
 					   .method14351(-1556205761));
 				while (null != class525_sub13) {
-				    Class8 class8
-					= ((Class8)
+				    ItemDefinitions class8
+					= ((ItemDefinitions)
 					   (Class313_Sub2
 						.aClass40_Sub22_10106.method76
 					    ((class525_sub13.anInt10528
@@ -4660,8 +4660,8 @@ public class Class61
 			    instanceof Interface62) {
 			    Interface62 interface62
 				= (Interface62) class567.aClass656_Sub1_7606;
-			    Class602 class602
-				= (Class602) (client.aClass507_11137.method8362
+			    ObjectDefinitions class602
+				= (ObjectDefinitions) (client.aClass507_11137.method8362
 						  ((byte) -1).method76
 					      (interface62.method406((byte) 1),
 					       -2101147743));
@@ -4867,12 +4867,12 @@ public class Class61
 	int[] is = null;
 	if (Class264.method4790(class525_sub16_sub16.anInt11861 * 91103913,
 				-1702001869))
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    ((int) (-6417801577210029731L
 				    * class525_sub16_sub16.aLong11860),
 			     1298357217))).anIntArray69;
 	else if (class525_sub16_sub16.anInt11857 * 1206307707 != -1)
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    (1206307707 * class525_sub16_sub16.anInt11857,
 			     -1864206614))).anIntArray69;
 	else if (Class468.method7708((91103913
@@ -4887,7 +4887,7 @@ public class Class61
 		Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2
 		    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 		       class525_sub19.anObject10571);
-		Class299 class299
+		NPCDefinitions class299
 		    = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 		if (class299.anIntArray3323 != null)
 		    class299 = class299.method5386(Class532.aClass111_7170,
@@ -4899,8 +4899,8 @@ public class Class61
 	} else if (Class36.method977((91103913
 				      * class525_sub16_sub16.anInt11861),
 				     1154102925)) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   (client.aClass507_11137.method8362((byte) -1).method76
 		    ((int) ((-6417801577210029731L
 			     * class525_sub16_sub16.aLong11860) >>> 32
@@ -4920,12 +4920,12 @@ public class Class61
 	int[] is = null;
 	if (Class264.method4790(class525_sub16_sub16.anInt11861 * 91103913,
 				-2143512175))
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    ((int) (-6417801577210029731L
 				    * class525_sub16_sub16.aLong11860),
 			     -684344063))).anIntArray69;
 	else if (class525_sub16_sub16.anInt11857 * 1206307707 != -1)
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    (1206307707 * class525_sub16_sub16.anInt11857,
 			     422000110))).anIntArray69;
 	else if (Class468.method7708((91103913
@@ -4940,7 +4940,7 @@ public class Class61
 		Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2
 		    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 		       class525_sub19.anObject10571);
-		Class299 class299
+		NPCDefinitions class299
 		    = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 		if (class299.anIntArray3323 != null)
 		    class299 = class299.method5386(Class532.aClass111_7170,
@@ -4952,8 +4952,8 @@ public class Class61
 	} else if (Class36.method977((91103913
 				      * class525_sub16_sub16.anInt11861),
 				     1111460931)) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   (client.aClass507_11137.method8362((byte) -1).method76
 		    ((int) ((-6417801577210029731L
 			     * class525_sub16_sub16.aLong11860) >>> 32
@@ -4973,12 +4973,12 @@ public class Class61
 	int[] is = null;
 	if (Class264.method4790(class525_sub16_sub16.anInt11861 * 91103913,
 				-2031953843))
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    ((int) (-6417801577210029731L
 				    * class525_sub16_sub16.aLong11860),
 			     1963618230))).anIntArray69;
 	else if (class525_sub16_sub16.anInt11857 * 1206307707 != -1)
-	    is = ((Class8) (Class313_Sub2.aClass40_Sub22_10106.method76
+	    is = ((ItemDefinitions) (Class313_Sub2.aClass40_Sub22_10106.method76
 			    (1206307707 * class525_sub16_sub16.anInt11857,
 			     -1881563123))).anIntArray69;
 	else if (Class468.method7708((91103913
@@ -4993,7 +4993,7 @@ public class Class61
 		Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2
 		    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 		       class525_sub19.anObject10571);
-		Class299 class299
+		NPCDefinitions class299
 		    = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 		if (class299.anIntArray3323 != null)
 		    class299 = class299.method5386(Class532.aClass111_7170,
@@ -5005,8 +5005,8 @@ public class Class61
 	} else if (Class36.method977((91103913
 				      * class525_sub16_sub16.anInt11861),
 				     1760743606)) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   (client.aClass507_11137.method8362((byte) -1).method76
 		    ((int) ((-6417801577210029731L
 			     * class525_sub16_sub16.aLong11860) >>> 32
@@ -5177,15 +5177,15 @@ public class Class61
 		if (class656_sub1_sub3_sub1_sub1.aClass637_12246 != null
 		    && -1 != -1172437919 * (class656_sub1_sub3_sub1_sub1
 					    .aClass637_12246.anInt8300)) {
-		    Class299 class299
-			= ((Class299)
+		    NPCDefinitions class299
+			= ((NPCDefinitions)
 			   (Class168_Sub1.aClass40_Sub7_9112.method76
 			    ((class656_sub1_sub3_sub1_sub1.aClass637_12246
 			      .anInt8300) * -1172437919,
 			     -393199347)));
 		    if (class299.aBool3358) {
 			bool_327_ = true;
-			string = ((Class299)
+			string = ((NPCDefinitions)
 				  (Class168_Sub1.aClass40_Sub7_9112.method76
 				   (-1172437919 * (class656_sub1_sub3_sub1_sub1
 						   .aClass637_12246.anInt8300),
@@ -6361,7 +6361,7 @@ public class Class61
 	(Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2,
 	 boolean bool) {
 	if (anInt658 * -628070459 < 403) {
-	    Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	    NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	    String string = class656_sub1_sub3_sub1_sub2.aString12264;
 	    if (null != class299.anIntArray3323) {
 		class299
@@ -6623,7 +6623,7 @@ public class Class61
 	(Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2,
 	 boolean bool) {
 	if (anInt658 * -628070459 < 403) {
-	    Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	    NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	    String string = class656_sub1_sub3_sub1_sub2.aString12264;
 	    if (null != class299.anIntArray3323) {
 		class299
@@ -6830,7 +6830,7 @@ public class Class61
 	(Class656_Sub1_Sub3_Sub1_Sub2 class656_sub1_sub3_sub1_sub2,
 	 boolean bool) {
 	if (anInt658 * -628070459 < 403) {
-	    Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	    NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	    String string = class656_sub1_sub3_sub1_sub2.aString12264;
 	    if (null != class299.anIntArray3323) {
 		class299
@@ -8623,8 +8623,8 @@ public class Class61
     static long method1368(Interface62 interface62, int i, int i_498_) {
 	long l = 4194304L;
 	long l_499_ = -9223372036854775808L;
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       client.aClass507_11137.method8362((byte) -1)
 		   .method76(interface62.method406((byte) 1), 333003637));
 	long l_500_

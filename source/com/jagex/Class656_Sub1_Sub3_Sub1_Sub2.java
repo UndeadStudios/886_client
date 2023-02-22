@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 {
-    public Class299 aClass299_12255;
+    public NPCDefinitions aClass299_12255;
     public int anInt12256;
     public int anInt12257;
     public Class288 aClass288_12258;
@@ -55,12 +55,12 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	    anInt12270 = (int) (Math.random() * 12.0) * -1031875647;
     }
     
-    public void method18942(Class299 class299, int i) {
+    public void method18942(NPCDefinitions class299, int i) {
 	method18943(class299, true, true, true, 1372227433);
     }
     
-    public void method18943(Class299 class299, boolean bool, boolean bool_2_,
-			    boolean bool_3_, int i) {
+    public void method18943(NPCDefinitions class299, boolean bool, boolean bool_2_,
+							boolean bool_3_, int i) {
 	if (aClass299_12255 != class299 && Class61.aBool670
 	    && Class385.method6443(anInt11964 * 2032864281, -1761587277))
 	    Class219.method4200((byte) 49);
@@ -132,7 +132,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	    break;
 	}
 	if (aClass689_11987.method14021(-772128472)
-	    && (aClass689_11987.method14058(565543433).anInt2167 * -764414887
+	    && (aClass689_11987.method14058(565543433).walkingPrecedence * -764414887
 		== 1)) {
 	    anIntArray11985 = null;
 	    aClass689_11987.method14068(-1, (byte) 7);
@@ -145,12 +145,12 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 			(1420286373 * aClass540Array12029[i_7_].anInt7182,
 			 810939517)));
 		if (class674.aBool8608 && -1 != class674.anInt8596 * 1700860103
-		    && (((Class194)
+		    && (((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76(((class674
 								.anInt8596)
 							       * 1700860103),
 							      -435092704))
-			.anInt2167) * -764414887 == 1) {
+			.walkingPrecedence) * -764414887 == 1) {
 		    aClass540Array12029[i_7_].aClass689_7183
 			.method14068(-1, (byte) -75);
 		    aClass540Array12029[i_7_].anInt7182 = -637232685;
@@ -176,7 +176,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 		.method7774(i_9_, i_10_, 1409374300))
 	    aByte10870++;
 	if (aClass689_11987.method14021(-1186386395)
-	    && (aClass689_11987.method14058(84081620).anInt2167 * -764414887
+	    && (aClass689_11987.method14058(84081620).walkingPrecedence * -764414887
 		== 1)) {
 	    anIntArray11985 = null;
 	    aClass689_11987.method14068(-1, (byte) -30);
@@ -189,12 +189,12 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 			(aClass540Array12029[i_13_].anInt7182 * 1420286373,
 			 289871523)));
 		if (class674.aBool8608 && -1 != class674.anInt8596 * 1700860103
-		    && (((Class194)
+		    && (((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76((1700860103
 							       * (class674
 								  .anInt8596)),
 							      -1258909981))
-			.anInt2167) * -764414887 == 1) {
+			.walkingPrecedence) * -764414887 == 1) {
 		    aClass540Array12029[i_13_].aClass689_7183
 			.method14068(-1, (byte) -90);
 		    aClass540Array12029[i_13_].anInt7182 = -637232685;
@@ -243,7 +243,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	if (749025781 * anInt12256 != -1)
 	    return 749025781 * anInt12256;
 	if (null != aClass299_12255.anIntArray3323) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= aClass299_12255.method5386(Class532.aClass111_7170,
 					     Class532.aClass111_7170,
 					     2147350453);
@@ -255,7 +255,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     
     public int method18613(int i) {
 	if (null != aClass299_12255.anIntArray3323) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= aClass299_12255.method5386(Class532.aClass111_7170,
 					     Class532.aClass111_7170,
 					     2138264080);
@@ -267,7 +267,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     
     public int method16936(int i) {
 	if (aClass299_12255.anIntArray3323 != null) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= aClass299_12255.method5386(Class532.aClass111_7170,
 					     Class532.aClass111_7170,
 					     2115919001);
@@ -376,7 +376,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	    i |= 0x80000;
 	boolean bool_31_ = false;
 	if (583548209 * anInt12005 != 0) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= (null != aClass299_12255.anIntArray3323
 		   ? aClass299_12255.method5386(Class532.aClass111_7170,
 						Class532.aClass111_7170,
@@ -507,8 +507,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	return class429;
     }
     
-    public void method18951(Class299 class299, boolean bool, boolean bool_41_,
-			    boolean bool_42_) {
+    public void method18951(NPCDefinitions class299, boolean bool, boolean bool_41_,
+							boolean bool_42_) {
 	if (aClass299_12255 != class299 && Class61.aBool670
 	    && Class385.method6443(anInt11964 * 2032864281, -1761587277))
 	    Class219.method4200((byte) 7);
@@ -564,7 +564,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	class444_45_.method7147(0.0F, (float) (-20 - anInt11994 * 2037461243),
 				0.0F);
 	Class586 class586 = method18633((byte) -58);
-	Class299 class299
+	NPCDefinitions class299
 	    = (aClass299_12255.anIntArray3323 != null
 	       ? aClass299_12255.method5386(Class532.aClass111_7170,
 					    Class532.aClass111_7170,
@@ -694,7 +694,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 		.method7774(i_52_, i_53_, 772812932))
 	    aByte10870++;
 	if (aClass689_11987.method14021(338190935)
-	    && (aClass689_11987.method14058(1309067025).anInt2167 * -764414887
+	    && (aClass689_11987.method14058(1309067025).walkingPrecedence * -764414887
 		== 1)) {
 	    anIntArray11985 = null;
 	    aClass689_11987.method14068(-1, (byte) -64);
@@ -707,12 +707,12 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 			(aClass540Array12029[i_55_].anInt7182 * 1420286373,
 			 -104322299)));
 		if (class674.aBool8608 && -1 != class674.anInt8596 * 1700860103
-		    && (((Class194)
+		    && (((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76((1700860103
 							       * (class674
 								  .anInt8596)),
 							      1055249450))
-			.anInt2167) * -764414887 == 1) {
+			.walkingPrecedence) * -764414887 == 1) {
 		    aClass540Array12029[i_55_].aClass689_7183
 			.method14068(-1, (byte) -96);
 		    aClass540Array12029[i_55_].anInt7182 = -637232685;
@@ -978,7 +978,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	    i |= 0x80000;
 	boolean bool_76_ = false;
 	if (583548209 * anInt12005 != 0) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= (null != aClass299_12255.anIntArray3323
 		   ? aClass299_12255.method5386(Class532.aClass111_7170,
 						Class532.aClass111_7170,
@@ -1072,7 +1072,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	if (749025781 * anInt12256 != -1)
 	    return 749025781 * anInt12256;
 	if (null != aClass299_12255.anIntArray3323) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= aClass299_12255.method5386(Class532.aClass111_7170,
 					     Class532.aClass111_7170,
 					     2101844846);
@@ -1082,7 +1082,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	return 386089707 * aClass299_12255.anInt3295;
     }
     
-    public void method18958(Class299 class299) {
+    public void method18958(NPCDefinitions class299) {
 	method18943(class299, true, true, true, 1477700673);
     }
     
@@ -1092,7 +1092,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     
     public int method18677() {
 	if (null != aClass299_12255.anIntArray3323) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= aClass299_12255.method5386(Class532.aClass111_7170,
 					     Class532.aClass111_7170,
 					     2116747878);
@@ -1162,7 +1162,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	class444_78_.method7147(0.0F, (float) (-20 - anInt11994 * 2037461243),
 				0.0F);
 	Class586 class586 = method18633((byte) -35);
-	Class299 class299
+	NPCDefinitions class299
 	    = (aClass299_12255.anIntArray3323 != null
 	       ? aClass299_12255.method5386(Class532.aClass111_7170,
 					    Class532.aClass111_7170,
@@ -1382,8 +1382,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	return true;
     }
     
-    public void method18962(Class299 class299, boolean bool, boolean bool_90_,
-			    boolean bool_91_) {
+    public void method18962(NPCDefinitions class299, boolean bool, boolean bool_90_,
+							boolean bool_91_) {
 	if (aClass299_12255 != class299 && Class61.aBool670
 	    && Class385.method6443(anInt11964 * 2032864281, -1761587277))
 	    Class219.method4200((byte) 114);
@@ -1400,8 +1400,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	    aClass633_12022.method10330();
     }
     
-    public void method18963(Class299 class299, boolean bool, boolean bool_92_,
-			    boolean bool_93_) {
+    public void method18963(NPCDefinitions class299, boolean bool, boolean bool_92_,
+							boolean bool_93_) {
 	if (aClass299_12255 != class299 && Class61.aBool670
 	    && Class385.method6443(anInt11964 * 2032864281, -1761587277))
 	    Class219.method4200((byte) -1);
@@ -1462,7 +1462,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	    break;
 	}
 	if (aClass689_11987.method14021(838105195)
-	    && (aClass689_11987.method14058(404092601).anInt2167 * -764414887
+	    && (aClass689_11987.method14058(404092601).walkingPrecedence * -764414887
 		== 1)) {
 	    anIntArray11985 = null;
 	    aClass689_11987.method14068(-1, (byte) -29);
@@ -1475,12 +1475,12 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 			(1420286373 * aClass540Array12029[i_97_].anInt7182,
 			 622398067)));
 		if (class674.aBool8608 && -1 != class674.anInt8596 * 1700860103
-		    && (((Class194)
+		    && (((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76(((class674
 								.anInt8596)
 							       * 1700860103),
 							      -1140973148))
-			.anInt2167) * -764414887 == 1) {
+			.walkingPrecedence) * -764414887 == 1) {
 		    aClass540Array12029[i_97_].aClass689_7183
 			.method14068(-1, (byte) -9);
 		    aClass540Array12029[i_97_].anInt7182 = -637232685;
@@ -1533,7 +1533,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	    break;
 	}
 	if (aClass689_11987.method14021(-1333637615)
-	    && (aClass689_11987.method14058(-1170395771).anInt2167 * -764414887
+	    && (aClass689_11987.method14058(-1170395771).walkingPrecedence * -764414887
 		== 1)) {
 	    anIntArray11985 = null;
 	    aClass689_11987.method14068(-1, (byte) -92);
@@ -1546,12 +1546,12 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 			(1420286373 * aClass540Array12029[i_101_].anInt7182,
 			 -1430244470)));
 		if (class674.aBool8608 && -1 != class674.anInt8596 * 1700860103
-		    && (((Class194)
+		    && (((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76(((class674
 								.anInt8596)
 							       * 1700860103),
 							      2107555493))
-			.anInt2167) * -764414887 == 1) {
+			.walkingPrecedence) * -764414887 == 1) {
 		    aClass540Array12029[i_101_].aClass689_7183
 			.method14068(-1, (byte) -12);
 		    aClass540Array12029[i_101_].anInt7182 = -637232685;
@@ -1577,7 +1577,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 		.method7774(i_103_, i_104_, 550378848))
 	    aByte10870++;
 	if (aClass689_11987.method14021(1167880851)
-	    && (aClass689_11987.method14058(-530932718).anInt2167 * -764414887
+	    && (aClass689_11987.method14058(-530932718).walkingPrecedence * -764414887
 		== 1)) {
 	    anIntArray11985 = null;
 	    aClass689_11987.method14068(-1, (byte) -89);
@@ -1590,12 +1590,12 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 			(aClass540Array12029[i_106_].anInt7182 * 1420286373,
 			 242444241)));
 		if (class674.aBool8608 && -1 != class674.anInt8596 * 1700860103
-		    && (((Class194)
+		    && (((AnimationDefinition)
 			 Class685.aClass40_Sub8_8691.method76((1700860103
 							       * (class674
 								  .anInt8596)),
 							      -731438314))
-			.anInt2167) * -764414887 == 1) {
+			.walkingPrecedence) * -764414887 == 1) {
 		    aClass540Array12029[i_106_].aClass689_7183
 			.method14068(-1, (byte) 8);
 		    aClass540Array12029[i_106_].anInt7182 = -637232685;
@@ -1670,7 +1670,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	    i |= 0x80000;
 	boolean bool_115_ = false;
 	if (583548209 * anInt12005 != 0) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= (null != aClass299_12255.anIntArray3323
 		   ? aClass299_12255.method5386(Class532.aClass111_7170,
 						Class532.aClass111_7170,
@@ -1753,7 +1753,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 	if (749025781 * anInt12256 != -1)
 	    return 749025781 * anInt12256;
 	if (null != aClass299_12255.anIntArray3323) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= aClass299_12255.method5386(Class532.aClass111_7170,
 					     Class532.aClass111_7170,
 					     2121890622);
@@ -1810,7 +1810,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     
     public int method16975() {
 	if (aClass299_12255.anIntArray3323 != null) {
-	    Class299 class299
+	    NPCDefinitions class299
 		= aClass299_12255.method5386(Class532.aClass111_7170,
 					     Class532.aClass111_7170,
 					     2102699602);

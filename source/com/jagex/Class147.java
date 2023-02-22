@@ -68,7 +68,7 @@ public class Class147 implements Interface76
     static final void method2390(Class683 class683, int i) {
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = Class602.method9959(-1986382877);
+	    = ObjectDefinitions.method9959(-1986382877);
     }
     
     public static Class525_Sub41_Sub2 method2391(int i, int i_3_, int i_4_,

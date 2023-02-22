@@ -9,22 +9,22 @@ public class Class187
     static final int anInt2133 = 1;
     static final int anInt2134 = 0;
     
-    public static Class173 method3666(Class458 class458, int i, int i_0_) {
-	byte[] is = class458.method7476(i, i_0_, 1569490028);
+    public static Class173 method3666(JS5 class458, int i, int i_0_) {
+	byte[] is = class458.getFile(i, i_0_, 1569490028);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];
     }
     
-    public static Class173 method3667(Class458 class458, int i, int i_1_) {
-	byte[] is = class458.method7476(i, i_1_, 1055201411);
+    public static Class173 method3667(JS5 class458, int i, int i_1_) {
+	byte[] is = class458.getFile(i, i_1_, 1055201411);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];
     }
     
-    public static Class173 method3668(Class458 class458, int i) {
-	byte[] is = class458.method7484(i, 1737412568);
+    public static Class173 method3668(JS5 class458, int i) {
+	byte[] is = class458.getTextureData(i, 1737412568);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];
@@ -32,7 +32,7 @@ public class Class187
     
     public static Class173[] method3669(byte[] is) {
 	RSBuffer class525_sub38 = new RSBuffer(is);
-	class525_sub38.pos = (is.length - 2) * 339428471;
+	class525_sub38.index = (is.length - 2) * 339428471;
 	int i = class525_sub38.readUnsignedShort((byte) 54);
 	int i_2_ = i >> 15;
 	int i_3_ = i & 0x7fff;
@@ -40,7 +40,7 @@ public class Class187
 	    Class173_Sub2[] class173_sub2s = new Class173_Sub2[i_3_];
 	    for (int i_4_ = 0; i_4_ < i_3_; i_4_++)
 		class173_sub2s[i_4_] = new Class173_Sub2();
-	    class525_sub38.pos = (is.length - 7 - i_3_ * 8) * 339428471;
+	    class525_sub38.index = (is.length - 7 - i_3_ * 8) * 339428471;
 	    int i_5_ = class525_sub38.readUnsignedShort((byte) 118);
 	    int i_6_ = class525_sub38.readUnsignedShort((byte) 19);
 	    int i_7_ = (class525_sub38.readUnsignedByte(1780106500) & 0xff) + 1;
@@ -63,7 +63,7 @@ public class Class187
 		class173_sub2.anInt9619
 		    = i_6_ - class173_sub2.anInt9618 - class173_sub2.anInt9621;
 	    }
-	    class525_sub38.pos
+	    class525_sub38.index
 		= (is.length - 7 - i_3_ * 8 - (i_7_ - 1) * 3) * 339428471;
 	    int[] is_13_ = new int[i_7_];
 	    for (int i_14_ = 1; i_14_ < i_7_; i_14_++) {
@@ -73,7 +73,7 @@ public class Class187
 	    }
 	    for (int i_15_ = 0; i_15_ < i_3_; i_15_++)
 		class173_sub2s[i_15_].anIntArray9624 = is_13_;
-	    class525_sub38.pos = 0;
+	    class525_sub38.index = 0;
 	    for (int i_16_ = 0; i_16_ < i_3_; i_16_++) {
 		Class173_Sub2 class173_sub2 = class173_sub2s[i_16_];
 		int i_17_ = class173_sub2.anInt9625 * class173_sub2.anInt9618;
@@ -137,7 +137,7 @@ public class Class187
 	    return class173_sub2s;
 	}
 	Class173_Sub1[] class173_sub1s = new Class173_Sub1[i_3_];
-	class525_sub38.pos = 0;
+	class525_sub38.index = 0;
 	int i_30_ = class525_sub38.readUnsignedByte(1617255710);
 	if (i_30_ == 0) {
 	    boolean bool = class525_sub38.readUnsignedByte(1647079394) == 1;
@@ -175,7 +175,7 @@ public class Class187
     
     public static Class173[] method3670(byte[] is) {
 	RSBuffer class525_sub38 = new RSBuffer(is);
-	class525_sub38.pos = (is.length - 2) * 339428471;
+	class525_sub38.index = (is.length - 2) * 339428471;
 	int i = class525_sub38.readUnsignedShort((byte) 78);
 	int i_37_ = i >> 15;
 	int i_38_ = i & 0x7fff;
@@ -183,7 +183,7 @@ public class Class187
 	    Class173_Sub2[] class173_sub2s = new Class173_Sub2[i_38_];
 	    for (int i_39_ = 0; i_39_ < i_38_; i_39_++)
 		class173_sub2s[i_39_] = new Class173_Sub2();
-	    class525_sub38.pos
+	    class525_sub38.index
 		= (is.length - 7 - i_38_ * 8) * 339428471;
 	    int i_40_ = class525_sub38.readUnsignedShort((byte) 15);
 	    int i_41_ = class525_sub38.readUnsignedShort((byte) 123);
@@ -207,7 +207,7 @@ public class Class187
 		class173_sub2.anInt9619 = (i_41_ - class173_sub2.anInt9618
 					   - class173_sub2.anInt9621);
 	    }
-	    class525_sub38.pos
+	    class525_sub38.index
 		= (is.length - 7 - i_38_ * 8 - (i_42_ - 1) * 3) * 339428471;
 	    int[] is_48_ = new int[i_42_];
 	    for (int i_49_ = 1; i_49_ < i_42_; i_49_++) {
@@ -217,7 +217,7 @@ public class Class187
 	    }
 	    for (int i_50_ = 0; i_50_ < i_38_; i_50_++)
 		class173_sub2s[i_50_].anIntArray9624 = is_48_;
-	    class525_sub38.pos = 0;
+	    class525_sub38.index = 0;
 	    for (int i_51_ = 0; i_51_ < i_38_; i_51_++) {
 		Class173_Sub2 class173_sub2 = class173_sub2s[i_51_];
 		int i_52_ = class173_sub2.anInt9625 * class173_sub2.anInt9618;
@@ -281,7 +281,7 @@ public class Class187
 	    return class173_sub2s;
 	}
 	Class173_Sub1[] class173_sub1s = new Class173_Sub1[i_38_];
-	class525_sub38.pos = 0;
+	class525_sub38.index = 0;
 	int i_65_ = class525_sub38.readUnsignedByte(480137750);
 	if (i_65_ == 0) {
 	    boolean bool = class525_sub38.readUnsignedByte(1202885207) == 1;
@@ -313,71 +313,71 @@ public class Class187
 	return class173_sub1s;
     }
     
-    public static Class173[] method3671(Class458 class458, int i) {
-	byte[] is = class458.method7484(i, 1862938473);
+    public static Class173[] method3671(JS5 class458, int i) {
+	byte[] is = class458.getTextureData(i, 1862938473);
 	if (is == null)
 	    return null;
 	return method3670(is);
     }
     
-    public static Class173 method3672(Class458 class458, int i) {
-	byte[] is = class458.method7484(i, 1306127148);
+    public static Class173 method3672(JS5 class458, int i) {
+	byte[] is = class458.getTextureData(i, 1306127148);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];
     }
     
-    public static Class173 method3673(Class458 class458, int i, int i_72_) {
-	byte[] is = class458.method7476(i, i_72_, 1472170919);
+    public static Class173 method3673(JS5 class458, int i, int i_72_) {
+	byte[] is = class458.getFile(i, i_72_, 1472170919);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];
     }
     
-    public static Class173[] method3674(Class458 class458, int i, int i_73_) {
-	byte[] is = class458.method7476(i, i_73_, 1684305058);
+    public static Class173[] method3674(JS5 class458, int i, int i_73_) {
+	byte[] is = class458.getFile(i, i_73_, 1684305058);
 	if (is == null)
 	    return null;
 	return method3670(is);
     }
     
-    public static Class173 method3675(Class458 class458, int i, int i_74_) {
-	byte[] is = class458.method7476(i, i_74_, 1458969370);
+    public static Class173 method3675(JS5 class458, int i, int i_74_) {
+	byte[] is = class458.getFile(i, i_74_, 1458969370);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];
     }
     
-    public static Class173 method3676(Class458 class458, int i) {
-	byte[] is = class458.method7484(i, 1946932196);
+    public static Class173 method3676(JS5 class458, int i) {
+	byte[] is = class458.getTextureData(i, 1946932196);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];
     }
     
-    public static Class173 method3677(Class458 class458, int i) {
-	byte[] is = class458.method7484(i, 1736625876);
+    public static Class173 method3677(JS5 class458, int i) {
+	byte[] is = class458.getTextureData(i, 1736625876);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];
     }
     
-    public static Class173 method3678(Class458 class458, int i, int i_75_) {
-	byte[] is = class458.method7476(i, i_75_, 561256124);
+    public static Class173 method3678(JS5 class458, int i, int i_75_) {
+	byte[] is = class458.getFile(i, i_75_, 561256124);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];
     }
     
-    public static Class173[] method3679(Class458 class458, int i, int i_76_) {
-	byte[] is = class458.method7476(i, i_76_, 1301512537);
+    public static Class173[] method3679(JS5 class458, int i, int i_76_) {
+	byte[] is = class458.getFile(i, i_76_, 1301512537);
 	if (is == null)
 	    return null;
 	return method3670(is);
     }
     
-    public static Class173[] method3680(Class458 class458, int i) {
-	byte[] is = class458.method7484(i, 1807018234);
+    public static Class173[] method3680(JS5 class458, int i) {
+	byte[] is = class458.getTextureData(i, 1807018234);
 	if (is == null)
 	    return null;
 	return method3670(is);
@@ -385,7 +385,7 @@ public class Class187
     
     public static Class173[] method3681(byte[] is) {
 	RSBuffer class525_sub38 = new RSBuffer(is);
-	class525_sub38.pos = (is.length - 2) * 339428471;
+	class525_sub38.index = (is.length - 2) * 339428471;
 	int i = class525_sub38.readUnsignedShort((byte) 95);
 	int i_77_ = i >> 15;
 	int i_78_ = i & 0x7fff;
@@ -393,7 +393,7 @@ public class Class187
 	    Class173_Sub2[] class173_sub2s = new Class173_Sub2[i_78_];
 	    for (int i_79_ = 0; i_79_ < i_78_; i_79_++)
 		class173_sub2s[i_79_] = new Class173_Sub2();
-	    class525_sub38.pos
+	    class525_sub38.index
 		= (is.length - 7 - i_78_ * 8) * 339428471;
 	    int i_80_ = class525_sub38.readUnsignedShort((byte) 103);
 	    int i_81_ = class525_sub38.readUnsignedShort((byte) 86);
@@ -417,7 +417,7 @@ public class Class187
 		class173_sub2.anInt9619 = (i_81_ - class173_sub2.anInt9618
 					   - class173_sub2.anInt9621);
 	    }
-	    class525_sub38.pos
+	    class525_sub38.index
 		= (is.length - 7 - i_78_ * 8 - (i_82_ - 1) * 3) * 339428471;
 	    int[] is_88_ = new int[i_82_];
 	    for (int i_89_ = 1; i_89_ < i_82_; i_89_++) {
@@ -427,7 +427,7 @@ public class Class187
 	    }
 	    for (int i_90_ = 0; i_90_ < i_78_; i_90_++)
 		class173_sub2s[i_90_].anIntArray9624 = is_88_;
-	    class525_sub38.pos = 0;
+	    class525_sub38.index = 0;
 	    for (int i_91_ = 0; i_91_ < i_78_; i_91_++) {
 		Class173_Sub2 class173_sub2 = class173_sub2s[i_91_];
 		int i_92_ = class173_sub2.anInt9625 * class173_sub2.anInt9618;
@@ -491,7 +491,7 @@ public class Class187
 	    return class173_sub2s;
 	}
 	Class173_Sub1[] class173_sub1s = new Class173_Sub1[i_78_];
-	class525_sub38.pos = 0;
+	class525_sub38.index = 0;
 	int i_105_ = class525_sub38.readUnsignedByte(1294915095);
 	if (i_105_ == 0) {
 	    boolean bool = class525_sub38.readUnsignedByte(1875327107) == 1;
@@ -523,8 +523,8 @@ public class Class187
 	return class173_sub1s;
     }
     
-    public static Class173 method3682(Class458 class458, int i, int i_112_) {
-	byte[] is = class458.method7476(i, i_112_, 1067954951);
+    public static Class173 method3682(JS5 class458, int i, int i_112_) {
+	byte[] is = class458.getFile(i, i_112_, 1067954951);
 	if (is == null)
 	    return null;
 	return method3670(is)[0];

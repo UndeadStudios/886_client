@@ -7,7 +7,7 @@ public abstract class Class669 implements Interface5
 {
     int anInt8585;
     Class200 aClass200_8586 = new Class200(60);
-    Class458 aClass458_8587;
+    JS5 aClass458_8587;
     
     void method11030() {
 	synchronized (aClass200_8586) {
@@ -15,7 +15,7 @@ public abstract class Class669 implements Interface5
 	}
     }
     
-    Class669(Class458 class458) {
+    Class669(JS5 class458) {
 	aClass458_8587 = class458;
     }
     

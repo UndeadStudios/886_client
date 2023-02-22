@@ -125,7 +125,7 @@ final class Class50 implements Interface27
 			   byte i_5_) {
 	if (Class695.aBool8757 && null != Class96.aFrame1186
 	    && (3 != i_2_ || Class99.anInt1213 * 77907787 != i_3_
-		|| i_4_ != Class308.anInt3426 * -1352795477)) {
+		|| i_4_ != SunDefinition.anInt3426 * -1352795477)) {
 	    Class162.method2643(Class202.aClass4_2222, Class96.aFrame1186,
 				(byte) 48);
 	    Class96.aFrame1186 = null;
@@ -136,7 +136,7 @@ final class Class50 implements Interface27
 				      -163014742);
 	    if (Class96.aFrame1186 != null) {
 		Class99.anInt1213 = i_3_ * -390460829;
-		Class308.anInt3426 = 414330883 * i_4_;
+		SunDefinition.anInt3426 = 414330883 * i_4_;
 		Class650.method10715(-1758466106);
 	    }
 	}

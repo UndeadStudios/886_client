@@ -124,8 +124,8 @@ public class Class648 implements Interface12
     }
     
     public static Interface69 method10702
-	(Class458 class458, int i, Interface70 interface70, boolean bool,
-	 Class200 class200, int i_2_) {
+	(JS5 class458, int i, Interface70 interface70, boolean bool,
+     Class200 class200, int i_2_) {
 	if (Class661.aClass372_8473 != null) {
 	    if (bool)
 		return new Class601(class458, i, Class661.aClass372_8473,
@@ -142,9 +142,9 @@ public class Class648 implements Interface12
 	    = 0;
     }
     
-    public static void method10704(Class458 class458, Class458 class458_3_,
-				   Class458 class458_4_, Class458 class458_5_,
-				   int i) {
+    public static void method10704(JS5 class458, JS5 class458_3_,
+                                   JS5 class458_4_, JS5 class458_5_,
+                                   int i) {
 	Class172.aClass458_1861 = class458;
 	Class98.aClass458_1206 = class458_3_;
 	Class203.aClass458_2223 = class458_4_;

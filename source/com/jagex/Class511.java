@@ -124,7 +124,7 @@ public abstract class Class511
 	Class626.method10259(-2055935949);
     }
     
-    public static Class2 method8529(Class8 class8,
+    public static Class2 method8529(ItemDefinitions class8,
                                     RSBuffer class525_sub38, int i) {
 	return Class175_Sub2.method15603(class8, class525_sub38, 2, -24762962);
     }

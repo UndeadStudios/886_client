@@ -60,7 +60,7 @@ public class Class202
     }
     
     Class202(RSBuffer class525_sub38) {
-	int i = class525_sub38.method16740((byte) -32);
+	int i = class525_sub38.readUnsignedSmart((byte) -32);
 	anIntArray2216 = new int[i];
 	anIntArray2218 = new int[i];
 	anIntArray2217 = new int[i];
@@ -73,13 +73,13 @@ public class Class202
 		= class525_sub38.readUnsignedShort((byte) 117) - 5120;
 	    anIntArray2217[i_4_]
 		= class525_sub38.readUnsignedShort((byte) 90) - 5120;
-	    anIntArray2218[i_4_] = class525_sub38.method16625((byte) -22);
+	    anIntArray2218[i_4_] = class525_sub38.readSmart((byte) -22);
 	    anIntArray2219[i_4_]
 		= class525_sub38.readUnsignedShort((byte) 33) - 5120;
 	    anIntArray2221[i_4_]
 		= class525_sub38.readUnsignedShort((byte) 76) - 5120;
-	    anIntArray2220[i_4_] = class525_sub38.method16625((byte) 31);
-	    anIntArray2215[i_4_] = class525_sub38.method16625((byte) 0);
+	    anIntArray2220[i_4_] = class525_sub38.readSmart((byte) 31);
+	    anIntArray2215[i_4_] = class525_sub38.readSmart((byte) 0);
 	}
     }
     

@@ -7,7 +7,7 @@ import java.util.Random;
 public class Class91
 {
     static final int anInt899 = 0;
-    Class458 aClass458_900;
+    JS5 aClass458_900;
     Class75[] aClass75Array901;
     int anInt902;
     public static Class629 aClass629_903;
@@ -42,7 +42,7 @@ public class Class91
     }
     
     public Class87 method1690(int i, int i_5_) {
-	byte[] is = aClass458_900.method7476(i, 0, 705096282);
+	byte[] is = aClass458_900.getFile(i, 0, 705096282);
 	Class87 class87 = new Class87();
 	class87.method1652(new RSBuffer(is), -982730474);
 	return class87;
@@ -75,14 +75,14 @@ public class Class91
     }
     
     public Class87 method1693(int i) {
-	byte[] is = aClass458_900.method7476(i, 0, 2030989202);
+	byte[] is = aClass458_900.getFile(i, 0, 2030989202);
 	Class87 class87 = new Class87();
 	class87.method1652(new RSBuffer(is), -1647226407);
 	return class87;
     }
     
     public Class87 method1694(int i) {
-	byte[] is = aClass458_900.method7476(i, 0, 1105365190);
+	byte[] is = aClass458_900.getFile(i, 0, 1105365190);
 	Class87 class87 = new Class87();
 	class87.method1652(new RSBuffer(is), -1183954245);
 	return class87;
@@ -122,10 +122,10 @@ public class Class91
 	return -1 != 808848415 * anInt902;
     }
     
-    public Class91(Class668 class668, Class666 class666, Class458 class458) {
+    public Class91(Class668 class668, Class666 class666, JS5 class458) {
 	aClass458_900 = class458;
 	RSBuffer class525_sub38
-	    = new RSBuffer(aClass458_900.method7476(0, 0, 696178791));
+	    = new RSBuffer(aClass458_900.getFile(0, 0, 696178791));
 	int i = ((class525_sub38.buffer == null
 		  || class525_sub38.buffer.length < 1)
 		 ? -1 : class525_sub38.readUnsignedByte(1076573301));
@@ -154,7 +154,7 @@ public class Class91
 		int i_19_;
 		if (i > 2) {
 		    anInt902
-			= class525_sub38.method16625((byte) 32) * -1726582817;
+			= class525_sub38.readSmart((byte) 32) * -1726582817;
 		    i_18_ = class525_sub38.method16834(-1994884458);
 		    i_19_ = class525_sub38.readUnsignedShort((byte) 71);
 		} else {

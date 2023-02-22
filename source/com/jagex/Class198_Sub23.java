@@ -27,8 +27,8 @@ public class Class198_Sub23 extends Class198
 	       Class574.aClass40_Sub20_7645.method76(anInt10018 * -2492817,
 						     -481039055));
 	boolean bool = class674.method11108(-1827606845);
-	Class194 class194
-	    = ((Class194)
+	AnimationDefinition class194
+	    = ((AnimationDefinition)
 	       Class685.aClass40_Sub8_8691
 		   .method76(1700860103 * class674.anInt8596, -2047292436));
 	bool &= class194.method3725(1320873159);
@@ -94,8 +94,8 @@ public class Class198_Sub23 extends Class198
 	       Class574.aClass40_Sub20_7645.method76(anInt10018 * -2492817,
 						     1814719091));
 	boolean bool = class674.method11108(-1160049711);
-	Class194 class194
-	    = ((Class194)
+	AnimationDefinition class194
+	    = ((AnimationDefinition)
 	       Class685.aClass40_Sub8_8691
 		   .method76(1700860103 * class674.anInt8596, 1381021685));
 	bool &= class194.method3725(1530513796);
@@ -301,8 +301,8 @@ public class Class198_Sub23 extends Class198
 	       Class574.aClass40_Sub20_7645.method76(anInt10018 * -2492817,
 						     725629735));
 	boolean bool = class674.method11108(-1929802883);
-	Class194 class194
-	    = ((Class194)
+	AnimationDefinition class194
+	    = ((AnimationDefinition)
 	       Class685.aClass40_Sub8_8691
 		   .method76(1700860103 * class674.anInt8596, 34652195));
 	bool &= class194.method3725(-280608894);
@@ -315,8 +315,8 @@ public class Class198_Sub23 extends Class198
 	       Class574.aClass40_Sub20_7645.method76(anInt10018 * -2492817,
 						     -1159503085));
 	boolean bool = class674.method11108(-1052959719);
-	Class194 class194
-	    = ((Class194)
+	AnimationDefinition class194
+	    = ((AnimationDefinition)
 	       Class685.aClass40_Sub8_8691
 		   .method76(1700860103 * class674.anInt8596, -1400102399));
 	bool &= class194.method3725(740384262);

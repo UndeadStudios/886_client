@@ -68,7 +68,7 @@ public class Class179_Sub3 extends Class179
     int[] anIntArray9598;
     short[] aShortArray9599;
     Class184[] aClass184Array9600;
-    Class154[] aClass154Array9601;
+    MagnetConfig[] aClass154Array9601;
     int anInt9602;
     int anInt9603;
     Class359[] aClass359Array9604;
@@ -92,16 +92,16 @@ public class Class179_Sub3 extends Class179
 	method15273();
     }
     
-    Class179_Sub3(Class182_Sub1 class182_sub1, Class186 class186, int i,
-		  int i_0_, int i_1_, int i_2_) {
+    Class179_Sub3(Class182_Sub1 class182_sub1, ModelDecoder class186, int i,
+                  int i_0_, int i_1_, int i_2_) {
 	this(class182_sub1, i, i_2_, true, false);
 	Class180 class180 = class182_sub1.aClass180_1944;
 	Interface47 interface47 = class182_sub1.anInterface47_1945;
-	int[] is = new int[class186.anInt2098];
-	anIntArray9598 = new int[class186.anInt2087 + 1];
-	for (int i_3_ = 0; i_3_ < class186.anInt2098; i_3_++) {
-	    if (class186.aByteArray2107 == null
-		|| class186.aByteArray2107[i_3_] != 2) {
+	int[] is = new int[class186.faceCount];
+	anIntArray9598 = new int[class186.maxVertexUsed + 1];
+	for (int i_3_ = 0; i_3_ < class186.faceCount; i_3_++) {
+	    if (class186.faceRenderTypes == null
+		|| class186.faceRenderTypes[i_3_] != 2) {
 		if (class186.aShortArray2110 != null
 		    && class186.aShortArray2110[i_3_] != -1) {
 		    Class166 class166
@@ -113,9 +113,9 @@ public class Class179_Sub3 extends Class179
 			continue;
 		}
 		is[anInt9595++] = i_3_;
-		anIntArray9598[class186.aShortArray2111[i_3_]]++;
-		anIntArray9598[class186.aShortArray2100[i_3_]]++;
-		anIntArray9598[class186.aShortArray2101[i_3_]]++;
+		anIntArray9598[class186.faceA[i_3_]]++;
+		anIntArray9598[class186.faceB[i_3_]]++;
+		anIntArray9598[class186.faceC[i_3_]]++;
 	    }
 	}
 	anInt9566 = anInt9595;
@@ -132,7 +132,7 @@ public class Class179_Sub3 extends Class179
 		boolean bool_10_ = false;
 		for (int i_11_ = 0; i_11_ < class186.aClass171Array2088.length;
 		     i_11_++) {
-		    Class171 class171 = class186.aClass171Array2088[i_11_];
+		    BillBoardConfig class171 = class186.aClass171Array2088[i_11_];
 		    if (i_5_ == class171.anInt1856 * 553052305) {
 			Class394 class394
 			    = interface47.method338((class171.anInt1855
@@ -192,12 +192,12 @@ public class Class179_Sub3 extends Class179
 		}
 	    }
 	    boolean bool_16_
-		= ((class186.aByteArray2099 != null
-		    && class186.aByteArray2099[i_5_] != 0)
+		= ((class186.faceAlpha != null
+		    && class186.faceAlpha[i_5_] != 0)
 		   || (class166 != null
 		       && class166.aClass597_1807 != Class597.aClass597_7842));
-	    if ((bool || bool_16_) && class186.aByteArray2106 != null)
-		i_6_ += class186.aByteArray2106[i_5_] << 17;
+	    if ((bool || bool_16_) && class186.facePriorities != null)
+		i_6_ += class186.facePriorities[i_5_] << 17;
 	    if (bool_16_)
 		i_6_ += 65536;
 	    i_6_ += (i_8_ & 0xff) << 8;
@@ -213,11 +213,11 @@ public class Class179_Sub3 extends Class179
 					   || class166.aByte1806 != 0)));
 	}
 	Class28.method912(ls, is, (byte) 1);
-	anInt9583 = class186.anInt2084;
-	anInt9549 = class186.anInt2087;
-	anIntArray9550 = class186.anIntArray2089;
-	anIntArray9551 = class186.anIntArray2090;
-	anIntArray9541 = class186.anIntArray2108;
+	anInt9583 = class186.vertexCount;
+	anInt9549 = class186.maxVertexUsed;
+	anIntArray9550 = class186.vertexX;
+	anIntArray9551 = class186.vertexY;
+	anIntArray9541 = class186.vertexZ;
 	aShortArray9548 = class186.aShortArray2094;
 	Class375[] class375s = new Class375[anInt9549];
 	aClass184Array9600 = class186.aClass184Array2129;
@@ -227,7 +227,7 @@ public class Class179_Sub3 extends Class179
 	    aClass359Array9604 = new Class359[anInt9603];
 	    aClass349Array9574 = new Class349[anInt9603];
 	    for (int i_18_ = 0; i_18_ < anInt9603; i_18_++) {
-		Class171 class171 = class186.aClass171Array2088[i_18_];
+		BillBoardConfig class171 = class186.aClass171Array2088[i_18_];
 		Class394 class394
 		    = interface47.method338(class171.anInt1855 * -145881707,
 					    (short) 800);
@@ -244,17 +244,17 @@ public class Class179_Sub3 extends Class179
 			      [(class186.aShortArray2109
 				[class171.anInt1856 * 553052305]) & 0xffff])
 			     & 0xffffff);
-		i_21_ = i_21_ | 255 - (class186.aByteArray2099 != null
-				       ? (class186.aByteArray2099
+		i_21_ = i_21_ | 255 - (class186.faceAlpha != null
+				       ? (class186.faceAlpha
 					  [class171.anInt1856 * 553052305])
 				       : 0) << 24;
 		aClass359Array9604[i_18_]
 		    = new Class359(i_19_,
-				   (class186.aShortArray2111
+				   (class186.faceA
 				    [class171.anInt1856 * 553052305]),
-				   (class186.aShortArray2100
+				   (class186.faceB
 				    [class171.anInt1856 * 553052305]),
-				   (class186.aShortArray2101
+				   (class186.faceC
 				    [class171.anInt1856 * 553052305]),
 				   class394.anInt4092 * 1011185193,
 				   class394.anInt4095 * -1869723579,
@@ -288,19 +288,19 @@ public class Class179_Sub3 extends Class179
 	aShortArray9599 = new short[i_22_];
 	aLongArray9607 = new long[i_22_];
 	int i_23_ = 0;
-	for (int i_24_ = 0; i_24_ < class186.anInt2087; i_24_++) {
+	for (int i_24_ = 0; i_24_ < class186.maxVertexUsed; i_24_++) {
 	    int i_25_ = anIntArray9598[i_24_];
 	    anIntArray9598[i_24_] = i_23_;
 	    i_23_ += i_25_;
 	    class375s[i_24_] = new Class375();
 	}
-	anIntArray9598[class186.anInt2087] = i_23_;
+	anIntArray9598[class186.maxVertexUsed] = i_23_;
 	Class207 class207 = method2976(class186, is, anInt9595);
-	Class369[] class369s = new Class369[class186.anInt2098];
-	for (int i_26_ = 0; i_26_ < class186.anInt2098; i_26_++) {
-	    short i_27_ = class186.aShortArray2111[i_26_];
-	    short i_28_ = class186.aShortArray2100[i_26_];
-	    short i_29_ = class186.aShortArray2101[i_26_];
+	Class369[] class369s = new Class369[class186.faceCount];
+	for (int i_26_ = 0; i_26_ < class186.faceCount; i_26_++) {
+	    short i_27_ = class186.faceA[i_26_];
+	    short i_28_ = class186.faceB[i_26_];
+	    short i_29_ = class186.faceC[i_26_];
 	    int i_30_ = anIntArray9550[i_28_] - anIntArray9550[i_27_];
 	    int i_31_ = anIntArray9551[i_28_] - anIntArray9551[i_27_];
 	    int i_32_ = anIntArray9541[i_28_] - anIntArray9541[i_27_];
@@ -324,8 +324,8 @@ public class Class179_Sub3 extends Class179
 	    i_36_ = i_36_ * 256 / i_39_;
 	    i_37_ = i_37_ * 256 / i_39_;
 	    i_38_ = i_38_ * 256 / i_39_;
-	    byte i_40_ = (class186.aByteArray2107 == null ? (byte) 0
-			  : class186.aByteArray2107[i_26_]);
+	    byte i_40_ = (class186.faceRenderTypes == null ? (byte) 0
+			  : class186.faceRenderTypes[i_26_]);
 	    if (i_40_ == 0) {
 		Class375 class375 = class375s[i_27_];
 		class375.anInt3893 += i_36_;
@@ -352,8 +352,8 @@ public class Class179_Sub3 extends Class179
 	for (int i_41_ = 0; i_41_ < anInt9595; i_41_++) {
 	    int i_42_ = is[i_41_];
 	    int i_43_ = class186.aShortArray2109[i_42_] & 0xffff;
-	    int i_44_ = (class186.aByteArray2099 != null
-			 ? class186.aByteArray2099[i_42_] & 0xff : 0);
+	    int i_44_ = (class186.faceAlpha != null
+			 ? class186.faceAlpha[i_42_] & 0xff : 0);
 	    short i_45_ = (class186.aShortArray2110 == null ? (short) -1
 			   : class186.aShortArray2110[i_42_]);
 	    if (i_45_ != -1 && (anInt9558 & 0x40) != 0
@@ -376,13 +376,13 @@ public class Class179_Sub3 extends Class179
 		    int i_55_ = class186.aByteArray2092[i_42_] & 0xff;
 		    int i_56_ = class186.aByteArray2104[i_42_] & 0xff;
 		    i_54_ += (class186.anIntArray2103
-			      [class186.aShortArray2111[i_42_]]);
+			      [class186.faceA[i_42_]]);
 		    l_52_ = (long) i_54_;
 		    i_55_ += (class186.anIntArray2103
-			      [class186.aShortArray2100[i_42_]]);
+			      [class186.faceB[i_42_]]);
 		    l_51_ = (long) i_54_;
 		    i_56_ += (class186.anIntArray2103
-			      [class186.aShortArray2101[i_42_]]);
+			      [class186.faceC[i_42_]]);
 		    l = (long) i_54_;
 		    f = class186.aFloatArray2096[i_54_];
 		    f_46_ = class186.aFloatArray2097[i_54_];
@@ -405,47 +405,47 @@ public class Class179_Sub3 extends Class179
 		    int i_57_ = 0;
 		    int i_58_ = 0;
 		    int i_59_ = 0;
-		    byte i_60_ = class186.aByteArray2117[i_53_];
+		    byte i_60_ = class186.textureRenderTypes[i_53_];
 		    if (i_60_ == 0) {
-			short i_61_ = class186.aShortArray2111[i_42_];
-			short i_62_ = class186.aShortArray2100[i_42_];
-			short i_63_ = class186.aShortArray2101[i_42_];
+			short i_61_ = class186.faceA[i_42_];
+			short i_62_ = class186.faceB[i_42_];
+			short i_63_ = class186.faceC[i_42_];
 			short i_64_ = class186.aShortArray2118[i_53_];
 			short i_65_ = class186.aShortArray2119[i_53_];
 			short i_66_ = class186.aShortArray2120[i_53_];
-			float f_67_ = (float) class186.anIntArray2089[i_64_];
-			float f_68_ = (float) class186.anIntArray2090[i_64_];
-			float f_69_ = (float) class186.anIntArray2108[i_64_];
+			float f_67_ = (float) class186.vertexX[i_64_];
+			float f_68_ = (float) class186.vertexY[i_64_];
+			float f_69_ = (float) class186.vertexZ[i_64_];
 			float f_70_
-			    = (float) class186.anIntArray2089[i_65_] - f_67_;
+			    = (float) class186.vertexX[i_65_] - f_67_;
 			float f_71_
-			    = (float) class186.anIntArray2090[i_65_] - f_68_;
+			    = (float) class186.vertexY[i_65_] - f_68_;
 			float f_72_
-			    = (float) class186.anIntArray2108[i_65_] - f_69_;
+			    = (float) class186.vertexZ[i_65_] - f_69_;
 			float f_73_
-			    = (float) class186.anIntArray2089[i_66_] - f_67_;
+			    = (float) class186.vertexX[i_66_] - f_67_;
 			float f_74_
-			    = (float) class186.anIntArray2090[i_66_] - f_68_;
+			    = (float) class186.vertexY[i_66_] - f_68_;
 			float f_75_
-			    = (float) class186.anIntArray2108[i_66_] - f_69_;
+			    = (float) class186.vertexZ[i_66_] - f_69_;
 			float f_76_
-			    = (float) class186.anIntArray2089[i_61_] - f_67_;
+			    = (float) class186.vertexX[i_61_] - f_67_;
 			float f_77_
-			    = (float) class186.anIntArray2090[i_61_] - f_68_;
+			    = (float) class186.vertexY[i_61_] - f_68_;
 			float f_78_
-			    = (float) class186.anIntArray2108[i_61_] - f_69_;
+			    = (float) class186.vertexZ[i_61_] - f_69_;
 			float f_79_
-			    = (float) class186.anIntArray2089[i_62_] - f_67_;
+			    = (float) class186.vertexX[i_62_] - f_67_;
 			float f_80_
-			    = (float) class186.anIntArray2090[i_62_] - f_68_;
+			    = (float) class186.vertexY[i_62_] - f_68_;
 			float f_81_
-			    = (float) class186.anIntArray2108[i_62_] - f_69_;
+			    = (float) class186.vertexZ[i_62_] - f_69_;
 			float f_82_
-			    = (float) class186.anIntArray2089[i_63_] - f_67_;
+			    = (float) class186.vertexX[i_63_] - f_67_;
 			float f_83_
-			    = (float) class186.anIntArray2090[i_63_] - f_68_;
+			    = (float) class186.vertexY[i_63_] - f_68_;
 			float f_84_
-			    = (float) class186.anIntArray2108[i_63_] - f_69_;
+			    = (float) class186.vertexZ[i_63_] - f_69_;
 			float f_85_ = f_71_ * f_75_ - f_72_ * f_74_;
 			float f_86_ = f_72_ * f_73_ - f_70_ * f_75_;
 			float f_87_ = f_70_ * f_74_ - f_71_ * f_73_;
@@ -472,9 +472,9 @@ public class Class179_Sub3 extends Class179
 			f_50_ = (f_88_ * f_82_ + f_89_ * f_83_
 				 + f_90_ * f_84_) * f_91_;
 		    } else {
-			short i_92_ = class186.aShortArray2111[i_42_];
-			short i_93_ = class186.aShortArray2100[i_42_];
-			short i_94_ = class186.aShortArray2101[i_42_];
+			short i_92_ = class186.faceA[i_42_];
+			short i_93_ = class186.faceB[i_42_];
+			short i_94_ = class186.faceC[i_42_];
 			int i_95_ = class207.anIntArray2249[i_53_];
 			int i_96_ = class207.anIntArray2248[i_53_];
 			int i_97_ = class207.anIntArray2246[i_53_];
@@ -486,23 +486,23 @@ public class Class179_Sub3 extends Class179
 			    float f_100_
 				= ((float) class186.anIntArray2123[i_53_]
 				   / 1024.0F);
-			    method2921(class186.anIntArray2089[i_92_],
-				       class186.anIntArray2090[i_92_],
-				       class186.anIntArray2108[i_92_], i_95_,
+			    method2921(class186.vertexX[i_92_],
+				       class186.vertexY[i_92_],
+				       class186.vertexZ[i_92_], i_95_,
 				       i_96_, i_97_, fs, f_100_, i_98_, f_99_,
 				       aFloatArray9569);
 			    f = aFloatArray9569[0];
 			    f_46_ = aFloatArray9569[1];
-			    method2921(class186.anIntArray2089[i_93_],
-				       class186.anIntArray2090[i_93_],
-				       class186.anIntArray2108[i_93_], i_95_,
+			    method2921(class186.vertexX[i_93_],
+				       class186.vertexY[i_93_],
+				       class186.vertexZ[i_93_], i_95_,
 				       i_96_, i_97_, fs, f_100_, i_98_, f_99_,
 				       aFloatArray9569);
 			    f_47_ = aFloatArray9569[0];
 			    f_48_ = aFloatArray9569[1];
-			    method2921(class186.anIntArray2089[i_94_],
-				       class186.anIntArray2090[i_94_],
-				       class186.anIntArray2108[i_94_], i_95_,
+			    method2921(class186.vertexX[i_94_],
+				       class186.vertexY[i_94_],
+				       class186.vertexZ[i_94_], i_95_,
 				       i_96_, i_97_, fs, f_100_, i_98_, f_99_,
 				       aFloatArray9569);
 			    f_49_ = aFloatArray9569[0];
@@ -546,18 +546,18 @@ public class Class179_Sub3 extends Class179
 			    float f_103_
 				= ((float) class186.anIntArray2130[i_53_]
 				   / 256.0F);
-			    int i_104_ = (class186.anIntArray2089[i_93_]
-					  - class186.anIntArray2089[i_92_]);
-			    int i_105_ = (class186.anIntArray2090[i_93_]
-					  - class186.anIntArray2090[i_92_]);
-			    int i_106_ = (class186.anIntArray2108[i_93_]
-					  - class186.anIntArray2108[i_92_]);
-			    int i_107_ = (class186.anIntArray2089[i_94_]
-					  - class186.anIntArray2089[i_92_]);
-			    int i_108_ = (class186.anIntArray2090[i_94_]
-					  - class186.anIntArray2090[i_92_]);
-			    int i_109_ = (class186.anIntArray2108[i_94_]
-					  - class186.anIntArray2108[i_92_]);
+			    int i_104_ = (class186.vertexX[i_93_]
+					  - class186.vertexX[i_92_]);
+			    int i_105_ = (class186.vertexY[i_93_]
+					  - class186.vertexY[i_92_]);
+			    int i_106_ = (class186.vertexZ[i_93_]
+					  - class186.vertexZ[i_92_]);
+			    int i_107_ = (class186.vertexX[i_94_]
+					  - class186.vertexX[i_92_]);
+			    int i_108_ = (class186.vertexY[i_94_]
+					  - class186.vertexY[i_92_]);
+			    int i_109_ = (class186.vertexZ[i_94_]
+					  - class186.vertexZ[i_92_]);
 			    int i_110_ = i_105_ * i_109_ - i_108_ * i_106_;
 			    int i_111_ = i_106_ * i_107_ - i_109_ * i_104_;
 			    int i_112_ = i_104_ * i_108_ - i_107_ * i_105_;
@@ -583,45 +583,45 @@ public class Class179_Sub3 extends Class179
 					     + (float) i_112_ * fs[8])
 					    / f_115_);
 			    i_57_ = method2922(f_116_, f_117_, f_118_);
-			    method3009(class186.anIntArray2089[i_92_],
-				       class186.anIntArray2090[i_92_],
-				       class186.anIntArray2108[i_92_], i_95_,
+			    method3009(class186.vertexX[i_92_],
+				       class186.vertexY[i_92_],
+				       class186.vertexZ[i_92_], i_95_,
 				       i_96_, i_97_, i_57_, fs, i_98_, f_99_,
 				       f_102_, f_103_, aFloatArray9569);
 			    f = aFloatArray9569[0];
 			    f_46_ = aFloatArray9569[1];
-			    method3009(class186.anIntArray2089[i_93_],
-				       class186.anIntArray2090[i_93_],
-				       class186.anIntArray2108[i_93_], i_95_,
+			    method3009(class186.vertexX[i_93_],
+				       class186.vertexY[i_93_],
+				       class186.vertexZ[i_93_], i_95_,
 				       i_96_, i_97_, i_57_, fs, i_98_, f_99_,
 				       f_102_, f_103_, aFloatArray9569);
 			    f_47_ = aFloatArray9569[0];
 			    f_48_ = aFloatArray9569[1];
-			    method3009(class186.anIntArray2089[i_94_],
-				       class186.anIntArray2090[i_94_],
-				       class186.anIntArray2108[i_94_], i_95_,
+			    method3009(class186.vertexX[i_94_],
+				       class186.vertexY[i_94_],
+				       class186.vertexZ[i_94_], i_95_,
 				       i_96_, i_97_, i_57_, fs, i_98_, f_99_,
 				       f_102_, f_103_, aFloatArray9569);
 			    f_49_ = aFloatArray9569[0];
 			    f_50_ = aFloatArray9569[1];
 			} else if (i_60_ == 3) {
-			    method3033(class186.anIntArray2089[i_92_],
-				       class186.anIntArray2090[i_92_],
-				       class186.anIntArray2108[i_92_], i_95_,
+			    method3033(class186.vertexX[i_92_],
+				       class186.vertexY[i_92_],
+				       class186.vertexZ[i_92_], i_95_,
 				       i_96_, i_97_, fs, i_98_, f_99_,
 				       aFloatArray9569);
 			    f = aFloatArray9569[0];
 			    f_46_ = aFloatArray9569[1];
-			    method3033(class186.anIntArray2089[i_93_],
-				       class186.anIntArray2090[i_93_],
-				       class186.anIntArray2108[i_93_], i_95_,
+			    method3033(class186.vertexX[i_93_],
+				       class186.vertexY[i_93_],
+				       class186.vertexZ[i_93_], i_95_,
 				       i_96_, i_97_, fs, i_98_, f_99_,
 				       aFloatArray9569);
 			    f_47_ = aFloatArray9569[0];
 			    f_48_ = aFloatArray9569[1];
-			    method3033(class186.anIntArray2089[i_94_],
-				       class186.anIntArray2090[i_94_],
-				       class186.anIntArray2108[i_94_], i_95_,
+			    method3033(class186.vertexX[i_94_],
+				       class186.vertexY[i_94_],
+				       class186.vertexZ[i_94_], i_95_,
 				       i_96_, i_97_, fs, i_98_, f_99_,
 				       aFloatArray9569);
 			    f_49_ = aFloatArray9569[0];
@@ -668,13 +668,13 @@ public class Class179_Sub3 extends Class179
 		l_51_ = 0L;
 		l_52_ = 0L;
 	    }
-	    byte i_119_ = (class186.aByteArray2107 != null
-			   ? class186.aByteArray2107[i_42_] : (byte) 0);
+	    byte i_119_ = (class186.faceRenderTypes != null
+			   ? class186.faceRenderTypes[i_42_] : (byte) 0);
 	    if (i_119_ == 0) {
 		long l_120_ = (long) ((i_43_ << 8) + i_44_);
-		short i_121_ = class186.aShortArray2111[i_42_];
-		short i_122_ = class186.aShortArray2100[i_42_];
-		short i_123_ = class186.aShortArray2101[i_42_];
+		short i_121_ = class186.faceA[i_42_];
+		short i_122_ = class186.faceB[i_42_];
+		short i_123_ = class186.faceC[i_42_];
 		Class375 class375 = class375s[i_121_];
 		aShortArray9561[i_41_]
 		    = method15292(class186, i_121_, i_41_,
@@ -700,23 +700,23 @@ public class Class179_Sub3 extends Class179
 			       + ((long) (class369.anInt3871 + 256) << 24)
 			       + (long) (i_43_ << 8) + (long) i_44_);
 		aShortArray9561[i_41_]
-		    = method15292(class186, class186.aShortArray2111[i_42_],
+		    = method15292(class186, class186.faceA[i_42_],
 				  i_41_, l_124_ | l_52_ << 41,
 				  class369.anInt3873, class369.anInt3872,
 				  class369.anInt3871, 0, f, f_46_);
 		aShortArray9570[i_41_]
-		    = method15292(class186, class186.aShortArray2100[i_42_],
+		    = method15292(class186, class186.faceB[i_42_],
 				  i_41_, l_124_ | l_52_ << 41,
 				  class369.anInt3873, class369.anInt3872,
 				  class369.anInt3871, 0, f_47_, f_48_);
 		aShortArray9571[i_41_]
-		    = method15292(class186, class186.aShortArray2101[i_42_],
+		    = method15292(class186, class186.faceC[i_42_],
 				  i_41_, l_124_ | l_52_ << 41,
 				  class369.anInt3873, class369.anInt3872,
 				  class369.anInt3871, 0, f_49_, f_50_);
 	    }
-	    if (class186.aByteArray2099 != null)
-		aByteArray9568[i_41_] = class186.aByteArray2099[i_42_];
+	    if (class186.faceAlpha != null)
+		aByteArray9568[i_41_] = class186.faceAlpha[i_42_];
 	    if (class186.aShortArray2113 != null)
 		aShortArray9615[i_41_] = class186.aShortArray2113[i_42_];
 	    aShortArray9552[i_41_] = class186.aShortArray2109[i_42_];
@@ -779,18 +779,18 @@ public class Class179_Sub3 extends Class179
 	aByteArray9557 = method15269(aByteArray9557, anInt9555);
 	aFloatArray9562 = method15271(aFloatArray9562, anInt9555);
 	aFloatArray9563 = method15271(aFloatArray9563, anInt9555);
-	if (class186.anIntArray2083 != null
+	if (class186.vertexBones != null
 	    && Class338.method5971(i, anInt9558))
 	    anIntArrayArray9553 = class186.method3636(false);
 	if (class186.aClass171Array2088 != null
 	    && Class338.method5912(i, anInt9558))
 	    anIntArrayArray9543 = class186.method3630();
-	if (class186.anIntArray2126 != null
+	if (class186.faceBones != null
 	    && Class338.method5895(i, anInt9558)) {
 	    int i_134_ = 0;
 	    int[] is_135_ = new int[256];
 	    for (int i_136_ = 0; i_136_ < anInt9595; i_136_++) {
-		int i_137_ = class186.anIntArray2126[is[i_136_]];
+		int i_137_ = class186.faceBones[is[i_136_]];
 		if (i_137_ >= 0) {
 		    is_135_[i_137_]++;
 		    if (i_137_ > i_134_)
@@ -803,7 +803,7 @@ public class Class179_Sub3 extends Class179
 		is_135_[i_138_] = 0;
 	    }
 	    for (int i_139_ = 0; i_139_ < anInt9595; i_139_++) {
-		int i_140_ = class186.anIntArray2126[is[i_139_]];
+		int i_140_ = class186.faceBones[is[i_139_]];
 		if (i_140_ >= 0)
 		    anIntArrayArray9573[i_140_][is_135_[i_140_]++] = i_139_;
 	    }
@@ -2147,7 +2147,7 @@ public class Class179_Sub3 extends Class179
 	return anInt9592;
     }
     
-    public Class154[] method3064() {
+    public MagnetConfig[] method3064() {
 	return aClass154Array9601;
     }
     
@@ -2338,8 +2338,8 @@ public class Class179_Sub3 extends Class179
 	}
 	if (aClass154Array9601 != null) {
 	    for (int i = 0; i < aClass154Array9601.length; i++) {
-		Class154 class154 = aClass154Array9601[i];
-		Class154 class154_302_ = class154;
+		MagnetConfig class154 = aClass154Array9601[i];
+		MagnetConfig class154_302_ = class154;
 		if (class154.aClass154_1728 != null)
 		    class154_302_ = class154.aClass154_1728;
 		if (class154.aClass435_1727 != null)
@@ -2651,7 +2651,7 @@ public class Class179_Sub3 extends Class179
 	}
     }
     
-    public Class154[] method2980() {
+    public MagnetConfig[] method2980() {
 	return aClass154Array9601;
     }
     
@@ -2798,8 +2798,8 @@ public class Class179_Sub3 extends Class179
 	}
 	if (aClass154Array9601 != null) {
 	    for (int i = 0; i < aClass154Array9601.length; i++) {
-		Class154 class154 = aClass154Array9601[i];
-		Class154 class154_345_ = class154;
+		MagnetConfig class154 = aClass154Array9601[i];
+		MagnetConfig class154_345_ = class154;
 		if (class154.aClass154_1728 != null)
 		    class154_345_ = class154.aClass154_1728;
 		if (class154.aClass435_1727 != null)
@@ -5801,8 +5801,8 @@ public class Class179_Sub3 extends Class179
 	}
 	if (aClass154Array9601 != null) {
 	    for (int i = 0; i < aClass154Array9601.length; i++) {
-		Class154 class154 = aClass154Array9601[i];
-		Class154 class154_840_ = class154;
+		MagnetConfig class154 = aClass154Array9601[i];
+		MagnetConfig class154_840_ = class154;
 		if (class154.aClass154_1728 != null)
 		    class154_840_ = class154.aClass154_1728;
 		if (class154.aClass435_1727 != null)
@@ -6107,9 +6107,9 @@ public class Class179_Sub3 extends Class179
 	return anInt9589;
     }
     
-    short method15292(Class186 class186, int i, int i_893_, long l, int i_894_,
-		      int i_895_, int i_896_, int i_897_, float f,
-		      float f_898_) {
+    short method15292(ModelDecoder class186, int i, int i_893_, long l, int i_894_,
+                      int i_895_, int i_896_, int i_897_, float f,
+                      float f_898_) {
 	int i_899_ = anIntArray9598[i];
 	int i_900_ = anIntArray9598[i + 1];
 	int i_901_ = 0;
@@ -7399,15 +7399,15 @@ public class Class179_Sub3 extends Class179
 	return aClass184Array9600;
     }
     
-    public Class154[] method2946() {
+    public MagnetConfig[] method2946() {
 	return aClass154Array9601;
     }
     
-    public Class154[] method3085() {
+    public MagnetConfig[] method3085() {
 	return aClass154Array9601;
     }
     
-    public Class154[] method3063() {
+    public MagnetConfig[] method3063() {
 	return aClass154Array9601;
     }
     
@@ -8953,9 +8953,9 @@ public class Class179_Sub3 extends Class179
 	method15290();
     }
     
-    short method15299(Class186 class186, int i, int i_1412_, long l,
-		      int i_1413_, int i_1414_, int i_1415_, int i_1416_,
-		      float f, float f_1417_) {
+    short method15299(ModelDecoder class186, int i, int i_1412_, long l,
+                      int i_1413_, int i_1414_, int i_1415_, int i_1416_,
+                      float f, float f_1417_) {
 	int i_1418_ = anIntArray9598[i];
 	int i_1419_ = anIntArray9598[i + 1];
 	int i_1420_ = 0;
@@ -8981,9 +8981,9 @@ public class Class179_Sub3 extends Class179
 	return (short) anInt9555++;
     }
     
-    short method15300(Class186 class186, int i, int i_1423_, long l,
-		      int i_1424_, int i_1425_, int i_1426_, int i_1427_,
-		      float f, float f_1428_) {
+    short method15300(ModelDecoder class186, int i, int i_1423_, long l,
+                      int i_1424_, int i_1425_, int i_1426_, int i_1427_,
+                      float f, float f_1428_) {
 	int i_1429_ = anIntArray9598[i];
 	int i_1430_ = anIntArray9598[i + 1];
 	int i_1431_ = 0;
@@ -9015,9 +9015,9 @@ public class Class179_Sub3 extends Class179
 	return fs_1434_;
     }
     
-    short method15302(Class186 class186, int i, int i_1435_, long l,
-		      int i_1436_, int i_1437_, int i_1438_, int i_1439_,
-		      float f, float f_1440_) {
+    short method15302(ModelDecoder class186, int i, int i_1435_, long l,
+                      int i_1436_, int i_1437_, int i_1438_, int i_1439_,
+                      float f, float f_1440_) {
 	int i_1441_ = anIntArray9598[i];
 	int i_1442_ = anIntArray9598[i + 1];
 	int i_1443_ = 0;
@@ -10077,9 +10077,9 @@ public class Class179_Sub3 extends Class179
 	    aClass354_9575.method6261();
     }
     
-    short method15320(Class186 class186, int i, int i_1607_, long l,
-		      int i_1608_, int i_1609_, int i_1610_, int i_1611_,
-		      float f, float f_1612_) {
+    short method15320(ModelDecoder class186, int i, int i_1607_, long l,
+                      int i_1608_, int i_1609_, int i_1610_, int i_1611_,
+                      float f, float f_1612_) {
 	int i_1613_ = anIntArray9598[i];
 	int i_1614_ = anIntArray9598[i + 1];
 	int i_1615_ = 0;

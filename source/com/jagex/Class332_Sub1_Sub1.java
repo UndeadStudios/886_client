@@ -5,8 +5,8 @@ package com.jagex;
 
 public class Class332_Sub1_Sub1 extends Class332_Sub1
 {
-    Class332_Sub1_Sub1(Class458 class458, Class458 class458_0_,
-		       Class390_Sub1_Sub1 class390_sub1_sub1) {
+    Class332_Sub1_Sub1(JS5 class458, JS5 class458_0_,
+                       Class390_Sub1_Sub1 class390_sub1_sub1) {
 	super(class458, class458_0_, (Class390_Sub1) class390_sub1_sub1);
     }
     

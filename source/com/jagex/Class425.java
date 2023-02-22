@@ -154,13 +154,13 @@ public class Class425
 	if (class88.method1661(1824295347))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class299)
+		= ((NPCDefinitions)
 		   Class168_Sub1.aClass40_Sub7_9112.method76(i_0_, 1236697415))
 		      .method5375(i_1_, class88.aString892, 501271953);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class299)
+		= (((NPCDefinitions)
 		    Class168_Sub1.aClass40_Sub7_9112.method76(i_0_, 542012774))
 		       .method5368
 		   (i_1_, class88.anInt893 * 2053564367, (byte) 1));
@@ -171,7 +171,7 @@ public class Class425
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
 	class683.anIntArray8661[((class683.anInt8662 += 1552651121) * 501271953
 				 - 1)]
-	    = (((Class8)
+	    = (((ItemDefinitions)
 		Class313_Sub2.aClass40_Sub22_10106.method76(i_2_, 834794145))
 	       .anInt60) * -2006916027;
     }

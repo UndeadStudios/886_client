@@ -753,8 +753,8 @@ public class Class652_Sub1 extends Class652
 				       class525_sub23.aClass709_10586
 					   .method14351(-2118209878));
 				while (null != class525_sub13) {
-				    Class8 class8
-					= ((Class8)
+				    ItemDefinitions class8
+					= ((ItemDefinitions)
 					   (Class313_Sub2
 						.aClass40_Sub22_10106.method76
 					    ((class525_sub13.anInt10528
@@ -883,8 +883,8 @@ public class Class652_Sub1 extends Class652
 			    instanceof Interface62) {
 			    Interface62 interface62
 				= (Interface62) class567.aClass656_Sub1_7606;
-			    Class602 class602
-				= (Class602) (client.aClass507_11137.method8362
+			    ObjectDefinitions class602
+				= (ObjectDefinitions) (client.aClass507_11137.method8362
 						  ((byte) -1).method76
 					      (interface62.method406((byte) 1),
 					       1549524575));

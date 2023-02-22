@@ -508,7 +508,7 @@ public class Class412
 	    int i_74_ = class525_sub38_sub2.readUnsignedShort((byte) 7);
 	    int i_75_ = class525_sub38_sub2.readUnsignedShort((byte) 99);
 	    int i_76_ = class525_sub38_sub2.readUnsignedByte(884506764);
-	    int i_77_ = class525_sub38_sub2.method16625((byte) 40);
+	    int i_77_ = class525_sub38_sub2.readSmart((byte) 40);
 	    if (client.aClass507_11137.method8346(-1698045909)
 		!= Class499.aClass499_5551) {
 		if (i_71_ >= 0 && i_72_ >= 0
@@ -625,7 +625,7 @@ public class Class412
 	    int i_106_ = Class236.anInt2391 * -727902931 + (i_104_ & 0x7);
 	    int i_107_ = i_105_ + class525_sub38_sub2.readByte(-1150098071);
 	    int i_108_ = i_106_ + class525_sub38_sub2.readByte(-1150098071);
-	    int i_109_ = class525_sub38_sub2.method16625((byte) -104);
+	    int i_109_ = class525_sub38_sub2.readSmart((byte) -104);
 	    int i_110_ = class525_sub38_sub2.readUnsignedShort((byte) 79);
 	    int i_111_ = class525_sub38_sub2.readUnsignedByte(2101416687) * 4;
 	    int i_112_ = class525_sub38_sub2.readUnsignedByte(1883813302) * 4;
@@ -633,7 +633,7 @@ public class Class412
 	    int i_114_ = class525_sub38_sub2.readUnsignedShort((byte) 2);
 	    int i_115_ = class525_sub38_sub2.readUnsignedByte(486845850);
 	    int i_116_ = class525_sub38_sub2.readUnsignedShort((byte) 15);
-	    int i_117_ = class525_sub38_sub2.method16625((byte) -3);
+	    int i_117_ = class525_sub38_sub2.readSmart((byte) -3);
 	    if (255 == i_115_)
 		i_115_ = -1;
 	    if (client.aClass507_11137.method8346(-1698045909)
@@ -709,8 +709,8 @@ public class Class412
 	    int i_131_ = bool_130_ ? i_129_ >> 2 : -1;
 	    int i_132_ = i_127_ + class525_sub38_sub2.readByte(-1150098071);
 	    int i_133_ = i_128_ + class525_sub38_sub2.readByte(-1150098071);
-	    int i_134_ = class525_sub38_sub2.method16625((byte) 57);
-	    int i_135_ = class525_sub38_sub2.method16625((byte) -49);
+	    int i_134_ = class525_sub38_sub2.readSmart((byte) 57);
+	    int i_135_ = class525_sub38_sub2.readSmart((byte) -49);
 	    int i_136_ = class525_sub38_sub2.readUnsignedShort((byte) 49);
 	    int i_137_ = class525_sub38_sub2.readUnsignedByte(592819518);
 	    if (bool_130_)
@@ -724,7 +724,7 @@ public class Class412
 	    int i_142_ = class525_sub38_sub2.readUnsignedShort((byte) 105);
 	    if (i_141_ == 255)
 		i_141_ = -1;
-	    int i_143_ = class525_sub38_sub2.method16625((byte) 113);
+	    int i_143_ = class525_sub38_sub2.readSmart((byte) 113);
 	    if (client.aClass507_11137.method8346(-1698045909)
 		!= Class499.aClass499_5551) {
 		if (i_127_ >= 0 && i_128_ >= 0
@@ -755,7 +755,7 @@ public class Class412
 	} else if (class406 == Class406.aClass406_4162) {
 	    int i_144_ = class525_sub38_sub2.readInt(1485287255);
 	    int i_145_ = class525_sub38_sub2.readUnsignedByte(1004026881);
-	    ((Class602)
+	    ((ObjectDefinitions)
 	     client.aClass507_11137.method8362((byte) -1).method76(i_144_,
 								   -992128200))
 		.method9905(i_145_, 371718729);

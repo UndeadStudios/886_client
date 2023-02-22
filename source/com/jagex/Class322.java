@@ -14,7 +14,7 @@ public class Class322 implements Interface14
     Class453 aClass453_3546;
     int anInt3547 = -1348631017;
     static int[] anIntArray3548 = new int[32];
-    public static Class458 aClass458_3549;
+    public static JS5 aClass458_3549;
     
     static {
 	int i = 2;
@@ -331,7 +331,7 @@ public class Class322 implements Interface14
     static final void method5730(Class683 class683, int i) {
 	int i_29_ = (class683.anIntArray8661
 		     [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8 = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	ItemDefinitions class8 = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 				     .method76(i_29_, -1206271097);
 	if (class8.anInt77 * -1095552769 >= 0
 	    && -1210387357 * class8.anInt59 >= 0)

@@ -22,7 +22,7 @@ public class Class47_Sub1 extends Class47
     }
     
     public Class47_Sub1(Class668 class668, Class666 class666,
-			Class458 class458, boolean bool) {
+                        JS5 class458, boolean bool) {
 	super(class668, class666, Class663.aClass663_8544, class458,
 	      new Class263(), bool);
     }

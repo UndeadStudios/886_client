@@ -72,7 +72,7 @@ public class Class302
 	class525_sub38.method16735(class16.method80(), -1394620519);
 	switch (-2009487659 * class16.anInt186) {
 	case 0:
-	    class525_sub38.pos += 1357713884;
+	    class525_sub38.index += 1357713884;
 	    break;
 	case 1:
 	    class525_sub38.method16605(Class424.aClass52_4742.method1145(l),
@@ -82,7 +82,7 @@ public class Class302
 	case 3:
 	    class525_sub38.method16604(Integer.parseInt(Class70.aString779),
 				       (byte) 1);
-	    class525_sub38.pos += 339428471;
+	    class525_sub38.index += 339428471;
 	    break;
 	}
     }

@@ -14,7 +14,7 @@ public class Class691
     Class525_Sub16_Sub18 aClass525_Sub16_Sub18_8747;
     Class525_Sub16_Sub18 aClass525_Sub16_Sub18_8748;
     
-    final boolean method14102(Class40_Sub8 class40_sub8, Class194 class194,
+    final boolean method14102(Class40_Sub8 class40_sub8, AnimationDefinition class194,
 			      int i, int i_0_, int[] is, int i_1_) {
 	if (!aBool8743) {
 	    if (i >= is.length)
@@ -25,7 +25,7 @@ public class Class691
 					   -1713923430);
 	    anInt8744 = 160236983 * (1740761095 * anInt8744 & 0xffff);
 	    if (aClass525_Sub16_Sub18_8748 != null) {
-		if (class194.aBool2163 && -1 != i_0_ && i_0_ < is.length) {
+		if (class194.tweened && -1 != i_0_ && i_0_ < is.length) {
 		    anInt8745 = is[i_0_] * 176818195;
 		    aClass525_Sub16_Sub18_8747
 			= class40_sub8.method17433((anInt8745 * -1589968357
@@ -67,7 +67,7 @@ public class Class691
 	return true;
     }
     
-    final boolean method14103(Class40_Sub8 class40_sub8, Class194 class194,
+    final boolean method14103(Class40_Sub8 class40_sub8, AnimationDefinition class194,
 			      int i, int i_2_, int[] is) {
 	if (!aBool8743) {
 	    if (i >= is.length)
@@ -78,7 +78,7 @@ public class Class691
 					   -2037699506);
 	    anInt8744 = 160236983 * (1740761095 * anInt8744 & 0xffff);
 	    if (aClass525_Sub16_Sub18_8748 != null) {
-		if (class194.aBool2163 && -1 != i_2_ && i_2_ < is.length) {
+		if (class194.tweened && -1 != i_2_ && i_2_ < is.length) {
 		    anInt8745 = is[i_2_] * 176818195;
 		    aClass525_Sub16_Sub18_8747
 			= class40_sub8.method17433((anInt8745 * -1589968357
@@ -127,7 +127,7 @@ public class Class691
 	aClass525_Sub16_Sub18_8748 = null;
     }
     
-    final boolean method14105(Class40_Sub8 class40_sub8, Class194 class194,
+    final boolean method14105(Class40_Sub8 class40_sub8, AnimationDefinition class194,
 			      int i, int i_3_, int[] is) {
 	if (!aBool8743) {
 	    if (i >= is.length)
@@ -138,7 +138,7 @@ public class Class691
 					   -1812249501);
 	    anInt8744 = 160236983 * (1740761095 * anInt8744 & 0xffff);
 	    if (aClass525_Sub16_Sub18_8748 != null) {
-		if (class194.aBool2163 && -1 != i_3_ && i_3_ < is.length) {
+		if (class194.tweened && -1 != i_3_ && i_3_ < is.length) {
 		    anInt8745 = is[i_3_] * 176818195;
 		    aClass525_Sub16_Sub18_8747
 			= class40_sub8.method17433((anInt8745 * -1589968357
@@ -180,7 +180,7 @@ public class Class691
 	return true;
     }
     
-    final boolean method14106(Class40_Sub8 class40_sub8, Class194 class194,
+    final boolean method14106(Class40_Sub8 class40_sub8, AnimationDefinition class194,
 			      int i, int i_4_, int[] is) {
 	if (!aBool8743) {
 	    if (i >= is.length)
@@ -191,7 +191,7 @@ public class Class691
 					   -2075020771);
 	    anInt8744 = 160236983 * (1740761095 * anInt8744 & 0xffff);
 	    if (aClass525_Sub16_Sub18_8748 != null) {
-		if (class194.aBool2163 && -1 != i_4_ && i_4_ < is.length) {
+		if (class194.tweened && -1 != i_4_ && i_4_ < is.length) {
 		    anInt8745 = is[i_4_] * 176818195;
 		    aClass525_Sub16_Sub18_8747
 			= class40_sub8.method17433((anInt8745 * -1589968357
@@ -358,7 +358,7 @@ public class Class691
 		= ((int) (-Math.atan2((double) f_25_, (double) f_27_)
 			  * 2607.5945876176133)
 		   & 0x3fff) * -1054956469;
-	    Class8.anInt137
+	    ItemDefinitions.anInt137
 		= (((1540078747 * client.anInt11193
 		     * ((client.anIntArrayArrayArray11188
 			 [client.anInt11189 * -1693615781][i_6_ + 2][3])
@@ -379,7 +379,7 @@ public class Class691
 	for (int i_29_ = 0;
 	     i_29_ < Class313_Sub2.aClass40_Sub22_10106.anInt332 * -1988422751;
 	     i_29_++) {
-	    Class8 class8 = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8 = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 					 .method76(i_29_, -982284805);
 	    if ((!bool || class8.aBool123)
 		&& -1095552769 * class8.anInt77 == -1

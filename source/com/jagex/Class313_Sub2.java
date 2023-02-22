@@ -60,7 +60,7 @@ public class Class313_Sub2 extends Class313
 					   .method5491((byte) 0)
 			      * -2607.5945876176133)
 		       & 0x3fff) * -1054956469;
-		Class8.anInt137 = 0;
+		ItemDefinitions.anInt137 = 0;
 		client.anInt11360
 		    = (int) ((float) (-1839278261 * Class329.anInt3590)
 			     + (float) ((int) ((double) (client.anInt11067
@@ -212,11 +212,11 @@ public class Class313_Sub2 extends Class313
 	Class179 class179 = (Class179) Class109.aClass200_1321.method3785(l);
 	int i_19_ = 2055;
 	if (class179 == null) {
-	    Class186 class186
-		= Class186.method3644(Class65.aClass458_705, i_17_, 0);
+	    ModelDecoder class186
+		= ModelDecoder.method3644(WorldTile.aClass458_705, i_17_, 0);
 	    if (null == class186)
 		return null;
-	    if (class186.anInt2086 < 13)
+	    if (class186.version < 13)
 		class186.method3651(2);
 	    class179 = class182.method3556(class186, i_19_,
 					   Class109.anInt1322 * -2113606617,

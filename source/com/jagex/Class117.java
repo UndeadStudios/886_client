@@ -189,7 +189,7 @@ public class Class117
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-378202877);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       2100613474);
 	} catch (Exception exception) {
 	    /* empty */
@@ -285,7 +285,7 @@ public class Class117
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-1141932105);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       1546459663);
 	} catch (Exception exception) {
 	    /* empty */
@@ -307,7 +307,7 @@ public class Class117
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-342696091);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       -1491564229);
 	} catch (Exception exception) {
 	    /* empty */
@@ -329,7 +329,7 @@ public class Class117
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-1392321955);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       -2038411927);
 	} catch (Exception exception) {
 	    /* empty */
@@ -474,7 +474,7 @@ public class Class117
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-585014608);
 	    class42.method1051(class525_sub38.buffer, 0,
-			       class525_sub38.pos * -1133521593,
+			       class525_sub38.index * -1133521593,
 			       443128745);
 	} catch (Exception exception) {
 	    /* empty */

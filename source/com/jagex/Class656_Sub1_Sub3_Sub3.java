@@ -11,7 +11,7 @@ public class Class656_Sub1_Sub3_Sub3 extends Class656_Sub1_Sub3
     boolean aBool12045;
     boolean aBool12046 = true;
     Class553 aClass553_12047;
-    public static Class458 aClass458_12048;
+    public static JS5 aClass458_12048;
     
     boolean method16934() {
 	return aBool12046;
@@ -47,7 +47,7 @@ public class Class656_Sub1_Sub3_Sub3 extends Class656_Sub1_Sub3
 	aClass532_12043.method8829(class182, class179, class444, aShort11923,
 				   aShort11924, aShort11925, aShort11930, true,
 				   (byte) -56);
-	Class602 class602 = aClass532_12043.method8833((byte) -54);
+	ObjectDefinitions class602 = aClass532_12043.method8833((byte) -54);
 	if (null != class602.aClass443_7920) {
 	    class179.method2953(class444, null, 0);
 	    class182.method3371(class444, aClass211Array10869[0],
@@ -99,9 +99,9 @@ public class Class656_Sub1_Sub3_Sub3 extends Class656_Sub1_Sub3
     
     public Class656_Sub1_Sub3_Sub3
 	(Class546 class546, Class182 class182, Class40_Sub11 class40_sub11,
-	 Class602 class602, int i, int i_0_, int i_1_, int i_2_, int i_3_,
-	 boolean bool, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_,
-	 int i_9_, int i_10_, int i_11_, boolean bool_12_) {
+     ObjectDefinitions class602, int i, int i_0_, int i_1_, int i_2_, int i_3_,
+     boolean bool, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_,
+     int i_9_, int i_10_, int i_11_, boolean bool_12_) {
 	super(class546, i, i_0_, i_1_, i_2_, i_3_, i_4_, i_5_, i_6_, i_7_,
 	      1 == class602.anInt7921 * 1596797987,
 	      Class47.method1103(i_8_, i_9_, (byte) -41));
@@ -282,7 +282,7 @@ public class Class656_Sub1_Sub3_Sub3 extends Class656_Sub1_Sub3
     }
     
     boolean method16910(Class182 class182, int i, int i_15_, byte i_16_) {
-	Class602 class602 = aClass532_12043.method8833((byte) -27);
+	ObjectDefinitions class602 = aClass532_12043.method8833((byte) -27);
 	if (null != class602.aClass443_7920)
 	    return class182.method3414(i, i_15_, method10826(),
 				       class602.aClass443_7920, (byte) -75);
@@ -313,7 +313,7 @@ public class Class656_Sub1_Sub3_Sub3 extends Class656_Sub1_Sub3
     }
     
     boolean method16939(Class182 class182, int i, int i_20_) {
-	Class602 class602 = aClass532_12043.method8833((byte) 36);
+	ObjectDefinitions class602 = aClass532_12043.method8833((byte) 36);
 	if (null != class602.aClass443_7920)
 	    return class182.method3414(i, i_20_, method10826(),
 				       class602.aClass443_7920, (byte) -30);
@@ -325,7 +325,7 @@ public class Class656_Sub1_Sub3_Sub3 extends Class656_Sub1_Sub3
     }
     
     boolean method16940(Class182 class182, int i, int i_21_) {
-	Class602 class602 = aClass532_12043.method8833((byte) 29);
+	ObjectDefinitions class602 = aClass532_12043.method8833((byte) 29);
 	if (null != class602.aClass443_7920)
 	    return class182.method3414(i, i_21_, method10826(),
 				       class602.aClass443_7920, (byte) -69);
@@ -349,7 +349,7 @@ public class Class656_Sub1_Sub3_Sub3 extends Class656_Sub1_Sub3
     }
     
     boolean method16965(Class182 class182, int i, int i_22_) {
-	Class602 class602 = aClass532_12043.method8833((byte) 50);
+	ObjectDefinitions class602 = aClass532_12043.method8833((byte) 50);
 	if (null != class602.aClass443_7920)
 	    return class182.method3414(i, i_22_, method10826(),
 				       class602.aClass443_7920, (byte) -11);
@@ -415,7 +415,7 @@ public class Class656_Sub1_Sub3_Sub3 extends Class656_Sub1_Sub3
 	aClass532_12043.method8829(class182, class179, class444, aShort11923,
 				   aShort11924, aShort11925, aShort11930, true,
 				   (byte) -96);
-	Class602 class602 = aClass532_12043.method8833((byte) -64);
+	ObjectDefinitions class602 = aClass532_12043.method8833((byte) -64);
 	if (null != class602.aClass443_7920) {
 	    class179.method2953(class444, null, 0);
 	    class182.method3371(class444, aClass211Array10869[0],

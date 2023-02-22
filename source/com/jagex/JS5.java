@@ -4,7 +4,7 @@
 package com.jagex;
 import java.io.IOException;
 
-public final class Class458
+public final class JS5
 {
     Object[][] anObjectArrayArray5046;
     int anInt5047;
@@ -20,7 +20,7 @@ public final class Class458
     static int anInt5057 = 0;
     
     synchronized boolean method7469(int i, int i_0_, int[] is, int i_1_) {
-	if (!method7472(i, 1053745117))
+	if (!archiveExists(i, 1053745117))
 	    return false;
 	if (anObjectArray5050[i] == null)
 	    return false;
@@ -28,7 +28,7 @@ public final class Class458
 	int[] is_3_ = aClass461_5053.anIntArrayArray5087[i];
 	if (anObjectArrayArray5046[i] == null)
 	    anObjectArrayArray5046[i]
-		= new Object[aClass461_5053.anIntArray5090[i]];
+		= new Object[aClass461_5053.childSizes[i]];
 	Object[] objects = anObjectArrayArray5046[i];
 	boolean bool = true;
 	for (int i_4_ = 0; i_4_ < i_2_; i_4_++) {
@@ -89,7 +89,7 @@ public final class Class458
 		i_11_ -= i_12_ * i_2_ * 4;
 		RSBuffer class525_sub38 = new RSBuffer(is_10_);
 		int[] is_13_ = new int[i_2_];
-		class525_sub38.pos = 339428471 * i_11_;
+		class525_sub38.index = 339428471 * i_11_;
 		for (int i_14_ = 0; i_14_ < i_12_; i_14_++) {
 		    int i_15_ = 0;
 		    for (int i_16_ = 0; i_16_ < i_2_; i_16_++) {
@@ -102,7 +102,7 @@ public final class Class458
 		    is_17_[i_18_] = new byte[is_13_[i_18_]];
 		    is_13_[i_18_] = 0;
 		}
-		class525_sub38.pos = i_11_ * 339428471;
+		class525_sub38.index = i_11_ * 339428471;
 		int i_19_ = 0;
 		for (int i_20_ = 0; i_20_ < i_12_; i_20_++) {
 		    int i_21_ = 0;
@@ -135,7 +135,7 @@ public final class Class458
 		RSBuffer class525_sub38 = new RSBuffer(is_10_);
 		int i_27_ = 0;
 		int i_28_ = 0;
-		class525_sub38.pos = 339428471 * i_25_;
+		class525_sub38.index = 339428471 * i_25_;
 		for (int i_29_ = 0; i_29_ < i_26_; i_29_++) {
 		    int i_30_ = 0;
 		    for (int i_31_ = 0; i_31_ < i_2_; i_31_++) {
@@ -155,7 +155,7 @@ public final class Class458
 		    return true;
 		byte[] is_33_ = new byte[i_27_];
 		i_27_ = 0;
-		class525_sub38.pos = i_25_ * 339428471;
+		class525_sub38.index = i_25_ * 339428471;
 		int i_34_ = 0;
 		for (int i_35_ = 0; i_35_ < i_26_; i_35_++) {
 		    int i_36_ = 0;
@@ -210,11 +210,11 @@ public final class Class458
 	return -982549883 * aClass461_5053.anInt5072;
     }
     
-    synchronized boolean method7472(int i, int i_40_) {
+    synchronized boolean archiveExists(int i, int i_40_) {
 	if (!method7470((byte) 115))
 	    return false;
-	if (i < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || 0 == aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i >= aClass461_5053.childSizes.length
+	    || 0 == aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(Integer.toString(i));
 	    return false;
@@ -252,7 +252,7 @@ public final class Class458
 	aClass454_5055.method7363(i, 393418517);
     }
     
-    public byte[] method7476(int i, int i_46_, int i_47_) {
+    public byte[] getFile(int i, int i_46_, int i_47_) {
 	return method7477(i, i_46_, null, -1348852104);
     }
     
@@ -282,7 +282,7 @@ public final class Class458
 	if (is_50_ != null) {
 	    if (112467553 * anInt5047 == 1) {
 		anObjectArrayArray5046[i][i_48_] = null;
-		if (1 == aClass461_5053.anIntArray5090[i])
+		if (1 == aClass461_5053.childSizes[i])
 		    anObjectArrayArray5046[i] = null;
 	    } else if (2 == anInt5047 * 112467553)
 		anObjectArrayArray5046[i] = null;
@@ -311,7 +311,7 @@ public final class Class458
 	string_53_ = string_53_.toLowerCase();
 	int i_54_ = (aClass461_5053.aClass265_5078.method4796
 		     (Class221.method4214(string, -639778334), -1595858416));
-	if (!method7472(i_54_, -314877769))
+	if (!archiveExists(i_54_, -314877769))
 	    return false;
 	int i_55_
 	    = (aClass461_5053.aClass265Array5071[i_54_].method4796
@@ -322,8 +322,8 @@ public final class Class458
     synchronized boolean method7480(int i) {
 	if (!method7470((byte) 123))
 	    return false;
-	if (i < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || 0 == aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i >= aClass461_5053.childSizes.length
+	    || 0 == aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(Integer.toString(i));
 	    return false;
@@ -381,15 +381,15 @@ public final class Class458
 	return i_63_;
     }
     
-    public synchronized byte[] method7484(int i, int i_64_) {
+    public synchronized byte[] getTextureData(int i, int i_64_) {
 	if (!method7470((byte) 91))
 	    return null;
-	if (1 == aClass461_5053.anIntArray5090.length)
-	    return method7476(0, i, 913795804);
-	if (!method7472(i, 1894795119))
+	if (1 == aClass461_5053.childSizes.length)
+	    return getFile(0, i, 913795804);
+	if (!archiveExists(i, 1894795119))
 	    return null;
-	if (aClass461_5053.anIntArray5090[i] == 1)
-	    return method7476(i, 0, 1542242804);
+	if (aClass461_5053.childSizes[i] == 1)
+	    return getFile(i, 0, 1542242804);
 	throw new RuntimeException();
     }
     
@@ -410,9 +410,9 @@ public final class Class458
     }
     
     public int method7487(int i, int i_66_) {
-	if (!method7472(i, -1736056378))
+	if (!archiveExists(i, -1736056378))
 	    return 0;
-	return aClass461_5053.anIntArray5090[i];
+	return aClass461_5053.childSizes[i];
     }
     
     static final byte[] method7488(byte[] is) {
@@ -425,7 +425,7 @@ public final class Class458
 	    throw new RuntimeException();
 	if (Class472.aClass472_5152 == class472) {
 	    byte[] is_67_ = new byte[i];
-	    class525_sub38.method16639(is_67_, 0, i, 1345580610);
+	    class525_sub38.readBytes(is_67_, 0, i, 1345580610);
 	    return is_67_;
 	}
 	int i_68_ = class468.method7703((byte) 45);
@@ -453,7 +453,7 @@ public final class Class458
     }
     
     public synchronized void method7489(int i, int i_70_) {
-	if (method7472(i, -1537502110)) {
+	if (archiveExists(i, -1537502110)) {
 	    if (anObjectArrayArray5046 != null)
 		anObjectArrayArray5046[i] = null;
 	}
@@ -465,7 +465,7 @@ public final class Class458
 	return -982549883 * aClass461_5053.anInt5072;
     }
     
-    public Class458(Class454 class454, boolean bool, int i) {
+    public JS5(Class454 class454, boolean bool, int i) {
 	if (i < 0 || i > 2)
 	    throw new IllegalArgumentException("");
 	aClass454_5055 = class454;
@@ -474,7 +474,7 @@ public final class Class458
     }
     
     public synchronized int method7491(int i) {
-	if (!method7472(i, 1607392982))
+	if (!archiveExists(i, 1607392982))
 	    return 0;
 	if (anObjectArray5050[i] != null)
 	    return 100;
@@ -482,7 +482,7 @@ public final class Class458
     }
     
     synchronized boolean method7492(int i, int i_71_, int[] is) {
-	if (!method7472(i, -1452639196))
+	if (!archiveExists(i, -1452639196))
 	    return false;
 	if (anObjectArray5050[i] == null)
 	    return false;
@@ -490,7 +490,7 @@ public final class Class458
 	int[] is_73_ = aClass461_5053.anIntArrayArray5087[i];
 	if (anObjectArrayArray5046[i] == null)
 	    anObjectArrayArray5046[i]
-		= new Object[aClass461_5053.anIntArray5090[i]];
+		= new Object[aClass461_5053.childSizes[i]];
 	Object[] objects = anObjectArrayArray5046[i];
 	boolean bool = true;
 	for (int i_74_ = 0; i_74_ < i_72_; i_74_++) {
@@ -552,7 +552,7 @@ public final class Class458
 		i_81_ -= i_82_ * i_72_ * 4;
 		RSBuffer class525_sub38 = new RSBuffer(is_80_);
 		int[] is_83_ = new int[i_72_];
-		class525_sub38.pos = 339428471 * i_81_;
+		class525_sub38.index = 339428471 * i_81_;
 		for (int i_84_ = 0; i_84_ < i_82_; i_84_++) {
 		    int i_85_ = 0;
 		    for (int i_86_ = 0; i_86_ < i_72_; i_86_++) {
@@ -565,7 +565,7 @@ public final class Class458
 		    is_87_[i_88_] = new byte[is_83_[i_88_]];
 		    is_83_[i_88_] = 0;
 		}
-		class525_sub38.pos = i_81_ * 339428471;
+		class525_sub38.index = i_81_ * 339428471;
 		int i_89_ = 0;
 		for (int i_90_ = 0; i_90_ < i_82_; i_90_++) {
 		    int i_91_ = 0;
@@ -598,7 +598,7 @@ public final class Class458
 		RSBuffer class525_sub38 = new RSBuffer(is_80_);
 		int i_97_ = 0;
 		int i_98_ = 0;
-		class525_sub38.pos = 339428471 * i_95_;
+		class525_sub38.index = 339428471 * i_95_;
 		for (int i_99_ = 0; i_99_ < i_96_; i_99_++) {
 		    int i_100_ = 0;
 		    for (int i_101_ = 0; i_101_ < i_72_; i_101_++) {
@@ -618,7 +618,7 @@ public final class Class458
 		    return true;
 		byte[] is_103_ = new byte[i_97_];
 		i_97_ = 0;
-		class525_sub38.pos = i_95_ * 339428471;
+		class525_sub38.index = i_95_ * 339428471;
 		int i_104_ = 0;
 		for (int i_105_ = 0; i_105_ < i_96_; i_105_++) {
 		    int i_106_ = 0;
@@ -667,9 +667,9 @@ public final class Class458
     }
     
     public int method7494(int i) {
-	if (!method7472(i, -1001747493))
+	if (!archiveExists(i, -1001747493))
 	    return 0;
-	return aClass461_5053.anIntArray5090[i];
+	return aClass461_5053.childSizes[i];
     }
     
     public synchronized byte[] method7495(String string, String string_111_,
@@ -680,12 +680,12 @@ public final class Class458
 	string_111_ = string_111_.toLowerCase();
 	int i_112_ = (aClass461_5053.aClass265_5078.method4796
 		      (Class221.method4214(string, -822107564), -1595858416));
-	if (!method7472(i_112_, 2083952117))
+	if (!archiveExists(i_112_, 2083952117))
 	    return null;
 	int i_113_
 	    = (aClass461_5053.aClass265Array5071[i_112_].method4796
 	       (Class221.method4214(string_111_, -200085674), -1595858416));
-	return method7476(i_112_, i_113_, 789306840);
+	return getFile(i_112_, i_113_, 789306840);
     }
     
     public void method7496(boolean bool, boolean bool_114_) {
@@ -711,7 +711,7 @@ public final class Class458
 	    throw new RuntimeException();
 	if (Class472.aClass472_5152 == class472) {
 	    byte[] is_115_ = new byte[i];
-	    class525_sub38.method16639(is_115_, 0, i, 760459497);
+	    class525_sub38.readBytes(is_115_, 0, i, 760459497);
 	    return is_115_;
 	}
 	int i_116_ = class468.method7703((byte) 75);
@@ -745,7 +745,7 @@ public final class Class458
 	string = string.toLowerCase();
 	int i = (aClass461_5053.aClass265_5078.method4796
 		 (Class221.method4214(string, -2130293653), -1595858416));
-	if (!method7472(i, 526834245))
+	if (!archiveExists(i, 526834245))
 	    return -1;
 	return i;
     }
@@ -781,11 +781,11 @@ public final class Class458
     public boolean method7502(int i, int i_119_) {
 	if (!method7470((byte) 22))
 	    return false;
-	if (1 == aClass461_5053.anIntArray5090.length)
+	if (1 == aClass461_5053.childSizes.length)
 	    return method7536(0, i, 1536481989);
-	if (!method7472(i, 169465705))
+	if (!archiveExists(i, 169465705))
 	    return false;
-	if (aClass461_5053.anIntArray5090[i] == 1)
+	if (aClass461_5053.childSizes[i] == 1)
 	    return method7536(i, 0, 35579066);
 	throw new RuntimeException();
     }
@@ -799,8 +799,8 @@ public final class Class458
     synchronized boolean method7504(int i) {
 	if (!method7470((byte) 27))
 	    return false;
-	if (i < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || 0 == aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i >= aClass461_5053.childSizes.length
+	    || 0 == aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(Integer.toString(i));
 	    return false;
@@ -811,17 +811,17 @@ public final class Class458
     public int method7505(int i) {
 	if (!method7470((byte) 110))
 	    return -1;
-	return aClass461_5053.anIntArray5090.length;
+	return aClass461_5053.childSizes.length;
     }
     
     public synchronized boolean method7506(int i, int i_120_) {
 	if (!method7470((byte) 57))
 	    return false;
-	if (1 == aClass461_5053.anIntArray5090.length)
+	if (1 == aClass461_5053.childSizes.length)
 	    return method7478(0, i, (short) 1620);
-	if (!method7472(i, -1265464074))
+	if (!archiveExists(i, -1265464074))
 	    return false;
-	if (aClass461_5053.anIntArray5090[i] == 1)
+	if (aClass461_5053.childSizes[i] == 1)
 	    return method7478(i, 0, (short) 28948);
 	throw new RuntimeException();
     }
@@ -829,8 +829,8 @@ public final class Class458
     public synchronized boolean method7507(int i, int i_121_) {
 	if (!method7470((byte) 38))
 	    return false;
-	if (i < 0 || i_121_ < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || i_121_ >= aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i_121_ < 0 || i >= aClass461_5053.childSizes.length
+	    || i_121_ >= aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(new StringBuilder().append
 						       (i).append
@@ -844,8 +844,8 @@ public final class Class458
     public synchronized boolean method7508(int i, int i_122_) {
 	if (!method7470((byte) 68))
 	    return false;
-	if (i < 0 || i_122_ < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || i_122_ >= aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i_122_ < 0 || i >= aClass461_5053.childSizes.length
+	    || i_122_ >= aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(new StringBuilder().append
 						       (i).append
@@ -859,8 +859,8 @@ public final class Class458
     public synchronized boolean method7509(int i, int i_123_) {
 	if (!method7470((byte) 83))
 	    return false;
-	if (i < 0 || i_123_ < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || i_123_ >= aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i_123_ < 0 || i >= aClass461_5053.childSizes.length
+	    || i_123_ >= aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(new StringBuilder().append
 						       (i).append
@@ -874,8 +874,8 @@ public final class Class458
     public synchronized boolean method7510(int i, int i_124_) {
 	if (!method7470((byte) 58))
 	    return false;
-	if (i < 0 || i_124_ < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || i_124_ >= aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i_124_ < 0 || i >= aClass461_5053.childSizes.length
+	    || i_124_ >= aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(new StringBuilder().append
 						       (i).append
@@ -889,8 +889,8 @@ public final class Class458
     public synchronized boolean method7511(int i, int i_125_) {
 	if (!method7470((byte) 124))
 	    return false;
-	if (i < 0 || i_125_ < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || i_125_ >= aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i_125_ < 0 || i >= aClass461_5053.childSizes.length
+	    || i_125_ >= aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(new StringBuilder().append
 						       (i).append
@@ -924,7 +924,7 @@ public final class Class458
     }
     
     public synchronized int method7515(int i, byte i_126_) {
-	if (!method7472(i, 733785450))
+	if (!archiveExists(i, 733785450))
 	    return 0;
 	if (anObjectArray5050[i] != null)
 	    return 100;
@@ -991,11 +991,11 @@ public final class Class458
     public synchronized boolean method7520(int i) {
 	if (!method7470((byte) 56))
 	    return false;
-	if (1 == aClass461_5053.anIntArray5090.length)
+	if (1 == aClass461_5053.childSizes.length)
 	    return method7478(0, i, (short) 13100);
-	if (!method7472(i, -1050834840))
+	if (!archiveExists(i, -1050834840))
 	    return false;
-	if (aClass461_5053.anIntArray5090[i] == 1)
+	if (aClass461_5053.childSizes[i] == 1)
 	    return method7478(i, 0, (short) 29440);
 	throw new RuntimeException();
     }
@@ -1006,7 +1006,7 @@ public final class Class458
 	string = string.toLowerCase();
 	int i_131_ = (aClass461_5053.aClass265_5078.method4796
 		      (Class221.method4214(string, -1185293872), -1595858416));
-	if (!method7472(i_131_, -1553820210))
+	if (!archiveExists(i_131_, -1553820210))
 	    return -1;
 	return i_131_;
     }
@@ -1014,11 +1014,11 @@ public final class Class458
     public synchronized boolean method7522(int i) {
 	if (!method7470((byte) 97))
 	    return false;
-	if (1 == aClass461_5053.anIntArray5090.length)
+	if (1 == aClass461_5053.childSizes.length)
 	    return method7478(0, i, (short) 1942);
-	if (!method7472(i, -248731052))
+	if (!archiveExists(i, -248731052))
 	    return false;
-	if (aClass461_5053.anIntArray5090[i] == 1)
+	if (aClass461_5053.childSizes[i] == 1)
 	    return method7478(i, 0, (short) 22690);
 	throw new RuntimeException();
     }
@@ -1026,23 +1026,23 @@ public final class Class458
     public synchronized boolean method7523(int i) {
 	if (!method7470((byte) 22))
 	    return false;
-	if (1 == aClass461_5053.anIntArray5090.length)
+	if (1 == aClass461_5053.childSizes.length)
 	    return method7478(0, i, (short) 4859);
-	if (!method7472(i, 255209621))
+	if (!archiveExists(i, 255209621))
 	    return false;
-	if (aClass461_5053.anIntArray5090[i] == 1)
+	if (aClass461_5053.childSizes[i] == 1)
 	    return method7478(i, 0, (short) 4292);
 	throw new RuntimeException();
     }
     
     public int method7524(int i) {
-	if (!method7472(i, 848769584))
+	if (!archiveExists(i, 848769584))
 	    return 0;
-	return aClass461_5053.anIntArray5090[i];
+	return aClass461_5053.childSizes[i];
     }
     
     public synchronized int method7525(int i) {
-	if (!method7472(i, -1880794670))
+	if (!archiveExists(i, -1880794670))
 	    return 0;
 	if (anObjectArray5050[i] != null)
 	    return 100;
@@ -1050,7 +1050,7 @@ public final class Class458
     }
     
     public synchronized int method7526(int i) {
-	if (!method7472(i, 1241839619))
+	if (!archiveExists(i, 1241839619))
 	    return 0;
 	if (anObjectArray5050[i] != null)
 	    return 100;
@@ -1112,7 +1112,7 @@ public final class Class458
 	string_139_ = string_139_.toLowerCase();
 	int i = (aClass461_5053.aClass265_5078.method4796
 		 (Class221.method4214(string, -972945653), -1595858416));
-	if (!method7472(i, 1266194933))
+	if (!archiveExists(i, 1266194933))
 	    return false;
 	int i_140_
 	    = (aClass461_5053.aClass265Array5071[i].method4796
@@ -1123,19 +1123,19 @@ public final class Class458
     public boolean method7531(int i) {
 	if (!method7470((byte) 46))
 	    return false;
-	if (1 == aClass461_5053.anIntArray5090.length)
+	if (1 == aClass461_5053.childSizes.length)
 	    return method7536(0, i, 1101134444);
-	if (!method7472(i, 1592801985))
+	if (!archiveExists(i, 1592801985))
 	    return false;
-	if (aClass461_5053.anIntArray5090[i] == 1)
+	if (aClass461_5053.childSizes[i] == 1)
 	    return method7536(i, 0, -758755582);
 	throw new RuntimeException();
     }
     
     public int method7532(int i) {
-	if (!method7472(i, 1282132301))
+	if (!archiveExists(i, 1282132301))
 	    return 0;
-	return aClass461_5053.anIntArray5090[i];
+	return aClass461_5053.childSizes[i];
     }
     
     public boolean method7533(String string) {
@@ -1155,16 +1155,16 @@ public final class Class458
     }
     
     public int method7535(int i) {
-	if (!method7472(i, -944495666))
+	if (!archiveExists(i, -944495666))
 	    return 0;
-	return aClass461_5053.anIntArray5090[i];
+	return aClass461_5053.childSizes[i];
     }
     
     public synchronized boolean method7536(int i, int i_142_, int i_143_) {
 	if (!method7470((byte) 103))
 	    return false;
-	if (i < 0 || i_142_ < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || i_142_ >= aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i_142_ < 0 || i >= aClass461_5053.childSizes.length
+	    || i_142_ >= aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(new StringBuilder().append
 						       (i).append
@@ -1178,11 +1178,11 @@ public final class Class458
     public int method7537() {
 	if (!method7470((byte) 17))
 	    return -1;
-	return aClass461_5053.anIntArray5090.length;
+	return aClass461_5053.childSizes.length;
     }
     
     public synchronized void method7538(int i) {
-	if (method7472(i, -449600303)) {
+	if (archiveExists(i, -449600303)) {
 	    if (anObjectArrayArray5046 != null)
 		anObjectArrayArray5046[i] = null;
 	}
@@ -1202,7 +1202,7 @@ public final class Class458
     }
     
     public synchronized int[] method7540(int i, int i_145_) {
-	if (!method7472(i, 693714291))
+	if (!archiveExists(i, 693714291))
 	    return null;
 	int[] is = aClass461_5053.anIntArrayArray5087[i];
 	if (is == null) {
@@ -1219,7 +1219,7 @@ public final class Class458
 	string = string.toLowerCase();
 	int i = (aClass461_5053.aClass265_5078.method4796
 		 (Class221.method4214(string, -613392894), -1595858416));
-	if (!method7472(i, 1386793021))
+	if (!archiveExists(i, 1386793021))
 	    return -1;
 	return i;
     }
@@ -1252,7 +1252,7 @@ public final class Class458
 	string = string.toLowerCase();
 	int i = (aClass461_5053.aClass265_5078.method4796
 		 (Class221.method4214(string, -727191604), -1595858416));
-	if (!method7472(i, 1410983427))
+	if (!archiveExists(i, 1410983427))
 	    return -1;
 	return i;
     }
@@ -1263,7 +1263,7 @@ public final class Class458
 	string = string.toLowerCase();
 	int i = (aClass461_5053.aClass265_5078.method4796
 		 (Class221.method4214(string, -1938909040), -1595858416));
-	if (!method7472(i, -211642778))
+	if (!archiveExists(i, -211642778))
 	    return -1;
 	return i;
     }
@@ -1300,7 +1300,7 @@ public final class Class458
 	string = string.toLowerCase();
 	int i = (aClass461_5053.aClass265_5078.method4796
 		 (Class221.method4214(string, -487298233), -1595858416));
-	if (!method7472(i, -1512061558))
+	if (!archiveExists(i, -1512061558))
 	    return -1;
 	return i;
     }
@@ -1309,7 +1309,7 @@ public final class Class458
 	if (!method7470((byte) 19))
 	    return -1;
 	int i_150_ = aClass461_5053.aClass265_5078.method4796(i, -1595858416);
-	if (!method7472(i_150_, -895293759))
+	if (!archiveExists(i_150_, -895293759))
 	    return -1;
 	return i_150_;
     }
@@ -1317,8 +1317,8 @@ public final class Class458
     synchronized boolean method7550(int i) {
 	if (!method7470((byte) 20))
 	    return false;
-	if (i < 0 || i >= aClass461_5053.anIntArray5090.length
-	    || 0 == aClass461_5053.anIntArray5090[i]) {
+	if (i < 0 || i >= aClass461_5053.childSizes.length
+	    || 0 == aClass461_5053.childSizes[i]) {
 	    if (aBool5056)
 		throw new IllegalArgumentException(Integer.toString(i));
 	    return false;
@@ -1333,7 +1333,7 @@ public final class Class458
 	string_151_ = string_151_.toLowerCase();
 	int i = (aClass461_5053.aClass265_5078.method4796
 		 (Class221.method4214(string, -231302377), -1595858416));
-	if (!method7472(i, 1118242960))
+	if (!archiveExists(i, 1118242960))
 	    return false;
 	int i_152_
 	    = (aClass461_5053.aClass265Array5071[i].method4796
@@ -1342,7 +1342,7 @@ public final class Class458
     }
     
     public synchronized boolean method7552(int i) {
-	if (!method7472(i, 704627096))
+	if (!archiveExists(i, 704627096))
 	    return false;
 	if (anObjectArray5050[i] != null)
 	    return true;
@@ -1384,13 +1384,13 @@ public final class Class458
 	if (!method7470((byte) 51))
 	    return -1;
 	int i_154_ = aClass461_5053.aClass265_5078.method4796(i, -1595858416);
-	if (!method7472(i_154_, -331658056))
+	if (!archiveExists(i_154_, -331658056))
 	    return -1;
 	return i_154_;
     }
     
     public synchronized boolean method7558(int i, byte i_155_) {
-	if (!method7472(i, -1984357238))
+	if (!archiveExists(i, -1984357238))
 	    return false;
 	if (anObjectArray5050[i] != null)
 	    return true;
@@ -1421,11 +1421,11 @@ public final class Class458
     public synchronized boolean method7561(int i) {
 	if (!method7470((byte) 19))
 	    return false;
-	if (1 == aClass461_5053.anIntArray5090.length)
+	if (1 == aClass461_5053.childSizes.length)
 	    return method7478(0, i, (short) 913);
-	if (!method7472(i, 1827482176))
+	if (!archiveExists(i, 1827482176))
 	    return false;
-	if (aClass461_5053.anIntArray5090[i] == 1)
+	if (aClass461_5053.childSizes[i] == 1)
 	    return method7478(i, 0, (short) 9812);
 	throw new RuntimeException();
     }
@@ -1458,7 +1458,7 @@ public final class Class458
 	    throw new RuntimeException();
 	if (Class472.aClass472_5152 == class472) {
 	    byte[] is_156_ = new byte[i];
-	    class525_sub38.method16639(is_156_, 0, i, 78008704);
+	    class525_sub38.readBytes(is_156_, 0, i, 78008704);
 	    return is_156_;
 	}
 	int i_157_ = class468.method7703((byte) 84);
@@ -1496,7 +1496,7 @@ public final class Class458
 	    throw new RuntimeException();
 	if (Class472.aClass472_5152 == class472) {
 	    byte[] is_159_ = new byte[i];
-	    class525_sub38.method16639(is_159_, 0, i, 472629827);
+	    class525_sub38.readBytes(is_159_, 0, i, 472629827);
 	    return is_159_;
 	}
 	int i_160_ = class468.method7703((byte) 7);
@@ -1527,11 +1527,11 @@ public final class Class458
     public boolean method7566(int i) {
 	if (!method7470((byte) 121))
 	    return false;
-	if (1 == aClass461_5053.anIntArray5090.length)
+	if (1 == aClass461_5053.childSizes.length)
 	    return method7536(0, i, 899077796);
-	if (!method7472(i, 1358945528))
+	if (!archiveExists(i, 1358945528))
 	    return false;
-	if (aClass461_5053.anIntArray5090[i] == 1)
+	if (aClass461_5053.childSizes[i] == 1)
 	    return method7536(i, 0, 819706058);
 	throw new RuntimeException();
     }
@@ -1539,7 +1539,7 @@ public final class Class458
     public int method7567() {
 	if (!method7470((byte) 99))
 	    return -1;
-	return aClass461_5053.anIntArray5090.length;
+	return aClass461_5053.childSizes.length;
     }
     
     static final void method7568(Class683 class683, int i) {

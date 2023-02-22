@@ -309,15 +309,15 @@ public class Class394
 		if (class656_sub1_sub3_sub1_sub1.aClass637_12246 != null
 		    && -1 != -1172437919 * (class656_sub1_sub3_sub1_sub1
 					    .aClass637_12246.anInt8300)) {
-		    Class299 class299
-			= ((Class299)
+		    NPCDefinitions class299
+			= ((NPCDefinitions)
 			   (Class168_Sub1.aClass40_Sub7_9112.method76
 			    ((class656_sub1_sub3_sub1_sub1.aClass637_12246
 			      .anInt8300) * -1172437919,
 			     -276791382)));
 		    if (class299.aBool3358) {
 			bool_15_ = true;
-			string = ((Class299)
+			string = ((NPCDefinitions)
 				  (Class168_Sub1.aClass40_Sub7_9112.method76
 				   (-1172437919 * (class656_sub1_sub3_sub1_sub1
 						   .aClass637_12246.anInt8300),
@@ -522,7 +522,7 @@ public class Class394
 						  -695254952);
 			 class259_26_ != null;
 			 class259_26_
-			     = Class65.method1432((Class162.aClass245Array1764
+			     = WorldTile.method1432((Class162.aClass245Array1764
 						   [(class259_26_.anInt2588
 						     * 1984678839) >> 16]),
 						  class259_26_, 93078391)) {

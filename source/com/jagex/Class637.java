@@ -244,7 +244,7 @@ public class Class637
 	 Class689[] class689s, int[] is, int i_21_, boolean bool,
 	 Class634 class634, int i_22_) {
 	if (-1 != anInt8300 * -1172437919)
-	    return (((Class299) class40_sub7.method76(anInt8300 * -1172437919,
+	    return (((NPCDefinitions) class40_sub7.method76(anInt8300 * -1172437919,
 						      1622393203))
 			.method5362
 		    (class182, i, class40_sub1, interface20, interface18,
@@ -256,17 +256,17 @@ public class Class637
 	boolean bool_25_ = false;
 	boolean bool_26_ = false;
 	if (class689 != null) {
-	    Class194 class194 = class689.method14058(160719474);
+	    AnimationDefinition class194 = class689.method14058(160719474);
 	    if (class194 != null
-		&& (1963525839 * class194.anInt2161 >= 0
-		    || class194.anInt2164 * -1838669931 >= 0)) {
+		&& (1963525839 * class194.offhand >= 0
+		    || class194.mainhand * -1838669931 >= 0)) {
 		is_24_ = new int[anIntArray8295.length];
 		for (int i_27_ = 0; i_27_ < is_24_.length; i_27_++)
 		    is_24_[i_27_] = anIntArray8295[i_27_];
-		if (class194.anInt2161 * 1963525839 >= 0
+		if (class194.offhand * 1963525839 >= 0
 		    && 366199787 * class634.anInt8237 != -1) {
 		    bool_25_ = true;
-		    if (65535 == 1963525839 * class194.anInt2161) {
+		    if (65535 == 1963525839 * class194.offhand) {
 			is_24_[class634.anInt8237 * 366199787] = 0;
 			for (int i_28_ = 0;
 			     i_28_ < class634.anIntArray8239.length; i_28_++)
@@ -274,7 +274,7 @@ public class Class637
 			l ^= ~0xffffffffL;
 		    } else {
 			is_24_[366199787 * class634.anInt8237]
-			    = class194.anInt2161 * 1963525839 | 0x40000000;
+			    = class194.offhand * 1963525839 | 0x40000000;
 			for (int i_29_ = 0;
 			     i_29_ < class634.anIntArray8239.length; i_29_++)
 			    is_24_[class634.anIntArray8239[i_29_]] = 0;
@@ -282,10 +282,10 @@ public class Class637
 			      << 32);
 		    }
 		}
-		if (class194.anInt2164 * -1838669931 >= 0
+		if (class194.mainhand * -1838669931 >= 0
 		    && -1 != class634.anInt8242 * 660320893) {
 		    bool_26_ = true;
-		    if (65535 == class194.anInt2164 * -1838669931) {
+		    if (65535 == class194.mainhand * -1838669931) {
 			is_24_[class634.anInt8242 * 660320893] = 0;
 			for (int i_30_ = 0;
 			     i_30_ < class634.anIntArray8243.length; i_30_++)
@@ -293,7 +293,7 @@ public class Class637
 			l ^= 0xffffffffL;
 		    } else {
 			is_24_[class634.anInt8242 * 660320893]
-			    = class194.anInt2164 * -1838669931 | 0x40000000;
+			    = class194.mainhand * -1838669931 | 0x40000000;
 			for (int i_31_ = 0;
 			     i_31_ < class634.anIntArray8243.length; i_31_++)
 			    is_24_[class634.anIntArray8243[i_31_]] = 0;
@@ -375,7 +375,7 @@ public class Class637
 		    if (!bool_41_ && null != aClass2Array8296
 			&& aClass2Array8296[i_39_] != null)
 			class2 = aClass2Array8296[i_39_];
-		    if (!((Class8) class40_sub22.method76(i_40_ & 0x3fffffff,
+		    if (!((ItemDefinitions) class40_sub22.method76(i_40_ & 0x3fffffff,
 							  819217917))
 			     .method625(aBool8291, class2, 1472470898))
 			bool_38_ = true;
@@ -398,7 +398,7 @@ public class Class637
 		    || class182.method3321(class179.method2928(), i_23_) != 0)
 		    return null;
 	    } else {
-		Class186[] class186s = new Class186[is_24_.length];
+		ModelDecoder[] class186s = new ModelDecoder[is_24_.length];
 		for (int i_44_ = 0; i_44_ < is_24_.length; i_44_++) {
 		    int i_45_ = is_24_[i_44_];
 		    Class2 class2 = null;
@@ -408,15 +408,15 @@ public class Class637
 			if (!bool_46_ && null != aClass2Array8296
 			    && null != aClass2Array8296[i_44_])
 			    class2 = aClass2Array8296[i_44_];
-			Class186 class186
-			    = ((Class8)
+			ModelDecoder class186
+			    = ((ItemDefinitions)
 			       class40_sub22.method76(i_45_ & 0x3fffffff,
 						      1802027831))
 				  .method653(aBool8291, class2, -1810867420);
 			if (class186 != null)
 			    class186s[i_44_] = class186;
 		    } else if ((i_45_ & ~0x7fffffff) != 0) {
-			Class186 class186
+			ModelDecoder class186
 			    = ((Class327)
 			       class40_sub9.method76(i_45_ & 0x3fffffff,
 						     -383763422))
@@ -456,7 +456,7 @@ public class Class637
 			}
 		    }
 		}
-		Class186 class186 = new Class186(class186s, class186s.length);
+		ModelDecoder class186 = new ModelDecoder(class186s, class186s.length);
 		i_37_ |= 0x4000;
 		class179 = class182.method3556(class186, i_37_,
 					       1406950657 * Class325.anInt3557,
@@ -560,7 +560,7 @@ public class Class637
 	 Interface20 interface20, Interface18 interface18, Class689 class689,
 	 int i_62_) {
 	if (-1 != anInt8300 * -1172437919)
-	    return (((Class299) class40_sub7.method76(-1172437919 * anInt8300,
+	    return (((NPCDefinitions) class40_sub7.method76(-1172437919 * anInt8300,
 						      -415321930))
 			.method5383
 		    (class182, i, interface20, interface18, class689, null,
@@ -586,7 +586,7 @@ public class Class637
 		    if (null != aClass2Array8296
 			&& aClass2Array8296[i_65_] != null)
 			class2 = aClass2Array8296[i_65_];
-		    if (!((Class8) class40_sub22.method76(i_66_ & 0x3fffffff,
+		    if (!((ItemDefinitions) class40_sub22.method76(i_66_ & 0x3fffffff,
 							  -349432621))
 			     .method627(aBool8291, class2, -1688371569))
 			bool = true;
@@ -599,7 +599,7 @@ public class Class637
 	    }
 	    if (bool)
 		return null;
-	    Class186[] class186s = new Class186[anIntArray8295.length];
+	    ModelDecoder[] class186s = new ModelDecoder[anIntArray8295.length];
 	    int i_67_ = 0;
 	    for (int i_68_ = 0; i_68_ < anIntArray8295.length; i_68_++) {
 		int i_69_ = anIntArray8295[i_68_];
@@ -608,14 +608,14 @@ public class Class637
 		    if (aClass2Array8296 != null
 			&& null != aClass2Array8296[i_68_])
 			class2 = aClass2Array8296[i_68_];
-		    Class186 class186
-			= ((Class8) class40_sub22.method76(i_69_ & 0x3fffffff,
+		    ModelDecoder class186
+			= ((ItemDefinitions) class40_sub22.method76(i_69_ & 0x3fffffff,
 							   846551429))
 			      .method628(aBool8291, class2, -363287006);
 		    if (null != class186)
 			class186s[i_67_++] = class186;
 		} else if (0 != (i_69_ & ~0x7fffffff)) {
-		    Class186 class186
+		    ModelDecoder class186
 			= ((Class327) class40_sub9.method76(i_69_ & 0x3fffffff,
 							    -321727739))
 			      .method5752(-759132226);
@@ -623,7 +623,7 @@ public class Class637
 			class186s[i_67_++] = class186;
 		}
 	    }
-	    Class186 class186 = new Class186(class186s, i_67_);
+	    ModelDecoder class186 = new ModelDecoder(class186s, i_67_);
 	    i_64_ |= 0x4000;
 	    class179 = class182.method3556(class186, i_64_,
 					   Class325.anInt3557 * 1406950657, 64,
@@ -777,7 +777,7 @@ public class Class637
 	    if (class179 != null)
 		i_94_ = class182.method3229(i_94_, class179.method2928());
 	    int i_95_ = i_94_;
-	    Class186[] class186s = new Class186[3];
+	    ModelDecoder[] class186s = new ModelDecoder[3];
 	    int i_96_ = 0;
 	    if (((Class327) class40_sub9.method76(i_91_, 336810746))
 		    .method5749((byte) -122)
@@ -785,7 +785,7 @@ public class Class637
 		       .method5749((byte) -97)
 		&& ((Class327) class40_sub9.method76(i_93_, -477100292))
 		       .method5749((byte) -40)) {
-		Class186 class186
+		ModelDecoder class186
 		    = ((Class327) class40_sub9.method76(i_91_, -1779137639))
 			  .method5752(-1572048246);
 		if (class186 != null)
@@ -799,7 +799,7 @@ public class Class637
 			       .method5752(-946782933);
 		if (class186 != null)
 		    class186s[i_96_++] = class186;
-		class186 = new Class186(class186s, i_96_);
+		class186 = new ModelDecoder(class186s, i_96_);
 		i_95_ |= 0x4000;
 		class179 = class182.method3556(class186, i_95_,
 					       Class325.anInt3557 * 1406950657,
@@ -875,7 +875,7 @@ public class Class637
 	    if (class179 != null)
 		i_105_ = class182.method3229(i_105_, class179.method2928());
 	    int i_106_ = i_105_;
-	    Class186[] class186s = new Class186[3];
+	    ModelDecoder[] class186s = new ModelDecoder[3];
 	    int i_107_ = 0;
 	    if (((Class327) class40_sub9.method76(i_102_, -1152743103))
 		    .method5749((byte) -108)
@@ -883,7 +883,7 @@ public class Class637
 		       .method5749((byte) -105)
 		&& ((Class327) class40_sub9.method76(i_104_, 687889154))
 		       .method5749((byte) -46)) {
-		Class186 class186
+		ModelDecoder class186
 		    = ((Class327) class40_sub9.method76(i_102_, 2132233721))
 			  .method5752(-1402784568);
 		if (class186 != null)
@@ -898,7 +898,7 @@ public class Class637
 			  .method5752(-1601187203);
 		if (class186 != null)
 		    class186s[i_107_++] = class186;
-		class186 = new Class186(class186s, i_107_);
+		class186 = new ModelDecoder(class186s, i_107_);
 		i_106_ |= 0x4000;
 		class179 = class182.method3556(class186, i_106_,
 					       Class325.anInt3557 * 1406950657,
@@ -954,7 +954,7 @@ public class Class637
 	 Class40_Sub7 class40_sub7, Class40_Sub22 class40_sub22,
 	 Interface20 interface20, Interface18 interface18, Class689 class689) {
 	if (-1 != anInt8300 * -1172437919)
-	    return (((Class299) class40_sub7.method76(-1172437919 * anInt8300,
+	    return (((NPCDefinitions) class40_sub7.method76(-1172437919 * anInt8300,
 						      1290533864))
 			.method5383
 		    (class182, i, interface20, interface18, class689, null,
@@ -980,7 +980,7 @@ public class Class637
 		    if (null != aClass2Array8296
 			&& aClass2Array8296[i_114_] != null)
 			class2 = aClass2Array8296[i_114_];
-		    if (!((Class8) class40_sub22.method76(i_115_ & 0x3fffffff,
+		    if (!((ItemDefinitions) class40_sub22.method76(i_115_ & 0x3fffffff,
 							  1111716136))
 			     .method627(aBool8291, class2, 71403402))
 			bool = true;
@@ -993,7 +993,7 @@ public class Class637
 	    }
 	    if (bool)
 		return null;
-	    Class186[] class186s = new Class186[anIntArray8295.length];
+	    ModelDecoder[] class186s = new ModelDecoder[anIntArray8295.length];
 	    int i_116_ = 0;
 	    for (int i_117_ = 0; i_117_ < anIntArray8295.length; i_117_++) {
 		int i_118_ = anIntArray8295[i_117_];
@@ -1002,14 +1002,14 @@ public class Class637
 		    if (aClass2Array8296 != null
 			&& null != aClass2Array8296[i_117_])
 			class2 = aClass2Array8296[i_117_];
-		    Class186 class186
-			= ((Class8) class40_sub22.method76(i_118_ & 0x3fffffff,
+		    ModelDecoder class186
+			= ((ItemDefinitions) class40_sub22.method76(i_118_ & 0x3fffffff,
 							   134148314))
 			      .method628(aBool8291, class2, -653724689);
 		    if (null != class186)
 			class186s[i_116_++] = class186;
 		} else if (0 != (i_118_ & ~0x7fffffff)) {
-		    Class186 class186
+		    ModelDecoder class186
 			= ((Class327)
 			   class40_sub9.method76(i_118_ & 0x3fffffff,
 						 -1827000606))
@@ -1018,7 +1018,7 @@ public class Class637
 			class186s[i_116_++] = class186;
 		}
 	    }
-	    Class186 class186 = new Class186(class186s, i_116_);
+	    ModelDecoder class186 = new ModelDecoder(class186s, i_116_);
 	    i_113_ |= 0x4000;
 	    class179 = class182.method3556(class186, i_113_,
 					   Class325.anInt3557 * 1406950657, 64,
@@ -1073,7 +1073,7 @@ public class Class637
 	 Class40_Sub7 class40_sub7, Class40_Sub22 class40_sub22,
 	 Interface20 interface20, Interface18 interface18, Class689 class689) {
 	if (-1 != anInt8300 * -1172437919)
-	    return (((Class299) class40_sub7.method76(-1172437919 * anInt8300,
+	    return (((NPCDefinitions) class40_sub7.method76(-1172437919 * anInt8300,
 						      -1803462276))
 			.method5383
 		    (class182, i, interface20, interface18, class689, null,
@@ -1099,7 +1099,7 @@ public class Class637
 		    if (null != aClass2Array8296
 			&& aClass2Array8296[i_126_] != null)
 			class2 = aClass2Array8296[i_126_];
-		    if (!((Class8) class40_sub22.method76(i_127_ & 0x3fffffff,
+		    if (!((ItemDefinitions) class40_sub22.method76(i_127_ & 0x3fffffff,
 							  712123112))
 			     .method627(aBool8291, class2, 297746684))
 			bool = true;
@@ -1112,7 +1112,7 @@ public class Class637
 	    }
 	    if (bool)
 		return null;
-	    Class186[] class186s = new Class186[anIntArray8295.length];
+	    ModelDecoder[] class186s = new ModelDecoder[anIntArray8295.length];
 	    int i_128_ = 0;
 	    for (int i_129_ = 0; i_129_ < anIntArray8295.length; i_129_++) {
 		int i_130_ = anIntArray8295[i_129_];
@@ -1121,14 +1121,14 @@ public class Class637
 		    if (aClass2Array8296 != null
 			&& null != aClass2Array8296[i_129_])
 			class2 = aClass2Array8296[i_129_];
-		    Class186 class186
-			= ((Class8) class40_sub22.method76(i_130_ & 0x3fffffff,
+		    ModelDecoder class186
+			= ((ItemDefinitions) class40_sub22.method76(i_130_ & 0x3fffffff,
 							   57874830))
 			      .method628(aBool8291, class2, -1338844141);
 		    if (null != class186)
 			class186s[i_128_++] = class186;
 		} else if (0 != (i_130_ & ~0x7fffffff)) {
-		    Class186 class186
+		    ModelDecoder class186
 			= ((Class327)
 			   class40_sub9.method76(i_130_ & 0x3fffffff,
 						 -1563601710))
@@ -1137,7 +1137,7 @@ public class Class637
 			class186s[i_128_++] = class186;
 		}
 	    }
-	    Class186 class186 = new Class186(class186s, i_128_);
+	    ModelDecoder class186 = new ModelDecoder(class186s, i_128_);
 	    i_125_ |= 0x4000;
 	    class179 = class182.method3556(class186, i_125_,
 					   Class325.anInt3557 * 1406950657, 64,
@@ -1192,7 +1192,7 @@ public class Class637
 	 Class40_Sub7 class40_sub7, Class40_Sub22 class40_sub22,
 	 Interface20 interface20, Interface18 interface18, Class689 class689) {
 	if (-1 != anInt8300 * -1172437919)
-	    return (((Class299) class40_sub7.method76(-1172437919 * anInt8300,
+	    return (((NPCDefinitions) class40_sub7.method76(-1172437919 * anInt8300,
 						      1639071662))
 			.method5383
 		    (class182, i, interface20, interface18, class689, null,
@@ -1218,7 +1218,7 @@ public class Class637
 		    if (null != aClass2Array8296
 			&& aClass2Array8296[i_138_] != null)
 			class2 = aClass2Array8296[i_138_];
-		    if (!((Class8) class40_sub22.method76(i_139_ & 0x3fffffff,
+		    if (!((ItemDefinitions) class40_sub22.method76(i_139_ & 0x3fffffff,
 							  1777610607))
 			     .method627(aBool8291, class2, -1970547377))
 			bool = true;
@@ -1231,7 +1231,7 @@ public class Class637
 	    }
 	    if (bool)
 		return null;
-	    Class186[] class186s = new Class186[anIntArray8295.length];
+	    ModelDecoder[] class186s = new ModelDecoder[anIntArray8295.length];
 	    int i_140_ = 0;
 	    for (int i_141_ = 0; i_141_ < anIntArray8295.length; i_141_++) {
 		int i_142_ = anIntArray8295[i_141_];
@@ -1240,14 +1240,14 @@ public class Class637
 		    if (aClass2Array8296 != null
 			&& null != aClass2Array8296[i_141_])
 			class2 = aClass2Array8296[i_141_];
-		    Class186 class186
-			= ((Class8) class40_sub22.method76(i_142_ & 0x3fffffff,
+		    ModelDecoder class186
+			= ((ItemDefinitions) class40_sub22.method76(i_142_ & 0x3fffffff,
 							   -1825269347))
 			      .method628(aBool8291, class2, -1427146784);
 		    if (null != class186)
 			class186s[i_140_++] = class186;
 		} else if (0 != (i_142_ & ~0x7fffffff)) {
-		    Class186 class186
+		    ModelDecoder class186
 			= ((Class327)
 			   class40_sub9.method76(i_142_ & 0x3fffffff,
 						 845907916))
@@ -1256,7 +1256,7 @@ public class Class637
 			class186s[i_140_++] = class186;
 		}
 	    }
-	    Class186 class186 = new Class186(class186s, i_140_);
+	    ModelDecoder class186 = new ModelDecoder(class186s, i_140_);
 	    i_137_ |= 0x4000;
 	    class179 = class182.method3556(class186, i_137_,
 					   Class325.anInt3557 * 1406950657, 64,
@@ -1368,7 +1368,7 @@ public class Class637
 	    if (class179 != null)
 		i_153_ = class182.method3229(i_153_, class179.method2928());
 	    int i_154_ = i_153_;
-	    Class186[] class186s = new Class186[3];
+	    ModelDecoder[] class186s = new ModelDecoder[3];
 	    int i_155_ = 0;
 	    if (((Class327) class40_sub9.method76(i_149_, -1231273828))
 		    .method5749((byte) -97)
@@ -1376,7 +1376,7 @@ public class Class637
 		       .method5749((byte) -83)
 		&& ((Class327) class40_sub9.method76(i_151_, -2070860937))
 		       .method5749((byte) -20)) {
-		Class186 class186
+		ModelDecoder class186
 		    = ((Class327) class40_sub9.method76(i_149_, 837684512))
 			  .method5752(459390431);
 		if (class186 != null)
@@ -1391,7 +1391,7 @@ public class Class637
 			  .method5752(-2118504597);
 		if (class186 != null)
 		    class186s[i_155_++] = class186;
-		class186 = new Class186(class186s, i_155_);
+		class186 = new ModelDecoder(class186s, i_155_);
 		i_154_ |= 0x4000;
 		class179 = class182.method3556(class186, i_154_,
 					       Class325.anInt3557 * 1406950657,
@@ -1637,7 +1637,7 @@ public class Class637
 	 Class40_Sub7 class40_sub7, Class40_Sub22 class40_sub22,
 	 Interface20 interface20, Interface18 interface18, Class689 class689) {
 	if (-1 != anInt8300 * -1172437919)
-	    return (((Class299) class40_sub7.method76(-1172437919 * anInt8300,
+	    return (((NPCDefinitions) class40_sub7.method76(-1172437919 * anInt8300,
 						      1588422410))
 			.method5383
 		    (class182, i, interface20, interface18, class689, null,
@@ -1663,7 +1663,7 @@ public class Class637
 		    if (null != aClass2Array8296
 			&& aClass2Array8296[i_168_] != null)
 			class2 = aClass2Array8296[i_168_];
-		    if (!((Class8) class40_sub22.method76(i_169_ & 0x3fffffff,
+		    if (!((ItemDefinitions) class40_sub22.method76(i_169_ & 0x3fffffff,
 							  341303526))
 			     .method627(aBool8291, class2, -884000660))
 			bool = true;
@@ -1676,7 +1676,7 @@ public class Class637
 	    }
 	    if (bool)
 		return null;
-	    Class186[] class186s = new Class186[anIntArray8295.length];
+	    ModelDecoder[] class186s = new ModelDecoder[anIntArray8295.length];
 	    int i_170_ = 0;
 	    for (int i_171_ = 0; i_171_ < anIntArray8295.length; i_171_++) {
 		int i_172_ = anIntArray8295[i_171_];
@@ -1685,14 +1685,14 @@ public class Class637
 		    if (aClass2Array8296 != null
 			&& null != aClass2Array8296[i_171_])
 			class2 = aClass2Array8296[i_171_];
-		    Class186 class186
-			= ((Class8) class40_sub22.method76(i_172_ & 0x3fffffff,
+		    ModelDecoder class186
+			= ((ItemDefinitions) class40_sub22.method76(i_172_ & 0x3fffffff,
 							   -482768162))
 			      .method628(aBool8291, class2, -2088605122);
 		    if (null != class186)
 			class186s[i_170_++] = class186;
 		} else if (0 != (i_172_ & ~0x7fffffff)) {
-		    Class186 class186
+		    ModelDecoder class186
 			= ((Class327)
 			   class40_sub9.method76(i_172_ & 0x3fffffff,
 						 -1613861284))
@@ -1701,7 +1701,7 @@ public class Class637
 			class186s[i_170_++] = class186;
 		}
 	    }
-	    Class186 class186 = new Class186(class186s, i_170_);
+	    ModelDecoder class186 = new ModelDecoder(class186s, i_170_);
 	    i_167_ |= 0x4000;
 	    class179 = class182.method3556(class186, i_167_,
 					   Class325.anInt3557 * 1406950657, 64,

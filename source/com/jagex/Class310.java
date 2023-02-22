@@ -8,7 +8,7 @@ public class Class310
     public int[] anIntArray3466;
     public short[] aShortArray3467;
     
-    public Class310(Class299 class299) {
+    public Class310(NPCDefinitions class299) {
 	anIntArray3466 = new int[8];
 	aShortArray3467 = new short[8];
 	int i = 0;

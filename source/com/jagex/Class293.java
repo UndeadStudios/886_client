@@ -86,7 +86,7 @@ public class Class293 implements Interface32
 	aBool3236 = false;
     }
     
-    public static Class157 method5296(Class458 class458, int i) {
+    public static Class157 method5296(JS5 class458, int i) {
 	Class157 class157 = (Class157) aClass200_3232.method3785((long) i);
 	if (class157 == null) {
 	    if (Class302.aBool3380)
@@ -95,7 +95,7 @@ public class Class293 implements Interface32
 			  .method3216(Class187.method3668(class458, i), true);
 	    else
 		class157
-		    = Class225.method4249(class458.method7484(i, 2014827246),
+		    = Class225.method4249(class458.getTextureData(i, 2014827246),
 					  294776821);
 	    aClass200_3232.method3788(class157, (long) i);
 	}
@@ -397,21 +397,21 @@ public class Class293 implements Interface32
 	    = Class470.method7732((byte) -86).method80();
     }
     
-    public static Class7 method5306(Class458 class458, int i,
-				    Interface4 interface4, int i_14_) {
-	byte[] is = class458.method7484(i, 1694587278);
+    public static Class7 method5306(JS5 class458, int i,
+                                    Interface4 interface4, int i_14_) {
+	byte[] is = class458.getTextureData(i, 1694587278);
 	if (null == is)
 	    return null;
 	return new Class7(is, interface4);
     }
     
-    static byte[] method5307(Class458 class458, Class663 class663, int i,
-			     short i_15_) {
+    static byte[] method5307(JS5 class458, Class663 class663, int i,
+                             short i_15_) {
 	if (class663.method10957(1891139730) > 1)
-	    return class458.method7476(class663.method10963(i, -80888470),
+	    return class458.getFile(class663.method10963(i, -80888470),
 				       class663.method10958(i, (byte) -4),
 				       279044981);
-	return class458.method7476(class663.anInt8553 * -1918643565, i,
+	return class458.getFile(class663.anInt8553 * -1918643565, i,
 				   913833361);
     }
     

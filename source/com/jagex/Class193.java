@@ -16,8 +16,8 @@ public class Class193
     
     boolean method3707(byte i) {
 	if (631435793 * anInt2146 >= 0) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   Class642.aClass40_Sub11_8327.method76(631435793 * anInt2146,
 							 -307464716));
 	    boolean bool
@@ -28,7 +28,7 @@ public class Class193
 		int[] is_0_ = is;
 		for (int i_1_ = 0; i_1_ < is_0_.length; i_1_++) {
 		    int i_2_ = is_0_[i_1_];
-		    bool &= ((Class194)
+		    bool &= ((AnimationDefinition)
 			     Class685.aClass40_Sub8_8691.method76(i_2_,
 								  1617282308))
 				.method3725(-1594066160);
@@ -53,8 +53,8 @@ public class Class193
     
     boolean method3709() {
 	if (631435793 * anInt2146 >= 0) {
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   Class642.aClass40_Sub11_8327.method76(631435793 * anInt2146,
 							 1063089017));
 	    boolean bool
@@ -65,7 +65,7 @@ public class Class193
 		int[] is_7_ = is;
 		for (int i = 0; i < is_7_.length; i++) {
 		    int i_8_ = is_7_[i];
-		    bool &= ((Class194)
+		    bool &= ((AnimationDefinition)
 			     Class685.aClass40_Sub8_8691.method76(i_8_,
 								  1655886269))
 				.method3725(1217942986);

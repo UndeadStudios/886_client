@@ -84,7 +84,7 @@ final class Class32 implements Interface63
 	Class696_Sub13.anInt10912 = i * -2002372447;
 	Class556_Sub1.anInt10627 = 107721765;
 	Class556_Sub1.anInt10627 = 107721765;
-	Class58.method1221(-1859649566);
+	ConfigEntry.method1221(-1859649566);
     }
     
     static final void method947(Class683 class683, int i) {

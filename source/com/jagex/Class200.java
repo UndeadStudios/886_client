@@ -668,10 +668,10 @@ public final class Class200
 	    else
 		bool = false;
 	}
-	if (Class525_Sub7_Sub13.aClass173_11726 == null) {
+	if (EmitterConfig.aClass173_11726 == null) {
 	    if (Class462.aClass458_5095
 		    .method7506(-2122121723 * Class695.anInt8756, 385364648))
-		Class525_Sub7_Sub13.aClass173_11726
+		EmitterConfig.aClass173_11726
 		    = Class187.method3668(Class462.aClass458_5095,
 					  Class695.anInt8756 * -2122121723);
 	    else

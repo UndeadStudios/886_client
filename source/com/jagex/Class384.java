@@ -21,8 +21,8 @@ public class Class384 implements Interface45
 			     [class525_sub38.readUnsignedByte(332516933)]);
 	Class396 class396 = (Class643.method10595((byte) 121)
 			     [class525_sub38.readUnsignedByte(949041185)]);
-	int i = class525_sub38.method16625((byte) 1);
-	int i_0_ = class525_sub38.method16625((byte) -91);
+	int i = class525_sub38.readSmart((byte) 1);
+	int i_0_ = class525_sub38.readSmart((byte) -91);
 	int i_1_ = class525_sub38.readBigSmart(-2043778683);
 	int i_2_ = class525_sub38.readInt(1434840080);
 	int i_3_ = class525_sub38.readUnsignedByte(1570473198);

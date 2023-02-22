@@ -60,7 +60,7 @@ public class Class179_Sub2 extends Class179
     int anInt9412;
     short aShort9413;
     boolean aBool9414;
-    Class154[] aClass154Array9415;
+    MagnetConfig[] aClass154Array9415;
     int anInt9416;
     Class103[] aClass103Array9417;
     static final int anInt9418 = 1;
@@ -101,8 +101,8 @@ public class Class179_Sub2 extends Class179
 	return true;
     }
     
-    Class179_Sub2(Class182_Sub2 class182_sub2, Class186 class186, int i,
-		  int i_0_, int i_1_, int i_2_) {
+    Class179_Sub2(Class182_Sub2 class182_sub2, ModelDecoder class186, int i,
+                  int i_0_, int i_1_, int i_2_) {
 	anInt9377 = 0;
 	anInt9375 = 0;
 	anInt9385 = 0;
@@ -119,20 +119,20 @@ public class Class179_Sub2 extends Class179
 	anInt9383 = i_1_;
 	Class180 class180 = aClass182_Sub2_9433.aClass180_1944;
 	Interface47 interface47 = aClass182_Sub2_9433.anInterface47_1945;
-	anInt9394 = class186.anInt2084;
-	anInt9377 = class186.anInt2087;
-	anIntArray9424 = class186.anIntArray2089;
-	anIntArray9379 = class186.anIntArray2090;
-	anIntArray9395 = class186.anIntArray2108;
-	anInt9375 = class186.anInt2098;
-	aShortArray9382 = class186.aShortArray2111;
-	aShortArray9387 = class186.aShortArray2100;
-	aShortArray9388 = class186.aShortArray2101;
-	aByteArray9376 = class186.aByteArray2106;
+	anInt9394 = class186.vertexCount;
+	anInt9377 = class186.maxVertexUsed;
+	anIntArray9424 = class186.vertexX;
+	anIntArray9379 = class186.vertexY;
+	anIntArray9395 = class186.vertexZ;
+	anInt9375 = class186.faceCount;
+	aShortArray9382 = class186.faceA;
+	aShortArray9387 = class186.faceB;
+	aShortArray9388 = class186.faceC;
+	aByteArray9376 = class186.facePriorities;
 	aShortArray9403 = class186.aShortArray2109;
-	aByteArray9406 = class186.aByteArray2099;
+	aByteArray9406 = class186.faceAlpha;
 	aShortArray9404 = class186.aShortArray2113;
-	aByteArray9399 = class186.aByteArray2107;
+	aByteArray9399 = class186.faceRenderTypes;
 	aClass184Array9386 = class186.aClass184Array2129;
 	aClass154Array9415 = class186.aClass154Array2093;
 	aShortArray9378 = class186.aShortArray2094;
@@ -153,7 +153,7 @@ public class Class179_Sub2 extends Class179
 		boolean bool_10_ = false;
 		for (int i_11_ = 0; i_11_ < class186.aClass171Array2088.length;
 		     i_11_++) {
-		    Class171 class171 = class186.aClass171Array2088[i_11_];
+		    BillBoardConfig class171 = class186.aClass171Array2088[i_11_];
 		    if (i_5_ == class171.anInt1856 * 553052305) {
 			Class394 class394
 			    = interface47.method338((class171.anInt1855
@@ -232,7 +232,7 @@ public class Class179_Sub2 extends Class179
 	    aClass107Array9441 = new Class107[anInt9416];
 	    for (int i_17_ = 0; i_17_ < class186.aClass171Array2088.length;
 		 i_17_++) {
-		Class171 class171 = class186.aClass171Array2088[i_17_];
+		BillBoardConfig class171 = class186.aClass171Array2088[i_17_];
 		Class394 class394
 		    = interface47.method338(class171.anInt1855 * -145881707,
 					    (short) 800);
@@ -240,18 +240,18 @@ public class Class179_Sub2 extends Class179
 			      [(class186.aShortArray2109
 				[class171.anInt1856 * 553052305]) & 0xffff])
 			     & 0xffffff);
-		i_18_ = i_18_ | 255 - (class186.aByteArray2099 != null
-				       ? ((class186.aByteArray2099
+		i_18_ = i_18_ | 255 - (class186.faceAlpha != null
+				       ? ((class186.faceAlpha
 					   [class171.anInt1856 * 553052305])
 					  & 0xff)
 				       : 0) << 24;
 		aClass103Array9417[i_17_]
 		    = new Class103(class171.anInt1856 * 553052305,
-				   (class186.aShortArray2111
+				   (class186.faceA
 				    [class171.anInt1856 * 553052305]),
-				   (class186.aShortArray2100
+				   (class186.faceB
 				    [class171.anInt1856 * 553052305]),
-				   (class186.aShortArray2101
+				   (class186.faceC
 				    [class171.anInt1856 * 553052305]),
 				   class394.anInt4092 * 1011185193,
 				   class394.anInt4095 * -1869723579,
@@ -288,11 +288,11 @@ public class Class179_Sub2 extends Class179
 		    int i_27_ = class186.aByteArray2092[i_21_] & 0xff;
 		    int i_28_ = class186.aByteArray2104[i_21_] & 0xff;
 		    i_26_ += (class186.anIntArray2103
-			      [class186.aShortArray2111[i_21_]]);
+			      [class186.faceA[i_21_]]);
 		    i_27_ += (class186.anIntArray2103
-			      [class186.aShortArray2100[i_21_]]);
+			      [class186.faceB[i_21_]]);
 		    i_28_ += (class186.anIntArray2103
-			      [class186.aShortArray2101[i_21_]]);
+			      [class186.faceC[i_21_]]);
 		    fs_24_[0] = class186.aFloatArray2096[i_26_];
 		    fs_25_[0] = class186.aFloatArray2097[i_26_];
 		    fs_24_[1] = class186.aFloatArray2096[i_27_];
@@ -308,7 +308,7 @@ public class Class179_Sub2 extends Class179
 		    fs_25_[2] = 0.0F;
 		} else {
 		    i_23_ &= 0xffff;
-		    byte i_29_ = class186.aByteArray2117[i_23_];
+		    byte i_29_ = class186.textureRenderTypes[i_23_];
 		    if (i_29_ == 0) {
 			short i_30_ = aShortArray9382[i_21_];
 			short i_31_ = aShortArray9387[i_21_];
@@ -524,9 +524,9 @@ public class Class179_Sub2 extends Class179
 	    aFloatArrayArray9390 = null;
 	    aFloatArrayArray9401 = null;
 	}
-	if (class186.anIntArray2083 != null && (anInt9373 & 0x20) != 0)
+	if (class186.vertexBones != null && (anInt9373 & 0x20) != 0)
 	    anIntArrayArray9397 = class186.method3636(true);
-	if (class186.anIntArray2126 != null && (anInt9373 & 0x180) != 0)
+	if (class186.faceBones != null && (anInt9373 & 0x180) != 0)
 	    anIntArrayArray9445 = class186.method3629();
 	if (class186.aClass171Array2088 != null && (anInt9373 & 0x400) != 0)
 	    anIntArrayArray9419 = class186.method3630();
@@ -632,7 +632,7 @@ public class Class179_Sub2 extends Class179
 			int i_101_ = aShortArray9403[i_97_] & 0xffff;
 			int i_102_ = (i_101_ & 0x7f) * anInt9374 >> 7;
 			short i_103_
-			    = Class504.method8313(i_101_ & ~0x7f | i_102_,
+			    = BillBoardDefinitions.method8313(i_101_ & ~0x7f | i_102_,
 						  1019662635);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -694,7 +694,7 @@ public class Class179_Sub2 extends Class179
 			int i_107_ = aShortArray9403[i_97_] & 0xffff;
 			int i_108_ = (i_107_ & 0x7f) * anInt9374 >> 7;
 			short i_109_
-			    = Class504.method8313(i_107_ & ~0x7f | i_108_,
+			    = BillBoardDefinitions.method8313(i_107_ & ~0x7f | i_108_,
 						  740635965);
 			Class115 class115 = aClass115Array9398[i_97_];
 			int i_110_ = ((i * class115.anInt1407
@@ -933,7 +933,7 @@ public class Class179_Sub2 extends Class179
 			int i_143_ = aShortArray9403[i_139_] & 0xffff;
 			int i_144_ = (i_143_ & 0x7f) * anInt9374 >> 7;
 			short i_145_
-			    = Class504.method8313(i_143_ & ~0x7f | i_144_,
+			    = BillBoardDefinitions.method8313(i_143_ & ~0x7f | i_144_,
 						  593760818);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -995,7 +995,7 @@ public class Class179_Sub2 extends Class179
 			int i_149_ = aShortArray9403[i_139_] & 0xffff;
 			int i_150_ = (i_149_ & 0x7f) * anInt9374 >> 7;
 			short i_151_
-			    = Class504.method8313(i_149_ & ~0x7f | i_150_,
+			    = BillBoardDefinitions.method8313(i_149_ & ~0x7f | i_150_,
 						  1725419557);
 			Class115 class115 = aClass115Array9398[i_139_];
 			int i_152_ = ((i * class115.anInt1407
@@ -2526,7 +2526,7 @@ public class Class179_Sub2 extends Class179
 			class107.anInt1304
 			    = (class107.anInt1304 * -1093122285 & ~0xffffff
 			       | ((Class381.anIntArray3929
-				   [Class504.method8313(((aShortArray9403
+				   [BillBoardDefinitions.method8313(((aShortArray9403
 							  [(class103.anInt1273
 							    * -954563709)])
 							 & 0xffff),
@@ -3112,7 +3112,7 @@ public class Class179_Sub2 extends Class179
 			class107.anInt1304
 			    = (class107.anInt1304 * -1093122285 & ~0xffffff
 			       | ((Class381.anIntArray3929
-				   [Class504.method8313(((aShortArray9403
+				   [BillBoardDefinitions.method8313(((aShortArray9403
 							  [(class103.anInt1273
 							    * -954563709)])
 							 & 0xffff),
@@ -3315,8 +3315,8 @@ public class Class179_Sub2 extends Class179
 	}
 	if (aClass154Array9415 != null) {
 	    for (int i = 0; i < aClass154Array9415.length; i++) {
-		Class154 class154 = aClass154Array9415[i];
-		Class154 class154_587_ = class154;
+		MagnetConfig class154 = aClass154Array9415[i];
+		MagnetConfig class154_587_ = class154;
 		if (class154.aClass154_1728 != null)
 		    class154_587_ = class154.aClass154_1728;
 		if (class154.aClass435_1727 != null)
@@ -4052,7 +4052,7 @@ public class Class179_Sub2 extends Class179
 		    class107.anInt1304
 			= (class107.anInt1304 * -1093122285 & ~0xffffff
 			   | ((Class381.anIntArray3929
-			       [Class504.method8313(((aShortArray9403
+			       [BillBoardDefinitions.method8313(((aShortArray9403
 						      [(class103.anInt1273
 							* -954563709)])
 						     & 0xffff),
@@ -5167,7 +5167,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [Class504.method8313((aShortArray9403
+			   [BillBoardDefinitions.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]) & 0xffff,
 						1602110966) & 0xffff])
@@ -5182,7 +5182,7 @@ public class Class179_Sub2 extends Class179
 	return aClass184Array9386;
     }
     
-    public Class154[] method2980() {
+    public MagnetConfig[] method2980() {
 	return aClass154Array9415;
     }
     
@@ -5508,7 +5508,7 @@ public class Class179_Sub2 extends Class179
 			int i_885_ = aShortArray9403[i_881_] & 0xffff;
 			int i_886_ = (i_885_ & 0x7f) * anInt9374 >> 7;
 			short i_887_
-			    = Class504.method8313(i_885_ & ~0x7f | i_886_,
+			    = BillBoardDefinitions.method8313(i_885_ & ~0x7f | i_886_,
 						  1288124863);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -5570,7 +5570,7 @@ public class Class179_Sub2 extends Class179
 			int i_891_ = aShortArray9403[i_881_] & 0xffff;
 			int i_892_ = (i_891_ & 0x7f) * anInt9374 >> 7;
 			short i_893_
-			    = Class504.method8313(i_891_ & ~0x7f | i_892_,
+			    = BillBoardDefinitions.method8313(i_891_ & ~0x7f | i_892_,
 						  1940460983);
 			Class115 class115 = aClass115Array9398[i_881_];
 			int i_894_ = ((i * class115.anInt1407
@@ -5730,7 +5730,7 @@ public class Class179_Sub2 extends Class179
 			int i_913_ = aShortArray9403[i_909_] & 0xffff;
 			int i_914_ = (i_913_ & 0x7f) * anInt9374 >> 7;
 			short i_915_
-			    = Class504.method8313(i_913_ & ~0x7f | i_914_,
+			    = BillBoardDefinitions.method8313(i_913_ & ~0x7f | i_914_,
 						  1058487780);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -5792,7 +5792,7 @@ public class Class179_Sub2 extends Class179
 			int i_919_ = aShortArray9403[i_909_] & 0xffff;
 			int i_920_ = (i_919_ & 0x7f) * anInt9374 >> 7;
 			short i_921_
-			    = Class504.method8313(i_919_ & ~0x7f | i_920_,
+			    = BillBoardDefinitions.method8313(i_919_ & ~0x7f | i_920_,
 						  1491845337);
 			Class115 class115 = aClass115Array9398[i_909_];
 			int i_922_ = ((i * class115.anInt1407
@@ -5952,7 +5952,7 @@ public class Class179_Sub2 extends Class179
 			int i_941_ = aShortArray9403[i_937_] & 0xffff;
 			int i_942_ = (i_941_ & 0x7f) * anInt9374 >> 7;
 			short i_943_
-			    = Class504.method8313(i_941_ & ~0x7f | i_942_,
+			    = BillBoardDefinitions.method8313(i_941_ & ~0x7f | i_942_,
 						  2025604187);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -6014,7 +6014,7 @@ public class Class179_Sub2 extends Class179
 			int i_947_ = aShortArray9403[i_937_] & 0xffff;
 			int i_948_ = (i_947_ & 0x7f) * anInt9374 >> 7;
 			short i_949_
-			    = Class504.method8313(i_947_ & ~0x7f | i_948_,
+			    = BillBoardDefinitions.method8313(i_947_ & ~0x7f | i_948_,
 						  285279372);
 			Class115 class115 = aClass115Array9398[i_937_];
 			int i_950_ = ((i * class115.anInt1407
@@ -6652,7 +6652,7 @@ public class Class179_Sub2 extends Class179
 			class107.anInt1304
 			    = (class107.anInt1304 * -1093122285 & ~0xffffff
 			       | ((Class381.anIntArray3929
-				   [Class504.method8313(((aShortArray9403
+				   [BillBoardDefinitions.method8313(((aShortArray9403
 							  [(class103.anInt1273
 							    * -954563709)])
 							 & 0xffff),
@@ -6767,7 +6767,7 @@ public class Class179_Sub2 extends Class179
 			int i_1127_ = aShortArray9403[i_1123_] & 0xffff;
 			int i_1128_ = (i_1127_ & 0x7f) * anInt9374 >> 7;
 			short i_1129_
-			    = Class504.method8313(i_1127_ & ~0x7f | i_1128_,
+			    = BillBoardDefinitions.method8313(i_1127_ & ~0x7f | i_1128_,
 						  943698901);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -6830,7 +6830,7 @@ public class Class179_Sub2 extends Class179
 			int i_1133_ = aShortArray9403[i_1123_] & 0xffff;
 			int i_1134_ = (i_1133_ & 0x7f) * anInt9374 >> 7;
 			short i_1135_
-			    = Class504.method8313(i_1133_ & ~0x7f | i_1134_,
+			    = BillBoardDefinitions.method8313(i_1133_ & ~0x7f | i_1134_,
 						  216405611);
 			Class115 class115 = aClass115Array9398[i_1123_];
 			int i_1136_ = ((i * class115.anInt1407
@@ -7008,7 +7008,7 @@ public class Class179_Sub2 extends Class179
 	return (i & 0xff80) + i_1160_;
     }
     
-    public Class154[] method3085() {
+    public MagnetConfig[] method3085() {
 	return aClass154Array9415;
     }
     
@@ -7234,7 +7234,7 @@ public class Class179_Sub2 extends Class179
 	    if (i_1202_ == -1) {
 		int i_1203_ = aShortArray9403[i] & 0xffff;
 		int i_1204_ = (i_1203_ & 0x7f) * anInt9374 >> 7;
-		short i_1205_ = Class504.method8313(i_1203_ & ~0x7f | i_1204_,
+		short i_1205_ = BillBoardDefinitions.method8313(i_1203_ & ~0x7f | i_1204_,
 						    993522583);
 		if (anIntArray9393[i] == -1) {
 		    int i_1206_ = anIntArray9391[i] & ~0x1ffff;
@@ -7422,7 +7422,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [Class504.method8313((aShortArray9403
+			   [BillBoardDefinitions.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]) & 0xffff,
 						1553417564) & 0xffff])
@@ -8818,7 +8818,7 @@ public class Class179_Sub2 extends Class179
 			class107.anInt1304
 			    = (class107.anInt1304 * -1093122285 & ~0xffffff
 			       | ((Class381.anIntArray3929
-				   [Class504.method8313(((aShortArray9403
+				   [BillBoardDefinitions.method8313(((aShortArray9403
 							  [(class103.anInt1273
 							    * -954563709)])
 							 & 0xffff),
@@ -8893,7 +8893,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [Class504.method8313((aShortArray9403
+			   [BillBoardDefinitions.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]),
 						716692968) & 0xffff])
@@ -9039,7 +9039,7 @@ public class Class179_Sub2 extends Class179
 		    class107.anInt1304
 			= (class107.anInt1304 * -1093122285 & ~0xffffff
 			   | ((Class381.anIntArray3929
-			       [Class504.method8313(((aShortArray9403
+			       [BillBoardDefinitions.method8313(((aShortArray9403
 						      [(class103.anInt1273
 							* -954563709)])
 						     & 0xffff),
@@ -9206,7 +9206,7 @@ public class Class179_Sub2 extends Class179
 		    class107.anInt1304
 			= (class107.anInt1304 * -1093122285 & ~0xffffff
 			   | ((Class381.anIntArray3929
-			       [Class504.method8313(((aShortArray9403
+			       [BillBoardDefinitions.method8313(((aShortArray9403
 						      [(class103.anInt1273
 							* -954563709)])
 						     & 0xffff),
@@ -9832,8 +9832,8 @@ public class Class179_Sub2 extends Class179
 	}
 	if (aClass154Array9415 != null) {
 	    for (int i = 0; i < aClass154Array9415.length; i++) {
-		Class154 class154 = aClass154Array9415[i];
-		Class154 class154_1543_ = class154;
+		MagnetConfig class154 = aClass154Array9415[i];
+		MagnetConfig class154_1543_ = class154;
 		if (class154.aClass154_1728 != null)
 		    class154_1543_ = class154.aClass154_1728;
 		if (class154.aClass435_1727 != null)
@@ -10026,8 +10026,8 @@ public class Class179_Sub2 extends Class179
 	}
 	if (aClass154Array9415 != null) {
 	    for (int i = 0; i < aClass154Array9415.length; i++) {
-		Class154 class154 = aClass154Array9415[i];
-		Class154 class154_1545_ = class154;
+		MagnetConfig class154 = aClass154Array9415[i];
+		MagnetConfig class154_1545_ = class154;
 		if (class154.aClass154_1728 != null)
 		    class154_1545_ = class154.aClass154_1728;
 		if (class154.aClass435_1727 != null)
@@ -10170,7 +10170,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [Class504.method8313((aShortArray9403
+			   [BillBoardDefinitions.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]),
 						380556920) & 0xffff])
@@ -10575,7 +10575,7 @@ public class Class179_Sub2 extends Class179
 	return aByteArray9406;
     }
     
-    public Class154[] method3064() {
+    public MagnetConfig[] method3064() {
 	return aClass154Array9415;
     }
     
@@ -10652,7 +10652,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [Class504.method8313((aShortArray9403
+			   [BillBoardDefinitions.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]),
 						1065707859) & 0xffff])
@@ -10716,7 +10716,7 @@ public class Class179_Sub2 extends Class179
 	return aClass184Array9386;
     }
     
-    public Class154[] method2946() {
+    public MagnetConfig[] method2946() {
 	return aClass154Array9415;
     }
     
@@ -10769,7 +10769,7 @@ public class Class179_Sub2 extends Class179
 	}
     }
     
-    public Class154[] method3063() {
+    public MagnetConfig[] method3063() {
 	return aClass154Array9415;
     }
     
@@ -11971,7 +11971,7 @@ public class Class179_Sub2 extends Class179
 	    if (i_1902_ == -1) {
 		int i_1903_ = aShortArray9403[i] & 0xffff;
 		int i_1904_ = (i_1903_ & 0x7f) * anInt9374 >> 7;
-		short i_1905_ = Class504.method8313(i_1903_ & ~0x7f | i_1904_,
+		short i_1905_ = BillBoardDefinitions.method8313(i_1903_ & ~0x7f | i_1904_,
 						    456596342);
 		if (anIntArray9393[i] == -1) {
 		    int i_1906_ = anIntArray9391[i] & ~0x1ffff;
@@ -12033,7 +12033,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [Class504.method8313((aShortArray9403
+			   [BillBoardDefinitions.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]),
 						1231698146) & 0xffff])
@@ -12068,7 +12068,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [Class504.method8313((aShortArray9403
+			   [BillBoardDefinitions.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]) & 0xffff,
 						1074560427) & 0xffff])

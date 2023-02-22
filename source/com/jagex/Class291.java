@@ -45,7 +45,7 @@ public class Class291
 						.method5491((byte) 0)
 				   * 2607.5945876176133)
 			    & 0x3fff) * -1054956469;
-	Class8.anInt137 = 0;
+	ItemDefinitions.anInt137 = 0;
     }
     
     public static Class525_Sub16_Sub8 method5281(int i, int i_1_, byte i_2_) {

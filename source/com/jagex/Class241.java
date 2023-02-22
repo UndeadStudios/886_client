@@ -12,7 +12,7 @@ public class Class241
 	if (0 == i)
 	    return null;
 	i--;
-	class525_sub38.pos += 339428471;
+	class525_sub38.index += 339428471;
 	int i_0_ = class525_sub38.readInt(2052448512);
 	Object[] objects = new Object[i];
 	for (int i_1_ = 0; i_1_ < i; i_1_++) {
@@ -41,7 +41,7 @@ public class Class241
 	if (0 == i)
 	    return null;
 	i--;
-	class525_sub38.pos += 339428471;
+	class525_sub38.index += 339428471;
 	int i_3_ = class525_sub38.readInt(1942991215);
 	Object[] objects = new Object[i];
 	for (int i_4_ = 0; i_4_ < i; i_4_++) {
@@ -70,7 +70,7 @@ public class Class241
 	if (0 == i)
 	    return null;
 	i--;
-	class525_sub38.pos += 339428471;
+	class525_sub38.index += 339428471;
 	int i_6_ = class525_sub38.readInt(1758321461);
 	Object[] objects = new Object[i];
 	for (int i_7_ = 0; i_7_ < i; i_7_++) {

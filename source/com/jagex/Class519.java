@@ -160,7 +160,7 @@ public class Class519
 		if (class656_sub1_sub3_sub1_sub1.aClass637_12246 != null
 		    && (class656_sub1_sub3_sub1_sub1.aClass637_12246.anInt8300
 			* -1172437919) != -1
-		    && ((Class299)
+		    && ((NPCDefinitions)
 			(Class168_Sub1.aClass40_Sub7_9112.method76
 			 (-1172437919 * (class656_sub1_sub3_sub1_sub1
 					 .aClass637_12246.anInt8300),

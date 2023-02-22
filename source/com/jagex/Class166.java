@@ -444,7 +444,7 @@ public class Class166
 	       Class644.aClass199_8336.method3769((long) i));
 	if (class525_sub16_sub4 != null)
 	    return class525_sub16_sub4;
-	byte[] is = Class112.aClass458_1386.method7476(i, 0, 2111920475);
+	byte[] is = Class112.aClass458_1386.getFile(i, 0, 2111920475);
 	if (null == is || is.length <= 1)
 	    return null;
 	try {
@@ -494,13 +494,13 @@ public class Class166
 	if (class88.method1661(850971987))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class194)
+		= ((AnimationDefinition)
 		   Class685.aClass40_Sub8_8691.method76(i_31_, -2098950000))
 		      .method3728(i_32_, class88.aString892, (byte) 94);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class194)
+		= (((AnimationDefinition)
 		    Class685.aClass40_Sub8_8691.method76(i_31_, 1696489736))
 		       .method3722
 		   (i_32_, class88.anInt893 * 2053564367, (byte) 28));

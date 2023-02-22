@@ -72,11 +72,11 @@ public class Class523
     }
     
     Class179 method8706(Class182 class182, byte i) {
-	Class186 class186 = Class186.method3644(Class65.aClass458_705,
+	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.aClass458_705,
 						anInt7099 * 1216917229, 0);
 	if (null == class186)
 	    return null;
-	if (class186.anInt2086 < 13)
+	if (class186.version < 13)
 	    class186.method3651(2);
 	return class182.method3556(class186, 2048, anInt7100 * -1607429369, 64,
 				   768);
@@ -111,11 +111,11 @@ public class Class523
     }
     
     Class179 method8709(Class182 class182) {
-	Class186 class186 = Class186.method3644(Class65.aClass458_705,
+	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.aClass458_705,
 						anInt7099 * 1216917229, 0);
 	if (null == class186)
 	    return null;
-	if (class186.anInt2086 < 13)
+	if (class186.version < 13)
 	    class186.method3651(2);
 	return class182.method3556(class186, 2048, anInt7100 * -1607429369, 64,
 				   768);
@@ -152,7 +152,7 @@ public class Class523
     
     public Class523(Class182 class182, RSBuffer class525_sub38, int i) {
 	anInt7099 = -487399707 * i;
-	anInt7101 = class525_sub38.method16640(993241788) * 993885627;
+	anInt7101 = class525_sub38.readSmart3(993241788) * 993885627;
 	anIntArray7102 = new int[anInt7101 * -1785282701];
 	anIntArray7103 = new int[-1785282701 * anInt7101];
 	int i_7_ = class525_sub38.readUnsignedShort((byte) 107);
@@ -167,11 +167,11 @@ public class Class523
     }
     
     Class179 method8714(Class182 class182) {
-	Class186 class186 = Class186.method3644(Class65.aClass458_705,
+	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.aClass458_705,
 						anInt7099 * 1216917229, 0);
 	if (null == class186)
 	    return null;
-	if (class186.anInt2086 < 13)
+	if (class186.version < 13)
 	    class186.method3651(2);
 	return class182.method3556(class186, 2048, anInt7100 * -1607429369, 64,
 				   768);
@@ -193,11 +193,11 @@ public class Class523
     }
     
     Class179 method8716(Class182 class182) {
-	Class186 class186 = Class186.method3644(Class65.aClass458_705,
+	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.aClass458_705,
 						anInt7099 * 1216917229, 0);
 	if (null == class186)
 	    return null;
-	if (class186.anInt2086 < 13)
+	if (class186.version < 13)
 	    class186.method3651(2);
 	return class182.method3556(class186, 2048, anInt7100 * -1607429369, 64,
 				   768);

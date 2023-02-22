@@ -16,7 +16,7 @@ public class Class525_Sub22_Sub2 extends Class525_Sub22
 	anInt11665 = class525_sub38.readUnsignedShort((byte) 68) * -1865471567;
 	class525_sub38.readUnsignedByte(1934760461);
 	if (class525_sub38.readUnsignedByte(1785561383) != 255) {
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	    class525_sub38.method16603(-794622829);
 	}
     }
@@ -42,7 +42,7 @@ public class Class525_Sub22_Sub2 extends Class525_Sub22
 	anInt11665 = class525_sub38.readUnsignedShort((byte) 18) * -1865471567;
 	class525_sub38.readUnsignedByte(398151767);
 	if (class525_sub38.readUnsignedByte(1022324722) != 255) {
-	    class525_sub38.pos -= 339428471;
+	    class525_sub38.index -= 339428471;
 	    class525_sub38.method16603(-1284364585);
 	}
     }

@@ -110,16 +110,16 @@ public class Class696_Sub36 extends Class696
 	    for (;;) {
 		int i_2_
 		    = inputstream.read(class525_sub38.buffer,
-				       class525_sub38.pos * -1133521593,
-				       1000 - (class525_sub38.pos
+				       class525_sub38.index * -1133521593,
+				       1000 - (class525_sub38.index
 					       * -1133521593));
 		if (-1 == i_2_)
 		    break;
-		class525_sub38.pos += 339428471 * i_2_;
-		if (-1133521593 * class525_sub38.pos >= 1000)
+		class525_sub38.index += 339428471 * i_2_;
+		if (-1133521593 * class525_sub38.index >= 1000)
 		    return 0L;
 	    }
-	    class525_sub38.pos = 0;
+	    class525_sub38.index = 0;
 	    long l_3_ = class525_sub38.method16603(-1861208696);
 	    l = l_3_;
 	} catch (Exception exception) {

@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class327 implements Interface12
 {
-    Class458 aClass458_3564;
+    JS5 aClass458_3564;
     int[] anIntArray3565;
     byte[] aByteArray3566;
     short[] aShortArray3567;
@@ -31,7 +31,7 @@ public class Class327 implements Interface12
 	}
     }
     
-    Class327(int i, Class458 class458) {
+    Class327(int i, JS5 class458) {
 	aClass458_3564 = class458;
     }
     
@@ -61,24 +61,24 @@ public class Class327 implements Interface12
 	return bool;
     }
     
-    public Class186 method5750(int i) {
+    public ModelDecoder method5750(int i) {
 	if (null == anIntArray3565)
 	    return null;
-	Class186[] class186s = new Class186[anIntArray3565.length];
+	ModelDecoder[] class186s = new ModelDecoder[anIntArray3565.length];
 	synchronized (aClass458_3564) {
 	    for (int i_2_ = 0; i_2_ < anIntArray3565.length; i_2_++)
-		class186s[i_2_] = Class186.method3644(aClass458_3564,
+		class186s[i_2_] = ModelDecoder.method3644(aClass458_3564,
 						      anIntArray3565[i_2_], 0);
 	}
 	for (int i_3_ = 0; i_3_ < anIntArray3565.length; i_3_++) {
-	    if (class186s[i_3_].anInt2086 < 13)
+	    if (class186s[i_3_].version < 13)
 		class186s[i_3_].method3651(2);
 	}
-	Class186 class186;
+	ModelDecoder class186;
 	if (class186s.length == 1)
 	    class186 = class186s[0];
 	else
-	    class186 = new Class186(class186s, class186s.length);
+	    class186 = new ModelDecoder(class186s, class186s.length);
 	if (class186 == null)
 	    return null;
 	if (null != aShortArray3570) {
@@ -94,22 +94,22 @@ public class Class327 implements Interface12
 	return class186;
     }
     
-    public Class186 method5751() {
-	Class186[] class186s = new Class186[5];
+    public ModelDecoder method5751() {
+	ModelDecoder[] class186s = new ModelDecoder[5];
 	int i = 0;
 	synchronized (aClass458_3564) {
 	    for (int i_6_ = 0; i_6_ < 5; i_6_++) {
 		if (-1 != anIntArray3572[i_6_])
 		    class186s[i++]
-			= Class186.method3644(aClass458_3564,
+			= ModelDecoder.method3644(aClass458_3564,
 					      anIntArray3572[i_6_], 0);
 	    }
 	}
 	for (int i_7_ = 0; i_7_ < 5; i_7_++) {
-	    if (class186s[i_7_] != null && class186s[i_7_].anInt2086 < 13)
+	    if (class186s[i_7_] != null && class186s[i_7_].version < 13)
 		class186s[i_7_].method3651(2);
 	}
-	Class186 class186 = new Class186(class186s, i);
+	ModelDecoder class186 = new ModelDecoder(class186s, i);
 	if (aShortArray3570 != null) {
 	    for (int i_8_ = 0; i_8_ < aShortArray3570.length; i_8_++)
 		class186.method3631(aShortArray3570[i_8_],
@@ -123,22 +123,22 @@ public class Class327 implements Interface12
 	return class186;
     }
     
-    public Class186 method5752(int i) {
-	Class186[] class186s = new Class186[5];
+    public ModelDecoder method5752(int i) {
+	ModelDecoder[] class186s = new ModelDecoder[5];
 	int i_10_ = 0;
 	synchronized (aClass458_3564) {
 	    for (int i_11_ = 0; i_11_ < 5; i_11_++) {
 		if (-1 != anIntArray3572[i_11_])
 		    class186s[i_10_++]
-			= Class186.method3644(aClass458_3564,
+			= ModelDecoder.method3644(aClass458_3564,
 					      anIntArray3572[i_11_], 0);
 	    }
 	}
 	for (int i_12_ = 0; i_12_ < 5; i_12_++) {
-	    if (class186s[i_12_] != null && class186s[i_12_].anInt2086 < 13)
+	    if (class186s[i_12_] != null && class186s[i_12_].version < 13)
 		class186s[i_12_].method3651(2);
 	}
-	Class186 class186 = new Class186(class186s, i_10_);
+	ModelDecoder class186 = new ModelDecoder(class186s, i_10_);
 	if (aShortArray3570 != null) {
 	    for (int i_13_ = 0; i_13_ < aShortArray3570.length; i_13_++)
 		class186.method3631(aShortArray3570[i_13_],
@@ -467,24 +467,24 @@ public class Class327 implements Interface12
 	}
     }
     
-    public Class186 method5760() {
+    public ModelDecoder method5760() {
 	if (null == anIntArray3565)
 	    return null;
-	Class186[] class186s = new Class186[anIntArray3565.length];
+	ModelDecoder[] class186s = new ModelDecoder[anIntArray3565.length];
 	synchronized (aClass458_3564) {
 	    for (int i = 0; i < anIntArray3565.length; i++)
-		class186s[i] = Class186.method3644(aClass458_3564,
+		class186s[i] = ModelDecoder.method3644(aClass458_3564,
 						   anIntArray3565[i], 0);
 	}
 	for (int i = 0; i < anIntArray3565.length; i++) {
-	    if (class186s[i].anInt2086 < 13)
+	    if (class186s[i].version < 13)
 		class186s[i].method3651(2);
 	}
-	Class186 class186;
+	ModelDecoder class186;
 	if (class186s.length == 1)
 	    class186 = class186s[0];
 	else
-	    class186 = new Class186(class186s, class186s.length);
+	    class186 = new ModelDecoder(class186s, class186s.length);
 	if (class186 == null)
 	    return null;
 	if (null != aShortArray3570) {
@@ -498,24 +498,24 @@ public class Class327 implements Interface12
 	return class186;
     }
     
-    public Class186 method5761() {
+    public ModelDecoder method5761() {
 	if (null == anIntArray3565)
 	    return null;
-	Class186[] class186s = new Class186[anIntArray3565.length];
+	ModelDecoder[] class186s = new ModelDecoder[anIntArray3565.length];
 	synchronized (aClass458_3564) {
 	    for (int i = 0; i < anIntArray3565.length; i++)
-		class186s[i] = Class186.method3644(aClass458_3564,
+		class186s[i] = ModelDecoder.method3644(aClass458_3564,
 						   anIntArray3565[i], 0);
 	}
 	for (int i = 0; i < anIntArray3565.length; i++) {
-	    if (class186s[i].anInt2086 < 13)
+	    if (class186s[i].version < 13)
 		class186s[i].method3651(2);
 	}
-	Class186 class186;
+	ModelDecoder class186;
 	if (class186s.length == 1)
 	    class186 = class186s[0];
 	else
-	    class186 = new Class186(class186s, class186s.length);
+	    class186 = new ModelDecoder(class186s, class186s.length);
 	if (class186 == null)
 	    return null;
 	if (null != aShortArray3570) {
@@ -529,24 +529,24 @@ public class Class327 implements Interface12
 	return class186;
     }
     
-    public Class186 method5762() {
+    public ModelDecoder method5762() {
 	if (null == anIntArray3565)
 	    return null;
-	Class186[] class186s = new Class186[anIntArray3565.length];
+	ModelDecoder[] class186s = new ModelDecoder[anIntArray3565.length];
 	synchronized (aClass458_3564) {
 	    for (int i = 0; i < anIntArray3565.length; i++)
-		class186s[i] = Class186.method3644(aClass458_3564,
+		class186s[i] = ModelDecoder.method3644(aClass458_3564,
 						   anIntArray3565[i], 0);
 	}
 	for (int i = 0; i < anIntArray3565.length; i++) {
-	    if (class186s[i].anInt2086 < 13)
+	    if (class186s[i].version < 13)
 		class186s[i].method3651(2);
 	}
-	Class186 class186;
+	ModelDecoder class186;
 	if (class186s.length == 1)
 	    class186 = class186s[0];
 	else
-	    class186 = new Class186(class186s, class186s.length);
+	    class186 = new ModelDecoder(class186s, class186s.length);
 	if (class186 == null)
 	    return null;
 	if (null != aShortArray3570) {
@@ -613,36 +613,36 @@ public class Class327 implements Interface12
 	}
 	if (Class387.aClass190_4036 == Class190.aClass190_2138) {
 	    byte[] is = Class656_Sub1_Sub3_Sub3.aClass458_12048
-			    .method7484(i, 1969607210);
+			    .getTextureData(i, 1969607210);
 	    if (is == null)
 		return false;
 	    RSBuffer class525_sub38 = new RSBuffer(is);
-	    Class171.method2735(class525_sub38, (byte) -69);
+	    BillBoardConfig.method2735(class525_sub38, (byte) -69);
 	    int i_83_ = class525_sub38.readUnsignedByte(1076737007);
 	    for (int i_84_ = 0; i_84_ < i_83_; i_84_++)
 		Class201.aClass709_2201
 		    .method14345(new Class525_Sub24(class525_sub38), (byte) 0);
-	    int i_85_ = class525_sub38.method16740((byte) -50);
+	    int i_85_ = class525_sub38.readUnsignedSmart((byte) -50);
 	    Class201.aClass202Array2206 = new Class202[i_85_];
 	    for (int i_86_ = 0; i_86_ < i_85_; i_86_++)
 		Class201.aClass202Array2206[i_86_]
 		    = new Class202(class525_sub38);
-	    int i_87_ = class525_sub38.method16740((byte) -105);
+	    int i_87_ = class525_sub38.readUnsignedSmart((byte) -105);
 	    Class201.aClass205Array2202 = new Class205[i_87_];
 	    for (int i_88_ = 0; i_88_ < i_87_; i_88_++)
 		Class201.aClass205Array2202[i_88_]
 		    = new Class205(class525_sub38, i_88_);
-	    int i_89_ = class525_sub38.method16740((byte) -17);
+	    int i_89_ = class525_sub38.readUnsignedSmart((byte) -17);
 	    Class201.aClass193Array2203 = new Class193[i_89_];
 	    for (int i_90_ = 0; i_90_ < i_89_; i_90_++)
 		Class201.aClass193Array2203[i_90_]
 		    = new Class193(class525_sub38);
-	    int i_91_ = class525_sub38.method16740((byte) -53);
+	    int i_91_ = class525_sub38.readUnsignedSmart((byte) -53);
 	    Class201.aClass191Array2210 = new Class191[i_91_];
 	    for (int i_92_ = 0; i_92_ < i_91_; i_92_++)
 		Class201.aClass191Array2210[i_92_]
 		    = new Class191(class525_sub38);
-	    int i_93_ = class525_sub38.method16740((byte) -85);
+	    int i_93_ = class525_sub38.readUnsignedSmart((byte) -85);
 	    Class201.aClass198Array2205 = new Class198[i_93_];
 	    for (int i_94_ = 0; i_94_ < i_93_; i_94_++)
 		Class201.aClass198Array2205[i_94_]

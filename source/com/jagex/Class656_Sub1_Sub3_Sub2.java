@@ -54,8 +54,8 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
     }
     
     Class20 method18697(Class182 class182, int i, boolean bool, int i_0_) {
-	Class602 class602
-	    = (Class602) aClass40_Sub11_12035.method76(2031792897 * anInt12038,
+	ObjectDefinitions class602
+	    = (ObjectDefinitions) aClass40_Sub11_12035.method76(2031792897 * anInt12038,
 						       1690508150);
 	Class161 class161;
 	Class161 class161_1_;
@@ -94,7 +94,7 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
 	Class444 class444 = method10826();
 	Class567 class567 = Class293.method5303(aBool12039, (short) -21157);
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12035.method76(anInt12038 * 2031792897,
 					      620587155))
 	       .aClass443_7920);
@@ -112,7 +112,7 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
     
     boolean method16910(Class182 class182, int i, int i_2_, byte i_3_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12035.method76(anInt12038 * 2031792897,
 					      -645685773))
 	       .aClass443_7920);
@@ -175,7 +175,7 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
     
     boolean method16939(Class182 class182, int i, int i_8_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12035.method76(anInt12038 * 2031792897,
 					      490542719))
 	       .aClass443_7920);
@@ -274,9 +274,9 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
     
     public Class656_Sub1_Sub3_Sub2
 	(Class546 class546, Class182 class182, Class40_Sub11 class40_sub11,
-	 Class602 class602, int i, int i_9_, int i_10_, int i_11_, int i_12_,
-	 boolean bool, int i_13_, int i_14_, int i_15_, int i_16_, int i_17_,
-	 int i_18_, boolean bool_19_, boolean bool_20_) {
+     ObjectDefinitions class602, int i, int i_9_, int i_10_, int i_11_, int i_12_,
+     boolean bool, int i_13_, int i_14_, int i_15_, int i_16_, int i_17_,
+     int i_18_, boolean bool_19_, boolean bool_20_) {
 	super(class546, i, i_9_, i_10_, i_11_, i_12_, i_13_, i_14_, i_15_,
 	      i_16_, 1 == 1596797987 * class602.anInt7921,
 	      Class335.method5860(i_17_, i_18_, 729897327));
@@ -466,7 +466,7 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
     
     boolean method16940(Class182 class182, int i, int i_23_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12035.method76(anInt12038 * 2031792897,
 					      2036261880))
 	       .aClass443_7920);
@@ -546,7 +546,7 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
     
     boolean method16965(Class182 class182, int i, int i_24_) {
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12035.method76(anInt12038 * 2031792897,
 					      589863982))
 	       .aClass443_7920);
@@ -693,8 +693,8 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
     }
     
     Class20 method18700(Class182 class182, int i, boolean bool) {
-	Class602 class602
-	    = (Class602) aClass40_Sub11_12035.method76(2031792897 * anInt12038,
+	ObjectDefinitions class602
+	    = (ObjectDefinitions) aClass40_Sub11_12035.method76(2031792897 * anInt12038,
 						       2017869789);
 	Class161 class161;
 	Class161 class161_28_;
@@ -728,7 +728,7 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
 	Class444 class444 = method10826();
 	Class567 class567 = Class293.method5303(aBool12039, (short) -32167);
 	Class443 class443
-	    = (((Class602)
+	    = (((ObjectDefinitions)
 		aClass40_Sub11_12035.method76(anInt12038 * 2031792897,
 					      1959306593))
 	       .aClass443_7920);
@@ -763,8 +763,8 @@ public class Class656_Sub1_Sub3_Sub2 extends Class656_Sub1_Sub3
     }
     
     Class20 method18704(Class182 class182, int i, boolean bool) {
-	Class602 class602
-	    = (Class602) aClass40_Sub11_12035.method76(2031792897 * anInt12038,
+	ObjectDefinitions class602
+	    = (ObjectDefinitions) aClass40_Sub11_12035.method76(2031792897 * anInt12038,
 						       -1309994923);
 	Class161 class161;
 	Class161 class161_30_;

@@ -5,7 +5,7 @@ package com.jagex;
 
 public abstract class Class90 implements Interface5
 {
-    Class458 aClass458_897;
+    JS5 aClass458_897;
     Class200 aClass200_898;
     
     void method1677(int i, short i_0_) {
@@ -46,7 +46,7 @@ public abstract class Class90 implements Interface5
 	}
     }
     
-    Class90(Class458 class458, int i) {
+    Class90(JS5 class458, int i) {
 	aClass458_897 = class458;
 	aClass200_898 = new Class200(i);
     }

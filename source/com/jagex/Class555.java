@@ -15,7 +15,7 @@ public class Class555 implements Runnable
     int anInt7457 = 0;
     IOException anIOException7458;
     boolean aBool7459;
-    public static Class458 aClass458_7460;
+    public static JS5 aClass458_7460;
     
     Class555(OutputStream outputstream, int i) {
 	anInt7454 = 0;

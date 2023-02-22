@@ -3,10 +3,10 @@
  */
 package com.jagex;
 
-public class Class154
+public class MagnetConfig
 {
     public Class435 aClass435_1727;
-    public Class154 aClass154_1728;
+    public MagnetConfig aClass154_1728;
     public int anInt1729;
     public int anInt1730;
     public int anInt1731;
@@ -21,15 +21,15 @@ public class Class154
 	return interface49.method342(-1220882097 * anInt1733, (byte) -4);
     }
     
-    Class154 method2445(int i, int i_0_) {
-	return new Class154(-1220882097 * anInt1733, i);
+    MagnetConfig method2445(int i, int i_0_) {
+	return new MagnetConfig(-1220882097 * anInt1733, i);
     }
     
     public Class388 method2446(Interface49 interface49) {
 	return interface49.method342(-1220882097 * anInt1733, (byte) 6);
     }
     
-    Class154(int i, int i_1_) {
+    MagnetConfig(int i, int i_1_) {
 	anInt1733 = -2060606033 * i;
 	anInt1729 = -1598402539 * i_1_;
     }
@@ -38,8 +38,8 @@ public class Class154
 	return interface49.method342(-1220882097 * anInt1733, (byte) -63);
     }
     
-    Class154 method2448(int i) {
-	return new Class154(-1220882097 * anInt1733, i);
+    MagnetConfig method2448(int i) {
+	return new MagnetConfig(-1220882097 * anInt1733, i);
     }
     
     static final void method2449(Class683 class683, int i) {

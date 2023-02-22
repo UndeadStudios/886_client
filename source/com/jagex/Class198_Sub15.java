@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class198_Sub15 extends Class198
 {
-    public static Class458 aClass458_9976;
+    public static JS5 aClass458_9976;
     
     public void method3753(int i) {
 	Class231.method4392(true, (short) -17706);
@@ -68,8 +68,8 @@ public class Class198_Sub15 extends Class198
     }
     
     static boolean method15656(Interface62 interface62, int i) {
-	Class602 class602
-	    = ((Class602)
+	ObjectDefinitions class602
+	    = ((ObjectDefinitions)
 	       client.aClass507_11137.method8362((byte) -1)
 		   .method76(interface62.method406((byte) 1), -645379175));
 	if (class602.anInt7895 * 1280945471 == -1)

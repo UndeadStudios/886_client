@@ -205,13 +205,13 @@ public class Class600
 	    = class259.anInt2634 * 1248120695;
     }
     
-    public static Class458 method9890(Class56 class56, boolean bool, int i,
-				      boolean bool_5_, boolean bool_6_,
-				      byte i_7_) {
+    public static JS5 method9890(Class56 class56, boolean bool, int i,
+                                 boolean bool_5_, boolean bool_6_,
+                                 byte i_7_) {
 	if (Class652_Sub2.aClass454_Sub1Array10916 == null) {
 	    Class652_Sub2.aClass454_Sub1Array10916
 		= new Class454_Sub1[Class281.method5197(599760346)];
-	    Class525_Sub7_Sub13.aMap11727 = new HashMap();
+	    EmitterConfig.aMap11727 = new HashMap();
 	}
 	Class552 class552 = null;
 	int i_8_ = class56.method1202(1538102183);
@@ -230,10 +230,10 @@ public class Class600
 	if (bool_6_)
 	    Class652_Sub2.aClass454_Sub1Array10916[i_8_]
 		.method16045((byte) 52);
-	Class458 class458
-	    = new Class458(Class652_Sub2.aClass454_Sub1Array10916[i_8_], bool,
+	JS5 class458
+	    = new JS5(Class652_Sub2.aClass454_Sub1Array10916[i_8_], bool,
 			   i);
-	Class525_Sub7_Sub13.aMap11727.put(class56, class458);
+	EmitterConfig.aMap11727.put(class56, class458);
 	return class458;
     }
     

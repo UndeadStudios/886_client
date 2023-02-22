@@ -251,8 +251,8 @@ public class Class283
 			[(class683.anInt8644 -= 1285561025) * 1373599041]);
 	if (i_19_ == -1)
 	    throw new RuntimeException();
-	Class65 class65
-	    = ((Class65)
+	WorldTile class65
+	    = ((WorldTile)
 	       Class525_Sub22.aClass40_Sub15_10585.method76(i_19_, -46670804));
 	if (Class495.aClass495_5387 != class65.aClass495_698)
 	    throw new RuntimeException();
@@ -276,14 +276,14 @@ public class Class283
 	if (class88.method1661(933582620))
 	    class683.anObjectArray8636
 		[(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-		= ((Class8)
+		= ((ItemDefinitions)
 		   Class313_Sub2.aClass40_Sub22_10106.method76(i_21_,
 							       -1355393213))
 		      .method641(i_22_, class88.aString892, (byte) 13);
 	else
 	    class683.anIntArray8661
 		[(class683.anInt8662 += 1552651121) * 501271953 - 1]
-		= (((Class8)
+		= (((ItemDefinitions)
 		    Class313_Sub2.aClass40_Sub22_10106.method76(i_21_,
 								1323030303))
 		       .method629

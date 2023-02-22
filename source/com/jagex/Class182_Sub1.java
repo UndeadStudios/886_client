@@ -28,7 +28,7 @@ public abstract class Class182_Sub1 extends Class182
     public float aFloat9152;
     static final int anInt9153 = 7;
     protected static final int anInt9154 = 100663296;
-    Class458 aClass458_9155;
+    JS5 aClass458_9155;
     protected boolean aBool9156;
     int[] anIntArray9157;
     boolean aBool9158;
@@ -255,7 +255,7 @@ public abstract class Class182_Sub1 extends Class182
     abstract void method14662();
     
     public static void method14663() throws Exception_Sub2 {
-	Class525_Sub7_Sub13.method18248(-691734241).method385("jaclib",
+	EmitterConfig.method18248(-691734241).method385("jaclib",
 							      -1631187573);
     }
     
@@ -3447,8 +3447,8 @@ public abstract class Class182_Sub1 extends Class182
     
     abstract void method14808();
     
-    public final Class179 method3556(Class186 class186, int i, int i_494_,
-				     int i_495_, int i_496_) {
+    public final Class179 method3556(ModelDecoder class186, int i, int i_494_,
+                                     int i_495_, int i_496_) {
 	return new Class179_Sub3(this, class186, i, i_495_, i_496_, i_494_);
     }
     
@@ -3611,8 +3611,8 @@ public abstract class Class182_Sub1 extends Class182
 	}
     }
     
-    public final Class179 method3505(Class186 class186, int i, int i_548_,
-				     int i_549_, int i_550_) {
+    public final Class179 method3505(ModelDecoder class186, int i, int i_548_,
+                                     int i_549_, int i_550_) {
 	return new Class179_Sub3(this, class186, i, i_549_, i_550_, i_548_);
     }
     
@@ -3928,7 +3928,7 @@ public abstract class Class182_Sub1 extends Class182
 				     Class435 class435_580_);
     
     public static void method14841() throws Exception_Sub2 {
-	Class525_Sub7_Sub13.method18248(-691734241).method385("jaclib",
+	EmitterConfig.method18248(-691734241).method385("jaclib",
 							      -2051939687);
     }
     
@@ -5461,9 +5461,9 @@ public abstract class Class182_Sub1 extends Class182
     abstract void method15001();
     
     Class182_Sub1(Class180 class180, Interface24 interface24,
-		  Interface47 interface47, Interface48 interface48,
-		  Interface49 interface49, Class458 class458, int i,
-		  int i_683_) {
+                  Interface47 interface47, Interface48 interface48,
+                  Interface49 interface49, JS5 class458, int i,
+                  int i_683_) {
 	super(class180, interface24, interface47, interface48, interface49);
 	aClass444_9263 = new Class444();
 	aClass435_9170 = new Class435();

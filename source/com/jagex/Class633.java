@@ -96,7 +96,7 @@ public class Class633
 	aBool8232 = bool;
     }
     
-    void method10334(Class154[] class154s, boolean bool) {
+    void method10334(MagnetConfig[] class154s, boolean bool) {
 	for (int i = 0; i < 16; i++)
 	    aBoolArray8236[i] = false;
 	Iterator iterator = aList8221.iterator();
@@ -155,7 +155,7 @@ public class Class633
     }
     
     public void method10336(Class182 class182, long l, Class184[] class184s,
-			    Class154[] class154s, boolean bool) {
+                            MagnetConfig[] class154s, boolean bool) {
 	if (!aBool8234) {
 	    method10367(class182, class184s, bool);
 	    method10338(class154s, bool);
@@ -167,7 +167,7 @@ public class Class633
 	anInt8233 = i;
     }
     
-    void method10338(Class154[] class154s, boolean bool) {
+    void method10338(MagnetConfig[] class154s, boolean bool) {
 	for (int i = 0; i < 16; i++)
 	    aBoolArray8236[i] = false;
 	Iterator iterator = aList8221.iterator();
@@ -507,7 +507,7 @@ public class Class633
 	aLong8224 = l;
     }
     
-    void method10362(Class154[] class154s, boolean bool) {
+    void method10362(MagnetConfig[] class154s, boolean bool) {
 	for (int i = 0; i < 16; i++)
 	    aBoolArray8236[i] = false;
 	Iterator iterator = aList8221.iterator();
@@ -561,7 +561,7 @@ public class Class633
 	}
     }
     
-    void method10363(Class154[] class154s, boolean bool) {
+    void method10363(MagnetConfig[] class154s, boolean bool) {
 	for (int i = 0; i < 16; i++)
 	    aBoolArray8236[i] = false;
 	Iterator iterator = aList8221.iterator();

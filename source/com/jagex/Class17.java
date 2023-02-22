@@ -7,7 +7,7 @@ public abstract class Class17 implements Interface5
 {
     Interface13 anInterface13_189;
     boolean aBool190;
-    Class458 aClass458_191;
+    JS5 aClass458_191;
     String[] aStringArray192;
     Class611 aClass611_193;
     Class13 aClass13_194;
@@ -27,7 +27,7 @@ public abstract class Class17 implements Interface5
 	    if (class157 != null)
 		return class157;
 	}
-	Class8 class8 = (Class8) interface13.method76(i, 1768328506);
+	ItemDefinitions class8 = (ItemDefinitions) interface13.method76(i, 1768328506);
 	if (i_1_ > 1 && null != class8.anIntArray107) {
 	    int i_6_ = -1;
 	    for (int i_7_ = 0; i_7_ < 10; i_7_++) {
@@ -36,7 +36,7 @@ public abstract class Class17 implements Interface5
 		    i_6_ = class8.anIntArray107[i_7_];
 	    }
 	    if (i_6_ != -1)
-		class8 = (Class8) interface13.method76(i_6_, -216636605);
+		class8 = (ItemDefinitions) interface13.method76(i_6_, -216636605);
 	}
 	int[] is
 	    = class8.method622(class182, class182_0_, i_1_, i_2_, i_3_, bool,
@@ -75,7 +75,7 @@ public abstract class Class17 implements Interface5
     }
     
     Class17(Class668 class668, Class666 class666, boolean bool,
-	    Class458 class458, Interface13 interface13) {
+            JS5 class458, Interface13 interface13) {
 	aClass611_193 = new Class611(250);
 	aClass13_194 = new Class13();
 	aClass666_198 = class666;
@@ -136,7 +136,7 @@ public abstract class Class17 implements Interface5
 	    if (class157 != null)
 		return class157;
 	}
-	Class8 class8 = (Class8) interface13.method76(i, -548481733);
+	ItemDefinitions class8 = (ItemDefinitions) interface13.method76(i, -548481733);
 	if (i_15_ > 1 && null != class8.anIntArray107) {
 	    int i_20_ = -1;
 	    for (int i_21_ = 0; i_21_ < 10; i_21_++) {
@@ -145,7 +145,7 @@ public abstract class Class17 implements Interface5
 		    i_20_ = class8.anIntArray107[i_21_];
 	    }
 	    if (i_20_ != -1)
-		class8 = (Class8) interface13.method76(i_20_, 1307881055);
+		class8 = (ItemDefinitions) interface13.method76(i_20_, 1307881055);
 	}
 	int[] is = class8.method622(class182, class182_14_, i_15_, i_16_,
 				    i_17_, bool, i_19_, class175, class637,
@@ -210,7 +210,7 @@ public abstract class Class17 implements Interface5
 	    if (class157 != null)
 		return class157;
 	}
-	Class8 class8 = (Class8) interface13.method76(i, -608718681);
+	ItemDefinitions class8 = (ItemDefinitions) interface13.method76(i, -608718681);
 	if (i_27_ > 1 && null != class8.anIntArray107) {
 	    int i_32_ = -1;
 	    for (int i_33_ = 0; i_33_ < 10; i_33_++) {
@@ -219,7 +219,7 @@ public abstract class Class17 implements Interface5
 		    i_32_ = class8.anIntArray107[i_33_];
 	    }
 	    if (i_32_ != -1)
-		class8 = (Class8) interface13.method76(i_32_, 1738145049);
+		class8 = (ItemDefinitions) interface13.method76(i_32_, 1738145049);
 	}
 	int[] is = class8.method622(class182, class182_26_, i_27_, i_28_,
 				    i_29_, bool, i_31_, class175, class637,
@@ -321,7 +321,7 @@ public abstract class Class17 implements Interface5
 	    if (class157 != null)
 		return class157;
 	}
-	Class8 class8 = (Class8) interface13.method76(i, 1580598530);
+	ItemDefinitions class8 = (ItemDefinitions) interface13.method76(i, 1580598530);
 	if (i_36_ > 1 && null != class8.anIntArray107) {
 	    int i_42_ = -1;
 	    for (int i_43_ = 0; i_43_ < 10; i_43_++) {
@@ -330,7 +330,7 @@ public abstract class Class17 implements Interface5
 		    i_42_ = class8.anIntArray107[i_43_];
 	    }
 	    if (i_42_ != -1)
-		class8 = (Class8) interface13.method76(i_42_, -1152804366);
+		class8 = (ItemDefinitions) interface13.method76(i_42_, -1152804366);
 	}
 	int[] is = class8.method622(class182, class182_35_, i_36_, i_37_,
 				    i_38_, bool, i_40_, class175, class637,

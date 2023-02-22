@@ -128,7 +128,7 @@ public abstract class Class372
     public static void method6364(Class245 class245, Class259 class259,
 				  int i) {
 	Class259 class259_17_
-	    = Class65.method1432(class245, class259, 93078391);
+	    = WorldTile.method1432(class245, class259, 93078391);
 	int i_18_;
 	int i_19_;
 	if (class259_17_ == null) {

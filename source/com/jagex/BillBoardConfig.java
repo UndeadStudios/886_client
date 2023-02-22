@@ -3,29 +3,29 @@
  */
 package com.jagex;
 
-public class Class171
+public class BillBoardConfig
 {
     public int anInt1855;
     public int anInt1856;
     int anInt1857;
     public int anInt1858;
     
-    Class171 method2732(int i, int i_0_) {
-	return new Class171(-145881707 * anInt1855, i, -821245807 * anInt1857,
+    BillBoardConfig method2732(int i, int i_0_) {
+	return new BillBoardConfig(-145881707 * anInt1855, i, -821245807 * anInt1857,
 			    -998013967 * anInt1858);
     }
     
-    Class171 method2733(int i) {
-	return new Class171(-145881707 * anInt1855, i, -821245807 * anInt1857,
+    BillBoardConfig method2733(int i) {
+	return new BillBoardConfig(-145881707 * anInt1855, i, -821245807 * anInt1857,
 			    -998013967 * anInt1858);
     }
     
-    Class171 method2734(int i) {
-	return new Class171(-145881707 * anInt1855, i, -821245807 * anInt1857,
+    BillBoardConfig method2734(int i) {
+	return new BillBoardConfig(-145881707 * anInt1855, i, -821245807 * anInt1857,
 			    -998013967 * anInt1858);
     }
     
-    Class171(int i, int i_1_, int i_2_, int i_3_) {
+    BillBoardConfig(int i, int i_1_, int i_2_, int i_3_) {
 	anInt1855 = i * 146021821;
 	anInt1856 = 783931505 * i_1_;
 	anInt1857 = i_2_ * -1214252943;
@@ -74,8 +74,8 @@ public class Class171
     static final void method2739(Class683 class683, byte i) {
 	int i_7_ = (class683.anIntArray8661
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_7_, 1660705702));
 	if (class8.anInt114 * 195314511 >= 0
 	    && class8.anInt113 * 593405105 >= 0)

@@ -16,7 +16,7 @@ public class Class309_Sub1 extends Class309
     }
     
     public void method15749(RSBuffer class525_sub38, int i) {
-	int i_0_ = -1133521593 * class525_sub38.pos;
+	int i_0_ = -1133521593 * class525_sub38.index;
 	int i_1_ = class525_sub38.readUnsignedByte(208317925);
 	method5572(Class86.method1649(i_1_ & 0x1, (byte) 97), 1737444226);
 	if ((i_1_ & 0x8) != 0) {
@@ -148,17 +148,17 @@ public class Class309_Sub1 extends Class309
 	    aClass704_3431.method14285(class525_sub38, 1102994141);
 	if (aClass350_3427 != null && 1 == (i_1_ >> 6 & 0x1))
 	    aClass350_3427.method6145(class525_sub38, 527422965);
-	if (-1133521593 * class525_sub38.pos - i_0_ != i)
+	if (-1133521593 * class525_sub38.index - i_0_ != i)
 	    throw new RuntimeException(new StringBuilder().append
 					   (-1133521593 * (class525_sub38
-							   .pos) - i_0_)
+							   .index) - i_0_)
 					   .append
 					   (",").append
 					   (i).toString());
     }
     
     public void method15750(RSBuffer class525_sub38, int i, int i_8_) {
-	int i_9_ = -1133521593 * class525_sub38.pos;
+	int i_9_ = -1133521593 * class525_sub38.index;
 	int i_10_ = class525_sub38.readUnsignedByte(429920997);
 	method5572(Class86.method1649(i_10_ & 0x1, (byte) 127), 2007303911);
 	if ((i_10_ & 0x8) != 0) {
@@ -302,10 +302,10 @@ public class Class309_Sub1 extends Class309
 	    aClass704_3431.method14285(class525_sub38, 1619502838);
 	if (aClass350_3427 != null && 1 == (i_10_ >> 6 & 0x1))
 	    aClass350_3427.method6145(class525_sub38, 1162096091);
-	if (-1133521593 * class525_sub38.pos - i_9_ != i)
+	if (-1133521593 * class525_sub38.index - i_9_ != i)
 	    throw new RuntimeException(new StringBuilder().append
 					   (-1133521593 * (class525_sub38
-							   .pos) - i_9_)
+							   .index) - i_9_)
 					   .append
 					   (",").append
 					   (i).toString());
@@ -330,7 +330,7 @@ public class Class309_Sub1 extends Class309
     }
     
     public void method15753(RSBuffer class525_sub38, int i) {
-	int i_17_ = -1133521593 * class525_sub38.pos;
+	int i_17_ = -1133521593 * class525_sub38.index;
 	int i_18_ = class525_sub38.readUnsignedByte(1023990881);
 	method5572(Class86.method1649(i_18_ & 0x1, (byte) 41), 1473604493);
 	if ((i_18_ & 0x8) != 0) {
@@ -475,10 +475,10 @@ public class Class309_Sub1 extends Class309
 	    aClass704_3431.method14285(class525_sub38, 1636549506);
 	if (aClass350_3427 != null && 1 == (i_18_ >> 6 & 0x1))
 	    aClass350_3427.method6145(class525_sub38, 989948399);
-	if (-1133521593 * class525_sub38.pos - i_17_ != i)
+	if (-1133521593 * class525_sub38.index - i_17_ != i)
 	    throw new RuntimeException(new StringBuilder().append
 					   ((-1133521593
-					     * class525_sub38.pos)
+					     * class525_sub38.index)
 					    - i_17_)
 					   .append
 					   (",").append
@@ -486,7 +486,7 @@ public class Class309_Sub1 extends Class309
     }
     
     public void method15754(RSBuffer class525_sub38, int i) {
-	int i_25_ = -1133521593 * class525_sub38.pos;
+	int i_25_ = -1133521593 * class525_sub38.index;
 	int i_26_ = class525_sub38.readUnsignedByte(368000920);
 	method5572(Class86.method1649(i_26_ & 0x1, (byte) 23), 2056374079);
 	if ((i_26_ & 0x8) != 0) {
@@ -629,10 +629,10 @@ public class Class309_Sub1 extends Class309
 	    aClass704_3431.method14285(class525_sub38, 1263197330);
 	if (aClass350_3427 != null && 1 == (i_26_ >> 6 & 0x1))
 	    aClass350_3427.method6145(class525_sub38, -2014229626);
-	if (-1133521593 * class525_sub38.pos - i_25_ != i)
+	if (-1133521593 * class525_sub38.index - i_25_ != i)
 	    throw new RuntimeException(new StringBuilder().append
 					   ((-1133521593
-					     * class525_sub38.pos)
+					     * class525_sub38.index)
 					    - i_25_)
 					   .append
 					   (",").append

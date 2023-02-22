@@ -481,9 +481,9 @@ public abstract class Class182
     
     static synchronized Class182 method3228
 	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
-	 Interface47 interface47, Interface48 interface48,
-	 Interface49 interface49, Class458 class458, int i_206_, int i_207_,
-	 int i_208_, int i_209_) {
+     Interface47 interface47, Interface48 interface48,
+     Interface49 interface49, JS5 class458, int i_206_, int i_207_,
+     int i_208_, int i_209_) {
 	if (0 == i)
 	    return Class604.method9986(canvas, class180, interface24,
 				       interface47, interface48, interface49,
@@ -1409,8 +1409,8 @@ public abstract class Class182
     public abstract Class157 method3504(int[] is, int i, int i_588_,
 					int i_589_, int i_590_, boolean bool);
     
-    public abstract Class179 method3505(Class186 class186, int i, int i_591_,
-					int i_592_, int i_593_);
+    public abstract Class179 method3505(ModelDecoder class186, int i, int i_591_,
+                                        int i_592_, int i_593_);
     
     public abstract void method3506(int i, Class176 class176);
     
@@ -1430,8 +1430,8 @@ public abstract class Class182
     
     public static Class182 method3513
 	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
-	 Interface47 interface47, Interface48 interface48,
-	 Interface49 interface49, Class458 class458, int i_609_) {
+     Interface47 interface47, Interface48 interface48,
+     Interface49 interface49, JS5 class458, int i_609_) {
 	int i_610_ = 0;
 	int i_611_ = 0;
 	if (null != canvas) {
@@ -1446,9 +1446,9 @@ public abstract class Class182
     
     static synchronized Class182 method3514
 	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
-	 Interface47 interface47, Interface48 interface48,
-	 Interface49 interface49, Class458 class458, int i_612_, int i_613_,
-	 int i_614_) {
+     Interface47 interface47, Interface48 interface48,
+     Interface49 interface49, JS5 class458, int i_612_, int i_613_,
+     int i_614_) {
 	if (0 == i)
 	    return Class604.method9986(canvas, class180, interface24,
 				       interface47, interface48, interface49,
@@ -1470,9 +1470,9 @@ public abstract class Class182
     
     static synchronized Class182 method3515
 	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
-	 Interface47 interface47, Interface48 interface48,
-	 Interface49 interface49, Class458 class458, int i_615_, int i_616_,
-	 int i_617_) {
+     Interface47 interface47, Interface48 interface48,
+     Interface49 interface49, JS5 class458, int i_615_, int i_616_,
+     int i_617_) {
 	if (0 == i)
 	    return Class604.method9986(canvas, class180, interface24,
 				       interface47, interface48, interface49,
@@ -1723,8 +1723,8 @@ public abstract class Class182
 	/* empty */
     }
     
-    public abstract Class179 method3556(Class186 class186, int i, int i_655_,
-					int i_656_, int i_657_);
+    public abstract Class179 method3556(ModelDecoder class186, int i, int i_655_,
+                                        int i_656_, int i_657_);
     
     public abstract void method3557(int i, int i_658_, int i_659_, int i_660_,
 				    int i_661_, int i_662_, Class152 class152,

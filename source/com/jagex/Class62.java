@@ -20,7 +20,7 @@ final class Class62 implements Interface50
 		   .method3223(class7, Class187.method3670(is), bool);
     }
     
-    public static void method1376(Class182 class182, Class458 class458,
+    public static void method1376(Class182 class182, JS5 class458,
 				  short i) {
 	Class173[] class173s
 	    = Class187.method3674(class458, Class29.anInt288 * 741597445, 0);

@@ -159,7 +159,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	anInt12210 = 0;
 	if (-1 != 597265379 * anInt12217) {
 	    Class179 class179
-		= (((Class8)
+		= (((ItemDefinitions)
 		    Class313_Sub2.aClass40_Sub22_10106
 			.method76(597265379 * anInt12217, -1241046395))
 		       .method616
@@ -181,7 +181,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	}
 	if (-1 != 1490609639 * anInt12212) {
 	    Class179 class179
-		= (((Class8)
+		= (((ItemDefinitions)
 		    Class313_Sub2.aClass40_Sub22_10106
 			.method76(anInt12212 * 1490609639, -963209147))
 		       .method616
@@ -203,7 +203,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	    }
 	}
 	Class179 class179
-	    = (((Class8) Class313_Sub2.aClass40_Sub22_10106
+	    = (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			     .method76(anInt12222 * 266184859, 1119698522))
 		   .method616
 	       (class182, 526336, anInt12211 * 947719271, null, null,
@@ -229,20 +229,20 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
     }
     
     int method16911(int i) {
-	Class8 class8
-	    = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	ItemDefinitions class8
+	    = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			   .method76(266184859 * anInt12222, -1139844508);
 	int i_25_ = class8.anInt129 * 1485991643;
 	if (1490609639 * anInt12212 != -1) {
-	    Class8 class8_26_
-		= (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8_26_
+		= (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			       .method76(1490609639 * anInt12212, -1531868405);
 	    if (1485991643 * class8_26_.anInt129 > i_25_)
 		i_25_ = class8_26_.anInt129 * 1485991643;
 	}
 	if (-1 != anInt12217 * 597265379) {
-	    Class8 class8_27_
-		= (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8_27_
+		= (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			       .method76(anInt12217 * 597265379, 1782389308);
 	    if (1485991643 * class8_27_.anInt129 > i_25_)
 		i_25_ = 1485991643 * class8_27_.anInt129;
@@ -255,7 +255,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	class444.method7131(method10818());
 	class444.method7147(0.0F, -10.0F, 0.0F);
 	Class179 class179
-	    = (((Class8) Class313_Sub2.aClass40_Sub22_10106
+	    = (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			     .method76(266184859 * anInt12222, -720601826))
 		   .method616
 	       (class182, 131072, 947719271 * anInt12211, null, null, 0, 0, 0,
@@ -270,7 +270,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 		return true;
 	}
 	if (anInt12212 * 1490609639 != -1) {
-	    class179 = (((Class8)
+	    class179 = (((ItemDefinitions)
 			 Class313_Sub2.aClass40_Sub22_10106
 			     .method76(1490609639 * anInt12212, -175442886))
 			    .method616
@@ -288,7 +288,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	}
 	if (anInt12217 * 597265379 != -1) {
 	    class179
-		= (((Class8) Class313_Sub2.aClass40_Sub22_10106
+		= (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 				 .method76(597265379 * anInt12217, 1502547855))
 		       .method616
 		   (class182, 131072, 1906509579 * anInt12215, null, null, 0,
@@ -323,7 +323,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	class444.method7131(method10818());
 	class444.method7147(0.0F, -10.0F, 0.0F);
 	Class179 class179
-	    = (((Class8) Class313_Sub2.aClass40_Sub22_10106
+	    = (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			     .method76(266184859 * anInt12222, 582784858))
 		   .method616
 	       (class182, 131072, 947719271 * anInt12211, null, null, 0, 0, 0,
@@ -338,7 +338,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 		return true;
 	}
 	if (anInt12212 * 1490609639 != -1) {
-	    class179 = (((Class8)
+	    class179 = (((ItemDefinitions)
 			 Class313_Sub2.aClass40_Sub22_10106
 			     .method76(1490609639 * anInt12212, 1502398810))
 			    .method616
@@ -355,7 +355,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	    }
 	}
 	if (anInt12217 * 597265379 != -1) {
-	    class179 = (((Class8)
+	    class179 = (((ItemDefinitions)
 			 Class313_Sub2.aClass40_Sub22_10106
 			     .method76(597265379 * anInt12217, -1809381007))
 			    .method616
@@ -424,7 +424,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	class444.method7131(method10818());
 	class444.method7147(0.0F, -10.0F, 0.0F);
 	Class179 class179
-	    = (((Class8) Class313_Sub2.aClass40_Sub22_10106
+	    = (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			     .method76(266184859 * anInt12222, 9671464))
 		   .method616
 	       (class182, 131072, 947719271 * anInt12211, null, null, 0, 0, 0,
@@ -439,7 +439,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 		return true;
 	}
 	if (anInt12212 * 1490609639 != -1) {
-	    class179 = (((Class8)
+	    class179 = (((ItemDefinitions)
 			 Class313_Sub2.aClass40_Sub22_10106
 			     .method76(1490609639 * anInt12212, 1248532950))
 			    .method616
@@ -457,7 +457,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	}
 	if (anInt12217 * 597265379 != -1) {
 	    class179
-		= (((Class8) Class313_Sub2.aClass40_Sub22_10106
+		= (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 				 .method76(597265379 * anInt12217, 188292277))
 		       .method616
 		   (class182, 131072, 1906509579 * anInt12215, null, null, 0,
@@ -480,7 +480,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	class444.method7131(method10818());
 	class444.method7147(0.0F, -10.0F, 0.0F);
 	Class179 class179
-	    = (((Class8) Class313_Sub2.aClass40_Sub22_10106
+	    = (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			     .method76(266184859 * anInt12222, 944830209))
 		   .method616
 	       (class182, 131072, 947719271 * anInt12211, null, null, 0, 0, 0,
@@ -495,7 +495,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 		return true;
 	}
 	if (anInt12212 * 1490609639 != -1) {
-	    class179 = (((Class8)
+	    class179 = (((ItemDefinitions)
 			 Class313_Sub2.aClass40_Sub22_10106
 			     .method76(1490609639 * anInt12212, 1019565834))
 			    .method616
@@ -512,7 +512,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	    }
 	}
 	if (anInt12217 * 597265379 != -1) {
-	    class179 = (((Class8)
+	    class179 = (((ItemDefinitions)
 			 Class313_Sub2.aClass40_Sub22_10106
 			     .method76(597265379 * anInt12217, -1424585288))
 			    .method616
@@ -664,7 +664,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	anInt12210 = 0;
 	if (-1 != 597265379 * anInt12217) {
 	    Class179 class179
-		= (((Class8) Class313_Sub2.aClass40_Sub22_10106
+		= (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 				 .method76(597265379 * anInt12217, 1431933957))
 		       .method616
 		   (class182, 526336, anInt12215 * 1906509579, null, null,
@@ -685,7 +685,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	}
 	if (-1 != 1490609639 * anInt12212) {
 	    Class179 class179
-		= (((Class8) Class313_Sub2.aClass40_Sub22_10106
+		= (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 				 .method76(anInt12212 * 1490609639, 935125060))
 		       .method616
 		   (class182, 526336, -1785966649 * anInt12209, null, null,
@@ -706,7 +706,7 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
 	    }
 	}
 	Class179 class179
-	    = (((Class8) Class313_Sub2.aClass40_Sub22_10106
+	    = (((ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			     .method76(anInt12222 * 266184859, 1123901865))
 		   .method616
 	       (class182, 526336, anInt12211 * 947719271, null, null,
@@ -760,20 +760,20 @@ public class Class656_Sub1_Sub2_Sub1 extends Class656_Sub1_Sub2
     }
     
     int method16960() {
-	Class8 class8
-	    = (Class8) Class313_Sub2.aClass40_Sub22_10106
+	ItemDefinitions class8
+	    = (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			   .method76(266184859 * anInt12222, 463142783);
 	int i = class8.anInt129 * 1485991643;
 	if (1490609639 * anInt12212 != -1) {
-	    Class8 class8_61_
-		= (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8_61_
+		= (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			       .method76(1490609639 * anInt12212, 2005687316);
 	    if (1485991643 * class8_61_.anInt129 > i)
 		i = class8_61_.anInt129 * 1485991643;
 	}
 	if (-1 != anInt12217 * 597265379) {
-	    Class8 class8_62_
-		= (Class8) Class313_Sub2.aClass40_Sub22_10106
+	    ItemDefinitions class8_62_
+		= (ItemDefinitions) Class313_Sub2.aClass40_Sub22_10106
 			       .method76(anInt12217 * 597265379, -403788261);
 	    if (1485991643 * class8_62_.anInt129 > i)
 		i = 1485991643 * class8_62_.anInt129;

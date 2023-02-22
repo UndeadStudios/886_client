@@ -101,7 +101,7 @@ public class Class665
 	if (i != 0) {
 	    for (int i_7_ = 0; i_7_ < i; i_7_++)
 		class525_sub38.buffer
-		    [class525_sub38.pos * -1133521593 + i_7_]
+		    [class525_sub38.index * -1133521593 + i_7_]
 		    = (byte) 0;
 	    Iterator iterator = iterable.iterator();
 	    while (iterator.hasNext()) {
@@ -109,10 +109,10 @@ public class Class665
 		int i_8_ = interface76.method80();
 		int i_9_ = i_8_ / 8;
 		class525_sub38.buffer
-		    [-1133521593 * class525_sub38.pos + i_9_]
+		    [-1133521593 * class525_sub38.index + i_9_]
 		    |= 1 << (i_8_ & 0x7);
 	    }
-	    class525_sub38.pos += i * 339428471;
+	    class525_sub38.index += i * 339428471;
 	}
     }
     
@@ -123,7 +123,7 @@ public class Class665
 	if (i != 0) {
 	    for (int i_10_ = 0; i_10_ < i; i_10_++)
 		class525_sub38.buffer
-		    [class525_sub38.pos * -1133521593 + i_10_]
+		    [class525_sub38.index * -1133521593 + i_10_]
 		    = (byte) 0;
 	    Iterator iterator = iterable.iterator();
 	    while (iterator.hasNext()) {
@@ -131,10 +131,10 @@ public class Class665
 		int i_11_ = interface76.method80();
 		int i_12_ = i_11_ / 8;
 		class525_sub38.buffer
-		    [-1133521593 * class525_sub38.pos + i_12_]
+		    [-1133521593 * class525_sub38.index + i_12_]
 		    |= 1 << (i_11_ & 0x7);
 	    }
-	    class525_sub38.pos += i * 339428471;
+	    class525_sub38.index += i * 339428471;
 	}
     }
     

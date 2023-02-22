@@ -33,7 +33,7 @@ public class Class507
     int[][] anIntArrayArray5633;
     int[][] anIntArrayArray5634;
     Class525_Sub16_Sub6 aClass525_Sub16_Sub6_5635;
-    Class504 aClass504_5636;
+    BillBoardDefinitions aClass504_5636;
     public long aLong5637;
     byte[][] aByteArrayArray5638;
     byte[][] aByteArrayArray5639;
@@ -119,7 +119,7 @@ public class Class507
 		RSBuffer class525_sub38
 		    = new RSBuffer(aByteArrayArray5639[i_1_]);
 		int i_4_ = 0;
-		while ((-1133521593 * class525_sub38.pos
+		while ((-1133521593 * class525_sub38.index
 			< aByteArrayArray5639[i_1_].length)
 		       && i_4_ < 511
 		       && client.anInt11216 * 1111866889 < 1023) {
@@ -134,8 +134,8 @@ public class Class507
 		    int i_11_
 			= (64 * (anIntArray5643[i_1_] & 0xff)
 			   - aClass600_5617.anInt7860 * 1429253007 + i_9_);
-		    Class299 class299
-			= (Class299) (Class168_Sub1.aClass40_Sub7_9112.method76
+		    NPCDefinitions class299
+			= (NPCDefinitions) (Class168_Sub1.aClass40_Sub7_9112.method76
 				      (class525_sub38.readUnsignedShort((byte) 38),
 				       480535565));
 		    Class525_Sub19 class525_sub19
@@ -326,7 +326,7 @@ public class Class507
     }
     
     public void method8370(int i) {
-	aClass504_5636 = Class504.aClass504_5601;
+	aClass504_5636 = BillBoardDefinitions.aClass504_5601;
 	anInt5616 = 0;
 	anInt5612 = -855318937;
 	anInt5620 = 0;
@@ -969,38 +969,38 @@ public class Class507
 	if (437378451 * anInt5616 > 0) {
 	    if (-1427415721 * anInt5612 < anInt5616 * 437378451)
 		anInt5612 = anInt5616 * 681680933;
-	    aClass504_5636 = Class504.aClass504_5602;
+	    aClass504_5636 = BillBoardDefinitions.aClass504_5602;
 	    return false;
 	}
 	for (int i_121_ = 0; i_121_ < 1742301187 * anInt5642; i_121_++) {
 	    if (null == aByteArrayArray5645[i_121_])
 		aByteArrayArray5645[i_121_]
-		    = (Class322.aClass458_3549.method7476
+		    = (Class322.aClass458_3549.getFile
 		       (anIntArray5644[i_121_],
 			Class474.aClass474_5162.anInt5171 * -492920259,
 			1598189882));
 	    if (aByteArrayArray5646[i_121_] == null)
 		aByteArrayArray5646[i_121_]
-		    = (Class322.aClass458_3549.method7476
+		    = (Class322.aClass458_3549.getFile
 		       (anIntArray5644[i_121_],
 			-492920259 * Class474.aClass474_5163.anInt5171,
 			319968193));
 	    if (aByteArrayArray5648[i_121_] == null)
 		aByteArrayArray5648[i_121_]
-		    = (Class322.aClass458_3549.method7476
+		    = (Class322.aClass458_3549.getFile
 		       (anIntArray5644[i_121_],
 			-492920259 * Class474.aClass474_5164.anInt5171,
 			1880404520));
 	    if (aByteArrayArray5638[i_121_] == null)
 		aByteArrayArray5638[i_121_]
-		    = (Class322.aClass458_3549.method7476
+		    = (Class322.aClass458_3549.getFile
 		       (anIntArray5644[i_121_],
 			-492920259 * Class474.aClass474_5165.anInt5171,
 			88359298));
 	    if (aByteArrayArray5639 != null
 		&& null == aByteArrayArray5639[i_121_])
 		aByteArrayArray5639[i_121_]
-		    = (Class322.aClass458_3549.method7476
+		    = (Class322.aClass458_3549.getFile
 		       (anIntArray5644[i_121_],
 			-492920259 * Class474.aClass474_5168.anInt5171,
 			347862197));
@@ -1060,10 +1060,10 @@ public class Class507
 		anInt5641 = client.anInt11083 * -622329681;
 	    if (anInt5640 * 294671849 < anInt5620 * 29753785)
 		anInt5640 = -1469490351 * anInt5620;
-	    aClass504_5636 = Class504.aClass504_5603;
+	    aClass504_5636 = BillBoardDefinitions.aClass504_5603;
 	    return false;
 	}
-	if (!aBool5653 && aClass504_5636 != Class504.aClass504_5601)
+	if (!aBool5653 && aClass504_5636 != BillBoardDefinitions.aClass504_5601)
 	    Class666.method11016
 		(new StringBuilder().append
 		     (Class53.aClass53_475.method1169(Class21.aClass666_213,
@@ -1073,7 +1073,7 @@ public class Class507
 		     ("(100%)").toString(),
 		 true, Class501.aClass182_5564, Class29.aClass175_293,
 		 Class500.aClass7_5560, -909267704);
-	aClass504_5636 = Class504.aClass504_5604;
+	aClass504_5636 = BillBoardDefinitions.aClass504_5604;
 	if (!aBool5653 && null != Class40_Sub20.aClass217_11050)
 	    Class40_Sub20.aClass217_11050.method4028(1049676809);
 	if (!aBool5653) {
@@ -1728,7 +1728,7 @@ public class Class507
 	}
     }
     
-    public Class504 method8404(int i) {
+    public BillBoardDefinitions method8404(int i) {
 	return aClass504_5636;
     }
     
@@ -1839,7 +1839,7 @@ public class Class507
 		RSBuffer class525_sub38
 		    = new RSBuffer(aByteArrayArray5639[i_203_]);
 		int i_206_ = 0;
-		while ((-1133521593 * class525_sub38.pos
+		while ((-1133521593 * class525_sub38.index
 			< aByteArrayArray5639[i_203_].length)
 		       && i_206_ < 511
 		       && client.anInt11216 * 1111866889 < 1023) {
@@ -1854,8 +1854,8 @@ public class Class507
 		    int i_213_
 			= (64 * (anIntArray5643[i_203_] & 0xff)
 			   - aClass600_5617.anInt7860 * 1429253007 + i_211_);
-		    Class299 class299
-			= (Class299) (Class168_Sub1.aClass40_Sub7_9112.method76
+		    NPCDefinitions class299
+			= (NPCDefinitions) (Class168_Sub1.aClass40_Sub7_9112.method76
 				      (class525_sub38.readUnsignedShort((byte) 44),
 				       -1838224201));
 		    Class525_Sub19 class525_sub19
@@ -2077,7 +2077,7 @@ public class Class507
     }
     
     public void method8435() {
-	aClass504_5636 = Class504.aClass504_5601;
+	aClass504_5636 = BillBoardDefinitions.aClass504_5601;
 	anInt5616 = 0;
 	anInt5612 = -855318937;
 	anInt5620 = 0;
@@ -2817,7 +2817,7 @@ public class Class507
     }
     
     public void method8466() {
-	aClass504_5636 = Class504.aClass504_5601;
+	aClass504_5636 = BillBoardDefinitions.aClass504_5601;
 	anInt5616 = 0;
 	anInt5612 = -855318937;
 	anInt5620 = 0;
@@ -3003,8 +3003,8 @@ public class Class507
 						   .method14353(-1155082107)) {
 	    class525_sub12.anInt10514 -= 527073445 * i_310_;
 	    class525_sub12.anInt10512 -= 681315175 * i_311_;
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_5632.method76((class525_sub12.anInt10519
 						 * -1427028605),
 						810328535));
@@ -3035,8 +3035,8 @@ public class Class507
 						   .method14353(-2000377243)) {
 	    class525_sub12.anInt10514 -= i_310_ * 527073445;
 	    class525_sub12.anInt10512 -= 681315175 * i_311_;
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_5632.method76((-1427028605
 						 * class525_sub12.anInt10519),
 						1765614898));
@@ -3320,8 +3320,8 @@ public class Class507
 						   .method14353(-1504693843)) {
 	    class525_sub12.anInt10514 -= 527073445 * i_336_;
 	    class525_sub12.anInt10512 -= 681315175 * i_337_;
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_5632.method76((class525_sub12.anInt10519
 						 * -1427028605),
 						-666340588));
@@ -3352,8 +3352,8 @@ public class Class507
 						   .method14353(-2010379273)) {
 	    class525_sub12.anInt10514 -= i_336_ * 527073445;
 	    class525_sub12.anInt10512 -= 681315175 * i_337_;
-	    Class602 class602
-		= ((Class602)
+	    ObjectDefinitions class602
+		= ((ObjectDefinitions)
 		   aClass40_Sub11_5632.method76((-1427028605
 						 * class525_sub12.anInt10519),
 						-46217116));
@@ -3502,13 +3502,13 @@ public class Class507
 	if (437378451 * anInt5616 > 0) {
 	    if (-1427415721 * anInt5612 < anInt5616 * 437378451)
 		anInt5612 = anInt5616 * 681680933;
-	    aClass504_5636 = Class504.aClass504_5602;
+	    aClass504_5636 = BillBoardDefinitions.aClass504_5602;
 	    return false;
 	}
 	for (int i = 0; i < 1742301187 * anInt5642; i++) {
 	    if (null == aByteArrayArray5645[i])
 		aByteArrayArray5645[i]
-		    = Class322.aClass458_3549.method7476(anIntArray5644[i],
+		    = Class322.aClass458_3549.getFile(anIntArray5644[i],
 							 ((Class474
 							   .aClass474_5162
 							   .anInt5171)
@@ -3516,7 +3516,7 @@ public class Class507
 							 1682052910);
 	    if (aByteArrayArray5646[i] == null)
 		aByteArrayArray5646[i]
-		    = Class322.aClass458_3549.method7476(anIntArray5644[i],
+		    = Class322.aClass458_3549.getFile(anIntArray5644[i],
 							 (-492920259
 							  * (Class474
 							     .aClass474_5163
@@ -3524,7 +3524,7 @@ public class Class507
 							 724589374);
 	    if (aByteArrayArray5648[i] == null)
 		aByteArrayArray5648[i]
-		    = Class322.aClass458_3549.method7476(anIntArray5644[i],
+		    = Class322.aClass458_3549.getFile(anIntArray5644[i],
 							 (-492920259
 							  * (Class474
 							     .aClass474_5164
@@ -3532,7 +3532,7 @@ public class Class507
 							 691891406);
 	    if (aByteArrayArray5638[i] == null)
 		aByteArrayArray5638[i]
-		    = Class322.aClass458_3549.method7476(anIntArray5644[i],
+		    = Class322.aClass458_3549.getFile(anIntArray5644[i],
 							 (-492920259
 							  * (Class474
 							     .aClass474_5165
@@ -3540,7 +3540,7 @@ public class Class507
 							 1948824161);
 	    if (aByteArrayArray5639 != null && null == aByteArrayArray5639[i])
 		aByteArrayArray5639[i]
-		    = Class322.aClass458_3549.method7476(anIntArray5644[i],
+		    = Class322.aClass458_3549.getFile(anIntArray5644[i],
 							 (-492920259
 							  * (Class474
 							     .aClass474_5168
@@ -3602,10 +3602,10 @@ public class Class507
 		anInt5641 = client.anInt11083 * -622329681;
 	    if (anInt5640 * 294671849 < anInt5620 * 29753785)
 		anInt5640 = -1469490351 * anInt5620;
-	    aClass504_5636 = Class504.aClass504_5603;
+	    aClass504_5636 = BillBoardDefinitions.aClass504_5603;
 	    return false;
 	}
-	if (!aBool5653 && aClass504_5636 != Class504.aClass504_5601)
+	if (!aBool5653 && aClass504_5636 != BillBoardDefinitions.aClass504_5601)
 	    Class666.method11016
 		(new StringBuilder().append
 		     (Class53.aClass53_475.method1169(Class21.aClass666_213,
@@ -3615,7 +3615,7 @@ public class Class507
 		     ("(100%)").toString(),
 		 true, Class501.aClass182_5564, Class29.aClass175_293,
 		 Class500.aClass7_5560, 306953828);
-	aClass504_5636 = Class504.aClass504_5604;
+	aClass504_5636 = BillBoardDefinitions.aClass504_5604;
 	if (!aBool5653 && null != Class40_Sub20.aClass217_11050)
 	    Class40_Sub20.aClass217_11050.method4028(1377048968);
 	if (!aBool5653) {
@@ -4124,7 +4124,7 @@ public class Class507
 		RSBuffer class525_sub38
 		    = new RSBuffer(aByteArrayArray5639[i_421_]);
 		int i_424_ = 0;
-		while ((-1133521593 * class525_sub38.pos
+		while ((-1133521593 * class525_sub38.index
 			< aByteArrayArray5639[i_421_].length)
 		       && i_424_ < 511
 		       && client.anInt11216 * 1111866889 < 1023) {
@@ -4139,8 +4139,8 @@ public class Class507
 		    int i_431_
 			= (64 * (anIntArray5643[i_421_] & 0xff)
 			   - aClass600_5617.anInt7860 * 1429253007 + i_429_);
-		    Class299 class299
-			= (Class299) (Class168_Sub1.aClass40_Sub7_9112.method76
+		    NPCDefinitions class299
+			= (NPCDefinitions) (Class168_Sub1.aClass40_Sub7_9112.method76
 				      (class525_sub38.readUnsignedShort((byte) 105),
 				       -1833054331));
 		    Class525_Sub19 class525_sub19

@@ -620,14 +620,14 @@ public class Class564
 	    = (null != Class642.anIntArray8324
 	       ? Class642.anIntArray8324[class525_sub38.readUnsignedShort((byte) 95)]
 	       : (Class381.anIntArray3929
-		  [Class504.method8313(class525_sub38.readUnsignedShort((byte) 75),
+		  [BillBoardDefinitions.method8313(class525_sub38.readUnsignedShort((byte) 75),
 				       859236947) & 0xffff]));
 	int i_42_ = class525_sub38.readUnsignedByte(1492685754);
 	anInt7590 = (i_42_ & 0x1f) * 750647107;
 	anInt7589 = ((i_42_ & 0xe0) << 3) * -1182328417;
 	if (31 != -1812738709 * anInt7590)
 	    method9438((short) 14469);
-	anInt7596 = class525_sub38.method16625((byte) -37) * -1729653755;
+	anInt7596 = class525_sub38.readSmart((byte) -37) * -1729653755;
 	method9444(class182, i_32_, i_34_, i_33_, i_35_, i_41_, 293738840);
     }
     

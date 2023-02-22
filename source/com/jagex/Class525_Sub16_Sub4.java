@@ -33,7 +33,7 @@ public class Class525_Sub16_Sub4 extends Class525_Sub16
 	int i = method18250(class525_sub38, -574057637);
 	int i_0_ = 0;
 	Class517[] class517s = Class163.method2658((byte) 30);
-	while (-1133521593 * class525_sub38.pos < i) {
+	while (-1133521593 * class525_sub38.index < i) {
 	    Class517 class517
 		= method18254(class525_sub38, class517s, 1027059178);
 	    method18251(class525_sub38, i_0_, class517, (byte) 0);
@@ -42,11 +42,11 @@ public class Class525_Sub16_Sub4 extends Class525_Sub16
     }
     
     int method18250(RSBuffer class525_sub38, int i) {
-	class525_sub38.pos
+	class525_sub38.index
 	    = (class525_sub38.buffer.length - 2) * 339428471;
 	int i_1_ = class525_sub38.readUnsignedShort((byte) 106);
 	int i_2_ = class525_sub38.buffer.length - 2 - i_1_ - 16;
-	class525_sub38.pos = i_2_ * 339428471;
+	class525_sub38.index = i_2_ * 339428471;
 	int i_3_ = class525_sub38.readInt(2098023380);
 	anInt11747 = class525_sub38.readUnsignedShort((byte) 6) * -608075163;
 	anInt11752 = class525_sub38.readUnsignedShort((byte) 76) * 1424615325;
@@ -69,7 +69,7 @@ public class Class525_Sub16_Sub4 extends Class525_Sub16
 		}
 	    }
 	}
-	class525_sub38.pos = 0;
+	class525_sub38.index = 0;
 	aString11755 = class525_sub38.method16635(338521696);
 	aClass517Array11746 = new Class517[i_3_];
 	return i_2_;
@@ -143,11 +143,11 @@ public class Class525_Sub16_Sub4 extends Class525_Sub16
     }
     
     int method18252(RSBuffer class525_sub38) {
-	class525_sub38.pos
+	class525_sub38.index
 	    = (class525_sub38.buffer.length - 2) * 339428471;
 	int i = class525_sub38.readUnsignedShort((byte) 33);
 	int i_13_ = class525_sub38.buffer.length - 2 - i - 16;
-	class525_sub38.pos = i_13_ * 339428471;
+	class525_sub38.index = i_13_ * 339428471;
 	int i_14_ = class525_sub38.readInt(1661972482);
 	anInt11747 = class525_sub38.readUnsignedShort((byte) 111) * -608075163;
 	anInt11752 = class525_sub38.readUnsignedShort((byte) 80) * 1424615325;
@@ -170,7 +170,7 @@ public class Class525_Sub16_Sub4 extends Class525_Sub16
 		}
 	    }
 	}
-	class525_sub38.pos = 0;
+	class525_sub38.index = 0;
 	aString11755 = class525_sub38.method16635(-220436858);
 	aClass517Array11746 = new Class517[i_14_];
 	return i_13_;

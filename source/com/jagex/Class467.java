@@ -12,12 +12,12 @@ public class Class467
     
     Class467(RSBuffer class525_sub38, BigInteger biginteger,
 			 BigInteger biginteger_0_) {
-	class525_sub38.pos = 1697142355;
+	class525_sub38.index = 1697142355;
 	int i = class525_sub38.readUnsignedByte(1228405227);
-	class525_sub38.pos += 1384473904 * i;
+	class525_sub38.index += 1384473904 * i;
 	byte[] is = new byte[(class525_sub38.buffer.length
-			      - -1133521593 * class525_sub38.pos)];
-	class525_sub38.method16639(is, 0, is.length, 1881640069);
+			      - -1133521593 * class525_sub38.index)];
+	class525_sub38.readBytes(is, 0, is.length, 1881640069);
 	byte[] is_1_;
 	if (null == biginteger || biginteger_0_ == null)
 	    is_1_ = is;
@@ -31,7 +31,7 @@ public class Class467
 	    throw new RuntimeException();
 	byte[] is_4_
 	    = Class510.method8505(class525_sub38.buffer, 5,
-				  (class525_sub38.pos * -1133521593
+				  (class525_sub38.index * -1133521593
 				   - is.length - 5),
 				  (byte) -36);
 	for (int i_5_ = 0; i_5_ < 64; i_5_++) {
@@ -40,13 +40,13 @@ public class Class467
 	}
 	aClass473Array5125 = new Class473[i];
 	for (int i_6_ = 0; i_6_ < i; i_6_++) {
-	    class525_sub38.pos = i_6_ * 1384473904 + 2036570826;
+	    class525_sub38.index = i_6_ * 1384473904 + 2036570826;
 	    int i_7_ = class525_sub38.readInt(1685313421);
 	    int i_8_ = class525_sub38.readInt(1281099651);
 	    int i_9_ = class525_sub38.readInt(1369225616);
 	    int i_10_ = class525_sub38.readInt(1757750791);
 	    byte[] is_11_ = new byte[64];
-	    class525_sub38.method16639(is_11_, 0, 64, 65326539);
+	    class525_sub38.readBytes(is_11_, 0, 64, 65326539);
 	    aClass473Array5125[i_6_]
 		= new Class473(i_7_, i_9_, i_8_, i_10_, is_11_);
 	}

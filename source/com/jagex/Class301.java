@@ -41,9 +41,9 @@ public class Class301 implements Interface12, Interface7
 	else if (i == 2)
 	    aBool3369 = true;
 	else if (3 == i) {
-	    anInt3370 = class525_sub38.method16625((byte) 19) * 1159244991;
-	    anInt3364 = class525_sub38.method16625((byte) 72) * 533453001;
-	    anInt3368 = class525_sub38.method16625((byte) 72) * 1064179037;
+	    anInt3370 = class525_sub38.readSmart((byte) 19) * 1159244991;
+	    anInt3364 = class525_sub38.readSmart((byte) 72) * 533453001;
+	    anInt3368 = class525_sub38.readSmart((byte) 72) * 1064179037;
 	} else if (4 == i)
 	    anInt3365 = class525_sub38.readUnsignedByte(1682528293) * -1785915209;
 	else if (i == 5)
@@ -51,9 +51,9 @@ public class Class301 implements Interface12, Interface7
 	else if (6 == i)
 	    anInt3374 = class525_sub38.method16834(-1994884458) * -265663009;
 	else if (7 == i) {
-	    anInt3372 = class525_sub38.method16625((byte) 12) * -232113955;
-	    anInt3373 = class525_sub38.method16625((byte) -41) * 507611605;
-	    anInt3366 = class525_sub38.method16625((byte) 38) * -665832423;
+	    anInt3372 = class525_sub38.readSmart((byte) 12) * -232113955;
+	    anInt3373 = class525_sub38.readSmart((byte) -41) * 507611605;
+	    anInt3366 = class525_sub38.readSmart((byte) 38) * -665832423;
 	}
     }
     
@@ -92,9 +92,9 @@ public class Class301 implements Interface12, Interface7
 	else if (i == 2)
 	    aBool3369 = true;
 	else if (3 == i) {
-	    anInt3370 = class525_sub38.method16625((byte) -11) * 1159244991;
-	    anInt3364 = class525_sub38.method16625((byte) -89) * 533453001;
-	    anInt3368 = class525_sub38.method16625((byte) -32) * 1064179037;
+	    anInt3370 = class525_sub38.readSmart((byte) -11) * 1159244991;
+	    anInt3364 = class525_sub38.readSmart((byte) -89) * 533453001;
+	    anInt3368 = class525_sub38.readSmart((byte) -32) * 1064179037;
 	} else if (4 == i)
 	    anInt3365 = class525_sub38.readUnsignedByte(440233112) * -1785915209;
 	else if (i == 5)
@@ -102,9 +102,9 @@ public class Class301 implements Interface12, Interface7
 	else if (6 == i)
 	    anInt3374 = class525_sub38.method16834(-1994884458) * -265663009;
 	else if (7 == i) {
-	    anInt3372 = class525_sub38.method16625((byte) -42) * -232113955;
-	    anInt3373 = class525_sub38.method16625((byte) -10) * 507611605;
-	    anInt3366 = class525_sub38.method16625((byte) 64) * -665832423;
+	    anInt3372 = class525_sub38.readSmart((byte) -42) * -232113955;
+	    anInt3373 = class525_sub38.readSmart((byte) -10) * 507611605;
+	    anInt3366 = class525_sub38.readSmart((byte) 64) * -665832423;
 	}
     }
     
@@ -170,31 +170,31 @@ public class Class301 implements Interface12, Interface7
 	    i_12_ += 8 - i_12_ % 8;
 	RSBuffer class525_sub38_13_ = new RSBuffer(i_12_);
 	class525_sub38_13_.method16700(string, 1114504721);
-	class525_sub38_13_.pos = 339428471 * i_12_;
+	class525_sub38_13_.index = 339428471 * i_12_;
 	class525_sub38_13_.method16726(is, (byte) -22);
 	RSBuffer class525_sub38_14_
-	    = new RSBuffer(-1133521593 * class525_sub38_13_.pos
-				 + (class525_sub38_8_.pos * -1133521593
-				    + (class525_sub38.pos * -1133521593
+	    = new RSBuffer(-1133521593 * class525_sub38_13_.index
+				 + (class525_sub38_8_.index * -1133521593
+				    + (class525_sub38.index * -1133521593
 				       + 5)));
 	class525_sub38_14_.method16735(2, -2063979628);
-	class525_sub38_14_.method16735(class525_sub38.pos * -1133521593,
+	class525_sub38_14_.method16735(class525_sub38.index * -1133521593,
 				       -1872570121);
 	class525_sub38_14_.method16614(class525_sub38.buffer, 0,
-				       class525_sub38.pos * -1133521593,
+				       class525_sub38.index * -1133521593,
 				       1261217782);
 	class525_sub38_14_.method16735((-1133521593
-					* class525_sub38_8_.pos),
+					* class525_sub38_8_.index),
 				       -193415980);
 	class525_sub38_14_.method16614(class525_sub38_8_.buffer, 0,
 				       (-1133521593
-					* class525_sub38_8_.pos),
+					* class525_sub38_8_.index),
 				       -1134847209);
 	class525_sub38_14_.method16602((-1133521593
-					* class525_sub38_13_.pos),
+					* class525_sub38_13_.index),
 				       1006905657);
 	class525_sub38_14_.method16614(class525_sub38_13_.buffer, 0,
-				       (class525_sub38_13_.pos
+				       (class525_sub38_13_.index
 					* -1133521593),
 				       1080485909);
 	String string_15_
@@ -229,13 +229,13 @@ public class Class301 implements Interface12, Interface7
 		int i_17_
 		    = inputstream.read(class525_sub38_14_.buffer,
 				       (-1133521593
-					* class525_sub38_14_.pos),
-				       1000 - (class525_sub38_14_.pos
+					* class525_sub38_14_.index),
+				       1000 - (class525_sub38_14_.index
 					       * -1133521593));
 		if (i_17_ == -1)
 		    break;
-		class525_sub38_14_.pos += i_17_ * 339428471;
-		if (-1133521593 * class525_sub38_14_.pos >= 1000)
+		class525_sub38_14_.index += i_17_ * 339428471;
+		if (-1133521593 * class525_sub38_14_.index >= 1000)
 		    return 5;
 	    }
 	    outputstreamwriter.close();
@@ -252,17 +252,17 @@ public class Class301 implements Interface12, Interface7
 		return 6;
 	    class525_sub38_14_.method16752(is, -2093736709);
 	    for (/**/;
-		 (-1133521593 * class525_sub38_14_.pos > 0
+		 (-1133521593 * class525_sub38_14_.index > 0
 		  && (class525_sub38_14_.buffer
-		      [-1133521593 * class525_sub38_14_.pos - 1]) == 0);
-		 class525_sub38_14_.pos -= 339428471) {
+		      [-1133521593 * class525_sub38_14_.index - 1]) == 0);
+		 class525_sub38_14_.index -= 339428471) {
 		/* empty */
 	    }
 	    string_18_
 		= new String(class525_sub38_14_.buffer, 0,
-			     -1133521593 * class525_sub38_14_.pos);
+			     -1133521593 * class525_sub38_14_.index);
 	    if (Class213.method3941(string_18_, (byte) 1)) {
-		Class299.method5393(string_18_, true, client.aBool11241,
+		NPCDefinitions.method5393(string_18_, true, client.aBool11241,
 				    -124741860);
 		return 2;
 	    }

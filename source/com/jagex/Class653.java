@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public final class Class653
 {
-    static Class458 aClass458_8393;
+    static JS5 aClass458_8393;
     static Iterator anIterator8394;
     
     public static int method10779(byte[] is, int i,

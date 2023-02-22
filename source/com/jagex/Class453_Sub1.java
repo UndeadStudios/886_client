@@ -46,7 +46,7 @@ final class Class453_Sub1 extends Class453
 				    1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16602(0,
 								  933198704);
-	    int i_4_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i_4_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			* -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string,
 								  203821631);
@@ -58,15 +58,15 @@ final class Class453_Sub1 extends Class453
 								  -1103892270);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16700(string_2_,
 								  98061679);
-	    class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    class525_sub15.aClass525_Sub38_Sub2_10546.index
 		+= -1918967999;
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16650
 		(Class25.anIntArray238, i_4_,
-		 (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		 (class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593),
 		 (byte) -82);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16616
-		((class525_sub15.aClass525_Sub38_Sub2_10546.pos
+		((class525_sub15.aClass525_Sub38_Sub2_10546.index
 		  * -1133521593) - i_4_,
 		 1347069365);
 	    client.aClass96_11361.method1794(class525_sub15, (short) 23158);

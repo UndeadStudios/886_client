@@ -44,7 +44,7 @@ public class Class89
 	Class525_Sub27 class525_sub27
 	    = (Class525_Sub27) aClass709_896.method14372((short) -9224);
 	if (class525_sub27 != null) {
-	    int i = -1133521593 * class525_sub38_sub2.pos;
+	    int i = -1133521593 * class525_sub38_sub2.index;
 	    class525_sub38_sub2.method16605((-1305362359
 					     * class525_sub27.anInt10612),
 					    -730763948);

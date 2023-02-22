@@ -170,8 +170,8 @@ public class Class634
 	    throw new RuntimeException("");
     }
     
-    public Class634(Class458 class458) {
-	byte[] is = class458.method7484((2028004077
+    public Class634(JS5 class458) {
+	byte[] is = class458.getTextureData((2028004077
 					 * Class638.aClass638_8311.anInt8316),
 					1565080542);
 	method10376(new RSBuffer(is), 2093685747);

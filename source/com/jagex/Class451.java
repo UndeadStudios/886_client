@@ -34,7 +34,7 @@ public class Class451
 		    && (class656_sub1_sub3_sub1_sub2.aByte10867
 			== (Class581.aClass656_Sub1_Sub3_Sub1_Sub1_7705
 			    .aByte10867))) {
-		    Class299 class299
+		    NPCDefinitions class299
 			= class656_sub1_sub3_sub1_sub2.aClass299_12255;
 		    if (class299 != null && null != class299.anIntArray3323)
 			class299 = class299.method5386(Class532.aClass111_7170,
@@ -95,7 +95,7 @@ public class Class451
 	Class50.method1129(class259, class683, 1441151524);
     }
     
-    public static int method7339(Class458 class458, int i) {
+    public static int method7339(JS5 class458, int i) {
 	int i_13_ = 0;
 	if (class458.method7506(741597445 * Class29.anInt288, -966251025))
 	    i_13_++;

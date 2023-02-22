@@ -12,7 +12,7 @@ public class Class175_Sub4 extends Class175
     Class182_Sub2 aClass182_Sub2_9937;
     int[] anIntArray9938;
     int[] anIntArray9939;
-    public static Class458 aClass458_9940;
+    public static JS5 aClass458_9940;
     public static int anInt9941;
     
     void method15619(byte[] is, int[] is_0_, int[] is_1_, int i, int i_2_,

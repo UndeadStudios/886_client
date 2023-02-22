@@ -9,7 +9,7 @@ public class Class597 implements Interface76
     public static Class597 aClass597_7842 = new Class597(0);
     public static Class597 aClass597_7843 = new Class597(1);
     int anInt7844;
-    public static Class458 aClass458_7845;
+    public static JS5 aClass458_7845;
     public static int anInt7846;
     
     public static Class597[] method9839() {
@@ -54,7 +54,7 @@ public class Class597 implements Interface76
     
     static void method9843(RSBuffer class525_sub38, byte i) {
 	for (int i_0_ = 0; i_0_ < -1524093609 * Class617.anInt8062; i_0_++) {
-	    int i_1_ = class525_sub38.method16740((byte) -7);
+	    int i_1_ = class525_sub38.readUnsignedSmart((byte) -7);
 	    int i_2_ = class525_sub38.readUnsignedShort((byte) 97);
 	    if (i_2_ == 65535)
 		i_2_ = -1;
@@ -117,7 +117,7 @@ public class Class597 implements Interface76
 		int i_9_ = (Class533.method8852
 			    (class525_sub2.aClass656_Sub1_Sub3_Sub1_Sub2_10424,
 			     -1024137523));
-		Class299 class299
+		NPCDefinitions class299
 		    = (class525_sub2.aClass656_Sub1_Sub3_Sub1_Sub2_10424
 		       .aClass299_12255);
 		if (class299.anIntArray3323 != null)

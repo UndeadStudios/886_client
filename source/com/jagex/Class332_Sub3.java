@@ -8,8 +8,8 @@ public class Class332_Sub3 extends Class332
 {
     Class157 aClass157_10147;
     
-    Class332_Sub3(Class458 class458, Class458 class458_0_,
-		  Class390_Sub2 class390_sub2) {
+    Class332_Sub3(JS5 class458, JS5 class458_0_,
+                  Class390_Sub2 class390_sub2) {
 	super(class458, class458_0_, (Class390) class390_sub2);
     }
     

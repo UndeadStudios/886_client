@@ -53,7 +53,7 @@ final class Class662 implements Runnable
 	if (0 == i_2_)
 	    return null;
 	i_2_--;
-	class525_sub38.pos += 339428471;
+	class525_sub38.index += 339428471;
 	int i_3_ = class525_sub38.readInt(1089159465);
 	Object[] objects = new Object[i_2_];
 	for (int i_4_ = 0; i_4_ < i_2_; i_4_++) {

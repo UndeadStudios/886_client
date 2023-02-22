@@ -27,7 +27,7 @@ public class Class486
 		int i_0_ = class525_sub38.readUnsignedByte(410949163);
 		if (255 == i_0_)
 		    break;
-		class525_sub38.pos -= 339428471;
+		class525_sub38.index -= 339428471;
 		Class447 class447
 		    = class106_sub1.method14522(class525_sub38, class480,
 						1005577089);
@@ -73,7 +73,7 @@ public class Class486
 		int i_1_ = class525_sub38.readUnsignedByte(1452032226);
 		if (255 == i_1_)
 		    break;
-		class525_sub38.pos -= 339428471;
+		class525_sub38.index -= 339428471;
 		Class447 class447
 		    = class106_sub1.method14522(class525_sub38, class480,
 						1005577089);

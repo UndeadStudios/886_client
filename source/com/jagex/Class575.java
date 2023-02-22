@@ -53,8 +53,8 @@ public class Class575 implements Interface68
     static final void method9549(Class683 class683, int i) {
 	int i_0_ = (class683.anIntArray8661
 		    [(class683.anInt8662 -= 1552651121) * 501271953]);
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_0_, -396353018));
 	if (-1 == -1095552769 * class8.anInt77
 	    && -1210387357 * class8.anInt59 >= 0)
@@ -362,7 +362,7 @@ public class Class575 implements Interface68
 				    class96.aClass6_1169, 1977859884);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(0,
 								  -918236468);
-	    int i_4_ = (class525_sub15.aClass525_Sub38_Sub2_10546.pos
+	    int i_4_ = (class525_sub15.aClass525_Sub38_Sub2_10546.index
 			* -1133521593);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16735(i_2_,
 								  -1840537344);
@@ -372,7 +372,7 @@ public class Class575 implements Interface68
 				string, (byte) 4);
 	    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
 		(-1133521593 * (class525_sub15.aClass525_Sub38_Sub2_10546
-				.pos) - i_4_,
+				.index) - i_4_,
 		 (byte) 7);
 	    class96.method1794(class525_sub15, (short) 10617);
 	}

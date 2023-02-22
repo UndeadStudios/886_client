@@ -3,50 +3,50 @@
  */
 package com.jagex;
 
-public class Class308_Sub1 extends Class308
+public class Class308_Sub1 extends SunDefinition
 {
     static int anInt10142;
     static Class157[] aClass157Array10143;
     
     public Class method46() {
-	return com.jagex.Class299.class;
+	return NPCDefinitions.class;
     }
     
     public Interface12 method42(int i, Interface13 interface13, int i_0_) {
-	return new Class299(i, this, interface13);
+	return new NPCDefinitions(i, this, interface13);
     }
     
     public Class method40(int i) {
-	return com.jagex.Class299.class;
+	return NPCDefinitions.class;
     }
     
     public Interface12 method39(int i, Interface13 interface13) {
-	return new Class299(i, this, interface13);
+	return new NPCDefinitions(i, this, interface13);
     }
     
     public Interface12 method38(int i, Interface13 interface13) {
-	return new Class299(i, this, interface13);
+	return new NPCDefinitions(i, this, interface13);
     }
     
     public Interface12 method43(int i, Interface13 interface13) {
-	return new Class299(i, this, interface13);
+	return new NPCDefinitions(i, this, interface13);
     }
     
-    Class308_Sub1(boolean bool, Class458 class458, Class666 class666,
-		  Class668 class668) {
+    Class308_Sub1(boolean bool, JS5 class458, Class666 class666,
+                  Class668 class668) {
 	super(bool, class458, class666, class668);
     }
     
     public Class method45() {
-	return com.jagex.Class299.class;
+	return NPCDefinitions.class;
     }
     
     public Interface12 method44(int i, Interface13 interface13) {
-	return new Class299(i, this, interface13);
+	return new NPCDefinitions(i, this, interface13);
     }
     
     public Interface12 method41(int i, Interface13 interface13) {
-	return new Class299(i, this, interface13);
+	return new NPCDefinitions(i, this, interface13);
     }
     
     public static void method15762(int i, int i_1_, byte i_2_) {

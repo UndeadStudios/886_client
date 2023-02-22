@@ -62,24 +62,24 @@ public class Class580 implements Interface12
 	else if (6 == i)
 	    anInt7691 = class525_sub38.readBigSmart(-2043778683) * 455571343;
 	else if (7 == i)
-	    anInt7682 = class525_sub38.method16625((byte) -19) * 140668715;
+	    anInt7682 = class525_sub38.readSmart((byte) -19) * 140668715;
 	else if (8 == i)
 	    aString7679 = class525_sub38.method16637(824853330);
 	else if (9 == i)
 	    anInt7687 = class525_sub38.readUnsignedShort((byte) 57) * -1375386661;
 	else if (i == 10)
-	    anInt7693 = class525_sub38.method16625((byte) 65) * -1972574773;
+	    anInt7693 = class525_sub38.readSmart((byte) 65) * -1972574773;
 	else if (11 == i)
 	    anInt7694 = 0;
 	else if (i == 12)
 	    anInt7696 = class525_sub38.readUnsignedByte(3293048) * 1304269939;
 	else if (i == 13)
-	    anInt7686 = class525_sub38.method16625((byte) 56) * 1488578829;
+	    anInt7686 = class525_sub38.readSmart((byte) 56) * 1488578829;
 	else if (i == 14)
 	    anInt7694 = class525_sub38.readUnsignedShort((byte) 38) * -1749069223;
 	else if (i == 16) {
-	    anInt7698 = class525_sub38.method16625((byte) 69) * 664140071;
-	    anInt7678 = class525_sub38.method16625((byte) -79) * -1583330947;
+	    anInt7698 = class525_sub38.readSmart((byte) 69) * 664140071;
+	    anInt7678 = class525_sub38.readSmart((byte) -79) * -1583330947;
 	} else if (i == 17 || i == 18) {
 	    anInt7695 = class525_sub38.readUnsignedShort((byte) 113) * 1130416875;
 	    if (anInt7695 * -737767997 == 65535)
@@ -217,7 +217,7 @@ public class Class580 implements Interface12
     }
     
     void method9595(Class182 class182, int i) {
-	Class458 class458 = aClass585_7689.aClass458_7724;
+	JS5 class458 = aClass585_7689.aClass458_7724;
 	if (-236732291 * anInt7688 >= 0
 	    && (aClass585_7689.aClass200_7723.method3785((long) (anInt7688
 								 * -236732291))
@@ -349,24 +349,24 @@ public class Class580 implements Interface12
 	else if (6 == i)
 	    anInt7691 = class525_sub38.readBigSmart(-2043778683) * 455571343;
 	else if (7 == i)
-	    anInt7682 = class525_sub38.method16625((byte) 66) * 140668715;
+	    anInt7682 = class525_sub38.readSmart((byte) 66) * 140668715;
 	else if (8 == i)
 	    aString7679 = class525_sub38.method16637(-1290724917);
 	else if (9 == i)
 	    anInt7687 = class525_sub38.readUnsignedShort((byte) 78) * -1375386661;
 	else if (i == 10)
-	    anInt7693 = class525_sub38.method16625((byte) 15) * -1972574773;
+	    anInt7693 = class525_sub38.readSmart((byte) 15) * -1972574773;
 	else if (11 == i)
 	    anInt7694 = 0;
 	else if (i == 12)
 	    anInt7696 = class525_sub38.readUnsignedByte(1068579124) * 1304269939;
 	else if (i == 13)
-	    anInt7686 = class525_sub38.method16625((byte) -4) * 1488578829;
+	    anInt7686 = class525_sub38.readSmart((byte) -4) * 1488578829;
 	else if (i == 14)
 	    anInt7694 = class525_sub38.readUnsignedShort((byte) 93) * -1749069223;
 	else if (i == 16) {
-	    anInt7698 = class525_sub38.method16625((byte) -62) * 664140071;
-	    anInt7678 = class525_sub38.method16625((byte) 10) * -1583330947;
+	    anInt7698 = class525_sub38.readSmart((byte) -62) * 664140071;
+	    anInt7678 = class525_sub38.readSmart((byte) 10) * -1583330947;
 	} else if (i == 17 || i == 18) {
 	    anInt7695 = class525_sub38.readUnsignedShort((byte) 60) * 1130416875;
 	    if (anInt7695 * -737767997 == 65535)
@@ -409,24 +409,24 @@ public class Class580 implements Interface12
 	else if (6 == i)
 	    anInt7691 = class525_sub38.readBigSmart(-2043778683) * 455571343;
 	else if (7 == i)
-	    anInt7682 = class525_sub38.method16625((byte) 40) * 140668715;
+	    anInt7682 = class525_sub38.readSmart((byte) 40) * 140668715;
 	else if (8 == i)
 	    aString7679 = class525_sub38.method16637(-1905989837);
 	else if (9 == i)
 	    anInt7687 = class525_sub38.readUnsignedShort((byte) 85) * -1375386661;
 	else if (i == 10)
-	    anInt7693 = class525_sub38.method16625((byte) 79) * -1972574773;
+	    anInt7693 = class525_sub38.readSmart((byte) 79) * -1972574773;
 	else if (11 == i)
 	    anInt7694 = 0;
 	else if (i == 12)
 	    anInt7696 = class525_sub38.readUnsignedByte(33309035) * 1304269939;
 	else if (i == 13)
-	    anInt7686 = class525_sub38.method16625((byte) 6) * 1488578829;
+	    anInt7686 = class525_sub38.readSmart((byte) 6) * 1488578829;
 	else if (i == 14)
 	    anInt7694 = class525_sub38.readUnsignedShort((byte) 53) * -1749069223;
 	else if (i == 16) {
-	    anInt7698 = class525_sub38.method16625((byte) -17) * 664140071;
-	    anInt7678 = class525_sub38.method16625((byte) -28) * -1583330947;
+	    anInt7698 = class525_sub38.readSmart((byte) -17) * 664140071;
+	    anInt7678 = class525_sub38.readSmart((byte) -28) * -1583330947;
 	} else if (i == 17 || i == 18) {
 	    anInt7695 = class525_sub38.readUnsignedShort((byte) 120) * 1130416875;
 	    if (anInt7695 * -737767997 == 65535)
@@ -517,24 +517,24 @@ public class Class580 implements Interface12
 	else if (6 == i)
 	    anInt7691 = class525_sub38.readBigSmart(-2043778683) * 455571343;
 	else if (7 == i)
-	    anInt7682 = class525_sub38.method16625((byte) -32) * 140668715;
+	    anInt7682 = class525_sub38.readSmart((byte) -32) * 140668715;
 	else if (8 == i)
 	    aString7679 = class525_sub38.method16637(-109763380);
 	else if (9 == i)
 	    anInt7687 = class525_sub38.readUnsignedShort((byte) 14) * -1375386661;
 	else if (i == 10)
-	    anInt7693 = class525_sub38.method16625((byte) -8) * -1972574773;
+	    anInt7693 = class525_sub38.readSmart((byte) -8) * -1972574773;
 	else if (11 == i)
 	    anInt7694 = 0;
 	else if (i == 12)
 	    anInt7696 = class525_sub38.readUnsignedByte(1654370745) * 1304269939;
 	else if (i == 13)
-	    anInt7686 = class525_sub38.method16625((byte) 7) * 1488578829;
+	    anInt7686 = class525_sub38.readSmart((byte) 7) * 1488578829;
 	else if (i == 14)
 	    anInt7694 = class525_sub38.readUnsignedShort((byte) 26) * -1749069223;
 	else if (i == 16) {
-	    anInt7698 = class525_sub38.method16625((byte) 34) * 664140071;
-	    anInt7678 = class525_sub38.method16625((byte) -77) * -1583330947;
+	    anInt7698 = class525_sub38.readSmart((byte) 34) * 664140071;
+	    anInt7678 = class525_sub38.readSmart((byte) -77) * -1583330947;
 	} else if (i == 17 || i == 18) {
 	    anInt7695 = class525_sub38.readUnsignedShort((byte) 91) * 1130416875;
 	    if (anInt7695 * -737767997 == 65535)
@@ -579,7 +579,7 @@ public class Class580 implements Interface12
     }
     
     void method9606(Class182 class182) {
-	Class458 class458 = aClass585_7689.aClass458_7724;
+	JS5 class458 = aClass585_7689.aClass458_7724;
 	if (-236732291 * anInt7688 >= 0
 	    && (aClass585_7689.aClass200_7723.method3785((long) (anInt7688
 								 * -236732291))
@@ -755,7 +755,7 @@ public class Class580 implements Interface12
 		     [(class683.anInt8662 -= 1552651121) * 501271953]);
 	Class259 class259 = Class43.method1069(i_20_, -695254952);
 	Class245 class245 = Class162.aClass245Array1764[i_20_ >> 16];
-	Class458.method7570(class259, class245, class683, 361686749);
+	JS5.method7570(class259, class245, class683, 361686749);
     }
     
     static final void method9614(Class683 class683, int i) {

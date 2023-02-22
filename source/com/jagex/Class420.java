@@ -76,7 +76,7 @@ public class Class420
 	    = ((Class656_Sub1_Sub3_Sub1_Sub2)
 	       class683.aClass656_Sub1_Sub3_Sub1_8654);
 	String string = class656_sub1_sub3_sub1_sub2.aString12264;
-	Class299 class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
+	NPCDefinitions class299 = class656_sub1_sub3_sub1_sub2.aClass299_12255;
 	if (class299.anIntArray3323 != null) {
 	    class299
 		= class299.method5386(Class532.aClass111_7170,
@@ -120,14 +120,14 @@ public class Class420
 			.method16735(0, -1766530593);
 		    int i_2_ = (-1133521593
 				* (class525_sub15.aClass525_Sub38_Sub2_10546
-				   .pos));
+				   .index));
 		    Class70.method1520((class525_sub15
 					.aClass525_Sub38_Sub2_10546),
 				       1280945471);
 		    class525_sub15.aClass525_Sub38_Sub2_10546.method16617
 			(-1133521593 * (class525_sub15
 					.aClass525_Sub38_Sub2_10546
-					.pos) - i_2_,
+					.index) - i_2_,
 			 (byte) 7);
 		    client.aClass96_11085.method1794(class525_sub15,
 						     (short) 5948);

@@ -259,7 +259,7 @@ public class Class589
 	try {
 	    for (int i = 0; i < aStringArray7793.length; i++) {
 		if (null != aStringArray7793[i] && aBoolArray7792[i])
-		    Class525_Sub7_Sub13.method18248(-691734241)
+		    EmitterConfig.method18248(-691734241)
 			.method385(aStringArray7793[i], -1883819320);
 	    }
 	} catch (Exception_Sub2 exception_sub2) {
@@ -284,7 +284,7 @@ public class Class589
 	try {
 	    for (int i = 0; i < aStringArray7793.length; i++) {
 		if (null != aStringArray7793[i] && aBoolArray7792[i])
-		    Class525_Sub7_Sub13.method18248(-691734241)
+		    EmitterConfig.method18248(-691734241)
 			.method385(aStringArray7793[i], -1849931782);
 	    }
 	} catch (Exception_Sub2 exception_sub2) {

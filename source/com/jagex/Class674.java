@@ -167,12 +167,12 @@ public class Class674 implements Interface12
 		i_32_ |= 0x4000;
 	    if (aShortArray8595 != null)
 		i_32_ |= 0x8000;
-	    Class186 class186
-		= Class186.method3644(aClass669_8609.aClass458_8587,
+	    ModelDecoder class186
+		= ModelDecoder.method3644(aClass669_8609.aClass458_8587,
 				      anInt8592 * -526637365, 0);
 	    if (null == class186)
 		return null;
-	    if (class186.anInt2086 < 13)
+	    if (class186.version < 13)
 		class186.method3651(2);
 	    class179
 		= class182.method3556(class186, i_32_,
@@ -273,12 +273,12 @@ public class Class674 implements Interface12
 		i_47_ |= 0x4000;
 	    if (aShortArray8595 != null)
 		i_47_ |= 0x8000;
-	    Class186 class186
-		= Class186.method3644(aClass669_8609.aClass458_8587,
+	    ModelDecoder class186
+		= ModelDecoder.method3644(aClass669_8609.aClass458_8587,
 				      anInt8592 * -526637365, 0);
 	    if (null == class186)
 		return null;
-	    if (class186.anInt2086 < 13)
+	    if (class186.version < 13)
 		class186.method3651(2);
 	    class179
 		= class182.method3556(class186, i_47_,

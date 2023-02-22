@@ -11,7 +11,7 @@ import java.io.StringWriter;
 public class Class40_Sub3 extends Class40
 {
     public Class40_Sub3(Class668 class668, Class666 class666,
-			Class458 class458) {
+			JS5 class458) {
 	super(class668, class666, class458, Class663.aClass663_8504, 16,
 	      new Class45(com.jagex.Class570.class));
     }

@@ -149,7 +149,7 @@ public class Class60
 					   -604924030);
 		Class525_Sub34.method16571(-1198565891);
 	    }
-	} catch (Object object) {
+	} catch (Exception object) {
 	    Class525_Sub34.method16571(1911416);
 	    throw object;
 	}

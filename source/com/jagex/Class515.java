@@ -36,8 +36,8 @@ public class Class515
     static int anInt5722;
     static int anInt5723;
     
-    public static void method8555(Class458 class458, Class180 class180,
-				  Interface24 interface24) {
+    public static void method8555(JS5 class458, Class180 class180,
+                                  Interface24 interface24) {
 	Class326.aClass458_3563 = class458;
 	aClass180_5702 = class180;
 	Class406.anInterface24_4168 = interface24;
@@ -154,8 +154,8 @@ public class Class515
 						     (byte) 73);
 	    if (bool) {
 		class182.method3307(16777215, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F);
-		Class186 class186
-		    = Class186.method3644(Class326.aClass458_3563,
+		ModelDecoder class186
+		    = ModelDecoder.method3644(Class326.aClass458_3563,
 					  anInt5705 * -1246538147, 0);
 		aClass179_5698
 		    = class182.method3556(class186, 1099776, 0, 255, 1);
@@ -349,15 +349,15 @@ public class Class515
 	class182.method3233(class444);
     }
     
-    public static void method8567(Class458 class458, Class180 class180,
-				  Interface24 interface24) {
+    public static void method8567(JS5 class458, Class180 class180,
+                                  Interface24 interface24) {
 	Class326.aClass458_3563 = class458;
 	aClass180_5702 = class180;
 	Class406.anInterface24_4168 = interface24;
     }
     
-    public static void method8568(Class458 class458, Class180 class180,
-				  Interface24 interface24) {
+    public static void method8568(JS5 class458, Class180 class180,
+                                  Interface24 interface24) {
 	Class326.aClass458_3563 = class458;
 	aClass180_5702 = class180;
 	Class406.anInterface24_4168 = interface24;
@@ -371,8 +371,8 @@ public class Class515
 		     + anInt5713 * 1487683661) * 1076045905;
     }
     
-    public static void method8570(Class458 class458, Class180 class180,
-				  Interface24 interface24) {
+    public static void method8570(JS5 class458, Class180 class180,
+                                  Interface24 interface24) {
 	Class326.aClass458_3563 = class458;
 	aClass180_5702 = class180;
 	Class406.anInterface24_4168 = interface24;
@@ -424,8 +424,8 @@ public class Class515
 						     (byte) 120);
 	    if (bool) {
 		class182.method3307(16777215, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F);
-		Class186 class186
-		    = Class186.method3644(Class326.aClass458_3563,
+		ModelDecoder class186
+		    = ModelDecoder.method3644(Class326.aClass458_3563,
 					  anInt5705 * -1246538147, 0);
 		aClass179_5698
 		    = class182.method3556(class186, 1099776, 0, 255, 1);
@@ -612,8 +612,8 @@ public class Class515
 						     (byte) 98);
 	    if (bool) {
 		class182.method3307(16777215, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F);
-		Class186 class186
-		    = Class186.method3644(Class326.aClass458_3563,
+		ModelDecoder class186
+		    = ModelDecoder.method3644(Class326.aClass458_3563,
 					  anInt5705 * -1246538147, 0);
 		aClass179_5698
 		    = class182.method3556(class186, 1099776, 0, 255, 1);

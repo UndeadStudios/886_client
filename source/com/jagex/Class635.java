@@ -10,7 +10,7 @@ public class Class635
     float aFloat8247;
     int anInt8248 = 0;
     Class618[][] aClass618ArrayArray8249;
-    Class458 aClass458_8250;
+    JS5 aClass458_8250;
     int anInt8251 = -587115815;
     float aFloat8252;
     Class645 aClass645_8253;
@@ -666,7 +666,7 @@ public class Class635
 	method10405((byte) -15);
     }
     
-    public Class635(Class182 class182, Class458 class458, int i, int i_43_) {
+    public Class635(Class182 class182, JS5 class458, int i, int i_43_) {
 	aBool8256 = false;
 	aClass446_8260 = new Class446(-50.0F, -60.0F, -50.0F);
 	aClass200_8261 = new Class200(9);

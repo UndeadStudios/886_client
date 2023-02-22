@@ -195,8 +195,8 @@ public class Class262
 	int i_17_ = class683.anIntArray8661[501271953 * class683.anInt8662];
 	int i_18_
 	    = class683.anIntArray8661[1 + 501271953 * class683.anInt8662];
-	Class8 class8
-	    = ((Class8)
+	ItemDefinitions class8
+	    = ((ItemDefinitions)
 	       Class313_Sub2.aClass40_Sub22_10106.method76(i_17_, -153802187));
 	if (i_18_ >= 1 && i_18_ <= 5
 	    && null != class8.aStringArray85[i_18_ - 1])
@@ -229,7 +229,7 @@ public class Class262
 	    || class182.method3321(class179_26_.method2928(), i_25_) != 0) {
 	    if (null != class179_26_)
 		i_25_ = class182.method3229(i_25_, class179_26_.method2928());
-	    Class186 class186 = new Class186(4, 2, 2);
+	    ModelDecoder class186 = new ModelDecoder(4, 2, 2);
 	    int i_27_ = 128;
 	    int[] is = new int[4];
 	    is[0] = class186.method3625(-i_27_, 0, -i_27_);

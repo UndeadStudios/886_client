@@ -38,8 +38,8 @@ public class Class516
     static int[] anIntArray5754 = new int[4];
     
     void method8602(Class182 class182, Class516 class516_0_) {
-	Class186 class186
-	    = Class186.method3644(Class326.aClass458_3563, anInt5735, 0);
+	ModelDecoder class186
+	    = ModelDecoder.method3644(Class326.aClass458_3563, anInt5735, 0);
 	if (class186 != null) {
 	    class182.method3187(anIntArray5754);
 	    class182.method3184(0, 0, anInt5739, anInt5739);
@@ -198,8 +198,8 @@ public class Class516
     }
     
     void method8607(Class182 class182, Class516 class516_40_) {
-	Class186 class186
-	    = Class186.method3644(Class326.aClass458_3563, anInt5735, 0);
+	ModelDecoder class186
+	    = ModelDecoder.method3644(Class326.aClass458_3563, anInt5735, 0);
 	if (class186 != null) {
 	    class182.method3187(anIntArray5754);
 	    class182.method3184(0, 0, anInt5739, anInt5739);
@@ -349,7 +349,7 @@ public class Class516
     
     static void method8610(Class182 class182) {
 	if (aClass179_5752 == null) {
-	    Class186 class186 = new Class186(580, 1104, 1);
+	    ModelDecoder class186 = new ModelDecoder(580, 1104, 1);
 	    class186.method3628((short) 0, (short) 32767, (short) 0,
 				(short) 1024, (short) 1024, (short) 1024,
 				(byte) 0, (byte) 0, (byte) 0);
@@ -387,10 +387,10 @@ public class Class516
 					(short) 127, (byte) 0, (short) 0);
 		}
 	    }
-	    class186.anInt2087 = class186.anInt2084;
-	    class186.anIntArray2126 = null;
-	    class186.anIntArray2083 = null;
-	    class186.aByteArray2106 = null;
+	    class186.maxVertexUsed = class186.vertexCount;
+	    class186.faceBones = null;
+	    class186.vertexBones = null;
+	    class186.facePriorities = null;
 	    aClass179_5752 = class182.method3556(class186, 51200, 33, 64, 768);
 	}
     }
@@ -438,7 +438,7 @@ public class Class516
     
     static void method8613(Class182 class182) {
 	if (aClass179_5752 == null) {
-	    Class186 class186 = new Class186(580, 1104, 1);
+	    ModelDecoder class186 = new ModelDecoder(580, 1104, 1);
 	    class186.method3628((short) 0, (short) 32767, (short) 0,
 				(short) 1024, (short) 1024, (short) 1024,
 				(byte) 0, (byte) 0, (byte) 0);
@@ -476,10 +476,10 @@ public class Class516
 					(short) 127, (byte) 0, (short) 0);
 		}
 	    }
-	    class186.anInt2087 = class186.anInt2084;
-	    class186.anIntArray2126 = null;
-	    class186.anIntArray2083 = null;
-	    class186.aByteArray2106 = null;
+	    class186.maxVertexUsed = class186.vertexCount;
+	    class186.faceBones = null;
+	    class186.vertexBones = null;
+	    class186.facePriorities = null;
 	    aClass179_5752 = class182.method3556(class186, 51200, 33, 64, 768);
 	}
     }
@@ -664,8 +664,8 @@ public class Class516
     }
     
     void method8622(Class182 class182, Class516 class516_147_) {
-	Class186 class186
-	    = Class186.method3644(Class326.aClass458_3563, anInt5735, 0);
+	ModelDecoder class186
+	    = ModelDecoder.method3644(Class326.aClass458_3563, anInt5735, 0);
 	if (class186 != null) {
 	    class182.method3187(anIntArray5754);
 	    class182.method3184(0, 0, anInt5739, anInt5739);
@@ -740,7 +740,7 @@ public class Class516
     
     static void method8623(Class182 class182) {
 	if (aClass179_5752 == null) {
-	    Class186 class186 = new Class186(580, 1104, 1);
+	    ModelDecoder class186 = new ModelDecoder(580, 1104, 1);
 	    class186.method3628((short) 0, (short) 32767, (short) 0,
 				(short) 1024, (short) 1024, (short) 1024,
 				(byte) 0, (byte) 0, (byte) 0);
@@ -780,10 +780,10 @@ public class Class516
 					(short) 127, (byte) 0, (short) 0);
 		}
 	    }
-	    class186.anInt2087 = class186.anInt2084;
-	    class186.anIntArray2126 = null;
-	    class186.anIntArray2083 = null;
-	    class186.aByteArray2106 = null;
+	    class186.maxVertexUsed = class186.vertexCount;
+	    class186.faceBones = null;
+	    class186.vertexBones = null;
+	    class186.facePriorities = null;
 	    aClass179_5752 = class182.method3556(class186, 51200, 33, 64, 768);
 	}
     }
@@ -811,8 +811,8 @@ public class Class516
     }
     
     void method8625(Class182 class182, Class516 class516_178_) {
-	Class186 class186
-	    = Class186.method3644(Class326.aClass458_3563, anInt5735, 0);
+	ModelDecoder class186
+	    = ModelDecoder.method3644(Class326.aClass458_3563, anInt5735, 0);
 	if (class186 != null) {
 	    class182.method3187(anIntArray5754);
 	    class182.method3184(0, 0, anInt5739, anInt5739);
@@ -890,8 +890,8 @@ public class Class516
     }
     
     void method8627(Class182 class182, Class516 class516_196_) {
-	Class186 class186
-	    = Class186.method3644(Class326.aClass458_3563, anInt5735, 0);
+	ModelDecoder class186
+	    = ModelDecoder.method3644(Class326.aClass458_3563, anInt5735, 0);
 	if (class186 != null) {
 	    class182.method3187(anIntArray5754);
 	    class182.method3184(0, 0, anInt5739, anInt5739);
@@ -970,8 +970,8 @@ public class Class516
     }
     
     void method8629(Class182 class182, Class516 class516_213_) {
-	Class186 class186
-	    = Class186.method3644(Class326.aClass458_3563, anInt5735, 0);
+	ModelDecoder class186
+	    = ModelDecoder.method3644(Class326.aClass458_3563, anInt5735, 0);
 	if (class186 != null) {
 	    class182.method3187(anIntArray5754);
 	    class182.method3184(0, 0, anInt5739, anInt5739);

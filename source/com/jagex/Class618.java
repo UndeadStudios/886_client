@@ -376,11 +376,11 @@ public class Class618
 	if ((i_33_ & Class655.aClass655_8405.anInt8426 * -2004594599) != 0)
 	    aClass446_8069
 		= Class446.method7208((float) class525_sub38
-						  .method16625((byte) -23),
+						  .readSmart((byte) -23),
 				      (float) class525_sub38
-						  .method16625((byte) 32),
+						  .readSmart((byte) 32),
 				      (float) class525_sub38
-						  .method16625((byte) -18));
+						  .readSmart((byte) -18));
 	else
 	    aClass446_8069 = Class446.method7208(-50.0F, -60.0F, -50.0F);
 	if (0 != (i_33_ & -2004594599 * Class655.aClass655_8406.anInt8426))
@@ -697,11 +697,11 @@ public class Class618
 	if ((i & Class655.aClass655_8405.anInt8426 * -2004594599) != 0)
 	    aClass446_8069
 		= Class446.method7208((float) class525_sub38
-						  .method16625((byte) -9),
+						  .readSmart((byte) -9),
 				      (float) class525_sub38
-						  .method16625((byte) 59),
+						  .readSmart((byte) 59),
 				      (float) class525_sub38
-						  .method16625((byte) 55));
+						  .readSmart((byte) 55));
 	else
 	    aClass446_8069 = Class446.method7208(-50.0F, -60.0F, -50.0F);
 	if (0 != (i & -2004594599 * Class655.aClass655_8406.anInt8426))
@@ -761,11 +761,11 @@ public class Class618
 	if ((i & Class655.aClass655_8405.anInt8426 * -2004594599) != 0)
 	    aClass446_8069
 		= Class446.method7208((float) class525_sub38
-						  .method16625((byte) -15),
+						  .readSmart((byte) -15),
 				      (float) class525_sub38
-						  .method16625((byte) 116),
+						  .readSmart((byte) 116),
 				      (float) class525_sub38
-						  .method16625((byte) -14));
+						  .readSmart((byte) -14));
 	else
 	    aClass446_8069 = Class446.method7208(-50.0F, -60.0F, -50.0F);
 	if (0 != (i & -2004594599 * Class655.aClass655_8406.anInt8426))
@@ -825,11 +825,11 @@ public class Class618
 	if ((i & Class655.aClass655_8405.anInt8426 * -2004594599) != 0)
 	    aClass446_8069
 		= Class446.method7208((float) class525_sub38
-						  .method16625((byte) 21),
+						  .readSmart((byte) 21),
 				      (float) class525_sub38
-						  .method16625((byte) -8),
+						  .readSmart((byte) -8),
 				      (float) class525_sub38
-						  .method16625((byte) -21));
+						  .readSmart((byte) -21));
 	else
 	    aClass446_8069 = Class446.method7208(-50.0F, -60.0F, -50.0F);
 	if (0 != (i & -2004594599 * Class655.aClass655_8406.anInt8426))
@@ -897,9 +897,9 @@ public class Class618
     public void method10141(RSBuffer class525_sub38, Class635 class635,
                             int i) {
 	int i_66_ = class525_sub38.readUnsignedShort((byte) 104);
-	int i_67_ = class525_sub38.method16625((byte) -62);
-	int i_68_ = class525_sub38.method16625((byte) 63);
-	int i_69_ = class525_sub38.method16625((byte) -22);
+	int i_67_ = class525_sub38.readSmart((byte) -62);
+	int i_68_ = class525_sub38.readSmart((byte) 63);
+	int i_69_ = class525_sub38.readSmart((byte) -22);
 	int i_70_ = class525_sub38.readUnsignedShort((byte) 126);
 	Class108.anInt1310 = i_70_ * -1193854819;
 	aClass515_8083
@@ -908,9 +908,9 @@ public class Class618
     
     public void method10142(RSBuffer class525_sub38, Class635 class635) {
 	int i = class525_sub38.readUnsignedShort((byte) 17);
-	int i_71_ = class525_sub38.method16625((byte) -72);
-	int i_72_ = class525_sub38.method16625((byte) 20);
-	int i_73_ = class525_sub38.method16625((byte) 4);
+	int i_71_ = class525_sub38.readSmart((byte) -72);
+	int i_72_ = class525_sub38.readSmart((byte) 20);
+	int i_73_ = class525_sub38.readSmart((byte) 4);
 	int i_74_ = class525_sub38.readUnsignedShort((byte) 27);
 	Class108.anInt1310 = i_74_ * -1193854819;
 	aClass515_8083
@@ -982,9 +982,9 @@ public class Class618
     
     public void method10146(RSBuffer class525_sub38, Class635 class635) {
 	int i = class525_sub38.readUnsignedShort((byte) 26);
-	int i_79_ = class525_sub38.method16625((byte) 67);
-	int i_80_ = class525_sub38.method16625((byte) -70);
-	int i_81_ = class525_sub38.method16625((byte) -40);
+	int i_79_ = class525_sub38.readSmart((byte) 67);
+	int i_80_ = class525_sub38.readSmart((byte) -70);
+	int i_81_ = class525_sub38.readSmart((byte) -40);
 	int i_82_ = class525_sub38.readUnsignedShort((byte) 22);
 	Class108.anInt1310 = i_82_ * -1193854819;
 	aClass515_8083
@@ -993,9 +993,9 @@ public class Class618
     
     public void method10147(RSBuffer class525_sub38, Class635 class635) {
 	int i = class525_sub38.readUnsignedShort((byte) 10);
-	int i_83_ = class525_sub38.method16625((byte) -4);
-	int i_84_ = class525_sub38.method16625((byte) 21);
-	int i_85_ = class525_sub38.method16625((byte) -7);
+	int i_83_ = class525_sub38.readSmart((byte) -4);
+	int i_84_ = class525_sub38.readSmart((byte) 21);
+	int i_85_ = class525_sub38.readSmart((byte) -7);
 	int i_86_ = class525_sub38.readUnsignedShort((byte) 16);
 	Class108.anInt1310 = i_86_ * -1193854819;
 	aClass515_8083
@@ -1004,9 +1004,9 @@ public class Class618
     
     public void method10148(RSBuffer class525_sub38, Class635 class635) {
 	int i = class525_sub38.readUnsignedShort((byte) 45);
-	int i_87_ = class525_sub38.method16625((byte) 41);
-	int i_88_ = class525_sub38.method16625((byte) 65);
-	int i_89_ = class525_sub38.method16625((byte) 3);
+	int i_87_ = class525_sub38.readSmart((byte) 41);
+	int i_88_ = class525_sub38.readSmart((byte) 65);
+	int i_89_ = class525_sub38.readSmart((byte) 3);
 	int i_90_ = class525_sub38.readUnsignedShort((byte) 72);
 	Class108.anInt1310 = i_90_ * -1193854819;
 	aClass515_8083

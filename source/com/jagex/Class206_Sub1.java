@@ -6,44 +6,44 @@ package com.jagex;
 public class Class206_Sub1 extends Class206
 {
     public Interface12 method38(int i, Interface13 interface13) {
-	return new Class194(i, this);
+	return new AnimationDefinition(i, this);
     }
     
     public Interface12 method42(int i, Interface13 interface13, int i_0_) {
-	return new Class194(i, this);
+	return new AnimationDefinition(i, this);
     }
     
     public Class method40(int i) {
-	return com.jagex.Class194.class;
+	return AnimationDefinition.class;
     }
     
     public Interface12 method43(int i, Interface13 interface13) {
-	return new Class194(i, this);
+	return new AnimationDefinition(i, this);
     }
     
     public Interface12 method41(int i, Interface13 interface13) {
-	return new Class194(i, this);
+	return new AnimationDefinition(i, this);
     }
     
     public Interface12 method44(int i, Interface13 interface13) {
-	return new Class194(i, this);
+	return new AnimationDefinition(i, this);
     }
     
-    Class206_Sub1(Interface13 interface13, Class458 class458,
-		  Class458 class458_1_) {
+    Class206_Sub1(Interface13 interface13, JS5 class458,
+		  JS5 class458_1_) {
 	super(interface13, class458, class458_1_);
     }
     
     public Interface12 method39(int i, Interface13 interface13) {
-	return new Class194(i, this);
+	return new AnimationDefinition(i, this);
     }
     
     public Class method45() {
-	return com.jagex.Class194.class;
+	return AnimationDefinition.class;
     }
     
     public Class method46() {
-	return com.jagex.Class194.class;
+	return AnimationDefinition.class;
     }
     
     public static Class399 method15714(RSBuffer class525_sub38, int i) {

@@ -10,7 +10,7 @@ public class Class40 implements Interface13
     protected Interface5 anInterface5_331;
     public int anInt332;
     Class663 aClass663_333;
-    Class458 aClass458_334;
+    JS5 aClass458_334;
     
     public void method1016() {
 	synchronized (aClass200_330) {
@@ -161,7 +161,7 @@ public class Class40 implements Interface13
 	}
     }
     
-    public Class40(Class668 class668, Class666 class666, Class458 class458,
+    public Class40(Class668 class668, Class666 class666, JS5 class458,
 		   Class663 class663, int i, Interface5 interface5) {
 	aClass458_334 = class458;
 	aClass663_333 = class663;

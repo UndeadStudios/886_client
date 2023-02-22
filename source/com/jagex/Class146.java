@@ -94,7 +94,7 @@ public class Class146
 		    int i_27_ = i_24_ + 1 << anInt1678;
 		    Class525_Sub38_Sub1 class525_sub38_sub1
 			= aClass182_Sub3_1681.aClass525_Sub38_Sub1_9828;
-		    class525_sub38_sub1.pos = 0;
+		    class525_sub38_sub1.index = 0;
 		    for (int i_28_ = i_22_; i_28_ < i_23_; i_28_++) {
 			if (i_28_ - i_11_ >= -i_12_
 			    && i_28_ - i_11_ <= i_12_) {
@@ -421,7 +421,7 @@ public class Class146
 		    int i_112_ = i_109_ + 1 << anInt1678;
 		    Class525_Sub38_Sub1 class525_sub38_sub1
 			= aClass182_Sub3_1681.aClass525_Sub38_Sub1_9828;
-		    class525_sub38_sub1.pos = 0;
+		    class525_sub38_sub1.index = 0;
 		    for (int i_113_ = i_107_; i_113_ < i_108_; i_113_++) {
 			if (i_113_ - i_96_ >= -i_97_
 			    && i_113_ - i_96_ <= i_97_) {
@@ -531,7 +531,7 @@ public class Class146
 		    int i_134_ = i_131_ + 1 << anInt1678;
 		    Class525_Sub38_Sub1 class525_sub38_sub1
 			= aClass182_Sub3_1681.aClass525_Sub38_Sub1_9828;
-		    class525_sub38_sub1.pos = 0;
+		    class525_sub38_sub1.index = 0;
 		    for (int i_135_ = i_129_; i_135_ < i_130_; i_135_++) {
 			if (i_135_ - i_118_ >= -i_119_
 			    && i_135_ - i_118_ <= i_119_) {
@@ -642,7 +642,7 @@ public class Class146
 		    int i_156_ = i_153_ + 1 << anInt1678;
 		    Class525_Sub38_Sub1 class525_sub38_sub1
 			= aClass182_Sub3_1681.aClass525_Sub38_Sub1_9828;
-		    class525_sub38_sub1.pos = 0;
+		    class525_sub38_sub1.index = 0;
 		    for (int i_157_ = i_151_; i_157_ < i_152_; i_157_++) {
 			if (i_157_ - i_140_ >= -i_141_
 			    && i_157_ - i_140_ <= i_141_) {

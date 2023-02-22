@@ -6,9 +6,9 @@ package com.jagex;
 public class Class40_Sub13 extends Class40
 {
     public Class40_Sub13(Class668 class668, Class666 class666,
-			 Class458 class458) {
+			 JS5 class458) {
 	super(class668, class666, class458, Class663.aClass663_8545, 64,
-	      new Class45(com.jagex.Class210.class));
+	      new Class45(AnimationSkin.class));
     }
     
     static final void method17484(Class683 class683, int i) {

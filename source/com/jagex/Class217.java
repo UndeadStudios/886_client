@@ -666,8 +666,8 @@ public class Class217
 	Class228.method4353(-1619479754);
     }
     
-    public void method4059(Class194 class194, int i,
-			   Class656_Sub1 class656_sub1, short i_60_) {
+    public void method4059(AnimationDefinition class194, int i,
+                           Class656_Sub1 class656_sub1, short i_60_) {
 	if (class194 != null && class194.anIntArrayArray2160 != null
 	    && i < class194.anIntArrayArray2160.length
 	    && class194.anIntArrayArray2160[i] != null
@@ -755,7 +755,7 @@ public class Class217
 	}
     }
     
-    public void method4060(Class194 class194, int i, int i_73_) {
+    public void method4060(AnimationDefinition class194, int i, int i_73_) {
 	if (null != class194 && null != class194.anIntArrayArray2160
 	    && i < class194.anIntArrayArray2160.length
 	    && null != class194.anIntArrayArray2160[i]) {
@@ -2404,7 +2404,7 @@ public class Class217
 	anInt2307 = i * 681988639;
     }
     
-    public void method4139(Class194 class194, int i) {
+    public void method4139(AnimationDefinition class194, int i) {
 	if (null != class194 && null != class194.anIntArrayArray2160
 	    && i < class194.anIntArrayArray2160.length
 	    && null != class194.anIntArrayArray2160[i]) {
@@ -2434,7 +2434,7 @@ public class Class217
 	}
     }
     
-    public void method4140(Class194 class194, int i) {
+    public void method4140(AnimationDefinition class194, int i) {
 	if (null != class194 && null != class194.anIntArrayArray2160
 	    && i < class194.anIntArrayArray2160.length
 	    && null != class194.anIntArrayArray2160[i]) {
