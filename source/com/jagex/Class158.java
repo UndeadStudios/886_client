@@ -73,7 +73,7 @@ public class Class158
 		int i_8_;
 		if (i_7_ + 2 > 1600) {
 		    i_8_
-			= 1 + Class180.method3120(i_7_, (byte) 18) - anInt1746;
+			= 1 + Textures.method3120(i_7_, (byte) 18) - anInt1746;
 		    i_7_ = (i_7_ >> i_8_) + 2;
 		} else {
 		    i_8_ = 0;
@@ -898,7 +898,7 @@ public class Class158
 		int i_83_ = i_80_ - i_79_;
 		int i_84_;
 		if (i_83_ + 2 > 1600) {
-		    i_84_ = (1 + Class180.method3120(i_83_, (byte) -11)
+		    i_84_ = (1 + Textures.method3120(i_83_, (byte) -11)
 			     - anInt1746);
 		    i_83_ = (i_83_ >> i_84_) + 2;
 		} else {
@@ -974,7 +974,7 @@ public class Class158
 	anInt1743 = 64;
 	anInt1738 = 768;
 	anInt1745 = 1600;
-	anInt1746 = Class180.method3120(1600, (byte) -2);
+	anInt1746 = Textures.method3120(1600, (byte) -2);
 	anInt1744 = 64;
 	anIntArray1748 = new int[8191];
 	anIntArray1749 = new int[1600];
@@ -1023,7 +1023,7 @@ public class Class158
 		int i_98_ = i_95_ - i_94_;
 		int i_99_;
 		if (i_98_ + 2 > 1600) {
-		    i_99_ = (1 + Class180.method3120(i_98_, (byte) -12)
+		    i_99_ = (1 + Textures.method3120(i_98_, (byte) -12)
 			     - anInt1746);
 		    i_98_ = (i_98_ >> i_99_) + 2;
 		} else {

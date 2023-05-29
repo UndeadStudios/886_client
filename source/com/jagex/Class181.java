@@ -35,7 +35,7 @@ public class Class181
 	for (int i = 0; i < is.length; i++) {
 	    int i_1_ = Class172.anIntArray1859[is[i] >> 16 & 0xff];
 	    int i_2_ = Class172.anIntArray1859[is[i] >> 8 & 0xff];
-	    int i_3_ = Class172.anIntArray1859[is[i] >> 0 & 0xff];
+	    int i_3_ = Class172.anIntArray1859[is[i] & 0xff];
 	    is[i] = is[i] & ~0xffffff | i_1_ << 16 | i_2_ << 8 | i_3_;
 	}
     }
@@ -117,7 +117,7 @@ public class Class181
 				      boolean bool, int i_8_) {
 	if (!Class172.aClass458_1861.method7558(i, (byte) 102))
 	    return null;
-	int i_9_ = Class172.aClass458_1861.method7487(i, 2080116611);
+	int i_9_ = Class172.aClass458_1861.getFileCountForArchive(i, 2080116611);
 	Class259[] class259s;
 	if (i_9_ == 0)
 	    class259s = new Class259[0];

@@ -11,7 +11,7 @@ public class Class408
     }
     
     public static Class182 method6639
-	(Canvas canvas, Class180 class180, Interface24 interface24,
+	(Canvas canvas, Textures class180, Interface24 interface24,
      Interface47 interface47, Interface48 interface48,
      Interface49 interface49, JS5 class458, int i) {
 	Class182 class182;

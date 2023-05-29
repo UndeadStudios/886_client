@@ -58,7 +58,7 @@ public class Class164
 	class259.aBool2695 = true;
     }
     
-    public static void method2664(JS5 class458, Class180 class180,
+    public static void method2664(JS5 class458, Textures class180,
                                   Interface24 interface24, byte i) {
 	Class326.aClass458_3563 = class458;
 	Class515.aClass180_5702 = class180;

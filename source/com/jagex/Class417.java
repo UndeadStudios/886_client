@@ -37,9 +37,9 @@ public final class Class417
 	    if (class663.method10957(-812051117) > 1) {
 		int i_1_ = class458.method7505(1196407274) - 1;
 		return (i_1_ * class663.method10957(1018054535)
-			+ class458.method7487(i_1_, 2098014334));
+			+ class458.getFileCountForArchive(i_1_, 2098014334));
 	    }
-	    return class458.method7487(-1918643565 * class663.anInt8553,
+	    return class458.getFileCountForArchive(-1918643565 * class663.anInt8553,
 				       2100525242);
 	}
 	return 0;

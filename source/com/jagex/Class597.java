@@ -9,7 +9,7 @@ public class Class597 implements Interface76
     public static Class597 aClass597_7842 = new Class597(0);
     public static Class597 aClass597_7843 = new Class597(1);
     int anInt7844;
-    public static JS5 aClass458_7845;
+    public static JS5 idx_41;
     public static int anInt7846;
     
     public static Class597[] method9839() {

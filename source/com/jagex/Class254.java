@@ -222,7 +222,7 @@ public class Class254
 	for (int i_38_ = 0; i_38_ < i_37_; i_38_++)
 	    anIntArrayArray2471[i][i_38_] = anIntArray2465[i_38_];
 	int i_39_ = anIntArray2470[anInt2464 - 1];
-	int i_40_ = Class180.method3120(i_39_ - 1, (byte) -96);
+	int i_40_ = Textures.method3120(i_39_ - 1, (byte) -96);
 	anIntArrayArray2472[i][0] = aClass255_2474.method4550(i_40_);
 	anIntArrayArray2472[i][1] = aClass255_2474.method4550(i_40_);
 	int i_41_ = 2;
@@ -544,7 +544,7 @@ public class Class254
 	for (int i_150_ = 0; i_150_ < i_149_; i_150_++)
 	    anIntArrayArray2471[i][i_150_] = anIntArray2465[i_150_];
 	int i_151_ = anIntArray2470[anInt2464 - 1];
-	int i_152_ = Class180.method3120(i_151_ - 1, (byte) 40);
+	int i_152_ = Textures.method3120(i_151_ - 1, (byte) 40);
 	anIntArrayArray2472[i][0] = aClass255_2474.method4550(i_152_);
 	anIntArrayArray2472[i][1] = aClass255_2474.method4550(i_152_);
 	int i_153_ = 2;

@@ -10,7 +10,7 @@ public class Class113
     URL anURL1387;
     volatile boolean aBool1388;
     volatile byte[] aByteArray1389;
-    public static JS5 aClass458_1390;
+    public static JS5 idx_44;
     public static int anInt1391;
     
     byte[] method2001(int i) {
@@ -603,8 +603,7 @@ public class Class113
 	Class40_Sub14.anIntArray11046[2]
 	    = (int) (Class70.aLong743 * -6553867095034074165L >> 32);
 	Class40_Sub14.anIntArray11046[3]
-	    = (int) (-6553867095034074165L * Class70.aLong743
-		     & 0xffffffffffffffffL);
+	    = (int) (-6553867095034074165L * Class70.aLong743);
 	class525_sub38.method16735(10, -1232194058);
 	class525_sub38.method16605(Class40_Sub14.anIntArray11046[0],
 				   -368532177);

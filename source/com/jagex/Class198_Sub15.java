@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class198_Sub15 extends Class198
 {
-    public static JS5 aClass458_9976;
+    public static JS5 idx_29;
     
     public void method3753(int i) {
 	Class231.method4392(true, (short) -17706);

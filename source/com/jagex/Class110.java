@@ -51,7 +51,7 @@ public class Class110
     float[] aFloatArray1367;
     Class444 aClass444_1368;
     boolean aBool1369;
-    public static JS5 aClass458_1370;
+    public static JS5 idx_10;
     public static int anInt1371;
     
     void method1954(byte i) {

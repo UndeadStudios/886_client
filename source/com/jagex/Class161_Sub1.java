@@ -115,7 +115,7 @@ public class Class161_Sub1 extends Class161
 			   int[] is_29_, int[] is_30_, int[] is_31_,
 			   int[] is_32_, int[] is_33_, int[] is_34_,
 			   Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub3_9328.aClass180_1944;
+	Textures class180 = aClass182_Sub3_9328.aClass180_1944;
 	if (is_30_ != null && anIntArrayArrayArray9346 == null)
 	    anIntArrayArrayArray9346
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];
@@ -2680,7 +2680,7 @@ public class Class161_Sub1 extends Class161
 			   int[] is_535_, int[] is_536_, int[] is_537_,
 			   int[] is_538_, int[] is_539_, int[] is_540_,
 			   Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub3_9328.aClass180_1944;
+	Textures class180 = aClass182_Sub3_9328.aClass180_1944;
 	if (is_536_ != null && anIntArrayArrayArray9346 == null)
 	    anIntArrayArrayArray9346
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];
@@ -2909,7 +2909,7 @@ public class Class161_Sub1 extends Class161
 			   int[] is_604_, int[] is_605_, int[] is_606_,
 			   int[] is_607_, int[] is_608_, int[] is_609_,
 			   Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub3_9328.aClass180_1944;
+	Textures class180 = aClass182_Sub3_9328.aClass180_1944;
 	if (is_605_ != null && anIntArrayArrayArray9346 == null)
 	    anIntArrayArrayArray9346
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];
@@ -3047,7 +3047,7 @@ public class Class161_Sub1 extends Class161
 			   int[] is_632_, int[] is_633_, int[] is_634_,
 			   int[] is_635_, int[] is_636_, int[] is_637_,
 			   Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub3_9328.aClass180_1944;
+	Textures class180 = aClass182_Sub3_9328.aClass180_1944;
 	if (is_633_ != null && anIntArrayArrayArray9346 == null)
 	    anIntArrayArrayArray9346
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];
@@ -3105,7 +3105,7 @@ public class Class161_Sub1 extends Class161
 			   int[] is_643_, int[] is_644_, int[] is_645_,
 			   int[] is_646_, int[] is_647_, int[] is_648_,
 			   Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub3_9328.aClass180_1944;
+	Textures class180 = aClass182_Sub3_9328.aClass180_1944;
 	if (is_644_ != null && anIntArrayArrayArray9346 == null)
 	    anIntArrayArrayArray9346
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];

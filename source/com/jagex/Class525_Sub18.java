@@ -27,7 +27,7 @@ public class Class525_Sub18 extends Class525
     
     void method16277(int i, int i_0_, int i_1_, float f) {
 	if (anInt10569 != -1) {
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub3_10562.aClass180_1944.method3116(anInt10569,
 								 -1431554601);
 	    int i_2_ = class166.aByte1785 & 0xff;
@@ -113,7 +113,7 @@ public class Class525_Sub18 extends Class525
     
     void method16280(int i, int i_15_, int i_16_, float f) {
 	if (anInt10569 != -1) {
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub3_10562.aClass180_1944.method3116(anInt10569,
 								 -1431554601);
 	    int i_17_ = class166.aByte1785 & 0xff;
@@ -419,7 +419,7 @@ public class Class525_Sub18 extends Class525
     
     void method16289(int i, int i_57_, int i_58_, float f) {
 	if (anInt10569 != -1) {
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub3_10562.aClass180_1944.method3116(anInt10569,
 								 -1431554601);
 	    int i_59_ = class166.aByte1785 & 0xff;

@@ -59,47 +59,37 @@ public abstract class SunDefinition implements Interface5 {
                 return 0;
             Class6.method557(0, null, true, (short) -15777);
             Class302.aBool3380 = !Class696_Sub38.method17317((byte) -81);
-            Class328.aClass458_3577
-                    = Class600.method9890((Class302.aBool3380
-                            ? Class56.aClass56_580
-                            : Class56.aClass56_595),
-                    false, 1, true, true, (byte) 1);
-            Class653.aClass458_8393
-                    = Class600.method9890(Class56.aClass56_587, false, 1, true,
-                    true, (byte) 1);
-            Class276.aClass458_2875
-                    = Class600.method9890(Class56.aClass56_577, false, 1, true,
-                    true, (byte) 1);
-            Class18.aClass458_204
-                    = Class600.method9890(Class56.aClass56_591, true, 1, true,
-                    true, (byte) 1);
+            Class328.aClass458_3577 = Class600.method9890((Class302.aBool3380 ? Class56.idx_34 : Class56.idx_32), false, 1, true, true, (byte) 1);
+            Class653.aClass458_8393 = Class600.method9890(Class56.idx_33, false, 1, true, true, (byte) 1);
+            Class276.aClass458_2875 = Class600.method9890(Class56.idx_13, false, 1, true, true, (byte) 1);
+            Class18.idx_28 = Class600.method9890(Class56.idx_28, true, 1, true, true, (byte) 1);
         }
         if (Class303.aClass303_3382 == Class328.aClass303_3583) {
             boolean bool = Class653.aClass458_8393.method7481((short) 6401);
-            boolean bool_3_ = Class18.aClass458_204.method7481((short) -19065);
+            boolean bool_3_ = Class18.idx_28.method7481((short) -19065);
             int i_4_ = Class652_Sub2.aClass454_Sub1Array10916
-                    [Class56.aClass56_587.method1202(1643556766)]
+                    [Class56.idx_33.method1202(1643556766)]
                     .method16000((byte) 1);
             i_4_ = i_4_ + Class652_Sub2.aClass454_Sub1Array10916
                     [(Class302.aBool3380
-                    ? Class56.aClass56_580.method1202(1111801225)
-                    : Class56.aClass56_595.method1202(1332863881))]
+                    ? Class56.idx_34.method1202(1111801225)
+                    : Class56.idx_32.method1202(1332863881))]
                     .method16000((byte) 1);
             i_4_ += Class652_Sub2.aClass454_Sub1Array10916
-                    [Class56.aClass56_577.method1202(119761101)]
+                    [Class56.idx_13.method1202(119761101)]
                     .method16000((byte) 1);
             i_4_ = i_4_ + (bool_3_ ? 100
-                    : Class18.aClass458_204.method7483((byte) 46));
+                    : Class18.idx_28.method7483((byte) 46));
             i_4_ = i_4_ + (bool ? 100
                     : Class653.aClass458_8393.method7483((byte) 37));
             if (i_4_ != 500)
                 return i_4_ / 5;
-            Class138.aClass631_1641 = new Class631(Class18.aClass458_204);
-            Class287.method5259(Class138.aClass631_1641, 532428604);
+            HashTable.aClass631_1641 = new Class631(Class18.idx_28);
+            Class287.method5259(HashTable.aClass631_1641, 532428604);
             int i_5_ = Class198_Sub13.aClass525_Sub30_9973
                     .aClass696_Sub38_10721.method17314(1077572393);
             Class328.aClass91_3579
-                    = new Class91(client.aClass668_11090, Class21.aClass666_213,
+                    = new Class91(client.gametype, Class21.aClass666_213,
                     Class653.aClass458_8393);
             Class73[] class73s
                     = Class328.aClass91_3579.method1692(i_5_, 1413841153);
@@ -151,93 +141,37 @@ public abstract class SunDefinition implements Interface5 {
             Class441.method7119(5, 1033529003);
         }
         if (Class328.aClass303_3583 == Class303.aClass303_3402) {
-            Class462.aClass458_5095
-                    = Class600.method9890(Class56.idx_8, false, 1, false,
-                    true, (byte) 1);
-            Class163_Sub2.aClass458_8988
-                    = Class600.method9890(Class56.idx_0, false, 1, false,
-                    true, (byte) 1);
-            Class629.aClass458_8162
-                    = Class600.method9890(Class56.idx_1, false, 1, false,
-                    true, (byte) 1);
-            Class316.aClass458_3497
-                    = Class600.method9890(Class56.idx_2, false, 1, true,
-                    true, (byte) 1);
-            Class555.aClass458_7460
-                    = Class600.method9890(Class56.aClass56_581, false, 1, true,
-                    true, (byte) 1);
-            Class175_Sub4.aClass458_9940
-                    = Class600.method9890(Class56.idx_3, false, 1, true,
-                    true, (byte) 1);
-            Class322.aClass458_3549
-                    = Class600.method9890(Class56.idx_5, true, 1, false,
-                    true, (byte) 1);
-			WorldTile.aClass458_705
-                    = Class600.method9890(Class56.idx_7, false, 1, false,
-                    true, (byte) 1);
-            Class198_Sub19.aClass458_9994
-                    = Class600.method9890(Class56.aClass56_594, true, 1, false,
-                    true, (byte) 1);
-            Class113.aClass458_1390
-                    = Class600.method9890(Class56.aClass56_603, true, 1, false,
-                    true, (byte) 1);
-            Class110.aClass458_1370
-                    = Class600.method9890(Class56.aClass56_612, false, 1, false,
-                    true, (byte) 1);
-            Class112.aClass458_1386
-                    = Class600.method9890(Class56.aClass56_583, false, 1, true,
-                    true, (byte) 1);
-            Class307.aClass458_3417
-                    = Class600.method9890(Class56.aClass56_593, true, 1, false,
-                    false, (byte) 1);
-            Class263.aClass458_2801
-                    = Class600.method9890(Class56.aClass56_599, true, 1, false,
-                    false, (byte) 1);
-            Class27.aClass458_282
-                    = Class600.method9890(Class56.aClass56_579, false, 1, true,
-                    true, (byte) 1);
-            Class138.aClass458_1640
-                    = Class600.method9890(Class56.aClass56_575, false, 1, true,
-                    true, (byte) 1);
-            Class47.aClass458_363
-                    = Class600.method9890(Class56.aClass56_578, false, 1, true,
-                    true, (byte) 1);
-            Class198_Sub2.aClass458_9905
-                    = Class600.method9890(Class56.aClass56_585, false, 1, true,
-                    true, (byte) 1);
-            Class297.aClass458_3274
-                    = Class600.method9890(Class56.aClass56_573, false, 1, true,
-                    true, (byte) 1);
-            Class220.aClass458_2330
-                    = Class600.method9890(Class56.aClass56_584, false, 1, true,
-                    true, (byte) 1);
-            Class350_Sub2.aClass458_10224
-                    = Class600.method9890(Class56.aClass56_608, false, 1, true,
-                    true, (byte) 1);
-            ItemDefinitions.aClass458_136
-                    = Class600.method9890(Class56.aClass56_586, true, 1, false,
-                    false, (byte) 1);
-            Class597.aClass458_7845
-                    = Class600.method9890(Class56.aClass56_600, true, 1, false,
-                    true, (byte) 1);
-            Class174.aClass458_1862
-                    = Class600.method9890(Class56.aClass56_590, false, 1, true,
-                    true, (byte) 1);
-            Class427.aClass458_4806
-                    = Class600.method9890(Class56.aClass56_588, false, 1, true,
-                    true, (byte) 1);
-            Class40_Sub22.aClass458_11051
-                    = Class600.method9890(Class56.aClass56_589, true, 1, true,
-                    true, (byte) 1);
-            BillBoardDefinitions.aClass458_5605
-                    = Class600.method9890(Class56.aClass56_572, false, 1, true,
-                    true, (byte) 1);
-            Class198_Sub15.aClass458_9976
-                    = Class600.method9890(Class56.aClass56_592, false, 1, true,
-                    true, (byte) 1);
-            Class656_Sub1_Sub3_Sub3.aClass458_12048 = Class600.method9890(Class56.aClass56_598, true, 1, false, true, (byte) 1);
-            Class566.aClass458_7604 = Class600.method9890(Class56.aClass56_576, true, 1, false, true, (byte) 1);
-            Class17_Sub1.aClass458_11027 = Class600.method9890(Class56.aClass56_596, true, 1, true, true, (byte) 1);
+            Class462.idx_8 = Class600.method9890(Class56.idx_8, false, 1, false, true, (byte) 1);
+            Class163_Sub2.idx_0 = Class600.method9890(Class56.idx_0, false, 1, false, true, (byte) 1);
+            Class629.idx_1 = Class600.method9890(Class56.idx_1, false, 1, false, true, (byte) 1);
+            Class316.idx_2 = Class600.method9890(Class56.idx_2, false, 1, true, true, (byte) 1);
+            Class555.idx_49 = Class600.method9890(Class56.idx_49, false, 1, true, true, (byte) 1);
+            Class175_Sub4.idx_3 = Class600.method9890(Class56.idx_3, false, 1, true, true, (byte) 1);
+            Class322.idx_5 = Class600.method9890(Class56.idx_5, true, 1, false, true, (byte) 1);
+			WorldTile.idx_7 = Class600.method9890(Class56.idx_7, false, 1, false, true, (byte) 1);
+            Class198_Sub19.idx_43 = Class600.method9890(Class56.idx_43, true, 1, false, true, (byte) 1);
+            Class113.idx_44 = Class600.method9890(Class56.idx_44, true, 1, false, true, (byte) 1);
+            Class110.idx_10 = Class600.method9890(Class56.idx_10, false, 1, false, true, (byte) 1);
+            Class112.idx_12 = Class600.method9890(Class56.idx_12, false, 1, true, true, (byte) 1);
+            Class307.idx_14 = Class600.method9890(Class56.idx_14, true, 1, false, false, (byte) 1);
+            Class263.idx_40 = Class600.method9890(Class56.idx_40, true, 1, false, false, (byte) 1);
+            Class27.idx_16 = Class600.method9890(Class56.idx_16, false, 1, true, true, (byte) 1);
+            HashTable.idx_17 = Class600.method9890(Class56.idx_17, false, 1, true, true, (byte) 1);
+            Class47.idx_18 = Class600.method9890(Class56.idx_18, false, 1, true, true, (byte) 1);
+            Class198_Sub2.idx_19 = Class600.method9890(Class56.idx_19, false, 1, true, true, (byte) 1);
+            Class297.idx_20 = Class600.method9890(Class56.idx_20, false, 1, true, true, (byte) 1);
+            Class220.idx_21 = Class600.method9890(Class56.idx_21, false, 1, true, true, (byte) 1);
+            Class350_Sub2.idx_22 = Class600.method9890(Class56.idx_22, false, 1, true, true, (byte) 1);
+            ItemDefinitions.idx_23 = Class600.method9890(Class56.idx_23, true, 1, false, false, (byte) 1);
+            Class597.idx_41 = Class600.method9890(Class56.idx_41, true, 1, false, true, (byte) 1);
+            Class174.idx_24 = Class600.method9890(Class56.idx_24, false, 1, true, true, (byte) 1);
+            Class427.idx_25 = Class600.method9890(Class56.idx_25, false, 1, true, true, (byte) 1);
+            Class40_Sub22.idx_26 = Class600.method9890(Class56.idx_26, true, 1, true, true, (byte) 1);
+            Class504.idx_27 = Class600.method9890(Class56.idx_27, false, 1, true, true, (byte) 1);
+            Class198_Sub15.idx_29 = Class600.method9890(Class56.idx_29, false, 1, true, true, (byte) 1);
+            Class656_Sub1_Sub3_Sub3.idx_35 = Class600.method9890(Class56.idx_35, true, 1, false, true, (byte) 1);
+            Class566.idx_30 = Class600.method9890(Class56.idx_30, true, 1, false, true, (byte) 1);
+            Class17_Sub1.idx_31 = Class600.method9890(Class56.idx_31, true, 1, true, true, (byte) 1);
         }
         if (Class328.aClass303_3583 == Class303.aClass303_3387) {
             int i_9_ = 0;
@@ -259,16 +193,16 @@ public abstract class SunDefinition implements Interface5 {
                 return ((i_9_ - Class328.anInt3586 * 1817240471) * 100
                         / (100 - Class328.anInt3586 * 1817240471));
             }
-            Class632.method10322(Class138.aClass631_1641, (byte) 96);
+            Class632.method10322(HashTable.aClass631_1641, (byte) 96);
             Class7.aClass404_53
                     = new Class404(Class501.aClass182_5564,
-                    Class462.aClass458_5095,
+                    Class462.idx_8,
                     Class276.aClass458_2875,
                     Class525_Sub42.method16882((short) -15623));
         }
         if (Class328.aClass303_3583 == Class303.aClass303_3381) {
             byte[] is
-                    = Class18.aClass458_204.getTextureData((Class638.aClass638_8309
+                    = Class18.idx_28.getTextureData((Class638.aClass638_8309
                             .anInt8316) * 2028004077,
                     1541992473);
             if (is == null)
@@ -279,263 +213,104 @@ public abstract class SunDefinition implements Interface5 {
             Class441.method7119(19, 391827101);
         }
         if (Class303.aClass303_3389 == Class328.aClass303_3583
-                && null == Class312_Sub1.aClass544_10064) {
-            Class312_Sub1.aClass544_10064
-                    = new Class544(Class566.aClass458_7604);
-            Class603.method9980(Class312_Sub1.aClass544_10064, (short) -29288);
+                && null == BillBoardConfig.aClass544_10064) {
+            BillBoardConfig.aClass544_10064
+                    = new Class544(Class566.idx_30);
+            Class603.method9980(BillBoardConfig.aClass544_10064, (short) -29288);
         }
         if (Class328.aClass303_3583 == Class303.aClass303_3390) {
             int i_12_ = Class313.method5643(1298049481);
             if (i_12_ < 100)
                 return i_12_;
             Class601.method9900
-                    (Class18.aClass458_204.getTextureData(2028004077 * (Class638
+                    (Class18.idx_28.getTextureData(2028004077 * (Class638
                                     .aClass638_8308
                                     .anInt8316),
                             1403502772),
                             -1545204928);
             Class198_Sub18.aShortArrayArray9988
-                    = Class138.aClass631_1641.aShortArrayArray8182;
+                    = HashTable.aClass631_1641.aShortArrayArray8182;
             Class525_Sub6.aShortArrayArrayArray10485
-                    = Class138.aClass631_1641.aShortArrayArrayArray8183;
+                    = HashTable.aClass631_1641.aShortArrayArrayArray8183;
             Class477.aShortArrayArray5199
-                    = Class138.aClass631_1641.aShortArrayArray8184;
+                    = HashTable.aClass631_1641.aShortArrayArray8184;
             Class522_Sub1.aShortArrayArrayArray10395
-                    = Class138.aClass631_1641.aShortArrayArrayArray8186;
-            if (-1085475287 * Class138.aClass631_1641.anInt8190 != -1
-                    && -1 != Class138.aClass631_1641.anInt8209 * -1544174753) {
+                    = HashTable.aClass631_1641.aShortArrayArrayArray8186;
+            if (-1085475287 * HashTable.aClass631_1641.anInt8190 != -1
+                    && -1 != HashTable.aClass631_1641.anInt8209 * -1544174753) {
                 client.anInt11223
-                        = Class138.aClass631_1641.anInt8190 * -1267057803;
+                        = HashTable.aClass631_1641.anInt8190 * -1267057803;
                 client.anInt11224
-                        = -1878792483 * Class138.aClass631_1641.anInt8209;
+                        = -1878792483 * HashTable.aClass631_1641.anInt8209;
             }
-            Class664.aClass634_8557 = new Class634(Class18.aClass458_204);
-            Class91.aClass629_903 = new Class629(Class18.aClass458_204);
+            Class664.aClass634_8557 = new Class634(Class18.idx_28);
+            Class91.aClass629_903 = new Class629(Class18.idx_28);
             Class525_Sub22_Sub1.aClass632_11646
-                    = new Class632(Class18.aClass458_204);
-            Class685.aClass630_8692 = new Class630(Class18.aClass458_204);
-            Class556.aClass623_7468 = new Class623(Class18.aClass458_204);
+                    = new Class632(Class18.idx_28);
+            Class685.aClass630_8692 = new Class630(Class18.idx_28);
+            Class556.aClass623_7468 = new Class623(Class18.idx_28);
         }
         if (Class303.aClass303_3384 == Class328.aClass303_3583) {
-            if (1728284569 * Class138.aClass631_1641.anInt8175 != -1
-                    && !WorldTile.aClass458_705.method7478((Class138.aClass631_1641
-                            .anInt8175) * 1728284569,
-                    0, (short) 11968))
+            if (1728284569 * HashTable.aClass631_1641.anInt8175 != -1 && !WorldTile.idx_7.method7478((HashTable.aClass631_1641.anInt8175) * 1728284569, 0, (short) 11968))
                 return 99;
-            Class166.aClass180_1835
-                    = new Class180(Class40_Sub22.aClass458_11051);
-            Class411.anInterface24_4255
-                    = new Class172_Sub1(Class198_Sub19.aClass458_9994,
-                    Class113.aClass458_1390);
-            client.aClass40_Sub16_11201
-                    = new Class40_Sub16(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class227.aClass40_Sub1_2345
-                    = new Class40_Sub1(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class635.aClass40_Sub6_8274
-                    = new Class40_Sub6(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497,
-                    Class462.aClass458_5095);
-            Class486.aClass40_5240
-                    = new Class40(client.aClass668_11090, Class21.aClass666_213,
-                    Class316.aClass458_3497, Class663.aClass663_8516,
-                    64, new Class45(com.jagex.Class14.class));
-            Class685.aClass40_8690
-                    = new Class40(client.aClass668_11090, Class21.aClass666_213,
-                    Class316.aClass458_3497, Class663.aClass663_8515,
-                    16, new Class45(com.jagex.Class82.class));
-            Class525_Sub22.aClass40_Sub15_10585
-                    = new Class40_Sub15(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class138.aClass458_1640);
-            Class232.aClass40_Sub18_2368
-                    = new Class40_Sub18(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class198_Sub17.aClass40_Sub14_9981
-                    = new Class40_Sub14(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class83.aClass40_Sub12_852
-                    = new Class40_Sub12(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497,
-                    Class462.aClass458_5095);
-            Class566.aClass40_Sub5_7605
-                    = new Class40_Sub5(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497,
-                    Class462.aClass458_5095);
-            Class38.aClass40_Sub9_328
-                    = new Class40_Sub9(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497,
-                    WorldTile.aClass458_705);
-            Class612.aClass40_Sub19_8026
-                    = new Class40_Sub19(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            client.aClass40_Sub21_11118
-                    = new Class40_Sub21(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class642.aClass40_Sub11_8327
-                    = new Class40_Sub11(client.aClass668_11090,
-                    Class21.aClass666_213, true,
-                    Class27.aClass458_282,
-                    WorldTile.aClass458_705);
-            client.aClass507_11137.method8398(Class642.aClass40_Sub11_8327,
-                    1804784598);
-            Class45.aClass500_349.method8178
-                    (new Class40_Sub11(client.aClass668_11090,
-                                    Class21.aClass666_213, true,
-                                    Class27.aClass458_282,
-                                    WorldTile.aClass458_705),
-                            1934898791);
-            Class698.aClass40_Sub2_8770
-                    = new Class40_Sub2(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497,
-                    Class462.aClass458_5095);
-            Class568.aClass40_Sub17_7627
-                    = new Class40_Sub17(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497,
-                    Class462.aClass458_5095);
-            Class168_Sub1.aClass40_Sub7_9112
-                    = new Class40_Sub7(client.aClass668_11090,
-                    Class21.aClass666_213, true,
-                    Class47.aClass458_363,
-                    WorldTile.aClass458_705);
-            Class313_Sub2.aClass40_Sub22_10106
-                    = new Class40_Sub22(client.aClass668_11090,
-                    Class21.aClass666_213, true,
-                    client.aClass40_Sub16_11201,
-                    Class198_Sub2.aClass458_9905,
-                    WorldTile.aClass458_705);
-            Class249.aClass47_Sub1_2445
-                    = new Class47_Sub1(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497, true);
-            Class163_Sub2.aClass40_Sub13_8989
-                    = new Class40_Sub13(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class685.aClass40_Sub8_8691
-                    = new Class40_Sub8(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class297.aClass458_3274,
-                    Class163_Sub2.aClass458_8988,
-                    Class629.aClass458_8162,
-                    Class163_Sub2.aClass40_Sub13_8989);
-            Class658.aClass40_Sub3_8457
-                    = new Class40_Sub3(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class539.aClass40_Sub4_7181
-                    = new Class40_Sub4(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class574.aClass40_Sub20_7645
-                    = new Class40_Sub20(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class220.aClass458_2330,
-                    WorldTile.aClass458_705);
-            Class397.aClass47_Sub2_4113
-                    = new Class47_Sub2(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class350_Sub2.aClass458_10224, true);
-            Class198_Sub4.aClass106_Sub1_Sub2_9917
-                    = new Class106_Sub1_Sub2(client.aClass668_11090,
-                    Class453.aClass453_4940,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class109.aClass106_Sub1_Sub1_1323
-                    = new Class106_Sub1_Sub1(client.aClass668_11090,
-                    Class453.aClass453_4939,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class293.aClass106_Sub1_Sub2_3239
-                    = new Class106_Sub1_Sub2(client.aClass668_11090,
-                    Class453.aClass453_4943,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class711.aClass106_Sub1_Sub2_8869
-                    = new Class106_Sub1_Sub2(client.aClass668_11090,
-                    Class453.aClass453_4944,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class535.aClass106_Sub1_Sub2_7176
-                    = new Class106_Sub1_Sub2(client.aClass668_11090,
-                    Class453.aClass453_4945,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class198_Sub20.aClass106_Sub1_Sub2_9998
-                    = new Class106_Sub1_Sub2(client.aClass668_11090,
-                    Class453.aClass453_4947,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class234.aClass106_Sub1_Sub2_2373
-                    = new Class106_Sub1_Sub2(client.aClass668_11090,
-                    Class453.aClass453_4948,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497);
-            Class144_Sub1.aMap9140
-                    = Class390.method6474((new Class106_Sub1[]
-                            {(Class198_Sub4
-                                    .aClass106_Sub1_Sub2_9917),
-                                    Class109.aClass106_Sub1_Sub1_1323,
-                                    Class293.aClass106_Sub1_Sub2_3239,
-                                    Class711.aClass106_Sub1_Sub2_8869,
-                                    Class535.aClass106_Sub1_Sub2_7176,
-                                    (Class198_Sub20
-                                            .aClass106_Sub1_Sub2_9998),
-                                    Class234.aClass106_Sub1_Sub2_2373}),
-                    2127167035);
-            Class575.aClass40_Sub10_7647
-                    = new Class40_Sub10(client.aClass668_11090,
-                    Class21.aClass666_213,
-                    Class316.aClass458_3497,
-                    Class144_Sub1.aMap9140);
+            TextureMetrics.aClass180_1835 = new Textures(Class40_Sub22.idx_26);
+            Class411.anInterface24_4255 = new Class172_Sub1(Class198_Sub19.idx_43, Class113.idx_44);
+            client.aClass40_Sub16_11201 = new Class40_Sub16(client.gametype, Class21.aClass666_213, Class316.idx_2);
+            Class227.aClass40_Sub1_2345 = new Class40_Sub1(client.gametype, Class21.aClass666_213, Class316.idx_2);
+            Class635.aClass40_Sub6_8274 = new Class40_Sub6(client.gametype, Class21.aClass666_213, Class316.idx_2, Class462.idx_8);
+            Class486.aClass40_5240 = new Class40(client.gametype, Class21.aClass666_213, Class316.idx_2, Class663.aClass663_8516, 64, new Class45(com.jagex.Class14.class));
+            Class685.aClass40_8690 = new Class40(client.gametype, Class21.aClass666_213, Class316.idx_2, Class663.aClass663_8515, 16, new Class45(com.jagex.Class82.class));
+            Class525_Sub22.aClass40_Sub15_10585 = new Class40_Sub15(client.gametype, Class21.aClass666_213, HashTable.idx_17);
+            Class232.aClass40_Sub18_2368 = new Class40_Sub18(client.gametype, Class21.aClass666_213, Class316.idx_2);
+            Class198_Sub17.aClass40_Sub14_9981 = new Class40_Sub14(client.gametype, Class21.aClass666_213, Class316.idx_2);
+            Class83.aClass40_Sub12_852 = new Class40_Sub12(client.gametype, Class21.aClass666_213, Class316.idx_2, Class462.idx_8);
+            Class566.aClass40_Sub5_7605 = new Class40_Sub5(client.gametype, Class21.aClass666_213, Class316.idx_2, Class462.idx_8);
+            Class38.aClass40_Sub9_328 = new Class40_Sub9(client.gametype, Class21.aClass666_213, Class316.idx_2, WorldTile.idx_7);
+            Class612.aClass40_Sub19_8026 = new Class40_Sub19(client.gametype, Class21.aClass666_213, Class316.idx_2);
+            client.aClass40_Sub21_11118 = new Class40_Sub21(client.gametype, Class21.aClass666_213, Class316.idx_2);
+            Class642.aClass40_Sub11_8327 = new Class40_Sub11(client.gametype, Class21.aClass666_213, true, Class27.idx_16, WorldTile.idx_7);
+            client.aClass507_11137.method8398(Class642.aClass40_Sub11_8327, 1804784598);
+            Class45.aClass500_349.method8178(new Class40_Sub11(client.gametype, Class21.aClass666_213, true, Class27.idx_16, WorldTile.idx_7), 1934898791);
+            Class698.aClass40_Sub2_8770 = new Class40_Sub2(client.gametype, Class21.aClass666_213, Class316.idx_2, Class462.idx_8);
+            Class568.aClass40_Sub17_7627 = new Class40_Sub17(client.gametype, Class21.aClass666_213, Class316.idx_2, Class462.idx_8);
+            Class168_Sub1.aClass40_Sub7_9112 = new Class40_Sub7(client.gametype, Class21.aClass666_213, true, Class47.idx_18, WorldTile.idx_7);
+            Class313_Sub2.aClass40_Sub22_10106 = new Class40_Sub22(client.gametype, Class21.aClass666_213, true, client.aClass40_Sub16_11201, Class198_Sub2.idx_19, WorldTile.idx_7);
+            Class249.aClass47_Sub1_2445 = new Class47_Sub1(client.gametype, Class21.aClass666_213, Class316.idx_2, true);
+            Class163_Sub2.aClass40_Sub13_8989 = new Class40_Sub13(client.gametype, Class21.aClass666_213, Class316.idx_2);
+            Class685.aClass40_Sub8_8691 = new Class40_Sub8(client.gametype, Class21.aClass666_213, Class297.idx_20, Class163_Sub2.idx_0, Class629.idx_1, Class163_Sub2.aClass40_Sub13_8989);
+            Class658.aClass40_Sub3_8457 = new Class40_Sub3(client.gametype, Class21.aClass666_213, Class316.idx_2);
+            Class539.aClass40_Sub4_7181 = new Class40_Sub4(client.gametype, Class21.aClass666_213, Class316.idx_2);
+            Class574.aClass40_Sub20_7645 = new Class40_Sub20(client.gametype, Class21.aClass666_213, Class220.idx_21, WorldTile.idx_7);
+            Class397.aClass47_Sub2_4113 = new Class47_Sub2(client.gametype, Class21.aClass666_213, Class350_Sub2.idx_22, true);
+            Class198_Sub4.aClass106_Sub1_Sub2_9917 = new Class106_Sub1_Sub2(client.gametype, Class453.aClass453_4940, Class21.aClass666_213, Class316.idx_2);
+            Class109.aClass106_Sub1_Sub1_1323 = new Class106_Sub1_Sub1(client.gametype, Class453.aClass453_4939, Class21.aClass666_213, Class316.idx_2);
+            Class293.aClass106_Sub1_Sub2_3239 = new Class106_Sub1_Sub2(client.gametype, Class453.aClass453_4943, Class21.aClass666_213, Class316.idx_2);
+            Class711.aClass106_Sub1_Sub2_8869 = new Class106_Sub1_Sub2(client.gametype, Class453.aClass453_4944, Class21.aClass666_213, Class316.idx_2);
+            Class535.aClass106_Sub1_Sub2_7176 = new Class106_Sub1_Sub2(client.gametype, Class453.aClass453_4945, Class21.aClass666_213, Class316.idx_2);
+            Class198_Sub20.aClass106_Sub1_Sub2_9998 = new Class106_Sub1_Sub2(client.gametype, Class453.aClass453_4947, Class21.aClass666_213, Class316.idx_2);
+            Class234.aClass106_Sub1_Sub2_2373 = new Class106_Sub1_Sub2(client.gametype, Class453.aClass453_4948, Class21.aClass666_213, Class316.idx_2);
+            Class144_Sub1.aMap9140 = Class390.method6474((new Class106_Sub1[]{(Class198_Sub4.aClass106_Sub1_Sub2_9917), Class109.aClass106_Sub1_Sub1_1323, Class293.aClass106_Sub1_Sub2_3239, Class711.aClass106_Sub1_Sub2_8869, Class535.aClass106_Sub1_Sub2_7176, (Class198_Sub20.aClass106_Sub1_Sub2_9998), Class234.aClass106_Sub1_Sub2_2373}), 2127167035);
+            Class575.aClass40_Sub10_7647 = new Class40_Sub10(client.gametype, Class21.aClass666_213, Class316.idx_2, Class144_Sub1.aMap9140);
             Class607.anInterface20_7975 = new Class306();
-            Class648.method10704(Class175_Sub4.aClass458_9940,
-                    WorldTile.aClass458_705,
-                    Class462.aClass458_5095,
-                    Class276.aClass458_2875, 1172833940);
-            Class628.aClass385_8157
-                    = new Class385(Class198_Sub15.aClass458_9976);
-            Class450.aClass400_4926 = new Class400(BillBoardDefinitions.aClass458_5605);
-            Class263.aClass402_2799 = new Class402(BillBoardDefinitions.aClass458_5605);
-            Class562.aClass471_7557
-                    = new Class471(Class21.aClass666_213, Class174.aClass458_1862,
-                    Class427.aClass458_4806);
-            Class215.aClass58_2283
-                    = new ConfigEntry(Class21.aClass666_213, Class174.aClass458_1862,
-                    Class427.aClass458_4806, new Class386());
-            Class532.aClass111_7170
-                    = new Class111(Class109.aClass106_Sub1_Sub1_1323,
-                    Class575.aClass40_Sub10_7647,
-                    Class91.aClass629_903.method10288(102642758));
+            Class648.method10704(Class175_Sub4.idx_3, WorldTile.idx_7, Class462.idx_8, Class276.aClass458_2875, 1172833940);
+            Class628.aClass385_8157 = new Class385(Class198_Sub15.idx_29);
+            Class450.aClass400_4926 = new Class400(Class504.idx_27);
+            Class263.aClass402_2799 = new Class402(Class504.idx_27);
+            Class562.aClass471_7557 = new Class471(Class21.aClass666_213, Class174.idx_24, Class427.idx_25);
+            Class215.aClass58_2283 = new ConfigEntry(Class21.aClass666_213, Class174.idx_24, Class427.idx_25, new Class386());
+            Class532.aClass111_7170 = new Class111(Class109.aClass106_Sub1_Sub1_1323, Class575.aClass40_Sub10_7647, Class91.aClass629_903.method10288(102642758));
             Class424.method6769(-1852050786);
             Class46.method1093(Class685.aClass40_Sub8_8691, 65535);
-            Class198_Sub14.method15653(Class263.aClass402_2799,
-                    Class450.aClass400_4926, -1573360652);
-            Class164.method2664(WorldTile.aClass458_705, Class166.aClass180_1835,
-                    Class411.anInterface24_4255, (byte) 6);
-            Class279 class279
-                    = new Class279(Class110.aClass458_1370
-                    .method7495("huffman", "", 427054033));
+            Class198_Sub14.method15653(Class263.aClass402_2799, Class450.aClass400_4926, -1573360652);
+            Class164.method2664(WorldTile.idx_7, TextureMetrics.aClass180_1835, Class411.anInterface24_4255, (byte) 6);
+            Class279 class279 = new Class279(Class110.idx_10.method7495("huffman", "", 427054033));
             Class493.method7998(class279, 1600987365);
             Class19.aClass511_206 = Class567.method9490(-28415824);
             Class31.aClass525_Sub36_305 = new Class525_Sub36(true);
         }
         if (Class303.aClass303_3392 == Class328.aClass303_3583) {
             int i_13_
-                    = (Class451.method7339(Class462.aClass458_5095, 113172043)
+                    = (Class451.method7339(Class462.idx_8, 113172043)
                     + Class7.aClass404_53.method6577(true, -2116632812));
             int i_14_ = (Class87.method1659(536681936)
                     + Class7.aClass404_53.method6595(-1591047126));
@@ -543,7 +318,7 @@ public abstract class SunDefinition implements Interface5 {
                 return i_13_ * 100 / i_14_;
         }
         if (Class303.aClass303_3400 == Class328.aClass303_3583)
-            Class556.method9244(ItemDefinitions.aClass458_136, Class597.aClass458_7845,
+            Class556.method9244(ItemDefinitions.idx_23, Class597.idx_41,
                     Class232.aClass40_Sub18_2368,
                     Class198_Sub17.aClass40_Sub14_9981,
                     client.aClass507_11137.method8362((byte) -1),
@@ -556,31 +331,31 @@ public abstract class SunDefinition implements Interface5 {
                     = new Class144_Sub1(Class198_Sub4.aClass106_Sub1_Sub2_9917);
             Class407.method6637((byte) 0);
             Class424.aClass52_4742 = Class238.method4416((byte) -30);
-            Class322.aClass458_3549.method7547(false, true, -1802097336);
-            Class462.aClass458_5095.method7547(true, true, 501434857);
+            Class322.idx_5.method7547(false, true, -1802097336);
+            Class462.idx_8.method7547(true, true, 501434857);
             Class276.aClass458_2875.method7547(true, true, 380239990);
-            Class110.aClass458_1370.method7547(true, true, -2142687071);
+            Class110.idx_10.method7547(true, true, -2142687071);
             client.aBool11199 = true;
         }
         if (Class328.aClass303_3583 == Class303.aClass303_3395
-                && -1 != 1089481059 * Class138.aClass631_1641.anInt8176) {
-            if (!Class165.method2667((Class138.aClass631_1641.anInt8176
+                && -1 != 1089481059 * HashTable.aClass631_1641.anInt8176) {
+            if (!Class165.method2667((HashTable.aClass631_1641.anInt8176
                             * 1089481059),
                     null, 995266580))
                 return 0;
             boolean bool = true;
             for (int i_15_ = 0;
                  i_15_ < (Class162.aClass245Array1764
-                         [Class138.aClass631_1641.anInt8176 * 1089481059]
+                         [HashTable.aClass631_1641.anInt8176 * 1089481059]
                          .aClass259Array2426).length;
                  i_15_++) {
                 Class259 class259
                         = (Class162.aClass245Array1764
-                        [1089481059 * Class138.aClass631_1641.anInt8176]
+                        [1089481059 * HashTable.aClass631_1641.anInt8176]
                         .aClass259Array2426[i_15_]);
                 if (5 == 2010235789 * class259.anInt2590
                         && class259.anInt2621 * 1940882535 != -1
-                        && !Class462.aClass458_5095.method7478((class259.anInt2621
+                        && !Class462.idx_8.method7478((class259.anInt2621
                                 * 1940882535),
                         0, (short) 15732))
                     bool = false;
@@ -603,9 +378,9 @@ public abstract class SunDefinition implements Interface5 {
             Class653.aClass458_8393 = null;
             Class328.aClass91_3579 = null;
             Class328.anInterface32Array3585 = null;
-            EmitterConfig.aMap11727.remove(Class56.aClass56_587);
-            EmitterConfig.aMap11727.remove(Class56.aClass56_595);
-            EmitterConfig.aMap11727.remove(Class56.aClass56_580);
+            EmitterConfig.aMap11727.remove(Class56.idx_33);
+            EmitterConfig.aMap11727.remove(Class56.idx_32);
+            EmitterConfig.aMap11727.remove(Class56.idx_34);
             Class519.method8661((byte) 0);
             client.aBool11063
                     = Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub29_10722
@@ -649,7 +424,7 @@ public abstract class SunDefinition implements Interface5 {
                     (byte) 114);
             Class495.method8130(Class501.aClass182_5564, 534531211);
             Class62.method1376(Class501.aClass182_5564,
-                    Class462.aClass458_5095, (short) 7307);
+                    Class462.idx_8, (short) 7307);
         }
         return Class241.method4438(1315849497);
     }
@@ -704,55 +479,12 @@ public abstract class SunDefinition implements Interface5 {
         }
     }
 
-    void method5438() {
-        synchronized (aClass200_3422) {
-            aClass200_3422.method3791((byte) -93);
-        }
-        synchronized (aClass200_3423) {
-            aClass200_3423.method3791((byte) -96);
-        }
-    }
-
     void method5439(int i, int i_1_) {
         synchronized (aClass200_3422) {
             aClass200_3422.method3805(i, 1890145491);
         }
         synchronized (aClass200_3423) {
             aClass200_3423.method3805(i, 2008881140);
-        }
-    }
-
-    void method5440(boolean bool) {
-        if (bool != aBool3425) {
-            aBool3425 = bool;
-            method5444(728951209);
-        }
-    }
-
-    void method5441(int i) {
-        synchronized (aClass200_3422) {
-            aClass200_3422.method3805(i, 1955590005);
-        }
-        synchronized (aClass200_3423) {
-            aClass200_3423.method3805(i, 2143680950);
-        }
-    }
-
-    void method5442(int i) {
-        synchronized (aClass200_3422) {
-            aClass200_3422.method3805(i, 2145620506);
-        }
-        synchronized (aClass200_3423) {
-            aClass200_3423.method3805(i, 1904950890);
-        }
-    }
-
-    void method5443(int i) {
-        synchronized (aClass200_3422) {
-            aClass200_3422.method3805(i, 2105113721);
-        }
-        synchronized (aClass200_3423) {
-            aClass200_3423.method3805(i, 2108749642);
         }
     }
 
@@ -765,21 +497,4 @@ public abstract class SunDefinition implements Interface5 {
         }
     }
 
-    void method5445() {
-        synchronized (aClass200_3422) {
-            aClass200_3422.method3809((byte) 75);
-        }
-        synchronized (aClass200_3423) {
-            aClass200_3423.method3809((byte) 15);
-        }
-    }
-
-    void method5446() {
-        synchronized (aClass200_3422) {
-            aClass200_3422.method3809((byte) 33);
-        }
-        synchronized (aClass200_3423) {
-            aClass200_3423.method3809((byte) 3);
-        }
-    }
 }

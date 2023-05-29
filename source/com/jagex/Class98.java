@@ -2283,7 +2283,7 @@ public class Class98
 		    int i_310_
 			= (-254785117 * class287.anInt3190 > 0
 			   ? class287.anInt3190 * -254785117
-			   : Class138.aClass631_1641.anInt8181 * 912141075);
+			   : HashTable.aClass631_1641.anInt8181 * 912141075);
 		    Class322.method5728(class259, class152, i, i_285_, i_286_,
 					i_287_, class157, (double) i_310_,
 					class287.aClass275_3186,
@@ -2487,7 +2487,7 @@ public class Class98
 		    int i_337_
 			= (-254785117 * class287.anInt3190 > 0
 			   ? class287.anInt3190 * -254785117
-			   : Class138.aClass631_1641.anInt8181 * 912141075);
+			   : HashTable.aClass631_1641.anInt8181 * 912141075);
 		    Class322.method5728(class259, class152, i, i_312_, i_313_,
 					i_314_, class157, (double) i_337_,
 					class287.aClass275_3186,
@@ -3204,10 +3204,10 @@ public class Class98
     static Class525_Sub30 method1873(byte i) {
 	Class42 class42 = null;
 	Class525_Sub30 class525_sub30
-	    = new Class525_Sub30(client.aClass668_11090, 0);
+	    = new Class525_Sub30(client.gametype, 0);
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      false, 1145873156);
 	    byte[] is = new byte[(int) class42.method1048(-1832780082)];
 	    int i_469_;
@@ -3218,7 +3218,7 @@ public class Class98
 		    throw new IOException();
 	    }
 	    class525_sub30 = new Class525_Sub30(new RSBuffer(is),
-						client.aClass668_11090, 0);
+						client.gametype, 0);
 	} catch (Exception exception) {
 	    /* empty */
 	}

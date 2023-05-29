@@ -201,7 +201,7 @@ public class Class70
 			class525_sub38.method16609(client.aLong11342
 						   * 253034344929793841L);
 			class525_sub38.method16735((-1420999111
-						    * (client.aClass668_11090
+						    * (client.gametype
 						       .anInt8584)),
 						   -254264142);
 			class525_sub38.method16735((int) (Math.random()
@@ -495,7 +495,7 @@ public class Class70
 			    }
 			    class525_sub38_sub2.method16735
 				((-1420999111
-				  * client.aClass668_11090.anInt8584),
+				  * client.gametype.anInt8584),
 				 -270039756);
 			    class525_sub38_sub2.method16735(Class21
 								.aClass666_213
@@ -1346,7 +1346,7 @@ public class Class70
 	Class40_Sub14.anIntArray11046[2]
 	    = (int) (aLong743 * -6553867095034074165L >> 32);
 	Class40_Sub14.anIntArray11046[3]
-	    = (int) (-6553867095034074165L * aLong743 & 0xffffffffffffffffL);
+	    = (int) (-6553867095034074165L * aLong743);
 	class525_sub38.method16735(10, -1288621988);
 	class525_sub38.method16605(Class40_Sub14.anIntArray11046[0],
 				   -1613844678);
@@ -1363,7 +1363,7 @@ public class Class70
 	Class56[] class56s = Class713.method14458((byte) 1);
 	for (int i = 0; i < class56s.length; i++) {
 	    Class56 class56 = class56s[i];
-	    if (class56 != Class56.aClass56_595) {
+	    if (class56 != Class56.idx_32) {
 		JS5 class458
 		    = (JS5) EmitterConfig.aMap11727.get(class56);
 		if (null == class458)
@@ -1859,7 +1859,7 @@ public class Class70
 			class525_sub38.method16609(client.aLong11342
 						   * 253034344929793841L);
 			class525_sub38.method16735((-1420999111
-						    * (client.aClass668_11090
+						    * (client.gametype
 						       .anInt8584)),
 						   -1685472141);
 			class525_sub38.method16735((int) (Math.random()
@@ -2153,7 +2153,7 @@ public class Class70
 			    }
 			    class525_sub38_sub2.method16735
 				((-1420999111
-				  * client.aClass668_11090.anInt8584),
+				  * client.gametype.anInt8584),
 				 -659324720);
 			    class525_sub38_sub2.method16735(Class21
 								.aClass666_213
@@ -3134,7 +3134,7 @@ public class Class70
 			class525_sub38.method16609(client.aLong11342
 						   * 253034344929793841L);
 			class525_sub38.method16735((-1420999111
-						    * (client.aClass668_11090
+						    * (client.gametype
 						       .anInt8584)),
 						   -2089661740);
 			class525_sub38.method16735((int) (Math.random()
@@ -3429,7 +3429,7 @@ public class Class70
 			    }
 			    class525_sub38_sub2.method16735
 				((-1420999111
-				  * client.aClass668_11090.anInt8584),
+				  * client.gametype.anInt8584),
 				 -1705171201);
 			    class525_sub38_sub2.method16735(Class21
 								.aClass666_213
@@ -4455,7 +4455,7 @@ public class Class70
 	Class56[] class56s = Class713.method14458((byte) 1);
 	for (int i = 0; i < class56s.length; i++) {
 	    Class56 class56 = class56s[i];
-	    if (class56 != Class56.aClass56_595) {
+	    if (class56 != Class56.idx_32) {
 		JS5 class458
 		    = (JS5) EmitterConfig.aMap11727.get(class56);
 		if (null == class458)
@@ -4471,7 +4471,7 @@ public class Class70
 	Class56[] class56s = Class713.method14458((byte) 1);
 	for (int i = 0; i < class56s.length; i++) {
 	    Class56 class56 = class56s[i];
-	    if (class56 != Class56.aClass56_595) {
+	    if (class56 != Class56.idx_32) {
 		JS5 class458
 		    = (JS5) EmitterConfig.aMap11727.get(class56);
 		if (null == class458)
@@ -4487,7 +4487,7 @@ public class Class70
 	Class56[] class56s = Class713.method14458((byte) 1);
 	for (int i = 0; i < class56s.length; i++) {
 	    Class56 class56 = class56s[i];
-	    if (class56 != Class56.aClass56_595) {
+	    if (class56 != Class56.idx_32) {
 		JS5 class458
 		    = (JS5) EmitterConfig.aMap11727.get(class56);
 		if (null == class458)

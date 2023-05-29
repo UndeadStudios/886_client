@@ -215,7 +215,7 @@ public class Class407
     
     static void method6637(byte i) {
 	Class42 class42
-	    = Class182.method3594("2", client.aClass668_11090.aString8579,
+	    = Class182.method3594("2", client.gametype.aString8579,
 				  false, -1289910983);
 	Class309.aClass144_Sub1_3465.method14627(class42, (byte) -46);
     }

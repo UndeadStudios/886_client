@@ -52,7 +52,7 @@ public class Class232 implements Interface26
     }
     
     public static Class182 method4394
-	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
+	(int i, Canvas canvas, Textures class180, Interface24 interface24,
      Interface47 interface47, Interface48 interface48,
      Interface49 interface49, JS5 class458, int i_1_, int i_2_) {
 	int i_3_ = 0;

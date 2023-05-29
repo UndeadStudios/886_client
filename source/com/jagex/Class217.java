@@ -475,8 +475,8 @@ public class Class217
 	Interface69 interface69 = method4041(i, bool, -872744087);
 	if (null == interface69) {
 	    Class215 class215 = new Class215(this);
-	    interface69 = Class648.method10702((bool ? Class263.aClass458_2801
-						: Class307.aClass458_3417),
+	    interface69 = Class648.method10702((bool ? Class263.idx_40
+						: Class307.idx_14),
 					       i, class215, bool,
 					       aClass200_2299, -742141910);
 	    if (bool)
@@ -1723,8 +1723,8 @@ public class Class217
 	Interface69 interface69 = method4041(i, bool, -872744087);
 	if (null == interface69) {
 	    Class215 class215 = new Class215(this);
-	    interface69 = Class648.method10702((bool ? Class263.aClass458_2801
-						: Class307.aClass458_3417),
+	    interface69 = Class648.method10702((bool ? Class263.idx_40
+						: Class307.idx_14),
 					       i, class215, bool,
 					       aClass200_2299, -1623762451);
 	    if (bool)

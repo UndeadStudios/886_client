@@ -218,7 +218,7 @@ public class Class556_Sub1 extends Class556
 			 - i_28_ * (-655115223 * Class63.anInt692) / anInt7521
 			 - i_30_);
 	    int i_33_ = -1996554240;
-	    if (Class668.aClass668_8577 == client.aClass668_11090)
+	    if (Class668.aClass668_8577 == client.gametype)
 		i_33_ = -1996488705;
 	    class182.method3151(i_31_, i_32_, i_29_, i_30_, i_33_, 1);
 	    class182.method3195(i_31_, i_32_, i_29_, i_30_, i_33_, 0);
@@ -271,7 +271,7 @@ public class Class556_Sub1 extends Class556
 	}
     }
     
-    static final void method16406(Class182 class182, Class180 class180) {
+    static final void method16406(Class182 class182, Textures class180) {
 	if (100 != 294186987 * anInt10625
 	    && null != aClass525_Sub16_Sub6_7469) {
 	    Class251.method4508((byte) 8);
@@ -280,7 +280,7 @@ public class Class556_Sub1 extends Class556
 		for (int i = 0; i < aClass175ArrayArray10637.length; i++) {
 		    for (int i_37_ = 0;
 			 i_37_ < aClass175ArrayArray10637[i].length; i_37_++) {
-			Class462.aClass458_5095.method7506
+			Class462.idx_8.method7506
 			    (aClass623_7468.anIntArrayArray8118[i][i_37_],
 			     1239787496);
 			Class276.aClass458_2875.method7506
@@ -291,7 +291,7 @@ public class Class556_Sub1 extends Class556
 		if (!aClass458_7471.method7486((aClass525_Sub16_Sub6_7469
 						.aString11776),
 					       1134894821)) {
-		    anInt10625 = (Class597.aClass458_7845.method7499
+		    anInt10625 = (Class597.idx_41.method7499
 				  (aClass525_Sub16_Sub6_7469.aString11776,
 				   -240817874)) / 10 * 587448515;
 		    return;
@@ -612,7 +612,7 @@ public class Class556_Sub1 extends Class556
 			 - i_58_ * (-655115223 * Class63.anInt692) / anInt7521
 			 - i_60_);
 	    int i_63_ = -1996554240;
-	    if (Class668.aClass668_8577 == client.aClass668_11090)
+	    if (Class668.aClass668_8577 == client.gametype)
 		i_63_ = -1996488705;
 	    class182.method3151(i_61_, i_62_, i_59_, i_60_, i_63_, 1);
 	    class182.method3195(i_61_, i_62_, i_59_, i_60_, i_63_, 0);
@@ -1134,7 +1134,7 @@ public class Class556_Sub1 extends Class556
 	aBool10635 = bool;
     }
     
-    static final void method16425(Class182 class182, Class180 class180) {
+    static final void method16425(Class182 class182, Textures class180) {
 	if (100 != 294186987 * anInt10625
 	    && null != aClass525_Sub16_Sub6_7469) {
 	    Class251.method4508((byte) 8);
@@ -1144,7 +1144,7 @@ public class Class556_Sub1 extends Class556
 		    for (int i_129_ = 0;
 			 i_129_ < aClass175ArrayArray10637[i].length;
 			 i_129_++) {
-			Class462.aClass458_5095.method7506
+			Class462.idx_8.method7506
 			    (aClass623_7468.anIntArrayArray8118[i][i_129_],
 			     252806454);
 			Class276.aClass458_2875.method7506
@@ -1155,7 +1155,7 @@ public class Class556_Sub1 extends Class556
 		if (!aClass458_7471.method7486((aClass525_Sub16_Sub6_7469
 						.aString11776),
 					       1304898489)) {
-		    anInt10625 = (Class597.aClass458_7845.method7499
+		    anInt10625 = (Class597.idx_41.method7499
 				  (aClass525_Sub16_Sub6_7469.aString11776,
 				   -1655532057)) / 10 * 587448515;
 		    return;
@@ -2186,7 +2186,7 @@ public class Class556_Sub1 extends Class556
 	return aClass525_Sub16_Sub6_7469;
     }
     
-    static final void method16439(Class182 class182, Class180 class180) {
+    static final void method16439(Class182 class182, Textures class180) {
 	if (100 != 294186987 * anInt10625
 	    && null != aClass525_Sub16_Sub6_7469) {
 	    Class251.method4508((byte) 8);
@@ -2196,7 +2196,7 @@ public class Class556_Sub1 extends Class556
 		    for (int i_165_ = 0;
 			 i_165_ < aClass175ArrayArray10637[i].length;
 			 i_165_++) {
-			Class462.aClass458_5095.method7506
+			Class462.idx_8.method7506
 			    (aClass623_7468.anIntArrayArray8118[i][i_165_],
 			     1357440877);
 			Class276.aClass458_2875.method7506
@@ -2207,7 +2207,7 @@ public class Class556_Sub1 extends Class556
 		if (!aClass458_7471.method7486((aClass525_Sub16_Sub6_7469
 						.aString11776),
 					       100560247)) {
-		    anInt10625 = (Class597.aClass458_7845.method7499
+		    anInt10625 = (Class597.idx_41.method7499
 				  (aClass525_Sub16_Sub6_7469.aString11776,
 				   149829583)) / 10 * 587448515;
 		    return;
@@ -2489,7 +2489,7 @@ public class Class556_Sub1 extends Class556
 		   - i_173_ * (-655115223 * Class63.anInt692) / anInt7521
 		   - i_175_);
 	    int i_178_ = -1996554240;
-	    if (Class668.aClass668_8577 == client.aClass668_11090)
+	    if (Class668.aClass668_8577 == client.gametype)
 		i_178_ = -1996488705;
 	    class182.method3151(i_176_, i_177_, i_174_, i_175_, i_178_, 1);
 	    class182.method3195(i_176_, i_177_, i_174_, i_175_, i_178_, 0);

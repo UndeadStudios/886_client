@@ -158,7 +158,7 @@ public class Class632
 	Class509.anInt5661 = 904690533 * class631.anInt8204;
 	Class285.anInt3138 = class631.anInt8205 * 852944561;
 	Class29.anInt290 = -380748837 * class631.anInt8206;
-	Class138.anInt1639 = -931831621 * class631.anInt8207;
+	HashTable.anInt1639 = -931831621 * class631.anInt8207;
 	Class29.anInt291 = -563093445 * class631.anInt8185;
 	Class696_Sub35.anInt10976 = 1337457589 * class631.anInt8191;
 	Class29.anInt292 = -791536517 * class631.anInt8197;

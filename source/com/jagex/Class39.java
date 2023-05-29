@@ -121,6 +121,6 @@ class Class39 implements Iterator
     
     public static void method1015(int i, int i_12_) {
 	Class593.aBoolArray7832[i] = false;
-	Class166.method2674(i, (byte) -37);
+	TextureMetrics.method2674(i, (byte) -37);
     }
 }

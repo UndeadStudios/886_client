@@ -337,7 +337,7 @@ public class Class420
 			Class77.method1564(-1178306130);
 			Class231.method4391(false, -1825571166);
 			Class184.method3614(Class501.aClass182_5564,
-					    Class166.aClass180_1835, (byte) 0);
+					    TextureMetrics.aClass180_1835, (byte) 0);
 			client.anInt11173 += 948502557;
 			if (0 != 224735789 * client.anInt11208) {
 			    client.anInt11139 += 1295243580;
@@ -605,7 +605,7 @@ public class Class420
 	Class320.aTwitchEventLiveStreams3534 = null;
 	int i_20_
 	    = Class285.aTwitchTV3143
-		  .RequestLiveStreams(client.aClass668_11090.aString8583);
+		  .RequestLiveStreams(client.gametype.aString8583);
 	return i_20_;
     }
 }

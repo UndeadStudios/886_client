@@ -15,7 +15,7 @@ public class Class152_Sub1 extends Class152
     }
     
     public static int method14533(int i) {
-	return Class138.aClass631_1641.aBool8192 ? 5 : 1;
+	return HashTable.aClass631_1641.aBool8192 ? 5 : 1;
     }
     
     static final void method14534(Class683 class683, int i) {

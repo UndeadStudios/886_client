@@ -26,7 +26,7 @@ public class Class389 implements Interface45
     static final void method6463(Class683 class683, int i) {
 	int i_0_ = class683.anIntArray8647[class683.anInt8663 * 1931825055];
 	Class525_Sub16_Sub4 class525_sub16_sub4
-	    = Class166.method2675(i_0_, (byte) -61);
+	    = TextureMetrics.method2675(i_0_, (byte) -61);
 	if (null == class525_sub16_sub4)
 	    throw new RuntimeException();
 	int[] is = new int[-1831313555 * class525_sub16_sub4.anInt11747];

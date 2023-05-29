@@ -1003,7 +1003,7 @@ public class Class491
 				  << 3) * -212210859;
 	    Class236.anInt2391 = (class525_sub38_sub2.method16662(-880411526)
 				  << 3) * -1152187739;
-	    Class166.anInt1836
+	    TextureMetrics.anInt1836
 		= class525_sub38_sub2.method16607(-1571461918) * 1493786273;
 	    Class600 class600 = client.aClass507_11137.method8350(-222511604);
 	    for (Class525_Sub23 class525_sub23
@@ -1025,7 +1025,7 @@ public class Class491
 			      >> 14)
 			     & 0x3fffL);
 		int i_129_ = i_128_ - class600.anInt7860 * 1429253007;
-		if (i_125_ == -799406751 * Class166.anInt1836
+		if (i_125_ == -799406751 * TextureMetrics.anInt1836
 		    && i_127_ >= Class515.anInt5723 * -2067088899
 		    && i_127_ < 8 + -2067088899 * Class515.anInt5723
 		    && i_129_ >= -727902931 * Class236.anInt2391
@@ -1036,7 +1036,7 @@ public class Class491
 			    < client.aClass507_11137.method8412(673227540))
 			&& (i_129_
 			    < client.aClass507_11137.method8352((byte) -87)))
-			Class685.method11253(-799406751 * Class166.anInt1836,
+			Class685.method11253(-799406751 * TextureMetrics.anInt1836,
 					     i_127_, i_129_, 2139459664);
 		}
 	    }
@@ -1055,7 +1055,7 @@ public class Class491
 			>= -727902931 * Class236.anInt2391)
 		    && (-1370300329 * class525_sub12.anInt10512
 			< Class236.anInt2391 * -727902931 + 8)
-		    && (-799406751 * Class166.anInt1836
+		    && (-799406751 * TextureMetrics.anInt1836
 			== 1334650435 * class525_sub12.anInt10527))
 		    class525_sub12.aBool10524 = true;
 	    }
@@ -1075,7 +1075,7 @@ public class Class491
 		    && (class525_sub12.anInt10512 * -1370300329
 			< -727902931 * Class236.anInt2391 + 8)
 		    && (1334650435 * class525_sub12.anInt10527
-			== Class166.anInt1836 * -799406751))
+			== TextureMetrics.anInt1836 * -799406751))
 		    class525_sub12.aBool10524 = true;
 	    }
 	    class96.aClass416_1172 = null;
@@ -1914,7 +1914,7 @@ public class Class491
 				   class259, true, -181562890);
 	    }
 	    if (-750203937 * client.anInt11260 != -1)
-		Class180.method3121(client.anInt11260 * -750203937, 1,
+		Textures.method3121(client.anInt11260 * -750203937, 1,
 				    (byte) -31);
 	    class96.aClass416_1172 = null;
 	    return true;
@@ -2783,7 +2783,7 @@ public class Class491
 				  << 3) * -1152187739;
 	    Class515.anInt5723 = (class525_sub38_sub2.readByte(-1150098071)
 				  << 3) * -212210859;
-	    Class166.anInt1836
+	    TextureMetrics.anInt1836
 		= class525_sub38_sub2.method16624(-774382356) * 1493786273;
 	    class96.aClass416_1172 = null;
 	    return true;
@@ -2900,7 +2900,7 @@ public class Class491
 	    client.anInt11147 = -1429589879;
 	    client.anInt11280 = i_384_ * -1550521413;
 	    client.anInt11145 = 0;
-	    Class656_Sub1_Sub3_Sub3.aClass458_12048
+	    Class656_Sub1_Sub3_Sub3.idx_35
 		.method7506(1278550387 * client.anInt11280, 2034640278);
 	    Class219.method4200((byte) 21);
 	    Class272.method5024((byte) 43);
@@ -2999,7 +2999,7 @@ public class Class491
 				  << 3) * -1152187739;
 	    Class515.anInt5723 = (class525_sub38_sub2.readByte(-1150098071)
 				  << 3) * -212210859;
-	    Class166.anInt1836
+	    TextureMetrics.anInt1836
 		= class525_sub38_sub2.readUnsignedByte(508040277) * 1493786273;
 	    while (class525_sub38_sub2.index * -1133521593
 		   < -1101265009 * class96.anInt1173) {
@@ -3400,7 +3400,7 @@ public class Class491
 	}
 	if (class96.aClass416_1172 == Class416.aClass416_4424) {
 	    if (client.anInt11260 * -750203937 != -1)
-		Class180.method3121(-750203937 * client.anInt11260, 0,
+		Textures.method3121(-750203937 * client.anInt11260, 0,
 				    (byte) -101);
 	    class96.aClass416_1172 = null;
 	    return true;

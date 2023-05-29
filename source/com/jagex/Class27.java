@@ -10,7 +10,7 @@ public class Class27
     public static Class27 aClass27_279;
     public static Class27 aClass27_280 = new Class27();
     static int anInt281;
-    public static JS5 aClass458_282;
+    public static JS5 idx_16;
     
     static {
 	aClass27_277 = new Class27();

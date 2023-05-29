@@ -10,7 +10,7 @@ public class ItemDefinitions implements Interface12 {
     public static final int anInt79 = 0;
     public static final int anInt132 = 1;
     public static short[] aShortArray96 = new short[256];
-    public static JS5 aClass458_136;
+    public static JS5 idx_23;
     static String aString89;
     static int anInt137;
 

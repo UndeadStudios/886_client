@@ -19,7 +19,7 @@ public class WorldTile implements Interface12, Interface7
     Object[] anObjectArray702;
     String aString703 = "null";
     int anInt704 = 0;
-    public static JS5 aClass458_705;
+    public static JS5 idx_7;
     
     void method1407() {
 	HashMap hashmap = new HashMap();

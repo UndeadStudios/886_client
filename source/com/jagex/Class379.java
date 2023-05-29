@@ -67,7 +67,7 @@ public class Class379
 	int i_7_ = i_4_ - i_3_;
 	int i_8_;
 	if (i_7_ + 2 > 1600) {
-	    i_8_ = 1 + Class180.method3120(i_7_, (byte) 47) - anInt3914;
+	    i_8_ = 1 + Textures.method3120(i_7_, (byte) 47) - anInt3914;
 	    i_7_ = (i_7_ >> i_8_) + 2;
 	} else {
 	    i_8_ = 0;
@@ -85,7 +85,7 @@ public class Class379
 	    class317.aClass446_3501.method7265
 		((float) (class182_sub1.anInt9282 >> 16 & 0xff) / 255.0F,
 		 (float) (class182_sub1.anInt9282 >> 8 & 0xff) / 255.0F,
-		 (float) (class182_sub1.anInt9282 >> 0 & 0xff) / 255.0F);
+		 (float) (class182_sub1.anInt9282 & 0xff) / 255.0F);
 	    class317.aClass437_3502.method7079(class182_sub1.aClass435_9240);
 	    class317.aClass437_3502.method7078(1.0F
 					       / (class182_sub1.aFloat9218
@@ -135,7 +135,7 @@ public class Class379
 	    }
 	    class317.anInterface38_3499 = null;
 	    if (i_13_ >= 0) {
-		Class166 class166
+		TextureMetrics class166
 		    = class182_sub1.aClass180_1944.method3116(i_13_,
 							      -1431554601);
 		if (class166.aBool1801)
@@ -449,7 +449,7 @@ public class Class379
 	int i_67_ = i_64_ - i_63_;
 	int i_68_;
 	if (i_67_ + 2 > 1600) {
-	    i_68_ = 1 + Class180.method3120(i_67_, (byte) 66) - anInt3914;
+	    i_68_ = 1 + Textures.method3120(i_67_, (byte) 66) - anInt3914;
 	    i_67_ = (i_67_ >> i_68_) + 2;
 	} else {
 	    i_68_ = 0;
@@ -467,7 +467,7 @@ public class Class379
 	    class317.aClass446_3501.method7265
 		((float) (class182_sub1.anInt9282 >> 16 & 0xff) / 255.0F,
 		 (float) (class182_sub1.anInt9282 >> 8 & 0xff) / 255.0F,
-		 (float) (class182_sub1.anInt9282 >> 0 & 0xff) / 255.0F);
+		 (float) (class182_sub1.anInt9282 & 0xff) / 255.0F);
 	    class317.aClass437_3502.method7079(class182_sub1.aClass435_9240);
 	    class317.aClass437_3502.method7078(1.0F
 					       / (class182_sub1.aFloat9218
@@ -788,7 +788,7 @@ public class Class379
 	    }
 	    class317.anInterface38_3499 = null;
 	    if (i_114_ >= 0) {
-		Class166 class166
+		TextureMetrics class166
 		    = class182_sub1.aClass180_1944.method3116(i_114_,
 							      -1431554601);
 		if (class166.aBool1801)
@@ -828,7 +828,7 @@ public class Class379
     
     Class379(Class182_Sub1 class182_sub1) {
 	anInt3913 = 1600;
-	anInt3914 = Class180.method3120(1600, (byte) -60);
+	anInt3914 = Textures.method3120(1600, (byte) -60);
 	anInt3915 = 64;
 	anIntArray3916 = new int[8191];
 	anIntArray3907 = new int[1600];

@@ -82,8 +82,8 @@ public class Class556
     static int anInt7530;
     static boolean[] aBoolArray7531;
     
-    static int method9243(Interface13 interface13, Class180 class180, int i,
-			  int i_0_, int i_1_) {
+    static int method9243(Interface13 interface13, Textures class180, int i,
+						  int i_0_, int i_1_) {
 	Class658 class658 = (Class658) interface13.method76(i, -1946714588);
 	if (class658 == null)
 	    return 0;
@@ -101,12 +101,12 @@ public class Class556
 	    int i_6_ = (i_4_ + i_0_ & 0xfc00) + (i_4_ & 0x380) + i_5_;
 	    i_3_ = (~0xffffff
 		    | (Class381.anIntArray3929
-		       [BillBoardDefinitions.method8313(Class615.method10090(i_6_, 96,
+		       [Class504.method8313(Class615.method10090(i_6_, 96,
 								 1929149401),
 					    1921832052) & 0xffff]));
 	} else if (i_2_ >= 0)
 	    i_3_ = ~0xffffff | (Class381.anIntArray3929
-				[(BillBoardDefinitions.method8313
+				[(Class504.method8313
 				  (Class615.method10090((class180.method3116
 							 (i_2_, -1431554601)
 							 .aShort1834),
@@ -124,7 +124,7 @@ public class Class556
 	    int i_9_ = (i_7_ + i_0_ & 0xfc00) + (i_7_ & 0x380) + i_8_;
 	    i_3_ = (~0xffffff
 		    | (Class381.anIntArray3929
-		       [BillBoardDefinitions.method8313(Class615.method10090(i_9_, 96,
+		       [Class504.method8313(Class615.method10090(i_9_, 96,
 								 1454835448),
 					    271005489) & 0xffff]));
 	}
@@ -236,7 +236,7 @@ public class Class556
 	}
     }
     
-    static int method9246(Class180 class180, int i, int i_33_, int i_34_) {
+    static int method9246(Textures class180, int i, int i_33_, int i_34_) {
 	return method9254(anInterface13_7498, class180, i, i_33_, i_34_);
     }
     
@@ -324,8 +324,8 @@ public class Class556
 	return aBoolArrayArray7515[i_44_][i_45_];
     }
     
-    static int method9254(Interface13 interface13, Class180 class180, int i,
-			  int i_46_, int i_47_) {
+    static int method9254(Interface13 interface13, Textures class180, int i,
+						  int i_46_, int i_47_) {
 	Class658 class658 = (Class658) interface13.method76(i, 1805921689);
 	if (class658 == null)
 	    return 0;
@@ -343,12 +343,12 @@ public class Class556
 	    int i_52_ = (i_50_ + i_46_ & 0xfc00) + (i_50_ & 0x380) + i_51_;
 	    i_49_ = (~0xffffff
 		     | (Class381.anIntArray3929
-			[BillBoardDefinitions.method8313(Class615.method10090(i_52_, 96,
+			[Class504.method8313(Class615.method10090(i_52_, 96,
 								  1642380366),
 					     201570770) & 0xffff]));
 	} else if (i_48_ >= 0)
 	    i_49_ = ~0xffffff | (Class381.anIntArray3929
-				 [(BillBoardDefinitions.method8313
+				 [(Class504.method8313
 				   (Class615.method10090((class180.method3116
 							  (i_48_, -1431554601)
 							  .aShort1834),
@@ -366,7 +366,7 @@ public class Class556
 	    int i_55_ = (i_53_ + i_46_ & 0xfc00) + (i_53_ & 0x380) + i_54_;
 	    i_49_ = (~0xffffff
 		     | (Class381.anIntArray3929
-			[BillBoardDefinitions.method8313(Class615.method10090(i_55_, 96,
+			[Class504.method8313(Class615.method10090(i_55_, 96,
 								  2034557085),
 					     998439491) & 0xffff]));
 	}
@@ -823,7 +823,7 @@ public class Class556
 			    int i_142_ = i_124_ + i_135_ * anInt7502;
 			    int i_143_
 				= (Class381.anIntArray3929
-				   [(BillBoardDefinitions.method8313
+				   [(Class504.method8313
 				     (Class329.method5805(i_141_, 96, 65536),
 				      1974135322)) & 0xffff]);
 			    is_116_[i_142_] = (byte) (i_143_ >> 16 & 0xff);
@@ -2199,8 +2199,8 @@ public class Class556
 	return false;
     }
     
-    static int method9294(Interface13 interface13, Class180 class180, int i,
-			  int i_457_, int i_458_) {
+    static int method9294(Interface13 interface13, Textures class180, int i,
+						  int i_457_, int i_458_) {
 	Class658 class658 = (Class658) interface13.method76(i, 1990039285);
 	if (class658 == null)
 	    return 0;
@@ -2219,12 +2219,12 @@ public class Class556
 		= (i_461_ + i_457_ & 0xfc00) + (i_461_ & 0x380) + i_462_;
 	    i_460_ = (~0xffffff
 		      | (Class381.anIntArray3929
-			 [BillBoardDefinitions.method8313(Class615.method10090(i_463_, 96,
+			 [Class504.method8313(Class615.method10090(i_463_, 96,
 								   1697053281),
 					      1113973753) & 0xffff]));
 	} else if (i_459_ >= 0)
 	    i_460_ = ~0xffffff | (Class381.anIntArray3929
-				  [BillBoardDefinitions.method8313((Class615.method10090
+				  [Class504.method8313((Class615.method10090
 							((class180.method3116
 							  (i_459_, -1431554601)
 							  .aShort1834),
@@ -2243,7 +2243,7 @@ public class Class556
 		= (i_464_ + i_457_ & 0xfc00) + (i_464_ & 0x380) + i_465_;
 	    i_460_ = (~0xffffff
 		      | (Class381.anIntArray3929
-			 [BillBoardDefinitions.method8313(Class615.method10090(i_466_, 96,
+			 [Class504.method8313(Class615.method10090(i_466_, 96,
 								   1844785836),
 					      1201342380) & 0xffff]));
 	}
@@ -2350,14 +2350,14 @@ public class Class556
 	    throw new IllegalArgumentException();
     }
     
-    static void method9300(Class180 class180, int i, int i_501_) {
+    static void method9300(Textures class180, int i, int i_501_) {
 	for (int i_502_ = 0; i_502_ < anInterface13_7498.method72(994443601);
 	     i_502_++)
 	    anIntArray7487[i_502_ + 1]
 		= method9348(class180, i_502_, i, i_501_);
     }
     
-    static int method9301(Class180 class180, int i, int i_503_, int i_504_) {
+    static int method9301(Textures class180, int i, int i_503_, int i_504_) {
 	return method9254(anInterface13_7498, class180, i, i_503_, i_504_);
     }
     
@@ -2369,11 +2369,11 @@ public class Class556
 	return method9269(class182, i_506_, i_507_, 0, 0);
     }
     
-    static int method9303(Class180 class180, int i, int i_508_, int i_509_) {
+    static int method9303(Textures class180, int i, int i_508_, int i_509_) {
 	return method9254(anInterface13_7498, class180, i, i_508_, i_509_);
     }
     
-    static void method9304(Class180 class180, int i, int i_510_) {
+    static void method9304(Textures class180, int i, int i_510_) {
 	for (int i_511_ = 0; i_511_ < anInterface13_7498.method72(-1889637497);
 	     i_511_++)
 	    anIntArray7487[i_511_ + 1]
@@ -2391,8 +2391,8 @@ public class Class556
 	return false;
     }
     
-    static int method9306(Interface13 interface13, Class180 class180, int i,
-			  int i_512_, int i_513_) {
+    static int method9306(Interface13 interface13, Textures class180, int i,
+						  int i_512_, int i_513_) {
 	Class658 class658 = (Class658) interface13.method76(i, 1570886347);
 	if (class658 == null)
 	    return 0;
@@ -2411,12 +2411,12 @@ public class Class556
 		= (i_516_ + i_512_ & 0xfc00) + (i_516_ & 0x380) + i_517_;
 	    i_515_ = (~0xffffff
 		      | (Class381.anIntArray3929
-			 [BillBoardDefinitions.method8313(Class615.method10090(i_518_, 96,
+			 [Class504.method8313(Class615.method10090(i_518_, 96,
 								   1884950276),
 					      720359929) & 0xffff]));
 	} else if (i_514_ >= 0)
 	    i_515_ = ~0xffffff | (Class381.anIntArray3929
-				  [BillBoardDefinitions.method8313((Class615.method10090
+				  [Class504.method8313((Class615.method10090
 							((class180.method3116
 							  (i_514_, -1431554601)
 							  .aShort1834),
@@ -2435,7 +2435,7 @@ public class Class556
 		= (i_519_ + i_512_ & 0xfc00) + (i_519_ & 0x380) + i_520_;
 	    i_515_ = (~0xffffff
 		      | (Class381.anIntArray3929
-			 [BillBoardDefinitions.method8313(Class615.method10090(i_521_, 96,
+			 [Class504.method8313(Class615.method10090(i_521_, 96,
 								   1874290269),
 					      296093278) & 0xffff]));
 	}
@@ -2817,7 +2817,7 @@ public class Class556
 			    int i_603_ = i_585_ + i_596_ * anInt7502;
 			    int i_604_
 				= (Class381.anIntArray3929
-				   [(BillBoardDefinitions.method8313
+				   [(Class504.method8313
 				     (Class329.method5805(i_602_, 96, 65536),
 				      327201164)) & 0xffff]);
 			    is_577_[i_603_] = (byte) (i_604_ >> 16 & 0xff);
@@ -3307,7 +3307,7 @@ public class Class556
 	return aClass709_7473;
     }
     
-    static void method9326(Class180 class180, int i, int i_673_) {
+    static void method9326(Textures class180, int i, int i_673_) {
 	for (int i_674_ = 0; i_674_ < anInterface13_7498.method72(1366571579);
 	     i_674_++)
 	    anIntArray7487[i_674_ + 1]
@@ -3752,7 +3752,7 @@ public class Class556
 	}
     }
     
-    static int method9342(Class180 class180, int i, int i_761_, int i_762_) {
+    static int method9342(Textures class180, int i, int i_761_, int i_762_) {
 	return method9254(anInterface13_7498, class180, i, i_761_, i_762_);
     }
     
@@ -4082,7 +4082,7 @@ public class Class556
 	}
     }
     
-    static int method9348(Class180 class180, int i, int i_821_, int i_822_) {
+    static int method9348(Textures class180, int i, int i_821_, int i_822_) {
 	return method9254(anInterface13_7498, class180, i, i_821_, i_822_);
     }
     

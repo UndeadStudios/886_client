@@ -39,7 +39,7 @@ public class Class197
 	if (2040702555 * class658.anInt8452 != -1)
 	    return class658.anInt8452 * 2040702555;
 	if (class658.anInt8453 * -1899182957 != -1) {
-	    Class166 class166
+	    TextureMetrics class166
 		= class182.aClass180_1944.method3116((-1899182957
 						      * class658.anInt8453),
 						     -1431554601);

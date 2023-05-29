@@ -23,7 +23,7 @@ public abstract class Class163 implements Interface14
 		break;
 	    Class147 class147
 		= ((Class147)
-		   Class539.method8888(Class312_Sub1.method15701(846836289),
+		   Class539.method8888(BillBoardConfig.method15701(846836289),
 				       i_0_, -1261113994));
 	    if (class147 != null) {
 		switch (773792899 * class147.anInt1689) {
@@ -85,7 +85,7 @@ public abstract class Class163 implements Interface14
 		break;
 	    Class147 class147
 		= ((Class147)
-		   Class539.method8888(Class312_Sub1.method15701(846836289), i,
+		   Class539.method8888(BillBoardConfig.method15701(846836289), i,
 				       -903116299));
 	    if (class147 != null) {
 		switch (773792899 * class147.anInt1689) {

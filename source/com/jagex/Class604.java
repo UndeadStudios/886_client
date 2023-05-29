@@ -108,9 +108,9 @@ public class Class604
     }
     
     public static Class182 method9986
-	(Canvas canvas, Class180 class180, Interface24 interface24,
-	 Interface47 interface47, Interface48 interface48,
-	 Interface49 interface49, int i, int i_9_, byte i_10_) {
+	(Canvas canvas, Textures class180, Interface24 interface24,
+     Interface47 interface47, Interface48 interface48,
+     Interface49 interface49, int i, int i_9_, byte i_10_) {
 	return new Class182_Sub2(canvas, class180, interface24, interface47,
 				 interface48, interface49, i, i_9_);
     }

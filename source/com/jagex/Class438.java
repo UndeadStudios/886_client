@@ -46,7 +46,7 @@ public class Class438
 	}
 	if (1 == anInt4854 * 1128054897) {
 	    aClass26Array4853 = Class26.method885((byte) 5);
-	    Class26.aClass26_270.method881(new Class432(Class18.aClass458_204),
+	    Class26.aClass26_270.method881(new Class432(Class18.idx_28),
 					   (byte) 82);
 	    Class26.aClass26_251.method881(new Class434("jaggl"), (byte) 74);
 	    Class434 class434 = new Class434("jagdx");
@@ -59,53 +59,53 @@ public class Class438
 							true),
 					   (byte) 74);
 	    Class26.aClass26_254.method881(new Class432(Class17_Sub1
-							.aClass458_11027),
+							.idx_31),
 					   (byte) 71);
 	    Class26.aClass26_255.method881(new Class432(Class40_Sub22
-							.aClass458_11051),
+							.idx_26),
 					   (byte) 96);
 	    Class26.aClass26_267
-		.method881(new Class432(Class316.aClass458_3497), (byte) 126);
-	    Class26.aClass26_257.method881(new Class432(Class27.aClass458_282),
+		.method881(new Class432(Class316.idx_2), (byte) 126);
+	    Class26.aClass26_257.method881(new Class432(Class27.idx_16),
 					   (byte) 16);
 	    Class26.aClass26_248
-		.method881(new Class432(Class138.aClass458_1640), (byte) 120);
-	    Class26.aClass26_259.method881(new Class432(Class47.aClass458_363),
+		.method881(new Class432(HashTable.idx_17), (byte) 120);
+	    Class26.aClass26_259.method881(new Class432(Class47.idx_18),
 					   (byte) 66);
 	    Class26.aClass26_273.method881(new Class432(Class198_Sub2
-							.aClass458_9905),
+							.idx_19),
 					   (byte) 125);
 	    Class26.aClass26_261
-		.method881(new Class432(Class297.aClass458_3274), (byte) 52);
+		.method881(new Class432(Class297.idx_20), (byte) 52);
 	    Class26.aClass26_262
-		.method881(new Class432(Class220.aClass458_2330), (byte) 27);
+		.method881(new Class432(Class220.idx_21), (byte) 27);
 	    Class26.aClass26_258.method881(new Class432(Class350_Sub2
-							.aClass458_10224),
+							.idx_22),
 					   (byte) 18);
 	    Class26.aClass26_264
-		.method881(new Class432(Class555.aClass458_7460), (byte) 89);
+		.method881(new Class432(Class555.idx_49), (byte) 89);
 	    Class26.aClass26_266
-		.method881(new Class432(Class174.aClass458_1862), (byte) 90);
+		.method881(new Class432(Class174.idx_24), (byte) 90);
 	    Class26.aClass26_249
-		.method881(new Class432(Class427.aClass458_4806), (byte) 18);
+		.method881(new Class432(Class427.idx_25), (byte) 18);
 	    Class26.aClass26_265
-		.method881(new Class432(BillBoardDefinitions.aClass458_5605), (byte) 26);
+		.method881(new Class432(Class504.idx_27), (byte) 26);
 	    Class26.aClass26_268.method881(new Class432(Class198_Sub15
-							.aClass458_9976),
+							.idx_29),
 					   (byte) 88);
 	    Class26.aClass26_269.method881(new Class441((Class110
-							 .aClass458_1370),
+							 .idx_10),
 							"huffman"),
 					   (byte) 111);
 	    Class26.aClass26_256.method881(new Class432(Class175_Sub4
-							.aClass458_9940),
+							.idx_3),
 					   (byte) 93);
 	    Class26.aClass26_271
-		.method881(new Class432(Class112.aClass458_1386), (byte) 124);
+		.method881(new Class432(Class112.idx_12), (byte) 124);
 	    Class26.aClass26_272
 		.method881(new Class432(Class276.aClass458_2875), (byte) 79);
 	    Class26.aClass26_260
-		.method881(new Class442(ItemDefinitions.aClass458_136, 0), (byte) 110);
+		.method881(new Class442(ItemDefinitions.idx_23, 0), (byte) 110);
 	    for (int i = 0; i < aClass26Array4853.length; i++) {
 		if (aClass26Array4853[i].method879((short) 4814) == null)
 		    throw new RuntimeException();
@@ -174,7 +174,7 @@ public class Class438
 	}
 	if (1 == anInt4854 * 1128054897) {
 	    aClass26Array4853 = Class26.method885((byte) 5);
-	    Class26.aClass26_270.method881(new Class432(Class18.aClass458_204),
+	    Class26.aClass26_270.method881(new Class432(Class18.idx_28),
 					   (byte) 31);
 	    Class26.aClass26_251.method881(new Class434("jaggl"), (byte) 95);
 	    Class434 class434 = new Class434("jagdx");
@@ -187,53 +187,53 @@ public class Class438
 							true),
 					   (byte) 70);
 	    Class26.aClass26_254.method881(new Class432(Class17_Sub1
-							.aClass458_11027),
+							.idx_31),
 					   (byte) 51);
 	    Class26.aClass26_255.method881(new Class432(Class40_Sub22
-							.aClass458_11051),
+							.idx_26),
 					   (byte) 41);
 	    Class26.aClass26_267
-		.method881(new Class432(Class316.aClass458_3497), (byte) 73);
-	    Class26.aClass26_257.method881(new Class432(Class27.aClass458_282),
+		.method881(new Class432(Class316.idx_2), (byte) 73);
+	    Class26.aClass26_257.method881(new Class432(Class27.idx_16),
 					   (byte) 35);
 	    Class26.aClass26_248
-		.method881(new Class432(Class138.aClass458_1640), (byte) 52);
-	    Class26.aClass26_259.method881(new Class432(Class47.aClass458_363),
+		.method881(new Class432(HashTable.idx_17), (byte) 52);
+	    Class26.aClass26_259.method881(new Class432(Class47.idx_18),
 					   (byte) 108);
 	    Class26.aClass26_273.method881(new Class432(Class198_Sub2
-							.aClass458_9905),
+							.idx_19),
 					   (byte) 55);
 	    Class26.aClass26_261
-		.method881(new Class432(Class297.aClass458_3274), (byte) 76);
+		.method881(new Class432(Class297.idx_20), (byte) 76);
 	    Class26.aClass26_262
-		.method881(new Class432(Class220.aClass458_2330), (byte) 75);
+		.method881(new Class432(Class220.idx_21), (byte) 75);
 	    Class26.aClass26_258.method881(new Class432(Class350_Sub2
-							.aClass458_10224),
+							.idx_22),
 					   (byte) 113);
 	    Class26.aClass26_264
-		.method881(new Class432(Class555.aClass458_7460), (byte) 103);
+		.method881(new Class432(Class555.idx_49), (byte) 103);
 	    Class26.aClass26_266
-		.method881(new Class432(Class174.aClass458_1862), (byte) 27);
+		.method881(new Class432(Class174.idx_24), (byte) 27);
 	    Class26.aClass26_249
-		.method881(new Class432(Class427.aClass458_4806), (byte) 24);
+		.method881(new Class432(Class427.idx_25), (byte) 24);
 	    Class26.aClass26_265
-		.method881(new Class432(BillBoardDefinitions.aClass458_5605), (byte) 65);
+		.method881(new Class432(Class504.idx_27), (byte) 65);
 	    Class26.aClass26_268.method881(new Class432(Class198_Sub15
-							.aClass458_9976),
+							.idx_29),
 					   (byte) 107);
 	    Class26.aClass26_269.method881(new Class441((Class110
-							 .aClass458_1370),
+							 .idx_10),
 							"huffman"),
 					   (byte) 7);
 	    Class26.aClass26_256.method881(new Class432(Class175_Sub4
-							.aClass458_9940),
+							.idx_3),
 					   (byte) 15);
 	    Class26.aClass26_271
-		.method881(new Class432(Class112.aClass458_1386), (byte) 2);
+		.method881(new Class432(Class112.idx_12), (byte) 2);
 	    Class26.aClass26_272
 		.method881(new Class432(Class276.aClass458_2875), (byte) 81);
 	    Class26.aClass26_260
-		.method881(new Class442(ItemDefinitions.aClass458_136, 0), (byte) 77);
+		.method881(new Class442(ItemDefinitions.idx_23, 0), (byte) 77);
 	    for (int i = 0; i < aClass26Array4853.length; i++) {
 		if (aClass26Array4853[i].method879((short) -3308) == null)
 		    throw new RuntimeException();
@@ -307,7 +307,7 @@ public class Class438
 	}
 	if (1 == anInt4854 * 1128054897) {
 	    aClass26Array4853 = Class26.method885((byte) 5);
-	    Class26.aClass26_270.method881(new Class432(Class18.aClass458_204),
+	    Class26.aClass26_270.method881(new Class432(Class18.idx_28),
 					   (byte) 108);
 	    Class26.aClass26_251.method881(new Class434("jaggl"), (byte) 27);
 	    Class434 class434 = new Class434("jagdx");
@@ -320,53 +320,53 @@ public class Class438
 							true),
 					   (byte) 122);
 	    Class26.aClass26_254.method881(new Class432(Class17_Sub1
-							.aClass458_11027),
+							.idx_31),
 					   (byte) 81);
 	    Class26.aClass26_255.method881(new Class432(Class40_Sub22
-							.aClass458_11051),
+							.idx_26),
 					   (byte) 7);
 	    Class26.aClass26_267
-		.method881(new Class432(Class316.aClass458_3497), (byte) 110);
-	    Class26.aClass26_257.method881(new Class432(Class27.aClass458_282),
+		.method881(new Class432(Class316.idx_2), (byte) 110);
+	    Class26.aClass26_257.method881(new Class432(Class27.idx_16),
 					   (byte) 75);
 	    Class26.aClass26_248
-		.method881(new Class432(Class138.aClass458_1640), (byte) 3);
-	    Class26.aClass26_259.method881(new Class432(Class47.aClass458_363),
+		.method881(new Class432(HashTable.idx_17), (byte) 3);
+	    Class26.aClass26_259.method881(new Class432(Class47.idx_18),
 					   (byte) 57);
 	    Class26.aClass26_273.method881(new Class432(Class198_Sub2
-							.aClass458_9905),
+							.idx_19),
 					   (byte) 75);
 	    Class26.aClass26_261
-		.method881(new Class432(Class297.aClass458_3274), (byte) 86);
+		.method881(new Class432(Class297.idx_20), (byte) 86);
 	    Class26.aClass26_262
-		.method881(new Class432(Class220.aClass458_2330), (byte) 44);
+		.method881(new Class432(Class220.idx_21), (byte) 44);
 	    Class26.aClass26_258.method881(new Class432(Class350_Sub2
-							.aClass458_10224),
+							.idx_22),
 					   (byte) 74);
 	    Class26.aClass26_264
-		.method881(new Class432(Class555.aClass458_7460), (byte) 105);
+		.method881(new Class432(Class555.idx_49), (byte) 105);
 	    Class26.aClass26_266
-		.method881(new Class432(Class174.aClass458_1862), (byte) 53);
+		.method881(new Class432(Class174.idx_24), (byte) 53);
 	    Class26.aClass26_249
-		.method881(new Class432(Class427.aClass458_4806), (byte) 54);
+		.method881(new Class432(Class427.idx_25), (byte) 54);
 	    Class26.aClass26_265
-		.method881(new Class432(BillBoardDefinitions.aClass458_5605), (byte) 54);
+		.method881(new Class432(Class504.idx_27), (byte) 54);
 	    Class26.aClass26_268.method881(new Class432(Class198_Sub15
-							.aClass458_9976),
+							.idx_29),
 					   (byte) 10);
 	    Class26.aClass26_269.method881(new Class441((Class110
-							 .aClass458_1370),
+							 .idx_10),
 							"huffman"),
 					   (byte) 64);
 	    Class26.aClass26_256.method881(new Class432(Class175_Sub4
-							.aClass458_9940),
+							.idx_3),
 					   (byte) 35);
 	    Class26.aClass26_271
-		.method881(new Class432(Class112.aClass458_1386), (byte) 83);
+		.method881(new Class432(Class112.idx_12), (byte) 83);
 	    Class26.aClass26_272
 		.method881(new Class432(Class276.aClass458_2875), (byte) 24);
 	    Class26.aClass26_260
-		.method881(new Class442(ItemDefinitions.aClass458_136, 0), (byte) 77);
+		.method881(new Class442(ItemDefinitions.idx_23, 0), (byte) 77);
 	    for (int i = 0; i < aClass26Array4853.length; i++) {
 		if (aClass26Array4853[i].method879((short) 17318) == null)
 		    throw new RuntimeException();
@@ -435,7 +435,7 @@ public class Class438
 	}
 	if (1 == anInt4854 * 1128054897) {
 	    aClass26Array4853 = Class26.method885((byte) 5);
-	    Class26.aClass26_270.method881(new Class432(Class18.aClass458_204),
+	    Class26.aClass26_270.method881(new Class432(Class18.idx_28),
 					   (byte) 104);
 	    Class26.aClass26_251.method881(new Class434("jaggl"), (byte) 90);
 	    Class434 class434 = new Class434("jagdx");
@@ -448,53 +448,53 @@ public class Class438
 							true),
 					   (byte) 73);
 	    Class26.aClass26_254.method881(new Class432(Class17_Sub1
-							.aClass458_11027),
+							.idx_31),
 					   (byte) 122);
 	    Class26.aClass26_255.method881(new Class432(Class40_Sub22
-							.aClass458_11051),
+							.idx_26),
 					   (byte) 87);
 	    Class26.aClass26_267
-		.method881(new Class432(Class316.aClass458_3497), (byte) 54);
-	    Class26.aClass26_257.method881(new Class432(Class27.aClass458_282),
+		.method881(new Class432(Class316.idx_2), (byte) 54);
+	    Class26.aClass26_257.method881(new Class432(Class27.idx_16),
 					   (byte) 83);
 	    Class26.aClass26_248
-		.method881(new Class432(Class138.aClass458_1640), (byte) 90);
-	    Class26.aClass26_259.method881(new Class432(Class47.aClass458_363),
+		.method881(new Class432(HashTable.idx_17), (byte) 90);
+	    Class26.aClass26_259.method881(new Class432(Class47.idx_18),
 					   (byte) 124);
 	    Class26.aClass26_273.method881(new Class432(Class198_Sub2
-							.aClass458_9905),
+							.idx_19),
 					   (byte) 48);
 	    Class26.aClass26_261
-		.method881(new Class432(Class297.aClass458_3274), (byte) 100);
+		.method881(new Class432(Class297.idx_20), (byte) 100);
 	    Class26.aClass26_262
-		.method881(new Class432(Class220.aClass458_2330), (byte) 60);
+		.method881(new Class432(Class220.idx_21), (byte) 60);
 	    Class26.aClass26_258.method881(new Class432(Class350_Sub2
-							.aClass458_10224),
+							.idx_22),
 					   (byte) 127);
 	    Class26.aClass26_264
-		.method881(new Class432(Class555.aClass458_7460), (byte) 9);
+		.method881(new Class432(Class555.idx_49), (byte) 9);
 	    Class26.aClass26_266
-		.method881(new Class432(Class174.aClass458_1862), (byte) 20);
+		.method881(new Class432(Class174.idx_24), (byte) 20);
 	    Class26.aClass26_249
-		.method881(new Class432(Class427.aClass458_4806), (byte) 90);
+		.method881(new Class432(Class427.idx_25), (byte) 90);
 	    Class26.aClass26_265
-		.method881(new Class432(BillBoardDefinitions.aClass458_5605), (byte) 64);
+		.method881(new Class432(Class504.idx_27), (byte) 64);
 	    Class26.aClass26_268.method881(new Class432(Class198_Sub15
-							.aClass458_9976),
+							.idx_29),
 					   (byte) 119);
 	    Class26.aClass26_269.method881(new Class441((Class110
-							 .aClass458_1370),
+							 .idx_10),
 							"huffman"),
 					   (byte) 108);
 	    Class26.aClass26_256.method881(new Class432(Class175_Sub4
-							.aClass458_9940),
+							.idx_3),
 					   (byte) 113);
 	    Class26.aClass26_271
-		.method881(new Class432(Class112.aClass458_1386), (byte) 102);
+		.method881(new Class432(Class112.idx_12), (byte) 102);
 	    Class26.aClass26_272
 		.method881(new Class432(Class276.aClass458_2875), (byte) 63);
 	    Class26.aClass26_260
-		.method881(new Class442(ItemDefinitions.aClass458_136, 0), (byte) 43);
+		.method881(new Class442(ItemDefinitions.idx_23, 0), (byte) 43);
 	    for (int i = 0; i < aClass26Array4853.length; i++) {
 		if (aClass26Array4853[i].method879((short) -2721) == null)
 		    throw new RuntimeException();

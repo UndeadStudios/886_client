@@ -10,7 +10,7 @@ public class ModelDecoder
     static final int anInt2085 = 1;
     public int version = 12;
     public int maxVertexUsed;
-    public BillBoardConfig[] aClass171Array2088;
+    public Class171[] aClass171Array2088;
     public int[] vertexX;
     public int[] vertexY;
     public byte[] aByteArray2091;
@@ -738,7 +738,7 @@ public class ModelDecoder
 	    if (bool_67_) {
 		int i_139_ = class525_sub38.readUnsignedByte(1524698822);
 		if (i_139_ > 0) {
-		    aClass171Array2088 = new BillBoardConfig[i_139_];
+		    aClass171Array2088 = new Class171[i_139_];
 		    for (int i_140_ = 0; i_140_ < i_139_; i_140_++) {
 			int i_141_ = class525_sub38.readUnsignedShort((byte) 120);
 			int i_142_ = class525_sub38.readUnsignedShort((byte) 48);
@@ -752,7 +752,7 @@ public class ModelDecoder
 			}
 			byte i_144_ = class525_sub38.readByte(-1150098071);
 			aClass171Array2088[i_140_]
-			    = new BillBoardConfig(i_141_, i_142_, i_143_, i_144_);
+			    = new Class171(i_141_, i_142_, i_143_, i_144_);
 		    }
 		}
 	    }
@@ -1873,7 +1873,7 @@ public class ModelDecoder
 	    anIntArray2130 = new int[texturedFaceCount];
 	}
 	if (i_334_ > 0)
-	    aClass171Array2088 = new BillBoardConfig[i_334_];
+	    aClass171Array2088 = new Class171[i_334_];
 	if (i_332_ > 0)
 	    aClass184Array2129 = new Class184[i_332_];
 	if (i_333_ > 0)
@@ -1908,7 +1908,7 @@ public class ModelDecoder
 		    for (int i_350_ = 0;
 			 i_350_ < class186_348_.aClass171Array2088.length;
 			 i_350_++) {
-			BillBoardConfig class171
+			Class171 class171
 			    = class186_348_.aClass171Array2088[i_350_];
 			aClass171Array2088[i_334_++]
 			    = class171.method2732((class171.anInt1856

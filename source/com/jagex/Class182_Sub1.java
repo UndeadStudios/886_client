@@ -3999,7 +3999,7 @@ public abstract class Class182_Sub1 extends Class182
 	aBool9156 = false;
 	try {
 	    aClass319_9196 = new Class319_Sub2(this);
-	    aClass312_9249 = new Class312_Sub1(this);
+	    aClass312_9249 = new BillBoardConfig(this);
 	    aClass314_9213 = new Class314_Sub2(this);
 	    aClass317_9194 = new Class317_Sub1(this);
 	    aClass346_Sub1_Sub2_9266
@@ -4065,7 +4065,7 @@ public abstract class Class182_Sub1 extends Class182
 	aBool9156 = false;
 	try {
 	    aClass319_9196 = new Class319_Sub2(this);
-	    aClass312_9249 = new Class312_Sub1(this);
+	    aClass312_9249 = new BillBoardConfig(this);
 	    aClass314_9213 = new Class314_Sub2(this);
 	    aClass317_9194 = new Class317_Sub1(this);
 	    aClass346_Sub1_Sub2_9266
@@ -5069,7 +5069,7 @@ public abstract class Class182_Sub1 extends Class182
 				     int i_666_, boolean bool, byte[] is);
     
     static int method14951(char c, char c_667_, char c_668_, char c_669_) {
-	return ((c & 0xff) << 0 | (c_667_ & 0xff) << 8 | (c_668_ & 0xff) << 16
+	return ((c & 0xff) | (c_667_ & 0xff) << 8 | (c_668_ & 0xff) << 16
 		| (c_669_ & 0xff) << 24);
     }
     
@@ -5237,7 +5237,7 @@ public abstract class Class182_Sub1 extends Class182
     }
     
     static int method14969(char c, char c_677_, char c_678_, char c_679_) {
-	return ((c & 0xff) << 0 | (c_677_ & 0xff) << 8 | (c_678_ & 0xff) << 16
+	return ((c & 0xff) | (c_677_ & 0xff) << 8 | (c_678_ & 0xff) << 16
 		| (c_679_ & 0xff) << 24);
     }
     
@@ -5305,7 +5305,7 @@ public abstract class Class182_Sub1 extends Class182
 	aBool9156 = false;
 	try {
 	    aClass319_9196 = new Class319_Sub2(this);
-	    aClass312_9249 = new Class312_Sub1(this);
+	    aClass312_9249 = new BillBoardConfig(this);
 	    aClass314_9213 = new Class314_Sub2(this);
 	    aClass317_9194 = new Class317_Sub1(this);
 	    aClass346_Sub1_Sub2_9266
@@ -5460,7 +5460,7 @@ public abstract class Class182_Sub1 extends Class182
     
     abstract void method15001();
     
-    Class182_Sub1(Class180 class180, Interface24 interface24,
+    Class182_Sub1(Textures class180, Interface24 interface24,
                   Interface47 interface47, Interface48 interface48,
                   Interface49 interface49, JS5 class458, int i,
                   int i_683_) {
@@ -5710,7 +5710,7 @@ public abstract class Class182_Sub1 extends Class182
 	aBool9156 = false;
 	try {
 	    aClass319_9196 = new Class319_Sub2(this);
-	    aClass312_9249 = new Class312_Sub1(this);
+	    aClass312_9249 = new BillBoardConfig(this);
 	    aClass314_9213 = new Class314_Sub2(this);
 	    aClass317_9194 = new Class317_Sub1(this);
 	    aClass346_Sub1_Sub2_9266
@@ -5875,7 +5875,7 @@ public abstract class Class182_Sub1 extends Class182
     public abstract void method15040(int i, Interface35 interface35);
     
     static int method15041(char c, char c_702_, char c_703_, char c_704_) {
-	return ((c & 0xff) << 0 | (c_702_ & 0xff) << 8 | (c_703_ & 0xff) << 16
+	return ((c & 0xff) | (c_702_ & 0xff) << 8 | (c_703_ & 0xff) << 16
 		| (c_704_ & 0xff) << 24);
     }
     

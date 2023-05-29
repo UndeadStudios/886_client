@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class17_Sub1 extends Class17
 {
-    public static JS5 aClass458_11027;
+    public static JS5 idx_31;
     
     public Class method45() {
 	return ItemDefinitions.class;

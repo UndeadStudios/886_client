@@ -620,7 +620,7 @@ public class Class564
 	    = (null != Class642.anIntArray8324
 	       ? Class642.anIntArray8324[class525_sub38.readUnsignedShort((byte) 95)]
 	       : (Class381.anIntArray3929
-		  [BillBoardDefinitions.method8313(class525_sub38.readUnsignedShort((byte) 75),
+		  [Class504.method8313(class525_sub38.readUnsignedShort((byte) 75),
 				       859236947) & 0xffff]));
 	int i_42_ = class525_sub38.readUnsignedByte(1492685754);
 	anInt7590 = (i_42_ & 0x1f) * 750647107;

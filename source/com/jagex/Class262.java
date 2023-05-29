@@ -112,7 +112,7 @@ public class Class262
 	Object[] objects = class525_sub32.anObjectArray10740;
 	int i_11_ = ((Integer) objects[0]).intValue();
 	Class525_Sub16_Sub4 class525_sub16_sub4
-	    = Class166.method2675(i_11_, (byte) -42);
+	    = TextureMetrics.method2675(i_11_, (byte) -42);
 	if (class525_sub16_sub4 != null) {
 	    Class683 class683 = Class457.method7468(-485786200);
 	    class683.anIntArray8649

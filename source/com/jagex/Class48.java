@@ -112,7 +112,7 @@ public class Class48
 	    int i_18_ = i_9_ + i_14_ - (i_14_ * (-655115223 * Class63.anInt692)
 					/ Class556_Sub1.anInt7521) - i_16_;
 	    int i_19_ = -1996554240;
-	    if (Class668.aClass668_8577 == client.aClass668_11090)
+	    if (Class668.aClass668_8577 == client.gametype)
 		i_19_ = -1996488705;
 	    class182.method3151(i_17_, i_18_, i_15_, i_16_, i_19_, 1);
 	    class182.method3195(i_17_, i_18_, i_15_, i_16_, i_19_, 0);

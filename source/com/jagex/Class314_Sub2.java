@@ -139,8 +139,8 @@ public class Class314_Sub2 extends Class314
 	Class656_Sub1_Sub3_Sub5 class656_sub1_sub3_sub5
 	    = new Class656_Sub1_Sub3_Sub5(client.aClass507_11137
 					      .method8358((byte) 67),
-					  i, -799406751 * Class166.anInt1836,
-					  -799406751 * Class166.anInt1836,
+					  i, -799406751 * TextureMetrics.anInt1836,
+					  -799406751 * TextureMetrics.anInt1836,
 					  i_10_, i_11_, i_8_,
 					  client.anInt11083 + i_14_,
 					  client.anInt11083 + i_15_, i_16_,
@@ -148,7 +148,7 @@ public class Class314_Sub2 extends Class314
 					  i_18_);
 	class656_sub1_sub3_sub5.method18857
 	    (i_12_, i_13_,
-	     Class335.method5855(i_12_, i_13_, Class166.anInt1836 * -799406751,
+	     Class335.method5855(i_12_, i_13_, TextureMetrics.anInt1836 * -799406751,
 				 2020563229) - i_9_,
 	     i_14_ + client.anInt11083, (short) 14155);
 	client.aClass709_11247.method14345

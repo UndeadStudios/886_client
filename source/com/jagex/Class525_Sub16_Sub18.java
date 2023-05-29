@@ -71,7 +71,7 @@ public class Class525_Sub16_Sub18 extends Class525_Sub16
 	Class709 class709 = new Class709();
 	int[] is;
 	synchronized (aClass458_11871) {
-	    int i = aClass458_11871.method7487(anInt11872 * -629092491,
+	    int i = aClass458_11871.getFileCountForArchive(anInt11872 * -629092491,
 					       2136505378);
 	    aClass177Array11874 = new AnimationFrame[i];
 	    is = aClass458_11871.method7540(anInt11872 * -629092491,
@@ -141,7 +141,7 @@ public class Class525_Sub16_Sub18 extends Class525_Sub16
 	Class709 class709 = new Class709();
 	int[] is;
 	synchronized (aClass458_11871) {
-	    int i_10_ = aClass458_11871.method7487(anInt11872 * -629092491,
+	    int i_10_ = aClass458_11871.getFileCountForArchive(anInt11872 * -629092491,
 						   2137322192);
 	    aClass177Array11874 = new AnimationFrame[i_10_];
 	    is = aClass458_11871.method7540(anInt11872 * -629092491,

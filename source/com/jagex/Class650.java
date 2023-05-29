@@ -125,7 +125,7 @@ public class Class650
 	Class42 class42 = null;
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      true, 1194898388);
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-411979930);

@@ -26,7 +26,7 @@ final class Class483 implements Interface11
 	Class56[] class56s = Class713.method14458((byte) 1);
 	for (int i_0_ = 0; i_0_ < class56s.length; i_0_++) {
 	    Class56 class56 = class56s[i_0_];
-	    if (class56 != Class56.aClass56_595) {
+	    if (class56 != Class56.idx_32) {
 		JS5 class458
 		    = (JS5) EmitterConfig.aMap11727.get(class56);
 		if (null == class458)

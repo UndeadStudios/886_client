@@ -213,7 +213,7 @@ public class Class313_Sub2 extends Class313
 	int i_19_ = 2055;
 	if (class179 == null) {
 	    ModelDecoder class186
-		= ModelDecoder.method3644(WorldTile.aClass458_705, i_17_, 0);
+		= ModelDecoder.method3644(WorldTile.idx_7, i_17_, 0);
 	    if (null == class186)
 		return null;
 	    if (class186.version < 13)

@@ -20,6 +20,6 @@ public class Class31
 	String string
 	    = (String) (class683.anObjectArray8636
 			[(class683.anInt8644 -= 1285561025) * 1373599041]);
-	Class180.method3118(string, (short) -8831);
+	Textures.method3118(string, (short) -8831);
     }
 }

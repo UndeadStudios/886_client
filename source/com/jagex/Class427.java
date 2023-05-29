@@ -10,7 +10,7 @@ public class Class427
     public static final int anInt4803 = 2;
     public static final int anInt4804 = 4;
     public static final int anInt4805 = 0;
-    public static JS5 aClass458_4806;
+    public static JS5 idx_25;
     
     Class427() throws Throwable {
 	throw new Error();

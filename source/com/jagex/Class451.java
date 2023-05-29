@@ -109,7 +109,7 @@ public class Class451
 	    i_13_++;
 	if (class458.method7506(Class29.anInt290 * -488679847, 2081272383))
 	    i_13_++;
-	if (class458.method7506(Class138.anInt1639 * -1991446261, 1966156226))
+	if (class458.method7506(HashTable.anInt1639 * -1991446261, 1966156226))
 	    i_13_++;
 	if (class458.method7506(Class29.anInt291 * -918576593, -1469904947))
 	    i_13_++;

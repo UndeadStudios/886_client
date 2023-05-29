@@ -88,7 +88,7 @@ public class Class441 implements Interface6
 		Class335.method5858((9 == client.anInt11075 * 1777895575
 				     || 8 == 1777895575 * client.anInt11075
 				     || (-750203937 * client.anInt11260
-					 != 1089481059 * (Class138
+					 != 1089481059 * (HashTable
 							  .aClass631_1641
 							  .anInt8176))),
 				    (byte) -80);
@@ -96,11 +96,11 @@ public class Class441 implements Interface6
 	    }
 	    if (16 == i) {
 		boolean bool;
-		if (-1 == -1150509307 * Class138.aClass631_1641.anInt8177)
+		if (-1 == -1150509307 * HashTable.aClass631_1641.anInt8177)
 		    bool = (14 == 1777895575 * client.anInt11075
 			    || 1777895575 * client.anInt11075 == 12);
 		else
-		    bool = (Class138.aClass631_1641.anInt8177 * -1150509307
+		    bool = (HashTable.aClass631_1641.anInt8177 * -1150509307
 			    != client.anInt11260 * -750203937);
 		Class386.method6446(bool, -1792723034);
 	    }

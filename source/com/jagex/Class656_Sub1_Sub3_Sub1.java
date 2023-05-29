@@ -408,7 +408,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    }
 	}
 	if (class531_sub2_42_ != null
-	    || i_44_ < 1474193651 * Class138.aClass631_1641.anInt8172) {
+	    || i_44_ < 1474193651 * HashTable.aClass631_1641.anInt8172) {
 	    Class531_Sub2 class531_sub2_46_ = new Class531_Sub2(class583);
 	    if (null == class531_sub2)
 		aClass708_12009.method14323(class531_sub2_46_, 1391417458);
@@ -417,7 +417,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 				    510725736);
 	    class531_sub2_46_.method15921(i_36_ + i_38_, i_39_, i_40_, i_37_,
 					  567518306);
-	    if (i_44_ >= Class138.aClass631_1641.anInt8172 * 1474193651)
+	    if (i_44_ >= HashTable.aClass631_1641.anInt8172 * 1474193651)
 		class531_sub2_42_.method8794(660423075);
 	}
     }
@@ -1189,7 +1189,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	boolean bool = true;
 	boolean bool_184_ = true;
 	for (int i_185_ = 0;
-	     i_185_ < -379729 * Class138.aClass631_1641.anInt8166; i_185_++) {
+		 i_185_ < -379729 * HashTable.aClass631_1641.anInt8166; i_185_++) {
 	    if (anIntArray11974[i_185_] > i_181_)
 		bool = false;
 	    else
@@ -1215,7 +1215,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    else if (1 == i_187_)
 		i_189_ = anIntArray11978[0];
 	    for (int i_190_ = 1;
-		 i_190_ < Class138.aClass631_1641.anInt8166 * -379729;
+		 i_190_ < HashTable.aClass631_1641.anInt8166 * -379729;
 		 i_190_++) {
 		if (0 == i_187_) {
 		    if (anIntArray11974[i_190_] < i_189_) {
@@ -1233,12 +1233,12 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    if (bool)
 		aByte12016 = (byte) 0;
 	    for (int i_191_ = 0;
-		 i_191_ < -379729 * Class138.aClass631_1641.anInt8166;
+		 i_191_ < -379729 * HashTable.aClass631_1641.anInt8166;
 		 i_191_++) {
 		int i_192_ = aByte12016;
 		aByte12016
 		    = (byte) ((1 + aByte12016)
-			      % (-379729 * Class138.aClass631_1641.anInt8166));
+			      % (-379729 * HashTable.aClass631_1641.anInt8166));
 		if (anIntArray11974[i_192_] <= i_181_) {
 		    i_186_ = i_192_;
 		    break;
@@ -1348,11 +1348,11 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	anInt11959 = 0;
 	anInt11994 = 0;
 	aByte12016 = (byte) 0;
-	anIntArray12026 = new int[Class138.aClass631_1641.anInt8166 * -379729];
-	anIntArray11978 = new int[-379729 * Class138.aClass631_1641.anInt8166];
-	anIntArray11974 = new int[Class138.aClass631_1641.anInt8166 * -379729];
-	anIntArray11980 = new int[-379729 * Class138.aClass631_1641.anInt8166];
-	anIntArray12024 = new int[-379729 * Class138.aClass631_1641.anInt8166];
+	anIntArray12026 = new int[HashTable.aClass631_1641.anInt8166 * -379729];
+	anIntArray11978 = new int[-379729 * HashTable.aClass631_1641.anInt8166];
+	anIntArray11974 = new int[HashTable.aClass631_1641.anInt8166 * -379729];
+	anIntArray11980 = new int[-379729 * HashTable.aClass631_1641.anInt8166];
+	anIntArray12024 = new int[-379729 * HashTable.aClass631_1641.anInt8166];
 	aClass708_12009 = new Class708();
 	anInt11983 = -104662899;
 	anIntArray11985 = null;
@@ -1671,7 +1671,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	boolean bool = true;
 	boolean bool_243_ = true;
 	for (int i_244_ = 0;
-	     i_244_ < -379729 * Class138.aClass631_1641.anInt8166; i_244_++) {
+		 i_244_ < -379729 * HashTable.aClass631_1641.anInt8166; i_244_++) {
 	    if (anIntArray11974[i_244_] > i_241_)
 		bool = false;
 	    else
@@ -1697,7 +1697,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    else if (1 == i_246_)
 		i_248_ = anIntArray11978[0];
 	    for (int i_249_ = 1;
-		 i_249_ < Class138.aClass631_1641.anInt8166 * -379729;
+		 i_249_ < HashTable.aClass631_1641.anInt8166 * -379729;
 		 i_249_++) {
 		if (0 == i_246_) {
 		    if (anIntArray11974[i_249_] < i_248_) {
@@ -1715,12 +1715,12 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    if (bool)
 		aByte12016 = (byte) 0;
 	    for (int i_250_ = 0;
-		 i_250_ < -379729 * Class138.aClass631_1641.anInt8166;
+		 i_250_ < -379729 * HashTable.aClass631_1641.anInt8166;
 		 i_250_++) {
 		int i_251_ = aByte12016;
 		aByte12016
 		    = (byte) ((1 + aByte12016)
-			      % (-379729 * Class138.aClass631_1641.anInt8166));
+			      % (-379729 * HashTable.aClass631_1641.anInt8166));
 		if (anIntArray11974[i_251_] <= i_241_) {
 		    i_245_ = i_251_;
 		    break;
@@ -1741,7 +1741,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	boolean bool = true;
 	boolean bool_257_ = true;
 	for (int i_258_ = 0;
-	     i_258_ < -379729 * Class138.aClass631_1641.anInt8166; i_258_++) {
+		 i_258_ < -379729 * HashTable.aClass631_1641.anInt8166; i_258_++) {
 	    if (anIntArray11974[i_258_] > i_255_)
 		bool = false;
 	    else
@@ -1767,7 +1767,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    else if (1 == i_260_)
 		i_262_ = anIntArray11978[0];
 	    for (int i_263_ = 1;
-		 i_263_ < Class138.aClass631_1641.anInt8166 * -379729;
+		 i_263_ < HashTable.aClass631_1641.anInt8166 * -379729;
 		 i_263_++) {
 		if (0 == i_260_) {
 		    if (anIntArray11974[i_263_] < i_262_) {
@@ -1785,12 +1785,12 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    if (bool)
 		aByte12016 = (byte) 0;
 	    for (int i_264_ = 0;
-		 i_264_ < -379729 * Class138.aClass631_1641.anInt8166;
+		 i_264_ < -379729 * HashTable.aClass631_1641.anInt8166;
 		 i_264_++) {
 		int i_265_ = aByte12016;
 		aByte12016
 		    = (byte) ((1 + aByte12016)
-			      % (-379729 * Class138.aClass631_1641.anInt8166));
+			      % (-379729 * HashTable.aClass631_1641.anInt8166));
 		if (anIntArray11974[i_265_] <= i_255_) {
 		    i_259_ = i_265_;
 		    break;
@@ -1836,7 +1836,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    }
 	}
 	if (class531_sub2_271_ != null
-	    || i_273_ < 1474193651 * Class138.aClass631_1641.anInt8172) {
+	    || i_273_ < 1474193651 * HashTable.aClass631_1641.anInt8172) {
 	    Class531_Sub2 class531_sub2_275_ = new Class531_Sub2(class583);
 	    if (null == class531_sub2)
 		aClass708_12009.method14323(class531_sub2_275_, 877715647);
@@ -1845,7 +1845,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 				    568796555);
 	    class531_sub2_275_.method15921(i_266_ + i_268_, i_269_, i_270_,
 					   i_267_, -960334784);
-	    if (i_273_ >= Class138.aClass631_1641.anInt8172 * 1474193651)
+	    if (i_273_ >= HashTable.aClass631_1641.anInt8172 * 1474193651)
 		class531_sub2_271_.method8794(-1187531720);
 	}
     }
@@ -1880,7 +1880,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    }
 	}
 	if (class531_sub2_281_ != null
-	    || i_283_ < 1474193651 * Class138.aClass631_1641.anInt8172) {
+	    || i_283_ < 1474193651 * HashTable.aClass631_1641.anInt8172) {
 	    Class531_Sub2 class531_sub2_285_ = new Class531_Sub2(class583);
 	    if (null == class531_sub2)
 		aClass708_12009.method14323(class531_sub2_285_, 718860298);
@@ -1889,7 +1889,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 				    1633704606);
 	    class531_sub2_285_.method15921(i_276_ + i_278_, i_279_, i_280_,
 					   i_277_, 831779075);
-	    if (i_283_ >= Class138.aClass631_1641.anInt8172 * 1474193651)
+	    if (i_283_ >= HashTable.aClass631_1641.anInt8172 * 1474193651)
 		class531_sub2_281_.method8794(-89845547);
 	}
     }
@@ -2496,7 +2496,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 	    }
 	}
 	if (class531_sub2_429_ != null
-	    || i_431_ < 1474193651 * Class138.aClass631_1641.anInt8172) {
+	    || i_431_ < 1474193651 * HashTable.aClass631_1641.anInt8172) {
 	    Class531_Sub2 class531_sub2_433_ = new Class531_Sub2(class583);
 	    if (null == class531_sub2)
 		aClass708_12009.method14323(class531_sub2_433_, 2138582662);
@@ -2505,7 +2505,7 @@ public abstract class Class656_Sub1_Sub3_Sub1 extends Class656_Sub1_Sub3
 				    1753008798);
 	    class531_sub2_433_.method15921(i_424_ + i_426_, i_427_, i_428_,
 					   i_425_, 1092596738);
-	    if (i_431_ >= Class138.aClass631_1641.anInt8172 * 1474193651)
+	    if (i_431_ >= HashTable.aClass631_1641.anInt8172 * 1474193651)
 		class531_sub2_429_.method8794(-920732110);
 	}
     }

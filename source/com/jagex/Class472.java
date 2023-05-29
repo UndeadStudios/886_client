@@ -155,7 +155,7 @@ public class Class472 implements Interface76
 			class525_sub38.method16609(client.aLong11342
 						   * 253034344929793841L);
 			class525_sub38.method16735((-1420999111
-						    * (client.aClass668_11090
+						    * (client.gametype
 						       .anInt8584)),
 						   -177266065);
 			class525_sub38.method16735((int) (Math.random()
@@ -475,7 +475,7 @@ public class Class472 implements Interface76
 			    }
 			    class525_sub38_sub2.method16735
 				((-1420999111
-				  * client.aClass668_11090.anInt8584),
+				  * client.gametype.anInt8584),
 				 -797258447);
 			    class525_sub38_sub2.method16735(Class21
 								.aClass666_213

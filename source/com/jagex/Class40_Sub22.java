@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class40_Sub22 extends Class40
 {
-    public static JS5 aClass458_11051;
+    public static JS5 idx_26;
     
     public void method1020(int i, byte i_0_) {
 	super.method1020(i, (byte) 0);

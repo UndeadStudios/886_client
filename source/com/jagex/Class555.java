@@ -15,7 +15,7 @@ public class Class555 implements Runnable
     int anInt7457 = 0;
     IOException anIOException7458;
     boolean aBool7459;
-    public static JS5 aClass458_7460;
+    public static JS5 idx_49;
     
     Class555(OutputStream outputstream, int i) {
 	anInt7454 = 0;
@@ -357,27 +357,27 @@ public class Class555 implements Runnable
 			   int i_18_, int i_19_, byte i_20_) {
 	if ((Class685.aClass157_8685 == null || Class61.aClass157_669 == null
 	     || Class64.aClass157_696 == null)
-	    && Class462.aClass458_5095
+	    && Class462.idx_8
 		   .method7506(Class61.anInt665 * 1848940705, -2102979111)
-	    && Class462.aClass458_5095
+	    && Class462.idx_8
 		   .method7506(Class493.anInt5299 * 948400913, 913118940)
-	    && Class462.aClass458_5095.method7506(-76170861 * Class61.anInt678,
+	    && Class462.idx_8.method7506(-76170861 * Class61.anInt678,
 						  -648244921)) {
 	    Class173 class173
-		= Class187.method3667(Class462.aClass458_5095,
+		= Class187.method3667(Class462.idx_8,
 				      948400913 * Class493.anInt5299, 0);
 	    Class61.aClass157_669 = class182.method3216(class173, true);
 	    class173.method2773();
 	    Class31.aClass157_304 = class182.method3216(class173, true);
 	    Class685.aClass157_8685
 		= class182.method3216(Class187.method3667((Class462
-							   .aClass458_5095),
+							   .idx_8),
 							  (1848940705
 							   * Class61.anInt665),
 							  0),
 				      true);
 	    Class173 class173_21_
-		= Class187.method3667(Class462.aClass458_5095,
+		= Class187.method3667(Class462.idx_8,
 				      -76170861 * Class61.anInt678, 0);
 	    Class64.aClass157_696 = class182.method3216(class173_21_, true);
 	    class173_21_.method2773();

@@ -20,7 +20,7 @@ public class Class52
 	    try {
 		class42
 		    = Class182.method3594("3",
-					  client.aClass668_11090.aString8579,
+					  client.gametype.aString8579,
 					  false, 1844723338);
 		byte[] is = new byte[(int) class42.method1048(-1879179962)];
 		int i;
@@ -122,7 +122,7 @@ public class Class52
 	    try {
 		try {
 		    class42 = Class182.method3594("3",
-						  (client.aClass668_11090
+						  (client.gametype
 						   .aString8579),
 						  true, -2010286716);
 		    RSBuffer class525_sub38 = new RSBuffer(5000);
@@ -198,7 +198,7 @@ public class Class52
 	    try {
 		class42
 		    = Class182.method3594("3",
-					  client.aClass668_11090.aString8579,
+					  client.gametype.aString8579,
 					  false, -1919299554);
 		byte[] is = new byte[(int) class42.method1048(-2062110314)];
 		int i;
@@ -292,7 +292,7 @@ public class Class52
 	    try {
 		class42
 		    = Class182.method3594("3",
-					  client.aClass668_11090.aString8579,
+					  client.gametype.aString8579,
 					  false, 1029031131);
 		byte[] is = new byte[(int) class42.method1048(-2065486659)];
 		int i;
@@ -337,7 +337,7 @@ public class Class52
 	    try {
 		try {
 		    class42 = Class182.method3594("3",
-						  (client.aClass668_11090
+						  (client.gametype
 						   .aString8579),
 						  true, -1087480858);
 		    RSBuffer class525_sub38 = new RSBuffer(5000);
@@ -378,7 +378,7 @@ public class Class52
 	    try {
 		try {
 		    class42 = Class182.method3594("3",
-						  (client.aClass668_11090
+						  (client.gametype
 						   .aString8579),
 						  true, 594451354);
 		    RSBuffer class525_sub38 = new RSBuffer(5000);
@@ -419,7 +419,7 @@ public class Class52
 	    try {
 		try {
 		    class42 = Class182.method3594("3",
-						  (client.aClass668_11090
+						  (client.gametype
 						   .aString8579),
 						  true, 1298499014);
 		    RSBuffer class525_sub38 = new RSBuffer(5000);

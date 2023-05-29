@@ -125,7 +125,7 @@ class Class35 implements Iterator
 		    class525_sub15.aClass525_Sub38_Sub2_10546.method16735
 			(Class21.aClass666_213.method80(), -2041670059);
 		    class525_sub15.aClass525_Sub38_Sub2_10546.method16735
-			(client.aClass668_11090.anInt8584 * -1420999111,
+			(client.gametype.anInt8584 * -1420999111,
 			 -343352712);
 		    Class236.method4408((class525_sub15
 					 .aClass525_Sub38_Sub2_10546),

@@ -18,7 +18,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
     Interface40 method15235() {
 	if (anInterface40_11578 == null) {
 	    Interface24 interface24 = aClass182_Sub1_11579.anInterface24_1943;
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub1_11579.aClass180_1944.method3116(anInt11580,
 								 -1431554601);
 	    if (class166 == null)
@@ -27,17 +27,17 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 		return null;
 	    if (!interface24.method130(Class593.aClass593_7830, anInt11580,
 				       Class594.aClass594_7834, 1.0F,
-				       class166.anInt1808 * 2082667437,
-				       class166.anInt1808 * 2082667437, false,
+				       class166.bitLoad * 2082667437,
+				       class166.bitLoad * 2082667437, false,
 				       (byte) 21))
 		return null;
 	    int[] is
 		= interface24.method129(Class593.aClass593_7830, anInt11580,
-					1.0F, class166.anInt1808 * 2082667437,
-					class166.anInt1808 * 2082667437, false,
+					1.0F, class166.bitLoad * 2082667437,
+					class166.bitLoad * 2082667437, false,
 					-1215956861);
-	    int i = (class166.anInt1808 * 2082667437
-		     * (class166.anInt1808 * 2082667437));
+	    int i = (class166.bitLoad * 2082667437
+		     * (class166.bitLoad * 2082667437));
 	    if (is == null)
 		return null;
 	    for (int i_0_ = 0; i_0_ < 6; i_0_++) {
@@ -46,7 +46,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 				 i);
 	    }
 	    anInterface40_11578
-		= aClass182_Sub1_11579.method14806((class166.anInt1808
+		= aClass182_Sub1_11579.method14806((class166.bitLoad
 						    * 2082667437),
 						   class166.aByte1809 != 0,
 						   anIntArrayArray11581);
@@ -57,7 +57,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
     Interface40 method15230() {
 	if (anInterface40_11578 == null) {
 	    Interface24 interface24 = aClass182_Sub1_11579.anInterface24_1943;
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub1_11579.aClass180_1944.method3116(anInt11580,
 								 -1431554601);
 	    if (class166 == null)
@@ -66,17 +66,17 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 		return null;
 	    if (!interface24.method130(Class593.aClass593_7830, anInt11580,
 				       Class594.aClass594_7834, 1.0F,
-				       class166.anInt1808 * 2082667437,
-				       class166.anInt1808 * 2082667437, false,
+				       class166.bitLoad * 2082667437,
+				       class166.bitLoad * 2082667437, false,
 				       (byte) 70))
 		return null;
 	    int[] is
 		= interface24.method129(Class593.aClass593_7830, anInt11580,
-					1.0F, class166.anInt1808 * 2082667437,
-					class166.anInt1808 * 2082667437, false,
+					1.0F, class166.bitLoad * 2082667437,
+					class166.bitLoad * 2082667437, false,
 					-840315407);
-	    int i = (class166.anInt1808 * 2082667437
-		     * (class166.anInt1808 * 2082667437));
+	    int i = (class166.bitLoad * 2082667437
+		     * (class166.bitLoad * 2082667437));
 	    if (is == null)
 		return null;
 	    for (int i_1_ = 0; i_1_ < 6; i_1_++) {
@@ -85,7 +85,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 				 i);
 	    }
 	    anInterface40_11578
-		= aClass182_Sub1_11579.method14806((class166.anInt1808
+		= aClass182_Sub1_11579.method14806((class166.bitLoad
 						    * 2082667437),
 						   class166.aByte1809 != 0,
 						   anIntArrayArray11581);
@@ -96,7 +96,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
     Interface40 method15231() {
 	if (anInterface40_11578 == null) {
 	    Interface24 interface24 = aClass182_Sub1_11579.anInterface24_1943;
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub1_11579.aClass180_1944.method3116(anInt11580,
 								 -1431554601);
 	    if (class166 == null)
@@ -105,17 +105,17 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 		return null;
 	    if (!interface24.method130(Class593.aClass593_7830, anInt11580,
 				       Class594.aClass594_7834, 1.0F,
-				       class166.anInt1808 * 2082667437,
-				       class166.anInt1808 * 2082667437, false,
+				       class166.bitLoad * 2082667437,
+				       class166.bitLoad * 2082667437, false,
 				       (byte) 107))
 		return null;
 	    int[] is
 		= interface24.method129(Class593.aClass593_7830, anInt11580,
-					1.0F, class166.anInt1808 * 2082667437,
-					class166.anInt1808 * 2082667437, false,
+					1.0F, class166.bitLoad * 2082667437,
+					class166.bitLoad * 2082667437, false,
 					-847296263);
-	    int i = (class166.anInt1808 * 2082667437
-		     * (class166.anInt1808 * 2082667437));
+	    int i = (class166.bitLoad * 2082667437
+		     * (class166.bitLoad * 2082667437));
 	    if (is == null)
 		return null;
 	    for (int i_2_ = 0; i_2_ < 6; i_2_++) {
@@ -124,7 +124,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 				 i);
 	    }
 	    anInterface40_11578
-		= aClass182_Sub1_11579.method14806((class166.anInt1808
+		= aClass182_Sub1_11579.method14806((class166.bitLoad
 						    * 2082667437),
 						   class166.aByte1809 != 0,
 						   anIntArrayArray11581);
@@ -135,7 +135,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
     Interface40 method15234() {
 	if (anInterface40_11578 == null) {
 	    Interface24 interface24 = aClass182_Sub1_11579.anInterface24_1943;
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub1_11579.aClass180_1944.method3116(anInt11580,
 								 -1431554601);
 	    if (class166 == null)
@@ -144,17 +144,17 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 		return null;
 	    if (!interface24.method130(Class593.aClass593_7830, anInt11580,
 				       Class594.aClass594_7834, 1.0F,
-				       class166.anInt1808 * 2082667437,
-				       class166.anInt1808 * 2082667437, false,
+				       class166.bitLoad * 2082667437,
+				       class166.bitLoad * 2082667437, false,
 				       (byte) 76))
 		return null;
 	    int[] is
 		= interface24.method129(Class593.aClass593_7830, anInt11580,
-					1.0F, class166.anInt1808 * 2082667437,
-					class166.anInt1808 * 2082667437, false,
+					1.0F, class166.bitLoad * 2082667437,
+					class166.bitLoad * 2082667437, false,
 					-1346217799);
-	    int i = (class166.anInt1808 * 2082667437
-		     * (class166.anInt1808 * 2082667437));
+	    int i = (class166.bitLoad * 2082667437
+		     * (class166.bitLoad * 2082667437));
 	    if (is == null)
 		return null;
 	    for (int i_3_ = 0; i_3_ < 6; i_3_++) {
@@ -163,7 +163,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 				 i);
 	    }
 	    anInterface40_11578
-		= aClass182_Sub1_11579.method14806((class166.anInt1808
+		= aClass182_Sub1_11579.method14806((class166.bitLoad
 						    * 2082667437),
 						   class166.aByte1809 != 0,
 						   anIntArrayArray11581);
@@ -174,7 +174,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
     Interface40 method15232() {
 	if (anInterface40_11578 == null) {
 	    Interface24 interface24 = aClass182_Sub1_11579.anInterface24_1943;
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub1_11579.aClass180_1944.method3116(anInt11580,
 								 -1431554601);
 	    if (class166 == null)
@@ -183,17 +183,17 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 		return null;
 	    if (!interface24.method130(Class593.aClass593_7830, anInt11580,
 				       Class594.aClass594_7834, 1.0F,
-				       class166.anInt1808 * 2082667437,
-				       class166.anInt1808 * 2082667437, false,
+				       class166.bitLoad * 2082667437,
+				       class166.bitLoad * 2082667437, false,
 				       (byte) 107))
 		return null;
 	    int[] is
 		= interface24.method129(Class593.aClass593_7830, anInt11580,
-					1.0F, class166.anInt1808 * 2082667437,
-					class166.anInt1808 * 2082667437, false,
+					1.0F, class166.bitLoad * 2082667437,
+					class166.bitLoad * 2082667437, false,
 					-557500287);
-	    int i = (class166.anInt1808 * 2082667437
-		     * (class166.anInt1808 * 2082667437));
+	    int i = (class166.bitLoad * 2082667437
+		     * (class166.bitLoad * 2082667437));
 	    if (is == null)
 		return null;
 	    for (int i_4_ = 0; i_4_ < 6; i_4_++) {
@@ -202,7 +202,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 				 i);
 	    }
 	    anInterface40_11578
-		= aClass182_Sub1_11579.method14806((class166.anInt1808
+		= aClass182_Sub1_11579.method14806((class166.bitLoad
 						    * 2082667437),
 						   class166.aByte1809 != 0,
 						   anIntArrayArray11581);
@@ -213,7 +213,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
     Interface40 method15233() {
 	if (anInterface40_11578 == null) {
 	    Interface24 interface24 = aClass182_Sub1_11579.anInterface24_1943;
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub1_11579.aClass180_1944.method3116(anInt11580,
 								 -1431554601);
 	    if (class166 == null)
@@ -222,17 +222,17 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 		return null;
 	    if (!interface24.method130(Class593.aClass593_7830, anInt11580,
 				       Class594.aClass594_7834, 1.0F,
-				       class166.anInt1808 * 2082667437,
-				       class166.anInt1808 * 2082667437, false,
+				       class166.bitLoad * 2082667437,
+				       class166.bitLoad * 2082667437, false,
 				       (byte) 30))
 		return null;
 	    int[] is
 		= interface24.method129(Class593.aClass593_7830, anInt11580,
-					1.0F, class166.anInt1808 * 2082667437,
-					class166.anInt1808 * 2082667437, false,
+					1.0F, class166.bitLoad * 2082667437,
+					class166.bitLoad * 2082667437, false,
 					-850262234);
-	    int i = (class166.anInt1808 * 2082667437
-		     * (class166.anInt1808 * 2082667437));
+	    int i = (class166.bitLoad * 2082667437
+		     * (class166.bitLoad * 2082667437));
 	    if (is == null)
 		return null;
 	    for (int i_5_ = 0; i_5_ < 6; i_5_++) {
@@ -241,7 +241,7 @@ public class Class174_Sub2_Sub1 extends Class174_Sub2
 				 i);
 	    }
 	    anInterface40_11578
-		= aClass182_Sub1_11579.method14806((class166.anInt1808
+		= aClass182_Sub1_11579.method14806((class166.bitLoad
 						    * 2082667437),
 						   class166.aByte1809 != 0,
 						   anIntArrayArray11581);

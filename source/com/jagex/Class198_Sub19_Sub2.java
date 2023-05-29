@@ -491,7 +491,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class320.method5712(class683, (short) -3020);
 	    break;
 	case 98:
-	    Class166.method2678(class683, -338449186);
+	    TextureMetrics.method2678(class683, -338449186);
 	    break;
 	case 371:
 	    Class323.method5734(class683, (byte) -22);
@@ -850,7 +850,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class256.method4653(class683, 2107086164);
 	    break;
 	case 1117:
-	    BillBoardConfig.method2736(class683, -16777216);
+	    Class171.method2736(class683, -16777216);
 	    break;
 	case 558:
 	    Class261.method4770(class683, (byte) 49);
@@ -889,7 +889,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class636.method10472(class683, (byte) -28);
 	    break;
 	case 501:
-	    BillBoardConfig.method2737(class683, -1616269077);
+	    Class171.method2737(class683, -1616269077);
 	    break;
 	case 1196:
 	    Class578.method9580(class683, (byte) 97);
@@ -1557,7 +1557,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class262.method4779(class683, 938415966);
 	    break;
 	case 926:
-	    BillBoardDefinitions.method8314(class683, 743991847);
+	    Class504.method8314(class683, 743991847);
 	    break;
 	case 108:
 	    Class655.method10804(class683, 1806374521);
@@ -1866,7 +1866,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class651.method10743(class683, 1674968058);
 	    break;
 	case 134:
-	    Class138.method2337(class683, -1746058038);
+	    HashTable.method2337(class683, -1746058038);
 	    break;
 	case 340:
 	    Class614.method10078(class683, 1811327638);
@@ -2001,7 +2001,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class531.method8797(class683, -717816643);
 	    break;
 	case 332:
-	    Class312_Sub1.method15702(class683, 1777895575);
+	    BillBoardConfig.method15702(class683, 1777895575);
 	    break;
 	case 1089:
 	    Class416.method6717(class683, 274511022);
@@ -2097,7 +2097,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class704_Sub2.method17394(class683, (short) 8448);
 	    break;
 	case 372:
-	    Class312_Sub1.method15700(class683, -1985224027);
+	    BillBoardConfig.method15700(class683, -1985224027);
 	    break;
 	case 946:
 	    Class566.method9472(class683, -903546269);
@@ -2196,13 +2196,13 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class670.method11041(class683, 496319042);
 	    break;
 	case 1102:
-	    Class166.method2676(class683, (byte) 28);
+	    TextureMetrics.method2676(class683, (byte) 28);
 	    break;
 	case 438:
 	    AnimationSkin.method3924(class683, (byte) 0);
 	    break;
 	case 1282:
-	    BillBoardDefinitions.method8316(class683, (short) 28811);
+	    Class504.method8316(class683, (short) 28811);
 	    break;
 	case 1073:
 	    Class276.method5114(class683, -1798957943);
@@ -2544,7 +2544,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class249.method4503(class683, -1066747184);
 	    break;
 	case 780:
-	    Class166.method2677(class683, -226556358);
+	    TextureMetrics.method2677(class683, -226556358);
 	    break;
 	case 858:
 	    Class629.method10303(class683, -852652402);
@@ -2580,7 +2580,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class486.method7855(class683, -360633372);
 	    break;
 	case 966:
-	    BillBoardConfig.method2739(class683, (byte) -8);
+	    Class171.method2739(class683, (byte) -8);
 	    break;
 	case 602:
 	    Class321.method5716(class683, -735675112);
@@ -3182,7 +3182,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class407.method6636(class683, 818018591);
 	    break;
 	case 475:
-	    BillBoardDefinitions.method8317(class683, -369581323);
+	    Class504.method8317(class683, -369581323);
 	    break;
 	case 518:
 	    Class36.method974(class683, 371266638);
@@ -3200,7 +3200,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class175.method2899(class683, 920533635);
 	    break;
 	case 1297:
-	    BillBoardConfig.method2738(class683, 675361682);
+	    Class171.method2738(class683, 675361682);
 	    break;
 	case 1221:
 	    Class453.method7357(class683, (short) 128);
@@ -3899,7 +3899,7 @@ public class Class198_Sub19_Sub2 extends Class198_Sub19
 	    Class637.method10516(class683, 1157761790);
 	    break;
 	case 1030:
-	    Class180.method3119(class683, 1733610225);
+	    Textures.method3119(class683, 1733610225);
 	    break;
 	case 566:
 	    Class39.method1014(class683, (byte) -63);

@@ -48,7 +48,7 @@ public class Class335 implements Runnable
 						(":").append
 						(i).append
 						("/news.ws?game=").append
-						((client.aClass668_11090
+						((client.gametype
 						  .anInt8584) * -1420999111)
 						.toString())
 					   .openStream())));
@@ -89,7 +89,7 @@ public class Class335 implements Runnable
 						(":").append
 						(i).append
 						("/news.ws?game=").append
-						((client.aClass668_11090
+						((client.gametype
 						  .anInt8584) * -1420999111)
 						.toString())
 					   .openStream())));
@@ -260,7 +260,7 @@ public class Class335 implements Runnable
 	    client.anInt11260 = 2101694433;
 	    client.aClass10_11261 = new Class10(8);
 	    Class188.method3687(-2057523774);
-	    client.anInt11260 = Class138.aClass631_1641.anInt8176 * 1366758141;
+	    client.anInt11260 = HashTable.aClass631_1641.anInt8176 * 1366758141;
 	    if (client.anInt11260 * -750203937 != -1) {
 		Class198_Sub14.method15652(false, 1934193360);
 		Class83.method1604(-1859713391);

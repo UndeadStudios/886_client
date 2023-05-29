@@ -104,11 +104,11 @@ public class Class696_Sub34 extends Class696
 			i_6_ = class525_sub38.readInt(1842503565);
 		    class525_sub27.anIntArray10608[i_3_] = i_4_;
 		    class525_sub27.anIntArray10611[i_3_] = i_6_;
-		    if (BillBoardDefinitions.method8315(string, 864863166).getClassLoader()
+		    if (Class504.method8315(string, 864863166).getClassLoader()
 			== null)
 			throw new SecurityException();
 		    class525_sub27.aFieldArray10610[i_3_]
-			= BillBoardDefinitions.method8315(string, -284903436)
+			= Class504.method8315(string, -284903436)
 			      .getDeclaredField(string_5_);
 		} else if (3 == i_4_ || i_4_ == 4) {
 		    String string = class525_sub38.readString((byte) -73);
@@ -131,14 +131,14 @@ public class Class696_Sub34 extends Class696
 		    Class[] var_classes = new Class[i_8_];
 		    for (int i_13_ = 0; i_13_ < i_8_; i_13_++)
 			var_classes[i_13_]
-			    = BillBoardDefinitions.method8315(strings[i_13_], 1995669633);
+			    = Class504.method8315(strings[i_13_], 1995669633);
 		    Class var_class
-			= BillBoardDefinitions.method8315(string_10_, 1123834376);
-		    if (BillBoardDefinitions.method8315(string, -1266203047)
+			= Class504.method8315(string_10_, 1123834376);
+		    if (Class504.method8315(string, -1266203047)
 			    .getClassLoader()
 			== null)
 			throw new SecurityException();
-		    Method[] methods = BillBoardDefinitions.method8315
+		    Method[] methods = Class504.method8315
 					   (string, -1195708777)
 					   .getDeclaredMethods();
 		    Method[] methods_14_ = methods;

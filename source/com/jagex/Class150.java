@@ -18,7 +18,7 @@ public class Class150
 	anInterface24_1724 = interface24;
     }
     
-    Class136_Sub2 method2426(Class166 class166, int i) {
+    Class136_Sub2 method2426(TextureMetrics class166, int i) {
 	Class136_Sub2 class136_sub2
 	    = ((Class136_Sub2)
 	       aClass200_1722.method3785((long) (class166.anInt1800
@@ -28,7 +28,7 @@ public class Class150
 	if (!method2427(Class593.aClass593_7831, class166, i))
 	    return null;
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	Class136_Sub2 class136_sub2_0_;
 	if (!class166.aBool1815 || !aClass182_Sub3_1723.method3284()) {
 	    int[] is;
@@ -67,9 +67,9 @@ public class Class150
 	return class136_sub2_0_;
     }
     
-    boolean method2427(Class593 class593, Class166 class166, int i) {
+    boolean method2427(Class593 class593, TextureMetrics class166, int i) {
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	if (!class166.aBool1815 || !aClass182_Sub3_1723.method3284()) {
 	    if (class166.aClass597_1807 != Class597.aClass597_7842
 		|| !Class679.method11200(class166.aByte1825, (byte) -25))
@@ -98,15 +98,15 @@ public class Class150
 	aClass200_1722.method3791((byte) 14);
     }
     
-    Class136_Sub2 method2430(Class166 class166) {
-	return method2426(class166, class166.anInt1808 * 2082667437);
+    Class136_Sub2 method2430(TextureMetrics class166) {
+	return method2426(class166, class166.bitLoad * 2082667437);
     }
     
-    Class136_Sub2 method2431(Class166 class166) {
-	return method2426(class166, class166.anInt1808 * 2082667437);
+    Class136_Sub2 method2431(TextureMetrics class166) {
+	return method2426(class166, class166.bitLoad * 2082667437);
     }
     
-    Class136_Sub2 method2432(Class166 class166, int i) {
+    Class136_Sub2 method2432(TextureMetrics class166, int i) {
 	Class136_Sub2 class136_sub2
 	    = ((Class136_Sub2)
 	       aClass200_1722.method3785((long) (class166.anInt1800
@@ -116,7 +116,7 @@ public class Class150
 	if (!method2427(Class593.aClass593_7831, class166, i))
 	    return null;
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	Class136_Sub2 class136_sub2_1_;
 	if (!class166.aBool1815 || !aClass182_Sub3_1723.method3284()) {
 	    int[] is;
@@ -159,7 +159,7 @@ public class Class150
 	aClass200_1722.method3791((byte) 106);
     }
     
-    Class136_Sub2 method2434(Class166 class166, int i) {
+    Class136_Sub2 method2434(TextureMetrics class166, int i) {
 	Class136_Sub2 class136_sub2
 	    = ((Class136_Sub2)
 	       aClass200_1722.method3785((long) (class166.anInt1800
@@ -169,7 +169,7 @@ public class Class150
 	if (!method2427(Class593.aClass593_7831, class166, i))
 	    return null;
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	Class136_Sub2 class136_sub2_2_;
 	if (!class166.aBool1815 || !aClass182_Sub3_1723.method3284()) {
 	    int[] is;
@@ -208,8 +208,8 @@ public class Class150
 	return class136_sub2_2_;
     }
     
-    Class136_Sub2 method2435(Class166 class166) {
-	return method2426(class166, class166.anInt1808 * 2082667437);
+    Class136_Sub2 method2435(TextureMetrics class166) {
+	return method2426(class166, class166.bitLoad * 2082667437);
     }
     
     void method2436() {
@@ -220,9 +220,9 @@ public class Class150
 	aClass200_1722.method3791((byte) -25);
     }
     
-    boolean method2438(Class593 class593, Class166 class166, int i) {
+    boolean method2438(Class593 class593, TextureMetrics class166, int i) {
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	if (!class166.aBool1815 || !aClass182_Sub3_1723.method3284()) {
 	    if (class166.aClass597_1807 != Class597.aClass597_7842
 		|| !Class679.method11200(class166.aByte1825, (byte) -113))

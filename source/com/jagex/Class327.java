@@ -612,12 +612,12 @@ public class Class327 implements Interface12
 	    Class201.anInt2209 = i * 831896571;
 	}
 	if (Class387.aClass190_4036 == Class190.aClass190_2138) {
-	    byte[] is = Class656_Sub1_Sub3_Sub3.aClass458_12048
+	    byte[] is = Class656_Sub1_Sub3_Sub3.idx_35
 			    .getTextureData(i, 1969607210);
 	    if (is == null)
 		return false;
 	    RSBuffer class525_sub38 = new RSBuffer(is);
-	    BillBoardConfig.method2735(class525_sub38, (byte) -69);
+	    Class171.method2735(class525_sub38, (byte) -69);
 	    int i_83_ = class525_sub38.readUnsignedByte(1076737007);
 	    for (int i_84_ = 0; i_84_ < i_83_; i_84_++)
 		Class201.aClass709_2201

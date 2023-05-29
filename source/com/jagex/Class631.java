@@ -741,7 +741,7 @@ public class Class631
 	    Class455_Sub1.method15987(922288809 * class525_sub33.anInt10745,
 				      is, 670355642);
 	if (!bool && -1 != client.anInt11260 * -750203937)
-	    Class180.method3121(-750203937 * client.anInt11260, 1, (byte) 24);
+	    Textures.method3121(-750203937 * client.anInt11260, 1, (byte) 24);
 	return class525_sub33;
     }
     

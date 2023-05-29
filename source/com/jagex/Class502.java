@@ -9,7 +9,7 @@ import jaggl.OpenGL;
 public class Class502
 {
     public static Class182 method8200
-	(Canvas canvas, Class180 class180, Interface24 interface24,
+	(Canvas canvas, Textures class180, Interface24 interface24,
      Interface47 interface47, Interface48 interface48,
      Interface49 interface49, JS5 class458, int i) {
 	Class182_Sub1_Sub2 class182_sub1_sub2;
@@ -37,7 +37,7 @@ public class Class502
     }
     
     public static Class182 method8201
-	(Canvas canvas, Class180 class180, Interface24 interface24,
+	(Canvas canvas, Textures class180, Interface24 interface24,
      Interface47 interface47, Interface48 interface48,
      Interface49 interface49, JS5 class458, int i) {
 	Class182_Sub1_Sub2 class182_sub1_sub2;

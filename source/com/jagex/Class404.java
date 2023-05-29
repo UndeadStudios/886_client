@@ -490,7 +490,7 @@ public class Class404 implements Interface4
 			   (client.aClass10_11261.method684
 			    ((long) (1984678839 * class259.anInt2588))));
 		    if (class525_sub33 != null)
-			Class180.method3121((class525_sub33.anInt10745
+			Textures.method3121((class525_sub33.anInt10745
 					     * 922288809),
 					    i, (byte) 55);
 		}

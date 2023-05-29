@@ -675,7 +675,7 @@ public class Class658 implements Interface12, Interface7
 		    }
 		}
 		if (!bool)
-		    i_14_ -= Class138.aClass631_1641.anInt8178 * 626152931 + 2;
+		    i_14_ -= HashTable.aClass631_1641.anInt8178 * 626152931 + 2;
 		if (!class656_sub1_sub3_sub1.aBool11966) {
 		    if (null == class299) {
 			Class656_Sub1_Sub3_Sub1_Sub1 class656_sub1_sub3_sub1_sub1
@@ -700,7 +700,7 @@ public class Class658 implements Interface12, Interface7
 				if (null == class157) {
 				    Class173[] class173s
 					= (Class187.method3674
-					   (Class462.aClass458_5095, i_29_,
+					   (Class462.idx_8, i_29_,
 					    0));
 				    if (class173s == null)
 					continue;
@@ -752,7 +752,7 @@ public class Class658 implements Interface12, Interface7
 				    if (class157 == null) {
 					Class173[] class173s
 					    = (Class187.method3674
-					       (Class462.aClass458_5095,
+					       (Class462.idx_8,
 						is_30_[i_32_], 0));
 					if (class173s == null)
 					    continue;
@@ -847,7 +847,7 @@ public class Class658 implements Interface12, Interface7
 			i_14_ -= i_35_ + 2;
 		}
 		int i_39_ = 0;
-		for (/**/; i_39_ < -379729 * Class138.aClass631_1641.anInt8166;
+		for (/**/; i_39_ < -379729 * HashTable.aClass631_1641.anInt8166;
 		     i_39_++) {
 		    int i_40_ = class656_sub1_sub3_sub1.anIntArray11974[i_39_];
 		    int i_41_ = class656_sub1_sub3_sub1.anIntArray12026[i_39_];
@@ -903,10 +903,10 @@ public class Class658 implements Interface12, Interface7
 						false, (byte) -27);
 			    if (client.aFloatArray11375[0] > -1.0F) {
 				client.aFloatArray11375[0]
-				    += (float) (Class138.aClass631_1641
+				    += (float) (HashTable.aClass631_1641
 						.anIntArray8167[i_39_]);
 				client.aFloatArray11375[1]
-				    += (float) (Class138.aClass631_1641
+				    += (float) (HashTable.aClass631_1641
 						.anIntArray8168[i_39_]);
 				Object object = null;
 				Object object_46_ = null;

@@ -138,11 +138,11 @@ public class Class182_Sub2 extends Class182
     }
     
     boolean method15164(int i) {
-	Class166 class166 = aClass180_1944.method3116(i, -1431554601);
+	TextureMetrics class166 = aClass180_1944.method3116(i, -1431554601);
 	return anInterface24_1943.method130(Class593.aClass593_7831, i,
 					    Class594.aClass594_7833, 0.7F,
-					    2082667437 * class166.anInt1808,
-					    class166.anInt1808 * 2082667437,
+					    2082667437 * class166.bitLoad,
+					    class166.bitLoad * 2082667437,
 					    true, (byte) 72);
     }
     
@@ -161,10 +161,10 @@ public class Class182_Sub2 extends Class182
 		class525_sub17.anInt10555 += i_20_;
 		int i_21_ = class525_sub17.anInt10555 / 50;
 		if (i_21_ > 0) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass180_1944.method3116(class525_sub17.anInt10560,
 						    -1431554601);
-		    float f = (float) (class166.anInt1808 * 2082667437);
+		    float f = (float) (class166.bitLoad * 2082667437);
 		    class525_sub17.method16272
 			((int) ((float) class166.aByte1805
 				* ((float) i_20_ / 1000.0F) / 64.0F * f),
@@ -191,10 +191,10 @@ public class Class182_Sub2 extends Class182
 		class525_sub17.anInt10555 += i_22_;
 		int i_23_ = class525_sub17.anInt10555 / 50;
 		if (i_23_ > 0) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass180_1944.method3116(class525_sub17.anInt10560,
 						    -1431554601);
-		    float f = (float) (class166.anInt1808 * 2082667437);
+		    float f = (float) (class166.bitLoad * 2082667437);
 		    class525_sub17.method16272
 			((int) ((float) class166.aByte1805
 				* ((float) i_22_ / 1000.0F) / 64.0F * f),
@@ -231,8 +231,8 @@ public class Class182_Sub2 extends Class182
 		   aClass200_9497.method3785((long) (i & 0xffff)
 					     | ~0x7fffffffffffffffL));
 	    if (class525_sub17 == null) {
-		Class166 class166 = aClass180_1944.method3116(i, -1431554601);
-		int i_24_ = 2082667437 * class166.anInt1808;
+		TextureMetrics class166 = aClass180_1944.method3116(i, -1431554601);
+		int i_24_ = 2082667437 * class166.bitLoad;
 		if (!anInterface24_1943.method130(Class593.aClass593_7831, i,
 						  Class594.aClass594_7833,
 						  0.7F, i_24_, i_24_, true,
@@ -437,7 +437,7 @@ public class Class182_Sub2 extends Class182
     }
     
     boolean method15169(int i) {
-	Class166 class166 = aClass180_1944.method3116(i, -1431554601);
+	TextureMetrics class166 = aClass180_1944.method3116(i, -1431554601);
 	return class166.aByte1810 != 0 || class166.aByte1811 != 0;
     }
     
@@ -627,7 +627,7 @@ public class Class182_Sub2 extends Class182
     }
     
     public Interface22 method3490(int i, int i_96_, int i_97_) {
-	return new Class138(i, i_96_);
+	return new HashTable(i, i_96_);
     }
     
     public void method3149(int i, int i_98_, int[] is, int[] is_99_) {
@@ -1830,7 +1830,7 @@ public class Class182_Sub2 extends Class182
     }
     
     public Interface22 method3163(int i, int i_363_) {
-	return new Class138(i, i_363_);
+	return new HashTable(i, i_363_);
     }
     
     public void method3412(Class185 class185) {
@@ -2354,9 +2354,9 @@ public class Class182_Sub2 extends Class182
 	}
     }
     
-    Class182_Sub2(Class180 class180, Interface24 interface24,
-		  Interface47 interface47, Interface48 interface48,
-		  Interface49 interface49) {
+    Class182_Sub2(Textures class180, Interface24 interface24,
+				  Interface47 interface47, Interface48 interface48,
+				  Interface49 interface49) {
 	super(class180, interface24, interface47, interface48, interface49);
 	aBool9465 = false;
 	anInt9470 = 0;
@@ -2525,7 +2525,7 @@ public class Class182_Sub2 extends Class182
     }
     
     public Interface22 method3164(int i, int i_483_, int i_484_) {
-	return new Class138(i, i_483_);
+	return new HashTable(i, i_483_);
     }
     
     public Class170 method3270() {
@@ -2616,10 +2616,10 @@ public class Class182_Sub2 extends Class182
 		class525_sub17.anInt10555 += i_495_;
 		int i_496_ = class525_sub17.anInt10555 / 50;
 		if (i_496_ > 0) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass180_1944.method3116(class525_sub17.anInt10560,
 						    -1431554601);
-		    float f = (float) (class166.anInt1808 * 2082667437);
+		    float f = (float) (class166.bitLoad * 2082667437);
 		    class525_sub17.method16272
 			((int) ((float) class166.aByte1805
 				* ((float) i_495_ / 1000.0F) / 64.0F * f),
@@ -2646,10 +2646,10 @@ public class Class182_Sub2 extends Class182
 		class525_sub17.anInt10555 += i_497_;
 		int i_498_ = class525_sub17.anInt10555 / 50;
 		if (i_498_ > 0) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass180_1944.method3116(class525_sub17.anInt10560,
 						    -1431554601);
-		    float f = (float) (class166.anInt1808 * 2082667437);
+		    float f = (float) (class166.bitLoad * 2082667437);
 		    class525_sub17.method16272
 			((int) ((float) class166.aByte1805
 				* ((float) i_497_ / 1000.0F) / 64.0F * f),
@@ -2676,10 +2676,10 @@ public class Class182_Sub2 extends Class182
 		class525_sub17.anInt10555 += i_499_;
 		int i_500_ = class525_sub17.anInt10555 / 50;
 		if (i_500_ > 0) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass180_1944.method3116(class525_sub17.anInt10560,
 						    -1431554601);
-		    float f = (float) (class166.anInt1808 * 2082667437);
+		    float f = (float) (class166.bitLoad * 2082667437);
 		    class525_sub17.method16272
 			((int) ((float) class166.aByte1805
 				* ((float) i_499_ / 1000.0F) / 64.0F * f),
@@ -2700,7 +2700,7 @@ public class Class182_Sub2 extends Class182
 		     int i_507_, int i_508_, int i_509_) {
 	if (0 != i_504_ && 0 != i_505_) {
 	    if (i_506_ != -1) {
-		Class166 class166
+		TextureMetrics class166
 		    = aClass180_1944.method3116(i_506_, -1431554601);
 		if (!class166.aBool1819) {
 		    if (anInt9500 * -197284279 != i_506_) {
@@ -2711,7 +2711,7 @@ public class Class182_Sub2 extends Class182
 			    int[] is = method15165(i_506_);
 			    if (null == is)
 				return;
-			    int i_510_ = class166.anInt1808 * 2082667437;
+			    int i_510_ = class166.bitLoad * 2082667437;
 			    class157 = method3215(is, 0, i_510_, i_510_,
 						  i_510_, (byte) 75);
 			    aClass200_9490.method3788(class157, (long) i_506_);
@@ -2748,8 +2748,8 @@ public class Class182_Sub2 extends Class182
 		   aClass200_9497.method3785((long) (i & 0xffff)
 					     | ~0x7fffffffffffffffL));
 	    if (class525_sub17 == null) {
-		Class166 class166 = aClass180_1944.method3116(i, -1431554601);
-		int i_516_ = 2082667437 * class166.anInt1808;
+		TextureMetrics class166 = aClass180_1944.method3116(i, -1431554601);
+		int i_516_ = 2082667437 * class166.bitLoad;
 		if (!anInterface24_1943.method130(Class593.aClass593_7831, i,
 						  Class594.aClass594_7833,
 						  0.7F, i_516_, i_516_, true,
@@ -2993,12 +2993,12 @@ public class Class182_Sub2 extends Class182
     }
     
     int method15187(int i) {
-	return (aClass180_1944.method3116(i, -1431554601).anInt1808
+	return (aClass180_1944.method3116(i, -1431554601).bitLoad
 		* 2082667437);
     }
     
     int method15188(int i) {
-	return (aClass180_1944.method3116(i, -1431554601).anInt1808
+	return (aClass180_1944.method3116(i, -1431554601).bitLoad
 		* 2082667437);
     }
     
@@ -3107,7 +3107,7 @@ public class Class182_Sub2 extends Class182
     }
     
     boolean method15192(int i) {
-	Class166 class166 = aClass180_1944.method3116(i, -1431554601);
+	TextureMetrics class166 = aClass180_1944.method3116(i, -1431554601);
 	return class166.aByte1810 != 0 || class166.aByte1811 != 0;
     }
     
@@ -3803,11 +3803,11 @@ public class Class182_Sub2 extends Class182
 		Class157 class157
 		    = (Class157) aClass200_9490.method3785((long) i_746_);
 		if (class157 == null) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass180_1944.method3116(i_746_, -1431554601);
 		    int[] is = method15165(i_746_);
 		    if (is != null) {
-			int i_748_ = class166.anInt1808 * 2082667437;
+			int i_748_ = class166.bitLoad * 2082667437;
 			class157 = method3215(is, 0, i_748_, i_748_, i_748_,
 					      (byte) 57);
 			aClass200_9490.method3788(class157, (long) i_746_);
@@ -3896,9 +3896,9 @@ public class Class182_Sub2 extends Class182
 	return 0L;
     }
     
-    Class182_Sub2(Canvas canvas, Class180 class180, Interface24 interface24,
-		  Interface47 interface47, Interface48 interface48,
-		  Interface49 interface49, int i, int i_757_) {
+    Class182_Sub2(Canvas canvas, Textures class180, Interface24 interface24,
+				  Interface47 interface47, Interface48 interface48,
+				  Interface49 interface49, int i, int i_757_) {
 	this(class180, interface24, interface47, interface48, interface49);
 	try {
 	    method3153(canvas, i, i_757_, 1848422509);
@@ -4185,7 +4185,7 @@ public class Class182_Sub2 extends Class182
 		     int i_819_, int i_820_, int i_821_) {
 	if (0 != i_816_ && 0 != i_817_) {
 	    if (i_818_ != -1) {
-		Class166 class166
+		TextureMetrics class166
 		    = aClass180_1944.method3116(i_818_, -1431554601);
 		if (!class166.aBool1819) {
 		    if (anInt9500 * -197284279 != i_818_) {
@@ -4196,7 +4196,7 @@ public class Class182_Sub2 extends Class182
 			    int[] is = method15165(i_818_);
 			    if (null == is)
 				return;
-			    int i_822_ = class166.anInt1808 * 2082667437;
+			    int i_822_ = class166.bitLoad * 2082667437;
 			    class157 = method3215(is, 0, i_822_, i_822_,
 						  i_822_, (byte) 55);
 			    aClass200_9490.method3788(class157, (long) i_818_);
@@ -7116,7 +7116,7 @@ public class Class182_Sub2 extends Class182
     }
     
     int method15209(int i) {
-	return (aClass180_1944.method3116(i, -1431554601).anInt1808
+	return (aClass180_1944.method3116(i, -1431554601).bitLoad
 		* 2082667437);
     }
     
@@ -7367,10 +7367,10 @@ public class Class182_Sub2 extends Class182
 		class525_sub17.anInt10555 += i_1579_;
 		int i_1580_ = class525_sub17.anInt10555 / 50;
 		if (i_1580_ > 0) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass180_1944.method3116(class525_sub17.anInt10560,
 						    -1431554601);
-		    float f = (float) (class166.anInt1808 * 2082667437);
+		    float f = (float) (class166.bitLoad * 2082667437);
 		    class525_sub17.method16272
 			((int) ((float) class166.aByte1805
 				* ((float) i_1579_ / 1000.0F) / 64.0F * f),
@@ -7601,11 +7601,11 @@ public class Class182_Sub2 extends Class182
 		Class157 class157
 		    = (Class157) aClass200_9490.method3785((long) i_1627_);
 		if (class157 == null) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass180_1944.method3116(i_1627_, -1431554601);
 		    int[] is = method15165(i_1627_);
 		    if (is != null) {
-			int i_1629_ = class166.anInt1808 * 2082667437;
+			int i_1629_ = class166.bitLoad * 2082667437;
 			class157 = method3215(is, 0, i_1629_, i_1629_, i_1629_,
 					      (byte) 95);
 			aClass200_9490.method3788(class157, (long) i_1627_);
@@ -8198,11 +8198,11 @@ public class Class182_Sub2 extends Class182
     }
     
     boolean method15221(int i) {
-	Class166 class166 = aClass180_1944.method3116(i, -1431554601);
+	TextureMetrics class166 = aClass180_1944.method3116(i, -1431554601);
 	return anInterface24_1943.method130(Class593.aClass593_7831, i,
 					    Class594.aClass594_7833, 0.7F,
-					    2082667437 * class166.anInt1808,
-					    class166.anInt1808 * 2082667437,
+					    2082667437 * class166.bitLoad,
+					    class166.bitLoad * 2082667437,
 					    true, (byte) 125);
     }
     
@@ -8853,11 +8853,11 @@ public class Class182_Sub2 extends Class182
     }
     
     public Interface22 method3488(int i, int i_1883_, int i_1884_) {
-	return new Class138(i, i_1883_);
+	return new HashTable(i, i_1883_);
     }
     
     public Interface22 method3489(int i, int i_1885_, int i_1886_) {
-	return new Class138(i, i_1885_);
+	return new HashTable(i, i_1885_);
     }
     
     public void method3377(int i, int i_1887_, int i_1888_, int i_1889_,
@@ -9083,7 +9083,7 @@ public class Class182_Sub2 extends Class182
     }
     
     public Interface22 method3404(int i, int i_1938_, int i_1939_) {
-	return new Class138(i, i_1938_);
+	return new HashTable(i, i_1938_);
     }
     
     public void method3178() {
@@ -9204,11 +9204,11 @@ public class Class182_Sub2 extends Class182
 		Class157 class157
 		    = (Class157) aClass200_9490.method3785((long) i_1977_);
 		if (class157 == null) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass180_1944.method3116(i_1977_, -1431554601);
 		    int[] is = method15165(i_1977_);
 		    if (is != null) {
-			int i_1979_ = class166.anInt1808 * 2082667437;
+			int i_1979_ = class166.bitLoad * 2082667437;
 			class157 = method3215(is, 0, i_1979_, i_1979_, i_1979_,
 					      (byte) 52);
 			aClass200_9490.method3788(class157, (long) i_1977_);
@@ -9406,11 +9406,11 @@ public class Class182_Sub2 extends Class182
     }
     
     public Interface22 method3511(int i, int i_2030_) {
-	return new Class138(i, i_2030_);
+	return new HashTable(i, i_2030_);
     }
     
     public Interface22 method3512(int i, int i_2031_) {
-	return new Class138(i, i_2031_);
+	return new HashTable(i, i_2031_);
     }
     
     public void method3551(int i, int i_2032_, int i_2033_, int i_2034_) {

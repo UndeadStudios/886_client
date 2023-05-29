@@ -412,12 +412,12 @@ public final class Class6
 	if (i == 0) {
 	    Class501.aClass182_5564
 		= Class232.method4394(0, Class532.aCanvas7169,
-				      Class166.aClass180_1835,
+				      TextureMetrics.aClass180_1835,
 				      Class411.anInterface24_4255,
 				      Class628.aClass385_8157,
 				      Class263.aClass402_2799,
 				      Class450.aClass400_4926,
-				      Class17_Sub1.aClass458_11027,
+				      Class17_Sub1.idx_31,
 				      Class198_Sub13.aClass525_Sub30_9973
 					  .aClass696_Sub39_10678
 					  .method17324(-16711936) * 2,
@@ -431,7 +431,7 @@ public final class Class6
 		Class175 class175
 		    = (Class501.aClass182_5564.method3223
 		       (class7,
-			Class187.method3674(Class462.aClass458_5095,
+			Class187.method3674(Class462.idx_8,
 					    -1076192539 * Class188.anInt2135,
 					    0),
 			true));
@@ -443,12 +443,12 @@ public final class Class6
 	    Class182 class182 = null;
 	    if (null != string) {
 		class182 = Class232.method4394(0, Class532.aCanvas7169,
-					       Class166.aClass180_1835,
+					       TextureMetrics.aClass180_1835,
 					       Class411.anInterface24_4255,
 					       Class628.aClass385_8157,
 					       Class263.aClass402_2799,
 					       Class450.aClass400_4926,
-					       Class17_Sub1.aClass458_11027, 0,
+					       Class17_Sub1.idx_31, 0,
 					       173838115);
 		class182.method3188(1, 0);
 		Class7 class7
@@ -458,7 +458,7 @@ public final class Class6
 		Class175 class175
 		    = (class182.method3223
 		       (class7,
-			Class187.method3674(Class462.aClass458_5095,
+			Class187.method3674(Class462.idx_8,
 					    -1076192539 * Class188.anInt2135,
 					    0),
 			true));
@@ -478,12 +478,12 @@ public final class Class6
 		    System.gc();
 		    Class501.aClass182_5564
 			= Class232.method4394(i, Class532.aCanvas7169,
-					      Class166.aClass180_1835,
+					      TextureMetrics.aClass180_1835,
 					      Class411.anInterface24_4255,
 					      Class628.aClass385_8157,
 					      Class263.aClass402_2799,
 					      Class450.aClass400_4926,
-					      Class17_Sub1.aClass458_11027,
+					      Class17_Sub1.idx_31,
 					      Class198_Sub13
 						  .aClass525_Sub30_9973
 						  .aClass696_Sub39_10678
@@ -491,7 +491,7 @@ public final class Class6
 					      -503861860);
 		    Class7.aClass404_53
 			= new Class404(Class501.aClass182_5564,
-				       Class462.aClass458_5095,
+				       Class462.idx_8,
 				       Class276.aClass458_2875,
 				       Class525_Sub42
 					   .method16882((short) -17858));

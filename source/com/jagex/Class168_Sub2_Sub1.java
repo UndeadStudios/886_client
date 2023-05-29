@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class168_Sub2_Sub1 extends Class168_Sub2
 {
-    Class138 aClass138_11427;
+    HashTable aClass138_11427;
     Class182_Sub2 aClass182_Sub2_11428;
     Class97 aClass97_11429;
     int anInt11430 = 0;
@@ -46,7 +46,7 @@ public class Class168_Sub2_Sub1 extends Class168_Sub2
     }
     
     public void method15584(Interface22 interface22) {
-	Class138 class138 = (Class138) interface22;
+	HashTable class138 = (HashTable) interface22;
 	if (null != aClass97_11429 && class138 != null
 	    && ((aClass97_11429.anInt1188 * -2080083199
 		 != class138.anInt1637 * -1076041477)
@@ -176,7 +176,7 @@ public class Class168_Sub2_Sub1 extends Class168_Sub2
     }
     
     public void method15593(Interface22 interface22) {
-	Class138 class138 = (Class138) interface22;
+	HashTable class138 = (HashTable) interface22;
 	if (null != aClass97_11429 && class138 != null
 	    && ((aClass97_11429.anInt1188 * -2080083199
 		 != class138.anInt1637 * -1076041477)
@@ -206,7 +206,7 @@ public class Class168_Sub2_Sub1 extends Class168_Sub2
     }
     
     public void method15592(Interface22 interface22) {
-	Class138 class138 = (Class138) interface22;
+	HashTable class138 = (HashTable) interface22;
 	if (null != aClass97_11429 && class138 != null
 	    && ((aClass97_11429.anInt1188 * -2080083199
 		 != class138.anInt1637 * -1076041477)

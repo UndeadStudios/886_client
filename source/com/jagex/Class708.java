@@ -175,7 +175,7 @@ public class Class708
 	    Class649.method10708(class259, (byte) 0);
 	Class320.method5714(i_3_, (byte) 74);
 	if (!bool_2_ && -1 != -750203937 * client.anInt11260)
-	    Class180.method3121(client.anInt11260 * -750203937, 1, (byte) -2);
+	    Textures.method3121(client.anInt11260 * -750203937, 1, (byte) -2);
 	Class21 class21 = new Class21(client.aClass10_11261);
 	for (Class525_Sub33 class525_sub33_5_
 		 = (Class525_Sub33) class21.method812(-887697620);

@@ -218,12 +218,12 @@ public class Class600
 	if (client.aClass37_5589 != null && !Class175_Sub2.aBool9893)
 	    class552 = new Class552(i_8_, client.aClass37_5589,
 				    Class468.aClass37Array5129[i_8_],
-				    (i_8_ == Class56.aClass56_576
+				    (i_8_ == Class56.idx_30
 						 .method1202(1557437531)
 				     ? 8000000 : 2500000));
 	Class652_Sub2.aClass454_Sub1Array10916[i_8_]
 	    = Class442.aClass459_4866.method7577(i_8_, class552,
-						 Class312_Sub1.aClass552_10065,
+						 BillBoardConfig.aClass552_10065,
 						 class56
 						     .method1194(1352145043),
 						 85161710);

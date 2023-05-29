@@ -6,7 +6,7 @@ package com.jagex;
 class Class220 implements Interface43
 {
     Class217 this$0;
-    public static JS5 aClass458_2330;
+    public static JS5 idx_21;
     static String aString2331;
     
     Class220(Class217 class217) {

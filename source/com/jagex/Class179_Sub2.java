@@ -117,7 +117,7 @@ public class Class179_Sub2 extends Class179
 	anInt9373 = i;
 	anInt9374 = i_0_;
 	anInt9383 = i_1_;
-	Class180 class180 = aClass182_Sub2_9433.aClass180_1944;
+	Textures class180 = aClass182_Sub2_9433.aClass180_1944;
 	Interface47 interface47 = aClass182_Sub2_9433.anInterface47_1945;
 	anInt9394 = class186.vertexCount;
 	anInt9377 = class186.maxVertexUsed;
@@ -144,7 +144,7 @@ public class Class179_Sub2 extends Class179
 	boolean bool = (anInt9373 & 0x100) != 0;
 	for (int i_4_ = 0; i_4_ < anInt9375; i_4_++) {
 	    int i_5_ = is[i_4_];
-	    Class166 class166 = null;
+	    TextureMetrics class166 = null;
 	    int i_6_ = 0;
 	    int i_7_ = 0;
 	    int i_8_ = 0;
@@ -153,7 +153,7 @@ public class Class179_Sub2 extends Class179
 		boolean bool_10_ = false;
 		for (int i_11_ = 0; i_11_ < class186.aClass171Array2088.length;
 		     i_11_++) {
-		    BillBoardConfig class171 = class186.aClass171Array2088[i_11_];
+		    Class171 class171 = class186.aClass171Array2088[i_11_];
 		    if (i_5_ == class171.anInt1856 * 553052305) {
 			Class394 class394
 			    = interface47.method338((class171.anInt1855
@@ -162,7 +162,7 @@ public class Class179_Sub2 extends Class179
 			if (class394.aBool4099)
 			    bool_10_ = true;
 			if (class394.anInt4094 * 836405987 != -1) {
-			    Class166 class166_12_
+			    TextureMetrics class166_12_
 				= class180.method3116((class394.anInt4094
 						       * 836405987),
 						      -1431554601);
@@ -232,7 +232,7 @@ public class Class179_Sub2 extends Class179
 	    aClass107Array9441 = new Class107[anInt9416];
 	    for (int i_17_ = 0; i_17_ < class186.aClass171Array2088.length;
 		 i_17_++) {
-		BillBoardConfig class171 = class186.aClass171Array2088[i_17_];
+		Class171 class171 = class186.aClass171Array2088[i_17_];
 		Class394 class394
 		    = interface47.method338(class171.anInt1855 * -145881707,
 					    (short) 800);
@@ -536,7 +536,7 @@ public class Class179_Sub2 extends Class179
 	    for (int i_89_ = 0; i_89_ < anInt9375; i_89_++) {
 		short i_90_ = class186.aShortArray2110[i_89_];
 		if (i_90_ != -1) {
-		    Class166 class166
+		    TextureMetrics class166
 			= aClass182_Sub2_9433.aClass180_1944
 			      .method3116(i_90_ & 0xffff, -1431554601);
 		    if ((i_2_ & 0x40) == 0 || !class166.aBool1819) {
@@ -632,7 +632,7 @@ public class Class179_Sub2 extends Class179
 			int i_101_ = aShortArray9403[i_97_] & 0xffff;
 			int i_102_ = (i_101_ & 0x7f) * anInt9374 >> 7;
 			short i_103_
-			    = BillBoardDefinitions.method8313(i_101_ & ~0x7f | i_102_,
+			    = Class504.method8313(i_101_ & ~0x7f | i_102_,
 						  1019662635);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -694,7 +694,7 @@ public class Class179_Sub2 extends Class179
 			int i_107_ = aShortArray9403[i_97_] & 0xffff;
 			int i_108_ = (i_107_ & 0x7f) * anInt9374 >> 7;
 			short i_109_
-			    = BillBoardDefinitions.method8313(i_107_ & ~0x7f | i_108_,
+			    = Class504.method8313(i_107_ & ~0x7f | i_108_,
 						  740635965);
 			Class115 class115 = aClass115Array9398[i_97_];
 			int i_110_ = ((i * class115.anInt1407
@@ -933,7 +933,7 @@ public class Class179_Sub2 extends Class179
 			int i_143_ = aShortArray9403[i_139_] & 0xffff;
 			int i_144_ = (i_143_ & 0x7f) * anInt9374 >> 7;
 			short i_145_
-			    = BillBoardDefinitions.method8313(i_143_ & ~0x7f | i_144_,
+			    = Class504.method8313(i_143_ & ~0x7f | i_144_,
 						  593760818);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -995,7 +995,7 @@ public class Class179_Sub2 extends Class179
 			int i_149_ = aShortArray9403[i_139_] & 0xffff;
 			int i_150_ = (i_149_ & 0x7f) * anInt9374 >> 7;
 			short i_151_
-			    = BillBoardDefinitions.method8313(i_149_ & ~0x7f | i_150_,
+			    = Class504.method8313(i_149_ & ~0x7f | i_150_,
 						  1725419557);
 			Class115 class115 = aClass115Array9398[i_139_];
 			int i_152_ = ((i * class115.anInt1407
@@ -1105,7 +1105,7 @@ public class Class179_Sub2 extends Class179
     
     int method15070(int i, short i_162_, int i_163_) {
 	int i_164_ = Class642.anIntArray8324[method15071(i, i_163_)];
-	Class166 class166
+	TextureMetrics class166
 	    = aClass182_Sub2_9433.aClass180_1944.method3116(i_162_ & 0xffff,
 							    -1431554601);
 	int i_165_ = class166.aByte1785 & 0xff;
@@ -2526,7 +2526,7 @@ public class Class179_Sub2 extends Class179
 			class107.anInt1304
 			    = (class107.anInt1304 * -1093122285 & ~0xffffff
 			       | ((Class381.anIntArray3929
-				   [BillBoardDefinitions.method8313(((aShortArray9403
+				   [Class504.method8313(((aShortArray9403
 							  [(class103.anInt1273
 							    * -954563709)])
 							 & 0xffff),
@@ -3112,7 +3112,7 @@ public class Class179_Sub2 extends Class179
 			class107.anInt1304
 			    = (class107.anInt1304 * -1093122285 & ~0xffffff
 			       | ((Class381.anIntArray3929
-				   [BillBoardDefinitions.method8313(((aShortArray9403
+				   [Class504.method8313(((aShortArray9403
 							  [(class103.anInt1273
 							    * -954563709)])
 							 & 0xffff),
@@ -4052,7 +4052,7 @@ public class Class179_Sub2 extends Class179
 		    class107.anInt1304
 			= (class107.anInt1304 * -1093122285 & ~0xffffff
 			   | ((Class381.anIntArray3929
-			       [BillBoardDefinitions.method8313(((aShortArray9403
+			       [Class504.method8313(((aShortArray9403
 						      [(class103.anInt1273
 							* -954563709)])
 						     & 0xffff),
@@ -5130,7 +5130,7 @@ public class Class179_Sub2 extends Class179
     public void method2973(short i, short i_834_) {
 	if (aShortArray9402 != null) {
 	    if (!aBool9380 && i_834_ >= 0) {
-		Class166 class166
+		TextureMetrics class166
 		    = aClass182_Sub2_9433.aClass180_1944
 			  .method3116(i_834_ & 0xffff, -1431554601);
 		if (class166.aByte1805 != 0 || class166.aByte1806 != 0)
@@ -5167,7 +5167,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313((aShortArray9403
+			   [Class504.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]) & 0xffff,
 						1602110966) & 0xffff])
@@ -5508,7 +5508,7 @@ public class Class179_Sub2 extends Class179
 			int i_885_ = aShortArray9403[i_881_] & 0xffff;
 			int i_886_ = (i_885_ & 0x7f) * anInt9374 >> 7;
 			short i_887_
-			    = BillBoardDefinitions.method8313(i_885_ & ~0x7f | i_886_,
+			    = Class504.method8313(i_885_ & ~0x7f | i_886_,
 						  1288124863);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -5570,7 +5570,7 @@ public class Class179_Sub2 extends Class179
 			int i_891_ = aShortArray9403[i_881_] & 0xffff;
 			int i_892_ = (i_891_ & 0x7f) * anInt9374 >> 7;
 			short i_893_
-			    = BillBoardDefinitions.method8313(i_891_ & ~0x7f | i_892_,
+			    = Class504.method8313(i_891_ & ~0x7f | i_892_,
 						  1940460983);
 			Class115 class115 = aClass115Array9398[i_881_];
 			int i_894_ = ((i * class115.anInt1407
@@ -5730,7 +5730,7 @@ public class Class179_Sub2 extends Class179
 			int i_913_ = aShortArray9403[i_909_] & 0xffff;
 			int i_914_ = (i_913_ & 0x7f) * anInt9374 >> 7;
 			short i_915_
-			    = BillBoardDefinitions.method8313(i_913_ & ~0x7f | i_914_,
+			    = Class504.method8313(i_913_ & ~0x7f | i_914_,
 						  1058487780);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -5792,7 +5792,7 @@ public class Class179_Sub2 extends Class179
 			int i_919_ = aShortArray9403[i_909_] & 0xffff;
 			int i_920_ = (i_919_ & 0x7f) * anInt9374 >> 7;
 			short i_921_
-			    = BillBoardDefinitions.method8313(i_919_ & ~0x7f | i_920_,
+			    = Class504.method8313(i_919_ & ~0x7f | i_920_,
 						  1491845337);
 			Class115 class115 = aClass115Array9398[i_909_];
 			int i_922_ = ((i * class115.anInt1407
@@ -5952,7 +5952,7 @@ public class Class179_Sub2 extends Class179
 			int i_941_ = aShortArray9403[i_937_] & 0xffff;
 			int i_942_ = (i_941_ & 0x7f) * anInt9374 >> 7;
 			short i_943_
-			    = BillBoardDefinitions.method8313(i_941_ & ~0x7f | i_942_,
+			    = Class504.method8313(i_941_ & ~0x7f | i_942_,
 						  2025604187);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -6014,7 +6014,7 @@ public class Class179_Sub2 extends Class179
 			int i_947_ = aShortArray9403[i_937_] & 0xffff;
 			int i_948_ = (i_947_ & 0x7f) * anInt9374 >> 7;
 			short i_949_
-			    = BillBoardDefinitions.method8313(i_947_ & ~0x7f | i_948_,
+			    = Class504.method8313(i_947_ & ~0x7f | i_948_,
 						  285279372);
 			Class115 class115 = aClass115Array9398[i_937_];
 			int i_950_ = ((i * class115.anInt1407
@@ -6652,7 +6652,7 @@ public class Class179_Sub2 extends Class179
 			class107.anInt1304
 			    = (class107.anInt1304 * -1093122285 & ~0xffffff
 			       | ((Class381.anIntArray3929
-				   [BillBoardDefinitions.method8313(((aShortArray9403
+				   [Class504.method8313(((aShortArray9403
 							  [(class103.anInt1273
 							    * -954563709)])
 							 & 0xffff),
@@ -6767,7 +6767,7 @@ public class Class179_Sub2 extends Class179
 			int i_1127_ = aShortArray9403[i_1123_] & 0xffff;
 			int i_1128_ = (i_1127_ & 0x7f) * anInt9374 >> 7;
 			short i_1129_
-			    = BillBoardDefinitions.method8313(i_1127_ & ~0x7f | i_1128_,
+			    = Class504.method8313(i_1127_ & ~0x7f | i_1128_,
 						  943698901);
 			Class100 class100;
 			if (aClass100Array9371 != null
@@ -6830,7 +6830,7 @@ public class Class179_Sub2 extends Class179
 			int i_1133_ = aShortArray9403[i_1123_] & 0xffff;
 			int i_1134_ = (i_1133_ & 0x7f) * anInt9374 >> 7;
 			short i_1135_
-			    = BillBoardDefinitions.method8313(i_1133_ & ~0x7f | i_1134_,
+			    = Class504.method8313(i_1133_ & ~0x7f | i_1134_,
 						  216405611);
 			Class115 class115 = aClass115Array9398[i_1123_];
 			int i_1136_ = ((i * class115.anInt1407
@@ -6943,7 +6943,7 @@ public class Class179_Sub2 extends Class179
     
     int method15107(int i, short i_1146_, int i_1147_) {
 	int i_1148_ = Class642.anIntArray8324[method15071(i, i_1147_)];
-	Class166 class166
+	TextureMetrics class166
 	    = aClass182_Sub2_9433.aClass180_1944.method3116(i_1146_ & 0xffff,
 							    -1431554601);
 	int i_1149_ = class166.aByte1785 & 0xff;
@@ -7185,7 +7185,7 @@ public class Class179_Sub2 extends Class179
     public void method3058(short i, short i_1199_) {
 	if (aShortArray9402 != null) {
 	    if (!aBool9380 && i_1199_ >= 0) {
-		Class166 class166
+		TextureMetrics class166
 		    = aClass182_Sub2_9433.aClass180_1944
 			  .method3116(i_1199_ & 0xffff, -1431554601);
 		if (class166.aByte1805 != 0 || class166.aByte1806 != 0)
@@ -7234,7 +7234,7 @@ public class Class179_Sub2 extends Class179
 	    if (i_1202_ == -1) {
 		int i_1203_ = aShortArray9403[i] & 0xffff;
 		int i_1204_ = (i_1203_ & 0x7f) * anInt9374 >> 7;
-		short i_1205_ = BillBoardDefinitions.method8313(i_1203_ & ~0x7f | i_1204_,
+		short i_1205_ = Class504.method8313(i_1203_ & ~0x7f | i_1204_,
 						    993522583);
 		if (anIntArray9393[i] == -1) {
 		    int i_1206_ = anIntArray9391[i] & ~0x1ffff;
@@ -7422,7 +7422,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313((aShortArray9403
+			   [Class504.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]) & 0xffff,
 						1553417564) & 0xffff])
@@ -8818,7 +8818,7 @@ public class Class179_Sub2 extends Class179
 			class107.anInt1304
 			    = (class107.anInt1304 * -1093122285 & ~0xffffff
 			       | ((Class381.anIntArray3929
-				   [BillBoardDefinitions.method8313(((aShortArray9403
+				   [Class504.method8313(((aShortArray9403
 							  [(class103.anInt1273
 							    * -954563709)])
 							 & 0xffff),
@@ -8893,7 +8893,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313((aShortArray9403
+			   [Class504.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]),
 						716692968) & 0xffff])
@@ -9039,7 +9039,7 @@ public class Class179_Sub2 extends Class179
 		    class107.anInt1304
 			= (class107.anInt1304 * -1093122285 & ~0xffffff
 			   | ((Class381.anIntArray3929
-			       [BillBoardDefinitions.method8313(((aShortArray9403
+			       [Class504.method8313(((aShortArray9403
 						      [(class103.anInt1273
 							* -954563709)])
 						     & 0xffff),
@@ -9206,7 +9206,7 @@ public class Class179_Sub2 extends Class179
 		    class107.anInt1304
 			= (class107.anInt1304 * -1093122285 & ~0xffffff
 			   | ((Class381.anIntArray3929
-			       [BillBoardDefinitions.method8313(((aShortArray9403
+			       [Class504.method8313(((aShortArray9403
 						      [(class103.anInt1273
 							* -954563709)])
 						     & 0xffff),
@@ -10170,7 +10170,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313((aShortArray9403
+			   [Class504.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]),
 						380556920) & 0xffff])
@@ -10652,7 +10652,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313((aShortArray9403
+			   [Class504.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]),
 						1065707859) & 0xffff])
@@ -10699,7 +10699,7 @@ public class Class179_Sub2 extends Class179
     public void method3059(short i, short i_1629_) {
 	if (aShortArray9402 != null) {
 	    if (!aBool9380 && i_1629_ >= 0) {
-		Class166 class166
+		TextureMetrics class166
 		    = aClass182_Sub2_9433.aClass180_1944
 			  .method3116(i_1629_ & 0xffff, -1431554601);
 		if (class166.aByte1805 != 0 || class166.aByte1806 != 0)
@@ -11971,7 +11971,7 @@ public class Class179_Sub2 extends Class179
 	    if (i_1902_ == -1) {
 		int i_1903_ = aShortArray9403[i] & 0xffff;
 		int i_1904_ = (i_1903_ & 0x7f) * anInt9374 >> 7;
-		short i_1905_ = BillBoardDefinitions.method8313(i_1903_ & ~0x7f | i_1904_,
+		short i_1905_ = Class504.method8313(i_1903_ & ~0x7f | i_1904_,
 						    456596342);
 		if (anIntArray9393[i] == -1) {
 		    int i_1906_ = anIntArray9391[i] & ~0x1ffff;
@@ -12033,7 +12033,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313((aShortArray9403
+			   [Class504.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]),
 						1231698146) & 0xffff])
@@ -12068,7 +12068,7 @@ public class Class179_Sub2 extends Class179
 		class107.anInt1304
 		    = (class107.anInt1304 * -1093122285 & ~0xffffff
 		       | ((Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313((aShortArray9403
+			   [Class504.method8313((aShortArray9403
 						 [(class103.anInt1273
 						   * -954563709)]) & 0xffff,
 						1074560427) & 0xffff])

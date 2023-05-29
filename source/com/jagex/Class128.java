@@ -64,7 +64,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    anInt1496 = 0;
 		    int i_27_ = (Class381.anIntArray3929
-				 [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+				 [Class504.method8313(aClass182_Sub2_1488
 							  .method15168(i_25_),
 						      934189434) & 0xffff]);
 		    int i_28_
@@ -4493,7 +4493,7 @@ public class Class128
 		    anInt1496 = 0;
 		    int i_527_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_525_),
 						1145553395) & 0xffff]);
 		    int i_528_
@@ -5122,7 +5122,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_616_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_603_),
 						1277226487) & 0xffff]);
 		    int i_617_
@@ -5154,7 +5154,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_618_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_605_),
 						368657169) & 0xffff]);
 		    int i_619_
@@ -5185,7 +5185,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_620_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_607_),
 						974931140) & 0xffff]);
 		    int i_621_
@@ -6436,7 +6436,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_790_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_777_),
 						880450066) & 0xffff]);
 		    int i_791_
@@ -6468,7 +6468,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_792_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_779_),
 						1481386754) & 0xffff]);
 		    int i_793_
@@ -6499,7 +6499,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_794_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_781_),
 						1433852443) & 0xffff]);
 		    int i_795_
@@ -11193,7 +11193,7 @@ public class Class128
 		    anInt1496 = 0;
 		    int i_1113_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_1111_),
 						967860329) & 0xffff]);
 		    int i_1114_
@@ -12317,7 +12317,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_1340_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_1327_),
 						197072557) & 0xffff]);
 		    int i_1341_
@@ -12350,7 +12350,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_1342_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_1329_),
 						932303970) & 0xffff]);
 		    int i_1343_
@@ -12382,7 +12382,7 @@ public class Class128
 		    anInt1486 = 255 - (i >> 24 & 0xff);
 		    int i_1344_
 			= (Class381.anIntArray3929
-			   [BillBoardDefinitions.method8313(aClass182_Sub2_1488
+			   [Class504.method8313(aClass182_Sub2_1488
 						    .method15168(i_1331_),
 						520022431) & 0xffff]);
 		    int i_1345_

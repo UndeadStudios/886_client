@@ -8,7 +8,7 @@ public class Class307
     int anInt3414;
     public static Class307 aClass307_3415;
     public static Class307 aClass307_3416 = new Class307(0);
-    public static JS5 aClass458_3417;
+    public static JS5 idx_14;
     static Class525_Sub16_Sub16 aClass525_Sub16_Sub16_3418;
     
     static {

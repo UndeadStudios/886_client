@@ -88,7 +88,7 @@ public abstract class Class696
 	    = (Class85) client.aClass200_11206.method3785((long) i);
 	if (null == class85) {
 	    class85
-		= new Class85(Class555.aClass458_7460,
+		= new Class85(Class555.idx_49,
 			      Class525_Sub7_Sub3.method18214(i, -1443336058),
 			      Class203.method3858(i, 1240045102));
 	    client.aClass200_11206.method3788(class85, (long) i);

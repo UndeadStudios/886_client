@@ -100,7 +100,7 @@ public class Class190
 			  ? (Class581.aClass656_Sub1_Sub3_Sub1_Sub1_7705
 			     .aClass637_12246)
 			  : null),
-			 Class138.aClass631_1641, (byte) -21);
+			 HashTable.aClass631_1641, (byte) -21);
 		    class525_sub6.method8755(-1933461091);
 		}
 		Class83.method1604(-1965081426);
@@ -110,19 +110,19 @@ public class Class190
 		    canvas.setSize(36, 32);
 		    Class108.aClass182_1306
 			= Class232.method4394(0, canvas,
-					      Class166.aClass180_1835,
+					      TextureMetrics.aClass180_1835,
 					      Class411.anInterface24_4255,
 					      Class628.aClass385_8157,
 					      Class263.aClass402_2799,
 					      Class450.aClass400_4926,
-					      Class17_Sub1.aClass458_11027, 0,
+					      Class17_Sub1.idx_31, 0,
 					      1484986552);
 		    Class108.aClass175_1307
 			= (Class108.aClass182_1306.method3223
 			   (Class49.method1125(Class276.aClass458_2875,
 					       Class29.anInt286 * -1687840411,
 					       0, (short) -12458),
-			    Class187.method3674(Class462.aClass458_5095,
+			    Class187.method3674(Class462.idx_8,
 						Class29.anInt286 * -1687840411,
 						0),
 			    true));
@@ -146,7 +146,7 @@ public class Class190
 			  ? (Class581.aClass656_Sub1_Sub3_Sub1_Sub1_7705
 			     .aClass637_12246)
 			  : null),
-			 Class138.aClass631_1641, (byte) 25);
+			 HashTable.aClass631_1641, (byte) 25);
 		    class525_sub6.method8755(-1933461091);
 		}
 	    }

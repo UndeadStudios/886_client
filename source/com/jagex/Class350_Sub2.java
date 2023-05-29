@@ -11,7 +11,7 @@ public abstract class Class350_Sub2 extends Class350
     float aFloat10221 = 0.0F;
     Class430[] aClass430Array10222;
     float aFloat10223 = 0.0F;
-    public static JS5 aClass458_10224;
+    public static JS5 idx_22;
     static int anInt10225;
     
     public Class525_Sub28 method6141() {

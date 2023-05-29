@@ -96,10 +96,10 @@ public class Class117
     static Class525_Sub30 method2067() {
 	Class42 class42 = null;
 	Class525_Sub30 class525_sub30
-	    = new Class525_Sub30(client.aClass668_11090, 0);
+	    = new Class525_Sub30(client.gametype, 0);
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      false, 1059948327);
 	    byte[] is = new byte[(int) class42.method1048(-2142881237)];
 	    int i;
@@ -109,7 +109,7 @@ public class Class117
 		    throw new IOException();
 	    }
 	    class525_sub30 = new Class525_Sub30(new RSBuffer(is),
-						client.aClass668_11090, 0);
+						client.gametype, 0);
 	} catch (Exception exception) {
 	    /* empty */
 	}
@@ -125,10 +125,10 @@ public class Class117
     static Class525_Sub30 method2068() {
 	Class42 class42 = null;
 	Class525_Sub30 class525_sub30
-	    = new Class525_Sub30(client.aClass668_11090, 0);
+	    = new Class525_Sub30(client.gametype, 0);
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      false, -2104357155);
 	    byte[] is = new byte[(int) class42.method1048(-2054121786)];
 	    int i;
@@ -138,7 +138,7 @@ public class Class117
 		    throw new IOException();
 	    }
 	    class525_sub30 = new Class525_Sub30(new RSBuffer(is),
-						client.aClass668_11090, 0);
+						client.gametype, 0);
 	} catch (Exception exception) {
 	    /* empty */
 	}
@@ -154,10 +154,10 @@ public class Class117
     static Class525_Sub30 method2069() {
 	Class42 class42 = null;
 	Class525_Sub30 class525_sub30
-	    = new Class525_Sub30(client.aClass668_11090, 0);
+	    = new Class525_Sub30(client.gametype, 0);
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      false, -854979596);
 	    byte[] is = new byte[(int) class42.method1048(-1815395818)];
 	    int i;
@@ -167,7 +167,7 @@ public class Class117
 		    throw new IOException();
 	    }
 	    class525_sub30 = new Class525_Sub30(new RSBuffer(is),
-						client.aClass668_11090, 0);
+						client.gametype, 0);
 	} catch (Exception exception) {
 	    /* empty */
 	}
@@ -184,7 +184,7 @@ public class Class117
 	Class42 class42 = null;
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      true, 2077231694);
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-378202877);
@@ -280,7 +280,7 @@ public class Class117
 	Class42 class42 = null;
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      true, 1667581202);
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-1141932105);
@@ -302,7 +302,7 @@ public class Class117
 	Class42 class42 = null;
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      true, -1864028653);
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-342696091);
@@ -324,7 +324,7 @@ public class Class117
 	Class42 class42 = null;
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      true, -184798328);
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-1392321955);
@@ -469,7 +469,7 @@ public class Class117
 	Class42 class42 = null;
 	try {
 	    class42
-		= Class182.method3594("", client.aClass668_11090.aString8579,
+		= Class182.method3594("", client.gametype.aString8579,
 				      true, -630762249);
 	    RSBuffer class525_sub38
 		= Class198_Sub13.aClass525_Sub30_9973.method16501(-585014608);

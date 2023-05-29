@@ -870,7 +870,7 @@ public class Class255 implements Interface41
 						/ (double) i_59_);
 		    }
 		    int[] is_68_ = new int[i_62_];
-		    int i_69_ = Class180.method3120(i_62_ - 1, (byte) -55);
+		    int i_69_ = Textures.method3120(i_62_ - 1, (byte) -55);
 		    for (int i_70_ = 0; i_70_ < i_62_; i_70_++)
 			is_68_[i_70_]
 			    = Class320.method5715(i_70_, i_69_, 2054657417);
@@ -1169,7 +1169,7 @@ public class Class255 implements Interface41
 		    class250.aFloatArray2449[4 * i_137_ + 1]
 			= (f_138_ - f_140_) * f_141_ + (f - f_139_) * f_142_;
 		}
-		int i_143_ = Class180.method3120(i_84_ - 1, (byte) -67);
+		int i_143_ = Textures.method3120(i_84_ - 1, (byte) -67);
 		for (int i_144_ = 0; i_144_ < i_143_ - 3; i_144_++) {
 		    int i_145_ = i_84_ >> i_144_ + 2;
 		    int i_146_ = 8 << i_144_;
@@ -2370,7 +2370,7 @@ public class Class255 implements Interface41
 						/ (double) i_263_);
 		    }
 		    int[] is_272_ = new int[i_266_];
-		    int i_273_ = Class180.method3120(i_266_ - 1, (byte) 42);
+		    int i_273_ = Textures.method3120(i_266_ - 1, (byte) 42);
 		    for (int i_274_ = 0; i_274_ < i_266_; i_274_++)
 			is_272_[i_274_]
 			    = Class320.method5715(i_274_, i_273_, 1738870955);
@@ -2531,7 +2531,7 @@ public class Class255 implements Interface41
 						/ (double) i_288_);
 		    }
 		    int[] is_297_ = new int[i_291_];
-		    int i_298_ = Class180.method3120(i_291_ - 1, (byte) 79);
+		    int i_298_ = Textures.method3120(i_291_ - 1, (byte) 79);
 		    for (int i_299_ = 0; i_299_ < i_291_; i_299_++)
 			is_297_[i_299_]
 			    = Class320.method5715(i_299_, i_298_, 532709636);
@@ -2853,7 +2853,7 @@ public class Class255 implements Interface41
 		    class250.aFloatArray2449[4 * i_369_ + 1]
 			= (f_370_ - f_372_) * f_373_ + (f - f_371_) * f_374_;
 		}
-		int i_375_ = Class180.method3120(i_316_ - 1, (byte) -18);
+		int i_375_ = Textures.method3120(i_316_ - 1, (byte) -18);
 		for (int i_376_ = 0; i_376_ < i_375_ - 3; i_376_++) {
 		    int i_377_ = i_316_ >> i_376_ + 2;
 		    int i_378_ = 8 << i_376_;
@@ -3258,7 +3258,7 @@ public class Class255 implements Interface41
 		    class250.aFloatArray2449[4 * i_472_ + 1]
 			= (f_473_ - f_475_) * f_476_ + (f - f_474_) * f_477_;
 		}
-		int i_478_ = Class180.method3120(i_419_ - 1, (byte) -7);
+		int i_478_ = Textures.method3120(i_419_ - 1, (byte) -7);
 		for (int i_479_ = 0; i_479_ < i_478_ - 3; i_479_++) {
 		    int i_480_ = i_419_ >> i_479_ + 2;
 		    int i_481_ = 8 << i_479_;
@@ -3663,7 +3663,7 @@ public class Class255 implements Interface41
 		    class250.aFloatArray2449[4 * i_575_ + 1]
 			= (f_576_ - f_578_) * f_579_ + (f - f_577_) * f_580_;
 		}
-		int i_581_ = Class180.method3120(i_522_ - 1, (byte) 26);
+		int i_581_ = Textures.method3120(i_522_ - 1, (byte) 26);
 		for (int i_582_ = 0; i_582_ < i_581_ - 3; i_582_++) {
 		    int i_583_ = i_522_ >> i_582_ + 2;
 		    int i_584_ = 8 << i_582_;
@@ -4423,7 +4423,7 @@ public class Class255 implements Interface41
 						/ (double) i_667_);
 		    }
 		    int[] is_676_ = new int[i_670_];
-		    int i_677_ = Class180.method3120(i_670_ - 1, (byte) -8);
+		    int i_677_ = Textures.method3120(i_670_ - 1, (byte) -8);
 		    for (int i_678_ = 0; i_678_ < i_670_; i_678_++)
 			is_676_[i_678_]
 			    = Class320.method5715(i_678_, i_677_, 671172182);

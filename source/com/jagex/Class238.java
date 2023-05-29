@@ -49,7 +49,7 @@ public class Class238 implements Interface76
 	    try {
 		class42
 		    = Class182.method3594("3",
-					  client.aClass668_11090.aString8579,
+					  client.gametype.aString8579,
 					  false, 1316374824);
 		byte[] is = new byte[(int) class42.method1048(-2092208110)];
 		int i_1_;

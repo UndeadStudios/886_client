@@ -12,7 +12,7 @@ public class Class316 implements Interface33
     long aLong3494 = -593405761486258689L;
     int anInt3495;
     static int anInt3496;
-    public static JS5 aClass458_3497;
+    public static JS5 idx_2;
     
     public boolean method213(int i) {
 	boolean bool = true;

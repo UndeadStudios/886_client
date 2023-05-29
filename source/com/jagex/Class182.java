@@ -21,7 +21,7 @@ public abstract class Class182
     static boolean[] aBoolArray1941 = new boolean[8];
     public int anInt1942;
     public Interface24 anInterface24_1943;
-    public Class180 aClass180_1944;
+    public Textures aClass180_1944;
     public Interface47 anInterface47_1945;
     public Interface48 anInterface48_1946;
     static final int anInt1947 = 4;
@@ -50,9 +50,9 @@ public abstract class Class182
     public abstract Class152 method3129(int i, int i_0_, int[] is,
 					int[] is_1_);
     
-    Class182(Class180 class180, Interface24 interface24,
-	     Interface47 interface47, Interface48 interface48,
-	     Interface49 interface49) {
+    Class182(Textures class180, Interface24 interface24,
+             Interface47 interface47, Interface48 interface48,
+             Interface49 interface49) {
 	aHashtable1951 = new Hashtable();
 	aClass168_Sub2Array1961 = new Class168_Sub2[4];
 	anInt1967 = 0;
@@ -480,7 +480,7 @@ public abstract class Class182
 					int i_204_, int i_205_, boolean bool);
     
     static synchronized Class182 method3228
-	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
+	(int i, Canvas canvas, Textures class180, Interface24 interface24,
      Interface47 interface47, Interface48 interface48,
      Interface49 interface49, JS5 class458, int i_206_, int i_207_,
      int i_208_, int i_209_) {
@@ -1429,7 +1429,7 @@ public abstract class Class182
     public abstract Interface22 method3512(int i, int i_608_);
     
     public static Class182 method3513
-	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
+	(int i, Canvas canvas, Textures class180, Interface24 interface24,
      Interface47 interface47, Interface48 interface48,
      Interface49 interface49, JS5 class458, int i_609_) {
 	int i_610_ = 0;
@@ -1445,7 +1445,7 @@ public abstract class Class182
     }
     
     static synchronized Class182 method3514
-	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
+	(int i, Canvas canvas, Textures class180, Interface24 interface24,
      Interface47 interface47, Interface48 interface48,
      Interface49 interface49, JS5 class458, int i_612_, int i_613_,
      int i_614_) {
@@ -1469,7 +1469,7 @@ public abstract class Class182
     }
     
     static synchronized Class182 method3515
-	(int i, Canvas canvas, Class180 class180, Interface24 interface24,
+	(int i, Canvas canvas, Textures class180, Interface24 interface24,
      Interface47 interface47, Interface48 interface48,
      Interface49 interface49, JS5 class458, int i_615_, int i_616_,
      int i_617_) {

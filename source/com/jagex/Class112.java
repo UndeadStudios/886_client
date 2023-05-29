@@ -13,7 +13,7 @@ public class Class112
     static Class173 aClass173_1383;
     static Class173_Sub2[] aClass173_Sub2Array1384;
     public static boolean aBool1385;
-    public static JS5 aClass458_1386;
+    public static JS5 idx_12;
     
     public static void method1992(Class395 class395, Class396 class396, int i,
 				  int i_0_, int i_1_, int i_2_, int i_3_,
@@ -168,29 +168,29 @@ public class Class112
     static boolean method1995() {
 	boolean bool = true;
 	if (aClass173_1383 == null) {
-	    if (Class462.aClass458_5095
+	    if (Class462.idx_8
 		    .method7506(Class549.anInt7287 * 1429429129, 333901839))
 		aClass173_1383
-		    = Class187.method3668(Class462.aClass458_5095,
+		    = Class187.method3668(Class462.idx_8,
 					  1429429129 * Class549.anInt7287);
 	    else
 		bool = false;
 	}
 	if (EmitterConfig.aClass173_11726 == null) {
-	    if (Class462.aClass458_5095
+	    if (Class462.idx_8
 		    .method7506(-2122121723 * Class695.anInt8756, -1119069488))
 		EmitterConfig.aClass173_11726
-		    = Class187.method3668(Class462.aClass458_5095,
+		    = Class187.method3668(Class462.idx_8,
 					  Class695.anInt8756 * -2122121723);
 	    else
 		bool = false;
 	}
 	if (Class496.aClass173_5542 == null) {
-	    if (Class462.aClass458_5095.method7506(410930347 * (Class308_Sub1
+	    if (Class462.idx_8.method7506(410930347 * (Class308_Sub1
 								.anInt10142),
 						   -410320349))
 		Class496.aClass173_5542
-		    = Class187.method3668(Class462.aClass458_5095,
+		    = Class187.method3668(Class462.idx_8,
 					  (Class308_Sub1.anInt10142
 					   * 410930347));
 	    else
@@ -208,11 +208,11 @@ public class Class112
 		bool = false;
 	}
 	if (aClass173_Sub2Array1384 == null) {
-	    if (Class462.aClass458_5095.method7506(2145217499 * anInt1379,
+	    if (Class462.idx_8.method7506(2145217499 * anInt1379,
 						   551816229))
 		aClass173_Sub2Array1384
 		    = ((Class173_Sub2[])
-		       Class187.method3671(Class462.aClass458_5095,
+		       Class187.method3671(Class462.idx_8,
 					   2145217499 * anInt1379));
 	    else
 		bool = false;

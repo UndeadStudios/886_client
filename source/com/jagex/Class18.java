@@ -9,7 +9,7 @@ public class Class18
     public int anInt201;
     public int anInt202;
     int anInt203;
-    public static JS5 aClass458_204;
+    public static JS5 idx_28;
     
     Class18() {
 	/* empty */

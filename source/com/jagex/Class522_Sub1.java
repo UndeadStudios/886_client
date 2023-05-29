@@ -20,7 +20,7 @@ public class Class522_Sub1 extends Class522
 	    = Class213.method3942(class525_sub16_sub16, (byte) 69);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-	    = Class138.method2336(class525_sub16_sub16, -1162449553);
+	    = HashTable.method2336(class525_sub16_sub16, -1162449553);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
 	    = Class161.method2630(class525_sub16_sub16, -2143459146);

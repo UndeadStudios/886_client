@@ -66,8 +66,7 @@ public class Class413
 				    class259.anInt2576 * 1534974651,
 				    class259.anInt2588 * 1984678839, true,
 				    false,
-				    (long) ((class259.anInt2576 * 1534974651
-					     << 0)
+				    (long) ((class259.anInt2576 * 1534974651)
 					    | 1984678839 * class259.anInt2588),
 				    false, (byte) 42);
 	}
@@ -82,8 +81,7 @@ public class Class413
 				    1534974651 * class259.anInt2576,
 				    class259.anInt2588 * 1984678839, true,
 				    false,
-				    (long) ((1534974651 * class259.anInt2576
-					     << 0)
+				    (long) ((1534974651 * class259.anInt2576)
 					    | 1984678839 * class259.anInt2588),
 				    false, (byte) -16);
 	}
@@ -94,7 +92,7 @@ public class Class413
 				class259.anInt2740 * 372293357, 0L,
 				class259.anInt2576 * 1534974651,
 				1984678839 * class259.anInt2588, true, false,
-				(long) (class259.anInt2576 * 1534974651 << 0
+				(long) (class259.anInt2576 * 1534974651
 					| 1984678839 * class259.anInt2588),
 				false, (byte) -25);
 	for (int i_3_ = 4; i_3_ >= 0; i_3_--) {
@@ -108,8 +106,7 @@ public class Class413
 				    1534974651 * class259.anInt2576,
 				    1984678839 * class259.anInt2588, true,
 				    false,
-				    (long) ((1534974651 * class259.anInt2576
-					     << 0)
+				    (long) ((1534974651 * class259.anInt2576)
 					    | 1984678839 * class259.anInt2588),
 				    false, (byte) 109);
 	}
@@ -120,8 +117,7 @@ public class Class413
 				    1534974651 * class259.anInt2576,
 				    class259.anInt2588 * 1984678839, true,
 				    false,
-				    (long) ((class259.anInt2576 * 1534974651
-					     << 0)
+				    (long) ((class259.anInt2576 * 1534974651)
 					    | class259.anInt2588 * 1984678839),
 				    false, (byte) -30);
 	    else
@@ -131,7 +127,7 @@ public class Class413
 		     "", -1, 30, class259.anInt2740 * 372293357, 0L,
 		     1534974651 * class259.anInt2576,
 		     class259.anInt2588 * 1984678839, true, false,
-		     (long) (class259.anInt2576 * 1534974651 << 0
+		     (long) (class259.anInt2576 * 1534974651
 			     | class259.anInt2588 * 1984678839),
 		     false, (byte) -15);
 	}
@@ -513,7 +509,7 @@ public class Class413
 		    int i_58_
 			= (-254785117 * class287.anInt3190 > 0
 			   ? class287.anInt3190 * -254785117
-			   : Class138.aClass631_1641.anInt8181 * 912141075);
+			   : HashTable.aClass631_1641.anInt8181 * 912141075);
 		    Class322.method5728(class259, class152, i, i_32_, i_33_,
 					i_34_, class157, (double) i_58_,
 					class287.aClass275_3186,

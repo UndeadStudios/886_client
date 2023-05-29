@@ -95,7 +95,7 @@ public class Class179_Sub3 extends Class179
     Class179_Sub3(Class182_Sub1 class182_sub1, ModelDecoder class186, int i,
                   int i_0_, int i_1_, int i_2_) {
 	this(class182_sub1, i, i_2_, true, false);
-	Class180 class180 = class182_sub1.aClass180_1944;
+	Textures class180 = class182_sub1.aClass180_1944;
 	Interface47 interface47 = class182_sub1.anInterface47_1945;
 	int[] is = new int[class186.faceCount];
 	anIntArray9598 = new int[class186.maxVertexUsed + 1];
@@ -104,7 +104,7 @@ public class Class179_Sub3 extends Class179
 		|| class186.faceRenderTypes[i_3_] != 2) {
 		if (class186.aShortArray2110 != null
 		    && class186.aShortArray2110[i_3_] != -1) {
-		    Class166 class166
+		    TextureMetrics class166
 			= class180.method3116((class186.aShortArray2110[i_3_]
 					       & 0xffff),
 					      -1431554601);
@@ -123,7 +123,7 @@ public class Class179_Sub3 extends Class179
 	boolean bool = (anInt9544 & 0x100) != 0;
 	for (int i_4_ = 0; i_4_ < anInt9595; i_4_++) {
 	    int i_5_ = is[i_4_];
-	    Class166 class166 = null;
+	    TextureMetrics class166 = null;
 	    int i_6_ = 0;
 	    int i_7_ = 0;
 	    int i_8_ = 0;
@@ -132,7 +132,7 @@ public class Class179_Sub3 extends Class179
 		boolean bool_10_ = false;
 		for (int i_11_ = 0; i_11_ < class186.aClass171Array2088.length;
 		     i_11_++) {
-		    BillBoardConfig class171 = class186.aClass171Array2088[i_11_];
+		    Class171 class171 = class186.aClass171Array2088[i_11_];
 		    if (i_5_ == class171.anInt1856 * 553052305) {
 			Class394 class394
 			    = interface47.method338((class171.anInt1855
@@ -141,7 +141,7 @@ public class Class179_Sub3 extends Class179
 			if (class394.aBool4099)
 			    bool_10_ = true;
 			if (class394.anInt4094 * 836405987 != -1) {
-			    Class166 class166_12_
+			    TextureMetrics class166_12_
 				= class180.method3116((class394.anInt4094
 						       * 836405987),
 						      -1431554601);
@@ -227,7 +227,7 @@ public class Class179_Sub3 extends Class179
 	    aClass359Array9604 = new Class359[anInt9603];
 	    aClass349Array9574 = new Class349[anInt9603];
 	    for (int i_18_ = 0; i_18_ < anInt9603; i_18_++) {
-		BillBoardConfig class171 = class186.aClass171Array2088[i_18_];
+		Class171 class171 = class186.aClass171Array2088[i_18_];
 		Class394 class394
 		    = interface47.method338(class171.anInt1855 * -145881707,
 					    (short) 800);
@@ -2463,7 +2463,7 @@ public class Class179_Sub3 extends Class179
     }
     
     public void method2973(short i, short i_318_) {
-	Class180 class180 = aClass182_Sub1_9585.aClass180_1944;
+	Textures class180 = aClass182_Sub1_9585.aClass180_1944;
 	for (int i_319_ = 0; i_319_ < anInt9595; i_319_++) {
 	    if (aShortArray9605[i_319_] == i)
 		aShortArray9605[i_319_] = i_318_;
@@ -2471,14 +2471,14 @@ public class Class179_Sub3 extends Class179
 	byte i_320_ = 0;
 	byte i_321_ = 0;
 	if (i != -1) {
-	    Class166 class166 = class180.method3116(i & 0xffff, -1431554601);
+	    TextureMetrics class166 = class180.method3116(i & 0xffff, -1431554601);
 	    i_320_ = class166.aByte1785;
 	    i_321_ = class166.aByte1831;
 	}
 	byte i_322_ = 0;
 	byte i_323_ = 0;
 	if (i_318_ != -1) {
-	    Class166 class166
+	    TextureMetrics class166
 		= class180.method3116(i_318_ & 0xffff, -1431554601);
 	    i_322_ = class166.aByte1785;
 	    i_323_ = class166.aByte1831;
@@ -3130,7 +3130,7 @@ public class Class179_Sub3 extends Class179
 		      / 255.0F),
 		     ((float) (aClass182_Sub1_9585.anInt9282 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (aClass182_Sub1_9585.anInt9282 >> 0 & 0xff)
+		     ((float) (aClass182_Sub1_9585.anInt9282 & 0xff)
 		      / 255.0F));
 	    else
 		class317.aClass446_3501.method7265(0.0F, 0.0F, 0.0F);
@@ -3300,7 +3300,7 @@ public class Class179_Sub3 extends Class179
 		      / 255.0F),
 		     ((float) (class176.anInt1877 * 2141545647 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (class176.anInt1877 * 2141545647 >> 0 & 0xff)
+		     ((float) (class176.anInt1877 * 2141545647 & 0xff)
 		      / 255.0F));
 	    } else {
 		class319.aClass437_3518.method7073(0.0F, 0.0F, 0.0F, 0.0F);
@@ -3315,7 +3315,7 @@ public class Class179_Sub3 extends Class179
 		      / 255.0F),
 		     ((float) (aClass182_Sub1_9585.anInt9282 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (aClass182_Sub1_9585.anInt9282 >> 0 & 0xff)
+		     ((float) (aClass182_Sub1_9585.anInt9282 & 0xff)
 		      / 255.0F));
 		aClass182_Sub1_9585.aClass435_9180.method7040(class444);
 		aClass182_Sub1_9585.aClass435_9180.method6973();
@@ -3346,7 +3346,7 @@ public class Class179_Sub3 extends Class179
 		    boolean bool = false;
 		    byte i_427_ = 0;
 		    if (i_426_ != -1) {
-			Class166 class166
+			TextureMetrics class166
 			    = aClass182_Sub1_9585.aClass180_1944
 				  .method3116(i_426_ & 0xffff, -1431554601);
 			class319.anInterface38_3512
@@ -3458,7 +3458,7 @@ public class Class179_Sub3 extends Class179
 		    int i_433_ = anIntArray9567[i_431_ + 1];
 		    int i_434_ = aShortArray9605[i_432_];
 		    byte i_435_ = 11;
-		    Class166 class166 = null;
+		    TextureMetrics class166 = null;
 		    byte i_436_ = 0;
 		    if (i_434_ != -1) {
 			class166
@@ -3568,7 +3568,7 @@ public class Class179_Sub3 extends Class179
 		      / 255.0F),
 		     ((float) (aClass182_Sub1_9585.anInt9282 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (aClass182_Sub1_9585.anInt9282 >> 0 & 0xff)
+		     ((float) (aClass182_Sub1_9585.anInt9282 & 0xff)
 		      / 255.0F));
 	    else
 		class317.aClass446_3501.method7265(0.0F, 0.0F, 0.0F);
@@ -4011,7 +4011,7 @@ public class Class179_Sub3 extends Class179
 	int i_497_
 	    = aClass182_Sub1_9585.anIntArray9157[method15279(i, i_496_)];
 	if (i_495_ != -1) {
-	    Class166 class166 = aClass182_Sub1_9585.aClass180_1944
+	    TextureMetrics class166 = aClass182_Sub1_9585.aClass180_1944
 				    .method3116(i_495_ & 0xffff, -1431554601);
 	    int i_498_ = class166.aByte1785 & 0xff;
 	    if (i_498_ != 0) {
@@ -7318,7 +7318,7 @@ public class Class179_Sub3 extends Class179
     }
     
     public void method3058(short i, short i_1156_) {
-	Class180 class180 = aClass182_Sub1_9585.aClass180_1944;
+	Textures class180 = aClass182_Sub1_9585.aClass180_1944;
 	for (int i_1157_ = 0; i_1157_ < anInt9595; i_1157_++) {
 	    if (aShortArray9605[i_1157_] == i)
 		aShortArray9605[i_1157_] = i_1156_;
@@ -7326,14 +7326,14 @@ public class Class179_Sub3 extends Class179
 	byte i_1158_ = 0;
 	byte i_1159_ = 0;
 	if (i != -1) {
-	    Class166 class166 = class180.method3116(i & 0xffff, -1431554601);
+	    TextureMetrics class166 = class180.method3116(i & 0xffff, -1431554601);
 	    i_1158_ = class166.aByte1785;
 	    i_1159_ = class166.aByte1831;
 	}
 	byte i_1160_ = 0;
 	byte i_1161_ = 0;
 	if (i_1156_ != -1) {
-	    Class166 class166
+	    TextureMetrics class166
 		= class180.method3116(i_1156_ & 0xffff, -1431554601);
 	    i_1160_ = class166.aByte1785;
 	    i_1161_ = class166.aByte1831;
@@ -7357,7 +7357,7 @@ public class Class179_Sub3 extends Class179
     }
     
     public void method3059(short i, short i_1163_) {
-	Class180 class180 = aClass182_Sub1_9585.aClass180_1944;
+	Textures class180 = aClass182_Sub1_9585.aClass180_1944;
 	for (int i_1164_ = 0; i_1164_ < anInt9595; i_1164_++) {
 	    if (aShortArray9605[i_1164_] == i)
 		aShortArray9605[i_1164_] = i_1163_;
@@ -7365,14 +7365,14 @@ public class Class179_Sub3 extends Class179
 	byte i_1165_ = 0;
 	byte i_1166_ = 0;
 	if (i != -1) {
-	    Class166 class166 = class180.method3116(i & 0xffff, -1431554601);
+	    TextureMetrics class166 = class180.method3116(i & 0xffff, -1431554601);
 	    i_1165_ = class166.aByte1785;
 	    i_1166_ = class166.aByte1831;
 	}
 	byte i_1167_ = 0;
 	byte i_1168_ = 0;
 	if (i_1163_ != -1) {
-	    Class166 class166
+	    TextureMetrics class166
 		= class180.method3116(i_1163_ & 0xffff, -1431554601);
 	    i_1167_ = class166.aByte1785;
 	    i_1168_ = class166.aByte1831;
@@ -10136,7 +10136,7 @@ public class Class179_Sub3 extends Class179
 		      / 255.0F),
 		     ((float) (class176.anInt1877 * 2141545647 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (class176.anInt1877 * 2141545647 >> 0 & 0xff)
+		     ((float) (class176.anInt1877 * 2141545647 & 0xff)
 		      / 255.0F));
 	    } else {
 		class319.aClass437_3518.method7073(0.0F, 0.0F, 0.0F, 0.0F);
@@ -10151,7 +10151,7 @@ public class Class179_Sub3 extends Class179
 		      / 255.0F),
 		     ((float) (aClass182_Sub1_9585.anInt9282 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (aClass182_Sub1_9585.anInt9282 >> 0 & 0xff)
+		     ((float) (aClass182_Sub1_9585.anInt9282 & 0xff)
 		      / 255.0F));
 		aClass182_Sub1_9585.aClass435_9180.method7040(class444);
 		aClass182_Sub1_9585.aClass435_9180.method6973();
@@ -10182,7 +10182,7 @@ public class Class179_Sub3 extends Class179
 		    boolean bool = false;
 		    byte i_1621_ = 0;
 		    if (i_1620_ != -1) {
-			Class166 class166
+			TextureMetrics class166
 			    = aClass182_Sub1_9585.aClass180_1944
 				  .method3116(i_1620_ & 0xffff, -1431554601);
 			class319.anInterface38_3512
@@ -10294,7 +10294,7 @@ public class Class179_Sub3 extends Class179
 		    int i_1627_ = anIntArray9567[i_1625_ + 1];
 		    int i_1628_ = aShortArray9605[i_1626_];
 		    byte i_1629_ = 11;
-		    Class166 class166 = null;
+		    TextureMetrics class166 = null;
 		    byte i_1630_ = 0;
 		    if (i_1628_ != -1) {
 			class166
@@ -10404,7 +10404,7 @@ public class Class179_Sub3 extends Class179
 		      / 255.0F),
 		     ((float) (aClass182_Sub1_9585.anInt9282 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (aClass182_Sub1_9585.anInt9282 >> 0 & 0xff)
+		     ((float) (aClass182_Sub1_9585.anInt9282 & 0xff)
 		      / 255.0F));
 	    else
 		class317.aClass446_3501.method7265(0.0F, 0.0F, 0.0F);
@@ -10499,7 +10499,7 @@ public class Class179_Sub3 extends Class179
 		      / 255.0F),
 		     ((float) (aClass182_Sub1_9585.anInt9282 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (aClass182_Sub1_9585.anInt9282 >> 0 & 0xff)
+		     ((float) (aClass182_Sub1_9585.anInt9282 & 0xff)
 		      / 255.0F));
 	    else
 		class317.aClass446_3501.method7265(0.0F, 0.0F, 0.0F);
@@ -12022,7 +12022,7 @@ public class Class179_Sub3 extends Class179
 	int i_1923_
 	    = aClass182_Sub1_9585.anIntArray9157[method15279(i, i_1922_)];
 	if (i_1921_ != -1) {
-	    Class166 class166 = aClass182_Sub1_9585.aClass180_1944
+	    TextureMetrics class166 = aClass182_Sub1_9585.aClass180_1944
 				    .method3116(i_1921_ & 0xffff, -1431554601);
 	    int i_1924_ = class166.aByte1785 & 0xff;
 	    if (i_1924_ != 0) {
@@ -12070,7 +12070,7 @@ public class Class179_Sub3 extends Class179
 	int i_1934_
 	    = aClass182_Sub1_9585.anIntArray9157[method15279(i, i_1933_)];
 	if (i_1932_ != -1) {
-	    Class166 class166 = aClass182_Sub1_9585.aClass180_1944
+	    TextureMetrics class166 = aClass182_Sub1_9585.aClass180_1944
 				    .method3116(i_1932_ & 0xffff, -1431554601);
 	    int i_1935_ = class166.aByte1785 & 0xff;
 	    if (i_1935_ != 0) {

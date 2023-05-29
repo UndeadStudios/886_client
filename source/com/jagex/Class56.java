@@ -9,48 +9,48 @@ public class Class56
     public static Class56 idx_1;
     public static Class56 idx_2;
     public static Class56 idx_3;
-    public static Class56 aClass56_572;
-    public static Class56 aClass56_573;
+    public static Class56 idx_27;
+    public static Class56 idx_20;
     public static Class56 idx_8;
-    public static Class56 aClass56_575;
-    public static Class56 aClass56_576;
-    public static Class56 aClass56_577;
-    public static Class56 aClass56_578;
-    public static Class56 aClass56_579;
-    public static Class56 aClass56_580;
-    public static Class56 aClass56_581;
+    public static Class56 idx_17;
+    public static Class56 idx_30;
+    public static Class56 idx_13;
+    public static Class56 idx_18;
+    public static Class56 idx_16;
+    public static Class56 idx_34;
+    public static Class56 idx_49;
     public static Class56 idx_7;
-    public static Class56 aClass56_583;
-    public static Class56 aClass56_584;
-    public static Class56 aClass56_585;
-    public static Class56 aClass56_586;
-    public static Class56 aClass56_587;
-    public static Class56 aClass56_588;
-    public static Class56 aClass56_589;
-    public static Class56 aClass56_590;
-    public static Class56 aClass56_591;
-    public static Class56 aClass56_592;
-    public static Class56 aClass56_593;
-    public static Class56 aClass56_594;
-    public static Class56 aClass56_595;
-    public static Class56 aClass56_596;
+    public static Class56 idx_12;
+    public static Class56 idx_21;
+    public static Class56 idx_19;
+    public static Class56 idx_23;
+    public static Class56 idx_33;
+    public static Class56 idx_25;
+    public static Class56 idx_26;
+    public static Class56 idx_24;
+    public static Class56 idx_28;
+    public static Class56 idx_29;
+    public static Class56 idx_14;
+    public static Class56 idx_43;
+    public static Class56 idx_32;
+    public static Class56 idx_31;
     boolean aBool597;
-    public static Class56 aClass56_598;
-    public static Class56 aClass56_599;
-    public static Class56 aClass56_600;
+    public static Class56 idx_35;
+    public static Class56 idx_40;
+    public static Class56 idx_41;
     public static Class56 idx_0
 	= new Class56(0, "", false, false, false);
-    static Class56 aClass56_602;
-    public static Class56 aClass56_603;
-    static Class56 aClass56_604;
-    static Class56 aClass56_605;
-    static Class56 aClass56_606;
-    static Class56 aClass56_607;
-    public static Class56 aClass56_608;
-    static Class56 aClass56_609;
-    static Class56 aClass56_610;
+    static Class56 idx_42;
+    public static Class56 idx_44;
+    static Class56 idx_45;
+    static Class56 idx_46;
+    static Class56 idx_47;
+    static Class56 idx_48;
+    public static Class56 idx_22;
+    static Class56 idx_50;
+    static Class56 idx_51;
     int anInt611;
-    public static Class56 aClass56_612;
+    public static Class56 idx_10;
     static int anInt613;
     
     public int method1193() {
@@ -74,46 +74,46 @@ public class Class56
     public static Class56[] method1196() {
 	return (new Class56[]
 		{idx_0, idx_1, idx_2, idx_3,
-				idx_5, idx_7, idx_8, aClass56_612,
-		  aClass56_583, aClass56_577, aClass56_593, aClass56_579,
-		  aClass56_575, aClass56_578, aClass56_585, aClass56_573,
-		  aClass56_584, aClass56_608, aClass56_586, aClass56_590,
-		  aClass56_588, aClass56_589, aClass56_572, aClass56_591,
-		  aClass56_592, aClass56_576, aClass56_596, aClass56_595,
-		  aClass56_587, aClass56_580, aClass56_598, aClass56_599,
-		  aClass56_600, aClass56_602, aClass56_594, aClass56_603,
-		  aClass56_604, aClass56_605, aClass56_606, aClass56_607,
-		  aClass56_581, aClass56_609, aClass56_610 });
+				idx_5, idx_7, idx_8, idx_10,
+				idx_12, idx_13, idx_14, idx_16,
+				idx_17, idx_18, idx_19, idx_20,
+				idx_21, idx_22, idx_23, idx_24,
+				idx_25, idx_26, idx_27, idx_28,
+				idx_29, idx_30, idx_31, idx_32,
+				idx_33, idx_34, idx_35, idx_40,
+				idx_41, idx_42, idx_43, idx_44,
+				idx_45, idx_46, idx_47, idx_48,
+				idx_49, idx_50, idx_51});
     }
     
     public static Class56[] method1197() {
 	return (new Class56[]
 		{idx_0, idx_1, idx_2, idx_3,
-				idx_5, idx_7, idx_8, aClass56_612,
-		  aClass56_583, aClass56_577, aClass56_593, aClass56_579,
-		  aClass56_575, aClass56_578, aClass56_585, aClass56_573,
-		  aClass56_584, aClass56_608, aClass56_586, aClass56_590,
-		  aClass56_588, aClass56_589, aClass56_572, aClass56_591,
-		  aClass56_592, aClass56_576, aClass56_596, aClass56_595,
-		  aClass56_587, aClass56_580, aClass56_598, aClass56_599,
-		  aClass56_600, aClass56_602, aClass56_594, aClass56_603,
-		  aClass56_604, aClass56_605, aClass56_606, aClass56_607,
-		  aClass56_581, aClass56_609, aClass56_610 });
+				idx_5, idx_7, idx_8, idx_10,
+				idx_12, idx_13, idx_14, idx_16,
+				idx_17, idx_18, idx_19, idx_20,
+				idx_21, idx_22, idx_23, idx_24,
+				idx_25, idx_26, idx_27, idx_28,
+				idx_29, idx_30, idx_31, idx_32,
+				idx_33, idx_34, idx_35, idx_40,
+				idx_41, idx_42, idx_43, idx_44,
+				idx_45, idx_46, idx_47, idx_48,
+				idx_49, idx_50, idx_51});
     }
     
     public static Class56[] method1198() {
 	return (new Class56[]
 		{idx_0, idx_1, idx_2, idx_3,
-				idx_5, idx_7, idx_8, aClass56_612,
-		  aClass56_583, aClass56_577, aClass56_593, aClass56_579,
-		  aClass56_575, aClass56_578, aClass56_585, aClass56_573,
-		  aClass56_584, aClass56_608, aClass56_586, aClass56_590,
-		  aClass56_588, aClass56_589, aClass56_572, aClass56_591,
-		  aClass56_592, aClass56_576, aClass56_596, aClass56_595,
-		  aClass56_587, aClass56_580, aClass56_598, aClass56_599,
-		  aClass56_600, aClass56_602, aClass56_594, aClass56_603,
-		  aClass56_604, aClass56_605, aClass56_606, aClass56_607,
-		  aClass56_581, aClass56_609, aClass56_610 });
+				idx_5, idx_7, idx_8, idx_10,
+				idx_12, idx_13, idx_14, idx_16,
+				idx_17, idx_18, idx_19, idx_20,
+				idx_21, idx_22, idx_23, idx_24,
+				idx_25, idx_26, idx_27, idx_28,
+				idx_29, idx_30, idx_31, idx_32,
+				idx_33, idx_34, idx_35, idx_40,
+				idx_41, idx_42, idx_43, idx_44,
+				idx_45, idx_46, idx_47, idx_48,
+				idx_49, idx_50, idx_51});
     }
     
     static {
@@ -123,42 +123,42 @@ public class Class56
 	idx_5 = new Class56(5, "", false, false, false);
 	idx_7 = new Class56(7, "", false, false, false);
 	idx_8 = new Class56(8, "", false, false, false);
-	aClass56_612 = new Class56(10, "", false, false, false);
-	aClass56_583 = new Class56(12, "", true, false, false);
-	aClass56_577 = new Class56(13, "", false, false, false);
-	aClass56_593 = new Class56(14, "", false, false, false);
-	aClass56_579 = new Class56(16, "", true, false, false);
-	aClass56_575 = new Class56(17, "", true, false, false);
-	aClass56_578 = new Class56(18, "", true, false, false);
-	aClass56_585 = new Class56(19, "", true, false, false);
-	aClass56_573 = new Class56(20, "", true, false, false);
-	aClass56_584 = new Class56(21, "", true, false, false);
-	aClass56_608 = new Class56(22, "", true, false, false);
-	aClass56_586 = new Class56(23, "", true, false, false);
-	aClass56_590 = new Class56(24, "", true, false, false);
-	aClass56_588 = new Class56(25, "", true, false, false);
-	aClass56_589 = new Class56(26, "", false, false, false);
-	aClass56_572 = new Class56(27, "", false, false, false);
-	aClass56_591 = new Class56(28, "", false, false, false);
-	aClass56_592 = new Class56(29, "", false, false, false);
-	aClass56_576 = new Class56(30, "", false, false, false);
-	aClass56_596 = new Class56(31, "", false, false, false);
-	aClass56_595 = new Class56(32, "", false, false, false);
-	aClass56_587 = new Class56(33, "", true, false, false);
-	aClass56_580 = new Class56(34, "", false, false, false);
-	aClass56_598 = new Class56(35, "", true, false, false);
-	aClass56_599 = new Class56(40, "", false, false, true);
-	aClass56_600 = new Class56(41, "", false, false, false);
-	aClass56_602 = new Class56(42, "", false, false, false);
-	aClass56_594 = new Class56(43, "", false, false, false);
-	aClass56_603 = new Class56(44, "", false, false, false);
-	aClass56_604 = new Class56(45, "", false, true, false);
-	aClass56_605 = new Class56(46, "", false, true, false);
-	aClass56_606 = new Class56(47, "", false, true, false);
-	aClass56_607 = new Class56(48, "", false, true, false);
-	aClass56_581 = new Class56(49, "", true, true, false);
-	aClass56_609 = new Class56(50, "", false, true, false);
-	aClass56_610 = new Class56(51, "", false, true, false);
+	idx_10 = new Class56(10, "", false, false, false);
+	idx_12 = new Class56(12, "", true, false, false);
+	idx_13 = new Class56(13, "", false, false, false);
+	idx_14 = new Class56(14, "", false, false, false);
+	idx_16 = new Class56(16, "", true, false, false);
+	idx_17 = new Class56(17, "", true, false, false);
+	idx_18 = new Class56(18, "", true, false, false);
+	idx_19 = new Class56(19, "", true, false, false);
+	idx_20 = new Class56(20, "", true, false, false);
+	idx_21 = new Class56(21, "", true, false, false);
+	idx_22 = new Class56(22, "", true, false, false);
+	idx_23 = new Class56(23, "", true, false, false);
+	idx_24 = new Class56(24, "", true, false, false);
+	idx_25 = new Class56(25, "", true, false, false);
+	idx_26 = new Class56(26, "", false, false, false);
+	idx_27 = new Class56(27, "", false, false, false);
+	idx_28 = new Class56(28, "", false, false, false);
+	idx_29 = new Class56(29, "", false, false, false);
+	idx_30 = new Class56(30, "", false, false, false);
+	idx_31 = new Class56(31, "", false, false, false);
+	idx_32 = new Class56(32, "", false, false, false);
+	idx_33 = new Class56(33, "", true, false, false);
+	idx_34 = new Class56(34, "", false, false, false);
+	idx_35 = new Class56(35, "", true, false, false);
+	idx_40 = new Class56(40, "", false, false, true);
+	idx_41 = new Class56(41, "", false, false, false);
+	idx_42 = new Class56(42, "", false, false, false);
+	idx_43 = new Class56(43, "", false, false, false);
+	idx_44 = new Class56(44, "", false, false, false);
+	idx_45 = new Class56(45, "", false, true, false);
+	idx_46 = new Class56(46, "", false, true, false);
+	idx_47 = new Class56(47, "", false, true, false);
+	idx_48 = new Class56(48, "", false, true, false);
+	idx_49 = new Class56(49, "", true, true, false);
+	idx_50 = new Class56(50, "", false, true, false);
+	idx_51 = new Class56(51, "", false, true, false);
 	anInt613 = 1424931333;
     }
     

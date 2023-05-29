@@ -11,7 +11,7 @@ public class Class656_Sub1_Sub3_Sub3 extends Class656_Sub1_Sub3
     boolean aBool12045;
     boolean aBool12046 = true;
     Class553 aClass553_12047;
-    public static JS5 aClass458_12048;
+    public static JS5 idx_35;
     
     boolean method16934() {
 	return aBool12046;

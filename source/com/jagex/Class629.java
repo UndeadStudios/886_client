@@ -11,7 +11,7 @@ public class Class629 implements Iterable
     Class620[] aClass620Array8159;
     public static int anInt8160;
     static long aLong8161;
-    public static JS5 aClass458_8162;
+    public static JS5 idx_1;
     
     public Class629(JS5 class458) {
 	method10289(class458.getTextureData((Class638.aClass638_8307.anInt8316

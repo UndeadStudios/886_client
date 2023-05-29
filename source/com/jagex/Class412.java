@@ -275,7 +275,7 @@ public class Class412
 	    String string = class525_sub38_sub2.readString((byte) -48);
 	    if (client.aClass507_11137.method8346(-1698045909)
 		!= Class499.aClass499_5551)
-		Class196.method3744(-799406751 * Class166.anInt1836, i_2_,
+		Class196.method3744(-799406751 * TextureMetrics.anInt1836, i_2_,
 				    i_3_, i_5_, i_4_, i_6_, string,
 				    -691010033);
 	} else if (Class406.aClass406_4166 == class406) {
@@ -288,7 +288,7 @@ public class Class412
 	    int i_12_ = i_11_ + -1227002079 * class600.anInt7858;
 	    Class525_Sub23 class525_sub23
 		= ((Class525_Sub23)
-		   client.aClass10_11246.method684((long) ((Class166.anInt1836
+		   client.aClass10_11246.method684((long) ((TextureMetrics.anInt1836
 							    * -799406751) << 28
 							   | i_10_ << 14
 							   | i_12_)));
@@ -310,7 +310,7 @@ public class Class412
 		if (i_11_ >= 0 && i_9_ >= 0
 		    && i_11_ < client.aClass507_11137.method8412(2136094410)
 		    && i_9_ < client.aClass507_11137.method8352((byte) -64))
-		    Class685.method11253(Class166.anInt1836 * -799406751,
+		    Class685.method11253(TextureMetrics.anInt1836 * -799406751,
 					 i_11_, i_9_, 1460628285);
 	    }
 	} else if (Class406.aClass406_4154 == class406) {
@@ -325,7 +325,7 @@ public class Class412
 	    int i_21_ = -727902931 * Class236.anInt2391 + (i_19_ & 0x7);
 	    if (client.aClass507_11137.method8346(-1698045909)
 		!= Class499.aClass499_5551)
-		Class590.method9793(-799406751 * Class166.anInt1836, i_20_,
+		Class590.method9793(-799406751 * TextureMetrics.anInt1836, i_20_,
 				    i_21_, i_17_, i_15_, i_16_, i_13_, i_18_,
 				    1252297869);
 	} else if (Class406.aClass406_4156 == class406) {
@@ -342,7 +342,7 @@ public class Class412
 		|| (i_27_ >= 0 && i_28_ >= 0
 		    && i_27_ < client.aClass507_11137.method8412(323787334)
 		    && i_28_ < client.aClass507_11137.method8352((byte) -98)))
-		Class712.method14454(-799406751 * Class166.anInt1836, i_27_,
+		Class712.method14454(-799406751 * TextureMetrics.anInt1836, i_27_,
 				     i_28_, i_25_, i_29_, i_23_, i_24_,
 				     129360567);
 	} else if (Class406.aClass406_4164 == class406) {
@@ -359,7 +359,7 @@ public class Class412
 		Class525_Sub23 class525_sub23
 		    = ((Class525_Sub23)
 		       (client.aClass10_11246.method684
-			((long) (Class166.anInt1836 * -799406751 << 28
+			((long) (TextureMetrics.anInt1836 * -799406751 << 28
 				 | i_32_ << 14 | i_34_))));
 		if (null != class525_sub23) {
 		    for (Class525_Sub13 class525_sub13
@@ -375,7 +375,7 @@ public class Class412
 				== i_36_)) {
 			    class525_sub13.method8755(-1933461091);
 			    class525_sub13.anInt10529 = 1399909441 * i_37_;
-			    Class96.method1818(-799406751 * Class166.anInt1836,
+			    Class96.method1818(-799406751 * TextureMetrics.anInt1836,
 					       i_34_, i_32_, class525_sub13,
 					       401435368);
 			    break;
@@ -386,7 +386,7 @@ public class Class412
 			    < client.aClass507_11137.method8412(1063841807))
 			&& (i_31_
 			    < client.aClass507_11137.method8352((byte) -33)))
-			Class685.method11253(-799406751 * Class166.anInt1836,
+			Class685.method11253(-799406751 * TextureMetrics.anInt1836,
 					     i_33_, i_31_, 1509422289);
 		}
 	    }
@@ -405,11 +405,11 @@ public class Class412
 		   && i_40_ < client.aClass507_11137.method8352((byte) -50));
 	    if (bool || client.aClass507_11137.method8346(-1698045909)
 			    .method8160(1954712495)) {
-		Class96.method1818(-799406751 * Class166.anInt1836, i_43_,
+		Class96.method1818(-799406751 * TextureMetrics.anInt1836, i_43_,
 				   i_41_, new Class525_Sub13(i_38_, i_44_),
 				   499442387);
 		if (bool)
-		    Class685.method11253(Class166.anInt1836 * -799406751,
+		    Class685.method11253(TextureMetrics.anInt1836 * -799406751,
 					 i_42_, i_40_, 1842275782);
 	    }
 	} else if (Class406.aClass406_4160 == class406) {
@@ -442,7 +442,7 @@ public class Class412
 			Class446 class446
 			    = new Class446((float) (i_46_ << 9), 0.0F,
 					   (float) (i_47_ << 9));
-			int i_56_ = -799406751 * Class166.anInt1836;
+			int i_56_ = -799406751 * TextureMetrics.anInt1836;
 			Class40_Sub20.aClass217_11050.method4047
 			    (Class204.aClass204_2226, i_48_, i_51_, i_53_,
 			     Class208.aClass208_2250.method3907((short) 19141),
@@ -484,7 +484,7 @@ public class Class412
 			Class446 class446
 			    = new Class446((float) (i_58_ << 9), 0.0F,
 					   (float) (i_59_ << 9));
-			int i_68_ = -799406751 * Class166.anInt1836;
+			int i_68_ = -799406751 * TextureMetrics.anInt1836;
 			int i_69_ = (bool
 				     ? Class208.aClass208_2252
 					   .method3907((short) -8416)
@@ -529,7 +529,7 @@ public class Class412
 		    } else {
 			int i_78_ = 256 + 512 * i_71_;
 			int i_79_ = i_72_ * 512 + 256;
-			int i_80_ = -799406751 * Class166.anInt1836;
+			int i_80_ = -799406751 * TextureMetrics.anInt1836;
 			if (i_80_ < 3
 			    && client.aClass507_11137.method8360
 				   (2093785779)
@@ -538,10 +538,10 @@ public class Class412
 			Class656_Sub1_Sub3_Sub4 class656_sub1_sub3_sub4
 			    = (new Class656_Sub1_Sub3_Sub4
 			       (client.aClass507_11137.method8358((byte) 48),
-				i_73_, i_75_, -799406751 * Class166.anInt1836,
+				i_73_, i_75_, -799406751 * TextureMetrics.anInt1836,
 				i_80_, i_78_,
 				Class335.method5855(i_78_, i_79_,
-						    (Class166.anInt1836
+						    (TextureMetrics.anInt1836
 						     * -799406751),
 						    2020563229) - i_74_,
 				i_79_, i_71_, i_71_, i_72_, i_72_, i_76_,
@@ -565,7 +565,7 @@ public class Class412
 		|| (i_82_ >= 0 && i_83_ >= 0
 		    && i_82_ < client.aClass507_11137.method8412(1549383132)
 		    && i_83_ < client.aClass507_11137.method8352((byte) -99)))
-		Class712.method14454(-799406751 * Class166.anInt1836, i_82_,
+		Class712.method14454(-799406751 * TextureMetrics.anInt1836, i_82_,
 				     i_83_, i_87_, -1, i_85_, i_86_,
 				     2135787584);
 	} else if (Class406.aClass406_4153 == class406) {
@@ -580,7 +580,7 @@ public class Class412
 	    if (Class608.aClass608_7997.anInt7995 * -1214990409 == i_93_)
 		i_93_ = Class608.aClass608_7996.anInt7995 * -1214990409;
 	    if (1 == (i_95_ & 0x1))
-		Class696_Sub18.method17141(-799406751 * Class166.anInt1836,
+		Class696_Sub18.method17141(-799406751 * TextureMetrics.anInt1836,
 					   i_89_, i_90_, i_94_, i_91_, i_93_,
 					   null, 1723215928);
 	    else {
@@ -608,7 +608,7 @@ public class Class412
 			is_101_[i_103_] = (short) class525_sub38_sub2
 						      .readUnsignedShort((byte) 37);
 		}
-		Class696_Sub18.method17141(-799406751 * Class166.anInt1836,
+		Class696_Sub18.method17141(-799406751 * TextureMetrics.anInt1836,
 					   i_89_, i_90_, i_94_, i_91_, i_93_,
 					   new Class604((-903346621070464269L
 							 * (Class525_Sub12
@@ -655,15 +655,15 @@ public class Class412
 		    Class656_Sub1_Sub3_Sub5 class656_sub1_sub3_sub5
 			= (new Class656_Sub1_Sub3_Sub5
 			   (client.aClass507_11137.method8358((byte) 71),
-			    i_110_, Class166.anInt1836 * -799406751,
-			    -799406751 * Class166.anInt1836, i_105_, i_106_,
+			    i_110_, TextureMetrics.anInt1836 * -799406751,
+			    -799406751 * TextureMetrics.anInt1836, i_105_, i_106_,
 			    i_111_, i_113_ + client.anInt11083,
 			    client.anInt11083 + i_114_, i_115_, i_116_, 0,
 			    i_109_, i_112_, bool, -1, i_117_));
 		    class656_sub1_sub3_sub5.method18857
 			(i_107_, i_108_,
 			 Class335.method5855(i_107_, i_108_,
-					     -799406751 * Class166.anInt1836,
+					     -799406751 * TextureMetrics.anInt1836,
 					     2020563229) - i_112_,
 			 i_113_ + client.anInt11083, (short) 3203);
 		    client.aClass709_11247.method14345
@@ -690,12 +690,12 @@ public class Class412
 						.method8352((byte) -69));
 		if (bool || client.aClass507_11137.method8346(-1698045909)
 				.method8160(1814429980)) {
-		    Class96.method1818(-799406751 * Class166.anInt1836, i_123_,
+		    Class96.method1818(-799406751 * TextureMetrics.anInt1836, i_123_,
 				       i_121_,
 				       new Class525_Sub13(i_124_, i_125_),
 				       -1517704966);
 		    if (bool)
-			Class685.method11253(Class166.anInt1836 * -799406751,
+			Class685.method11253(TextureMetrics.anInt1836 * -799406751,
 					     i_122_, i_120_, 1845965661);
 		}
 	    }

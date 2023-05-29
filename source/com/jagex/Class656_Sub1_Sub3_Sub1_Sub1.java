@@ -34,7 +34,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     public void method18902(String string, int i, int i_0_) {
 	method18617(string, i, i_0_,
 		    (Class424.method6768(1684836768)
-		     * (-940740541 * Class138.aClass631_1641.anInt8210)),
+		     * (-940740541 * HashTable.aClass631_1641.anInt8210)),
 		    -1778278627);
     }
     
@@ -479,7 +479,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     public void method18914(String string, int i, int i_52_, int i_53_) {
 	method18617(string, i, i_52_,
 		    (Class424.method6768(1684836768)
-		     * (-940740541 * Class138.aClass631_1641.anInt8210)),
+		     * (-940740541 * HashTable.aClass631_1641.anInt8210)),
 		    -1778278627);
     }
     
@@ -623,7 +623,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     }
     
     public boolean method18643(byte i) {
-	return Class138.aClass631_1641.aBool8189;
+	return HashTable.aClass631_1641.aBool8189;
     }
     
     public Class429 method176() {
@@ -830,11 +830,11 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     }
     
     public boolean method18678() {
-	return Class138.aClass631_1641.aBool8189;
+	return HashTable.aClass631_1641.aBool8189;
     }
     
     public boolean method18679() {
-	return Class138.aClass631_1641.aBool8189;
+	return HashTable.aClass631_1641.aBool8189;
     }
     
     public Class524 method18635() {
@@ -1064,8 +1064,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 			&& (!aClass689_Sub1_11986.aBool11017
 			    || null == class689))
 		       ? aClass689_Sub1_11986 : null);
-		short i_93_ = Class138.aClass631_1641.aShort8179;
-		byte i_94_ = Class138.aClass631_1641.aByte8180;
+		short i_93_ = HashTable.aClass631_1641.aShort8179;
+		byte i_94_ = HashTable.aClass631_1641.aByte8180;
 		if (-1 != aClass637_12246.anInt8300 * -1172437919) {
 		    i_93_ = ((NPCDefinitions)
 			     (Class168_Sub1.aClass40_Sub7_9112.method76
@@ -1476,8 +1476,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
 			&& (!aClass689_Sub1_11986.aBool11017
 			    || null == class689))
 		       ? aClass689_Sub1_11986 : null);
-		short i_141_ = Class138.aClass631_1641.aShort8179;
-		byte i_142_ = Class138.aClass631_1641.aByte8180;
+		short i_141_ = HashTable.aClass631_1641.aShort8179;
+		byte i_142_ = HashTable.aClass631_1641.aByte8180;
 		if (-1 != aClass637_12246.anInt8300 * -1172437919) {
 		    i_141_ = ((NPCDefinitions)
 			      (Class168_Sub1.aClass40_Sub7_9112.method76
@@ -2080,7 +2080,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub1 extends Class656_Sub1_Sub3_Sub1
     public void method18938(String string, int i, int i_207_) {
 	method18617(string, i, i_207_,
 		    (Class424.method6768(1684836768)
-		     * (-940740541 * Class138.aClass631_1641.anInt8210)),
+		     * (-940740541 * HashTable.aClass631_1641.anInt8210)),
 		    -1778278627);
     }
 }

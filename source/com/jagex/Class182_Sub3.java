@@ -6701,9 +6701,9 @@ public class Class182_Sub3 extends Class182
 	return false;
     }
     
-    Class182_Sub3(Canvas canvas, Class180 class180, Interface24 interface24,
-		  Interface47 interface47, Interface48 interface48,
-		  Interface49 interface49, int i) {
+    Class182_Sub3(Canvas canvas, Textures class180, Interface24 interface24,
+                  Interface47 interface47, Interface48 interface48,
+                  Interface49 interface49, int i) {
 	super(class180, interface24, interface47, interface48, interface49);
 	anInt9685 = 8;
 	anInt9800 = 3;
@@ -7661,7 +7661,7 @@ public class Class182_Sub3 extends Class182
 	    byte i_874_ = aBool9776 ? (byte) 3 : (byte) 0;
 	    byte i_875_ = 0;
 	    if (i >= 0) {
-		Class166 class166 = aClass180_1944.method3116(i, -1431554601);
+		TextureMetrics class166 = aClass180_1944.method3116(i, -1431554601);
 		if (class166.aBool1801) {
 		    class136_sub2 = aClass150_9673.method2435(class166);
 		    if (class166.aByte1805 != 0 || class166.aByte1806 != 0)
@@ -8114,7 +8114,7 @@ public class Class182_Sub3 extends Class182
 	    byte i_908_ = aBool9776 ? (byte) 3 : (byte) 0;
 	    byte i_909_ = 0;
 	    if (i >= 0) {
-		Class166 class166 = aClass180_1944.method3116(i, -1431554601);
+		TextureMetrics class166 = aClass180_1944.method3116(i, -1431554601);
 		if (class166.aBool1801) {
 		    class136_sub2 = aClass150_9673.method2435(class166);
 		    if (class166.aByte1805 != 0 || class166.aByte1806 != 0)

@@ -1137,7 +1137,7 @@ public class Class53
 					(i_8_).toString(),
 				    1896078241);
 	    } else if (i == 24)
-		Class268.method4961((Class312_Sub1.aClass544_10064
+		Class268.method4961((BillBoardConfig.aClass544_10064
 					 .method389((byte) -35)
 				     ? "Success" : "Failure"),
 				    1365013662);

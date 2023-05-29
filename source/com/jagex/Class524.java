@@ -140,6 +140,6 @@ public class Class524
     
     public static int method8753(String string, short i) {
 	return Class285.aTwitchTV3143
-		   .SetStreamTitle(string, client.aClass668_11090.aString8583);
+		   .SetStreamTitle(string, client.gametype.aString8583);
     }
 }

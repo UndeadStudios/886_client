@@ -142,8 +142,8 @@ public class Class71_Sub1 extends Class71 implements Interface68
 	       Class644.aClass199_8336.method3769((long) i_7_ << 16));
 	if (null != class525_sub16_sub4)
 	    return class525_sub16_sub4;
-	byte[] is = (Class112.aClass458_1386.getTextureData
-		     (Class112.aClass458_1386.method7557(i_7_, -1242968388),
+	byte[] is = (Class112.idx_12.getTextureData
+		     (Class112.idx_12.method7557(i_7_, -1242968388),
 		      1960175232));
 	if (is != null) {
 	    if (is.length <= 1)
@@ -167,8 +167,8 @@ public class Class71_Sub1 extends Class71 implements Interface68
 	       Class644.aClass199_8336.method3769((long) i_7_ << 16));
 	if (null != class525_sub16_sub4)
 	    return class525_sub16_sub4;
-	is = (Class112.aClass458_1386.getTextureData
-	      (Class112.aClass458_1386.method7557(i_7_, -131740292),
+	is = (Class112.idx_12.getTextureData
+	      (Class112.idx_12.method7557(i_7_, -131740292),
 	       1873912382));
 	if (null != is) {
 	    if (is.length <= 1)
@@ -192,8 +192,8 @@ public class Class71_Sub1 extends Class71 implements Interface68
 	       Class644.aClass199_8336.method3769((long) i_7_ << 16));
 	if (null != class525_sub16_sub4)
 	    return class525_sub16_sub4;
-	is = (Class112.aClass458_1386.getTextureData
-	      (Class112.aClass458_1386.method7557(i_7_, -1914827733),
+	is = (Class112.idx_12.getTextureData
+	      (Class112.idx_12.method7557(i_7_, -1914827733),
 	       1509968263));
 	if (null != is) {
 	    if (is.length <= 1)

@@ -25,9 +25,9 @@ public class ConfigEntry
 	aClass458_627 = class458_0_;
 	anInterface72_628 = interface72;
 	if (aClass458_634 != null)
-	    anInt629 = aClass458_634.method7487(1, 2106214191) * 2055524631;
+	    anInt629 = aClass458_634.getFileCountForArchive(1, 2106214191) * 2055524631;
 	if (null != aClass458_627)
-	    anInt630 = aClass458_627.method7487(1, 2084404157) * -985560621;
+	    anInt630 = aClass458_627.getFileCountForArchive(1, 2084404157) * -985560621;
     }
     
     public Class525_Sub16_Sub11 method1216(int i) {

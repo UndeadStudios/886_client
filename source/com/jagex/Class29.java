@@ -70,7 +70,7 @@ public class Class29
 	    i++;
 	if (class458.method7506(anInt290 * -488679847, -1686946241))
 	    i++;
-	if (class458.method7506(Class138.anInt1639 * -1991446261, -836018245))
+	if (class458.method7506(HashTable.anInt1639 * -1991446261, -836018245))
 	    i++;
 	if (class458.method7506(anInt291 * -918576593, -583168312))
 	    i++;
@@ -97,7 +97,7 @@ public class Class29
 	Class509.anInt5661 = 904690533 * class631.anInt8204;
 	Class285.anInt3138 = class631.anInt8205 * 852944561;
 	anInt290 = -380748837 * class631.anInt8206;
-	Class138.anInt1639 = -931831621 * class631.anInt8207;
+	HashTable.anInt1639 = -931831621 * class631.anInt8207;
 	anInt291 = -563093445 * class631.anInt8185;
 	Class696_Sub35.anInt10976 = 1337457589 * class631.anInt8191;
 	anInt292 = -791536517 * class631.anInt8197;
@@ -112,7 +112,7 @@ public class Class29
 	Class509.anInt5661 = 904690533 * class631.anInt8204;
 	Class285.anInt3138 = class631.anInt8205 * 852944561;
 	anInt290 = -380748837 * class631.anInt8206;
-	Class138.anInt1639 = -931831621 * class631.anInt8207;
+	HashTable.anInt1639 = -931831621 * class631.anInt8207;
 	anInt291 = -563093445 * class631.anInt8185;
 	Class696_Sub35.anInt10976 = 1337457589 * class631.anInt8191;
 	anInt292 = -791536517 * class631.anInt8197;
@@ -213,7 +213,7 @@ public class Class29
 	    i++;
 	if (class458.method7506(anInt290 * -488679847, 1726665281))
 	    i++;
-	if (class458.method7506(Class138.anInt1639 * -1991446261, 880268857))
+	if (class458.method7506(HashTable.anInt1639 * -1991446261, 880268857))
 	    i++;
 	if (class458.method7506(anInt291 * -918576593, 761060800))
 	    i++;
@@ -376,7 +376,7 @@ public class Class29
 	Class509.anInt5661 = 904690533 * class631.anInt8204;
 	Class285.anInt3138 = class631.anInt8205 * 852944561;
 	anInt290 = -380748837 * class631.anInt8206;
-	Class138.anInt1639 = -931831621 * class631.anInt8207;
+	HashTable.anInt1639 = -931831621 * class631.anInt8207;
 	anInt291 = -563093445 * class631.anInt8185;
 	Class696_Sub35.anInt10976 = 1337457589 * class631.anInt8191;
 	anInt292 = -791536517 * class631.anInt8197;

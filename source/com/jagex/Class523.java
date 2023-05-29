@@ -72,7 +72,7 @@ public class Class523
     }
     
     Class179 method8706(Class182 class182, byte i) {
-	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.aClass458_705,
+	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.idx_7,
 						anInt7099 * 1216917229, 0);
 	if (null == class186)
 	    return null;
@@ -111,7 +111,7 @@ public class Class523
     }
     
     Class179 method8709(Class182 class182) {
-	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.aClass458_705,
+	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.idx_7,
 						anInt7099 * 1216917229, 0);
 	if (null == class186)
 	    return null;
@@ -167,7 +167,7 @@ public class Class523
     }
     
     Class179 method8714(Class182 class182) {
-	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.aClass458_705,
+	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.idx_7,
 						anInt7099 * 1216917229, 0);
 	if (null == class186)
 	    return null;
@@ -193,7 +193,7 @@ public class Class523
     }
     
     Class179 method8716(Class182 class182) {
-	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.aClass458_705,
+	ModelDecoder class186 = ModelDecoder.method3644(WorldTile.idx_7,
 						anInt7099 * 1216917229, 0);
 	if (null == class186)
 	    return null;

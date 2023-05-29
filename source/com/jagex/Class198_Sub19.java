@@ -10,7 +10,7 @@ public abstract class Class198_Sub19 extends Class198
     int anInt9991;
     static String aString9992;
     static Class525_Sub16_Sub16 aClass525_Sub16_Sub16_9993;
-    public static JS5 aClass458_9994;
+    public static JS5 idx_43;
     
     boolean method3760() {
 	Class674 class674

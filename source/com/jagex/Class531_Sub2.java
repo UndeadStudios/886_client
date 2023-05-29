@@ -49,14 +49,14 @@ public class Class531_Sub2 extends Class531
 		class531_sub3 = class531_sub3_6_;
 	}
 	if (class531_sub3 == null) {
-	    if (i_5_ < -776930855 * Class138.aClass631_1641.anInt8170)
+	    if (i_5_ < -776930855 * HashTable.aClass631_1641.anInt8170)
 		aClass708_10315.method14323(new Class531_Sub3(i, i_1_, i_2_,
 							      i_3_),
 					    1982843618);
 	} else {
 	    Class596.method9836(new Class531_Sub3(i, i_1_, i_2_, i_3_),
 				class531_sub3, 1454634198);
-	    if (i_5_ >= -776930855 * Class138.aClass631_1641.anInt8170)
+	    if (i_5_ >= -776930855 * HashTable.aClass631_1641.anInt8170)
 		aClass708_10315.method14328(876852605).method8794(-1363504787);
 	}
     }
@@ -195,14 +195,14 @@ public class Class531_Sub2 extends Class531
 		class531_sub3 = class531_sub3_16_;
 	}
 	if (class531_sub3 == null) {
-	    if (i_15_ < -776930855 * Class138.aClass631_1641.anInt8170)
+	    if (i_15_ < -776930855 * HashTable.aClass631_1641.anInt8170)
 		aClass708_10315.method14323(new Class531_Sub3(i, i_12_, i_13_,
 							      i_14_),
 					    1130335307);
 	} else {
 	    Class596.method9836(new Class531_Sub3(i, i_12_, i_13_, i_14_),
 				class531_sub3, 1965747222);
-	    if (i_15_ >= -776930855 * Class138.aClass631_1641.anInt8170)
+	    if (i_15_ >= -776930855 * HashTable.aClass631_1641.anInt8170)
 		aClass708_10315.method14328(-1309289049)
 		    .method8794(-556253738);
 	}

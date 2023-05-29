@@ -66,7 +66,7 @@ public class Class161_Sub3 extends Class161
     public void method2576(int i, int i_2_, int[] is, int[] is_3_, int[] is_4_,
 			   int[] is_5_, int[] is_6_, int[] is_7_, int[] is_8_,
 			   int[] is_9_, Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub1_9844.aClass180_1944;
+	Textures class180 = aClass182_Sub1_9844.aClass180_1944;
 	if (is_5_ != null && anIntArrayArrayArray9860 == null)
 	    anIntArrayArrayArray9860
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];
@@ -614,7 +614,7 @@ public class Class161_Sub3 extends Class161
 		      / 255.0F),
 		     ((float) (aClass182_Sub1_9844.anInt9282 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (aClass182_Sub1_9844.anInt9282 >> 0 & 0xff)
+		     ((float) (aClass182_Sub1_9844.anInt9282 & 0xff)
 		      / 255.0F));
 		class319.aClass437_3520.method7073(0.0F, 0.0F, 1.0F,
 						   -(aClass182_Sub1_9844
@@ -670,7 +670,7 @@ public class Class161_Sub3 extends Class161
 					       .anInt1877) * 2141545647 >> 8
 					      & 0xff) / 255.0F,
 				     (float) ((class525_sub1.aClass176_10400
-					       .anInt1877) * 2141545647 >> 0
+							 .anInt1877) * 2141545647
 					      & 0xff) / 255.0F);
 			    } else {
 				class319.aClass437_3518.method7073(0.0F, 0.0F,
@@ -680,7 +680,7 @@ public class Class161_Sub3 extends Class161
 			    }
 			    boolean bool_153_ = false;
 			    if (class525_sub1.anInt10398 != -1) {
-				Class166 class166
+				TextureMetrics class166
 				    = (aClass182_Sub1_9844.aClass180_1944
 					   .method3116
 				       (class525_sub1.anInt10398,
@@ -767,7 +767,7 @@ public class Class161_Sub3 extends Class161
 					       .anInt1877) * 2141545647 >> 8
 					      & 0xff) / 255.0F,
 				     (float) ((class525_sub1.aClass176_10400
-					       .anInt1877) * 2141545647 >> 0
+							 .anInt1877) * 2141545647
 					      & 0xff) / 255.0F);
 			    } else {
 				class319.aClass437_3518.method7073(0.0F, 0.0F,
@@ -777,7 +777,7 @@ public class Class161_Sub3 extends Class161
 			    }
 			    byte i_156_ = 11;
 			    if (class525_sub1.anInt10398 != -1) {
-				Class166 class166
+				TextureMetrics class166
 				    = (aClass182_Sub1_9844.aClass180_1944
 					   .method3116
 				       (class525_sub1.anInt10398,
@@ -848,7 +848,7 @@ public class Class161_Sub3 extends Class161
 					  .aFloatArray4830[13]),
 					 (aClass182_Sub1_9844.aClass435_9216
 					  .aFloatArray4830[14]));
-				    Class166 class166
+				    TextureMetrics class166
 					= (aClass182_Sub1_9844
 					       .aClass180_1944.method3116
 					   (class525_sub1.anInt10398,
@@ -954,7 +954,7 @@ public class Class161_Sub3 extends Class161
 			   int[] is_159_, int[] is_160_, int[] is_161_,
 			   int[] is_162_, int[] is_163_, int[] is_164_,
 			   Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub1_9844.aClass180_1944;
+	Textures class180 = aClass182_Sub1_9844.aClass180_1944;
 	if (is_160_ != null && anIntArrayArrayArray9860 == null)
 	    anIntArrayArrayArray9860
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];
@@ -1627,7 +1627,7 @@ public class Class161_Sub3 extends Class161
 		      / 255.0F),
 		     ((float) (aClass182_Sub1_9844.anInt9282 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (aClass182_Sub1_9844.anInt9282 >> 0 & 0xff)
+		     ((float) (aClass182_Sub1_9844.anInt9282 & 0xff)
 		      / 255.0F));
 		class319.aClass437_3520.method7073(0.0F, 0.0F, 1.0F,
 						   -(aClass182_Sub1_9844
@@ -1683,7 +1683,7 @@ public class Class161_Sub3 extends Class161
 					       .anInt1877) * 2141545647 >> 8
 					      & 0xff) / 255.0F,
 				     (float) ((class525_sub1.aClass176_10400
-					       .anInt1877) * 2141545647 >> 0
+							 .anInt1877) * 2141545647
 					      & 0xff) / 255.0F);
 			    } else {
 				class319.aClass437_3518.method7073(0.0F, 0.0F,
@@ -1693,7 +1693,7 @@ public class Class161_Sub3 extends Class161
 			    }
 			    boolean bool_282_ = false;
 			    if (class525_sub1.anInt10398 != -1) {
-				Class166 class166
+				TextureMetrics class166
 				    = (aClass182_Sub1_9844.aClass180_1944
 					   .method3116
 				       (class525_sub1.anInt10398,
@@ -1780,7 +1780,7 @@ public class Class161_Sub3 extends Class161
 					       .anInt1877) * 2141545647 >> 8
 					      & 0xff) / 255.0F,
 				     (float) ((class525_sub1.aClass176_10400
-					       .anInt1877) * 2141545647 >> 0
+							 .anInt1877) * 2141545647
 					      & 0xff) / 255.0F);
 			    } else {
 				class319.aClass437_3518.method7073(0.0F, 0.0F,
@@ -1790,7 +1790,7 @@ public class Class161_Sub3 extends Class161
 			    }
 			    byte i_285_ = 11;
 			    if (class525_sub1.anInt10398 != -1) {
-				Class166 class166
+				TextureMetrics class166
 				    = (aClass182_Sub1_9844.aClass180_1944
 					   .method3116
 				       (class525_sub1.anInt10398,
@@ -1861,7 +1861,7 @@ public class Class161_Sub3 extends Class161
 					  .aFloatArray4830[13]),
 					 (aClass182_Sub1_9844.aClass435_9216
 					  .aFloatArray4830[14]));
-				    Class166 class166
+				    TextureMetrics class166
 					= (aClass182_Sub1_9844
 					       .aClass180_1944.method3116
 					   (class525_sub1.anInt10398,
@@ -2004,7 +2004,7 @@ public class Class161_Sub3 extends Class161
 		      / 255.0F),
 		     ((float) (aClass182_Sub1_9844.anInt9282 >> 8 & 0xff)
 		      / 255.0F),
-		     ((float) (aClass182_Sub1_9844.anInt9282 >> 0 & 0xff)
+		     ((float) (aClass182_Sub1_9844.anInt9282 & 0xff)
 		      / 255.0F));
 		class319.aClass437_3520.method7073(0.0F, 0.0F, 1.0F,
 						   -(aClass182_Sub1_9844
@@ -2060,7 +2060,7 @@ public class Class161_Sub3 extends Class161
 					       .anInt1877) * 2141545647 >> 8
 					      & 0xff) / 255.0F,
 				     (float) ((class525_sub1.aClass176_10400
-					       .anInt1877) * 2141545647 >> 0
+							 .anInt1877) * 2141545647
 					      & 0xff) / 255.0F);
 			    } else {
 				class319.aClass437_3518.method7073(0.0F, 0.0F,
@@ -2070,7 +2070,7 @@ public class Class161_Sub3 extends Class161
 			    }
 			    boolean bool_303_ = false;
 			    if (class525_sub1.anInt10398 != -1) {
-				Class166 class166
+				TextureMetrics class166
 				    = (aClass182_Sub1_9844.aClass180_1944
 					   .method3116
 				       (class525_sub1.anInt10398,
@@ -2157,7 +2157,7 @@ public class Class161_Sub3 extends Class161
 					       .anInt1877) * 2141545647 >> 8
 					      & 0xff) / 255.0F,
 				     (float) ((class525_sub1.aClass176_10400
-					       .anInt1877) * 2141545647 >> 0
+							 .anInt1877) * 2141545647
 					      & 0xff) / 255.0F);
 			    } else {
 				class319.aClass437_3518.method7073(0.0F, 0.0F,
@@ -2167,7 +2167,7 @@ public class Class161_Sub3 extends Class161
 			    }
 			    byte i_306_ = 11;
 			    if (class525_sub1.anInt10398 != -1) {
-				Class166 class166
+				TextureMetrics class166
 				    = (aClass182_Sub1_9844.aClass180_1944
 					   .method3116
 				       (class525_sub1.anInt10398,
@@ -2238,7 +2238,7 @@ public class Class161_Sub3 extends Class161
 					  .aFloatArray4830[13]),
 					 (aClass182_Sub1_9844.aClass435_9216
 					  .aFloatArray4830[14]));
-				    Class166 class166
+				    TextureMetrics class166
 					= (aClass182_Sub1_9844
 					       .aClass180_1944.method3116
 					   (class525_sub1.anInt10398,
@@ -2626,7 +2626,7 @@ public class Class161_Sub3 extends Class161
 			   int[] is_366_, int[] is_367_, int[] is_368_,
 			   int[] is_369_, int[] is_370_, int[] is_371_,
 			   Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub1_9844.aClass180_1944;
+	Textures class180 = aClass182_Sub1_9844.aClass180_1944;
 	if (is_367_ != null && anIntArrayArrayArray9860 == null)
 	    anIntArrayArrayArray9860
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];
@@ -3061,7 +3061,7 @@ public class Class161_Sub3 extends Class161
 			   int[] is_476_, int[] is_477_, int[] is_478_,
 			   int[] is_479_, int[] is_480_, int[] is_481_,
 			   Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub1_9844.aClass180_1944;
+	Textures class180 = aClass182_Sub1_9844.aClass180_1944;
 	if (is_477_ != null && anIntArrayArrayArray9860 == null)
 	    anIntArrayArrayArray9860
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];
@@ -3119,7 +3119,7 @@ public class Class161_Sub3 extends Class161
 			   int[] is_487_, int[] is_488_, int[] is_489_,
 			   int[] is_490_, int[] is_491_, int[] is_492_,
 			   Class176 class176, boolean bool) {
-	Class180 class180 = aClass182_Sub1_9844.aClass180_1944;
+	Textures class180 = aClass182_Sub1_9844.aClass180_1944;
 	if (is_488_ != null && anIntArrayArrayArray9860 == null)
 	    anIntArrayArrayArray9860
 		= new int[anInt1759 * 363736815][anInt1760 * -1152334393][];

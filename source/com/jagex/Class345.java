@@ -265,17 +265,17 @@ public class Class345
 	Class198_Sub19_Sub1.anInt11614
 	    = (2008572397
 	       * class683.anIntArray8661[501271953 * class683.anInt8662 + 11]);
-	Class462.aClass458_5095.method7506(-1623325039 * Class709.anInt8822,
+	Class462.idx_8.method7506(-1623325039 * Class709.anInt8822,
 					   57213036);
-	Class462.aClass458_5095.method7506(-88227043 * Class442.anInt4867,
+	Class462.idx_8.method7506(-88227043 * Class442.anInt4867,
 					   509574357);
-	Class462.aClass458_5095.method7506(1848940705 * Class61.anInt665,
+	Class462.idx_8.method7506(1848940705 * Class61.anInt665,
 					   -1253553828);
-	Class462.aClass458_5095.method7506(948400913 * Class493.anInt5299,
+	Class462.idx_8.method7506(948400913 * Class493.anInt5299,
 					   286083574);
-	Class462.aClass458_5095.method7506(-76170861 * Class61.anInt678,
+	Class462.idx_8.method7506(-76170861 * Class61.anInt678,
 					   713776606);
-	Class462.aClass458_5095.method7506((Class198_Sub19_Sub1.anInt11614
+	Class462.idx_8.method7506((Class198_Sub19_Sub1.anInt11614
 					    * 2076255205),
 					   -1722341153);
 	Class276.aClass458_2875.method7506((Class198_Sub19_Sub1.anInt11614

@@ -2689,7 +2689,7 @@ public class Class116
     }
     
     static void method2064(int i, int i_71_, int i_72_) {
-	if (Class138.aClass631_1641.aBool8202
+	if (HashTable.aClass631_1641.aBool8202
 	    || (-628070459 * Class61.anInt658 != 1
 		&& (!Class623.aBool8123 || Class61.anInt658 * -628070459 != 2
 		    || !(Class659.aClass525_Sub16_Sub16_8459.aString11858

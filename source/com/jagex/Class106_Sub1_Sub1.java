@@ -144,7 +144,7 @@ public class Class106_Sub1_Sub1 extends Class106_Sub1 implements Interface13
 			      Class666 class666, JS5 class458) {
 	super(class668, class453, class666,
 	      (null != class458
-	       ? class458.method7487((class453.method7344(-656260011).anInt8553
+	       ? class458.getFileCountForArchive((class453.method7344(-656260011).anInt8553
 				      * -1918643565),
 				     2118028277)
 	       : 0));

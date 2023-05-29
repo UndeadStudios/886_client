@@ -14,7 +14,7 @@ public class Class322 implements Interface14
     Class453 aClass453_3546;
     int anInt3547 = -1348631017;
     static int[] anIntArray3548 = new int[32];
-    public static JS5 aClass458_3549;
+    public static JS5 idx_5;
     
     static {
 	int i = 2;
@@ -56,7 +56,7 @@ public class Class322 implements Interface14
 					    .toString(1366917675 * anInt3541)),
 				     i_3_, i_4_);
 	i_4_ <<= -1395709631 * anInt3543;
-	return (i & (i_4_ ^ 0xffffffff)
+	return (i & (~i_4_)
 		| i_3_ << anInt3543 * -1395709631 & i_4_);
     }
     
@@ -69,7 +69,7 @@ public class Class322 implements Interface14
 					    .toString(1366917675 * anInt3541)),
 				     i_5_, i_7_);
 	i_7_ <<= -1395709631 * anInt3543;
-	return (i & (i_7_ ^ 0xffffffff)
+	return (i & (~i_7_)
 		| i_5_ << anInt3543 * -1395709631 & i_7_);
     }
     
@@ -223,7 +223,7 @@ public class Class322 implements Interface14
 					    .toString(1366917675 * anInt3541)),
 				     i_14_, i_15_);
 	i_15_ <<= -1395709631 * anInt3543;
-	return (i & (i_15_ ^ 0xffffffff)
+	return (i & (~i_15_)
 		| i_14_ << anInt3543 * -1395709631 & i_15_);
     }
     

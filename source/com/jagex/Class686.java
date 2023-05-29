@@ -152,7 +152,7 @@ public final class Class686
 	Object[] objects = class525_sub32.anObjectArray10740;
 	int i_3_ = ((Integer) objects[0]).intValue();
 	Class525_Sub16_Sub4 class525_sub16_sub4
-	    = Class166.method2675(i_3_, (byte) -73);
+	    = TextureMetrics.method2675(i_3_, (byte) -73);
 	if (class525_sub16_sub4 != null) {
 	    Class683 class683 = Class457.method7468(-485786200);
 	    class683.anIntArray8649
@@ -810,7 +810,7 @@ public final class Class686
 	    = Class213.method3942(class525_sub16_sub16, (byte) 56);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-	    = Class138.method2336(class525_sub16_sub16, -2041711001);
+	    = HashTable.method2336(class525_sub16_sub16, -2041711001);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
 	    = Class161.method2630(class525_sub16_sub16, -2142589345);
@@ -826,7 +826,7 @@ public final class Class686
 	    = Class213.method3942(class525_sub16_sub16, (byte) 107);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
-	    = Class138.method2336(class525_sub16_sub16, 858378324);
+	    = HashTable.method2336(class525_sub16_sub16, 858378324);
 	class683.anObjectArray8636
 	    [(class683.anInt8644 += 1285561025) * 1373599041 - 1]
 	    = Class161.method2630(class525_sub16_sub16, -2142704834);
@@ -1277,7 +1277,7 @@ public final class Class686
 	    Class320.method5712(class683, (short) -11116);
 	    break;
 	case 98:
-	    Class166.method2678(class683, 134644151);
+	    TextureMetrics.method2678(class683, 134644151);
 	    break;
 	case 371:
 	    Class323.method5734(class683, (byte) -127);
@@ -1636,7 +1636,7 @@ public final class Class686
 	    Class256.method4653(class683, 1921253271);
 	    break;
 	case 1117:
-	    BillBoardConfig.method2736(class683, -16777216);
+	    Class171.method2736(class683, -16777216);
 	    break;
 	case 558:
 	    Class261.method4770(class683, (byte) 1);
@@ -1675,7 +1675,7 @@ public final class Class686
 	    Class636.method10472(class683, (byte) 22);
 	    break;
 	case 501:
-	    BillBoardConfig.method2737(class683, -881104915);
+	    Class171.method2737(class683, -881104915);
 	    break;
 	case 1196:
 	    Class578.method9580(class683, (byte) 82);
@@ -2343,7 +2343,7 @@ public final class Class686
 	    Class262.method4779(class683, 938415966);
 	    break;
 	case 926:
-	    BillBoardDefinitions.method8314(class683, 1765299262);
+	    Class504.method8314(class683, 1765299262);
 	    break;
 	case 108:
 	    Class655.method10804(class683, 1895169033);
@@ -2652,7 +2652,7 @@ public final class Class686
 	    Class651.method10743(class683, 1874657794);
 	    break;
 	case 134:
-	    Class138.method2337(class683, -2077968675);
+	    HashTable.method2337(class683, -2077968675);
 	    break;
 	case 340:
 	    Class614.method10078(class683, -671197647);
@@ -2787,7 +2787,7 @@ public final class Class686
 	    Class531.method8797(class683, -717816643);
 	    break;
 	case 332:
-	    Class312_Sub1.method15702(class683, 1777895575);
+	    BillBoardConfig.method15702(class683, 1777895575);
 	    break;
 	case 1089:
 	    Class416.method6717(class683, 274511022);
@@ -2883,7 +2883,7 @@ public final class Class686
 	    Class704_Sub2.method17394(class683, (short) 8448);
 	    break;
 	case 372:
-	    Class312_Sub1.method15700(class683, -1773798589);
+	    BillBoardConfig.method15700(class683, -1773798589);
 	    break;
 	case 946:
 	    Class566.method9472(class683, -903546269);
@@ -2982,13 +2982,13 @@ public final class Class686
 	    Class670.method11041(class683, 496319042);
 	    break;
 	case 1102:
-	    Class166.method2676(class683, (byte) 109);
+	    TextureMetrics.method2676(class683, (byte) 109);
 	    break;
 	case 438:
 	    AnimationSkin.method3924(class683, (byte) 73);
 	    break;
 	case 1282:
-	    BillBoardDefinitions.method8316(class683, (short) -3484);
+	    Class504.method8316(class683, (short) -3484);
 	    break;
 	case 1073:
 	    Class276.method5114(class683, -2137744064);
@@ -3330,7 +3330,7 @@ public final class Class686
 	    Class249.method4503(class683, -1066747184);
 	    break;
 	case 780:
-	    Class166.method2677(class683, 1034993844);
+	    TextureMetrics.method2677(class683, 1034993844);
 	    break;
 	case 858:
 	    Class629.method10303(class683, -259375290);
@@ -3366,7 +3366,7 @@ public final class Class686
 	    Class486.method7855(class683, 814170177);
 	    break;
 	case 966:
-	    BillBoardConfig.method2739(class683, (byte) -74);
+	    Class171.method2739(class683, (byte) -74);
 	    break;
 	case 602:
 	    Class321.method5716(class683, 1879769856);
@@ -3968,7 +3968,7 @@ public final class Class686
 	    Class407.method6636(class683, -1832843117);
 	    break;
 	case 475:
-	    BillBoardDefinitions.method8317(class683, -369581323);
+	    Class504.method8317(class683, -369581323);
 	    break;
 	case 518:
 	    Class36.method974(class683, 371266638);
@@ -3986,7 +3986,7 @@ public final class Class686
 	    Class175.method2899(class683, -1236784644);
 	    break;
 	case 1297:
-	    BillBoardConfig.method2738(class683, 555634422);
+	    Class171.method2738(class683, 555634422);
 	    break;
 	case 1221:
 	    Class453.method7357(class683, (short) 128);
@@ -4685,7 +4685,7 @@ public final class Class686
 	    Class637.method10516(class683, 1106148922);
 	    break;
 	case 1030:
-	    Class180.method3119(class683, 1117005764);
+	    Textures.method3119(class683, 1117005764);
 	    break;
 	case 566:
 	    Class39.method1014(class683, (byte) -9);
@@ -5173,7 +5173,7 @@ public final class Class686
 	    Class320.method5712(class683, (short) -26459);
 	    break;
 	case 98:
-	    Class166.method2678(class683, 1194720985);
+	    TextureMetrics.method2678(class683, 1194720985);
 	    break;
 	case 371:
 	    Class323.method5734(class683, (byte) -4);
@@ -5532,7 +5532,7 @@ public final class Class686
 	    Class256.method4653(class683, 2071166368);
 	    break;
 	case 1117:
-	    BillBoardConfig.method2736(class683, -16777216);
+	    Class171.method2736(class683, -16777216);
 	    break;
 	case 558:
 	    Class261.method4770(class683, (byte) 41);
@@ -5571,7 +5571,7 @@ public final class Class686
 	    Class636.method10472(class683, (byte) -40);
 	    break;
 	case 501:
-	    BillBoardConfig.method2737(class683, -1458110257);
+	    Class171.method2737(class683, -1458110257);
 	    break;
 	case 1196:
 	    Class578.method9580(class683, (byte) 92);
@@ -6239,7 +6239,7 @@ public final class Class686
 	    Class262.method4779(class683, 938415966);
 	    break;
 	case 926:
-	    BillBoardDefinitions.method8314(class683, 448855131);
+	    Class504.method8314(class683, 448855131);
 	    break;
 	case 108:
 	    Class655.method10804(class683, 2128017178);
@@ -6548,7 +6548,7 @@ public final class Class686
 	    Class651.method10743(class683, 1766154221);
 	    break;
 	case 134:
-	    Class138.method2337(class683, -1867157951);
+	    HashTable.method2337(class683, -1867157951);
 	    break;
 	case 340:
 	    Class614.method10078(class683, -988724312);
@@ -6683,7 +6683,7 @@ public final class Class686
 	    Class531.method8797(class683, -717816643);
 	    break;
 	case 332:
-	    Class312_Sub1.method15702(class683, 1777895575);
+	    BillBoardConfig.method15702(class683, 1777895575);
 	    break;
 	case 1089:
 	    Class416.method6717(class683, 274511022);
@@ -6779,7 +6779,7 @@ public final class Class686
 	    Class704_Sub2.method17394(class683, (short) 8448);
 	    break;
 	case 372:
-	    Class312_Sub1.method15700(class683, -1683664471);
+	    BillBoardConfig.method15700(class683, -1683664471);
 	    break;
 	case 946:
 	    Class566.method9472(class683, -903546269);
@@ -6878,13 +6878,13 @@ public final class Class686
 	    Class670.method11041(class683, 496319042);
 	    break;
 	case 1102:
-	    Class166.method2676(class683, (byte) 27);
+	    TextureMetrics.method2676(class683, (byte) 27);
 	    break;
 	case 438:
 	    AnimationSkin.method3924(class683, (byte) 109);
 	    break;
 	case 1282:
-	    BillBoardDefinitions.method8316(class683, (short) -19222);
+	    Class504.method8316(class683, (short) -19222);
 	    break;
 	case 1073:
 	    Class276.method5114(class683, -1793838360);
@@ -7226,7 +7226,7 @@ public final class Class686
 	    Class249.method4503(class683, -1066747184);
 	    break;
 	case 780:
-	    Class166.method2677(class683, 1605862787);
+	    TextureMetrics.method2677(class683, 1605862787);
 	    break;
 	case 858:
 	    Class629.method10303(class683, -784618235);
@@ -7262,7 +7262,7 @@ public final class Class686
 	    Class486.method7855(class683, -1311027033);
 	    break;
 	case 966:
-	    BillBoardConfig.method2739(class683, (byte) -1);
+	    Class171.method2739(class683, (byte) -1);
 	    break;
 	case 602:
 	    Class321.method5716(class683, -1542630447);
@@ -7864,7 +7864,7 @@ public final class Class686
 	    Class407.method6636(class683, -1454468168);
 	    break;
 	case 475:
-	    BillBoardDefinitions.method8317(class683, -369581323);
+	    Class504.method8317(class683, -369581323);
 	    break;
 	case 518:
 	    Class36.method974(class683, 371266638);
@@ -7882,7 +7882,7 @@ public final class Class686
 	    Class175.method2899(class683, 1907063421);
 	    break;
 	case 1297:
-	    BillBoardConfig.method2738(class683, 1651771075);
+	    Class171.method2738(class683, 1651771075);
 	    break;
 	case 1221:
 	    Class453.method7357(class683, (short) 128);
@@ -8581,7 +8581,7 @@ public final class Class686
 	    Class637.method10516(class683, 586734301);
 	    break;
 	case 1030:
-	    Class180.method3119(class683, 1657078923);
+	    Textures.method3119(class683, 1657078923);
 	    break;
 	case 566:
 	    Class39.method1014(class683, (byte) -87);
@@ -16052,7 +16052,7 @@ public final class Class686
     static final void method12027(Class683 class683) {
 	int i = class683.anIntArray8647[class683.anInt8663 * 1931825055];
 	Class525_Sub16_Sub4 class525_sub16_sub4
-	    = Class166.method2675(i, (byte) -105);
+	    = TextureMetrics.method2675(i, (byte) -105);
 	if (null == class525_sub16_sub4)
 	    throw new RuntimeException();
 	int[] is = new int[-1831313555 * class525_sub16_sub4.anInt11747];
@@ -29371,17 +29371,17 @@ public final class Class686
 	Class198_Sub19_Sub1.anInt11614
 	    = (2008572397
 	       * class683.anIntArray8661[501271953 * class683.anInt8662 + 11]);
-	Class462.aClass458_5095.method7506(-1623325039 * Class709.anInt8822,
+	Class462.idx_8.method7506(-1623325039 * Class709.anInt8822,
 					   -11828717);
-	Class462.aClass458_5095.method7506(-88227043 * Class442.anInt4867,
+	Class462.idx_8.method7506(-88227043 * Class442.anInt4867,
 					   -1055685565);
-	Class462.aClass458_5095.method7506(1848940705 * Class61.anInt665,
+	Class462.idx_8.method7506(1848940705 * Class61.anInt665,
 					   -1566100896);
-	Class462.aClass458_5095.method7506(948400913 * Class493.anInt5299,
+	Class462.idx_8.method7506(948400913 * Class493.anInt5299,
 					   1411983991);
-	Class462.aClass458_5095.method7506(-76170861 * Class61.anInt678,
+	Class462.idx_8.method7506(-76170861 * Class61.anInt678,
 					   -81698125);
-	Class462.aClass458_5095.method7506((Class198_Sub19_Sub1.anInt11614
+	Class462.idx_8.method7506((Class198_Sub19_Sub1.anInt11614
 					    * 2076255205),
 					   -920098688);
 	Class276.aClass458_2875.method7506((Class198_Sub19_Sub1.anInt11614
@@ -30625,7 +30625,7 @@ public final class Class686
 	    Class320.method5712(class683, (short) -6453);
 	    break;
 	case 98:
-	    Class166.method2678(class683, 1782276141);
+	    TextureMetrics.method2678(class683, 1782276141);
 	    break;
 	case 371:
 	    Class323.method5734(class683, (byte) -62);
@@ -30984,7 +30984,7 @@ public final class Class686
 	    Class256.method4653(class683, 2058598908);
 	    break;
 	case 1117:
-	    BillBoardConfig.method2736(class683, -16777216);
+	    Class171.method2736(class683, -16777216);
 	    break;
 	case 558:
 	    Class261.method4770(class683, (byte) 58);
@@ -31023,7 +31023,7 @@ public final class Class686
 	    Class636.method10472(class683, (byte) 48);
 	    break;
 	case 501:
-	    BillBoardConfig.method2737(class683, -705028182);
+	    Class171.method2737(class683, -705028182);
 	    break;
 	case 1196:
 	    Class578.method9580(class683, (byte) 100);
@@ -31691,7 +31691,7 @@ public final class Class686
 	    Class262.method4779(class683, 938415966);
 	    break;
 	case 926:
-	    BillBoardDefinitions.method8314(class683, -467553597);
+	    Class504.method8314(class683, -467553597);
 	    break;
 	case 108:
 	    Class655.method10804(class683, 1937357354);
@@ -32000,7 +32000,7 @@ public final class Class686
 	    Class651.method10743(class683, 1935940770);
 	    break;
 	case 134:
-	    Class138.method2337(class683, -1619486467);
+	    HashTable.method2337(class683, -1619486467);
 	    break;
 	case 340:
 	    Class614.method10078(class683, -296541277);
@@ -32135,7 +32135,7 @@ public final class Class686
 	    Class531.method8797(class683, -717816643);
 	    break;
 	case 332:
-	    Class312_Sub1.method15702(class683, 1777895575);
+	    BillBoardConfig.method15702(class683, 1777895575);
 	    break;
 	case 1089:
 	    Class416.method6717(class683, 274511022);
@@ -32231,7 +32231,7 @@ public final class Class686
 	    Class704_Sub2.method17394(class683, (short) 8448);
 	    break;
 	case 372:
-	    Class312_Sub1.method15700(class683, -1394882795);
+	    BillBoardConfig.method15700(class683, -1394882795);
 	    break;
 	case 946:
 	    Class566.method9472(class683, -903546269);
@@ -32330,13 +32330,13 @@ public final class Class686
 	    Class670.method11041(class683, 496319042);
 	    break;
 	case 1102:
-	    Class166.method2676(class683, (byte) 66);
+	    TextureMetrics.method2676(class683, (byte) 66);
 	    break;
 	case 438:
 	    AnimationSkin.method3924(class683, (byte) -65);
 	    break;
 	case 1282:
-	    BillBoardDefinitions.method8316(class683, (short) -26739);
+	    Class504.method8316(class683, (short) -26739);
 	    break;
 	case 1073:
 	    Class276.method5114(class683, -1731087859);
@@ -32678,7 +32678,7 @@ public final class Class686
 	    Class249.method4503(class683, -1066747184);
 	    break;
 	case 780:
-	    Class166.method2677(class683, 1245565123);
+	    TextureMetrics.method2677(class683, 1245565123);
 	    break;
 	case 858:
 	    Class629.method10303(class683, -1736492664);
@@ -32714,7 +32714,7 @@ public final class Class686
 	    Class486.method7855(class683, -509477169);
 	    break;
 	case 966:
-	    BillBoardConfig.method2739(class683, (byte) -98);
+	    Class171.method2739(class683, (byte) -98);
 	    break;
 	case 602:
 	    Class321.method5716(class683, 1984628421);
@@ -33316,7 +33316,7 @@ public final class Class686
 	    Class407.method6636(class683, 717676307);
 	    break;
 	case 475:
-	    BillBoardDefinitions.method8317(class683, -369581323);
+	    Class504.method8317(class683, -369581323);
 	    break;
 	case 518:
 	    Class36.method974(class683, 371266638);
@@ -33334,7 +33334,7 @@ public final class Class686
 	    Class175.method2899(class683, 1685725734);
 	    break;
 	case 1297:
-	    BillBoardConfig.method2738(class683, 1175759998);
+	    Class171.method2738(class683, 1175759998);
 	    break;
 	case 1221:
 	    Class453.method7357(class683, (short) 128);
@@ -34033,7 +34033,7 @@ public final class Class686
 	    Class637.method10516(class683, -2154099);
 	    break;
 	case 1030:
-	    Class180.method3119(class683, 1541898255);
+	    Textures.method3119(class683, 1541898255);
 	    break;
 	case 566:
 	    Class39.method1014(class683, (byte) -86);
@@ -36045,7 +36045,7 @@ public final class Class686
 	String string
 	    = (String) (class683.anObjectArray8636
 			[(class683.anInt8644 -= 1285561025) * 1373599041]);
-	Class180.method3118(string, (short) -9834);
+	Textures.method3118(string, (short) -9834);
     }
     
     static final void method13355(Class683 class683) {
@@ -37150,17 +37150,17 @@ public final class Class686
 	Class198_Sub19_Sub1.anInt11614
 	    = (2008572397
 	       * class683.anIntArray8661[501271953 * class683.anInt8662 + 11]);
-	Class462.aClass458_5095.method7506(-1623325039 * Class709.anInt8822,
+	Class462.idx_8.method7506(-1623325039 * Class709.anInt8822,
 					   299380843);
-	Class462.aClass458_5095.method7506(-88227043 * Class442.anInt4867,
+	Class462.idx_8.method7506(-88227043 * Class442.anInt4867,
 					   1634729354);
-	Class462.aClass458_5095.method7506(1848940705 * Class61.anInt665,
+	Class462.idx_8.method7506(1848940705 * Class61.anInt665,
 					   1253787083);
-	Class462.aClass458_5095.method7506(948400913 * Class493.anInt5299,
+	Class462.idx_8.method7506(948400913 * Class493.anInt5299,
 					   -2064375098);
-	Class462.aClass458_5095.method7506(-76170861 * Class61.anInt678,
+	Class462.idx_8.method7506(-76170861 * Class61.anInt678,
 					   -278286072);
-	Class462.aClass458_5095.method7506((Class198_Sub19_Sub1.anInt11614
+	Class462.idx_8.method7506((Class198_Sub19_Sub1.anInt11614
 					    * 2076255205),
 					   1636104217);
 	Class276.aClass458_2875.method7506((Class198_Sub19_Sub1.anInt11614

@@ -24,7 +24,7 @@ public class Class258
 	     i = class255.method4570() != 0 ? anIntArray2553[i] : i + 1) {
 	    /* empty */
 	}
-	return anIntArray2553[i] ^ 0xffffffff;
+	return ~anIntArray2553[i];
     }
     
     void method4665(Class255 class255) {
@@ -37,7 +37,7 @@ public class Class258
 	     i = class255.method4570() != 0 ? anIntArray2553[i] : i + 1) {
 	    /* empty */
 	}
-	return anIntArray2553[i] ^ 0xffffffff;
+	return ~anIntArray2553[i];
     }
     
     void method4667() {
@@ -98,7 +98,7 @@ public class Class258
 		    }
 		    i_15_ >>>= 1;
 		}
-		anIntArray2553[i_13_] = i_10_ ^ 0xffffffff;
+		anIntArray2553[i_13_] = ~i_10_;
 		if (i_13_ >= i)
 		    i = i_13_ + 1;
 	    }
@@ -128,7 +128,7 @@ public class Class258
 	     i = class255.method4570() != 0 ? anIntArray2553[i] : i + 1) {
 	    /* empty */
 	}
-	return anIntArray2553[i] ^ 0xffffffff;
+	return ~anIntArray2553[i];
     }
     
     int method4672(Class255 class255) {
@@ -137,7 +137,7 @@ public class Class258
 	     i = class255.method4570() != 0 ? anIntArray2553[i] : i + 1) {
 	    /* empty */
 	}
-	return anIntArray2553[i] ^ 0xffffffff;
+	return ~anIntArray2553[i];
     }
     
     int method4673(Class255 class255) {
@@ -146,7 +146,7 @@ public class Class258
 	     i = class255.method4570() != 0 ? anIntArray2553[i] : i + 1) {
 	    /* empty */
 	}
-	return anIntArray2553[i] ^ 0xffffffff;
+	return ~anIntArray2553[i];
     }
     
     Class258() {
@@ -211,7 +211,7 @@ public class Class258
 		    }
 		    i_35_ >>>= 1;
 		}
-		anIntArray2553[i_33_] = i_30_ ^ 0xffffffff;
+		anIntArray2553[i_33_] = ~i_30_;
 		if (i_33_ >= i)
 		    i = i_33_ + 1;
 	    }
@@ -232,7 +232,7 @@ public class Class258
 	    int i_40_ = class255.method4550(5) + 1;
 	    while (i_39_ < anInt2560) {
 		int i_41_
-		    = class255.method4550(Class180.method3120((anInt2560
+		    = class255.method4550(Textures.method3120((anInt2560
 							       - i_39_),
 							      (byte) -42));
 		for (int i_42_ = 0; i_42_ < i_41_; i_42_++)

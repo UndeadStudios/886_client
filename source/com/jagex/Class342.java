@@ -69,7 +69,7 @@ public class Class342
 	aClass342_3664 = new Class342(6, 9, 4, Class178.aClass178_1914);
 	aClass342_3656 = new Class342(4, 10, 3, Class178.aClass178_1914);
 	aClass342_3662 = new Class342(9, 11, 3, Class178.aClass178_1914);
-	anInt3661 = Class180.method3120(16, (byte) -36);
+	anInt3661 = Textures.method3120(16, (byte) -36);
     }
     
     static Class342 method5996(int i) {

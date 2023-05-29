@@ -76,9 +76,9 @@ public class Class471
 	aClass458_5148 = class458;
 	aClass458_5146 = class458_1_;
 	if (aClass458_5148 != null)
-	    aClass458_5148.method7487(0, 2143142058);
+	    aClass458_5148.getFileCountForArchive(0, 2143142058);
 	if (aClass458_5146 != null)
-	    aClass458_5146.method7487(0, 2109542015);
+	    aClass458_5146.getFileCountForArchive(0, 2109542015);
     }
     
     public Class525_Sub16_Sub19 method7738(int i) {

@@ -77,7 +77,7 @@ public class Class198_Sub17 extends Class198
 	Class7.aClass404_53.method6581(client.anInterface50_11252, (byte) 75);
 	Class7.aClass404_53.method6582(1279822465);
 	Class495.method8130(Class501.aClass182_5564, 534531211);
-	Class62.method1376(Class501.aClass182_5564, Class462.aClass458_5095,
+	Class62.method1376(Class501.aClass182_5564, Class462.idx_8,
 			   (short) 4189);
 	Class591.method9795(1435415183);
 	Class83.method1604(-2088540864);

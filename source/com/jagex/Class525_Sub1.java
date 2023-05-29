@@ -57,7 +57,7 @@ public class Class525_Sub1 extends Class525
     
     void method16059(int i, int i_4_, int i_5_, float f) {
 	if (anInt10398 != -1) {
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub1_10396.aClass180_1944.method3116(anInt10398,
 								 -1431554601);
 	    int i_6_ = class166.aByte1785 & 0xff;
@@ -121,9 +121,9 @@ public class Class525_Sub1 extends Class525
 	if (aClass182_Sub1_10396.anInt9212 == 0) {
 	    aByteBuffer10404.put(i * 4 + 0, (byte) (i_4_ >> 16));
 	    aByteBuffer10404.put(i * 4 + 1, (byte) (i_4_ >> 8));
-	    aByteBuffer10404.put(i * 4 + 2, (byte) (i_4_ >> 0));
+	    aByteBuffer10404.put(i * 4 + 2, (byte) (i_4_));
 	} else {
-	    aByteBuffer10404.put(i * 4 + 0, (byte) (i_4_ >> 0));
+	    aByteBuffer10404.put(i * 4 + 0, (byte) (i_4_));
 	    aByteBuffer10404.put(i * 4 + 1, (byte) (i_4_ >> 8));
 	    aByteBuffer10404.put(i * 4 + 2, (byte) (i_4_ >> 16));
 	}
@@ -192,7 +192,7 @@ public class Class525_Sub1 extends Class525
     
     void method16066(int i, int i_27_, int i_28_, float f) {
 	if (anInt10398 != -1) {
-	    Class166 class166
+	    TextureMetrics class166
 		= aClass182_Sub1_10396.aClass180_1944.method3116(anInt10398,
 								 -1431554601);
 	    int i_29_ = class166.aByte1785 & 0xff;
@@ -257,9 +257,9 @@ public class Class525_Sub1 extends Class525
 	if (aClass182_Sub1_10396.anInt9212 == 0) {
 	    aByteBuffer10404.put(i * 4 + 0, (byte) (i_27_ >> 16));
 	    aByteBuffer10404.put(i * 4 + 1, (byte) (i_27_ >> 8));
-	    aByteBuffer10404.put(i * 4 + 2, (byte) (i_27_ >> 0));
+	    aByteBuffer10404.put(i * 4 + 2, (byte) (i_27_));
 	} else {
-	    aByteBuffer10404.put(i * 4 + 0, (byte) (i_27_ >> 0));
+	    aByteBuffer10404.put(i * 4 + 0, (byte) (i_27_));
 	    aByteBuffer10404.put(i * 4 + 1, (byte) (i_27_ >> 8));
 	    aByteBuffer10404.put(i * 4 + 2, (byte) (i_27_ >> 16));
 	}

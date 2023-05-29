@@ -12,9 +12,9 @@ public class Class63
 	    if (class663.method10957(-2104248984) > 1) {
 		int i = class458.method7505(465636960) - 1;
 		return (i * class663.method10957(703939570)
-			+ class458.method7487(i, 2068009005));
+			+ class458.getFileCountForArchive(i, 2068009005));
 	    }
-	    return class458.method7487(-1918643565 * class663.anInt8553,
+	    return class458.getFileCountForArchive(-1918643565 * class663.anInt8553,
 				       2130613124);
 	}
 	return 0;
@@ -25,9 +25,9 @@ public class Class63
 	    if (class663.method10957(1143004831) > 1) {
 		int i = class458.method7505(1305236856) - 1;
 		return (i * class663.method10957(639762319)
-			+ class458.method7487(i, 2079628703));
+			+ class458.getFileCountForArchive(i, 2079628703));
 	    }
-	    return class458.method7487(-1918643565 * class663.anInt8553,
+	    return class458.getFileCountForArchive(-1918643565 * class663.anInt8553,
 				       2087842654);
 	}
 	return 0;
@@ -38,9 +38,9 @@ public class Class63
 	    if (class663.method10957(-809018039) > 1) {
 		int i = class458.method7505(-95266468) - 1;
 		return (i * class663.method10957(833918030)
-			+ class458.method7487(i, 2134687848));
+			+ class458.getFileCountForArchive(i, 2134687848));
 	    }
-	    return class458.method7487(-1918643565 * class663.anInt8553,
+	    return class458.getFileCountForArchive(-1918643565 * class663.anInt8553,
 				       2057577641);
 	}
 	return 0;
@@ -55,9 +55,9 @@ public class Class63
 	    if (class663.method10957(-1810994330) > 1) {
 		int i = class458.method7505(2084746731) - 1;
 		return (i * class663.method10957(-1069250608)
-			+ class458.method7487(i, 2065337127));
+			+ class458.getFileCountForArchive(i, 2065337127));
 	    }
-	    return class458.method7487(-1918643565 * class663.anInt8553,
+	    return class458.getFileCountForArchive(-1918643565 * class663.anInt8553,
 				       2075955546);
 	}
 	return 0;
@@ -68,9 +68,9 @@ public class Class63
 	    if (class663.method10957(-659778106) > 1) {
 		int i = class458.method7505(-73680873) - 1;
 		return (i * class663.method10957(-1642086529)
-			+ class458.method7487(i, 2063128596));
+			+ class458.getFileCountForArchive(i, 2063128596));
 	    }
-	    return class458.method7487(-1918643565 * class663.anInt8553,
+	    return class458.getFileCountForArchive(-1918643565 * class663.anInt8553,
 				       2051243285);
 	}
 	return 0;

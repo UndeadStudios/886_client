@@ -16,7 +16,7 @@ public class Class47 implements Interface13
     Class663 aClass663_360;
     Interface12 anInterface12_361;
     Interface5 anInterface5_362;
-    public static JS5 aClass458_363;
+    public static JS5 idx_18;
     
     public int method71() {
 	return anInterface12Array357.length;

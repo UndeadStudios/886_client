@@ -71,7 +71,7 @@ public class Class59
 		     i_12_++) {
 		    if (Class589.aStringArray7793[i_12_] != null) {
 			try {
-			    i += (Class312_Sub1.aClass544_10064.method8917
+			    i += (BillBoardConfig.aClass544_10064.method8917
 				  (Class589.aStringArray7793[i_12_], false,
 				   (byte) 0));
 			} catch (Exception_Sub1 exception_sub1) {

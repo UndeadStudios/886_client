@@ -188,7 +188,7 @@ public abstract class Class206 implements Interface5
     }
     
     public static int method3905(int i, int i_10_, int i_11_) {
-	if (1728284569 * Class138.aClass631_1641.anInt8175 == -1)
+	if (1728284569 * HashTable.aClass631_1641.anInt8175 == -1)
 	    return 1;
 	if (i != Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub20_10708
 		     .method17160(-1923914152)) {
@@ -211,9 +211,9 @@ public abstract class Class206 implements Interface5
 		 true, Class501.aClass182_5564, Class29.aClass175_293,
 		 Class500.aClass7_5560, -1573689195);
 	    ModelDecoder class186
-		= ModelDecoder.method3644(WorldTile.aClass458_705,
+		= ModelDecoder.method3644(WorldTile.idx_7,
 				      (1728284569
-				       * Class138.aClass631_1641.anInt8175),
+				       * HashTable.aClass631_1641.anInt8175),
 				      0);
 	    long l = Class251.method4508((byte) 8);
 	    Class501.aClass182_5564.method3480();

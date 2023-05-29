@@ -9,13 +9,13 @@ public class Class351
     Interface24 anInterface24_3743;
     Class182_Sub1 aClass182_Sub1_3744;
     
-    Interface38 method6159(Class166 class166) {
-	return method6161(class166, class166.anInt1808 * 2082667437);
+    Interface38 method6159(TextureMetrics class166) {
+	return method6161(class166, class166.bitLoad * 2082667437);
     }
     
-    boolean method6160(Class166 class166, int i) {
+    boolean method6160(TextureMetrics class166, int i) {
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	if (!class166.aBool1815 || !aClass182_Sub1_3744.method3284()) {
 	    if (class166.aClass597_1807 != Class597.aClass597_7842
 		|| !Class679.method11200(class166.aByte1825, (byte) -122))
@@ -36,7 +36,7 @@ public class Class351
 					    i, false, (byte) 67);
     }
     
-    Interface38 method6161(Class166 class166, int i) {
+    Interface38 method6161(TextureMetrics class166, int i) {
 	long l = (long) (i << 16 | class166.anInt1800 * 261926313);
 	Interface38 interface38 = (Interface38) aClass200_3742.method3785(l);
 	if (interface38 != null)
@@ -44,7 +44,7 @@ public class Class351
 	if (!method6162(class166, i))
 	    return null;
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	Interface38 interface38_0_;
 	if (!class166.aBool1815 || !aClass182_Sub1_3744.method3284()) {
 	    int[] is;
@@ -79,9 +79,9 @@ public class Class351
 	return interface38_0_;
     }
     
-    boolean method6162(Class166 class166, int i) {
+    boolean method6162(TextureMetrics class166, int i) {
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	if (!class166.aBool1815 || !aClass182_Sub1_3744.method3284()) {
 	    if (class166.aClass597_1807 != Class597.aClass597_7842
 		|| !Class679.method11200(class166.aByte1825, (byte) -72))
@@ -111,7 +111,7 @@ public class Class351
 	aClass200_3742.method3805(5, 1975460751);
     }
     
-    Interface38 method6164(Class166 class166, int i) {
+    Interface38 method6164(TextureMetrics class166, int i) {
 	long l = (long) (i << 16 | class166.anInt1800 * 261926313);
 	Interface38 interface38 = (Interface38) aClass200_3742.method3785(l);
 	if (interface38 != null)
@@ -119,7 +119,7 @@ public class Class351
 	if (!method6162(class166, i))
 	    return null;
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	Interface38 interface38_1_;
 	if (!class166.aBool1815 || !aClass182_Sub1_3744.method3284()) {
 	    int[] is;
@@ -154,7 +154,7 @@ public class Class351
 	return interface38_1_;
     }
     
-    Interface38 method6165(Class166 class166, int i) {
+    Interface38 method6165(TextureMetrics class166, int i) {
 	long l = (long) (i << 16 | class166.anInt1800 * 261926313);
 	Interface38 interface38 = (Interface38) aClass200_3742.method3785(l);
 	if (interface38 != null)
@@ -162,7 +162,7 @@ public class Class351
 	if (!method6162(class166, i))
 	    return null;
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	Interface38 interface38_2_;
 	if (!class166.aBool1815 || !aClass182_Sub1_3744.method3284()) {
 	    int[] is;
@@ -197,9 +197,9 @@ public class Class351
 	return interface38_2_;
     }
     
-    boolean method6166(Class166 class166, int i) {
+    boolean method6166(TextureMetrics class166, int i) {
 	if (i == -1)
-	    i = class166.anInt1808 * 2082667437;
+	    i = class166.bitLoad * 2082667437;
 	if (!class166.aBool1815 || !aClass182_Sub1_3744.method3284()) {
 	    if (class166.aClass597_1807 != Class597.aClass597_7842
 		|| !Class679.method11200(class166.aByte1825, (byte) -67))

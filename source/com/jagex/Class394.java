@@ -225,7 +225,7 @@ public class Class394
 			    bool_11_ = false;
 		    }
 		    String string_14_
-			= (Class668.aClass668_8577 == client.aClass668_11090
+			= (Class668.aClass668_8577 == client.gametype
 			   ? Class53.aClass53_517
 				 .method1169(Class21.aClass666_213, 1552651121)
 			   : Class53.aClass53_515.method1169((Class21
@@ -324,7 +324,7 @@ public class Class394
 				    1954791597))).aString3290;
 			if (0 != class299.anInt3311 * 538468793) {
 			    String string_16_
-				= ((client.aClass668_11090
+				= ((client.gametype
 				    == Class668.aClass668_8577)
 				   ? (Class53.aClass53_517.method1169
 				      (Class21.aClass666_213, 1552651121))

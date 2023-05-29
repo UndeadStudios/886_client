@@ -82,7 +82,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     }
     
     public boolean method18679() {
-	return Class138.aClass631_1641.aBool8174;
+	return HashTable.aClass631_1641.aBool8174;
     }
     
     void method16963(Class182 class182) {
@@ -448,7 +448,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     }
     
     public boolean method18643(byte i) {
-	return Class138.aClass631_1641.aBool8174;
+	return HashTable.aClass631_1641.aBool8174;
     }
     
     void method16918(Class182 class182, int i) {
@@ -466,7 +466,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     
     public void method18950(String string, int i, int i_38_, int i_39_) {
 	int i_40_ = (Class424.method6768(1684836768)
-		     * (Class138.aClass631_1641.anInt8187 * 166193699));
+		     * (HashTable.aClass631_1641.anInt8187 * 166193699));
 	method18617(string, i, i_38_, i_40_, -1778278627);
     }
     
@@ -583,8 +583,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 		= ((aClass689_Sub1_11986.method14021(1437656534)
 		    && (!aClass689_Sub1_11986.aBool11017 || class689 == null))
 		   ? aClass689_Sub1_11986 : null);
-	    short i_48_ = Class138.aClass631_1641.aShort8179;
-	    byte i_49_ = Class138.aClass631_1641.aByte8180;
+	    short i_48_ = HashTable.aClass631_1641.aShort8179;
+	    byte i_49_ = HashTable.aClass631_1641.aByte8180;
 	    if (aClass299_12255.aShort3296 > -1) {
 		i_48_ = aClass299_12255.aShort3296;
 		i_49_ = aClass299_12255.aByte3341;
@@ -901,7 +901,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     
     public void method18955(String string, int i, int i_65_) {
 	int i_66_ = (Class424.method6768(1684836768)
-		     * (Class138.aClass631_1641.anInt8187 * 166193699));
+		     * (HashTable.aClass631_1641.anInt8187 * 166193699));
 	method18617(string, i, i_65_, i_66_, -1778278627);
     }
     
@@ -1087,7 +1087,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     }
     
     public boolean method18678() {
-	return Class138.aClass631_1641.aBool8174;
+	return HashTable.aClass631_1641.aBool8174;
     }
     
     public int method18677() {
@@ -1181,8 +1181,8 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
 		= ((aClass689_Sub1_11986.method14021(-1478942223)
 		    && (!aClass689_Sub1_11986.aBool11017 || class689 == null))
 		   ? aClass689_Sub1_11986 : null);
-	    short i_80_ = Class138.aClass631_1641.aShort8179;
-	    byte i_81_ = Class138.aClass631_1641.aByte8180;
+	    short i_80_ = HashTable.aClass631_1641.aShort8179;
+	    byte i_81_ = HashTable.aClass631_1641.aByte8180;
 	    if (aClass299_12255.aShort3296 > -1) {
 		i_80_ = aClass299_12255.aShort3296;
 		i_81_ = aClass299_12255.aByte3341;
@@ -1638,7 +1638,7 @@ public class Class656_Sub1_Sub3_Sub1_Sub2 extends Class656_Sub1_Sub3_Sub1
     
     public void method18968(String string, int i, int i_110_) {
 	int i_111_ = (Class424.method6768(1684836768)
-		      * (Class138.aClass631_1641.anInt8187 * 166193699));
+		      * (HashTable.aClass631_1641.anInt8187 * 166193699));
 	method18617(string, i, i_110_, i_111_, -1778278627);
     }
     

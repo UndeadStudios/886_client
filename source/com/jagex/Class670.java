@@ -9,7 +9,7 @@ public class Class670 implements Interface17
     
     public long method101(Class163 class163, int i) {
 	Long var_long
-	    = aClass353_8588.method6206((-1420999111 * (client.aClass668_11090
+	    = aClass353_8588.method6206((-1420999111 * (client.gametype
 							.anInt8584) << 16
 					 | 248546353 * class163.anInt1766),
 					(byte) 0);
@@ -20,7 +20,7 @@ public class Class670 implements Interface17
     
     public int method104(Class163 class163, int i) {
 	Integer integer
-	    = aClass353_8588.method6205((-1420999111 * (client.aClass668_11090
+	    = aClass353_8588.method6205((-1420999111 * (client.gametype
 							.anInt8584) << 16
 					 | 248546353 * class163.anInt1766),
 					-1888065416);
@@ -32,7 +32,7 @@ public class Class670 implements Interface17
     public Object method106(Class163 class163) {
 	if (Class495.aClass495_5387 != class163.aClass495_1765)
 	    throw new IllegalArgumentException("");
-	return aClass353_8588.method6211(((client.aClass668_11090.anInt8584
+	return aClass353_8588.method6211(((client.gametype.anInt8584
 					   * -1420999111) << 16
 					  | 248546353 * class163.anInt1766),
 					 -828008551);
@@ -41,7 +41,7 @@ public class Class670 implements Interface17
     public Object method91(Class163 class163, int i) {
 	if (Class495.aClass495_5387 != class163.aClass495_1765)
 	    throw new IllegalArgumentException("");
-	return aClass353_8588.method6211(((client.aClass668_11090.anInt8584
+	return aClass353_8588.method6211(((client.gametype.anInt8584
 					   * -1420999111) << 16
 					  | 248546353 * class163.anInt1766),
 					 -678695045);
@@ -69,7 +69,7 @@ public class Class670 implements Interface17
     
     public int method95(Class163 class163) {
 	Integer integer
-	    = aClass353_8588.method6205((-1420999111 * (client.aClass668_11090
+	    = aClass353_8588.method6205((-1420999111 * (client.gametype
 							.anInt8584) << 16
 					 | 248546353 * class163.anInt1766),
 					-1563300266);
@@ -80,7 +80,7 @@ public class Class670 implements Interface17
     
     public int method89(Class163 class163) {
 	Integer integer
-	    = aClass353_8588.method6205((-1420999111 * (client.aClass668_11090
+	    = aClass353_8588.method6205((-1420999111 * (client.gametype
 							.anInt8584) << 16
 					 | 248546353 * class163.anInt1766),
 					-1849102876);
@@ -104,7 +104,7 @@ public class Class670 implements Interface17
     public Object method87(Class163 class163) {
 	if (Class495.aClass495_5387 != class163.aClass495_1765)
 	    throw new IllegalArgumentException("");
-	return aClass353_8588.method6211(((client.aClass668_11090.anInt8584
+	return aClass353_8588.method6211(((client.gametype.anInt8584
 					   * -1420999111) << 16
 					  | 248546353 * class163.anInt1766),
 					 427999790);
@@ -112,7 +112,7 @@ public class Class670 implements Interface17
     
     public long method96(Class163 class163) {
 	Long var_long
-	    = aClass353_8588.method6206((-1420999111 * (client.aClass668_11090
+	    = aClass353_8588.method6206((-1420999111 * (client.gametype
 							.anInt8584) << 16
 					 | 248546353 * class163.anInt1766),
 					(byte) 0);
@@ -136,7 +136,7 @@ public class Class670 implements Interface17
     public Object method113(Class163 class163) {
 	if (Class495.aClass495_5387 != class163.aClass495_1765)
 	    throw new IllegalArgumentException("");
-	return aClass353_8588.method6211(((client.aClass668_11090.anInt8584
+	return aClass353_8588.method6211(((client.gametype.anInt8584
 					   * -1420999111) << 16
 					  | 248546353 * class163.anInt1766),
 					 -1808529024);
@@ -144,7 +144,7 @@ public class Class670 implements Interface17
     
     public long method99(Class163 class163) {
 	Long var_long
-	    = aClass353_8588.method6206((-1420999111 * (client.aClass668_11090
+	    = aClass353_8588.method6206((-1420999111 * (client.gametype
 							.anInt8584) << 16
 					 | 248546353 * class163.anInt1766),
 					(byte) 0);
@@ -156,7 +156,7 @@ public class Class670 implements Interface17
     public Object method103(Class163 class163) {
 	if (Class495.aClass495_5387 != class163.aClass495_1765)
 	    throw new IllegalArgumentException("");
-	return aClass353_8588.method6211(((client.aClass668_11090.anInt8584
+	return aClass353_8588.method6211(((client.gametype.anInt8584
 					   * -1420999111) << 16
 					  | 248546353 * class163.anInt1766),
 					 -305986322);
@@ -165,7 +165,7 @@ public class Class670 implements Interface17
     public Object method107(Class163 class163) {
 	if (Class495.aClass495_5387 != class163.aClass495_1765)
 	    throw new IllegalArgumentException("");
-	return aClass353_8588.method6211(((client.aClass668_11090.anInt8584
+	return aClass353_8588.method6211(((client.gametype.anInt8584
 					   * -1420999111) << 16
 					  | 248546353 * class163.anInt1766),
 					 1147841223);

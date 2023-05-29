@@ -13,7 +13,7 @@ public class Class515
     int anInt5699;
     Class516 aClass516_5700;
     Class516[] aClass516Array5701;
-    static Class180 aClass180_5702;
+    static Textures aClass180_5702;
     int anInt5703;
     int anInt5704 = -1073271397;
     int anInt5705;
@@ -36,7 +36,7 @@ public class Class515
     static int anInt5722;
     static int anInt5723;
     
-    public static void method8555(JS5 class458, Class180 class180,
+    public static void method8555(JS5 class458, Textures class180,
                                   Interface24 interface24) {
 	Class326.aClass458_3563 = class458;
 	aClass180_5702 = class180;
@@ -210,7 +210,7 @@ public class Class515
 	    class182.method3188(2, 0);
 	    i_40_ = i_40_ + i & 0x3fff;
 	    if (-982591737 * anInt5721 != -1 && 0 != anInt5699 * -674437475) {
-		Class166 class166
+		TextureMetrics class166
 		    = aClass180_5702.method3116(-982591737 * anInt5721,
 						-1431554601);
 		if (null == aClass157_5708
@@ -237,9 +237,9 @@ public class Class515
 		    anInt5714 = is[is.length - 1] * 1699023457;
 		    aClass157_5708
 			= class182.method3215(is, 0,
-					      2082667437 * class166.anInt1808,
-					      2082667437 * class166.anInt1808,
-					      class166.anInt1808 * 2082667437,
+					      2082667437 * class166.bitLoad,
+					      2082667437 * class166.bitLoad,
+					      class166.bitLoad * 2082667437,
 					      (byte) 1);
 		}
 		int i_47_
@@ -349,14 +349,14 @@ public class Class515
 	class182.method3233(class444);
     }
     
-    public static void method8567(JS5 class458, Class180 class180,
+    public static void method8567(JS5 class458, Textures class180,
                                   Interface24 interface24) {
 	Class326.aClass458_3563 = class458;
 	aClass180_5702 = class180;
 	Class406.anInterface24_4168 = interface24;
     }
     
-    public static void method8568(JS5 class458, Class180 class180,
+    public static void method8568(JS5 class458, Textures class180,
                                   Interface24 interface24) {
 	Class326.aClass458_3563 = class458;
 	aClass180_5702 = class180;
@@ -371,7 +371,7 @@ public class Class515
 		     + anInt5713 * 1487683661) * 1076045905;
     }
     
-    public static void method8570(JS5 class458, Class180 class180,
+    public static void method8570(JS5 class458, Textures class180,
                                   Interface24 interface24) {
 	Class326.aClass458_3563 = class458;
 	aClass180_5702 = class180;
@@ -744,7 +744,7 @@ public class Class515
 	    class182.method3188(2, 0);
 	    i_151_ = i_151_ + i & 0x3fff;
 	    if (-982591737 * anInt5721 != -1 && 0 != anInt5699 * -674437475) {
-		Class166 class166
+		TextureMetrics class166
 		    = aClass180_5702.method3116(-982591737 * anInt5721,
 						-1431554601);
 		if (null == aClass157_5708
@@ -771,9 +771,9 @@ public class Class515
 		    anInt5714 = is[is.length - 1] * 1699023457;
 		    aClass157_5708
 			= class182.method3215(is, 0,
-					      2082667437 * class166.anInt1808,
-					      2082667437 * class166.anInt1808,
-					      class166.anInt1808 * 2082667437,
+					      2082667437 * class166.bitLoad,
+					      2082667437 * class166.bitLoad,
+					      class166.bitLoad * 2082667437,
 					      (byte) 77);
 		}
 		int i_157_
@@ -875,7 +875,7 @@ public class Class515
 	    class182.method3188(2, 0);
 	    i_170_ = i_170_ + i & 0x3fff;
 	    if (-982591737 * anInt5721 != -1 && 0 != anInt5699 * -674437475) {
-		Class166 class166
+		TextureMetrics class166
 		    = aClass180_5702.method3116(-982591737 * anInt5721,
 						-1431554601);
 		if (null == aClass157_5708
@@ -902,9 +902,9 @@ public class Class515
 		    anInt5714 = is[is.length - 1] * 1699023457;
 		    aClass157_5708
 			= class182.method3215(is, 0,
-					      2082667437 * class166.anInt1808,
-					      2082667437 * class166.anInt1808,
-					      class166.anInt1808 * 2082667437,
+					      2082667437 * class166.bitLoad,
+					      2082667437 * class166.bitLoad,
+					      class166.bitLoad * 2082667437,
 					      (byte) 21);
 		}
 		int i_176_
@@ -1153,7 +1153,7 @@ public class Class515
 		= (Class157) client.aClass200_11113.method3785((long) i_206_);
 	    if (null == class157) {
 		Class173[] class173s
-		    = Class187.method3674(Class462.aClass458_5095, i_206_, 0);
+		    = Class187.method3674(Class462.idx_8, i_206_, 0);
 		if (null == class173s)
 		    return;
 		class157

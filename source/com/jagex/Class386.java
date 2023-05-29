@@ -109,7 +109,7 @@ public class Class386 implements Interface72
 	    client.anInt11260 = 2101694433;
 	    client.aClass10_11261 = new Class10(8);
 	    Class188.method3687(-2133777716);
-	    client.anInt11260 = 1931260315 * Class138.aClass631_1641.anInt8177;
+	    client.anInt11260 = 1931260315 * HashTable.aClass631_1641.anInt8177;
 	    if (client.anInt11260 * -750203937 != -1) {
 		Class198_Sub14.method15652(false, -836912409);
 		Class83.method1604(-1910485673);

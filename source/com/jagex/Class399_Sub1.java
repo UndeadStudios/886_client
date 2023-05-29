@@ -77,19 +77,19 @@ public class Class399_Sub1 extends Class399
 	    i_13_ = 0;
 	if (null == Class525_Sub16_Sub3.aClass157_11415
 	    || Class238.aClass157_2403 == null) {
-	    if (Class462.aClass458_5095
+	    if (Class462.idx_8
 		    .method7506(Class709.anInt8822 * -1623325039, 1343964889)
-		&& Class462.aClass458_5095.method7506((Class442.anInt4867
+		&& Class462.idx_8.method7506((Class442.anInt4867
 						       * -88227043),
 						      475842427)) {
 		Class525_Sub16_Sub3.aClass157_11415
 		    = (class182.method3216
-		       (Class187.method3667(Class462.aClass458_5095,
+		       (Class187.method3667(Class462.idx_8,
 					    Class709.anInt8822 * -1623325039,
 					    0),
 			true));
 		Class173 class173
-		    = Class187.method3667(Class462.aClass458_5095,
+		    = Class187.method3667(Class462.idx_8,
 					  -88227043 * Class442.anInt4867, 0);
 		Class238.aClass157_2403 = class182.method3216(class173, true);
 		class173.method2773();

@@ -73,7 +73,7 @@ public final class client extends Class503
     static boolean aBool11087;
     static int[] anIntArray11088;
     public static Class109[] aClass109Array11089;
-    public static Class668 aClass668_11090 = null;
+    public static Class668 gametype = null;
     public static Interface63 anInterface63_11091;
     static boolean aBool11092;
     static boolean aBool11093;
@@ -529,10 +529,10 @@ public final class client extends Class503
 			Class441.aString4863 = string_3_;
 			break;
 		    case 32:
-			aClass668_11090
+			gametype
 			    = Class651.method10744(Integer.parseInt(string_3_),
 						   -1016522876);
-			if (Class668.aClass668_8576 == aClass668_11090)
+			if (Class668.aClass668_8576 == gametype)
 			    Class454.aClass76_4951 = Class76.aClass76_828;
 			else
 			    Class454.aClass76_4951 = Class76.aClass76_825;
@@ -713,7 +713,7 @@ public final class client extends Class503
 					     -1167554197 * anInt11224,
 					     anInt11221 * -671272747,
 					     -603682743 * anInt11222,
-					     aClass668_11090.aString8583);
+					     gametype.aString8583);
 	    Class327.aclient3575 = this;
 	    String string_4_ = Class221.aClass693_2336.aString8755;
 	    int i = Class221.aClass693_2336.anInt8754 * -677912137 + 32;
@@ -723,7 +723,7 @@ public final class client extends Class503
 			  (string).toString();
 		i = 0;
 	    }
-	    method8202(class519, aClass668_11090.aString8579, string_4_, i,
+	    method8202(class519, gametype.aString8579, string_4_, i,
 		       Class281.method5197(599760346), 886, 1, aBool11313,
 		       1679028353);
 	}
@@ -2195,9 +2195,8 @@ public final class client extends Class503
 						     1L, i_103_, i_104_, true,
 						     false,
 						     (long) ((((class259
-								.anInt2576)
-							       * 1534974651)
-							      << 0)
+                                     .anInt2576)
+                                     * 1534974651))
 							     | (1984678839
 								* (class259
 								   .anInt2588))),
@@ -2207,7 +2206,7 @@ public final class client extends Class503
 						    .method6429(1771493886);
 					} else {
 					    if (Class668.aClass668_8577
-						== aClass668_11090)
+						== gametype)
 						Class564.method9454
 						    ((Class53.aClass53_514
 							  .method1169
@@ -4891,7 +4890,7 @@ public final class client extends Class503
 			Class77.method1564(-52124387);
 			Class231.method4391(false, 116476659);
 			Class184.method3614(Class501.aClass182_5564,
-					    Class166.aClass180_1835, (byte) 0);
+					    TextureMetrics.aClass180_1835, (byte) 0);
 			anInt11173 += 948502557;
 			if (0 != 224735789 * anInt11208) {
 			    anInt11139 += 1295243580;
@@ -5512,11 +5511,11 @@ public final class client extends Class503
 			Class441.aString4863 = string_193_;
 			break;
 		    case 32:
-			aClass668_11090
+			gametype
 			    = Class651.method10744(Integer
 						       .parseInt(string_193_),
 						   1887876401);
-			if (Class668.aClass668_8576 == aClass668_11090)
+			if (Class668.aClass668_8576 == gametype)
 			    Class454.aClass76_4951 = Class76.aClass76_828;
 			else
 			    Class454.aClass76_4951 = Class76.aClass76_825;
@@ -5701,7 +5700,7 @@ public final class client extends Class503
 					     -1167554197 * anInt11224,
 					     anInt11221 * -671272747,
 					     -603682743 * anInt11222,
-					     aClass668_11090.aString8583);
+					     gametype.aString8583);
 	    Class327.aclient3575 = this;
 	    String string_194_ = Class221.aClass693_2336.aString8755;
 	    int i = Class221.aClass693_2336.anInt8754 * -677912137 + 32;
@@ -5711,7 +5710,7 @@ public final class client extends Class503
 				  (string).toString();
 		i = 0;
 	    }
-	    method8202(class519, aClass668_11090.aString8579, string_194_, i,
+	    method8202(class519, gametype.aString8579, string_194_, i,
 		       Class281.method5197(599760346), 886, 1, aBool11313,
 		       328239472);
 	}
@@ -5960,7 +5959,7 @@ public final class client extends Class503
 		Class335.method5858((9 == anInt11075 * 1777895575
 				     || 8 == 1777895575 * anInt11075
 				     || (-750203937 * anInt11260
-					 != 1089481059 * (Class138
+					 != 1089481059 * (HashTable
 							  .aClass631_1641
 							  .anInt8176))),
 				    (byte) -22);
@@ -5968,11 +5967,11 @@ public final class client extends Class503
 	    }
 	    if (16 == i) {
 		boolean bool;
-		if (-1 == -1150509307 * Class138.aClass631_1641.anInt8177)
+		if (-1 == -1150509307 * HashTable.aClass631_1641.anInt8177)
 		    bool = (14 == 1777895575 * anInt11075
 			    || 1777895575 * anInt11075 == 12);
 		else
-		    bool = (Class138.aClass631_1641.anInt8177 * -1150509307
+		    bool = (HashTable.aClass631_1641.anInt8177 * -1150509307
 			    != anInt11260 * -750203937);
 		Class386.method6446(bool, -1792723034);
 	    }
@@ -6020,7 +6019,7 @@ public final class client extends Class503
 		Class335.method5858((9 == anInt11075 * 1777895575
 				     || 8 == 1777895575 * anInt11075
 				     || (-750203937 * anInt11260
-					 != 1089481059 * (Class138
+					 != 1089481059 * (HashTable
 							  .aClass631_1641
 							  .anInt8176))),
 				    (byte) -38);
@@ -6028,11 +6027,11 @@ public final class client extends Class503
 	    }
 	    if (16 == i) {
 		boolean bool;
-		if (-1 == -1150509307 * Class138.aClass631_1641.anInt8177)
+		if (-1 == -1150509307 * HashTable.aClass631_1641.anInt8177)
 		    bool = (14 == 1777895575 * anInt11075
 			    || 1777895575 * anInt11075 == 12);
 		else
-		    bool = (Class138.aClass631_1641.anInt8177 * -1150509307
+		    bool = (HashTable.aClass631_1641.anInt8177 * -1150509307
 			    != anInt11260 * -750203937);
 		Class386.method6446(bool, -1792723034);
 	    }
@@ -6100,7 +6099,7 @@ public final class client extends Class503
 	Class653.anIterator8394 = aList11395.iterator();
 	while (Class653.anIterator8394.hasNext()) {
 	    int i = ((Integer) Class653.anIterator8394.next()).intValue();
-	    if (Class462.aClass458_5095.method7506(i, 106359036))
+	    if (Class462.idx_8.method7506(i, 106359036))
 		Class653.anIterator8394.remove();
 	}
     }
@@ -6141,7 +6140,7 @@ public final class client extends Class503
 	    anInt11260 = 2101694433;
 	    aClass10_11261 = new Class10(8);
 	    Class188.method3687(-2027333286);
-	    anInt11260 = Class138.aClass631_1641.anInt8176 * 1366758141;
+	    anInt11260 = HashTable.aClass631_1641.anInt8176 * 1366758141;
 	    if (anInt11260 * -750203937 != -1) {
 		Class198_Sub14.method15652(false, -2129684539);
 		Class83.method1604(-1996827536);
@@ -6212,7 +6211,7 @@ public final class client extends Class503
 	    anInt11260 = 2101694433;
 	    aClass10_11261 = new Class10(8);
 	    Class188.method3687(-1947863846);
-	    anInt11260 = 1931260315 * Class138.aClass631_1641.anInt8177;
+	    anInt11260 = 1931260315 * HashTable.aClass631_1641.anInt8177;
 	    if (anInt11260 * -750203937 != -1) {
 		Class198_Sub14.method15652(false, -782983230);
 		Class83.method1604(-1893817921);
@@ -6246,7 +6245,7 @@ public final class client extends Class503
 	Class7.aClass404_53.method6581(anInterface50_11252, (byte) 86);
 	Class7.aClass404_53.method6582(1279822465);
 	Class495.method8130(Class501.aClass182_5564, 534531211);
-	Class62.method1376(Class501.aClass182_5564, Class462.aClass458_5095,
+	Class62.method1376(Class501.aClass182_5564, Class462.idx_8,
 			   (short) -21274);
 	Class591.method9795(2086711650);
 	Class83.method1604(-1840148890);
@@ -6348,7 +6347,7 @@ public final class client extends Class503
 	Class7.aClass404_53.method6581(anInterface50_11252, (byte) 53);
 	Class7.aClass404_53.method6582(1279822465);
 	Class495.method8130(Class501.aClass182_5564, 534531211);
-	Class62.method1376(Class501.aClass182_5564, Class462.aClass458_5095,
+	Class62.method1376(Class501.aClass182_5564, Class462.idx_8,
 			   (short) 6033);
 	Class591.method9795(-1213040653);
 	Class83.method1604(-1929720184);
@@ -6383,7 +6382,7 @@ public final class client extends Class503
 	Class7.aClass404_53.method6581(anInterface50_11252, (byte) 29);
 	Class7.aClass404_53.method6582(1279822465);
 	Class495.method8130(Class501.aClass182_5564, 534531211);
-	Class62.method1376(Class501.aClass182_5564, Class462.aClass458_5095,
+	Class62.method1376(Class501.aClass182_5564, Class462.idx_8,
 			   (short) -22587);
 	Class591.method9795(-781228071);
 	Class83.method1604(-2018434661);
@@ -6592,7 +6591,7 @@ public final class client extends Class503
     }
     
     public static int method17585(int i, int i_218_) {
-	if (1728284569 * Class138.aClass631_1641.anInt8175 == -1)
+	if (1728284569 * HashTable.aClass631_1641.anInt8175 == -1)
 	    return 1;
 	if (i != Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub20_10708
 		     .method17160(-234646284)) {
@@ -6615,9 +6614,9 @@ public final class client extends Class503
 		 true, Class501.aClass182_5564, Class29.aClass175_293,
 		 Class500.aClass7_5560, 1564062977);
 	    ModelDecoder class186
-		= ModelDecoder.method3644(WorldTile.aClass458_705,
+		= ModelDecoder.method3644(WorldTile.idx_7,
 				      (1728284569
-				       * Class138.aClass631_1641.anInt8175),
+				       * HashTable.aClass631_1641.anInt8175),
 				      0);
 	    long l = Class251.method4508((byte) 8);
 	    Class501.aClass182_5564.method3480();
@@ -6669,7 +6668,7 @@ public final class client extends Class503
     }
     
     public static int method17586(int i, int i_225_) {
-	if (1728284569 * Class138.aClass631_1641.anInt8175 == -1)
+	if (1728284569 * HashTable.aClass631_1641.anInt8175 == -1)
 	    return 1;
 	if (i != Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub20_10708
 		     .method17160(-1679668946)) {
@@ -6692,9 +6691,9 @@ public final class client extends Class503
 		 true, Class501.aClass182_5564, Class29.aClass175_293,
 		 Class500.aClass7_5560, -1240964590);
 	    ModelDecoder class186
-		= ModelDecoder.method3644(WorldTile.aClass458_705,
+		= ModelDecoder.method3644(WorldTile.idx_7,
 				      (1728284569
-				       * Class138.aClass631_1641.anInt8175),
+				       * HashTable.aClass631_1641.anInt8175),
 				      0);
 	    long l = Class251.method4508((byte) 8);
 	    Class501.aClass182_5564.method3480();
@@ -7197,7 +7196,7 @@ public final class client extends Class503
 	    else if (Class522_Sub1.method16054(1777895575 * anInt11075,
 					       -922660124)) {
 		if (aClass507_11137.method8404(-1085516404)
-		    == BillBoardDefinitions.aClass504_5602) {
+		    == Class504.aClass504_5602) {
 		    int i_251_ = aClass507_11137.method8459(760100279) / 2;
 		    Class666.method11016
 			(new StringBuilder().append
@@ -7212,7 +7211,7 @@ public final class client extends Class503
 			 true, Class501.aClass182_5564, Class29.aClass175_293,
 			 Class500.aClass7_5560, 1093284057);
 		} else if (aClass507_11137.method8404(1333608500)
-			   == BillBoardDefinitions.aClass504_5603) {
+			   == Class504.aClass504_5603) {
 		    int i_252_
 			= 50 + aClass507_11137.method8349(-1971773260) / 2;
 		    Class666.method11016
@@ -7985,7 +7984,7 @@ public final class client extends Class503
 	    anInt11260 = 2101694433;
 	    aClass10_11261 = new Class10(8);
 	    Class188.method3687(-1803956475);
-	    anInt11260 = Class138.aClass631_1641.anInt8176 * 1366758141;
+	    anInt11260 = HashTable.aClass631_1641.anInt8176 * 1366758141;
 	    if (anInt11260 * -750203937 != -1) {
 		Class198_Sub14.method15652(false, 1787463828);
 		Class83.method1604(-1933091623);
@@ -8064,7 +8063,7 @@ public final class client extends Class503
 	    String string = class525_sub38_sub2.readString((byte) -14);
 	    if (aClass507_11137.method8346(-1698045909)
 		!= Class499.aClass499_5551)
-		Class196.method3744(-799406751 * Class166.anInt1836, i_301_,
+		Class196.method3744(-799406751 * TextureMetrics.anInt1836, i_301_,
 				    i_302_, i_304_, i_303_, i_305_, string,
 				    -691010033);
 	} else if (Class406.aClass406_4166 == class406) {
@@ -8078,7 +8077,7 @@ public final class client extends Class503
 	    int i_310_ = i_309_ + -1227002079 * class600.anInt7858;
 	    Class525_Sub23 class525_sub23
 		= ((Class525_Sub23)
-		   aClass10_11246.method684((long) ((Class166.anInt1836
+		   aClass10_11246.method684((long) ((TextureMetrics.anInt1836
 						     * -799406751) << 28
 						    | i_308_ << 14 | i_310_)));
 	    if (null != class525_sub23) {
@@ -8099,7 +8098,7 @@ public final class client extends Class503
 		if (i_309_ >= 0 && i_307_ >= 0
 		    && i_309_ < aClass507_11137.method8412(1310264083)
 		    && i_307_ < aClass507_11137.method8352((byte) -69))
-		    Class685.method11253(Class166.anInt1836 * -799406751,
+		    Class685.method11253(TextureMetrics.anInt1836 * -799406751,
 					 i_309_, i_307_, 1765049199);
 	    }
 	} else if (Class406.aClass406_4154 == class406) {
@@ -8115,7 +8114,7 @@ public final class client extends Class503
 	    int i_318_ = -727902931 * Class236.anInt2391 + (i_316_ & 0x7);
 	    if (aClass507_11137.method8346(-1698045909)
 		!= Class499.aClass499_5551)
-		Class590.method9793(-799406751 * Class166.anInt1836, i_317_,
+		Class590.method9793(-799406751 * TextureMetrics.anInt1836, i_317_,
 				    i_318_, i_314_, i_312_, i_313_, i, i_315_,
 				    1252297869);
 	} else if (Class406.aClass406_4156 == class406) {
@@ -8132,7 +8131,7 @@ public final class client extends Class503
 		|| (i_323_ >= 0 && i_324_ >= 0
 		    && i_323_ < aClass507_11137.method8412(1091591317)
 		    && i_324_ < aClass507_11137.method8352((byte) -96)))
-		Class712.method14454(-799406751 * Class166.anInt1836, i_323_,
+		Class712.method14454(-799406751 * TextureMetrics.anInt1836, i_323_,
 				     i_324_, i_321_, i_325_, i_319_, i_320_,
 				     -598699054);
 	} else if (Class406.aClass406_4164 == class406) {
@@ -8148,7 +8147,7 @@ public final class client extends Class503
 	    if (aClass10_11246 != null) {
 		Class525_Sub23 class525_sub23
 		    = ((Class525_Sub23)
-		       aClass10_11246.method684((long) ((Class166.anInt1836
+		       aClass10_11246.method684((long) ((TextureMetrics.anInt1836
 							 * -799406751) << 28
 							| i_327_ << 14
 							| i_329_)));
@@ -8166,7 +8165,7 @@ public final class client extends Class503
 				== i_331_)) {
 			    class525_sub13.method8755(-1933461091);
 			    class525_sub13.anInt10529 = 1399909441 * i_332_;
-			    Class96.method1818(-799406751 * Class166.anInt1836,
+			    Class96.method1818(-799406751 * TextureMetrics.anInt1836,
 					       i_329_, i_327_, class525_sub13,
 					       -614470770);
 			    break;
@@ -8175,7 +8174,7 @@ public final class client extends Class503
 		    if (i_328_ >= 0 && i_326_ >= 0
 			&& i_328_ < aClass507_11137.method8412(646801008)
 			&& i_326_ < aClass507_11137.method8352((byte) -102))
-			Class685.method11253(-799406751 * Class166.anInt1836,
+			Class685.method11253(-799406751 * TextureMetrics.anInt1836,
 					     i_328_, i_326_, 2044363975);
 		}
 	    }
@@ -8195,11 +8194,11 @@ public final class client extends Class503
 		   && i_334_ < aClass507_11137.method8352((byte) -113));
 	    if (bool || aClass507_11137.method8346(-1698045909)
 			    .method8160(1860051112)) {
-		Class96.method1818(-799406751 * Class166.anInt1836, i_337_,
+		Class96.method1818(-799406751 * TextureMetrics.anInt1836, i_337_,
 				   i_335_, new Class525_Sub13(i, i_338_),
 				   1398616470);
 		if (bool)
-		    Class685.method11253(Class166.anInt1836 * -799406751,
+		    Class685.method11253(TextureMetrics.anInt1836 * -799406751,
 					 i_336_, i_334_, 2093355818);
 	    }
 	} else if (Class406.aClass406_4160 == class406) {
@@ -8232,7 +8231,7 @@ public final class client extends Class503
 			Class446 class446
 			    = new Class446((float) (i_339_ << 9), 0.0F,
 					   (float) (i_340_ << 9));
-			int i_349_ = -799406751 * Class166.anInt1836;
+			int i_349_ = -799406751 * TextureMetrics.anInt1836;
 			Class40_Sub20.aClass217_11050.method4047
 			    (Class204.aClass204_2226, i_341_, i_344_, i_346_,
 			     Class208.aClass208_2250.method3907((short) -4232),
@@ -8273,7 +8272,7 @@ public final class client extends Class503
 			Class446 class446
 			    = new Class446((float) (i_350_ << 9), 0.0F,
 					   (float) (i_351_ << 9));
-			int i_360_ = -799406751 * Class166.anInt1836;
+			int i_360_ = -799406751 * TextureMetrics.anInt1836;
 			int i_361_ = (bool
 				      ? Class208.aClass208_2252
 					    .method3907((short) -17533)
@@ -8317,7 +8316,7 @@ public final class client extends Class503
 		    } else {
 			int i_369_ = 256 + 512 * i_362_;
 			int i_370_ = i_363_ * 512 + 256;
-			int i_371_ = -799406751 * Class166.anInt1836;
+			int i_371_ = -799406751 * TextureMetrics.anInt1836;
 			if (i_371_ < 3
 			    && aClass507_11137.method8360(1923712726)
 				   .method7774(i_362_, i_363_, 605008198))
@@ -8325,10 +8324,10 @@ public final class client extends Class503
 			Class656_Sub1_Sub3_Sub4 class656_sub1_sub3_sub4
 			    = (new Class656_Sub1_Sub3_Sub4
 			       (aClass507_11137.method8358((byte) 28), i_364_,
-				i_366_, -799406751 * Class166.anInt1836,
+				i_366_, -799406751 * TextureMetrics.anInt1836,
 				i_371_, i_369_,
 				Class335.method5855(i_369_, i_370_,
-						    (Class166.anInt1836
+						    (TextureMetrics.anInt1836
 						     * -799406751),
 						    2020563229) - i_365_,
 				i_370_, i_362_, i_362_, i_363_, i_363_, i_367_,
@@ -8351,7 +8350,7 @@ public final class client extends Class503
 		|| (i_372_ >= 0 && i_373_ >= 0
 		    && i_372_ < aClass507_11137.method8412(426254047)
 		    && i_373_ < aClass507_11137.method8352((byte) -61)))
-		Class712.method14454(-799406751 * Class166.anInt1836, i_372_,
+		Class712.method14454(-799406751 * TextureMetrics.anInt1836, i_372_,
 				     i_373_, i_377_, -1, i_375_, i_376_,
 				     1314343524);
 	} else if (Class406.aClass406_4153 == class406) {
@@ -8366,7 +8365,7 @@ public final class client extends Class503
 	    if (Class608.aClass608_7997.anInt7995 * -1214990409 == i_382_)
 		i_382_ = Class608.aClass608_7996.anInt7995 * -1214990409;
 	    if (1 == (i_384_ & 0x1))
-		Class696_Sub18.method17141(-799406751 * Class166.anInt1836,
+		Class696_Sub18.method17141(-799406751 * TextureMetrics.anInt1836,
 					   i_378_, i_379_, i_383_, i_380_,
 					   i_382_, null, -1656010930);
 	    else {
@@ -8394,7 +8393,7 @@ public final class client extends Class503
 			is_390_[i_392_] = (short) class525_sub38_sub2
 						      .readUnsignedShort((byte) 9);
 		}
-		Class696_Sub18.method17141(-799406751 * Class166.anInt1836,
+		Class696_Sub18.method17141(-799406751 * TextureMetrics.anInt1836,
 					   i_378_, i_379_, i_383_, i_380_,
 					   i_382_,
 					   new Class604((-903346621070464269L
@@ -8441,15 +8440,15 @@ public final class client extends Class503
 		    Class656_Sub1_Sub3_Sub5 class656_sub1_sub3_sub5
 			= (new Class656_Sub1_Sub3_Sub5
 			   (aClass507_11137.method8358((byte) 119), i_398_,
-			    Class166.anInt1836 * -799406751,
-			    -799406751 * Class166.anInt1836, i_393_, i_394_,
+			    TextureMetrics.anInt1836 * -799406751,
+			    -799406751 * TextureMetrics.anInt1836, i_393_, i_394_,
 			    i_399_, i_401_ + anInt11083, anInt11083 + i_402_,
 			    i_403_, i_404_, 0, i_397_, i_400_, bool, -1,
 			    i_405_));
 		    class656_sub1_sub3_sub5.method18857
 			(i_395_, i_396_,
 			 Class335.method5855(i_395_, i_396_,
-					     -799406751 * Class166.anInt1836,
+					     -799406751 * TextureMetrics.anInt1836,
 					     2020563229) - i_400_,
 			 i_401_ + anInt11083, (short) -13980);
 		    aClass709_11247.method14345
@@ -8475,12 +8474,12 @@ public final class client extends Class503
 		       && i_407_ < aClass507_11137.method8352((byte) -105));
 		if (bool || aClass507_11137.method8346(-1698045909)
 				.method8160(1668702217)) {
-		    Class96.method1818(-799406751 * Class166.anInt1836, i_410_,
+		    Class96.method1818(-799406751 * TextureMetrics.anInt1836, i_410_,
 				       i_408_,
 				       new Class525_Sub13(i_411_, i_412_),
 				       -2073825314);
 		    if (bool)
-			Class685.method11253(Class166.anInt1836 * -799406751,
+			Class685.method11253(TextureMetrics.anInt1836 * -799406751,
 					     i_409_, i_407_, 1799884720);
 		}
 	    }
@@ -8642,7 +8641,7 @@ public final class client extends Class503
 							    * (class259
 							       .anInt2588))));
 		    if (class525_sub33 != null)
-			Class180.method3121((class525_sub33.anInt10745
+			Textures.method3121((class525_sub33.anInt10745
 					     * 922288809),
 					    i, (byte) -19);
 		}
@@ -8895,7 +8894,7 @@ public final class client extends Class503
     }
     
     public static void method17620() {
-	Class42 class42 = Class182.method3594("2", aClass668_11090.aString8579,
+	Class42 class42 = Class182.method3594("2", gametype.aString8579,
 					      true, -1257116306);
 	Class309.aClass144_Sub1_3465.method14631(class42, 2039265702);
     }
@@ -9467,7 +9466,7 @@ public final class client extends Class503
 			Class77.method1564(-1432296264);
 			Class231.method4391(false, -580894087);
 			Class184.method3614(Class501.aClass182_5564,
-					    Class166.aClass180_1835, (byte) 0);
+					    TextureMetrics.aClass180_1835, (byte) 0);
 			anInt11173 += 948502557;
 			if (0 != 224735789 * anInt11208) {
 			    anInt11139 += 1295243580;
@@ -10564,7 +10563,7 @@ public final class client extends Class503
 	Class653.anIterator8394 = aList11395.iterator();
 	while (Class653.anIterator8394.hasNext()) {
 	    int i = ((Integer) Class653.anIterator8394.next()).intValue();
-	    if (Class462.aClass458_5095.method7506(i, 534204864))
+	    if (Class462.idx_8.method7506(i, 534204864))
 		Class653.anIterator8394.remove();
 	}
     }
@@ -10838,7 +10837,7 @@ public final class client extends Class503
 	    anInt11260 = 2101694433;
 	    aClass10_11261 = new Class10(8);
 	    Class188.method3687(-1784428944);
-	    anInt11260 = 1931260315 * Class138.aClass631_1641.anInt8177;
+	    anInt11260 = 1931260315 * HashTable.aClass631_1641.anInt8177;
 	    if (anInt11260 * -750203937 != -1) {
 		Class198_Sub14.method15652(false, -1073490402);
 		Class83.method1604(-1887130483);
@@ -11576,7 +11575,7 @@ public final class client extends Class503
 	Class653.anIterator8394 = aList11395.iterator();
 	while (Class653.anIterator8394.hasNext()) {
 	    int i_593_ = ((Integer) Class653.anIterator8394.next()).intValue();
-	    if (Class462.aClass458_5095.method7506(i_593_, -2027418900))
+	    if (Class462.idx_8.method7506(i_593_, -2027418900))
 		Class653.anIterator8394.remove();
 	}
     }
@@ -11601,7 +11600,7 @@ public final class client extends Class503
 		= (Class157) aClass200_11113.method3785((long) i_601_);
 	    if (null == class157) {
 		Class173[] class173s
-		    = Class187.method3674(Class462.aClass458_5095, i_601_, 0);
+		    = Class187.method3674(Class462.idx_8, i_601_, 0);
 		if (null == class173s)
 		    return;
 		class157
@@ -14071,7 +14070,7 @@ public final class client extends Class503
 	    Class649.method10708(class259, (byte) 0);
 	Class320.method5714(i, (byte) 93);
 	if (!bool_794_ && -1 != -750203937 * anInt11260)
-	    Class180.method3121(anInt11260 * -750203937, 1, (byte) 46);
+	    Textures.method3121(anInt11260 * -750203937, 1, (byte) 46);
 	Class21 class21 = new Class21(aClass10_11261);
 	for (Class525_Sub33 class525_sub33_796_
 		 = (Class525_Sub33) class21.method812(-1336281359);
@@ -18101,7 +18100,7 @@ public final class client extends Class503
 		Class335.method5858((9 == anInt11075 * 1777895575
 				     || 8 == 1777895575 * anInt11075
 				     || (-750203937 * anInt11260
-					 != 1089481059 * (Class138
+					 != 1089481059 * (HashTable
 							  .aClass631_1641
 							  .anInt8176))),
 				    (byte) -59);
@@ -18109,11 +18108,11 @@ public final class client extends Class503
 	    }
 	    if (16 == i) {
 		boolean bool;
-		if (-1 == -1150509307 * Class138.aClass631_1641.anInt8177)
+		if (-1 == -1150509307 * HashTable.aClass631_1641.anInt8177)
 		    bool = (14 == 1777895575 * anInt11075
 			    || 1777895575 * anInt11075 == 12);
 		else
-		    bool = (Class138.aClass631_1641.anInt8177 * -1150509307
+		    bool = (HashTable.aClass631_1641.anInt8177 * -1150509307
 			    != anInt11260 * -750203937);
 		Class386.method6446(bool, -1792723034);
 	    }
@@ -18166,7 +18165,7 @@ public final class client extends Class503
 	    anInt11260 = 2101694433;
 	    aClass10_11261 = new Class10(8);
 	    Class188.method3687(-1949725297);
-	    anInt11260 = Class138.aClass631_1641.anInt8176 * 1366758141;
+	    anInt11260 = HashTable.aClass631_1641.anInt8176 * 1366758141;
 	    if (anInt11260 * -750203937 != -1) {
 		Class198_Sub14.method15652(false, 445327105);
 		Class83.method1604(-1906833733);
@@ -18961,7 +18960,7 @@ public final class client extends Class503
 		}
 		if (!bool)
 		    i_1063_
-			-= Class138.aClass631_1641.anInt8178 * 626152931 + 2;
+			-= HashTable.aClass631_1641.anInt8178 * 626152931 + 2;
 		if (!class656_sub1_sub3_sub1.aBool11966) {
 		    if (null == class299) {
 			Class656_Sub1_Sub3_Sub1_Sub1 class656_sub1_sub3_sub1_sub1
@@ -18985,7 +18984,7 @@ public final class client extends Class503
 				if (null == class157) {
 				    Class173[] class173s
 					= (Class187.method3674
-					   (Class462.aClass458_5095, i_1078_,
+					   (Class462.idx_8, i_1078_,
 					    0));
 				    if (class173s == null)
 					continue;
@@ -19036,7 +19035,7 @@ public final class client extends Class503
 				    if (class157 == null) {
 					Class173[] class173s
 					    = (Class187.method3674
-					       (Class462.aClass458_5095,
+					       (Class462.idx_8,
 						is_1079_[i_1081_], 0));
 					if (class173s == null)
 					    continue;
@@ -19132,7 +19131,7 @@ public final class client extends Class503
 		}
 		int i_1088_ = 0;
 		for (/**/;
-		     i_1088_ < -379729 * Class138.aClass631_1641.anInt8166;
+		     i_1088_ < -379729 * HashTable.aClass631_1641.anInt8166;
 		     i_1088_++) {
 		    int i_1089_
 			= class656_sub1_sub3_sub1.anIntArray11974[i_1088_];
@@ -19192,10 +19191,10 @@ public final class client extends Class503
 						i_1094_, false, (byte) -41);
 			    if (aFloatArray11375[0] > -1.0F) {
 				aFloatArray11375[0]
-				    += (float) (Class138.aClass631_1641
+				    += (float) (HashTable.aClass631_1641
 						.anIntArray8167[i_1088_]);
 				aFloatArray11375[1]
-				    += (float) (Class138.aClass631_1641
+				    += (float) (HashTable.aClass631_1641
 						.anIntArray8168[i_1088_]);
 				Object object = null;
 				Object object_1095_ = null;
@@ -20207,7 +20206,7 @@ public final class client extends Class503
 	Class85 class85 = (Class85) aClass200_11206.method3785((long) i);
 	if (null == class85) {
 	    class85
-		= new Class85(Class555.aClass458_7460,
+		= new Class85(Class555.idx_49,
 			      Class525_Sub7_Sub3.method18214(i, -1443336058),
 			      Class203.method3858(i, -1576868026));
 	    aClass200_11206.method3788(class85, (long) i);
@@ -20801,7 +20800,7 @@ public final class client extends Class503
 	    String string = class525_sub38_sub2.readString((byte) -40);
 	    if (aClass507_11137.method8346(-1698045909)
 		!= Class499.aClass499_5551)
-		Class196.method3744(-799406751 * Class166.anInt1836, i_1293_,
+		Class196.method3744(-799406751 * TextureMetrics.anInt1836, i_1293_,
 				    i_1294_, i_1296_, i_1295_, i_1297_, string,
 				    -691010033);
 	} else if (Class406.aClass406_4166 == class406) {
@@ -20815,7 +20814,7 @@ public final class client extends Class503
 	    int i_1302_ = i_1301_ + -1227002079 * class600.anInt7858;
 	    Class525_Sub23 class525_sub23
 		= ((Class525_Sub23)
-		   aClass10_11246.method684((long) ((Class166.anInt1836
+		   aClass10_11246.method684((long) ((TextureMetrics.anInt1836
 						     * -799406751) << 28
 						    | i_1300_ << 14
 						    | i_1302_)));
@@ -20837,7 +20836,7 @@ public final class client extends Class503
 		if (i_1301_ >= 0 && i_1299_ >= 0
 		    && i_1301_ < aClass507_11137.method8412(1960747189)
 		    && i_1299_ < aClass507_11137.method8352((byte) -88))
-		    Class685.method11253(Class166.anInt1836 * -799406751,
+		    Class685.method11253(TextureMetrics.anInt1836 * -799406751,
 					 i_1301_, i_1299_, 2101004006);
 	    }
 	} else if (Class406.aClass406_4154 == class406) {
@@ -20853,7 +20852,7 @@ public final class client extends Class503
 	    int i_1310_ = -727902931 * Class236.anInt2391 + (i_1308_ & 0x7);
 	    if (aClass507_11137.method8346(-1698045909)
 		!= Class499.aClass499_5551)
-		Class590.method9793(-799406751 * Class166.anInt1836, i_1309_,
+		Class590.method9793(-799406751 * TextureMetrics.anInt1836, i_1309_,
 				    i_1310_, i_1306_, i_1304_, i_1305_, i,
 				    i_1307_, 1252297869);
 	} else if (Class406.aClass406_4156 == class406) {
@@ -20870,7 +20869,7 @@ public final class client extends Class503
 		|| (i_1315_ >= 0 && i_1316_ >= 0
 		    && i_1315_ < aClass507_11137.method8412(525116217)
 		    && i_1316_ < aClass507_11137.method8352((byte) -94)))
-		Class712.method14454(-799406751 * Class166.anInt1836, i_1315_,
+		Class712.method14454(-799406751 * TextureMetrics.anInt1836, i_1315_,
 				     i_1316_, i_1313_, i_1317_, i_1311_,
 				     i_1312_, -1737581096);
 	} else if (Class406.aClass406_4164 == class406) {
@@ -20886,7 +20885,7 @@ public final class client extends Class503
 	    if (aClass10_11246 != null) {
 		Class525_Sub23 class525_sub23
 		    = ((Class525_Sub23)
-		       aClass10_11246.method684((long) ((Class166.anInt1836
+		       aClass10_11246.method684((long) ((TextureMetrics.anInt1836
 							 * -799406751) << 28
 							| i_1319_ << 14
 							| i_1321_)));
@@ -20904,7 +20903,7 @@ public final class client extends Class503
 				== i_1323_)) {
 			    class525_sub13.method8755(-1933461091);
 			    class525_sub13.anInt10529 = 1399909441 * i_1324_;
-			    Class96.method1818(-799406751 * Class166.anInt1836,
+			    Class96.method1818(-799406751 * TextureMetrics.anInt1836,
 					       i_1321_, i_1319_,
 					       class525_sub13, 342471315);
 			    break;
@@ -20913,7 +20912,7 @@ public final class client extends Class503
 		    if (i_1320_ >= 0 && i_1318_ >= 0
 			&& i_1320_ < aClass507_11137.method8412(1499591806)
 			&& i_1318_ < aClass507_11137.method8352((byte) -47))
-			Class685.method11253(-799406751 * Class166.anInt1836,
+			Class685.method11253(-799406751 * TextureMetrics.anInt1836,
 					     i_1320_, i_1318_, 2019559072);
 		}
 	    }
@@ -20933,11 +20932,11 @@ public final class client extends Class503
 		   && i_1326_ < aClass507_11137.method8352((byte) -52));
 	    if (bool || aClass507_11137.method8346(-1698045909)
 			    .method8160(1886396299)) {
-		Class96.method1818(-799406751 * Class166.anInt1836, i_1329_,
+		Class96.method1818(-799406751 * TextureMetrics.anInt1836, i_1329_,
 				   i_1327_, new Class525_Sub13(i, i_1330_),
 				   -2030929846);
 		if (bool)
-		    Class685.method11253(Class166.anInt1836 * -799406751,
+		    Class685.method11253(TextureMetrics.anInt1836 * -799406751,
 					 i_1328_, i_1326_, 1790866742);
 	    }
 	} else if (Class406.aClass406_4160 == class406) {
@@ -20970,7 +20969,7 @@ public final class client extends Class503
 			Class446 class446
 			    = new Class446((float) (i_1331_ << 9), 0.0F,
 					   (float) (i_1332_ << 9));
-			int i_1341_ = -799406751 * Class166.anInt1836;
+			int i_1341_ = -799406751 * TextureMetrics.anInt1836;
 			Class40_Sub20.aClass217_11050.method4047
 			    (Class204.aClass204_2226, i_1333_, i_1336_,
 			     i_1338_,
@@ -21012,7 +21011,7 @@ public final class client extends Class503
 			Class446 class446
 			    = new Class446((float) (i_1342_ << 9), 0.0F,
 					   (float) (i_1343_ << 9));
-			int i_1352_ = -799406751 * Class166.anInt1836;
+			int i_1352_ = -799406751 * TextureMetrics.anInt1836;
 			int i_1353_ = (bool
 				       ? Class208.aClass208_2252
 					     .method3907((short) -3582)
@@ -21056,7 +21055,7 @@ public final class client extends Class503
 		    } else {
 			int i_1361_ = 256 + 512 * i_1354_;
 			int i_1362_ = i_1355_ * 512 + 256;
-			int i_1363_ = -799406751 * Class166.anInt1836;
+			int i_1363_ = -799406751 * TextureMetrics.anInt1836;
 			if (i_1363_ < 3
 			    && aClass507_11137.method8360(1702668863)
 				   .method7774(i_1354_, i_1355_, 1863024764))
@@ -21064,10 +21063,10 @@ public final class client extends Class503
 			Class656_Sub1_Sub3_Sub4 class656_sub1_sub3_sub4
 			    = (new Class656_Sub1_Sub3_Sub4
 			       (aClass507_11137.method8358((byte) 53), i_1356_,
-				i_1358_, -799406751 * Class166.anInt1836,
+				i_1358_, -799406751 * TextureMetrics.anInt1836,
 				i_1363_, i_1361_,
 				Class335.method5855(i_1361_, i_1362_,
-						    (Class166.anInt1836
+						    (TextureMetrics.anInt1836
 						     * -799406751),
 						    2020563229) - i_1357_,
 				i_1362_, i_1354_, i_1354_, i_1355_, i_1355_,
@@ -21090,7 +21089,7 @@ public final class client extends Class503
 		|| (i_1364_ >= 0 && i_1365_ >= 0
 		    && i_1364_ < aClass507_11137.method8412(2117134407)
 		    && i_1365_ < aClass507_11137.method8352((byte) -86)))
-		Class712.method14454(-799406751 * Class166.anInt1836, i_1364_,
+		Class712.method14454(-799406751 * TextureMetrics.anInt1836, i_1364_,
 				     i_1365_, i_1369_, -1, i_1367_, i_1368_,
 				     1582295381);
 	} else if (Class406.aClass406_4153 == class406) {
@@ -21105,7 +21104,7 @@ public final class client extends Class503
 	    if (Class608.aClass608_7997.anInt7995 * -1214990409 == i_1374_)
 		i_1374_ = Class608.aClass608_7996.anInt7995 * -1214990409;
 	    if (1 == (i_1376_ & 0x1))
-		Class696_Sub18.method17141(-799406751 * Class166.anInt1836,
+		Class696_Sub18.method17141(-799406751 * TextureMetrics.anInt1836,
 					   i_1370_, i_1371_, i_1375_, i_1372_,
 					   i_1374_, null, -1496931638);
 	    else {
@@ -21135,7 +21134,7 @@ public final class client extends Class503
 			    = (short) class525_sub38_sub2
 					  .readUnsignedShort((byte) 30);
 		}
-		Class696_Sub18.method17141(-799406751 * Class166.anInt1836,
+		Class696_Sub18.method17141(-799406751 * TextureMetrics.anInt1836,
 					   i_1370_, i_1371_, i_1375_, i_1372_,
 					   i_1374_,
 					   new Class604((-903346621070464269L
@@ -21185,15 +21184,15 @@ public final class client extends Class503
 		    Class656_Sub1_Sub3_Sub5 class656_sub1_sub3_sub5
 			= (new Class656_Sub1_Sub3_Sub5
 			   (aClass507_11137.method8358((byte) 121), i_1390_,
-			    Class166.anInt1836 * -799406751,
-			    -799406751 * Class166.anInt1836, i_1385_, i_1386_,
+			    TextureMetrics.anInt1836 * -799406751,
+			    -799406751 * TextureMetrics.anInt1836, i_1385_, i_1386_,
 			    i_1391_, i_1393_ + anInt11083,
 			    anInt11083 + i_1394_, i_1395_, i_1396_, 0, i_1389_,
 			    i_1392_, bool, -1, i_1397_));
 		    class656_sub1_sub3_sub5.method18857
 			(i_1387_, i_1388_,
 			 Class335.method5855(i_1387_, i_1388_,
-					     -799406751 * Class166.anInt1836,
+					     -799406751 * TextureMetrics.anInt1836,
 					     2020563229) - i_1392_,
 			 i_1393_ + anInt11083, (short) 15810);
 		    aClass709_11247.method14345
@@ -21219,12 +21218,12 @@ public final class client extends Class503
 		       && i_1399_ < aClass507_11137.method8352((byte) -27));
 		if (bool || aClass507_11137.method8346(-1698045909)
 				.method8160(1659268381)) {
-		    Class96.method1818(-799406751 * Class166.anInt1836,
+		    Class96.method1818(-799406751 * TextureMetrics.anInt1836,
 				       i_1402_, i_1400_,
 				       new Class525_Sub13(i_1403_, i_1404_),
 				       1030151064);
 		    if (bool)
-			Class685.method11253(Class166.anInt1836 * -799406751,
+			Class685.method11253(TextureMetrics.anInt1836 * -799406751,
 					     i_1401_, i_1399_, 2048464114);
 		}
 	    }
@@ -21716,7 +21715,7 @@ public final class client extends Class503
 	Class7.aClass404_53.method6581(anInterface50_11252, (byte) 53);
 	Class7.aClass404_53.method6582(1279822465);
 	Class495.method8130(Class501.aClass182_5564, 534531211);
-	Class62.method1376(Class501.aClass182_5564, Class462.aClass458_5095,
+	Class62.method1376(Class501.aClass182_5564, Class462.idx_8,
 			   (short) 22276);
 	Class591.method9795(562020644);
 	Class83.method1604(-1860168344);
@@ -24542,7 +24541,7 @@ public final class client extends Class503
 		}
 		if (!bool)
 		    i_1710_
-			-= Class138.aClass631_1641.anInt8178 * 626152931 + 2;
+			-= HashTable.aClass631_1641.anInt8178 * 626152931 + 2;
 		if (!class656_sub1_sub3_sub1.aBool11966) {
 		    if (null == class299) {
 			Class656_Sub1_Sub3_Sub1_Sub1 class656_sub1_sub3_sub1_sub1
@@ -24566,7 +24565,7 @@ public final class client extends Class503
 				if (null == class157) {
 				    Class173[] class173s
 					= (Class187.method3674
-					   (Class462.aClass458_5095, i_1725_,
+					   (Class462.idx_8, i_1725_,
 					    0));
 				    if (class173s == null)
 					continue;
@@ -24617,7 +24616,7 @@ public final class client extends Class503
 				    if (class157 == null) {
 					Class173[] class173s
 					    = (Class187.method3674
-					       (Class462.aClass458_5095,
+					       (Class462.idx_8,
 						is_1726_[i_1728_], 0));
 					if (class173s == null)
 					    continue;
@@ -24713,7 +24712,7 @@ public final class client extends Class503
 		}
 		int i_1735_ = 0;
 		for (/**/;
-		     i_1735_ < -379729 * Class138.aClass631_1641.anInt8166;
+		     i_1735_ < -379729 * HashTable.aClass631_1641.anInt8166;
 		     i_1735_++) {
 		    int i_1736_
 			= class656_sub1_sub3_sub1.anIntArray11974[i_1735_];
@@ -24773,10 +24772,10 @@ public final class client extends Class503
 						i_1741_, false, (byte) -121);
 			    if (aFloatArray11375[0] > -1.0F) {
 				aFloatArray11375[0]
-				    += (float) (Class138.aClass631_1641
+				    += (float) (HashTable.aClass631_1641
 						.anIntArray8167[i_1735_]);
 				aFloatArray11375[1]
-				    += (float) (Class138.aClass631_1641
+				    += (float) (HashTable.aClass631_1641
 						.anIntArray8168[i_1735_]);
 				Object object = null;
 				Object object_1742_ = null;
@@ -25722,7 +25721,7 @@ public final class client extends Class503
 	Class7.aClass404_53.method6581(anInterface50_11252, (byte) 88);
 	Class7.aClass404_53.method6582(1279822465);
 	Class495.method8130(Class501.aClass182_5564, 534531211);
-	Class62.method1376(Class501.aClass182_5564, Class462.aClass458_5095,
+	Class62.method1376(Class501.aClass182_5564, Class462.idx_8,
 			   (short) 25097);
 	Class591.method9795(1710375879);
 	Class83.method1604(-1872819884);
@@ -26463,7 +26462,7 @@ public final class client extends Class503
     }
     
     public static void method17860() {
-	Class42 class42 = Class182.method3594("2", aClass668_11090.aString8579,
+	Class42 class42 = Class182.method3594("2", gametype.aString8579,
 					      true, 1450410280);
 	Class309.aClass144_Sub1_3465.method14631(class42, 565371608);
     }
@@ -26528,8 +26527,8 @@ public final class client extends Class503
 	Class198_Sub17.aClass470_9982
 	    = new Class470(Class15.aClass1_172.aString10,
 			   1724282593 * Class15.aClass1_172.anInt12,
-			   -1420999111 * aClass668_11090.anInt8584);
-	if (aClass668_11090 == Class668.aClass668_8576)
+			   -1420999111 * gametype.anInt8584);
+	if (gametype == Class668.aClass668_8576)
 	    aBool11093 = false;
 	ObjectDefinitions.aShortArray7867 = NPCDefinitions.aShortArray3353
 	    = ItemDefinitions.aShortArray96 = new short[256];
@@ -26545,7 +26544,7 @@ public final class client extends Class503
 	Class509.aClass569_5662
 	    = Class29.method936(Class532.aCanvas7169, true, (byte) -123);
 	if (null != aClass37_5589)
-	    Class312_Sub1.aClass552_10065
+	    BillBoardConfig.aClass552_10065
 		= new Class552(255, aClass37_5589, aClass37_5587, 2000000);
 	Class453_Sub3.aClass309_Sub1_10316 = new Class309_Sub1(aClass28_11341);
 	try {
@@ -26639,7 +26638,7 @@ public final class client extends Class503
 		Class335.method5858((9 == anInt11075 * 1777895575
 				     || 8 == 1777895575 * anInt11075
 				     || (-750203937 * anInt11260
-					 != 1089481059 * (Class138
+					 != 1089481059 * (HashTable
 							  .aClass631_1641
 							  .anInt8176))),
 				    (byte) -119);
@@ -26647,11 +26646,11 @@ public final class client extends Class503
 	    }
 	    if (16 == i) {
 		boolean bool;
-		if (-1 == -1150509307 * Class138.aClass631_1641.anInt8177)
+		if (-1 == -1150509307 * HashTable.aClass631_1641.anInt8177)
 		    bool = (14 == 1777895575 * anInt11075
 			    || 1777895575 * anInt11075 == 12);
 		else
-		    bool = (Class138.aClass631_1641.anInt8177 * -1150509307
+		    bool = (HashTable.aClass631_1641.anInt8177 * -1150509307
 			    != anInt11260 * -750203937);
 		Class386.method6446(bool, -1792723034);
 	    }
@@ -27041,7 +27040,7 @@ public final class client extends Class503
 	    Class455_Sub1.method15987(922288809 * class525_sub33.anInt10745,
 				      is, 670355642);
 	if (!bool && -1 != anInt11260 * -750203937)
-	    Class180.method3121(-750203937 * anInt11260, 1, (byte) -71);
+	    Textures.method3121(-750203937 * anInt11260, 1, (byte) -71);
 	return class525_sub33;
     }
     
@@ -27115,7 +27114,7 @@ public final class client extends Class503
 		= (Class157) aClass200_11113.method3785((long) i_1953_);
 	    if (null == class157) {
 		Class173[] class173s
-		    = Class187.method3674(Class462.aClass458_5095, i_1953_, 0);
+		    = Class187.method3674(Class462.idx_8, i_1953_, 0);
 		if (null == class173s)
 		    return;
 		class157
@@ -27165,7 +27164,7 @@ public final class client extends Class503
     }
     
     public static int method17888(int i, int i_1956_) {
-	if (1728284569 * Class138.aClass631_1641.anInt8175 == -1)
+	if (1728284569 * HashTable.aClass631_1641.anInt8175 == -1)
 	    return 1;
 	if (i != Class198_Sub13.aClass525_Sub30_9973.aClass696_Sub20_10708
 		     .method17160(117388154)) {
@@ -27188,9 +27187,9 @@ public final class client extends Class503
 		 true, Class501.aClass182_5564, Class29.aClass175_293,
 		 Class500.aClass7_5560, 918687152);
 	    ModelDecoder class186
-		= ModelDecoder.method3644(WorldTile.aClass458_705,
+		= ModelDecoder.method3644(WorldTile.idx_7,
 				      (1728284569
-				       * Class138.aClass631_1641.anInt8175),
+				       * HashTable.aClass631_1641.anInt8175),
 				      0);
 	    long l = Class251.method4508((byte) 8);
 	    Class501.aClass182_5564.method3480();
@@ -27307,8 +27306,8 @@ public final class client extends Class503
 	Class656_Sub1_Sub3_Sub5 class656_sub1_sub3_sub5
 	    = new Class656_Sub1_Sub3_Sub5(aClass507_11137
 					      .method8358((byte) 93),
-					  i, -799406751 * Class166.anInt1836,
-					  -799406751 * Class166.anInt1836,
+					  i, -799406751 * TextureMetrics.anInt1836,
+					  -799406751 * TextureMetrics.anInt1836,
 					  i_1968_, i_1969_, i_1966_,
 					  anInt11083 + i_1972_,
 					  anInt11083 + i_1973_, i_1974_,
@@ -27317,7 +27316,7 @@ public final class client extends Class503
 	class656_sub1_sub3_sub5.method18857
 	    (i_1970_, i_1971_,
 	     (Class335.method5855(i_1970_, i_1971_,
-				  Class166.anInt1836 * -799406751, 2020563229)
+				  TextureMetrics.anInt1836 * -799406751, 2020563229)
 	      - i_1967_),
 	     i_1972_ + anInt11083, (short) 14213);
 	aClass709_11247.method14345
@@ -27473,8 +27472,8 @@ public final class client extends Class503
 	Class198_Sub17.aClass470_9982
 	    = new Class470(Class15.aClass1_172.aString10,
 			   1724282593 * Class15.aClass1_172.anInt12,
-			   -1420999111 * aClass668_11090.anInt8584);
-	if (aClass668_11090 == Class668.aClass668_8576)
+			   -1420999111 * gametype.anInt8584);
+	if (gametype == Class668.aClass668_8576)
 	    aBool11093 = false;
 	ObjectDefinitions.aShortArray7867 = NPCDefinitions.aShortArray3353
 	    = ItemDefinitions.aShortArray96 = new short[256];
@@ -27490,7 +27489,7 @@ public final class client extends Class503
 	Class509.aClass569_5662
 	    = Class29.method936(Class532.aCanvas7169, true, (byte) -110);
 	if (null != aClass37_5589)
-	    Class312_Sub1.aClass552_10065
+	    BillBoardConfig.aClass552_10065
 		= new Class552(255, aClass37_5589, aClass37_5587, 2000000);
 	Class453_Sub3.aClass309_Sub1_10316 = new Class309_Sub1(aClass28_11341);
 	try {
@@ -28366,8 +28365,8 @@ public final class client extends Class503
 	Class198_Sub17.aClass470_9982
 	    = new Class470(Class15.aClass1_172.aString10,
 			   1724282593 * Class15.aClass1_172.anInt12,
-			   -1420999111 * aClass668_11090.anInt8584);
-	if (aClass668_11090 == Class668.aClass668_8576)
+			   -1420999111 * gametype.anInt8584);
+	if (gametype == Class668.aClass668_8576)
 	    aBool11093 = false;
 	ObjectDefinitions.aShortArray7867 = NPCDefinitions.aShortArray3353
 	    = ItemDefinitions.aShortArray96 = new short[256];
@@ -28383,7 +28382,7 @@ public final class client extends Class503
 	Class509.aClass569_5662
 	    = Class29.method936(Class532.aCanvas7169, true, (byte) -2);
 	if (null != aClass37_5589)
-	    Class312_Sub1.aClass552_10065
+	    BillBoardConfig.aClass552_10065
 		= new Class552(255, aClass37_5589, aClass37_5587, 2000000);
 	Class453_Sub3.aClass309_Sub1_10316 = new Class309_Sub1(aClass28_11341);
 	try {
@@ -28555,7 +28554,7 @@ public final class client extends Class503
 	    Class455_Sub1.method15987(922288809 * class525_sub33.anInt10745,
 				      is, 670355642);
 	if (!bool && -1 != anInt11260 * -750203937)
-	    Class180.method3121(-750203937 * anInt11260, 1, (byte) 29);
+	    Textures.method3121(-750203937 * anInt11260, 1, (byte) 29);
 	return class525_sub33;
     }
     
@@ -28899,7 +28898,7 @@ public final class client extends Class503
 	Class85 class85 = (Class85) aClass200_11206.method3785((long) i);
 	if (null == class85) {
 	    class85
-		= new Class85(Class555.aClass458_7460,
+		= new Class85(Class555.idx_49,
 			      Class525_Sub7_Sub3.method18214(i, -1443336058),
 			      Class203.method3858(i, -1701940109));
 	    aClass200_11206.method3788(class85, (long) i);
@@ -28911,7 +28910,7 @@ public final class client extends Class503
 	Class85 class85 = (Class85) aClass200_11206.method3785((long) i);
 	if (null == class85) {
 	    class85
-		= new Class85(Class555.aClass458_7460,
+		= new Class85(Class555.idx_49,
 			      Class525_Sub7_Sub3.method18214(i, -1443336058),
 			      Class203.method3858(i, 1009536791));
 	    aClass200_11206.method3788(class85, (long) i);
@@ -28923,7 +28922,7 @@ public final class client extends Class503
 	Class85 class85 = (Class85) aClass200_11206.method3785((long) i);
 	if (null == class85) {
 	    class85
-		= new Class85(Class555.aClass458_7460,
+		= new Class85(Class555.idx_49,
 			      Class525_Sub7_Sub3.method18214(i, -1443336058),
 			      Class203.method3858(i, -1477185103));
 	    aClass200_11206.method3788(class85, (long) i);
@@ -29004,7 +29003,7 @@ public final class client extends Class503
 	    else if (Class522_Sub1.method16054(1777895575 * anInt11075,
 					       -1406178426)) {
 		if (aClass507_11137.method8404(1383793384)
-		    == BillBoardDefinitions.aClass504_5602) {
+		    == Class504.aClass504_5602) {
 		    int i = aClass507_11137.method8459(760100279) / 2;
 		    Class666.method11016
 			(new StringBuilder().append
@@ -29019,7 +29018,7 @@ public final class client extends Class503
 			 true, Class501.aClass182_5564, Class29.aClass175_293,
 			 Class500.aClass7_5560, 1362070763);
 		} else if (aClass507_11137.method8404(10390192)
-			   == BillBoardDefinitions.aClass504_5603) {
+			   == Class504.aClass504_5603) {
 		    int i = 50 + aClass507_11137.method8349(-1723474135) / 2;
 		    Class666.method11016
 			(new StringBuilder().append
@@ -29213,7 +29212,7 @@ public final class client extends Class503
 	    string_2064_ = new StringBuilder().append("/p=").append
 			       (aString11055).toString();
 	String string_2065_
-	    = new StringBuilder().append(aClass668_11090.aString8579).append
+	    = new StringBuilder().append(gametype.aString8579).append
 		  (".com").toString();
 	return new StringBuilder().append(string_2063_).append(string).append
 		   (".").append
@@ -29284,11 +29283,11 @@ public final class client extends Class503
     }
     
     public static int method17949() {
-	return Class138.aClass631_1641.aBool8192 ? 5 : 1;
+	return HashTable.aClass631_1641.aBool8192 ? 5 : 1;
     }
     
     public static int method17950() {
-	return Class138.aClass631_1641.aBool8192 ? 5 : 1;
+	return HashTable.aClass631_1641.aBool8192 ? 5 : 1;
     }
     
     final void method17951() {
@@ -29603,8 +29602,8 @@ public final class client extends Class503
 	Class656_Sub1_Sub3_Sub5 class656_sub1_sub3_sub5
 	    = new Class656_Sub1_Sub3_Sub5(aClass507_11137
 					      .method8358((byte) 48),
-					  i, -799406751 * Class166.anInt1836,
-					  -799406751 * Class166.anInt1836,
+					  i, -799406751 * TextureMetrics.anInt1836,
+					  -799406751 * TextureMetrics.anInt1836,
 					  i_2097_, i_2098_, i_2095_,
 					  anInt11083 + i_2101_,
 					  anInt11083 + i_2102_, i_2103_,
@@ -29613,7 +29612,7 @@ public final class client extends Class503
 	class656_sub1_sub3_sub5.method18857
 	    (i_2099_, i_2100_,
 	     (Class335.method5855(i_2099_, i_2100_,
-				  Class166.anInt1836 * -799406751, 2020563229)
+				  TextureMetrics.anInt1836 * -799406751, 2020563229)
 	      - i_2096_),
 	     i_2101_ + anInt11083, (short) -31656);
 	aClass709_11247.method14345
@@ -29658,8 +29657,8 @@ public final class client extends Class503
 	Class656_Sub1_Sub3_Sub5 class656_sub1_sub3_sub5
 	    = new Class656_Sub1_Sub3_Sub5(aClass507_11137
 					      .method8358((byte) 53),
-					  i, -799406751 * Class166.anInt1836,
-					  -799406751 * Class166.anInt1836,
+					  i, -799406751 * TextureMetrics.anInt1836,
+					  -799406751 * TextureMetrics.anInt1836,
 					  i_2113_, i_2114_, i_2111_,
 					  anInt11083 + i_2117_,
 					  anInt11083 + i_2118_, i_2119_,
@@ -29668,7 +29667,7 @@ public final class client extends Class503
 	class656_sub1_sub3_sub5.method18857
 	    (i_2115_, i_2116_,
 	     (Class335.method5855(i_2115_, i_2116_,
-				  Class166.anInt1836 * -799406751, 2020563229)
+				  TextureMetrics.anInt1836 * -799406751, 2020563229)
 	      - i_2112_),
 	     i_2117_ + anInt11083, (short) -16551);
 	aClass709_11247.method14345
@@ -29707,7 +29706,7 @@ public final class client extends Class503
 	Class653.anIterator8394 = aList11395.iterator();
 	while (Class653.anIterator8394.hasNext()) {
 	    int i = ((Integer) Class653.anIterator8394.next()).intValue();
-	    if (Class462.aClass458_5095.method7506(i, -1569907347))
+	    if (Class462.idx_8.method7506(i, -1569907347))
 		Class653.anIterator8394.remove();
 	}
     }
@@ -29907,11 +29906,11 @@ public final class client extends Class503
 			Class441.aString4863 = string_2129_;
 			break;
 		    case 32:
-			aClass668_11090
+			gametype
 			    = Class651.method10744(Integer
 						       .parseInt(string_2129_),
 						   -531415176);
-			if (Class668.aClass668_8576 == aClass668_11090)
+			if (Class668.aClass668_8576 == gametype)
 			    Class454.aClass76_4951 = Class76.aClass76_828;
 			else
 			    Class454.aClass76_4951 = Class76.aClass76_825;
@@ -30100,7 +30099,7 @@ public final class client extends Class503
 					     -1167554197 * anInt11224,
 					     anInt11221 * -671272747,
 					     -603682743 * anInt11222,
-					     aClass668_11090.aString8583);
+					     gametype.aString8583);
 	    Class327.aclient3575 = this;
 	    String string_2130_ = Class221.aClass693_2336.aString8755;
 	    int i = Class221.aClass693_2336.anInt8754 * -677912137 + 32;
@@ -30110,7 +30109,7 @@ public final class client extends Class503
 				   (string).toString();
 		i = 0;
 	    }
-	    method8202(class519, aClass668_11090.aString8579, string_2130_, i,
+	    method8202(class519, gametype.aString8579, string_2130_, i,
 		       Class281.method5197(599760346), 886, 1, aBool11313,
 		       667216898);
 	}

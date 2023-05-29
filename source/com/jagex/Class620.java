@@ -215,7 +215,7 @@ public class Class620
 	    string_16_ = new StringBuilder().append("/p=").append
 			     (client.aString11055).toString();
 	String string_17_ = new StringBuilder().append
-				(client.aClass668_11090.aString8579).append
+				(client.gametype.aString8579).append
 				(".com").toString();
 	return new StringBuilder().append(string_15_).append(string).append
 		   (".").append

@@ -409,7 +409,7 @@ public final class JS5
 	return method7558(i_65_, (byte) 92);
     }
     
-    public int method7487(int i, int i_66_) {
+    public int getFileCountForArchive(int i, int i_66_) {
 	if (!archiveExists(i, -1736056378))
 	    return 0;
 	return aClass461_5053.childSizes[i];

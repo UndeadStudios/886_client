@@ -8,7 +8,7 @@ public class Class263 implements Interface5
     static int anInt2798;
     public static Class402 aClass402_2799;
     static Class7 aClass7_2800;
-    public static JS5 aClass458_2801;
+    public static JS5 idx_40;
     
     public Interface12 method43(int i, Interface13 interface13) {
 	return new Class269(i, interface13);

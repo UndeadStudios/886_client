@@ -7,7 +7,7 @@ import java.awt.Canvas;
 public class Class118
 {
     public static Class182 method2091
-	(Canvas canvas, Class180 class180, Interface24 interface24,
+	(Canvas canvas, Textures class180, Interface24 interface24,
 	 Interface47 interface47, Interface48 interface48,
 	 Interface49 interface49, int i, int i_0_) {
 	return new Class182_Sub2(canvas, class180, interface24, interface47,
@@ -15,7 +15,7 @@ public class Class118
     }
     
     public static Class182 method2092
-	(Canvas canvas, Class180 class180, Interface24 interface24,
+	(Canvas canvas, Textures class180, Interface24 interface24,
 	 Interface47 interface47, Interface48 interface48,
 	 Interface49 interface49, int i, int i_1_) {
 	return new Class182_Sub2(canvas, class180, interface24, interface47,
@@ -43,7 +43,7 @@ public class Class118
 	    if (class299.aBool3326) {
 		if (class656_sub1_sub3_sub1_sub2.anInt12260 * 550404207 != 0) {
 		    String string_2_
-			= (Class668.aClass668_8577 == client.aClass668_11090
+			= (Class668.aClass668_8577 == client.gametype
 			   ? Class53.aClass53_517
 				 .method1169(Class21.aClass666_213, 1552651121)
 			   : Class53.aClass53_515.method1169((Class21

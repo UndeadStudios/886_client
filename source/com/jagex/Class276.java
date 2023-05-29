@@ -75,7 +75,7 @@ public class Class276
     
     public static void method5113(int i) {
 	Class42 class42
-	    = Class182.method3594("2", client.aClass668_11090.aString8579,
+	    = Class182.method3594("2", client.gametype.aString8579,
 				  true, -170827186);
 	Class309.aClass144_Sub1_3465.method14631(class42, 1219578336);
     }

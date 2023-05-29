@@ -66,7 +66,7 @@ public class Class589
 		for (int i_0_ = 0; i_0_ < aStringArray7793.length; i_0_++) {
 		    if (aStringArray7793[i_0_] != null) {
 			try {
-			    i += (Class312_Sub1.aClass544_10064.method8917
+			    i += (BillBoardConfig.aClass544_10064.method8917
 				  (aStringArray7793[i_0_], false, (byte) 0));
 			} catch (Exception_Sub1 exception_sub1) {
 			    Class223.method4243(Class30.aClass30_297,
@@ -589,7 +589,7 @@ public class Class589
 		for (int i_19_ = 0; i_19_ < aStringArray7793.length; i_19_++) {
 		    if (aStringArray7793[i_19_] != null) {
 			try {
-			    i += (Class312_Sub1.aClass544_10064.method8917
+			    i += (BillBoardConfig.aClass544_10064.method8917
 				  (aStringArray7793[i_19_], false, (byte) 0));
 			} catch (Exception_Sub1 exception_sub1) {
 			    Class223.method4243(Class30.aClass30_297,
@@ -660,7 +660,7 @@ public class Class589
     public static int method9746() {
 	Class320.aTwitchEventLiveStreams3534 = null;
 	int i = Class285.aTwitchTV3143
-		    .RequestLiveStreams(client.aClass668_11090.aString8583);
+		    .RequestLiveStreams(client.gametype.aString8583);
 	return i;
     }
     
@@ -814,7 +814,7 @@ public class Class589
     
     public static int method9755(String string) {
 	return Class285.aTwitchTV3143
-		   .SetStreamTitle(string, client.aClass668_11090.aString8583);
+		   .SetStreamTitle(string, client.gametype.aString8583);
     }
     
     static boolean method9756(TwitchEvent twitchevent, long l) {
@@ -1056,7 +1056,7 @@ public class Class589
     
     public static int method9774(String string) {
 	return Class285.aTwitchTV3143
-		   .SetStreamTitle(string, client.aClass668_11090.aString8583);
+		   .SetStreamTitle(string, client.gametype.aString8583);
     }
     
     public static void method9775(boolean bool, boolean bool_45_) {
@@ -1191,7 +1191,7 @@ public class Class589
 		for (int i_65_ = 0; i_65_ < aStringArray7793.length; i_65_++) {
 		    if (aStringArray7793[i_65_] != null) {
 			try {
-			    i += (Class312_Sub1.aClass544_10064.method8917
+			    i += (BillBoardConfig.aClass544_10064.method8917
 				  (aStringArray7793[i_65_], false, (byte) 0));
 			} catch (Exception_Sub1 exception_sub1) {
 			    Class223.method4243(Class30.aClass30_297,

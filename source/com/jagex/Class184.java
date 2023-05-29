@@ -1515,7 +1515,7 @@ public class Class184
 	}
     }
     
-    static final void method3614(Class182 class182, Class180 class180,
+    static final void method3614(Class182 class182, Textures class180,
 				 byte i) {
 	if (100 != 294186987 * Class556_Sub1.anInt10625
 	    && null != Class556_Sub1.aClass525_Sub16_Sub6_7469) {
@@ -1529,7 +1529,7 @@ public class Class184
 			 i_95_ < (Class556_Sub1.aClass175ArrayArray10637
 				  [i_94_]).length;
 			 i_95_++) {
-			Class462.aClass458_5095.method7506
+			Class462.idx_8.method7506
 			    ((Class556_Sub1.aClass623_7468.anIntArrayArray8118
 			      [i_94_][i_95_]),
 			     -298497567);
@@ -1543,7 +1543,7 @@ public class Class184
 		     (Class556_Sub1.aClass525_Sub16_Sub6_7469.aString11776,
 		      723689816)) {
 		    Class556_Sub1.anInt10625
-			= (Class597.aClass458_7845.method7499
+			= (Class597.idx_41.method7499
 			   ((Class556_Sub1.aClass525_Sub16_Sub6_7469
 			     .aString11776),
 			    -483064353)) / 10 * 587448515;

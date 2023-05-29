@@ -24,7 +24,7 @@ public class Class434 implements Interface6
 	    return 100;
 	int i_0_;
 	try {
-	    i_0_ = Class312_Sub1.aClass544_10064
+	    i_0_ = BillBoardConfig.aClass544_10064
 		       .method8917(aString4826, aBool4825, (byte) 0);
 	} catch (Exception_Sub1 exception_sub1) {
 	    Class223.method4243(Class30.aClass30_297,
@@ -59,7 +59,7 @@ public class Class434 implements Interface6
 	    return 100;
 	int i;
 	try {
-	    i = Class312_Sub1.aClass544_10064.method8917(aString4826,
+	    i = BillBoardConfig.aClass544_10064.method8917(aString4826,
 							 aBool4825, (byte) 0);
 	} catch (Exception_Sub1 exception_sub1) {
 	    Class223.method4243(Class30.aClass30_297,
@@ -77,7 +77,7 @@ public class Class434 implements Interface6
 	    return 100;
 	int i;
 	try {
-	    i = Class312_Sub1.aClass544_10064.method8917(aString4826,
+	    i = BillBoardConfig.aClass544_10064.method8917(aString4826,
 							 aBool4825, (byte) 0);
 	} catch (Exception_Sub1 exception_sub1) {
 	    Class223.method4243(Class30.aClass30_297,
